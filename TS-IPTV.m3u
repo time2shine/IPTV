@@ -1,7 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="2TV.ge" tvg-logo="https://tsports.com/img/logo/tsports-1200x630px.png" group-title="Sports",Tsports HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://tsports.com/img/logo/tsports-1200x630px.png" group-title="Sports",Tsports HD
 https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://tsports.com/img/logo/tsports-1200x630px.png" group-title="Sports",Try this
+https://cdn-01.toffeelive.com/origin-03/live-origin/smil:comedy_central_hd.smil/manifest.mpd
+
+
 
 #EXTINF:-1,TSCL FTV HD
 http://20.20.20.20:8080/tscl.m3u8
