@@ -183,6 +183,9 @@ http://208.86.19.13:81/517.stream/index.m3u8
 
 
 ---------Movie---------
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movie",Thrill
+http://210.210.155.37/qwr9ew/s/s34/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KbtX8k8/2560px-USA-Network-logo-2016-svg.png" group-title="Movie", USA
 http://208.86.19.13:81/10.stream/index.m3u8
 
@@ -235,24 +238,24 @@ http://208.86.19.13:81/201.stream/index.m3u8
 
 
 ---------Entertainment---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://findlogovector.com/wp-content/uploads/2019/09/discovery-go-logo-vector.png" group-title="Entertainment", Discovery Go
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/fxcs8rX/discovery-go.png" group-title="Entertainment", Discovery Go
 http://208.86.19.13:81/31.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.pngitem.com/pimgs/m/133-1332910_cbs-new-york-cbs-new-york-logo-png.png" group-title="Entertainment", CBS New York
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KzCm6VN/cbs-new-york.png" group-title="Entertainment", CBS New York
 http://208.86.19.13:81/101.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/WWOR_NewJersey.svg/800px-WWOR_NewJersey.svg.png" group-title="Entertainment", My 9
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/pJ16Ggq/my-9.png" group-title="Entertainment", My 9
 http://208.86.19.13:81/105.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://w7.pngwing.com/pngs/920/641/png-transparent-logo-fox-broadcasting-company-fox-news-television-channel-design-television-angle-text.png" group-title="Entertainment", Fox
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/d2yRYnb/Fox.png" group-title="Entertainment", Fox
 http://208.86.19.13:81/103.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://w7.pngwing.com/pngs/920/641/png-transparent-logo-fox-broadcasting-company-fox-news-television-channel-design-television-angle-text.png" group-title="Entertainment", Fox 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/d2yRYnb/Fox.png" group-title="Entertainment", Fox 2
 http://208.86.19.13:81/106.stream/index.m3u8
 
 
 ---------Comedy---------
-#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Comedy-Central-logo.png" group-title="Comedy", Comedy Central
+#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-logo="https://i.ibb.co/fqH6z1x/Comedy-Central-logo.png" group-title="Comedy", Comedy Central
 http://208.86.19.13:81/22.stream/index.m3u8
 
 
@@ -260,14 +263,17 @@ http://208.86.19.13:81/22.stream/index.m3u8
 #EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
 http://208.86.19.13:81/20.stream/index.m3u8
 
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="TR" tvg-language="English" tvg-logo="https://i.ibb.co/RgVWvCH/TRT-World.png" group-title="English News", TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
+http://208.86.19.13:81/714.stream/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png" group-title="English News", 4 New York 
 http://208.86.19.13:81/102.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.abcotv.com/googleassistant/logos/WABC.png" group-title="English News", abc7NY
 http://208.86.19.13:81/104.stream/index.m3u8
-
-#EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
-http://208.86.19.13:81/714.stream/index.m3u8
 
 
 
