@@ -228,20 +228,6 @@ http://208.86.19.13:81/623.stream/index.m3u8
 http://208.86.19.13:81/645.stream/index.m3u8
 
 
----------Sports---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/JrwBLsD/MAQ-TV.png" group-title="Sports", MAQ TV
-http://208.86.19.13:81/517.stream/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", DUBAI SPORTS
-http://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/chunklist_b1600000.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 2
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 3
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
-
-
 
 ---------Movie---------
 #EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movie",Thrill
@@ -333,13 +319,15 @@ http://208.86.19.13:81/103.stream/index.m3u8
 http://208.86.19.13:81/106.stream/index.m3u8
 
 
+
 ---------Comedy---------
 #EXTINF:-1 tvg-id="ComedyCentral.us" tvg-logo="https://i.ibb.co/fqH6z1x/Comedy-Central-logo.png" group-title="Comedy", Comedy Central
 http://208.86.19.13:81/22.stream/index.m3u8
 
 
+
 ---------English News---------
-#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English",Al Jazeera English HD
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 
 #EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
@@ -351,7 +339,7 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
 http://208.86.19.13:81/714.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-language="English" tvg-logo="https://i.imgur.com/3AVHrhP.png" group-title="English", Channel News Asia
+#EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-language="English" tvg-logo="https://i.imgur.com/3AVHrhP.png" group-title="English News", Channel News Asia
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png" group-title="English News", 4 New York 
@@ -362,6 +350,21 @@ http://208.86.19.13:81/104.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="CGTNEnglish.cn" tvg-language="English" tvg-logo="https://i.ibb.co/BZkrpVK/CGTN.png" group-title="English News", CGTN
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+
+
+
+---------Sports---------
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/JrwBLsD/MAQ-TV.png" group-title="Sports", MAQ TV
+http://208.86.19.13:81/517.stream/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", DUBAI SPORTS
+http://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 2
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 3
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
 
 
 
