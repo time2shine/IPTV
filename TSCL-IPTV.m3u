@@ -125,6 +125,9 @@ http://208.86.19.13:81/204.stream/index.m3u8
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-logo="https://i.ibb.co/85HD2nn/Republic-TV.png" group-title="Indian", Republic NEWS
 http://208.86.19.13:81/727.stream/index.m3u8
 
+#EXTINF:-1 tvg-id="AajTak.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/JpkMB4m/Aaj-Tak.png" group-title="Indian" , Aaj Tak
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+
 #EXTINF:-1 tvg-id="ABPNews.in" tvg-logo="https://i.ibb.co/JBzQrvR/ABP-News-logo.png" group-title="Indian", abp NEWS HD
 http://208.86.19.13:81/829.stream/index.m3u8
 
@@ -180,6 +183,15 @@ http://208.86.19.13:81/645.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/JrwBLsD/MAQ-TV.png" group-title="Sports", MAQ TV
 http://208.86.19.13:81/517.stream/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", DUBAI SPORTS
+http://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 2
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg" group-title="Sports", Dubai Sports 3
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
 
 
 ---------Movie---------
@@ -192,8 +204,11 @@ http://208.86.19.13:81/10.stream/index.m3u8
 #EXTINF:-1 tvg-id="LotusTV.mo" tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
 http://anren.live/HK/BiIOU11uLA.m3u8
 
-#EXTINF:-1 tvg-id="ZeeAnmolCinema.in" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema
+#EXTINF:-1 tvg-id="ZeeAnmolCinema.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema HD
 http://208.86.19.13:81/722.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="ZeeAnmolCinema.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema
+http://144.217.70.181:9587/hin2/ZEEANMOLCINEMA/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="B4UMovies.in" tvg-logo="https://i.ibb.co/M11VbSP/B4-U-MOVIES.jpg" group-title="Movie", B4U MOVIES
 http://208.86.19.13:81/831.stream/index.m3u8
@@ -201,11 +216,14 @@ http://208.86.19.13:81/831.stream/index.m3u8
 
 
 ---------Music---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/myTCnzH/Gaan-Bangla-TV-Live.png" group-title="Music", GAANBANGLA TV HD
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/myTCnzH/Gaan-Bangla-TV-Live.png" group-title="Music", GAANBANGLA TV HD
 http://208.86.19.13:81/612.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/myTCnzH/Gaan-Bangla-TV-Live.png" group-title="Music", GAANBANGLA TV HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/myTCnzH/Gaan-Bangla-TV-Live.png" group-title="Music", GAANBANGLA TV
 http://208.86.19.13:81/678.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="MTVHDPlus.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/M2fXct1/MTV-logo.png" group-title="Music", MTV
+http://144.217.70.181:9587/hin2/MTVINDIA/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Music", TIMES TV Digital HD
 http://208.86.19.13:81/513.stream/index.m3u8
@@ -213,8 +231,11 @@ http://208.86.19.13:81/513.stream/index.m3u8
 #EXTINF:-1 tvg-id="9XJalwa.in" tvg-logo="https://i.ibb.co/tLxJsHz/9x-jalwa-logo.jpg" group-title="Music", 9x JALWA HD
 http://208.86.19.13:81/522.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BTq2vhj/Music-India.png" group-title="Music", Music India
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BTq2vhj/Music-India.png" group-title="Music", Music India HD
 http://208.86.19.13:81/733.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BTq2vhj/Music-India.png" group-title="Music", Music India
+http://d2q8p4pe5spbak.cloudfront.net/bpk-tv/musicindia/musicindia.isml/.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/nn5T3L5/ARY-Musik-logo.png" group-title="Music", ARY Musik
 http://208.86.19.13:81/824.stream/index.m3u8
@@ -260,6 +281,9 @@ http://208.86.19.13:81/22.stream/index.m3u8
 
 
 ---------English News---------
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English",Al Jazeera English HD
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
 #EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
 http://208.86.19.13:81/20.stream/index.m3u8
 
@@ -269,15 +293,24 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
 http://208.86.19.13:81/714.stream/index.m3u8
 
+#EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-language="English" tvg-logo="https://i.imgur.com/3AVHrhP.png" group-title="English", Channel News Asia
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png" group-title="English News", 4 New York 
 http://208.86.19.13:81/102.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.abcotv.com/googleassistant/logos/WABC.png" group-title="English News", abc7NY
 http://208.86.19.13:81/104.stream/index.m3u8
 
+#EXTINF:-1 tvg-id="CGTNEnglish.cn" tvg-language="English" tvg-logo="https://i.ibb.co/BZkrpVK/CGTN.png" group-title="English News", CGTN
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+
 
 
 ---------Religious---------
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kGc3PPW/ATN-Islamic-tv.png" group-title="Religious", ATN Islamic TV
+http://iptvbd.jagobd.com:1931/live-orgin/atnislamictv.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://e7.pngegg.com/pngimages/957/70/png-clipart-the-holy-qur-an-text-translation-and-commentary-islam-logo-islam-religion-god-in-islam.png" group-title="Religious", 24/7 Kaba
 http://208.86.19.13:81/631.stream/index.m3u8
 
