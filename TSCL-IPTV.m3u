@@ -148,6 +148,9 @@ http://208.86.19.13:81/658.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/fQ79FmH/news24.jpg" group-title="Bangla News", NEWS 24 HD
 http://iptvbd.jagobd.com:1931/live-orgin/news24local.stream/chunks.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/vqfLDxT/TV9-Bangla.jpg" group-title="Bangla News", TV9 Bangla
+https://livetv-channels.b-cdn.net/8042/chunklist0.m3u8
+
 
 
 ---------Cartoon---------
@@ -170,6 +173,21 @@ http://144.217.70.181:9587/hin2/COLORSHD/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/1T4bN8y/Aapka-Colors.png" group-title="Indian", aapka Colors
 http://208.86.19.13:81/204.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/nQT12bT/Shemaroo-TV.jpg" group-title="Indian", Shemaroo TV
+https://livetv-channels.b-cdn.net/8094/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/PrwSv0s/Dhamaal.jpg" group-title="Indian", Dhamaal
+https://livetv-channels.b-cdn.net/8096/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/bN0hLfR/anjan.jpg" group-title="Indian", anjan
+https://livetv-channels.b-cdn.net/8064/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/THMqRqF/ABZY-COOL.jpg" group-title="Indian", ABZY COOL
+https://livetv-channels.b-cdn.net/8059/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="DDNational.in" tvg-logo="https://i.ibb.co/7zjq6XK/DD-National.jpg" group-title="Indian", DD National
+https://livetv-channels.b-cdn.net/8006/chunklist0.m3u8
 
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-logo="https://i.ibb.co/85HD2nn/Republic-TV.png" group-title="Indian", Republic NEWS
 http://208.86.19.13:81/727.stream/index.m3u8
@@ -265,6 +283,12 @@ https://livetv-channels.b-cdn.net/8055/chunklist0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/cwh5QmF/goldmines.jpg" group-title="Movie", Goldmines Movies
 https://livetv-channels.b-cdn.net/8046/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/cwh5QmF/goldmines.jpg" group-title="Movie", Goldmines Movies Marathi
+https://livetv-channels.b-cdn.net/8075/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/fFTTZB7/ABZY-MOVIES.jpg" group-title="Movie", ABZY MOVIES
+https://livetv-channels.b-cdn.net/8056/chunklist0.m3u8
 
 
 
@@ -387,6 +411,9 @@ https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 
 
 ---------Sports---------
+#EXTINF:-1 tvg-id="DDSports.in" tvg-logo="https://i.ibb.co/sK9ZmB0/DD-Sports.jpg" group-title="Sports", DD Sports
+https://livetv-channels.b-cdn.net/8011/chunklist0.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/JrwBLsD/MAQ-TV.png" group-title="Sports", MAQ TV
 http://208.86.19.13:81/517.stream/index.m3u8
 
