@@ -25,6 +25,9 @@ https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/44HJ6qc/ATN-Bangla.png" group-title="Bangla", ATN Bangla
 http://208.86.19.13:81/664.stream/index.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/44HJ6qc/ATN-Bangla.png" group-title="Bangla", ATN Bangla
+http://iptvbd.jagobd.com:1931/live-orgin/atnbd-8-org.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/qRvV7KM/Rtv-bangladesh.png" group-title="Bangla", RTV HD
 http://208.86.19.13:81/656.stream/index.m3u8
 
@@ -34,11 +37,17 @@ http://208.86.19.13:81/677.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/tZ7N6G4/Channel-9.png" group-title="Bangla", Channel 9 HD
 http://208.86.19.13:81/676.stream/index.m3u8
 
-#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/S6tBjsq/Banglavision.png" group-title="Bangla", BANGLA VISION
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/S6tBjsq/Banglavision.png" group-title="Bangla", BANGLA VISION HD
 http://208.86.19.13:81/659.stream/index.m3u8
 
-#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Boishakhi_Tv_Logo.png" group-title="Bangla", Boishakhi TV HD
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/S6tBjsq/Banglavision.png" group-title="Bangla", BANGLA VISION
+http://iptvbd.jagobd.com:1931/live-orgin/banglav000.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/pRgLL1p/Boishakhi-Tv-Logo.png" group-title="Bangla", Boishakhi TV HD
 http://208.86.19.13:81/655.stream/index.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/pRgLL1p/Boishakhi-Tv-Logo.png" group-title="Bangla", Boishakhi TV
+http://iptvbd.jagobd.com:1931/live-orgin/boishakhitv-org.stream/chunks.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/zF349cj/DeshTV.jpg" group-title="Bangla", DESH TV
 http://208.86.19.13:81/661.stream/index.m3u8
@@ -76,6 +85,9 @@ http://208.86.19.13:81/505.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="" group-title="Bangla", Bangla TV HD
 http://208.86.19.13:81/504.stream/index.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="" group-title="Bangla", Bangla TV HD
+http://iptvbd.jagobd.com:1931/live-orgin/banglatvhd.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/de/News_Time_2.jpg" group-title="Bangla", Time Television HD
 http://208.86.19.13:81/506.stream/index.m3u8
 
@@ -91,8 +103,11 @@ http://208.86.19.13:81/518.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="" group-title="Bangla", Bangla TV HD
 http://208.86.19.13:81/665.stream/index.m3u8
 
-#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/yS8XZ2P/BTV-WORLD.png" group-title="Bangla", BTV WORLD
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/yS8XZ2P/BTV-WORLD.png" group-title="Bangla", BTV WORLD HD
 http://208.86.19.13:81/665.stream/index.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/yS8XZ2P/BTV-WORLD.png" group-title="Bangla", BTV WORLD
+http://iptvbd.jagobd.com:1931/live-orgin/btvbd-office-sg.stream/chunks.m3u8
 
 
 
@@ -106,8 +121,14 @@ http://iptvbd.jagobd.com:1931/live-orgin/independent-8-org.stream/chunks.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/NrH7Tv8/Jamuna-TV.png" group-title="Bangla News", Jamuna TV
 http://208.86.19.13:81/662.stream/index.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/NrH7Tv8/Jamuna-TV.png" group-title="Bangla News", Jamuna TV
+http://iptvbd.jagobd.com:1931/live-orgin/jamuna-test-sample-ok.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/tP1FPK0/ATN-NEWS.png" group-title="Bangla News", ATN NEWS
 http://208.86.19.13:81/663.stream/index.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/bWyTQTK/Channel24.png" group-title="Bangla", Channel 24
+http://iptvbd.jagobd.com:1931/live-orgin/channel24-sg-e8e.stream/chunks.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/v4V1Lyw/Ekattor-TV-logo.png" group-title="Bangla News", Ekattor TV HD
 http://208.86.19.13:81/675.stream/index.m3u8
@@ -118,8 +139,15 @@ http://208.86.19.13:81/613.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="Bangla News", DBC NEWS HD
 http://208.86.19.13:81/614.stream/index.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="Bangla News", DBC NEWS
+http://iptvbd.jagobd.com:1931/live-orgin/dbcnews.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/fQ79FmH/news24.jpg" group-title="Bangla News", NEWS 24 HD
 http://208.86.19.13:81/658.stream/index.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/fQ79FmH/news24.jpg" group-title="Bangla News", NEWS 24 HD
+http://iptvbd.jagobd.com:1931/live-orgin/news24local.stream/chunks.m3u8
+
 
 
 ---------Cartoon---------
@@ -245,6 +273,9 @@ http://208.86.19.13:81/678.stream/index.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://imgur.com/HG69Dgb.png" group-title="Music", Bangla Talkies
 http://45.127.56.3:7698/live/Corpus-POL/SRV2/4/BANGLA-TALKIES/video.m3u8
+
+#EXTINF:-1 tvg-id="SangeetBangla.in" tvg-language="Bangla" tvg-logo="https://i.ibb.co/Zm3nL1k/sangeet-bangla.png" group-title="Music", SangeetBangla
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/sangeetbangla/sangeetbangla.isml/sangeetbangla-audio_208482_und=208000-video=877600.m3u8
 
 #EXTINF:-1 tvg-id="MTVHDPlus.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/M2fXct1/MTV-logo.png" group-title="Music", MTV
 http://144.217.70.181:9587/hin2/MTVINDIA/tracks-v1a1/mono.m3u8
