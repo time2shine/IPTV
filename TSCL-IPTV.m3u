@@ -183,14 +183,18 @@ http://208.86.19.13:81/517.stream/index.m3u8
 
 
 ---------Movie---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Indian", Zee Anmol Cinema
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KbtX8k8/2560px-USA-Network-logo-2016-svg.png" group-title="Movie", USA
+http://208.86.19.13:81/10.stream/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
+http://anren.live/HK/BiIOU11uLA.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema
 http://208.86.19.13:81/722.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/M11VbSP/B4-U-MOVIES.jpg" group-title="Indian", B4U MOVIES
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/M11VbSP/B4-U-MOVIES.jpg" group-title="Movie", B4U MOVIES
 http://208.86.19.13:81/831.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/2560px-USA_Network_logo_%282016%29.svg.png" group-title="Movie", USA
-http://208.86.19.13:81/10.stream/index.m3u8
 
 
 ---------Music---------
