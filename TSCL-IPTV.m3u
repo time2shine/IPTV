@@ -119,11 +119,11 @@ http://208.86.19.13:81/33.stream/index.m3u8
 
 
 ---------Indian---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7e/Aapka_Colors_2008.png" group-title="Indian", aapka Colors
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/1T4bN8y/Aapka-Colors.png" group-title="Indian", aapka Colors
 http://208.86.19.13:81/204.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-logo="https://i.ibb.co/85HD2nn/Republic-TV.png" group-title="Indian", Republic NEWS
-http://208.86.19.13:81/720.stream/index.m3u8
+http://208.86.19.13:81/727.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="ABPNews.in" tvg-logo="https://i.ibb.co/JBzQrvR/ABP-News-logo.png" group-title="Indian", abp NEWS HD
 http://208.86.19.13:81/829.stream/index.m3u8
@@ -136,7 +136,7 @@ http://208.86.19.13:81/720.stream/index.m3u8
 
 
 ---------Pakistan---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/GEO_News_logo_in_Urdu.png" group-title="Pakistan", Geo Entertainment HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/n0JPnT7/GEO-News-logo-in-Urdu.png" group-title="Pakistan", Geo Entertainment HD
 http://208.86.19.13:81/603.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/mJX5DzG/ARY-ZINDAGI.png" group-title="Pakistan", ARY ZINDAGI
@@ -145,10 +145,10 @@ http://208.86.19.13:81/825.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/wchHcfb/HUM-MABALA.jpg" group-title="Pakistan", HUM MABALA
 http://208.86.19.13:81/691.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/VvHC4hN/Hum-Sitaray-Logo.png" group-title="Pakistan", HUM Sitaray
+#EXTINF:-1 tvg-id="HumSitaray.pk" tvg-logo="https://i.ibb.co/VvHC4hN/Hum-Sitaray-Logo.png" group-title="Pakistan", HUM Sitaray
 http://208.86.19.13:81/692.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/GEO_News_logo_in_Urdu.png" group-title="Pakistan", Geo News HD
+#EXTINF:-1 tvg-id="GeoNews.pk" tvg-logo="https://i.ibb.co/n0JPnT7/GEO-News-logo-in-Urdu.png" group-title="Pakistan", Geo News HD
 http://208.86.19.13:81/622.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f3/ARY_Digital_Logo_2.png" group-title="Pakistan", ARY DIGITAL HD
@@ -160,16 +160,16 @@ http://208.86.19.13:81/628.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/07/Express_News_logo.png" group-title="Pakistan", express
 http://208.86.19.13:81/643.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/PTV_Logo.png" group-title="Pakistan", PTV
+#EXTINF:-1 tvg-id="PTVWorld.pk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/PTV_Logo.png" group-title="Pakistan", PTV
 http://208.86.19.13:81/647.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://banner2.cleanpng.com/20180425/aeq/kisspng-express-news-pakistan-daily-express-92-news-5ae08458d89ef4.9939687315246633848873.jpg" group-title="Pakistan", express NEWS
+#EXTINF:-1 tvg-id="ExpressNews.pk" tvg-logo="https://i.ibb.co/Sr3Ff32/express-news.jpg" group-title="Pakistan", express NEWS
 http://208.86.19.13:81/642.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/jGVZJr4/GNN-News-logo.png" group-title="Pakistan", GNN NEWS
 http://208.86.19.13:81/716.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/yyCz9nM/Dunya-News.png" group-title="Pakistan", Dunya NEWS HD
+#EXTINF:-1 tvg-id="DunyaNews.pk" tvg-logo="https://i.ibb.co/yyCz9nM/Dunya-News.png" group-title="Pakistan", Dunya NEWS HD
 http://208.86.19.13:81/623.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Pakistan", NEWS
@@ -186,7 +186,7 @@ http://208.86.19.13:81/517.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/KbtX8k8/2560px-USA-Network-logo-2016-svg.png" group-title="Movie", USA
 http://208.86.19.13:81/10.stream/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
+#EXTINF:-1 tvg-id="LotusTV.mo" tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
 http://anren.live/HK/BiIOU11uLA.m3u8
 
 #EXTINF:-1 tvg-id="ZeeAnmolCinema.in" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema
@@ -207,7 +207,7 @@ http://208.86.19.13:81/678.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Music", TIMES TV Digital HD
 http://208.86.19.13:81/513.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://www.mediainfoline.com/wp-content/uploads/2017/06/9x-jalwa-logo.jpg" group-title="Music", 9x JALWA HD
+#EXTINF:-1 tvg-id="9XJalwa.in" tvg-logo="https://i.ibb.co/tLxJsHz/9x-jalwa-logo.jpg" group-title="Music", 9x JALWA HD
 http://208.86.19.13:81/522.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BTq2vhj/Music-India.png" group-title="Music", Music India
@@ -224,10 +224,10 @@ http://208.86.19.13:81/719.stream/index.m3u8
 
 
 ---------Drama---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/TNT_%28TV_Channel%29.svg/1200px-TNT_%28TV_Channel%29.svg.png" group-title="Drama", TNT
+#EXTINF:-1 tvg-id="TNT.us" tvg-logo="https://i.ibb.co/tBbgCMv/TNT-TV.png" group-title="Drama", TNT
 http://208.86.19.13:81/16.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.favpng.com/2/1/18/bbc-america-logo-television-image-png-favpng-tZY7NuNPUFRH26thBhW4aZMji.jpg" group-title="Drama", BBC America
+#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-logo="https://i.ibb.co/dpZ8xf8/bbc-america.jpg" group-title="Drama", BBC America
 http://208.86.19.13:81/34.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Drama", Hbs
@@ -235,7 +235,7 @@ http://208.86.19.13:81/201.stream/index.m3u8
 
 
 ---------Entertainment---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://findlogovector.com/wp-content/uploads/2019/09/discovery-go-logo-vector.png" group-title="Entertainment", Descovery Go
+#EXTINF:-1 tvg-id="" tvg-logo="https://findlogovector.com/wp-content/uploads/2019/09/discovery-go-logo-vector.png" group-title="Entertainment", Discovery Go
 http://208.86.19.13:81/31.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.pngitem.com/pimgs/m/133-1332910_cbs-new-york-cbs-new-york-logo-png.png" group-title="Entertainment", CBS New York
@@ -252,21 +252,21 @@ http://208.86.19.13:81/106.stream/index.m3u8
 
 
 ---------Comedy---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Comedy-Central-logo.png" group-title="Comedy", Comedy Central
+#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Comedy-Central-logo.png" group-title="Comedy", Comedy Central
 http://208.86.19.13:81/22.stream/index.m3u8
 
 
 ---------English News---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
+#EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
 http://208.86.19.13:81/20.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/1200px-WNBC_4_NY.svg.png" group-title="English News", 4 New York 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png" group-title="English News", 4 New York 
 http://208.86.19.13:81/102.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.abcotv.com/googleassistant/logos/WABC.png" group-title="English News", abc7NY
 http://208.86.19.13:81/104.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
+#EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
 http://208.86.19.13:81/714.stream/index.m3u8
 
 
