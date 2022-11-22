@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/time2shine/IPTV/master/epg.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/time2shine/IPTV/master/epg.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml"
 
 #EXTINF:-1,TSCL FTV HD
 http://20.20.20.20:8080/tscl.m3u8
@@ -174,7 +174,7 @@ http://144.217.70.181:9587/hin2/COLORSHD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/1T4bN8y/Aapka-Colors.png" group-title="Indian", aapka Colors
 http://208.86.19.13:81/204.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/nQT12bT/Shemaroo-TV.jpg" group-title="Indian", Shemaroo TV
+#EXTINF:-1 tvg-id="ShemarooTV.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/nQT12bT/Shemaroo-TV.jpg" group-title="Indian", Shemaroo TV
 https://livetv-channels.b-cdn.net/8094/chunklist0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/PrwSv0s/Dhamaal.jpg" group-title="Indian", Dhamaal
@@ -209,17 +209,17 @@ http://208.86.19.13:81/720.stream/index.m3u8
 
 
 ---------Pakistan---------
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/n0JPnT7/GEO-News-logo-in-Urdu.png" group-title="Pakistan", Geo Entertainment HD
-http://208.86.19.13:81/603.stream/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/mJX5DzG/ARY-ZINDAGI.png" group-title="Pakistan", ARY ZINDAGI
-http://208.86.19.13:81/825.stream/index.m3u8
+#EXTINF:-1 tvg-id="HumSitaray.pk" tvg-logo="https://i.ibb.co/VvHC4hN/Hum-Sitaray-Logo.png" group-title="Pakistan", HUM Sitaray
+http://208.86.19.13:81/692.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/wchHcfb/HUM-MABALA.jpg" group-title="Pakistan", HUM MABALA
 http://208.86.19.13:81/691.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="HumSitaray.pk" tvg-logo="https://i.ibb.co/VvHC4hN/Hum-Sitaray-Logo.png" group-title="Pakistan", HUM Sitaray
-http://208.86.19.13:81/692.stream/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/mJX5DzG/ARY-ZINDAGI.png" group-title="Pakistan", ARY ZINDAGI
+http://208.86.19.13:81/825.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/n0JPnT7/GEO-News-logo-in-Urdu.png" group-title="Pakistan", Geo Entertainment HD
+http://208.86.19.13:81/603.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="GeoNews.pk" tvg-logo="https://i.ibb.co/n0JPnT7/GEO-News-logo-in-Urdu.png" group-title="Pakistan", Geo News HD
 http://208.86.19.13:81/622.stream/index.m3u8
@@ -230,7 +230,7 @@ http://208.86.19.13:81/627.stream/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/NTfZ5v9/ARY-Qtv-logo.png" group-title="Pakistan", ARY Qtv
 http://208.86.19.13:81/628.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/07/Express_News_logo.png" group-title="Pakistan", express
+#EXTINF:-1 tvg-id="ExpressEntertainment.pk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/07/Express_News_logo.png" group-title="Pakistan", express
 http://208.86.19.13:81/643.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="PTVWorld.pk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0c/PTV_Logo.png" group-title="Pakistan", PTV
@@ -257,7 +257,7 @@ http://210.210.155.37/qwr9ew/s/s34/index.m3u8
 #EXTINF:-1 tvg-id="USANetwork.us" tvg-logo="https://i.ibb.co/KbtX8k8/2560px-USA-Network-logo-2016-svg.png" group-title="Movie", USA
 http://208.86.19.13:81/11.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/sb4NmP9/Lotus-TV-Macau.jpg" group-title="Movie", Lotus Macau
 http://anren.live/HK/BiIOU11uLA.m3u8
 
 #EXTINF:-1 tvg-id="ZeeAnmolCinema.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/LYqTZS2/Zee-Anmol-Cinema.png" group-title="Movie", Zee Anmol Cinema HD
