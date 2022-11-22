@@ -2,7 +2,11 @@
 
 #EXTINF:-1,TSCL FTV HD
 http://20.20.20.20:8080/tscl.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/PNdr1Ln/Tsports.png" group-title="Sports",Toffee Live
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
+https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live
 https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
 
 
