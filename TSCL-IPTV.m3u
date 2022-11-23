@@ -208,8 +208,17 @@ https://livetv-channels.b-cdn.net/8006/chunklist0.m3u8
 #EXTINF:-1 tvg-id="" tvg-language="Hindi" tvg-logo="https://i.ibb.co/0hCK2gR/Dillagi.jpg" group-title="Indian", Dillagi
 https://livetv-channels.b-cdn.net/8093/chunklist0.m3u8
 
+#EXTINF:-1 tvg-id="NDTV24x7.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/SJQQt6X/NDTV247.png" group-title="Indian", NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/masterp_480p@5.m3u8
+
+#EXTINF:-1 tvg-id="NDTVIndia.in" tvg-language="Hindi" tvg-logo="https://i.imgur.com/QjJYohG.png" group-title="Indian", NDTV India
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@5.m3u8
+
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/85HD2nn/Republic-TV.png" group-title="Indian", Republic NEWS
 http://208.86.19.13:81/727.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="IndiaToday.in" tvg-language="Hindi" tvg-logo="https://i.imgur.com/koFYddE.png" group-title="Indian", India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-id="AajTak.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/JpkMB4m/Aaj-Tak.png" group-title="Indian" , Aaj Tak HD
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
@@ -356,6 +365,9 @@ https://livetv-channels.b-cdn.net/8040/chunklist0.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/qJxrqkn/Mtunes.jpg" group-title="Music", MTunes+
 https://livetv-channels.b-cdn.net/8031/chunklist0.m3u8
+
+#EXTINF:-1 tvg-id="DilSe.in" tvg-logo="https://i.ibb.co/qJxrqkn/Mtunes.jpg" group-title="Music", DilSe
+https://live.hungama.com/linear/dil-se/playlist_playlist_480p.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BTq2vhj/Music-India.png" group-title="Music", Music India HD
 http://208.86.19.13:81/733.stream/index.m3u8
