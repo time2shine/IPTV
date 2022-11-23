@@ -17,6 +17,9 @@ http://208.86.19.13:81/616.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/qrsnwCz/Doyel-TV-Logo.png" group-title="Bangla", DOYEL TV
 http://ipm.oncast.me:1934/iplived/ip-doyeltv.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/tZhrxsd/AB-TV.jpg" group-title="Bangla", AB TV HD
+https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/ChanneliBD.png" group-title="Bangla", CHANNEL i HD
 http://208.86.19.13:81/653.stream/index.m3u8
 
@@ -47,11 +50,20 @@ http://208.86.19.13:81/659.stream/index.m3u8
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/S6tBjsq/Banglavision.png" group-title="Bangla", BANGLA VISION
 http://iptvbd.jagobd.com:1931/live-orgin/banglav000.stream/chunks.m3u8
 
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/S6tBjsq/Banglavision.png" group-title="Bangla", BANGLA VISION
+https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
+
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/pRgLL1p/Boishakhi-Tv-Logo.png" group-title="Bangla", Boishakhi TV HD
 http://208.86.19.13:81/655.stream/index.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/pRgLL1p/Boishakhi-Tv-Logo.png" group-title="Bangla", Boishakhi TV
-http://iptvbd.jagobd.com:1931/live-orgin/boishakhitv-org.stream/chunks.m3u8
+https://tempbtcl.jagobd.com:444/cZMLmVyX3RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/banglav000.stream/live-orgin/banglav000.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/mSkj626/BIJOY-TV.png" group-title="Bangla", Bijoy TV
+https://cdnr.appv.jagobd.com:444/cZMLmVyX3RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/bijoy00.stream/live-orgin/bijoy00.stream/chunks.m3u8
+
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/X2K3kSY/Nexus-Television-Logo.png" group-title="Bangla", Nexus TV
+https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/nexustv.stream/chunks.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.ibb.co/zF349cj/DeshTV.jpg" group-title="Bangla", DESH TV
 http://208.86.19.13:81/661.stream/index.m3u8
