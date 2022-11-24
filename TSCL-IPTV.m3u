@@ -1,7 +1,10 @@
 #EXTM3U x-tvg-url="https://epg.best/1fe33-xkdjgd.xml.gz;https://raw.githubusercontent.com/time2shine/IPTV/master/epg.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml"
 
 #EXTINF:-1,TSCL FTV HD
-http://20.20.20.20:8080/tscl.m3u8
+http://22.22.22.22:8080/tscl.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
+http://103.141.2.2/iptv/master_1000.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
 https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8
@@ -9,10 +12,8 @@ https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live
 https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live
-http://103.141.2.2/iptv/master_1000.m3u8
 
----------Sports---------(IPTV maintain by TSCL Magura)
+---Sports---(IPTV maintain by TSCL Magura)
 #EXTINF:-1 tvg-id="Sporttv.pt" tvg-logo="https://i.ibb.co/nr1Xdg9/sport-tv-1.jpg" group-title="Sports", Sport.TV 1
 https://cnda11.ahdafsoccer.com:443/UpFiles/2022/11/20/152/240653/720p.m3u8
 
