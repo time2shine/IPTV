@@ -1,13 +1,19 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml;https://iptv-org.github.io/epg/guides/qa.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/hk.xml;https://iptv-org.github.io/epg/guides/uk.xml"
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
-http://103.141.2.2/iptv/master_1000.m3u8
+https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_850.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 360p
+https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 240p
+https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_360.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 144p
+https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_180.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
 https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live
-https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hLn4gyW/GTVBangladesh-Logo.png" group-title="Sports", Gazi TV HD
 http://tv2.efiberbd.net:8080/live/mkaua/stream/36.m3u8
