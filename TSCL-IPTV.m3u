@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml;https://iptv-org.github.io/epg/guides/qa.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/hk.xml;https://iptv-org.github.io/epg/guides/uk.xml"
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/NrWK9Xd/Teleamazonas.png" group-title="Sports", Teleamazonas HD
+#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/NrWK9Xd/Teleamazonas.png" group-title="Sports", Teleamazonas HD
 https://stream.dlivecdn.com/dlive/transcode-65-228/suco3/1670594961/src/live.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
@@ -21,8 +21,8 @@ http://tvs2.embedsite.xyz:1936/live/sports18/chunklist_w493325092_tkd293emF0b2tl
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/f8jB5vG/A-sportshd-Logo.png" group-title="Sports", A Sports 
 http://tvs.embedsite.xyz:1936/live/live2_360p/chunklist_w1498803379_tkd293emF0b2tlbmVuZHRpbWU9MTY3MDYxNTg2MCZ3b3d6YXRva2Vuc3RhcnR0aW1lPTE2NzA2MDg4NjAmd293emF0b2tlbmhhc2g9blJCQzYybEpYR292bzRZa09sYVRhbDhxdkZlcXV4VTA3UFNxWjEwZDVNND0=.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hLn4gyW/GTVBangladesh-Logo.png" group-title="Sports", Gazi TV HD
-http://tv2.efiberbd.net:8080/live/mkaua/stream/36.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-logo="https://static.epg.best/cn/CCTV5.cn.png" group-title="Sports", CCTV 5 HD
+https://node3.olelive.com:6443/live/CCTV5HD_1080/hls.m3u8
 
 
 --Bangla--(IPTV maintains by TSCL Magura)
