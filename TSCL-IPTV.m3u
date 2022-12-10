@@ -1,5 +1,11 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml;https://iptv-org.github.io/epg/guides/qa.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/hk.xml;https://iptv-org.github.io/epg/guides/uk.xml"
 
+#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/BGCTdXY/T-Sports-logo.png" group-title="Sports", T Sports
+https://stream.rtnbd.net/live/stream_240p528kbs/index.m3u8
+
+#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/BGCTdXY/T-Sports-logo.png" group-title="Sports", T Sports HD
+https://live.tsports.com/live/tsports_live_720/index.m3u8
+
 #EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/NrWK9Xd/Teleamazonas.png" group-title="Sports", Teleamazonas HD
 https://stream.dlivecdn.com/dlive/transcode-65-228/suco3/1670594961/src/live.m3u8
 
