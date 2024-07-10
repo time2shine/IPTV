@@ -12,6 +12,10 @@ https://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
 http://185.236.229.62:9981/play/a06n
 #EXTINF:-1 tvg-id="DisneyJunior.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="Kids",Disney Junior Japan (400p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
+#EXTINF:-1 tvg-id="DisneyXD.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="Kids",Disney XD (576p)
+http://178.219.128.68:64888/DISNXD
+#EXTINF:-1 tvg-id="DisneyXDEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="Kids",Disney XD (720p)
+https://fl5.moveonjoy.com/DISNEY_XD/index.m3u8
 
 Cartoon
 
@@ -87,22 +91,8 @@ https://d3eq0jseza7fm5.cloudfront.net/tg4_vod_3.m3u8
 
 
 
-#EXTINF:-1 tvg-id="DisneyXD.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="Kids",Disney XD (576p)
-http://178.219.128.68:64888/DISNXD
-#EXTINF:-1 tvg-id="DisneyXDEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="Kids",Disney XD (720p)
-https://fl5.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="DoraTV.fr" tvg-logo="https://i.imgur.com/hutzBu8.png" group-title="Kids",Dora TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8ecb9524419b0007365a1c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e050350-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c938e920-2111-4877-9e36-97d7a0a0d005
-#EXTINF:-1 tvg-id="DoraTV.us" tvg-logo="https://i.imgur.com/Zk5Ss25.png" group-title="Kids",Dora TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c49-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=58d418cb-223d-4b93-bc8e-5666e9995949
-#EXTINF:-1 tvg-id="ducktv.sk" tvg-logo="https://i.imgur.com/gRFQ35W.png" group-title="Kids",Duck TV (720p)
-https://tvup-fast-ottera-mmm-ducktv.secure2.footprint.net/DexaYJdJXkLqFxTK_DuckTVHDSAMS/DuckTVHDSAMS.stream/DuckTVHDSAMS/DuckTVHDSAMS_720p_AAC.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EBCYOYO.tw" tvg-logo="https://i.imgur.com/k4fhcPl.png" group-title="Kids",EBC YOYO (720p)
-https://ythls.armelin.one/channel/UCiWRSesvSYmY7YOyz0tv_zQ.m3u8
-#EXTINF:-1 tvg-id="EBSKids.kr" tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="Kids",EBS kids (400p) [Not 24/7]
-https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="Eureka.co" tvg-logo="https://i.imgur.com/WgnZPol.png" group-title="Kids",Eureka (1080p)
-https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C022/022/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="FindOutWhy.us" tvg-logo="https://i.imgur.com/QVYPNkI.png" group-title="Kids",Find Out Why
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60faf9368c7ad900082bc9a8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca65-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c2ce01d7-85f1-42ac-a875-774effb460a0
 #EXTINF:-1 tvg-id="ForeverKids.us" tvg-logo="https://i.imgur.com/deeQqYZ.png" group-title="Kids",Forever Kids
