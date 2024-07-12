@@ -197,6 +197,8 @@ https://livetv-channels.b-cdn.net/8042/chunklist0.m3u8
 
 
 ---------Cartoon---------
+
+
 #EXTINF:-1 tvg-id="DisneyXD.us" tvg-language="English" tvg-logo="https://i.ibb.co/0GJ88j8/Logo-Disney-XD.png" group-title="Cartoon", Disney XD
 http://208.86.19.13:81/10.stream/index.m3u8
 
@@ -482,6 +484,9 @@ http://208.86.19.13:81/22.stream/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 
+#EXTINF:-1 tvg-id="CNN.uk" group-title="English News" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN International Europe 🌏
+https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="CNN.us" tvg-logo="https://seeklogo.com/images/C/CNN-logo-8DA6D1FC28-seeklogo.com.png" group-title="English News", CNN
 http://208.86.19.13:81/20.stream/index.m3u8
 
@@ -490,6 +495,12 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="WION.in" tvg-logo="https://i.ibb.co/k0snW15/Zee-WION.jpg" group-title="English News", WION
 http://208.86.19.13:81/714.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="DeutscheWelleEn.de" tvg-logo="https://i.ibb.co/7kNhrmW/dw-english-home-tv.png" group-title="English News", DW English 📶_📺
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="DeutscheWelleEn.de" tvg-logo="https://i.ibb.co/7kNhrmW/dw-english-home-tv.png" group-title="English News", DW English 📺
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
 
 #EXTINF:-1 tvg-id="ChannelNewsAsia.sg" tvg-language="English" tvg-logo="https://i.imgur.com/3AVHrhP.png" group-title="English News", Channel News Asia
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
