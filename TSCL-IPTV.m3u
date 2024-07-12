@@ -483,6 +483,12 @@ http://208.86.19.13:81/22.stream/index.m3u8
 ---------English News---------
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD (Backup)
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD (Backup)
+https://live-hls-web-aje.getaj.net/AJE/04.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-language="English" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png" group-title="English News",Al Jazeera English HD (Backup)
+https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
 
 #EXTINF:-1 tvg-id="CNN.uk" group-title="English News" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN International Europe 🌏
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
@@ -508,8 +514,11 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png" group-title="English News", 4 New York 
 http://208.86.19.13:81/102.stream/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.abcotv.com/googleassistant/logos/WABC.png" group-title="English News", abc7NY
-http://208.86.19.13:81/104.stream/index.m3u8
+#EXTINF:-1 tvg-id="FOXNews.au" tvg-logo="https://m.media-amazon.com/images/I/51DuC9sjNmL.png" group-title="English News", FOX News (AU) 🛜
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+
+#EXTINF:-1 tvg-id="RTInternational.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" group-title="English News", RT News (EN) 🛜
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CGTNEnglish.cn" tvg-language="English" tvg-logo="https://i.ibb.co/BZkrpVK/CGTN.png" group-title="English News", CGTN
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
