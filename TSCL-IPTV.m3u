@@ -505,7 +505,25 @@ http://208.86.19.13:81/103.stream/index.m3u8
 http://208.86.19.13:81/106.stream/index.m3u8
 
 
---------- Sports---------
+---------Sports---------
+#EXTINF:-1 tvg-id=" tvg-logo="https://scontent.fdac157-1.fna.fbcdn.net/v/t39.30808-6/335033114_227012183053325_3229078052177968260_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZT0oR2rXZmAQ7kNvgHZkknm&_nc_ht=scontent.fdac157-1.fna&oh=00_AYDbssNWwokmAOpahKWiQJ3waxdrffIknYnT-beRtFF9AQ&oe=6696D326" group-title="Sports",Event TV HD 🏏
+https://sltlivetestgcp.yuppcdn.net/120623/smil:eventtv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.uk" tvg-logo="https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg" group-title="Sports", Redbull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+
+#EXTINF:-1 tvg-id="CanalPlusSport.fr" tvg-logo="https://static.epg.best/fr/CanalPlusSport.fr.png" group-title="Sports", Canal+ Sports 2
+http://145.239.5.177:8080/538/index.m3u8
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/Tw2RMB7z/20240407-234834.png",FIFA+ 01
+https://4b92bb6a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1hdF9GSUZBUGx1c19ITFM/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/1trCq3Qd/20240407-234849.png",FIFA+ 02
+https://8deea4ad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1lc19GSUZBUGx1c19ITFM/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/YS0m51MR/20240407-234859.png",FIFA+ 03
+https://38ca3c9c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c19ITFM/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/NjnHwpbM/20240407-234908.png",FIFA+ 04 
+https://6d42a49f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pdF9GSUZBUGx1c19ITFM/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Sporttv.pt" tvg-logo="https://i.ibb.co/nr1Xdg9/sport-tv-1.jpg" group-title="Sports", Sport.TV 1
 https://cnda11.ahdafsoccer.com:443/UpFiles/2022/11/20/152/240653/720p.m3u8
 
