@@ -35,6 +35,11 @@ https://s14.123ecast.me:8403/hd/hls/ukv7tDqQ9quRlLkQ2D8qPA/1670612902/asports.m3
 
 
 --Bangla--(IPTV maintains by Rokon)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(BDIX)
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(Backup)
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/DBC%20News.png"group-title="Bangla", Ekhone TV(Youtube)
 https://raw.githubusercontent.com/gift4bd/ytm/main/EkhonTV.m3u8
 
@@ -66,10 +71,12 @@ http://ipm.oncast.me:1934/iplived/ip-doyeltv.stream/playlist.m3u8
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/chunklist_b6000000.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/ChanneliBD.png" group-title="Bangla", CHANNEL i HD
-http://208.86.19.13:81/653.stream/index.m3u8
+http://208.86.19.13:81/510.stream/index.m3u8?
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.imgur.com/3usnOla.png" group-title="Bangla", NTV
 http://208.86.19.13:81/652.stream/index.m3u8
+#EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.imgur.com/3usnOla.png" group-title="Bangla", NTV (Backup)
+http://103.230.105.252:1935/live/ntv/manifest.m3u8
 
 #EXTINF:-1 tvg-language="Bangla" tvg-logo="https://i.imgur.com/3usnOla.png" group-title="Bangla", NTV UK
 https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8
