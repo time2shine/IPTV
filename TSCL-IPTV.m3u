@@ -311,6 +311,18 @@ http://208.86.19.13:81/645.stream/index.m3u8
 
 
 ---------Movie---------
+#EXTINF:-1 tvg-id="BflixMovies.in" group-title="Movie" tvg-logo="https://i.postimg.cc/5N1vk2P3/BFlix-Movies-2.jpg",BFlix Movies 
+http://idvd.multitvsolution.com/idvo/bflixmovies.m3u8
+
+#EXTINF:-1 tvg-id="BollywoodClassic.il" group-title="Movie" tvg-logo="https://i.postimg.cc/9QfZFpLp/1128-bollywood-clasic.jpg", Bollywood Classic 
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://i.postimg.cc/SRyj1S5r/bollywood-hd.jpg", Bollywood FHD
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://i.postimg.cc/KzmBgP5J/Bollywood-Prime-thumbnail.png", Bollywood Prime 
+https://dai.google.com/linear/hls/event/yvQpXDAeRMGU25KTu--V6Q/master.m3u8
+
 #EXTINF:-1 tvg-id="ThrillEn.hk" tvg-country="SAS" tvg-language="Chinese;English;Thai" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movie",Thrill
 http://210.210.155.37/qwr9ew/s/s34/index.m3u8
 
@@ -327,7 +339,7 @@ http://208.86.19.13:81/722.stream/index.m3u8
 http://144.217.70.181:9587/hin2/ZEEANMOLCINEMA/tracks-v1a1/mono.m3u8
  
 #EXTINF:-1 tvg-id="B4UMovies.in" tvg-logo="https://i.ibb.co/M11VbSP/B4-U-MOVIES.jpg" group-title="Movie", B4U MOVIES
-http://208.86.19.13:81/831.stream/index.m3u8
+https://idvd.multitvsolution.com/idvo/moviehouse_540p.m3u8
 
 #EXTINF:-1 tvg-id="WOWCinema.in" tvg-language="Hindi" tvg-logo="https://i.ibb.co/1G1TTbM/WOWCinema-in.png" group-title="Movie", WOW CINEMA
 https://livetv-channels.b-cdn.net/8097/chunklist0.m3u8
