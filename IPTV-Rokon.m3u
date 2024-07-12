@@ -1,37 +1,5 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml;https://iptv-org.github.io/epg/guides/qa.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/hk.xml;https://iptv-org.github.io/epg/guides/uk.xml"
 
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-logo="https://static.epg.best/cn/CCTV5.cn.png" group-title="Sports", CCTV 5 HD
-https://node3.olelive.com:6443/live/CCTV5HD_1080/hls.m3u8
-
-#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/BGCTdXY/T-Sports-logo.png" group-title="Sports", T Sports
-https://stream.rtnbd.net/live/stream_240p528kbs/index.m3u8
-
-#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/BGCTdXY/T-Sports-logo.png" group-title="Sports", T Sports HD
-https://live.tsports.com/live/tsports_live_720/index.m3u8
-
-#EXTINF:-1 tvg-id="TeleAmazonas.ec" tvg-logo="https://i.ibb.co/NrWK9Xd/Teleamazonas.png" group-title="Sports", Teleamazonas HD
-https://stream.dlivecdn.com/dlive/transcode-65-228/suco3/1670594961/src/live.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live HD
-https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_850.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 360p
-https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_640.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 240p
-https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_360.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://toffeelive.com/assets/images/toffee-icon.png" group-title="Sports", Toffee Live 144p
-https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_180.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/f8jB5vG/A-sportshd-Logo.png" group-title="Sports", A Sports HD
-http://tvs2.embedsite.xyz:1936/live/sports18/chunklist_w493325092_tkd293emF0b2tlbmVuZHRpbWU9MTY3MDYxNTY4MCZ3b3d6YXRva2Vuc3RhcnR0aW1lPTE2NzA2MDg2ODAmd293emF0b2tlbmhhc2g9Nk1aRmlJcWFVSnJfRUdyaG5kdmVZMTh6ZjVjVlJ0THZqaFNlVWVvZE9JZz0=.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/f8jB5vG/A-sportshd-Logo.png" group-title="Sports", A Sports 
-http://tvs.embedsite.xyz:1936/live/live2_360p/chunklist_w1498803379_tkd293emF0b2tlbmVuZHRpbWU9MTY3MDYxNTg2MCZ3b3d6YXRva2Vuc3RhcnR0aW1lPTE2NzA2MDg4NjAmd293emF0b2tlbmhhc2g9blJCQzYybEpYR292bzRZa09sYVRhbDhxdkZlcXV4VTA3UFNxWjEwZDVNND0=.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/f8jB5vG/A-sportshd-Logo.png" group-title="Sports", A Sports 
-https://s14.123ecast.me:8403/hd/hls/ukv7tDqQ9quRlLkQ2D8qPA/1670612902/asports.m3u8
 
 
 --Bangla--(IPTV maintains by Rokon)
