@@ -58,6 +58,21 @@ https://epiconvh.s.llnwi.net/gubbare/master.m3u8
 http://208.86.19.13:81/33.stream/index.m3u8
 
 
+#EXTINF:-1 tvg-name="Pokémon Kids TV English" tvg-id="" group-title="Cartoon" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRr9Zv-bvplv-QngT-YDrTEvn0tctVbrBib9Jra=s900-c-k-c0x00ffffff-no-rj" tvg-epg="", Pokémon Kids TV English (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCgbfG5HoczHIkpzxLYH-8Ww.m3u8
+#EXTINF:-1 tvg-name="Retro Crush" tvg-id="" group-title="Cartoon" tvg-logo="https://www.retrocrush.tv/images/retrocrush/retrocrush_logo2.png" tvg-epg="", Retro Crush
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-retrocrush-lgus/playlist.m3u8
+#EXTINF:-1 tvg-name="Spacetoon" tvg-id="" group-title="Cartoon" tvg-logo="https://spacetoon.com/assets/imgs/1stoon.png" tvg-epg="", Spacetoon (1080p)
+https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 tvg-name="Toonami Aftermath East" tvg-id="" group-title="Cartoon" tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg" tvg-epg="", Toonami Aftermath East (480p)
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 tvg-name="XilamTV" tvg-id="" group-title="Cartoon" tvg-logo="https://xilam.com/wp-content/uploads/2017/12/logo_xilam_detoure_gd_177x90.png" tvg-epg="", XilamTV (1080p)
+https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Yu-Gi-Oh!" tvg-id="" group-title="Cartoon" tvg-logo="https://toppng.com/uploads/preview/yugioh-logo-yu-gi-oh-11562857421zchdpnt0xu.png" tvg-epg="", Yu-Gi-Oh!
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4ec10ed9636f00089b8c89/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d3738-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=31531314-3e7f-4788-8c4f-f153a43ee0a0
+-
+
+
 # --Infotainment Channels--
 #EXTINF:-1 tvg-name="Discovery Bangla HD" tvg-id="DiscoveryChannel.in" group-title="Infotainment Channels" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png" tvg-epg="", Discovery Bangla HD
 https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
