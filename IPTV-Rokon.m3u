@@ -1,12 +1,14 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/us.xml;https://iptv-org.github.io/epg/guides/uk.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/in.xml;https://iptv-org.github.io/epg/guides/pk.xml;https://iptv-org.github.io/epg/guides/qa.xml;https://iptv-org.github.io/epg/guides/ae.xml;https://iptv-org.github.io/epg/guides/hk.xml;https://iptv-org.github.io/epg/guides/uk.xml"
 
-
+# NEWS CHANNEL
+#EXTINF:-1 tvg-name="Ekhone TV" tvg-id="1" group-title="Bangla News" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/DBC%20News.png" tvg-epg="https://iptv-org.github.io/epg/guides/bd.xml", Ekhone TV
+https://www.youtube.com/watch?v=_BXYvp0fZ2A
 
 --Bangla--(IPTV maintains by Rokon)
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(BDIX)
-https://ekusheyserver.com/etvlivesn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(Backup)
-http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+# #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(BDIX)
+# https://ekusheyserver.com/etvlivesn.m3u8
+# #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png"group-title="Bangla" group-title="",Ekushay TV(Backup)
+# http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/DBC%20News.png"group-title="Bangla", Ekhone TV(Youtube)
 https://raw.githubusercontent.com/gift4bd/ytm/main/EkhonTV.m3u8
