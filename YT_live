@@ -3,7 +3,9 @@
 
 # #EXTINF:-1 tvg-name="" tvg-id="" group-title="" tvg-logo="" tvg-epg="", Name
 
-#EXTINF:-1 tvg-name="SOMOY TV" tvg-id="" group-title="" tvg-logo="https://yt3.ggpht.com/dcx8BUs_aHDYkGkTVhHpORuF1MOHI6ZM5AdG9pe9gm9Q_atfhEuq_-mO8l1h5q8qJZzlUzWSgw=s88-c-k-c0x00ffffff-no-rj" tvg-epg="", SOMOY TV Live
-https://www.youtube.com/watch?v=QDuINnRXqt8
-#EXTINF:-1 tvg-name="Jamuna TV" tvg-id="" group-title="" tvg-logo="https://yt3.ggpht.com/ytc/AIdro_nH7RBzG0cY0itrqnUdmE0SmpREhd_MkhK5F00B_mygVMA=s88-c-k-c0x00ffffff-no-rj" tvg-epg="", Jamuna TV Live
-https://www.youtube.com/watch?v=2BaM0C-EZzg
+#EXTINF:-1 tvg-id="SkyNews.yt" tvg-name="Jamuna TV" group-title="News", Jamuna TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1737668082/ei/kmGSZ5HENrrps8IPzdb90A0/ip/103.125.235.21/id/kUnLRKKPek4.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51370625/txs/51370625%2C51370626%2C51370627%2C51370628%2C51370629%2C51370630%2C51370631%2C51370632%2C51370633/hfr/1/force_finished/1/maudio/1/bui/AY2Et-PkiXx4ptFLAN2LEqAuAZkQvbrfEVm9qcI2FiGGNrulMT23rj2UIPbPpLZd8mndX_Dj6GdNmn_n/spc/9kzgDd1DDGl-avTEVTFRpVwmUiEPviVILIc6QapjcPqCXlLkTF1HxI3bm-LThIN6RUtx-P4/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51353498%2C51355912%2C51371294%2C51384461/dover/11/itag/0/playlist_type/CLEAN/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cforce_finished%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhANTzL-KfMy9pTeRXw6yZo79WkvqX65wfTDQShs6jdFNNAiAoJouYTQQxiadZKkFViExEluBh-Qf9-gh_H7mnTrY9hA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 tvg-id="SkyNews.yt" tvg-name="SOMOY TV" group-title="News", SOMOY TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1737668091/ei/m2GSZ_KAOtf12roPi-usqAM/ip/103.125.235.21/id/QDuINnRXqt8.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/bui/AY2Et-NBQdddZi0LkjF0iyP8GQDn_mXNQMt_o8j_tyZlZHUAuaN7B-i__XxBk0oO9t_NN387he_DI7bB/spc/9kzgDR50eCqRhnwS4znpUE8euOXADsR64HjQ9MZdoMNma2VLSYdtKMeWz-b91Oq5Is1Y4-g/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51353498%2C51355912%2C51371294%2C51384461/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAJnLyg2XdNhgzCa9hB_fFzqvuqsSl9gQWJy4oocPknjxAiEA0J6E2x-h4ZlBfT93snJHvZW8GzTkVJ4bQJStQPIjX2g%3D/file/index.m3u8
+
