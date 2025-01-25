@@ -6,6 +6,20 @@ import datetime
 # Get the current time
 now = datetime.datetime.now()
 
+def save_text_with_timestamp(content):
+    # Get the current date and time
+    now = datetime.datetime.now()
+
+    # Format the date and time as a string
+    timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
+
+    # Define the filename with the current time
+    filename = f"textfile_{timestamp}.txt"
+
+    # Open the file in write mode and save the content
+    with open(filename, "w") as file:
+        file.write(content)
+
 def grab_youtube(url: str):
     """Grabs the live-streaming M3U8 file from YouTube."""
     if '&' in url:
@@ -92,6 +106,7 @@ def save_m3u_file(output_data, filename="YT_playlist.m3u"):
     print(f"M3U file saved as {filename}")
 
 def main(api_key, channel_ids):
+    save_text_with_timestamp("test file")
     """Main function to fetch and print live video links for multiple channels."""
     youtube = get_youtube_service(api_key)
     output_data = []
