@@ -1,46 +1,30 @@
-name: run main.py
+name: YouTube Fetch
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # At every 5th minute
+    - cron: '*/5 * * * *' # This will run the script every 5 minutes
+  workflow_dispatch: # Allows you to run the workflow manually from the GitHub interface
 
 jobs:
-  build:
+  fetch-youtube:
     runs-on: ubuntu-latest
 
     steps:
-
-    - name: checkout repo content
+    - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: setup python
-      uses: actions/setup-python@v4
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
+        python-version: '3.9' # Specify the version of Python you want to use
 
-    - name: install python packages
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install google-api-python-client requests beautifulsoup4
 
-    - name: execute py script
+    - name: Run script
       env:
-        SOME_SECRET: ${{ secrets.SOME_SECRET }}
-      run: python main.py
-
-    - name: commit files
+        API_KEY: ${{ secrets.YOUTUBE_API_KEY }} # Store your API keys as secrets in the GitHub repository
       run: |
-        git config --local user.email "rokonmagura@gmail.com"
-        git config --local user.name "time2shine"
-        git add -A
-        git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-
-    - name: pull changes from remote before pushing
-      run: |
-        git pull --rebase origin main
-
-    - name: push changes
-      uses: ad-m/github-push-action@v0.6.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        python main.py
