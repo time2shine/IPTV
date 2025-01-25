@@ -1,7 +1,6 @@
 import googleapiclient.discovery
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 
 def grab_youtube(url: str):
     """Grabs the live-streaming M3U8 file from YouTube."""
