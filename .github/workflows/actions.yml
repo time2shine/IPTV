@@ -2,7 +2,7 @@ name: YouTube Fetch
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # This will run the script every 5 minutes
+    - cron: '30 7-23/3 * * *' # Runs at 30 minutes past the hour, every 3 hours, between 07:00 and 23:59.
   workflow_dispatch: # Allows you to run the workflow manually from the GitHub interface
 
 jobs:
