@@ -1,4 +1,4 @@
-name: YouTube Fetch
+name: YouTube Live Link Check
 
 on:
   schedule:
@@ -36,5 +36,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add YT_playlist.m3u
-        git commit -m 'Updated m3u playlist'
+        git commit -m 'Updated m3u playlist via Action in every 3 Hours'
         git push
