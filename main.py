@@ -85,6 +85,8 @@ def save_m3u_file(output_data, filename="YT_playlist.m3u"):
     """Save the formatted live link information to an M3U file."""
     with open(filename, "w", encoding="utf-8") as file:
         file.write("#EXTM3U\n")
+        # Add the update time as a comment
+        file.write(f"# Updated on {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         for data in output_data:
             file.write(data + "\n")
     print(f"M3U file saved as {filename}")
@@ -131,39 +133,39 @@ if __name__ == "__main__":
     # List of channel IDs to check
     channel_ids = [
         'UCxHoBXkY88Tb8z1Ssj6CWsQ', # Somoy News
-        'UCN6sm8iHiPd0cnoUardDAnw', # Jamuna TV
-        'UCWVqdPTigfQ-cSNwG7O9MeA', # EKHON TV
-        'UCHLqIOMPk20w-6cFgkA90jw', # Channel 24
-        'UCtqvtAVmad5zywaziN6CbfA', # Ekattor TV
-        'UCATUkaOHwO9EP_W87zCiPbA', # Independent Television
-        'UCUvXoiDEKI8VZJrr58g4VAw', # DBC NEWS
-        'UC2P5Fd5g41Gtdqf0Uzh8Qaw', # Rtv News
-        'UC0V3IJCnr6ZNjB9t_GLhFFA', # NTV Live
-        'UC8NcXMG3A3f2aFQyGTpSNww', # Channel i News
-        'UCb2O5Uo4a26CdTE7_2QA-jA', # NEWS24 Television
-        'UCmCCTsDl-eCKw91shC7ZmMw', # Desh TV News
-        'UCRt2klyaxgx89vPF8cFMfnQ', # Kalbela News
-        'UCbf0XHULBkTfv2hBjaaDw9Q', # News18 Bangla
-        'UCdF5Q5QVbYstYrTfpgUl0ZA', # Zee 24 Ghanta
-        'UCHCR4UFsGwd_VcDa0-a4haw', # TV9 Bangla
-        'UCajVjEHDoVn_AHsunUZz_EQ', # Republic Bangla
-        'UCv3rFzn-GHGtqzXiaq3sWNg', # ABP ANANDA
-        'UCNye-wNBqNL5ZzHSJj3l8Bg', # Al Jazeera English
-        'UC7fWeaHhqgM4Ry-RMpM2YYw', # TRT World
+        # 'UCN6sm8iHiPd0cnoUardDAnw', # Jamuna TV
+        # 'UCWVqdPTigfQ-cSNwG7O9MeA', # EKHON TV
+        # 'UCHLqIOMPk20w-6cFgkA90jw', # Channel 24
+        # 'UCtqvtAVmad5zywaziN6CbfA', # Ekattor TV
+        # 'UCATUkaOHwO9EP_W87zCiPbA', # Independent Television
+        # 'UCUvXoiDEKI8VZJrr58g4VAw', # DBC NEWS
+        # 'UC2P5Fd5g41Gtdqf0Uzh8Qaw', # Rtv News
+        # 'UC0V3IJCnr6ZNjB9t_GLhFFA', # NTV Live
+        # 'UC8NcXMG3A3f2aFQyGTpSNww', # Channel i News
+        # 'UCb2O5Uo4a26CdTE7_2QA-jA', # NEWS24 Television
+        # 'UCmCCTsDl-eCKw91shC7ZmMw', # Desh TV News
+        # 'UCRt2klyaxgx89vPF8cFMfnQ', # Kalbela News
+        # 'UCbf0XHULBkTfv2hBjaaDw9Q', # News18 Bangla
+        # 'UCdF5Q5QVbYstYrTfpgUl0ZA', # Zee 24 Ghanta
+        # 'UCHCR4UFsGwd_VcDa0-a4haw', # TV9 Bangla
+        # 'UCajVjEHDoVn_AHsunUZz_EQ', # Republic Bangla
+        # 'UCv3rFzn-GHGtqzXiaq3sWNg', # ABP ANANDA
+        # 'UCNye-wNBqNL5ZzHSJj3l8Bg', # Al Jazeera English
+        # 'UC7fWeaHhqgM4Ry-RMpM2YYw', # TRT World
 
-        'UC9nuJbEL-AMJLLqc2-ej8xQ', # Bongo
-        'UCvoC1eVphUAe7a0m-uuoPbg', # Bongo Movies
-        'UCsr6QVeLlkitleHoS0T4IxQ', # Banglavision DRAMA
-        'UC0AMtPKwU61uDs--L04_kfQ', # Madani Channel Bangla Live
-        'UCEwIUtFBhaI2L2PuKv0KL2g', # Classic Mr Bean
-        'UCDPk9MG2RexnOMGTD-YnSnA', # Nat Geo Animals
+        # 'UC9nuJbEL-AMJLLqc2-ej8xQ', # Bongo
+        # 'UCvoC1eVphUAe7a0m-uuoPbg', # Bongo Movies
+        # 'UCsr6QVeLlkitleHoS0T4IxQ', # Banglavision DRAMA
+        # 'UC0AMtPKwU61uDs--L04_kfQ', # Madani Channel Bangla Live
+        # 'UCEwIUtFBhaI2L2PuKv0KL2g', # Classic Mr Bean
+        # 'UCDPk9MG2RexnOMGTD-YnSnA', # Nat Geo Animals
 
-        'UCmst562fALOY2cKb4IFgqEg', # Boomerang UK
-        'UCiBigY9XM-HaOxUc269ympg', # Green Gold TV - Official Channel
-        'UCu7IDy0y-ZA0qaG51wrQY6w', # Curious George Official
-        'UCVzLLZkDuFGAE2BGdBuBNBg', # Bluey - Official Channel
-        'UCoBpC9J2EcbAMprw7YjC93A', # The Amazing World of Gumball
-        'UCktaw9L-f65LzUUdjmCFkbQ', # Disney XD
+        # 'UCmst562fALOY2cKb4IFgqEg', # Boomerang UK
+        # 'UCiBigY9XM-HaOxUc269ympg', # Green Gold TV - Official Channel
+        # 'UCu7IDy0y-ZA0qaG51wrQY6w', # Curious George Official
+        # 'UCVzLLZkDuFGAE2BGdBuBNBg', # Bluey - Official Channel
+        # 'UCoBpC9J2EcbAMprw7YjC93A', # The Amazing World of Gumball
+        # 'UCktaw9L-f65LzUUdjmCFkbQ', # Disney XD
 
     ]
 
