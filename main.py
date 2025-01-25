@@ -1,6 +1,6 @@
 import googleapiclient.discovery
-import requests 
-import re
+import requests
+from bs4 import BeautifulSoup
 import datetime
 
 # Get the current time
@@ -14,16 +14,22 @@ def grab_youtube(url: str):
     requests.packages.urllib3.disable_warnings()
     stream_info = requests.get(url, timeout=15)
     response = stream_info.text
+    soup = BeautifulSoup(stream_info.text, features="html.parser")
 
     if '.m3u8' not in response or stream_info.status_code != 200:
         return "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4"
 
-    match = re.search(r'(https://.*?\.m3u8)', response)
-    if match:
-        m3u8_link = match.group(1)
-        return m3u8_link
-    else:
-        return "https://github.com/ExperiencersInternational/tvsetup/raw/main/staticch/no_stream_2.mp4"
+    end = response.find('.m3u8') + 5
+    tuner = 100
+    while True:
+        if 'https://' in response[end - tuner: end]:
+            link = response[end - tuner: end]
+            start = link.find('https://')
+            end = link.find('.m3u8') + 5
+            break
+        else:
+            tuner += 5
+    return f"{link[start: end]}"
 
 def get_youtube_service(api_key):
     """Create and return the YouTube service object."""
