@@ -41,7 +41,6 @@ jobs:
         YOUTUBE_API_6: ${{ secrets.YOUTUBE_API_6 }}
         YOUTUBE_API_7: ${{ secrets.YOUTUBE_API_7 }}
         YOUTUBE_API_8: ${{ secrets.YOUTUBE_API_8 }}
-        YOUTUBE_API_9: ${{ secrets.YOUTUBE_API_9 }}
       run: |
         python main.py
 
