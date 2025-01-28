@@ -153,21 +153,21 @@ def main(api_key, channel_ids):
 if __name__ == "__main__":
     # Use the provided API key based on the current hour
     if now.hour >= 0 and now.hour < 3:
-        api_key = API_KEY_1 # allmybooks
+        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"  # allmybooks
     elif now.hour >= 3 and now.hour < 6:
-        api_key = API_KEY_2 # rokonmagura
+        api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"  # rokonmagura
     elif now.hour >= 6 and now.hour < 9:
-        api_key = API_KEY_3 # amirokon1991
+        api_key = "AIzaSyA9AXuZ-x5tkUmaT5VmfWH4KFNc57NTEhA"  # amirokon1991
     elif now.hour >= 9 and now.hour < 12:
-        api_key = API_KEY_4 # deshirambo5
+        api_key = "AIzaSyAd-mn7joueTcJoQWL3nBW2sHzsoDJtAfM"  # deshirambo5
     elif now.hour >= 12 and now.hour < 15:
-        api_key = API_KEY_5 # 4kshort2021
+        api_key = "AIzaSyAXq5VQlni9K7AKk1w2iU-EOCenzL8l4rA"  # 4kshort2021
     elif now.hour >= 15 and now.hour < 18:
-        api_key = API_KEY_6 # deshirambo
+        api_key = "AIzaSyAZuIBq2gMLU9josSi3zTW9Fnp_djzmlLM"  # deshirambo
     elif now.hour >= 18 and now.hour < 21:
-        api_key = API_KEY_7 # onlinesoft427
+        api_key = "AIzaSyBBYUHVcfHZ56lgsZdNB5W_WAUEgyh2hfQ"  # onlinesoft427
     elif now.hour >= 21 and now.hour < 24:
-        api_key = API_KEY_8 # deshirambo10
+        api_key = "AIzaSyC-AStAvJQP0579qUvljAE4mV2X9eRBroo"  # deshirambo10
 
     # List of channel IDs to check
     channel_ids = [
