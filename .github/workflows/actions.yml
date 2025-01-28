@@ -22,12 +22,28 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install google-api-python-client requests beautifulsoup4
+    
+    - name: Load all secrects
+      env:
+        COOKIES: ${{ secrets.COOKIES }}  # Load secret into env variable
+      run: |
+        echo "$COOKIES" > cookies.txt
+        # Quick validation
+        file cookies.txt
 
     - name: Run script
       env:
-        API_KEY: ${{ secrets.YOUTUBE_API_KEY }} # Store your API keys as secrets in the GitHub repository
+        YOUTUBE_API_1: ${{ secrets.YOUTUBE_API_1 }}
+        YOUTUBE_API_2: ${{ secrets.YOUTUBE_API_2 }}
+        YOUTUBE_API_3: ${{ secrets.YOUTUBE_API_3 }}
+        YOUTUBE_API_4: ${{ secrets.YOUTUBE_API_4 }}
+        YOUTUBE_API_5: ${{ secrets.YOUTUBE_API_5 }}
+        YOUTUBE_API_6: ${{ secrets.YOUTUBE_API_6 }}
+        YOUTUBE_API_7: ${{ secrets.YOUTUBE_API_7 }}
+        YOUTUBE_API_8: ${{ secrets.YOUTUBE_API_8 }}
+        YOUTUBE_API_9: ${{ secrets.YOUTUBE_API_9 }}
       run: |
-        python test.py
+        python main.py
 
     - name: Commit and push changes
       env:
