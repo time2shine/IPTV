@@ -232,6 +232,16 @@ channel_metadata = {
         'group_title': 'International News',
         'channel_name': 'TRT World',
     },
+    'UCknLrEdhRCp1aegoMqRaCZg': {  # DW News
+        'channel_number': 152,
+        'group_title': 'International News',
+        'channel_name': 'DW News',
+    },
+    'UCUMZ7gohGI9HcU9VNsr2FJQ': {  # Bloomberg Originals
+        'channel_number': 153,
+        'group_title': 'International News',
+        'channel_name': 'Bloomberg Originals',
+    },
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
@@ -254,6 +264,26 @@ channel_metadata = {
         'group_title': 'Entertainment',
         'channel_name': 'Classic Mr Bean',
     },
+    'UCkAGrHCLFmlK3H2kd6isipg': {  # Mr Bean
+        'channel_number': 205,
+        'group_title': 'Entertainment',
+        'channel_name': 'Mr Bean',
+    },
+    'UC5V8MdQsT_gLlw8rTyf7jVQ': {  # ClipZone: Comedy Callbacks
+        'channel_number': 206,
+        'group_title': 'Entertainment',
+        'channel_name': 'ClipZone: Comedy Callbacks',
+    },
+    'UCQt7Z-GE0wF8AzFNvQEqjvg': {  # ClipZone: Heroes & Villains
+        'channel_number': 207,
+        'group_title': 'Entertainment',
+        'channel_name': 'ClipZone: Heroes & Villains',
+    },
+    'UCw7SNYrYei7F5ttQO3o-rpA': {  # Disney Channel
+        'channel_number': 208,
+        'group_title': 'Entertainment',
+        'channel_name': 'Disney Channel',
+    },
 
     # --- Religious Channels ---
     'UC0AMtPKwU61uDs--L04_kfQ': {  # Madani Channel Bangla Live
@@ -265,8 +295,13 @@ channel_metadata = {
     # --- Wildlife and Educational Channels ---
     'UCDPk9MG2RexnOMGTD-YnSnA': {  # Nat Geo Animals
         'channel_number': 301,
-        'group_title': 'Wildlife',
+        'group_title': 'Educational',
         'channel_name': 'Nat Geo Animals',
+    },
+    'UCpVm7bg6pXKo1Pr6k5kxG9A': {  # National Geographic
+        'channel_number': 302,
+        'group_title': 'Educational',
+        'channel_name': 'National Geographic',
     },
 
     # --- Kids Channels ---
@@ -299,6 +334,21 @@ channel_metadata = {
         'channel_number': 406,
         'group_title': 'Kids',
         'channel_name': 'Disney XD',
+    },
+    'UCNcdbMyA59zE-Vk668bKWOg': {  # Disney Jr.
+        'channel_number': 407,
+        'group_title': 'Kids',
+        'channel_name': 'Disney Jr.',
+    },
+    'UCWE_ywN-0aeFdGVpLQ6mIwg': {  # WildBrain Bananas
+        'channel_number': 408,
+        'group_title': 'Kids',
+        'channel_name': 'WildBrain Bananas',
+    },
+    'UCu59yAFE8fM0sVNTipR4edw': {  # Masha and The Bear
+        'channel_number': 409,
+        'group_title': 'Kids',
+        'channel_name': 'Masha and The Bear',
     },
 }
 
