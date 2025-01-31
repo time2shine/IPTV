@@ -14,17 +14,6 @@ cookies_file_path = 'cookies.txt'
 # Check if the file exists
 if not os.path.exists(cookies_file_path):
     raise FileNotFoundError(f"The file {cookies_file_path} does not exist")
-
-API_KEY_1 = os.getenv('YOUTUBE_API_1')
-API_KEY_2 = os.getenv('YOUTUBE_API_2')
-API_KEY_3 = os.getenv('YOUTUBE_API_3')
-API_KEY_4 = os.getenv('YOUTUBE_API_4')
-API_KEY_5 = os.getenv('YOUTUBE_API_5')
-API_KEY_6 = os.getenv('YOUTUBE_API_6')
-API_KEY_7 = os.getenv('YOUTUBE_API_7')
-API_KEY_8 = os.getenv('YOUTUBE_API_8')
-print(API_KEY_1)
-
         
 def get_user_agent():
     """Return a recent Chrome user agent with random build numbers"""
