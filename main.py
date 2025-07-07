@@ -377,12 +377,12 @@ def main(api_key):
             else:
                 # Include the channel with an empty URL if m3u8 link isn't found
                 formatted_info = format_live_link(
-                    channel_name, channel_logo, '', channel_number, group_title
+                    channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
                 )
         else:
             # Include the channel with an empty URL if no live video is available
             formatted_info = format_live_link(
-                channel_name, channel_logo, '', channel_number, group_title
+                channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
             )
 
         output_data.append(formatted_info)
