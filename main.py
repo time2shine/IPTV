@@ -128,16 +128,16 @@ def get_latest_live_link(youtube, channel_id):
 # Combined mapping of channel IDs to their metadata
 channel_metadata = {
     # --- News Channels (Bangladesh) ---
-    'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
-        'channel_number': 101,
-        'group_title': 'News',
-        'channel_name': 'Somoy News',
-    },
-    'UCN6sm8iHiPd0cnoUardDAnw': {  # Jamuna TV
-        'channel_number': 102,
-        'group_title': 'News',
-        'channel_name': 'Jamuna TV',
-    },
+    # 'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
+    #     'channel_number': 101,
+    #     'group_title': 'News',
+    #     'channel_name': 'Somoy News',
+    # },
+    # 'UCN6sm8iHiPd0cnoUardDAnw': {  # Jamuna TV
+    #     'channel_number': 102,
+    #     'group_title': 'News',
+    #     'channel_name': 'Jamuna TV',
+    # },
     'UCWVqdPTigfQ-cSNwG7O9MeA': {  # EKHON TV
         'channel_number': 103,
         'group_title': 'News',
