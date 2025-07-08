@@ -173,10 +173,10 @@ channel_metadata = {
         'group_title': 'News',
         'channel_name': 'NTV Live',
     },
-    'UC8NcXMG3A3f2aFQyGTpSNww': {  # Channel i News
+    'UCAz6rveBalVnE6qTmfQnvyQ': {  # Channel i Tv
         'channel_number': 110,
         'group_title': 'News',
-        'channel_name': 'Channel i News',
+        'channel_name': 'Channel i Tv',
     },
     'UCb2O5Uo4a26CdTE7_2QA-jA': {  # NEWS24 Television
         'channel_number': 111,
