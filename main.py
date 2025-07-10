@@ -128,16 +128,16 @@ def get_latest_live_link(youtube, channel_id):
 # Combined mapping of channel IDs to their metadata
 channel_metadata = {
     # --- News Channels (Bangladesh) ---
-    # 'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
-    #     'channel_number': 101,
-    #     'group_title': 'News',
-    #     'channel_name': 'Somoy News',
-    # },
-    # 'UCN6sm8iHiPd0cnoUardDAnw': {  # Jamuna TV
-    #     'channel_number': 102,
-    #     'group_title': 'News',
-    #     'channel_name': 'Jamuna TV',
-    # },
+    'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
+        'channel_number': 101,
+        'group_title': 'News',
+        'channel_name': 'Somoy News',
+    },
+    'UCN6sm8iHiPd0cnoUardDAnw': {  # Jamuna TV
+        'channel_number': 102,
+        'group_title': 'News',
+        'channel_name': 'Jamuna TV',
+    },
     'UCWVqdPTigfQ-cSNwG7O9MeA': {  # EKHON TV
         'channel_number': 103,
         'group_title': 'News',
@@ -173,10 +173,10 @@ channel_metadata = {
         'group_title': 'News',
         'channel_name': 'NTV Live',
     },
-    'UCAz6rveBalVnE6qTmfQnvyQ': {  # Channel i Tv
+    'UC8NcXMG3A3f2aFQyGTpSNww': {  # Channel i News
         'channel_number': 110,
         'group_title': 'News',
-        'channel_name': 'Channel i Tv',
+        'channel_name': 'Channel i News',
     },
     'UCb2O5Uo4a26CdTE7_2QA-jA': {  # NEWS24 Television
         'channel_number': 111,
@@ -192,11 +192,6 @@ channel_metadata = {
         'channel_number': 113,
         'group_title': 'News',
         'channel_name': 'Kalbela News',
-    },
-        'UC9Rgo0CrNyd7OWliLekqqGA': {  # ATN News
-        'channel_number': 114,
-        'group_title': 'News',
-        'channel_name': 'ATN News',
     },
 
     # --- News Channels (India) ---
@@ -247,26 +242,6 @@ channel_metadata = {
         'group_title': 'International News',
         'channel_name': 'Bloomberg Originals',
     },
-    'UCeY0bbntWzzVIaj2z3QigXg': {  # NBC News
-        'channel_number': 154,
-        'group_title': 'International News',
-        'channel_name': 'NBC News',
-    },
-    'UCJg9wBPyKMNA5sRDnvzmkdg': {  # FOX News
-        'channel_number': 155,
-        'group_title': 'International News',
-        'channel_name': 'FOX News',
-    },
-    'UC_gUM8rL-Lrg6O3adPW9K1g': {  # WION News
-        'channel_number': 156,
-        'group_title': 'International News',
-        'channel_name': 'WION News',
-    },
-    'UC8p1vwvWtl6T73JiExfWs1g': {  # CBS News
-        'channel_number': 157,
-        'group_title': 'International News',
-        'channel_name': 'CBS News',
-    },
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
@@ -274,48 +249,38 @@ channel_metadata = {
         'group_title': 'Entertainment',
         'channel_name': 'Bongo',
     },
-    'UCOYO3aGLstUQQEGsy8PHU-g': {  # Bongo Drama
-        'channel_number': 202,
-        'group_title': 'Entertainment',
-        'channel_name': 'Bongo Drama',
-    },
-    'UCgH2KCRzsLJPNvvDe31mczw': {  # ATN Bangla Natok
-        'channel_number': 203,
-        'group_title': 'Entertainment',
-        'channel_name': 'ATN Bangla Natok',
-    },
     'UCvoC1eVphUAe7a0m-uuoPbg': {  # Bongo Movies
-        'channel_number': 204,
+        'channel_number': 202,
         'group_title': 'Entertainment',
         'channel_name': 'Bongo Movies',
     },
     'UCsr6QVeLlkitleHoS0T4IxQ': {  # Banglavision DRAMA
-        'channel_number': 205,
+        'channel_number': 203,
         'group_title': 'Entertainment',
         'channel_name': 'Banglavision DRAMA',
     },
     'UCEwIUtFBhaI2L2PuKv0KL2g': {  # Classic Mr Bean
-        'channel_number': 206,
+        'channel_number': 204,
         'group_title': 'Entertainment',
         'channel_name': 'Classic Mr Bean',
     },
     'UCkAGrHCLFmlK3H2kd6isipg': {  # Mr Bean
-        'channel_number': 207,
+        'channel_number': 205,
         'group_title': 'Entertainment',
         'channel_name': 'Mr Bean',
     },
     'UC5V8MdQsT_gLlw8rTyf7jVQ': {  # ClipZone: Comedy Callbacks
-        'channel_number': 208,
+        'channel_number': 206,
         'group_title': 'Entertainment',
         'channel_name': 'ClipZone: Comedy Callbacks',
     },
     'UCQt7Z-GE0wF8AzFNvQEqjvg': {  # ClipZone: Heroes & Villains
-        'channel_number': 209,
+        'channel_number': 207,
         'group_title': 'Entertainment',
         'channel_name': 'ClipZone: Heroes & Villains',
     },
     'UCw7SNYrYei7F5ttQO3o-rpA': {  # Disney Channel
-        'channel_number': 210,
+        'channel_number': 208,
         'group_title': 'Entertainment',
         'channel_name': 'Disney Channel',
     },
@@ -412,12 +377,12 @@ def main(api_key):
             else:
                 # Include the channel with an empty URL if m3u8 link isn't found
                 formatted_info = format_live_link(
-                    channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
+                    channel_name, channel_logo, '', channel_number, group_title
                 )
         else:
             # Include the channel with an empty URL if no live video is available
             formatted_info = format_live_link(
-                channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
+                channel_name, channel_logo, '', channel_number, group_title
             )
 
         output_data.append(formatted_info)
