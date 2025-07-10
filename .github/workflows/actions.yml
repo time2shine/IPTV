@@ -2,8 +2,8 @@ name: YouTube Live Link Check
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Runs at 30 minutes past the hour, every 3 hours, between 07:00 and 23:59.
-  workflow_dispatch: # Allows you to run the workflow manually from the GitHub interface
+    - cron: '10 */3 * * *'  # Runs every 3 hours at minute 10
+  workflow_dispatch:      # Allows manual run
 
 jobs:
   fetch-youtube:
@@ -11,20 +11,21 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.9' # Specify the version of Python you want to use
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install yt_dlp google-api-python-client
-    
+
     - name: Run script
       env:
+        # Provide your API keys here, you can pass as one or multiple if your script handles it
         YOUTUBE_API_1: ${{ secrets.YOUTUBE_API_1 }}
         YOUTUBE_API_2: ${{ secrets.YOUTUBE_API_2 }}
         YOUTUBE_API_3: ${{ secrets.YOUTUBE_API_3 }}
@@ -36,13 +37,18 @@ jobs:
       run: |
         python main.py
 
-    - name: Commit and push changes
+    - name: Commit and push changes if updated
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        current_time=$(date +"%Y-%m-%d %H:%M:%S")
         git add YT_playlist.m3u
-        git commit -m 'Updated m3u playlist via Action in every 3 Hours at $current_time'
-        git push
+        # Only commit if there are changes
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          current_time=$(date +"%Y-%m-%d %H:%M:%S")
+          git commit -m "Updated m3u playlist via Action every 3 hours at $current_time"
+          git push
+        fi
