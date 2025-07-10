@@ -8,7 +8,6 @@ import logging
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
-BACKUP_M3U = True
 MAX_API_RETRIES = 3
 RETRY_WAIT_SECONDS = 5
 
@@ -110,12 +109,7 @@ def format_live_link(channel_name, channel_logo, m3u8_link, channel_number, grou
 
 
 def save_m3u_file(output_data, base_filename="YT_playlist"):
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"{base_filename}_{timestamp}.m3u"
-
-    if BACKUP_M3U and os.path.exists(f"{base_filename}.m3u"):
-        os.rename(f"{base_filename}.m3u", f"{base_filename}_backup.m3u")
-        logger.info(f"Previous M3U renamed to {base_filename}_backup.m3u")
+    filename = f"{base_filename}.m3u"
 
     with open(filename, "w", encoding="utf-8") as file:
         file.write("#EXTM3U\n")
@@ -123,6 +117,7 @@ def save_m3u_file(output_data, base_filename="YT_playlist"):
         for data in output_data:
             file.write(data + "\n")
     logger.info(f"M3U playlist saved as {filename}")
+
 
 
 # Your channel metadata dictionary
