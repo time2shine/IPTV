@@ -393,39 +393,33 @@ def main(api_key):
     output_data = []
 
     for channel_id, metadata in channel_metadata.items():
-        # Retrieve channel metadata
         channel_number = metadata.get('channel_number', '0')
         group_title = metadata.get('group_title', 'Others')
         channel_name = metadata.get('channel_name', 'Unknown')
 
-        # Fetch channel info (logo)
+        # Fetch channel logo
         channel_logo = get_channel_info(youtube, channel_id)
 
-        # Fetch the latest live link
+        # Fetch latest live link
         live_link = get_latest_live_link(youtube, channel_id)
-        if live_link:
-            m3u8_link = get_stream_url(live_link)
-            if m3u8_link:
-                formatted_info = format_live_link(
-                    channel_name, channel_logo, m3u8_link, channel_number, group_title
-                )
-            else:
-                # Include the channel with an empty URL if m3u8 link isn't found
-                formatted_info = format_live_link(
-                    channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
-                )
-        else:
-            # Include the channel with an empty URL if no live video is available
-            formatted_info = format_live_link(
-                channel_name, channel_logo, 'https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/no_stream.mp4', channel_number, group_title
-            )
+        if not live_link:
+            continue  # No live video at all; skip
 
+        # Get the stream URL (m3u8)
+        m3u8_link = get_stream_url(live_link)
+        if not m3u8_link:
+            continue  # Could not get a usable m3u8; skip
+
+        # Only add channels with a real m3u8 link
+        formatted_info = format_live_link(
+            channel_name, channel_logo, m3u8_link, channel_number, group_title
+        )
         output_data.append(formatted_info)
 
     if output_data:
         save_m3u_file(output_data)
     else:
-        print("No videos available for any of the channels.")
+        print("No channels with working m3u8 streams found.")
 
 if __name__ == "__main__":
     # Use the provided API key based on the current hour
