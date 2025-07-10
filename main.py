@@ -8,8 +8,8 @@ import logging
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
-MAX_API_RETRIES = 3
-RETRY_WAIT_SECONDS = 5
+MAX_API_RETRIES = 1
+RETRY_WAIT_SECONDS = 3
 
 # --- LOGGING ---
 logging.basicConfig(
