@@ -1,6 +1,11 @@
 import yt_dlp
 import requests
 import random
+import time
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 30+ User-Agent strings (various browsers, OS, devices)
 USER_AGENTS = [
@@ -47,6 +52,7 @@ ACCEPT_LANGUAGES = [
     'pt-BR,pt;q=0.9,en;q=0.8',
     'ru-RU,ru;q=0.9,en;q=0.8',
 ]
+
 
 # Your channels dict example:
 channels = {
@@ -345,22 +351,27 @@ def get_youtube_live_m3u8(channel_id, cookies_file='cookies.txt'):
                     return f.get('url')
             return info.get('url', None)
         except Exception as e:
-            print(f"Error fetching live stream for {channel_id}: {e}")
+            logging.warning(f"Error fetching live stream for {channel_id}: {e}")
             return None
 
-def check_m3u8_link(url):
-    try:
-        resp = requests.head(url, timeout=10, allow_redirects=True)
-        return resp.status_code == 200
-    except requests.RequestException as e:
-        print(f"Error checking URL {url}: {e}")
-        return False
+def check_m3u8_link(url, retries=2):
+    for attempt in range(retries):
+        try:
+            resp = requests.head(url, timeout=5, allow_redirects=True)
+            if resp.status_code == 200:
+                return True
+            else:
+                logging.debug(f"HEAD request status {resp.status_code} for URL: {url}")
+        except requests.RequestException as e:
+            logging.debug(f"Attempt {attempt+1} failed checking URL {url}: {e}")
+        time.sleep(random.uniform(0.5, 1.5))  # small delay before retry
+    return False
 
 def save_to_m3u(channels, filename='YT_playlist.m3u'):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
         for channel_id, info in channels.items():
-            print(f"Processing channel: {info['channel_name']} ({channel_id})")
+            logging.info(f"Processing channel: {info['channel_name']} ({channel_id})")
             m3u8_url = get_youtube_live_m3u8(channel_id)
             if m3u8_url and check_m3u8_link(m3u8_url):
                 line_info = (
@@ -374,9 +385,11 @@ def save_to_m3u(channels, filename='YT_playlist.m3u'):
                 )
                 f.write(line_info)
                 f.write(m3u8_url + '\n')
-                print(f"Added: {info['channel_name']}")
+                logging.info(f"Added: {info['channel_name']}")
             else:
-                print(f"Skipped {info['channel_name']}: No valid live stream found or URL not reachable.")
+                logging.info(f"Skipped {info['channel_name']}: No valid live stream or URL not reachable.")
+            # Random delay between 1 to 3 seconds between channel processing
+            time.sleep(random.uniform(1, 3))
 
 if __name__ == '__main__':
     save_to_m3u(channels)
