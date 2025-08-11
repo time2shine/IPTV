@@ -1,13 +1,14 @@
 import random
-import yt_dlp
-import requests
-import os
 import datetime
+import yt_dlp
+import os
+import time
 import logging
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
-CHECK_M3U8_TIMEOUT = 10  # seconds
+MAX_API_RETRIES = 1
+RETRY_WAIT_SECONDS = 3
 
 # --- LOGGING ---
 logging.basicConfig(
@@ -19,7 +20,8 @@ logger = logging.getLogger(__name__)
 
 # --- Check cookies file exists ---
 if not os.path.exists(cookies_file_path):
-    logger.warning(f"Cookies file not found: {cookies_file_path}. Proceeding without cookies.")
+    raise FileNotFoundError(f"Missing cookies file: {cookies_file_path}")
+
 
 def get_user_agent():
     versions = [
@@ -32,85 +34,69 @@ def get_user_agent():
         f"Chrome/{major}.0.{build}.{patch} Safari/537.36"
     )
 
-def get_live_video_url(channel_id):
-    """Check if the channel is live by requesting /channel/{channel_id}/live.
-    If redirected to /watch?v=video_id, return that live video URL.
-    Else None."""
-    url = f"https://www.youtube.com/channel/{channel_id}/live"
-    headers = {
-        'User-Agent': get_user_agent(),
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': 'https://www.youtube.com/',
-    }
-    try:
-        # Allow redirects to find the final URL
-        response = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
-        final_url = response.url
-        if '/watch?v=' in final_url:
-            logger.info(f"Live video found for channel {channel_id}: {final_url}")
-            return final_url
-        else:
-            logger.info(f"No live video found for channel {channel_id}")
-            return None
-    except Exception as e:
-        logger.error(f"Error checking live video for channel {channel_id}: {e}")
-        return None
 
-def get_stream_url(url):
+def get_live_video_url(channel_id):
+    url = f"https://www.youtube.com/channel/{channel_id}/live"
     ydl_opts = {
         'format': 'best',
-        'cookiefile': cookies_file_path if os.path.exists(cookies_file_path) else None,
+        'cookiefile': cookies_file_path,
         'force_ipv4': True,
-        'retries': 5,
-        'fragment_retries': 5,
+        'retries': 10,
+        'fragment_retries': 10,
         'skip_unavailable_fragments': True,
         'extractor_args': {'youtube': {'skip': ['translated_subs']}},
         'http_headers': {
             'User-Agent': get_user_agent(),
             'Accept-Language': 'en-US,en;q=0.9',
             'Referer': 'https://www.youtube.com/',
+            'Sec-Fetch-Mode': 'navigate',
         },
         'quiet': True,
         'no_warnings': True
     }
 
-    # Remove None keys (like cookiefile if no cookie)
-    ydl_opts = {k:v for k,v in ydl_opts.items() if v is not None}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=False)
+        # If live video is active, yt-dlp gives info about that video
+        if info and 'url' in info:
+            return info['url']
+        # Sometimes info['entries'] contains the video list
+        if info and 'entries' in info and len(info['entries']) > 0:
+            return info['entries'][0]['url']
+    return None
+
+
+def get_stream_url(url):
+    ydl_opts = {
+        'format': 'best',
+        'cookiefile': cookies_file_path,
+        'force_ipv4': True,
+        'retries': 10,
+        'fragment_retries': 10,
+        'skip_unavailable_fragments': True,
+        'extractor_args': {'youtube': {'skip': ['translated_subs']}},
+        'http_headers': {
+            'User-Agent': get_user_agent(),
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://www.youtube.com/',
+            'Sec-Fetch-Mode': 'navigate',
+        },
+        'quiet': True,
+        'no_warnings': True
+    }
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(url, download=False)
-            m3u8_urls = [
-                fmt['manifest_url'] for fmt in info.get('formats', [])
-                if fmt.get('protocol') in ['m3u8', 'm3u8_native']
-            ]
-            if m3u8_urls:
-                return m3u8_urls[0]  # Return first m3u8 URL found
-            else:
-                logger.warning(f"No m3u8 stream found for {url}")
-                return None
+            return next(
+                (fmt['url'] for fmt in info['formats']
+                 if fmt.get('protocol') in ['m3u8', 'm3u8_native']),
+                None
+            )
     except Exception as e:
-        logger.error(f"Failed to extract stream URL from {url}: {e}")
+        logger.error(f"Failed to get stream URL for {url}: {e}")
         return None
 
-def check_m3u8_url(url):
-    """Check if the m3u8 URL is reachable (HEAD request)"""
-    headers = {
-        'User-Agent': get_user_agent(),
-        'Accept': '*/*',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': 'https://www.youtube.com/',
-    }
-    try:
-        r = requests.head(url, headers=headers, timeout=CHECK_M3U8_TIMEOUT)
-        if r.status_code == 200:
-            return True
-        else:
-            logger.warning(f"m3u8 URL not reachable (status {r.status_code}): {url}")
-            return False
-    except Exception as e:
-        logger.warning(f"Failed to reach m3u8 URL: {url} - {e}")
-        return False
 
 def format_live_link(channel_name, channel_logo, m3u8_link, channel_number, group_title):
     return (
@@ -119,8 +105,10 @@ def format_live_link(channel_name, channel_logo, m3u8_link, channel_number, grou
         f'{channel_name}\n{m3u8_link}'
     )
 
+
 def save_m3u_file(output_data, base_filename="YT_playlist"):
     filename = f"{base_filename}.m3u"
+
     with open(filename, "w", encoding="utf-8") as file:
         file.write("#EXTM3U\n")
         file.write(f"# Updated on {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -128,47 +116,65 @@ def save_m3u_file(output_data, base_filename="YT_playlist"):
             file.write(data + "\n")
     logger.info(f"M3U playlist saved as {filename}")
 
-# --- Channel metadata (simplified example, add your channels here) ---
-channel_metadata = {
-    'UCWVqdPTigfQ-cSNwG7O9MeA': {
-        'channel_number': 103,
-        'group_title': 'News',
-        'channel_name': 'EKHON TV',
-        'channel_logo': 'https://yt3.googleusercontent.com/66cO7vPXs2Xssf6fq2cn90oDsJ3OFMThb57qfRkRMjaSqg3ouTG6m9WQKZFg6GmUS5G8wkPu7ik=s72-c-k-c0x00ffffff-no-rj',
-    },
-    # Add other channels...
-}
 
-def main():
+def save_to_m3u(channels_dict):
     output_data = []
 
-    for channel_id, meta in channel_metadata.items():
-        logger.info(f"Processing channel: {meta['channel_name']}")
+    for channel_id, info in channels_dict.items():
+        logger.info(f"Processing channel: {info['channel_name']} (ID: {channel_id})")
+        live_url = None
+        m3u8_link = None
 
-        live_url = get_live_video_url(channel_id)
+        # Retry logic for getting live video url
+        for attempt in range(MAX_API_RETRIES + 1):
+            try:
+                live_url = get_live_video_url(channel_id)
+                if live_url:
+                    break
+            except Exception as e:
+                logger.warning(f"Attempt {attempt + 1} failed to get live video URL for {info['channel_name']}: {e}")
+                time.sleep(RETRY_WAIT_SECONDS)
+
         if not live_url:
-            logger.info(f"No live stream for {meta['channel_name']}")
+            logger.warning(f"No live video found for {info['channel_name']} ({channel_id}). Skipping.")
             continue
 
-        m3u8_url = get_stream_url(live_url)
-        if not m3u8_url:
-            logger.info(f"No m3u8 stream for {meta['channel_name']}")
+        # Retry logic for getting m3u8 stream url
+        for attempt in range(MAX_API_RETRIES + 1):
+            try:
+                m3u8_link = get_stream_url(live_url)
+                if m3u8_link:
+                    break
+            except Exception as e:
+                logger.warning(f"Attempt {attempt + 1} failed to get m3u8 stream URL for {info['channel_name']}: {e}")
+                time.sleep(RETRY_WAIT_SECONDS)
+
+        if not m3u8_link:
+            logger.warning(f"Could not extract m3u8 stream URL for {info['channel_name']} ({channel_id}). Skipping.")
             continue
 
-        if not check_m3u8_url(m3u8_url):
-            logger.info(f"m3u8 URL unreachable for {meta['channel_name']}")
-            continue
-
-        formatted = format_live_link(
-            meta['channel_name'], meta['channel_logo'],
-            m3u8_url, meta['channel_number'], meta['group_title']
+        line = format_live_link(
+            channel_name=info['channel_name'],
+            channel_logo=info.get('channel_logo', ''),
+            m3u8_link=m3u8_link,
+            channel_number=info.get('channel_number', 0),
+            group_title=info.get('group_title', '')
         )
-        output_data.append(formatted)
+        output_data.append(line)
 
-    if output_data:
-        save_m3u_file(output_data)
-    else:
-        logger.warning("No live streams with valid m3u8 found.")
+    save_m3u_file(output_data)
 
-if __name__ == "__main__":
-    main()
+
+# Example channels dictionary (use your full list here)
+channels = {
+    'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
+        'channel_number': 101,
+        'group_title': 'News',
+        'channel_name': 'Somoy News',
+        'channel_logo': 'https://yt3.googleusercontent.com/7F-3_9yjPiMJzBAuD7niglcJmFyXCrFGSEugcEroFrIkxudmhiZ9i-Q_pW4Zrn2IiCLN5dQX8A=s160-c-k-c0x00ffffff-no-rj',
+    },
+    # Add other channels as needed...
+}
+
+if __name__ == '__main__':
+    save_to_m3u(channels)
