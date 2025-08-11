@@ -123,18 +123,6 @@ def save_m3u_file(output_data, base_filename="YT_playlist"):
 # Your channel metadata dictionary
 channel_metadata = {
     # --- News Channels (Bangladesh) ---
-    'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # Somoy News
-        'channel_number': 101,
-        'group_title': 'News',
-        'channel_name': 'Somoy News',
-        'channel_logo': 'https://yt3.googleusercontent.com/7F-3_9yjPiMJzBAuD7niglcJmFyXCrFGSEugcEroFrIkxudmhiZ9i-Q_pW4Zrn2IiCLN5dQX8A=s160-c-k-c0x00ffffff-no-rj',
-    },
-    'UCN6sm8iHiPd0cnoUardDAnw': {  # Jamuna TV
-        'channel_number': 102,
-        'group_title': 'News',
-        'channel_name': 'Jamuna TV',
-        'channel_logo': 'https://yt3.ggpht.com/54prTx28YpPxSpk_PfJGuOfQgcZbNdvbfk0adGePrAvINO4Mo9_bw3j-J4seXn6hNGuMr1ck=s176-c-k-c0x00ffffff-no-rj-mo',
-    },
     'UCWVqdPTigfQ-cSNwG7O9MeA': {  # EKHON TV
         'channel_number': 103,
         'group_title': 'News',
@@ -311,12 +299,6 @@ channel_metadata = {
     },
 
     # --- Religious Channels ---
-    'UC0AMtPKwU61uDs--L04_kfQ': {  # Madani Channel Bangla Live
-        'channel_number': 251,
-        'group_title': 'Religious',
-        'channel_name': 'Madani Channel Bangla Live',
-        'channel_logo': '',
-    },
 
     # --- Wildlife and Educational Channels ---
     'UCDPk9MG2RexnOMGTD-YnSnA': {  # Nat Geo Animals
@@ -333,18 +315,6 @@ channel_metadata = {
     },
 
     # --- Kids Channels ---
-    'UCmst562fALOY2cKb4IFgqEg': {  # Boomerang UK
-        'channel_number': 401,
-        'group_title': 'Kids',
-        'channel_name': 'Boomerang UK',
-        'channel_logo': '',
-    },
-    'UCiBigY9XM-HaOxUc269ympg': {  # Green Gold TV - Official Channel
-        'channel_number': 402,
-        'group_title': 'Kids',
-        'channel_name': 'Green Gold TV',
-        'channel_logo': '',
-    },
     'UCu7IDy0y-ZA0qaG51wrQY6w': {  # Curious George Official
         'channel_number': 403,
         'group_title': 'Kids',
@@ -361,24 +331,6 @@ channel_metadata = {
         'channel_number': 405,
         'group_title': 'Kids',
         'channel_name': 'The Amazing World of Gumball',
-        'channel_logo': '',
-    },
-    'UCktaw9L-f65LzUUdjmCFkbQ': {  # Disney XD
-        'channel_number': 406,
-        'group_title': 'Kids',
-        'channel_name': 'Disney XD',
-        'channel_logo': '',
-    },
-    'UCNcdbMyA59zE-Vk668bKWOg': {  # Disney Jr.
-        'channel_number': 407,
-        'group_title': 'Kids',
-        'channel_name': 'Disney Jr.',
-        'channel_logo': '',
-    },
-    'UCWE_ywN-0aeFdGVpLQ6mIwg': {  # WildBrain Bananas
-        'channel_number': 408,
-        'group_title': 'Kids',
-        'channel_name': 'WildBrain Bananas',
         'channel_logo': '',
     },
     'UCu59yAFE8fM0sVNTipR4edw': {  # Masha and The Bear
@@ -429,16 +381,17 @@ if __name__ == "__main__":
     elif 3 <= now.hour < 6:
         api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"
     elif 6 <= now.hour < 9:
-        api_key = "AIzaSyA7ySJB3-FKUUWFpcT6PpCcF578936a8jQ"
-    elif 9 <= now.hour < 12:
-        api_key = "AIzaSyA_58ry30FZ2qUQFNiJXJgNXJfCYj-0-9k"
-    elif 12 <= now.hour < 15:
-        api_key = "AIzaSyDYyv5PWLhOCRxAwMkiaH9VY_BXwMi3VzM"
-    elif 15 <= now.hour < 18:
         api_key = "AIzaSyDJ5CkvzxGaJL99SdGqENypUVcm0nFaKEQ"
-    elif 18 <= now.hour < 21:
+    elif 9 <= now.hour < 12:
         api_key = "AIzaSyDO8JaYU6HbD8PdypJhG-EkFi4nojq0hrE"
-    else:
+    elif 12 <= now.hour < 15:
         api_key = "AIzaSyCxklIr0fXmsjmiwzoDfBBT0DxtMpWQS68"
+    elif 15 <= now.hour < 18:
+        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU"
+    elif 18 <= now.hour < 21:
+        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU"
+    else:
+        api_key = "AIzaSyCzk9DwsciObuhF3sNUbX1BdBBt0sNRwOw"
 
     main(api_key)
+
