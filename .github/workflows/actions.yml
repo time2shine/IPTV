@@ -2,8 +2,8 @@ name: Run YouTube Live Link Script
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # every 3 hours; adjust as needed
-  workflow_dispatch:      # allow manual trigger
+    - cron: '0 */3 * * *'  # every 3 hours, adjust as needed
+  workflow_dispatch:      # allow manual/manual trigger from GitHub UI
 
 jobs:
   run-script:
@@ -27,7 +27,7 @@ jobs:
         run: python Youtube_Live_Link.py
 
       - name: Upload generated playlist artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: YT_playlist
-          path: YT_playlist.m3u   # update if your script outputs a different filename
+          path: YT_playlist.m3u
