@@ -3,12 +3,12 @@ from googleapiclient.discovery import build
 keys = [
     "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ",  # allmybooks
     "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI",  # rokonmagura
-    "AIzaSyA7ySJB3-FKUUWFpcT6PpCcF578936a8jQ",  # deshirambo11
-    "AIzaSyA_58ry30FZ2qUQFNiJXJgNXJfCYj-0-9k",  # deshirambo12
-    "AIzaSyDYyv5PWLhOCRxAwMkiaH9VY_BXwMi3VzM",  # deshirambo13
     "AIzaSyDJ5CkvzxGaJL99SdGqENypUVcm0nFaKEQ",  # deshirambo14
     "AIzaSyDO8JaYU6HbD8PdypJhG-EkFi4nojq0hrE",  # deshirambo15
-    "AIzaSyCxklIr0fXmsjmiwzoDfBBT0DxtMpWQS68"  # deshirambo16
+    "AIzaSyCxklIr0fXmsjmiwzoDfBBT0DxtMpWQS68",  # deshirambo16
+    "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU", # deshirambo17
+    "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU", # deshirambo18
+    "AIzaSyCzk9DwsciObuhF3sNUbX1BdBBt0sNRwOw", # deshirambo19
 ]
 
 for key in keys:
