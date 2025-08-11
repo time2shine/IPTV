@@ -1,5 +1,52 @@
 import yt_dlp
 import requests
+import random
+
+# 30+ User-Agent strings (various browsers, OS, devices)
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:117.0) Gecko/20100101 Firefox/117.0",
+    "Mozilla/5.0 (Linux; Android 13; Pixel 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 12_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:117.0) Gecko/20100101 Firefox/117.0",
+    "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+    "Mozilla/5.0 (Linux; Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_7_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15",
+    "Mozilla/5.0 (Linux; Android 11; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:117.0) Gecko/20100101 Firefox/117.0",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36",
+    "Mozilla/5.0 (iPad; CPU OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 9; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/117.0.2045.60",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:116.0) Gecko/20100101 Firefox/116.0",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 8.1.0; Nexus 5X Build/OPM6.171019.030) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Mobile Safari/537.36",
+]
+
+ACCEPT_LANGUAGES = [
+    'en-US,en;q=0.9',
+    'en-GB,en;q=0.8',
+    'en-AU,en;q=0.7',
+    'fr-FR,fr;q=0.9,en;q=0.8',
+    'de-DE,de;q=0.9,en;q=0.8',
+    'es-ES,es;q=0.9,en;q=0.8',
+    'it-IT,it;q=0.9,en;q=0.8',
+    'nl-NL,nl;q=0.9,en;q=0.8',
+    'pt-BR,pt;q=0.9,en;q=0.8',
+    'ru-RU,ru;q=0.9,en;q=0.8',
+]
 
 # Your channels dict example:
 channels = {
@@ -270,13 +317,24 @@ channels = {
     },
 }
 
-def get_youtube_live_m3u8(channel_id):
+def get_random_headers():
+    return {
+        'User-Agent': random.choice(USER_AGENTS),
+        'Accept-Language': random.choice(ACCEPT_LANGUAGES),
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+    }
+
+def get_youtube_live_m3u8(channel_id, cookies_file='cookies.txt'):
+    headers = get_random_headers()
     channel_live_url = f'https://www.youtube.com/channel/{channel_id}/live'
     ydl_opts = {
         'quiet': True,
         'skip_download': True,
         'forceurl': True,
         'format': 'best[ext=m3u8_native]/best',
+        'cookiefile': cookies_file,
+        'http_headers': headers,
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
@@ -285,7 +343,6 @@ def get_youtube_live_m3u8(channel_id):
             for f in formats:
                 if f.get('ext') == 'm3u8_native':
                     return f.get('url')
-            # fallback to best URL if no m3u8_native found
             return info.get('url', None)
         except Exception as e:
             print(f"Error fetching live stream for {channel_id}: {e}")
@@ -293,7 +350,6 @@ def get_youtube_live_m3u8(channel_id):
 
 def check_m3u8_link(url):
     try:
-        # Use HEAD request to check if link is reachable and returns status 200
         resp = requests.head(url, timeout=10, allow_redirects=True)
         return resp.status_code == 200
     except requests.RequestException as e:
@@ -318,9 +374,9 @@ def save_to_m3u(channels, filename='YT_playlist.m3u'):
                 )
                 f.write(line_info)
                 f.write(m3u8_url + '\n')
-                print(f"Added: {info['channel_name']} with URL: {m3u8_url}")
+                print(f"Added: {info['channel_name']}")
             else:
-                print(f"Skipped {info['channel_name']}: No valid live stream found or link is dead.")
+                print(f"Skipped {info['channel_name']}: No valid live stream found or URL not reachable.")
 
 if __name__ == '__main__':
     save_to_m3u(channels)
