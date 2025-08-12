@@ -33,7 +33,7 @@ def get_stream_url(video_url: str) -> str:
     return None
 
 if __name__ == "__main__":
-    link = 'https://www.youtube.com/watch?v=TdwhCOFh9OA'
+    link = 'https://www.youtube.com/watch?v=uCrFivSCzNo'
     bd_link = force_bd_region(link)
     stream_url = get_stream_url(bd_link)
     if stream_url:
