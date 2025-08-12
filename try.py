@@ -10,7 +10,7 @@ import logging
 cookies_file_path = 'cookies.txt'
 MAX_API_RETRIES = 1
 RETRY_WAIT_SECONDS = 3
-link = 'https://www.youtube.com/watch?v=TdwhCOFh9OA'
+link = 'https://www.youtube.com/watch?v=uCrFivSCzNo'
 
 # --- LOGGING ---
 logging.basicConfig(
