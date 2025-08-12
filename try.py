@@ -15,7 +15,7 @@ def force_bd_region(url: str) -> str:
 
 def get_stream_url(video_url: str) -> str:
     ydl_opts = {
-        'cookies': cookies_file_path,
+        'cookiefile': cookies_file_path,
         'format': 'best[ext=m3u8]/best',
         'quiet': True,
     }
