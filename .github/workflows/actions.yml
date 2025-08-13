@@ -35,7 +35,7 @@ jobs:
         YOUTUBE_API_7: ${{ secrets.YOUTUBE_API_7 }}
         YOUTUBE_API_8: ${{ secrets.YOUTUBE_API_8 }}
       run: |
-        python main.py
+        python try.py
 
     - name: Commit and push changes if updated
       env:
@@ -52,5 +52,6 @@ jobs:
           git commit -m "Updated m3u playlist via Action every 3 hours at $current_time"
           git push
         fi
+
 
 
