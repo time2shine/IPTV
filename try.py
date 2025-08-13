@@ -18,6 +18,6 @@ def get_live_video_url(channel_id):
             return info['entries'][0]['url']
     return None
 
-channel_id = 'UCxHoBXkY88Tb8z1Ssj6CWsQ'  # Your example channel
+channel_id = 'UCtqvtAVmad5zywaziN6CbfA'  # Your example channel
 live_url = get_live_video_url(channel_id)
 print("Live video URL:", live_url)
