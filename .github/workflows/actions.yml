@@ -2,7 +2,7 @@ name: YouTube Live Link Check
 
 on:
   schedule:
-    - cron: '10 */3 * * *'  # Runs every 3 hours at minute 10
+    - cron: '10 8,12,16,20 * * *'  # Runs at 08:10, 12:10, 16:10, and 20:10 daily
   workflow_dispatch:      # Allows manual run
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
