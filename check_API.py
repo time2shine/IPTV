@@ -1,11 +1,9 @@
 from googleapiclient.discovery import build
 
 keys = [
-    "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ",  # allmybooks
     "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI",  # rokonmagura
-    "AIzaSyDJ5CkvzxGaJL99SdGqENypUVcm0nFaKEQ",  # deshirambo14
-    "AIzaSyDO8JaYU6HbD8PdypJhG-EkFi4nojq0hrE",  # deshirambo15
-    "AIzaSyCxklIr0fXmsjmiwzoDfBBT0DxtMpWQS68",  # deshirambo16
+    "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ",  # allmybooks
+    "AIzaSyBQYlMpMxV9tmKl9GmrxldwZhOrf7NCfs4",  # farzanazamanmunia
     "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU", # deshirambo17
     "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU", # deshirambo18
     "AIzaSyCzk9DwsciObuhF3sNUbX1BdBBt0sNRwOw", # deshirambo19
