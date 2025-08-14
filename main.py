@@ -376,22 +376,18 @@ def main(api_key):
 
 
 if __name__ == "__main__":
-    if 0 <= now.hour < 3:
-        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"
-    elif 3 <= now.hour < 6:
+    if 8 <= now.hour < 12:
         api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"
-    elif 6 <= now.hour < 9:
-        api_key = "AIzaSyDJ5CkvzxGaJL99SdGqENypUVcm0nFaKEQ"
-    elif 9 <= now.hour < 12:
-        api_key = "AIzaSyDO8JaYU6HbD8PdypJhG-EkFi4nojq0hrE"
-    elif 12 <= now.hour < 15:
-        api_key = "AIzaSyCxklIr0fXmsjmiwzoDfBBT0DxtMpWQS68"
-    elif 15 <= now.hour < 18:
+    elif 12 <= now.hour < 16:
+        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"
+    elif 16 <= now.hour < 20:
         api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU"
-    elif 18 <= now.hour < 21:
+    elif 20 <= now.hour < 24:
         api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU"
     else:
-        api_key = "AIzaSyCzk9DwsciObuhF3sNUbX1BdBBt0sNRwOw"
+        # Skip between 0–8 AM
+        api_key = None
 
     main(api_key)
+
 
