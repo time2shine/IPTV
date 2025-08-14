@@ -355,7 +355,6 @@ def main(api_key):
         logger.info(f"Checking channel: {channel_name}")
 
         live_link = get_latest_live_link(youtube, channel_id)
-        print(live_link)
         if not live_link:
             logger.warning(f"Skipping {channel_name}: no live video found")
             continue
@@ -390,6 +389,7 @@ if __name__ == "__main__":
         api_key = None
 
     main(api_key)
+
 
 
 
