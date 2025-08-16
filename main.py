@@ -376,23 +376,20 @@ def main(api_key):
         logger.warning("No live streams found for any channels.")
 
 
-if __name__ == "__main__":
-    # Convert UTC time to Bangladesh time
-    now = datetime.now(ZoneInfo("Asia/Dhaka"))
-    
-    if 8 <= now.hour < 12:
-        api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"
-    elif 12 <= now.hour < 16:
-        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"
-    elif 16 <= now.hour < 20:
-        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU"
-    elif 20 <= now.hour < 24:
-        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU"
+if __name__ == "__main__":   
+    if 2 <= hour < 6:
+        api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"  # 08–12 BDT
+    elif 6 <= hour < 10:
+        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"  # 12–16 BDT
+    elif 10 <= hour < 14:
+        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU"  # 16–20 BDT
+    elif 14 <= hour < 18:
+        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU"  # 20–24 BDT
     else:
-        # Skip between 0–8 AM
-        api_key = None
+        api_key = None  # Skip between 0–08 BDT
 
     main(api_key)
+
 
 
 
