@@ -5,6 +5,7 @@ import yt_dlp
 import os
 import time
 import logging
+from datetime import datetime, timedelta
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
@@ -376,6 +377,10 @@ def main(api_key):
 
 
 if __name__ == "__main__":
+    # Convert UTC time to Bangladesh time
+    utc_now = datetime.utcnow()
+    now = utc_now + timedelta(hours=6)
+    
     if 8 <= now.hour < 12:
         api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"
     elif 12 <= now.hour < 16:
@@ -389,6 +394,7 @@ if __name__ == "__main__":
         api_key = None
 
     main(api_key)
+
 
 
 
