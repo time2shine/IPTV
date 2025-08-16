@@ -5,6 +5,7 @@ import os
 import time
 import logging
 import datetime
+from zoneinfo import ZoneInfo
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
@@ -377,8 +378,7 @@ def main(api_key):
 
 if __name__ == "__main__":
     # Convert UTC time to Bangladesh time
-    utc_now = datetime.utcnow()
-    now = utc_now + timedelta(hours=6)
+    now = datetime.now(ZoneInfo("Asia/Dhaka"))
     
     if 8 <= now.hour < 12:
         api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"
@@ -393,6 +393,7 @@ if __name__ == "__main__":
         api_key = None
 
     main(api_key)
+
 
 
 
