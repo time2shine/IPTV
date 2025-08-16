@@ -1,11 +1,10 @@
 import random
 import googleapiclient.discovery
+import datetime
 import yt_dlp
 import os
 import time
 import logging
-import datetime
-from zoneinfo import ZoneInfo
 
 # --- CONFIG ---
 cookies_file_path = 'cookies.txt'
@@ -376,25 +375,20 @@ def main(api_key):
         logger.warning("No live streams found for any channels.")
 
 
-if __name__ == "__main__":   
-    if 2 <= hour < 6:
-        api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI"  # 08–12 BDT
-    elif 6 <= hour < 10:
-        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ"  # 12–16 BDT
-    elif 10 <= hour < 14:
-        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU"  # 16–20 BDT
-    elif 14 <= hour < 18:
-        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU"  # 20–24 BDT
+if __name__ == "__main__":
+    if 2 <= now.hour < 6:
+        api_key = "AIzaSyCgJaZsz-tsyAaIJRLc5NRYQyC-vnTCwAI" # 08–12 BDT
+    elif 6 <= now.hour < 10:
+        api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ" # 12–16 BDT
+    elif 10 <= now.hour < 14:
+        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU" # 16–20 BDT
+    elif 14 <= now.hour < 18:
+        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU" # 20–24 BDT
     else:
-        api_key = None  # Skip between 0–08 BDT
+        # Skip between 0–08 BDT
+        api_key = None
 
     main(api_key)
-
-
-
-
-
-
 
 
 
