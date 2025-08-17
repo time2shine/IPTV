@@ -3,7 +3,7 @@ name: YouTube Live Link Check
 on:
   schedule:
   # UTC times equivalent to 08:10, 12:10, 16:10, 20:10 in Bangladesh (UTC+6)
-    - cron: '10 2,6,10,14 * * *'
+    - cron: '10 */4 * * *'
   workflow_dispatch:      # Allows manual run
 
 jobs:
@@ -53,4 +53,5 @@ jobs:
           git commit -m "Updated m3u playlist via Action every 3 hours at $current_time"
           git push
         fi
+
 
