@@ -67,6 +67,30 @@ channel_metadata = {
         'channel_name': 'ATN News',
         'channel_logo': 'https://yt3.googleusercontent.com/ceDID2koAfvhvykNroiBjW4SkTrkGVrjFk1EkWRz8SZdhV_dFsCtuJ3w9l0D-y06VgHjvB-WqA=s160-c-k-c0x00ffffff-no-rj',
     },
+    'UCxHoBXkY88Tb8z1Ssj6CWsQ': {  # SOMOY NEWS
+        'channel_number': 115,
+        'group_title': 'News',
+        'channel_name': 'SOMOY NEWS',
+        'channel_logo': 'https://yt3.googleusercontent.com/e5-tNNraLRpGlwIoDtdKvaqVzqxswudmLbQXyTMPqYVdxLWTmz1TJRPC4G0PbOYVJta_oGZAUGs=s72-c-k-c0x00ffffff-no-rj',
+    },
+    'UCN6sm8iHiPd0cnoUardDAnw': {  # JamunaTV
+        'channel_number': 116,
+        'group_title': 'News',
+        'channel_name': 'JamunaTV',
+        'channel_logo': 'https://yt3.googleusercontent.com/54prTx28YpPxSpk_PfJGuOfQgcZbNdvbfk0adGePrAvINO4Mo9_bw3j-J4seXn6hNGuMr1ck=s72-c-k-c0x00ffffff-no-rj',
+    },
+    'UCPREnbhKQP-hsVfsfKP-mCw': {  # NEWS24
+        'channel_number': 117,
+        'group_title': 'News',
+        'channel_name': 'NEWS24',
+        'channel_logo': 'https://yt3.googleusercontent.com/FK8kaDWHXG4F4yCVGbGP9gE5hNOOTBTXof6KFMrhj3BZ2yW0oHy7PxJRRP8QdMZfGWCNTG3L4g=s72-c-k-c0x00ffffff-no-rj',
+    },
+    'UCUDQdVsKssximyFwg4IxnOQ': {  # NTV News
+        'channel_number': 118,
+        'group_title': 'News',
+        'channel_name': 'NTV News',
+        'channel_logo': 'https://yt3.googleusercontent.com/ZcYmoynvuv7AIJwnPon5Hq10hNUK2Ct-TA-nYvW8joYyvbAG9ZCg9aiUypHdpfzY-xT7R5KnJqU=s72-c-k-c0x00ffffff-no-rj',
+    },
 
     # --- News Channels (India) ---
     'UCbf0XHULBkTfv2hBjaaDw9Q': {  # News18 Bangla
@@ -217,4 +241,5 @@ channel_metadata = {
         'channel_name': 'Masha and The Bear',
         'channel_logo': '',
     },
+
 }
