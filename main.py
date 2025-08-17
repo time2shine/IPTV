@@ -381,14 +381,15 @@ if __name__ == "__main__":
     elif 6 <= now.hour < 10:
         api_key = "AIzaSyBX_LlRNOxBzT5eAWzRiCWNjFS000uqsBQ" # 12–16 BDT
     elif 10 <= now.hour < 14:
-        api_key = "AIzaSyDm19wlhqTIThL6FTfMRKSgs0jIq689nQU" # 16–20 BDT
+        api_key = "AIzaSyBQYlMpMxV9tmKl9GmrxldwZhOrf7NCfs4" # 16–20 BDT
     elif 14 <= now.hour < 18:
-        api_key = "AIzaSyC4KNVzGqbfgikRGM63R3LCt4CRwAtRdYU" # 20–24 BDT
+        api_key = "AIzaSyCzk9DwsciObuhF3sNUbX1BdBBt0sNRwOw" # 20–24 BDT
     else:
         # Skip between 0–08 BDT
         api_key = None
 
     main(api_key)
+
 
 
 
