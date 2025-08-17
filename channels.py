@@ -73,20 +73,14 @@ channel_metadata = {
         'channel_name': 'SOMOY NEWS',
         'channel_logo': 'https://yt3.googleusercontent.com/e5-tNNraLRpGlwIoDtdKvaqVzqxswudmLbQXyTMPqYVdxLWTmz1TJRPC4G0PbOYVJta_oGZAUGs=s72-c-k-c0x00ffffff-no-rj',
     },
-    'UCN6sm8iHiPd0cnoUardDAnw': {  # JamunaTV
-        'channel_number': 116,
-        'group_title': 'News',
-        'channel_name': 'JamunaTV',
-        'channel_logo': 'https://yt3.googleusercontent.com/54prTx28YpPxSpk_PfJGuOfQgcZbNdvbfk0adGePrAvINO4Mo9_bw3j-J4seXn6hNGuMr1ck=s72-c-k-c0x00ffffff-no-rj',
-    },
     'UCPREnbhKQP-hsVfsfKP-mCw': {  # NEWS24
-        'channel_number': 117,
+        'channel_number': 116,
         'group_title': 'News',
         'channel_name': 'NEWS24',
         'channel_logo': 'https://yt3.googleusercontent.com/FK8kaDWHXG4F4yCVGbGP9gE5hNOOTBTXof6KFMrhj3BZ2yW0oHy7PxJRRP8QdMZfGWCNTG3L4g=s72-c-k-c0x00ffffff-no-rj',
     },
     'UCUDQdVsKssximyFwg4IxnOQ': {  # NTV News
-        'channel_number': 118,
+        'channel_number': 117,
         'group_title': 'News',
         'channel_name': 'NTV News',
         'channel_logo': 'https://yt3.googleusercontent.com/ZcYmoynvuv7AIJwnPon5Hq10hNUK2Ct-TA-nYvW8joYyvbAG9ZCg9aiUypHdpfzY-xT7R5KnJqU=s72-c-k-c0x00ffffff-no-rj',
@@ -169,18 +163,6 @@ channel_metadata = {
         'channel_name': 'Banglavision DRAMA',
         'channel_logo': '',
     },
-    'UCEwIUtFBhaI2L2PuKv0KL2g': {  # Classic Mr Bean
-        'channel_number': 204,
-        'group_title': 'Entertainment',
-        'channel_name': 'Classic Mr Bean',
-        'channel_logo': '',
-    },
-    'UCkAGrHCLFmlK3H2kd6isipg': {  # Mr Bean
-        'channel_number': 205,
-        'group_title': 'Entertainment',
-        'channel_name': 'Mr Bean',
-        'channel_logo': '',
-    },
     'UC5V8MdQsT_gLlw8rTyf7jVQ': {  # ClipZone: Comedy Callbacks
         'channel_number': 206,
         'group_title': 'Entertainment',
@@ -201,20 +183,14 @@ channel_metadata = {
     },
 
     # --- Religious Channels ---
+     'UCzYIB8kZ_3dpeYKEJ6OrP7w': {  # NTV Islamic Show
+        'channel_number': 300,
+        'group_title': 'Religious',
+        'channel_name': 'NTV Islamic Show',
+        'channel_logo': 'https://yt3.googleusercontent.com/yQS-hwvcZQRD8Kr-kqiCCT0FLbFVW7ZLfmjpT8caI2LX4CdoIlZOLSj04JqOoHnvfTSmibJDRJg=s72-c-k-c0x00ffffff-no-rj',
+    },
 
     # --- Wildlife and Educational Channels ---
-    'UCDPk9MG2RexnOMGTD-YnSnA': {  # Nat Geo Animals
-        'channel_number': 301,
-        'group_title': 'Educational',
-        'channel_name': 'Nat Geo Animals',
-        'channel_logo': '',
-    },
-    'UCpVm7bg6pXKo1Pr6k5kxG9A': {  # National Geographic
-        'channel_number': 302,
-        'group_title': 'Educational',
-        'channel_name': 'National Geographic',
-        'channel_logo': '',
-    },
 
     # --- Kids Channels ---
     'UCu7IDy0y-ZA0qaG51wrQY6w': {  # Curious George Official
@@ -243,3 +219,4 @@ channel_metadata = {
     },
 
 }
+
