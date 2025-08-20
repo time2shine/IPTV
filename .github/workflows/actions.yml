@@ -54,4 +54,19 @@ jobs:
           git push
         fi
 
+    - name: Combine playlists
+      run: python combine_playlists.py
+
+    - name: Commit and push combined playlist
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git add combined.m3u
+        if git diff --cached --quiet; then
+          echo "No combined.m3u changes to commit"
+        else
+          current_time=$(date +"%Y-%m-%d %H:%M:%S")
+          git commit -m "Updated combined.m3u at $current_time"
+          git push
+        fi
 
