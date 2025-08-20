@@ -102,11 +102,10 @@ def get_stream_url(url):
         return None
 
 # --- Format M3U line ---
-def format_live_link(channel_name, channel_logo, m3u8_link, channel_number, group_title):
+def format_live_link(channel_name, channel_logo, m3u8_link, group_title):
     return (
-        f'#EXTINF:-1 tvg-chno="{channel_number}" tvg-name="{channel_name}" '
-        f'tvg-id="" group-title="{group_title}" tvg-logo="{channel_logo}" tvg-epg="", '
-        f'{channel_name}\n{m3u8_link}'
+        f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{channel_logo}", {channel_name}\n'
+        f'{m3u8_link}'
     )
 
 # --- Save M3U file ---
@@ -125,7 +124,6 @@ def main():
     output_data = []
 
     for channel_id, metadata in channel_metadata.items():
-        channel_number = metadata.get('channel_number', '0')
         group_title = metadata.get('group_title', 'Others')
         channel_name = metadata.get('channel_name', 'Unknown')
         channel_logo = metadata.get('channel_logo', '')
@@ -143,7 +141,7 @@ def main():
             continue
 
         formatted_info = format_live_link(
-            channel_name, channel_logo, m3u8_link, channel_number, group_title
+            channel_name, channel_logo, m3u8_link, group_title
         )
         output_data.append(formatted_info)
 
