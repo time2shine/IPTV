@@ -50,7 +50,7 @@ def parse_m3u(file_path):
         if line.startswith("#EXTINF"):
             header = line
             match = re.search(r'group-title="([^"]+)"', line)
-            group = match.group(1) if match else "Other"
+            group = match.group(1).strip() if match else "Other"
         elif line and not line.startswith("#"):
             link = line
             if header and link:
@@ -93,8 +93,6 @@ def check_ffmpeg(stream):
     OFFLINE_CHANNELS.append(channel_name)
     return None
 
-# ... [keep all your imports and functions above] ...
-
 def main():
     start_time = time.time()
 
@@ -108,10 +106,34 @@ def main():
     working_channels = parse_m3u(WORKING_FILE)
     print(f"{len(working_channels)} channels found in {WORKING_FILE}\n")
 
+    # Combine lists before FFmpeg
+    all_channels = yt_channels + working_channels
+
+    # Deduplicate by channel name and track removed channels
+    unique_by_name = {}
+    removed_channels = []
+    for h, l, g in all_channels:
+        channel_name = h.split(",")[-1].strip()
+        if channel_name not in unique_by_name:
+            unique_by_name[channel_name] = (h, l, g)
+        else:
+            removed_channels.append(channel_name)
+
+    # Print removed duplicates
+    if removed_channels:
+        print(f"\n📝 Removed {len(removed_channels)} duplicate channels based on name:")
+        for ch in removed_channels:
+            print(f" - {ch}")
+    else:
+        print("\n📝 No duplicate channels found.")
+
+    # Keep only unique channels for FFmpeg check
+    working_channels = list(unique_by_name.values())
+
     # FFmpeg validation
     valid_working = []
     if FFMPEG_CHECK:
-        print(f"Checking {len(working_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
+        print(f"\nChecking {len(working_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(check_ffmpeg, working_channels)
             for res in results:
@@ -122,19 +144,9 @@ def main():
         print("Skipping FFmpeg check for Working playlist.")
         valid_working = working_channels
 
-    # Combine lists
-    all_channels = yt_channels + valid_working
-
-    # Deduplicate by channel name
-    unique_by_name = {}
-    for h, l, g in all_channels:
-        channel_name = h.split(",")[-1].strip()
-        if channel_name not in unique_by_name:
-            unique_by_name[channel_name] = (h, l, g)
-
     # Group channels
     groups = {}
-    for h, l, g in unique_by_name.values():
+    for h, l, g in valid_working:
         groups.setdefault(g, []).append((h, l, g))
 
     # Sort each group by channel name
