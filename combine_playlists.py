@@ -7,9 +7,6 @@ YT_FILE = "YT_playlist.m3u"
 WORKING_FILE = "Working_Playlist.m3u"
 OUTPUT_FILE = "combined.m3u"
 
-# Enable/disable FFmpeg checking
-CHECK_FFMPEG = True  # Set to False to skip FFmpeg validation
-
 # Group order
 GROUP_ORDER = [
     "Entertainment",
@@ -20,6 +17,12 @@ GROUP_ORDER = [
     "Religious",
     "Kids",
 ]
+
+# FFmpeg check toggle
+FFMPEG_CHECK = True
+
+# FFmpeg fast mode toggle
+FAST_MODE = True
 
 def parse_m3u(file_path):
     """Parse M3U file and return list of (header, link, group)."""
@@ -47,45 +50,57 @@ def save_m3u(channels, output_file):
         for header, link, _ in channels:
             f.write(f"{header}\n{link}\n")
 
-def check_ffmpeg(stream):
-    """Check if stream is playable using FFmpeg (fast check)."""
+def check_ffmpeg(stream, retries=2):
+    """Check if stream is playable using FFmpeg with retries."""
     header, url, group = stream
-    # Extract channel name from header
-    name = header.split(",")[-1].strip() if "," in header else url
-    try:
-        result = subprocess.run(
-            ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
-             "-i", url, "-t", "1", "-f", "null", "-"],
-            capture_output=True,
-            text=True,
-            timeout=10
-        )
-        if "error" not in result.stderr.lower():
-            print(f"[ONLINE] {name}")
-            return (header, url, group)
-    except Exception:
-        pass
-    print(f"[OFFLINE] {name}")
+    channel_name = header.split(",")[-1].strip() if "," in header else url
+
+    ffmpeg_cmd = ["ffmpeg", "-i", url, "-t", "1", "-f", "null", "-"]
+    if FAST_MODE:
+        # Fast mode: reduce analysis but may be less reliable
+        ffmpeg_cmd = ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
+                      "-i", url, "-t", "1", "-f", "null", "-"]
+    else:
+        # Full check: more reliable
+        ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
+                      "-i", url, "-t", "2", "-f", "null", "-"]
+
+    for attempt in range(1, retries + 2):
+        try:
+            result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=15)
+            if "error" not in result.stderr.lower():
+                print(f"[ONLINE] {channel_name}")
+                return (header, url, group)
+        except Exception:
+            pass
+        if attempt <= retries:
+            print(f"[Retry {attempt}] {channel_name} failed, retrying...")
+    print(f"[OFFLINE] {channel_name}")
     return None
 
 def main():
+    # Parse YouTube playlist (no FFmpeg check)
     print("Parsing YouTube playlist (no FFmpeg check)...")
     yt_channels = parse_m3u(YT_FILE)
+    print(f"{len(yt_channels)} channels found in {YT_FILE}")
 
+    # Parse Working playlist
     print("Parsing Working playlist...")
     working_channels = parse_m3u(WORKING_FILE)
+    print(f"{len(working_channels)} channels found in {WORKING_FILE}")
 
+    # FFmpeg validation
     valid_working = []
-    if CHECK_FFMPEG:
-        print(f"Checking {len(working_channels)} streams from {WORKING_FILE} via FFmpeg (fast mode)...")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    if FFMPEG_CHECK:
+        print(f"Checking {len(working_channels)} streams from {WORKING_FILE} via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(check_ffmpeg, working_channels)
             for res in results:
                 if res:
                     valid_working.append(res)
         print(f"{len(valid_working)} valid streams found in {WORKING_FILE}")
     else:
-        print("Skipping FFmpeg check for Working_Playlist.m3u")
+        print("Skipping FFmpeg check for Working playlist.")
         valid_working = working_channels
 
     # Combine lists
@@ -100,9 +115,13 @@ def main():
     # Sort by group order
     def group_key(item):
         g = item[2]
-        return GROUP_ORDER.index(g) if g in GROUP_ORDER else len(GROUP_ORDER)
+        if g in GROUP_ORDER:
+            return GROUP_ORDER.index(g)
+        return len(GROUP_ORDER)
 
     sorted_channels = sorted(unique.values(), key=group_key)
+
+    # Save combined playlist
     save_m3u(sorted_channels, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
 
