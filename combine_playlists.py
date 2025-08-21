@@ -106,13 +106,27 @@ def main():
     working_channels = parse_m3u(WORKING_FILE)
     print(f"{len(working_channels)} channels found in {WORKING_FILE}\n")
 
-    # Combine lists before FFmpeg
-    all_channels = yt_channels + working_channels
+    # Combine playlists
+    combined_channels = yt_channels + working_channels
 
-    # Deduplicate by channel name and track removed channels
+    # FFmpeg validation
+    valid_channels = []
+    if FFMPEG_CHECK:
+        print(f"\nChecking {len(combined_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            results = executor.map(check_ffmpeg, combined_channels)
+            for res in results:
+                if res:
+                    valid_channels.append(res)
+        print(f"\n✅ {len(valid_channels)} valid streams found after FFmpeg check")
+    else:
+        print("Skipping FFmpeg check.")
+        valid_channels = combined_channels
+
+    # Deduplicate by channel name AFTER FFmpeg check
     unique_by_name = {}
     removed_channels = []
-    for h, l, g in all_channels:
+    for h, l, g in valid_channels:
         channel_name = h.split(",")[-1].strip()
         if channel_name not in unique_by_name:
             unique_by_name[channel_name] = (h, l, g)
@@ -121,32 +135,18 @@ def main():
 
     # Print removed duplicates
     if removed_channels:
-        print(f"\n📝 Removed {len(removed_channels)} duplicate channels based on name:")
+        print(f"\n📝 Removed {len(removed_channels)} duplicate channels after FFmpeg check:")
         for ch in removed_channels:
             print(f" - {ch}")
     else:
-        print("\n📝 No duplicate channels found.")
+        print("\n📝 No duplicate channels found after FFmpeg check.")
 
-    # Keep only unique channels for FFmpeg check
-    working_channels = list(unique_by_name.values())
-
-    # FFmpeg validation
-    valid_working = []
-    if FFMPEG_CHECK:
-        print(f"\nChecking {len(working_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-            results = executor.map(check_ffmpeg, working_channels)
-            for res in results:
-                if res:
-                    valid_working.append(res)
-        print(f"\n✅ {len(valid_working)} valid streams found in Working playlist")
-    else:
-        print("Skipping FFmpeg check for Working playlist.")
-        valid_working = working_channels
+    # Use only unique channels
+    unique_channels = list(unique_by_name.values())
 
     # Group channels
     groups = {}
-    for h, l, g in valid_working:
+    for h, l, g in unique_channels:
         groups.setdefault(g, []).append((h, l, g))
 
     # Sort each group by channel name
