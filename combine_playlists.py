@@ -18,6 +18,8 @@ GROUP_ORDER = [
     "News",
     "News India",
     "International News",
+    "Music",
+    "International",
     "Sports",
     "Religious",
     "Kids",
@@ -91,6 +93,8 @@ def check_ffmpeg(stream):
     OFFLINE_CHANNELS.append(channel_name)
     return None
 
+# ... [keep all your imports and functions above] ...
+
 def main():
     start_time = time.time()
 
@@ -121,20 +125,26 @@ def main():
     # Combine lists
     all_channels = yt_channels + valid_working
 
-    # Deduplicate by link
-    unique = {}
+    # Deduplicate by channel name
+    unique_by_name = {}
     for h, l, g in all_channels:
-        if l not in unique:
-            unique[l] = (h, l, g)
+        channel_name = h.split(",")[-1].strip()
+        if channel_name not in unique_by_name:
+            unique_by_name[channel_name] = (h, l, g)
 
-    # Sort by group order
-    def group_key(item):
-        g = item[2]
-        if g in GROUP_ORDER:
-            return GROUP_ORDER.index(g)
-        return len(GROUP_ORDER)
+    # Group channels
+    groups = {}
+    for h, l, g in unique_by_name.values():
+        groups.setdefault(g, []).append((h, l, g))
 
-    sorted_channels = sorted(unique.values(), key=group_key)
+    # Sort each group by channel name
+    for g_name, ch_list in groups.items():
+        groups[g_name] = sorted(ch_list, key=lambda x: x[0].split(",")[-1].strip().lower())
+
+    # Sort groups by predefined order
+    sorted_channels = []
+    for g in GROUP_ORDER + sorted([k for k in groups.keys() if k not in GROUP_ORDER]):
+        sorted_channels.extend(groups.get(g, []))
 
     # Save combined playlist
     save_m3u(sorted_channels, OUTPUT_FILE)
