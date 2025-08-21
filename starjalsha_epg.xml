@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <tv>
   <channel id="starjalsha.in">
     <display-name>Star Jalsha</display-name>
@@ -38,4 +38,17 @@
   </programme>
 
   <programme start="20250822083000 +0600" stop="20250822090000 +0600" channel="starjalsha.in">
-    <title lang=
+    <title lang="bn">Anurager Chhowa Ep: 1145</title>
+  </programme>
+
+  <programme start="20250822090000 +0600" stop="20250822093000 +0600" channel="starjalsha.in">
+    <title lang="bn">Parashuram Ep: 164</title>
+  </programme>
+
+  <programme start="20250822093000 +0600" stop="20250822100000 +0600" channel="starjalsha.in">
+    <title lang="bn">Shubho Bibaho Ep: 427</title>
+  </programme>
+
+  <!-- Add all other programmes here in same format -->
+
+</tv>
