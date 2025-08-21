@@ -7,7 +7,7 @@ on:
   workflow_dispatch:      # Allows manual run
 
 jobs:
-  fetch-youtube:
+  gathering_all_IPTV:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,26 +24,21 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt_dlp google-api-python-client
 
-    - name: Install FFmpeg
+    - name: Download FFmpeg
       run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg
+        wget https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-amd64-static.tar.xz -O ffmpeg.tar.xz
+        tar -xf ffmpeg.tar.xz
+        FFMPEG_DIR=$(ls -d ffmpeg-*-static)
+        sudo cp $FFMPEG_DIR/ffmpeg /usr/local/bin/
+        sudo cp $FFMPEG_DIR/ffprobe /usr/local/bin/
+        ffmpeg -version
 
-    - name: Run script
-      env:
-        # Provide your API keys here, you can pass as one or multiple if your script handles it
-        YOUTUBE_API_1: ${{ secrets.YOUTUBE_API_1 }}
-        YOUTUBE_API_2: ${{ secrets.YOUTUBE_API_2 }}
-        YOUTUBE_API_3: ${{ secrets.YOUTUBE_API_3 }}
-        YOUTUBE_API_4: ${{ secrets.YOUTUBE_API_4 }}
-        YOUTUBE_API_5: ${{ secrets.YOUTUBE_API_5 }}
-        YOUTUBE_API_6: ${{ secrets.YOUTUBE_API_6 }}
-        YOUTUBE_API_7: ${{ secrets.YOUTUBE_API_7 }}
-        YOUTUBE_API_8: ${{ secrets.YOUTUBE_API_8 }}
+
+    - name: Run main script to get all latest link from YouTube
       run: |
         python main.py
 
-    - name: Commit and push changes if updated
+    - name: Commit and push changes if updated(YT_playlist.m3u)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -59,10 +54,10 @@ jobs:
           git push
         fi
 
-    - name: Combine playlists
+    - name: Combine YouTube and Working_playlist together
       run: python combine_playlists.py
 
-    - name: Commit and push combined playlist
+    - name: Commit and push combined playlist(combined.m3u)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -74,7 +69,3 @@ jobs:
           git commit -m "Updated combined.m3u at $current_time"
           git push
         fi
-
-
-
-
