@@ -1,9 +1,20 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/09/desitv.png", Deshi TV (720p)
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/09/desitv.png", Deshi TV
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/09/desitv.png", Deshi TV
+http://208.86.19.13:81/514.stream/index.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.ibb.co/kqF2kdy/20240826-230650.png", DEEPTO TV HD
 https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg", Enter 10 Bangla (BD)
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png", Amar Bangla
+https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/de/News_Time_2.jpg", Time Television HD
+http://208.86.19.13:81/506.stream/index.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.iontv.co.uk/uploads/logo-649970fdd9881.png", iON TV
+https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
+
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png", SUN Bangla
 https://restream-freeflix.farhadhossain52524.workers.dev/245906.m3u8
@@ -13,7 +24,9 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245908.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245913.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a42cff0b32f1705258239.jpg", BIJOY TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245946.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://images.seeklogo.com/logo-png/39/1/ekushe-tv-etv-logo-png_seeklogo-396361.png", EKUSHEY TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png", Ekushay TV
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png", Ekushay TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245937.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Banglavision.svg/1200px-Banglavision.svg.png", BANGLA VISION
 https://restream-freeflix.farhadhossain52524.workers.dev/245957.m3u8
@@ -34,22 +47,35 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245967.m3u8
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/star_jalsha.png", STAR JALSA HD
 https://restream-freeflix.farhadhossain52524.workers.dev/245898.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/Colors_Bangla.png", COLORS BANGLA
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.ibb.co/sPggcrs/Colors-Bangla.png", Colors Bangla
 https://restream-freeflix.farhadhossain52524.workers.dev/245895.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://i.ibb.co/sPggcrs/Colors-Bangla.png", Colors Bangla
+https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla.jpg", ZEE BANGLA HD
 https://restream-freeflix.farhadhossain52524.workers.dev/245893.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla_cinema.jpg", ZEE BANGLA CINEMA
 https://restream-freeflix.farhadhossain52524.workers.dev/245897.m3u8
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://lh3.googleusercontent.com/-30dX2gAbWBA/XrWrVwyUkSI/AAAAAAAAAnE/CIy_3loKQ34fED9Azwynih_T73E8is9jQCLcBGAsYHQ/w680/ATNMusic.png", ATN MUSIC
+#EXTINF:-1 group-title="Music" tvg-logo="https://lh3.googleusercontent.com/-30dX2gAbWBA/XrWrVwyUkSI/AAAAAAAAAnE/CIy_3loKQ34fED9Azwynih_T73E8is9jQCLcBGAsYHQ/w680/ATNMusic.png", ATN MUSIC
 https://restream-freeflix.farhadhossain52524.workers.dev/245965.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png", DHOOM MUSIC
+#EXTINF:-1 group-title="Music" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png", DHOOM MUSIC
 https://restream-freeflix.farhadhossain52524.workers.dev/245921.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png/revision/latest?cb=20240322134434", SANGEET BANGLA
+#EXTINF:-1 group-title="Music" tvg-logo="", Mon TV Music (BD)
+https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png/revision/latest?cb=20240322134434", SANGEET BANGLA
 https://restream-freeflix.farhadhossain52524.workers.dev/245933.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/MYcrmTg-2FfK3mVvNsjttNsXXTLfUG7i3QjMd0fzticooxMwLMK0NQdyQSMnF0iC9lg", AMC
+https://amchls.wns.live/hls/stream.m3u8
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://brandslogos.com/wp-content/uploads/images/wwe-logo.png", WWE
-http://smart.bengaldigital.live/WWE/index.m3u8
+#EXTINF:-1 group-title="International" tvg-logo="https://i.ibb.co/pJ16Ggq/my-9.png", My 9
+http://208.86.19.13:81/105.stream/index.m3u8
+#EXTINF:-1 group-title="International" tvg-logo="https://i.ibb.co/d2yRYnb/Fox.png", Fox 2
+http://208.86.19.13:81/106.stream/index.m3u8
+#EXTINF:-1 group-title="International" tvg-logo="https://i.ibb.co/d2yRYnb/Fox.png", Fox
+http://208.86.19.13:81/103.stream/index.m3u8
+#EXTINF:-1 group-title="International" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png", 4 New York
+http://208.86.19.13:81/102.stream/index.m3u8
+
 
 #EXTINF:-1 group-title="News" tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg", Jamuna TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245917.m3u8
@@ -59,8 +85,23 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245940.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245910.m3u8
 
 
+#EXTINF:-1 group-title="News India" tvg-logo="https://i.imgur.com/koFYddE.png", India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
+#EXTINF:-1 group-title="News India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg", High News
+https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://i.imgur.com/3AVHrhP.png", Channel News Asia
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+#EXTINF:-1 group-title="International News" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png", Al Jazeera English HD
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="International News" tvg-logo="https://i.ibb.co/pyXchhS/Aljazeera.png", Al Jazeera English HD
+https://live-hls-web-aje.getaj.net/AJE/04.m3u8
+
+
 #EXTINF:-1 group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png", SONY YAY!
 https://restream-freeflix.farhadhossain52524.workers.dev/245959.m3u8
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg", Toonami Aftermath East
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
 
 
 #EXTINF:-1 group-title="Religious" tvg-logo="", 71BANGLATV
@@ -145,6 +186,14 @@ https://restream-freeflix.farhadhossain52524.workers.dev/371469.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/371470.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TS_QZbgpN1hhgxpya8iHzk796CoLUK95BA&s", CricLife 3 (T Sports)
 https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg", Redbull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://brandslogos.com/wp-content/uploads/images/wwe-logo.png", WWE
+http://smart.bengaldigital.live/WWE/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 2
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
 
 
 
