@@ -26,7 +26,7 @@ jobs:
 
     - name: Download FFmpeg
       run: |
-        wget https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-amd64-static.tar.xz -O ffmpeg.tar.xz
+        wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
         tar -xf ffmpeg.tar.xz
         FFMPEG_DIR=$(ls -d ffmpeg-*-static)
         sudo cp $FFMPEG_DIR/ffmpeg /usr/local/bin/
@@ -69,3 +69,4 @@ jobs:
           git commit -m "Updated combined.m3u at $current_time"
           git push
         fi
+
