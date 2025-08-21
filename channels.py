@@ -113,7 +113,7 @@ channel_metadata = {
     'UCknLrEdhRCp1aegoMqRaCZg': {  # DW News
         'group_title': 'International News',
         'channel_name': 'DW News',
-        'channel_logo': 'https://yt3.googleusercontent.com/rgphL4c6DGPlwzkxIzE5tH0DPe1yuynH0nTdOAecCVIX5gUjJGsCwXtp9wnxjcsfqboL6C5aFg=s160-c-k-c0x00ffffff-no-rj',
+        'channel_logo': 'https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg',
     },
 
     # --- Entertainment Channels ---
@@ -152,5 +152,6 @@ channel_metadata = {
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
