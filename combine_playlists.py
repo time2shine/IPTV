@@ -7,6 +7,9 @@ YT_FILE = "YT_playlist.m3u"
 WORKING_FILE = "Working_Playlist.m3u"
 OUTPUT_FILE = "combined.m3u"
 
+# Enable/disable FFmpeg checking
+CHECK_FFMPEG = True  # Set to False to skip FFmpeg validation
+
 # Group order
 GROUP_ORDER = [
     "Entertainment",
@@ -45,38 +48,43 @@ def save_m3u(channels, output_file):
             f.write(f"{header}\n{link}\n")
 
 def check_ffmpeg(stream):
-    """Check if stream is playable using FFmpeg."""
+    """Check if stream is playable using FFmpeg (fast check)."""
     header, url, group = stream
     try:
         result = subprocess.run(
-            ["ffmpeg", "-i", url, "-t", "1", "-f", "null", "-"],
+            ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
+             "-i", url, "-t", "1", "-f", "null", "-"],
             capture_output=True,
             text=True,
             timeout=10
         )
         if "error" not in result.stderr.lower():
+            print(f"[ONLINE] {url}")
             return (header, url, group)
     except Exception:
         pass
+    print(f"[OFFLINE] {url}")
     return None
 
 def main():
-    # Parse YouTube playlist (no checking)
+    print("Parsing YouTube playlist (no FFmpeg check)...")
     yt_channels = parse_m3u(YT_FILE)
 
-    # Parse Working playlist (check with FFmpeg)
+    print("Parsing Working playlist...")
     working_channels = parse_m3u(WORKING_FILE)
+
     valid_working = []
-
-    print(f"Checking {len(working_channels)} streams from {WORKING_FILE} via FFmpeg...")
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        results = executor.map(check_ffmpeg, working_channels)
-        for res in results:
-            if res:
-                valid_working.append(res)
-
-    print(f"{len(valid_working)} valid streams found in {WORKING_FILE}")
+    if CHECK_FFMPEG:
+        print(f"Checking {len(working_channels)} streams from {WORKING_FILE} via FFmpeg (fast mode)...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            results = executor.map(check_ffmpeg, working_channels)
+            for res in results:
+                if res:
+                    valid_working.append(res)
+        print(f"{len(valid_working)} valid streams found in {WORKING_FILE}")
+    else:
+        print("Skipping FFmpeg check for Working_Playlist.m3u")
+        valid_working = working_channels
 
     # Combine lists
     all_channels = yt_channels + valid_working
@@ -90,12 +98,9 @@ def main():
     # Sort by group order
     def group_key(item):
         g = item[2]
-        if g in GROUP_ORDER:
-            return GROUP_ORDER.index(g)
-        return len(GROUP_ORDER)
+        return GROUP_ORDER.index(g) if g in GROUP_ORDER else len(GROUP_ORDER)
 
     sorted_channels = sorted(unique.values(), key=group_key)
-
     save_m3u(sorted_channels, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
 
