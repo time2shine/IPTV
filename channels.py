@@ -103,34 +103,24 @@ channel_metadata = {
     'UCNye-wNBqNL5ZzHSJj3l8Bg': {  # Al Jazeera English
         'group_title': 'International News',
         'channel_name': 'Al Jazeera English',
-        'channel_logo': '',
+        'channel_logo': 'https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png',
     },
     'UC7fWeaHhqgM4Ry-RMpM2YYw': {  # TRT World
         'group_title': 'International News',
         'channel_name': 'TRT World',
-        'channel_logo': '',
+        'channel_logo': 'https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg',
     },
     'UCknLrEdhRCp1aegoMqRaCZg': {  # DW News
         'group_title': 'International News',
         'channel_name': 'DW News',
-        'channel_logo': '',
+        'channel_logo': 'https://yt3.googleusercontent.com/rgphL4c6DGPlwzkxIzE5tH0DPe1yuynH0nTdOAecCVIX5gUjJGsCwXtp9wnxjcsfqboL6C5aFg=s160-c-k-c0x00ffffff-no-rj',
     },
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
         'group_title': 'Entertainment',
         'channel_name': 'Bongo',
-        'channel_logo': '',
-    },
-    'UCvoC1eVphUAe7a0m-uuoPbg': {  # Bongo Movies
-        'group_title': 'Entertainment',
-        'channel_name': 'Bongo Movies',
-        'channel_logo': '',
-    },
-    'UCsr6QVeLlkitleHoS0T4IxQ': {  # Banglavision DRAMA
-        'group_title': 'Entertainment',
-        'channel_name': 'Banglavision DRAMA',
-        'channel_logo': '',
+        'channel_logo': 'https://images.seeklogo.com/logo-png/52/1/bongo-logo-png_seeklogo-520242.png',
     },
 
     # --- Religious Channels ---
@@ -144,22 +134,23 @@ channel_metadata = {
     'UCu7IDy0y-ZA0qaG51wrQY6w': {  # Curious George Official
         'group_title': 'Kids',
         'channel_name': 'Curious George Official',
-        'channel_logo': '',
+        'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_mme5GlHmFNnSrrGhurc8y-IRauHMAkCUQGbAF_k2CbzCs=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCVzLLZkDuFGAE2BGdBuBNBg': {  # Bluey - Official Channel
         'group_title': 'Kids',
         'channel_name': 'Bluey - Official Channel',
-        'channel_logo': '',
+        'channel_logo': 'https://yt3.googleusercontent.com/ntD3FiuQNxb-dxWlbzZoqn1M5WtyMjkhoUaG63_vrsTEVtfAqhmF4RyfrSIBJb7gGG7_S9jSAA=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCoBpC9J2EcbAMprw7YjC93A': {  # The Amazing World of Gumball
         'group_title': 'Kids',
         'channel_name': 'The Amazing World of Gumball',
-        'channel_logo': '',
+        'channel_logo': 'https://yt3.googleusercontent.com/sH4BeWbHl1R_47tBWPGMs-YbqG7_JsXselWIHD30GLsk8Q_9XFOYsC2p-MejZShM0WhciTPsVA=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCu59yAFE8fM0sVNTipR4edw': {  # Masha and The Bear
         'group_title': 'Kids',
         'channel_name': 'Masha and The Bear',
-        'channel_logo': '',
+        'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
