@@ -115,11 +115,6 @@ channel_metadata = {
         'channel_name': 'DW News',
         'channel_logo': '',
     },
-    'UCUMZ7gohGI9HcU9VNsr2FJQ': {  # Bloomberg Originals
-        'group_title': 'International News',
-        'channel_name': 'Bloomberg Originals',
-        'channel_logo': '',
-    },
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
@@ -167,3 +162,4 @@ channel_metadata = {
         'channel_logo': '',
     },
 }
+
