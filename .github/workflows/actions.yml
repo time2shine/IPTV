@@ -24,15 +24,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt_dlp google-api-python-client
 
-    - name: Download FFmpeg
+    - name: Setup fast static FFmpeg
       run: |
-        wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+        wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -O ffmpeg.tar.xz
         tar -xf ffmpeg.tar.xz
-        FFMPEG_DIR=$(ls -d ffmpeg-*-static)
-        sudo cp $FFMPEG_DIR/ffmpeg /usr/local/bin/
-        sudo cp $FFMPEG_DIR/ffprobe /usr/local/bin/
+        FFMPEG_DIR=$(ls -d ffmpeg-*amd64-static)
+        sudo cp "$FFMPEG_DIR/ffmpeg" /usr/local/bin/
+        sudo cp "$FFMPEG_DIR/ffprobe" /usr/local/bin/
         ffmpeg -version
-
 
     - name: Run main script to get all latest link from YouTube
       run: |
@@ -69,4 +68,5 @@ jobs:
           git commit -m "Updated combined.m3u at $current_time"
           git push
         fi
+
 
