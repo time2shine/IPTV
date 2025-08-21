@@ -37,7 +37,7 @@ jobs:
       run: |
         python main.py
 
-    - name: Commit and push changes if updated(YT_playlist.m3u)
+    - name: Commit and push YouTube playlist (YT_playlist.m3u)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -53,10 +53,10 @@ jobs:
           git push
         fi
 
-    - name: Combine YouTube and Working_playlist together
+    - name: Run combine_playlist script to combine YouTube and Working_playlist together
       run: python combine_playlists.py
 
-    - name: Commit and push combined playlist(combined.m3u)
+    - name: Commit and push combined playlist (combined.m3u)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -68,6 +68,7 @@ jobs:
           git commit -m "Updated combined.m3u at $current_time"
           git push
         fi
+
 
 
 
