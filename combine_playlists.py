@@ -1,7 +1,10 @@
 import re
+import subprocess
+import concurrent.futures
 
 # File names
-INPUT_FILES = ["YT_playlist.m3u", "Working_Playlist.m3u"]
+YT_FILE = "YT_playlist.m3u"
+WORKING_FILE = "Working_Playlist.m3u"
 OUTPUT_FILE = "combined.m3u"
 
 # Group order
@@ -26,7 +29,6 @@ def parse_m3u(file_path):
         line = line.strip()
         if line.startswith("#EXTINF"):
             header = line
-            # extract group-title
             match = re.search(r'group-title="([^"]+)"', line)
             group = match.group(1) if match else "Other"
         elif line and not line.startswith("#"):
@@ -36,18 +38,48 @@ def parse_m3u(file_path):
             header, link = None, None
     return channels
 
-
 def save_m3u(channels, output_file):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for header, link, _ in channels:
             f.write(f"{header}\n{link}\n")
 
+def check_ffmpeg(stream):
+    """Check if stream is playable using FFmpeg."""
+    header, url, group = stream
+    try:
+        result = subprocess.run(
+            ["ffmpeg", "-i", url, "-t", "1", "-f", "null", "-"],
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+        if "error" not in result.stderr.lower():
+            return (header, url, group)
+    except Exception:
+        pass
+    return None
 
 def main():
-    all_channels = []
-    for file in INPUT_FILES:
-        all_channels.extend(parse_m3u(file))
+    # Parse YouTube playlist (no checking)
+    yt_channels = parse_m3u(YT_FILE)
+
+    # Parse Working playlist (check with FFmpeg)
+    working_channels = parse_m3u(WORKING_FILE)
+    valid_working = []
+
+    print(f"Checking {len(working_channels)} streams from {WORKING_FILE} via FFmpeg...")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        results = executor.map(check_ffmpeg, working_channels)
+        for res in results:
+            if res:
+                valid_working.append(res)
+
+    print(f"{len(valid_working)} valid streams found in {WORKING_FILE}")
+
+    # Combine lists
+    all_channels = yt_channels + valid_working
 
     # Deduplicate by link
     unique = {}
@@ -60,13 +92,12 @@ def main():
         g = item[2]
         if g in GROUP_ORDER:
             return GROUP_ORDER.index(g)
-        return len(GROUP_ORDER)  # others go at the bottom
+        return len(GROUP_ORDER)
 
     sorted_channels = sorted(unique.values(), key=group_key)
 
     save_m3u(sorted_channels, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
-
 
 if __name__ == "__main__":
     main()
