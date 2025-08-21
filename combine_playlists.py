@@ -10,6 +10,7 @@ GROUP_ORDER = [
     "News",
     "News India",
     "International News",
+    "Sports",
     "Religious",
     "Kids",
 ]
