@@ -50,6 +50,8 @@ def save_m3u(channels, output_file):
 def check_ffmpeg(stream):
     """Check if stream is playable using FFmpeg (fast check)."""
     header, url, group = stream
+    # Extract channel name from header
+    name = header.split(",")[-1].strip() if "," in header else url
     try:
         result = subprocess.run(
             ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
@@ -59,11 +61,11 @@ def check_ffmpeg(stream):
             timeout=10
         )
         if "error" not in result.stderr.lower():
-            print(f"[ONLINE] {url}")
+            print(f"[ONLINE] {name}")
             return (header, url, group)
     except Exception:
         pass
-    print(f"[OFFLINE] {url}")
+    print(f"[OFFLINE] {name}")
     return None
 
 def main():
