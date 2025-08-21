@@ -30,7 +30,7 @@ FFMPEG_CHECK = True
 FAST_MODE = True
 
 # Max retries for FFmpeg
-RETRIES = 2
+RETRIES = 4
 
 # Lists to track online/offline channels
 ONLINE_CHANNELS = []
