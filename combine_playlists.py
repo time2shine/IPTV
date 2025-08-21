@@ -4,7 +4,7 @@ import concurrent.futures
 import functools
 import time
 
-# Force print to flush immediately (real-time logging in GitHub Actions)
+# Force print to flush immediately (real-time logging)
 print = functools.partial(print, flush=True)
 
 # File names
@@ -39,7 +39,7 @@ ONLINE_CHANNELS = []
 OFFLINE_CHANNELS = []
 
 def parse_m3u(file_path):
-    """Parse M3U file and return list of (header, link, group)."""
+    """Parse M3U file and return list of (header, link, group, tvg_id)."""
     channels = []
     with open(file_path, encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
@@ -49,32 +49,41 @@ def parse_m3u(file_path):
         line = line.strip()
         if line.startswith("#EXTINF"):
             header = line
-            match = re.search(r'group-title="([^"]+)"', line)
-            group = match.group(1).strip() if match else "Other"
+            match_group = re.search(r'group-title="([^"]+)"', line)
+            group = match_group.group(1).strip() if match_group else "Other"
+
+            match_tvg = re.search(r'tvg-id="([^"]*)"', line)
+            tvg_id = match_tvg.group(1) if match_tvg else None
         elif line and not line.startswith("#"):
             link = line
             if header and link:
-                channels.append((header, link, group))
+                channels.append((header, link, group, tvg_id))
             header, link = None, None
     return channels
 
 def save_m3u(channels, output_file):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for header, link, _ in channels:
-            f.write(f"{header}\n{link}\n")
+        for header, link, group, tvg_id in channels:
+            # Rebuild header with tvg-id only if present
+            new_header = header
+            if tvg_id:
+                if 'tvg-id="' not in new_header:
+                    # Insert tvg-id before the last comma
+                    parts = new_header.split(",", 1)
+                    new_header = f'{parts[0]} tvg-id="{tvg_id}",{parts[1]}'
+            f.write(f"{new_header}\n{link}\n")
 
 def check_ffmpeg(stream):
     """Check if stream is playable using FFmpeg with retries."""
-    header, url, group = stream
+    header, url, group, tvg_id = stream
     channel_name = header.split(",")[-1].strip() if "," in header else url
 
+    ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
+                  "-i", url, "-t", "2", "-f", "null", "-"]
     if FAST_MODE:
         ffmpeg_cmd = ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
                       "-i", url, "-t", "1", "-f", "null", "-"]
-    else:
-        ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
-                      "-i", url, "-t", "2", "-f", "null", "-"]
 
     for attempt in range(1, RETRIES + 2):
         print(f"[Checking] {channel_name} (Attempt {attempt})")
@@ -83,7 +92,7 @@ def check_ffmpeg(stream):
             if "error" not in result.stderr.lower():
                 print(f"[ONLINE] {channel_name}")
                 ONLINE_CHANNELS.append(channel_name)
-                return (header, url, group)
+                return (header, url, group, tvg_id)
         except Exception:
             pass
         if attempt <= RETRIES:
@@ -96,12 +105,11 @@ def check_ffmpeg(stream):
 def main():
     start_time = time.time()
 
-    # Parse YouTube playlist
+    # Parse playlists
     print("Parsing YouTube playlist (no FFmpeg check)...")
     yt_channels = parse_m3u(YT_FILE)
     print(f"{len(yt_channels)} channels found in {YT_FILE}\n")
 
-    # Parse Working playlist
     print("Parsing Working playlist...")
     working_channels = parse_m3u(WORKING_FILE)
     print(f"{len(working_channels)} channels found in {WORKING_FILE}\n")
@@ -112,7 +120,7 @@ def main():
     # FFmpeg validation
     valid_channels = []
     if FFMPEG_CHECK:
-        print(f"\nChecking {len(combined_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
+        print(f"Checking {len(combined_channels)} streams via FFmpeg {'(fast mode)' if FAST_MODE else '(full mode)'}...\n")
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             results = executor.map(check_ffmpeg, combined_channels)
             for res in results:
@@ -123,31 +131,31 @@ def main():
         print("Skipping FFmpeg check.")
         valid_channels = combined_channels
 
-    # Deduplicate by channel name AFTER FFmpeg check
+    # Deduplicate by channel name
     unique_by_name = {}
     removed_channels = []
-    for h, l, g in valid_channels:
+    for h, l, g, tid in valid_channels:
         channel_name = h.split(",")[-1].strip()
         if channel_name not in unique_by_name:
-            unique_by_name[channel_name] = (h, l, g)
+            unique_by_name[channel_name] = (h, l, g, tid)
         else:
             removed_channels.append(channel_name)
 
     # Print removed duplicates
     if removed_channels:
-        print(f"\n📝 Removed {len(removed_channels)} duplicate channels after FFmpeg check:")
+        print(f"\n📝 Removed {len(removed_channels)} duplicate channels:")
         for ch in removed_channels:
             print(f" - {ch}")
     else:
-        print("\n📝 No duplicate channels found after FFmpeg check.")
+        print("\n📝 No duplicate channels found.")
 
     # Use only unique channels
     unique_channels = list(unique_by_name.values())
 
     # Group channels
     groups = {}
-    for h, l, g in unique_channels:
-        groups.setdefault(g, []).append((h, l, g))
+    for h, l, g, tid in unique_channels:
+        groups.setdefault(g, []).append((h, l, g, tid))
 
     # Sort each group by channel name
     for g_name, ch_list in groups.items():
