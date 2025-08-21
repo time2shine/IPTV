@@ -24,10 +24,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt_dlp google-api-python-client
 
-    - name: Install FFmpeg
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y ffmpeg
+    - name: Check FFmpeg (pre-installed)
+      run: ffmpeg -version
 
     - name: Run script
       env:
@@ -74,5 +72,6 @@ jobs:
           git commit -m "Updated combined.m3u at $current_time"
           git push
         fi
+
 
 
