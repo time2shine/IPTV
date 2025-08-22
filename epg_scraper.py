@@ -49,7 +49,7 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
             show_time = datetime.strptime(time_part, "%I:%M %p")
             date_obj = now if "Today" in day_part else now + timedelta(days=1) if "Tomorrow" in day_part else now
 
-            start = date_obj.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+            start = date_obj.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0) + timedelta(minutes=30)
             # Skip past shows
             if start < now:
                 continue
