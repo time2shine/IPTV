@@ -60,25 +60,11 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
 def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
     Scrape TVWish schedule.
-    Includes current show and sets stop times to match the next show.
+    Uses requests for current show, Playwright for upcoming shows.
+    If browser is provided, it will reuse it.
     """
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
-
-    # -------------------
-    # Upcoming shows (JS rendered)
-    # -------------------
-    try:
-        if browser is None:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                upcoming = _fetch_upcoming_tvwish(browser, url)
-                browser.close()
-        else:
-            upcoming = _fetch_upcoming_tvwish(browser, url)
-    except Exception as e:
-        logging.error(f"Failed to fetch upcoming shows: {e}")
-        upcoming = []
 
     # -------------------
     # Current show (HTML)
@@ -93,35 +79,33 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
             title_tag = current_show.select_one("h4")
             if title_tag:
                 title = html.escape(title_tag.get_text(strip=True))
-                # Set start time to now or before first upcoming show
                 start = datetime.now()
-                if upcoming:
-                    first_upcoming_start = upcoming[0]["start"]
-                    if start > first_upcoming_start:
-                        start = first_upcoming_start - timedelta(minutes=30)  # assume 30-min block
-                programmes.append({"title": title, "start": start})
-                logging.info(f"Current show added: {title}")
+                stop = start + timedelta(minutes=30)
+                programmes.append({"title": title, "start": start, "stop": stop})
+                logging.info(f"Current show: {title}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
 
-    # Combine current and upcoming, sort, and assign stop times
-    programmes += upcoming
-    programmes = sorted(programmes, key=lambda x: x["start"])
-
-    for i in range(len(programmes) - 1):
-        programmes[i]["stop"] = programmes[i + 1]["start"]
-    if programmes:
-        programmes[-1]["stop"] = programmes[-1]["start"] + timedelta(minutes=30)
+    # -------------------
+    # Upcoming shows (JS rendered)
+    # -------------------
+    try:
+        if browser is None:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                programmes += _fetch_upcoming_tvwish(browser, url)
+                browser.close()
+        else:
+            programmes += _fetch_upcoming_tvwish(browser, url)
+    except Exception as e:
+        logging.error(f"Failed to fetch upcoming shows: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
-
 
 
 def _fetch_upcoming_tvwish(browser, url):
     """
     Helper function to fetch upcoming shows from TVWish using Playwright browser.
-    Only sets start times.
     """
     programmes = []
     page = browser.new_page()
@@ -142,17 +126,15 @@ def _fetch_upcoming_tvwish(browser, url):
         if time_tag:
             time_text = time_tag.get_text(strip=True).split(",")[-1].strip()
             try:
-                start = datetime.now().replace(
-                    hour=datetime.strptime(time_text, "%I:%M %p").hour,
-                    minute=datetime.strptime(time_text, "%I:%M %p").minute,
-                    second=0, microsecond=0
-                )
+                show_time = datetime.strptime(time_text, "%I:%M %p")
+                start = datetime.now().replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
             except:
                 start = datetime.now()
         else:
             start = datetime.now()
 
-        programmes.append({"title": title, "start": start})
+        stop = start + timedelta(minutes=30)
+        programmes.append({"title": title, "start": start, "stop": stop})
 
     logging.info(f"Fetched {len(upcoming_items)} upcoming shows via Playwright")
     page.close()
@@ -194,35 +176,18 @@ CHANNELS = {
 # Build XMLTV file
 # -----------------------
 def build_epg(channels_data, filename="epg.xml"):
-    logging.info("Building IPTV-compatible EPG XML ...")
+    logging.info("Building EPG XML ...")
     tv = ET.Element("tv")
 
     for ch in channels_data:
-        # Add channel
         channel_elem = ET.SubElement(tv, "channel", {"id": ch["id"]})
         ET.SubElement(channel_elem, "display-name").text = ch["name"]
         if ch["logo"]:
             ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
 
-        # Sort programmes by start time
-        programmes = sorted(ch["programmes"], key=lambda x: x["start"])
-
-        # Calculate stop times dynamically
-        for i, prog in enumerate(programmes):
-            start = prog["start"]
-            if "stop" in prog:
-                # existing channels with stop times
-                stop = prog["stop"]
-            else:
-                # TVWish: stop = start of next programme or +30 mins
-                if i + 1 < len(programmes):
-                    stop = programmes[i + 1]["start"]
-                else:
-                    stop = start + timedelta(minutes=30)
-
-            start_str = start.strftime("%Y%m%d%H%M%S +0600")
-            stop_str = stop.strftime("%Y%m%d%H%M%S +0600")
-
+        for prog in ch["programmes"]:
+            start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
+            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
             ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
 
@@ -233,7 +198,6 @@ def build_epg(channels_data, filename="epg.xml"):
         f.write(pretty_xml)
 
     logging.info(f"EPG saved to {filename}")
-
 
 
 # -----------------------
