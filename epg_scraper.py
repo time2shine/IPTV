@@ -176,18 +176,33 @@ CHANNELS = {
 # Build XMLTV file
 # -----------------------
 def build_epg(channels_data, filename="epg.xml"):
-    logging.info("Building EPG XML ...")
+    logging.info("Building IPTV-compatible EPG XML ...")
     tv = ET.Element("tv")
 
     for ch in channels_data:
+        # 1️⃣ Add channel first
         channel_elem = ET.SubElement(tv, "channel", {"id": ch["id"]})
         ET.SubElement(channel_elem, "display-name").text = ch["name"]
         if ch["logo"]:
             ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
 
-        for prog in ch["programmes"]:
-            start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
-            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
+        # 2️⃣ Sort programmes by start time
+        programmes = sorted(ch["programmes"], key=lambda x: x["start"])
+
+        # 3️⃣ Ensure no overlaps, round to 30-minute blocks
+        for prog in programmes:
+            start = prog["start"]
+            stop = prog["stop"]
+
+            # Round start and stop to nearest half hour
+            start = start.replace(minute=(0 if start.minute < 30 else 30), second=0, microsecond=0)
+            stop = stop.replace(minute=(0 if stop.minute < 30 else 30), second=0, microsecond=0)
+            if stop <= start:
+                stop = start + timedelta(minutes=30)
+
+            start_str = start.strftime("%Y%m%d%H%M%S +0600")
+            stop_str = stop.strftime("%Y%m%d%H%M%S +0600")
+
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
             ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
 
