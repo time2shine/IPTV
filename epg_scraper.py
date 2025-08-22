@@ -59,6 +59,50 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
+def scrape_tvwish(channel_id, display_name, logo_url, url):
+    """
+    Scrape TV schedule from tvwish.com (e.g., Zee Bangla Cinema)
+    """
+    logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
+    try:
+        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        response.raise_for_status()
+    except Exception as e:
+        logging.error(f"Failed to fetch {url}: {e}")
+        return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": []}
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    programmes = []
+
+    # TVWish uses div.schedule-item (check HTML if it changes)
+    items = soup.select("div.schedule-item")
+    logging.info(f"Found {len(items)} programmes for {display_name}")
+
+    for item in items:
+        time_tag = item.select_one("div.time")
+        title_tag = item.select_one("div.title")
+
+        if not title_tag or not time_tag:
+            continue
+
+        title = html.escape(title_tag.get_text(strip=True))
+        time_text = time_tag.get_text(strip=True)  # e.g., "12:00 AM"
+
+        try:
+            show_time = datetime.strptime(time_text, "%I:%M %p")
+
+            # Set date to today; if schedule passes midnight, may need adjustment
+            today = datetime.now()
+            start = today.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+            stop = start + timedelta(minutes=30)  # default 30 mins per show
+            programmes.append({"title": title, "start": start, "stop": stop})
+
+        except Exception as e:
+            logging.warning(f"Failed to parse time '{time_text}' for {title}: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
 
 def scrape_othersite(channel_id, display_name, logo_url, url):
     """
@@ -125,7 +169,12 @@ CHANNELS = {
         "https://tvgenie.in/zee-bangla-hd-schedule",
         scrape_tvgenie
     ),
-    # Add more channels here
+    "zeebanglacinema.in": (
+        "Zee Bangla Cinema",
+        "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
+        "https://www.tvwish.com/IN/Channels/Zee-Bangla-Cinema/33/Schedule",
+        scrape_tvwish
+    ),
 }
 
 
