@@ -18,6 +18,7 @@ GROUP_ORDER = [
     "News",
     "News India",
     "International News",
+    "Pakistan",
     "Music",
     "International",
     "Sports",
