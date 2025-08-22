@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 # -----------------------
-# Scrapers for different sites
+# Scrapers for tvgenie sites
 # -----------------------
 def scrape_tvgenie(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching TV schedule from tvgenie for {display_name} ...")
@@ -79,7 +79,10 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
             title_tag = current_show.select_one("h4")
             if title_tag:
                 title = html.escape(title_tag.get_text(strip=True))
-                start = datetime.now()
+                
+                # Use Bangladesh timezone (UTC+6)
+                bd_tz = timezone(timedelta(hours=6))
+                start = datetime.now(bd_tz)
                 stop = start + timedelta(minutes=30)
                 programmes.append({"title": title+"rokon", "start": start, "stop": stop})
                 logging.info(f"Current show: {title+"rokon"}")
