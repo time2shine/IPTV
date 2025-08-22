@@ -74,27 +74,56 @@ def scrape_tvwish(channel_id, display_name, logo_url, url):
     soup = BeautifulSoup(response.text, "html.parser")
     programmes = []
 
-    # TVWish uses div.schedule-item (check HTML if it changes)
-    items = soup.select("div.schedule-item")
-    logging.info(f"Found {len(items)} programmes for {display_name}")
+    # -------------------
+    # Current show
+    # -------------------
+    current_show = soup.select_one("div.prog-list")
+    if current_show:
+        title_tag = current_show.select_one("h4")
+        if title_tag:
+            title = html.escape(title_tag.get_text(strip=True))
+            start = datetime.now()
+            # We'll approximate stop as 30 mins later
+            stop = start + timedelta(minutes=30)
+            programmes.append({"title": title, "start": start, "stop": stop})
 
-    for item in items:
-        time_tag = item.select_one("div.time")
-        title_tag = item.select_one("div.title")
+    # -------------------
+    # Upcoming shows
+    # -------------------
+    upcoming_items = soup.select("div.card.schedule-item")
+    logging.info(f"Found {len(upcoming_items)} upcoming shows for {display_name}")
 
-        if not title_tag or not time_tag:
+    for i, item in enumerate(upcoming_items):
+        # Time
+        time_tag = item.select_one("div.card-header h3")
+        title_tag = item.select_one("h4")
+        desc_tag = item.select_one("p")
+        if not time_tag or not title_tag:
             continue
 
         title = html.escape(title_tag.get_text(strip=True))
-        time_text = time_tag.get_text(strip=True)  # e.g., "12:00 AM"
+        description = html.escape(desc_tag.get_text(strip=True)) if desc_tag else ""
+        time_text = time_tag.get_text(strip=True)  # e.g., "Fri, 7:30 PM"
 
         try:
-            show_time = datetime.strptime(time_text, "%I:%M %p")
-
-            # Set date to today; if schedule passes midnight, may need adjustment
+            # Parse the time portion
+            time_part = time_text.split(",")[-1].strip()
+            show_time = datetime.strptime(time_part, "%I:%M %p")
             today = datetime.now()
             start = today.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-            stop = start + timedelta(minutes=30)  # default 30 mins per show
+
+            # Stop = start of next show or 30 mins if last
+            if i + 1 < len(upcoming_items):
+                next_time_tag = upcoming_items[i + 1].select_one("div.card-header h3")
+                next_time_text = next_time_tag.get_text(strip=True).split(",")[-1].strip()
+                next_show_time = datetime.strptime(next_time_text, "%I:%M %p")
+                stop = today.replace(hour=next_show_time.hour, minute=next_show_time.minute, second=0, microsecond=0)
+                # If stop < start, it means past midnight → add 1 day
+                if stop <= start:
+                    stop += timedelta(days=1)
+            else:
+                stop = start + timedelta(minutes=30)
+
             programmes.append({"title": title, "start": start, "stop": stop})
 
         except Exception as e:
