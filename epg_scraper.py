@@ -65,7 +65,24 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
 
+    # -------------------
+    # Upcoming shows (JS rendered)
+    # -------------------
+    try:
+        if browser is None:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                upcoming = _fetch_upcoming_tvwish(browser, url)
+                browser.close()
+        else:
+            upcoming = _fetch_upcoming_tvwish(browser, url)
+    except Exception as e:
+        logging.error(f"Failed to fetch upcoming shows: {e}")
+        upcoming = []
+
+    # -------------------
     # Current show (HTML)
+    # -------------------
     try:
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
         response.raise_for_status()
@@ -76,32 +93,28 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
             title_tag = current_show.select_one("h4")
             if title_tag:
                 title = html.escape(title_tag.get_text(strip=True))
+                # Set start time to now or before first upcoming show
                 start = datetime.now()
+                if upcoming:
+                    first_upcoming_start = upcoming[0]["start"]
+                    if start > first_upcoming_start:
+                        start = first_upcoming_start - timedelta(minutes=30)  # assume 30-min block
                 programmes.append({"title": title, "start": start})
                 logging.info(f"Current show added: {title}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
 
-    # Upcoming shows (JS rendered)
-    try:
-        if browser is None:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                programmes += _fetch_upcoming_tvwish(browser, url)
-                browser.close()
-        else:
-            programmes += _fetch_upcoming_tvwish(browser, url)
-    except Exception as e:
-        logging.error(f"Failed to fetch upcoming shows: {e}")
-
-    # Sort and assign stop times
+    # Combine current and upcoming, sort, and assign stop times
+    programmes += upcoming
     programmes = sorted(programmes, key=lambda x: x["start"])
+
     for i in range(len(programmes) - 1):
         programmes[i]["stop"] = programmes[i + 1]["start"]
     if programmes:
         programmes[-1]["stop"] = programmes[-1]["start"] + timedelta(minutes=30)
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
 
 
 
