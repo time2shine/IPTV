@@ -66,28 +66,46 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
 
-    # -------------------
-    # Current show (HTML)
-    # -------------------
-    try:
-        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
+   # -------------------
+# Current show (HTML)
+# -------------------
+try:
+    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
 
-        current_show = soup.select_one("div.prog-list")
-        if current_show:
-            title_tag = current_show.select_one("h4")
-            if title_tag:
-                title = html.escape(title_tag.get_text(strip=True))
-                
-                # Use Bangladesh timezone (UTC+6)
+    current_show = soup.select_one("div.prog-list")
+    upcoming_shows = soup.select("#divUpcoming div.card.schedule-item")  # select upcoming shows
+    first_upcoming_start = None
+
+    if upcoming_shows:
+        first_item = upcoming_shows[0]
+        time_tag = first_item.select_one("div.card-header h3")
+        if time_tag:
+            time_text = time_tag.get_text(strip=True).split(",")[-1].strip()
+            try:
+                show_time = datetime.strptime(time_text, "%I:%M %p")
+                # Bangladesh timezone
                 bd_tz = timezone(timedelta(hours=6))
-                start = datetime.now(bd_tz)
-                stop = start + timedelta(minutes=30)
-                programmes.append({"title": title+"rokon", "start": start, "stop": stop})
-                logging.info(f"Current show: {title+"rokon"}")
-    except Exception as e:
-        logging.error(f"Failed to fetch current show: {e}")
+                today = datetime.now(bd_tz)
+                first_upcoming_start = today.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+            except:
+                pass
+
+    if current_show:
+        title_tag = current_show.select_one("h4")
+        if title_tag:
+            title = html.escape(title_tag.get_text(strip=True))
+            # Bangladesh timezone
+            bd_tz = timezone(timedelta(hours=6))
+            start = datetime.now(bd_tz)
+            # Use first upcoming start if available, otherwise fallback to 30 minutes
+            stop = first_upcoming_start if first_upcoming_start and first_upcoming_start > start else start + timedelta(minutes=30)
+
+            programmes.append({"title": title+"rokon", "start": start, "stop": stop})
+            logging.info(f"Current show: {title+'rokon'} (stop: {stop})")
+except Exception as e:
+    logging.error(f"Failed to fetch current show: {e}")
 
     # -------------------
     # Upcoming shows (JS rendered)
