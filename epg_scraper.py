@@ -17,7 +17,7 @@ logging.basicConfig(
 CHANNELS = {
     "starjalsha.in": (
         "Star Jalsha",
-        "https://upload.wikimedia.org/wikipedia/en/d/d0/Star_Jalsha_logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
         "https://tvgenie.in/star-jalsha-schedule"
     ),
 }
