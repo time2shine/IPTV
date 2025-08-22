@@ -61,7 +61,7 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
     Scrape TVWish schedule.
     Uses requests for current show, Playwright for upcoming shows.
-    If browser is provided, it will reuse it.
+    Only sets start times; stop times are handled in build_epg.
     """
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
@@ -80,8 +80,7 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
             if title_tag:
                 title = html.escape(title_tag.get_text(strip=True))
                 start = datetime.now()
-                stop = start + timedelta(minutes=30)
-                programmes.append({"title": title, "start": start, "stop": stop})
+                programmes.append({"title": title, "start": start})
                 logging.info(f"Current show: {title}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
@@ -106,6 +105,7 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
 def _fetch_upcoming_tvwish(browser, url):
     """
     Helper function to fetch upcoming shows from TVWish using Playwright browser.
+    Only sets start times.
     """
     programmes = []
     page = browser.new_page()
@@ -126,15 +126,17 @@ def _fetch_upcoming_tvwish(browser, url):
         if time_tag:
             time_text = time_tag.get_text(strip=True).split(",")[-1].strip()
             try:
-                show_time = datetime.strptime(time_text, "%I:%M %p")
-                start = datetime.now().replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+                start = datetime.now().replace(
+                    hour=datetime.strptime(time_text, "%I:%M %p").hour,
+                    minute=datetime.strptime(time_text, "%I:%M %p").minute,
+                    second=0, microsecond=0
+                )
             except:
                 start = datetime.now()
         else:
             start = datetime.now()
 
-        stop = start + timedelta(minutes=30)
-        programmes.append({"title": title, "start": start, "stop": stop})
+        programmes.append({"title": title, "start": start})
 
     logging.info(f"Fetched {len(upcoming_items)} upcoming shows via Playwright")
     page.close()
