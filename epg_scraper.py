@@ -123,7 +123,7 @@ CHANNELS = {
         "Zee Bangla TV",
         "http://openboxv8s.com/india/zee_bangla.jpg",
         "https://tvgenie.in/zee-bangla-hd-schedule",
-        scrape_othersite
+        scrape_tvgenie
     ),
     # Add more channels here
 }
