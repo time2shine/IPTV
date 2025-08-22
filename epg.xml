@@ -4,15 +4,6 @@
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
-  <programme start="20250822213000 +0600" stop="20250822220000 +0600" channel="starjalsha.in">
-    <title lang="bn">Anurager Chhowa</title>
-  </programme>
-  <programme start="20250822220000 +0600" stop="20250822223000 +0600" channel="starjalsha.in">
-    <title lang="bn">Grihapravesh</title>
-  </programme>
-  <programme start="20250822223000 +0600" stop="20250822230000 +0600" channel="starjalsha.in">
-    <title lang="bn">Shubho Bibaho</title>
-  </programme>
   <programme start="20250822230000 +0600" stop="20250823000000 +0600" channel="starjalsha.in">
     <title lang="bn">Mon Phagun</title>
   </programme>
@@ -94,19 +85,19 @@
   <programme start="20250823183000 +0600" stop="20250823190000 +0600" channel="starjalsha.in">
     <title lang="bn">Lokkhi Jhnapi</title>
   </programme>
+  <programme start="20250823190000 +0600" stop="20250823193000 +0600" channel="starjalsha.in">
+    <title lang="bn">Kothha</title>
+  </programme>
+  <programme start="20250823193000 +0600" stop="20250823200000 +0600" channel="starjalsha.in">
+    <title lang="bn">Rangamati Tirandaj</title>
+  </programme>
+  <programme start="20250823200000 +0600" stop="20250823203000 +0600" channel="starjalsha.in">
+    <title lang="bn">Parashuram</title>
+  </programme>
   <channel id="colors.in">
     <display-name>Colors</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
-  <programme start="20250822210000 +0600" stop="20250822220000 +0600" channel="colors.in">
-    <title lang="bn">Pherari Mon</title>
-  </programme>
-  <programme start="20250822220000 +0600" stop="20250822223000 +0600" channel="colors.in">
-    <title lang="bn">Shiv Shakti</title>
-  </programme>
-  <programme start="20250822223000 +0600" stop="20250822230000 +0600" channel="colors.in">
-    <title lang="bn">Tumii Je Amar Maa</title>
-  </programme>
   <programme start="20250822230000 +0600" stop="20250823000000 +0600" channel="colors.in">
     <title lang="bn">Swapnodana</title>
   </programme>
@@ -188,16 +179,19 @@
   <programme start="20250823173000 +0600" stop="20250823174500 +0600" channel="colors.in">
     <title lang="bn">Shiv Shakti</title>
   </programme>
+  <programme start="20250823174500 +0600" stop="20250823180000 +0600" channel="colors.in">
+    <title lang="bn">Tumii Je Amar Maa</title>
+  </programme>
+  <programme start="20250823180000 +0600" stop="20250823183000 +0600" channel="colors.in">
+    <title lang="bn">Sohag Chand</title>
+  </programme>
+  <programme start="20250823183000 +0600" stop="20250823190000 +0600" channel="colors.in">
+    <title lang="bn">Sohag Chand</title>
+  </programme>
   <channel id="zeebangla.in">
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20250822213000 +0600" stop="20250822221500 +0600" channel="zeebangla.in">
-    <title lang="bn">Anandi</title>
-  </programme>
-  <programme start="20250822221500 +0600" stop="20250822230000 +0600" channel="zeebangla.in">
-    <title lang="bn">Mittir Bari</title>
-  </programme>
   <programme start="20250822230000 +0600" stop="20250822233000 +0600" channel="zeebangla.in">
     <title lang="bn">Kusum</title>
   </programme>
@@ -282,6 +276,12 @@
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="zeebangla.in">
     <title lang="bn">Parineeta</title>
   </programme>
+  <programme start="20250823150000 +0600" stop="20250823153000 +0600" channel="zeebangla.in">
+    <title lang="bn">Phulki</title>
+  </programme>
+  <programme start="20250823153000 +0600" stop="20250823160000 +0600" channel="zeebangla.in">
+    <title lang="bn">Tulsi Dhamer Naru Gopal</title>
+  </programme>
   <channel id="zeebanglacinema.in">
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
@@ -310,19 +310,19 @@
   <programme start="20250822113000 +0600" stop="20250822140000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Pooja (1996)</title>
   </programme>
-  <programme start="20250822140000 +0600" stop="20250822161320 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822140000 +0600" stop="20250822170000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sultan: The Saviour</title>
   </programme>
-  <programme start="20250822161320 +0600" stop="20250822170000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Best Of Mirakkel</title>
-  </programme>
-  <programme start="20250822170000 +0600" stop="20250822193000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822170000 +0600" stop="20250822173615 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Annaye Atyachar</title>
   </programme>
-  <programme start="20250822193000 +0600" stop="20250822223000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822173615 +0600" stop="20250822193000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Adho Alo Chaya Te</title>
+  </programme>
+  <programme start="20250822193000 +0600" stop="20250822203000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Trinayani</title>
   </programme>
-  <programme start="20250822223000 +0600" stop="20250822230000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Adho Alo Chaya Te</title>
+  <programme start="20250822203000 +0600" stop="20250822210000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Hridoy haran BA Pass</title>
   </programme>
 </tv>
