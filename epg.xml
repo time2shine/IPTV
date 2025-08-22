@@ -4,9 +4,6 @@
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
-  <programme start="20250822173000 +0600" stop="20250822180000 +0600" channel="starjalsha.in">
-    <title lang="bn">Geeta LLB</title>
-  </programme>
   <programme start="20250822180000 +0600" stop="20250822183000 +0600" channel="starjalsha.in">
     <title lang="bn">Tentulpaata</title>
   </programme>
@@ -94,13 +91,13 @@
   <programme start="20250823113000 +0600" stop="20250823120000 +0600" channel="starjalsha.in">
     <title lang="bn">Parashuram</title>
   </programme>
+  <programme start="20250823120000 +0600" stop="20250823123000 +0600" channel="starjalsha.in">
+    <title lang="bn">Rajrajeshwari Rani Bhabani</title>
+  </programme>
   <channel id="colors.in">
     <display-name>Colors</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
-  <programme start="20250822173000 +0600" stop="20250822180000 +0600" channel="colors.in">
-    <title lang="bn">Tumii Je Amar Maa</title>
-  </programme>
   <programme start="20250822180000 +0600" stop="20250822183000 +0600" channel="colors.in">
     <title lang="bn">Sohag Chand</title>
   </programme>
@@ -188,13 +185,13 @@
   <programme start="20250823120000 +0600" stop="20250823123000 +0600" channel="colors.in">
     <title lang="bn">Shiv Shakti</title>
   </programme>
+  <programme start="20250823123000 +0600" stop="20250823130000 +0600" channel="colors.in">
+    <title lang="bn">Shiv Shakti</title>
+  </programme>
   <channel id="zeebangla.in">
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20250822173000 +0600" stop="20250822180000 +0600" channel="zeebangla.in">
-    <title lang="bn">Kusum</title>
-  </programme>
   <programme start="20250822180000 +0600" stop="20250822183000 +0600" channel="zeebangla.in">
     <title lang="bn">Tui Amar Hero</title>
   </programme>
@@ -282,4 +279,11 @@
   <programme start="20250823093000 +0600" stop="20250823100000 +0600" channel="zeebangla.in">
     <title lang="bn">Chirodini Tumi Je Amar</title>
   </programme>
+  <programme start="20250823100000 +0600" stop="20250823103000 +0600" channel="zeebangla.in">
+    <title lang="bn">Chirodini Tumi Je Amar</title>
+  </programme>
+  <channel id="zeebanglacinema.in">
+    <display-name>Zee Bangla Cinema</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
+  </channel>
 </tv>
