@@ -33,6 +33,8 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
     items = soup.select("div.requested-movies.card")
     logging.info(f"Found {len(items)} programmes for {display_name}")
 
+    now = datetime.now()
+
     for item in items:
         title_tag = item.select_one("h6.desktop-only")
         time_tag = item.select_one(".detail-container p")
@@ -45,10 +47,12 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
         try:
             time_part, day_part = [x.strip() for x in time_text.split(",")]
             show_time = datetime.strptime(time_part, "%I:%M %p")
-            today = datetime.now()
-            date_obj = today if "Today" in day_part else today + timedelta(days=1) if "Tomorrow" in day_part else today
+            date_obj = now if "Today" in day_part else now + timedelta(days=1) if "Tomorrow" in day_part else now
 
             start = date_obj.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+            # Skip past shows
+            if start < now:
+                continue
             stop = start + timedelta(minutes=30)
             programmes.append({"title": title, "start": start, "stop": stop})
         except Exception as e:
@@ -59,12 +63,11 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
 
 def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
-    Scrape TVWish schedule.
-    Uses requests for current show, Playwright for upcoming shows.
-    If browser is provided, it will reuse it.
+    Scrape TVWish schedule (Indian time) and convert to Bangladesh time.
     """
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
+    now = datetime.now()
 
     # -------------------
     # Upcoming shows (JS rendered)
@@ -73,13 +76,12 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
         if browser is None:
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
-                programmes += _fetch_upcoming_tvwish(browser, url)
+                programmes += _fetch_upcoming_tvwish(browser, url, now)
                 browser.close()
         else:
-            programmes += _fetch_upcoming_tvwish(browser, url)
+            programmes += _fetch_upcoming_tvwish(browser, url, now)
     except Exception as e:
         logging.error(f"Failed to fetch upcoming shows: {e}")
-    
 
     # -------------------
     # Current show (HTML)
@@ -90,16 +92,16 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
         soup = BeautifulSoup(response.text, "html.parser")
 
         current_show = soup.select_one("div.prog-list")
-        if current_show:
+        if current_show and programmes:
             title_tag = current_show.select_one("h4")
             if title_tag:
                 title = html.escape(title_tag.get_text(strip=True))
-                
                 first_upcoming_start = programmes[0]["start"]
-                start = first_upcoming_start - timedelta(minutes=30)
+                start = max(now, first_upcoming_start - timedelta(minutes=30))
                 stop = first_upcoming_start - timedelta(minutes=1)
-                
-                programmes.append({"title": title, "start": start, "stop": stop})
+                if stop <= start:
+                    stop = start + timedelta(minutes=1)
+                programmes.insert(0, {"title": title, "start": start, "stop": stop})
                 logging.info(f"Current show: {title}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
@@ -107,19 +109,18 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
 
-def _fetch_upcoming_tvwish(browser, url):
+def _fetch_upcoming_tvwish(browser, url, now):
     """
-    Helper function to fetch upcoming shows from TVWish using Playwright browser.
+    Fetch upcoming shows from TVWish and shift Indian time to Bangladesh time.
     """
     programmes = []
     page = browser.new_page()
     page.goto(url)
     page.wait_for_selector("#divUpcoming", timeout=10000)
 
-    html_content = page.content()
-    soup = BeautifulSoup(html_content, "html.parser")
-
+    soup = BeautifulSoup(page.content(), "html.parser")
     upcoming_items = soup.select("#divUpcoming div.card.schedule-item")
+
     for item in upcoming_items:
         title_tag = item.select_one("h4.text-warning")
         if not title_tag:
@@ -131,11 +132,14 @@ def _fetch_upcoming_tvwish(browser, url):
             time_text = time_tag.get_text(strip=True).split(",")[-1].strip()
             try:
                 show_time = datetime.strptime(time_text, "%I:%M %p")
-                start = datetime.now().replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+                # Convert Indian time to Bangladesh time (+30 mins)
+                start = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0) + timedelta(minutes=30)
+                if start < now:
+                    start += timedelta(days=1)
             except:
-                start = datetime.now()
+                start = now
         else:
-            start = datetime.now()
+            start = now
 
         stop = start + timedelta(minutes=30)
         programmes.append({"title": title, "start": start, "stop": stop})
@@ -189,9 +193,6 @@ def build_epg(channels_data, filename="epg.xml"):
         if ch["logo"]:
             ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
 
-        # -------------------
-        # Fix overlaps & gaps
-        # -------------------
         sorted_programmes = sorted(ch["programmes"], key=lambda x: x["start"])
         cleaned_programmes = []
         prev_stop = None
@@ -200,27 +201,19 @@ def build_epg(channels_data, filename="epg.xml"):
             start = prog["start"]
             stop = prog["stop"]
 
-            # If overlap → shift start forward
             if prev_stop and start < prev_stop:
-                logging.warning(f"[{ch['id']}] Overlap fixed: {prog['title']} shifted from {start} → {prev_stop}")
                 start = prev_stop
 
-            # If gap → extend previous programme to fill it
             if prev_stop and start > prev_stop:
-                logging.info(f"[{ch['id']}] Gap filled: extending previous programme until {start}")
                 last = cleaned_programmes[-1]
                 last["stop"] = start
 
-            # Ensure stop is always after start (min 1 min duration)
             if stop <= start:
                 stop = start + timedelta(minutes=1)
 
             cleaned_programmes.append({"title": prog["title"], "start": start, "stop": stop})
             prev_stop = stop
 
-        # -------------------
-        # Write programmes to XML
-        # -------------------
         for prog in cleaned_programmes:
             start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
             stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
@@ -234,7 +227,6 @@ def build_epg(channels_data, filename="epg.xml"):
         f.write(pretty_xml)
 
     logging.info(f"EPG saved to {filename}")
-
 
 
 # -----------------------
