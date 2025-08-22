@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import logging
 import html
+from playwright.sync_api import sync_playwright
 
 # -----------------------
 # Logging setup
@@ -18,10 +19,6 @@ logging.basicConfig(
 # Scrapers for different sites
 # -----------------------
 def scrape_tvgenie(channel_id, display_name, logo_url, url):
-    """
-    Scrape schedules from tvgenie.in
-    Works for Star Jalsha, Colors, Zee TV if they follow the same HTML structure
-    """
     logging.info(f"Fetching TV schedule from tvgenie for {display_name} ...")
     try:
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
@@ -52,132 +49,100 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
             date_obj = today if "Today" in day_part else today + timedelta(days=1) if "Tomorrow" in day_part else today
 
             start = date_obj.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-            stop = start + timedelta(minutes=30)  # default 30 mins
+            stop = start + timedelta(minutes=30)
             programmes.append({"title": title, "start": start, "stop": stop})
         except Exception as e:
             logging.warning(f"Failed to parse time '{time_text}' for {title}: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
-def scrape_tvwish(channel_id, display_name, logo_url, url):
+
+def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
-    Scrape TV schedule from tvwish.com (e.g., Zee Bangla Cinema)
+    Scrape TVWish schedule.
+    Uses requests for current show, Playwright for upcoming shows.
+    If browser is provided, it will reuse it.
     """
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
-    try:
-        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        response.raise_for_status()
-    except Exception as e:
-        logging.error(f"Failed to fetch {url}: {e}")
-        return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": []}
-
-    soup = BeautifulSoup(response.text, "html.parser")
     programmes = []
 
     # -------------------
-    # Current show
+    # Current show (HTML)
     # -------------------
-    current_show = soup.select_one("div.prog-list")
-    if current_show:
-        title_tag = current_show.select_one("h4")
-        if title_tag:
-            title = html.escape(title_tag.get_text(strip=True))
-            start = datetime.now()
-            # We'll approximate stop as 30 mins later
-            stop = start + timedelta(minutes=30)
-            programmes.append({"title": title, "start": start, "stop": stop})
+    try:
+        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
 
-    # -------------------
-    # Upcoming shows
-    # -------------------
-    upcoming_items = soup.select("div.card.schedule-item")
-    logging.info(f"Found {len(upcoming_items)} upcoming shows for {display_name}")
-
-    for i, item in enumerate(upcoming_items):
-        # Time
-        time_tag = item.select_one("div.card-header h3")
-        title_tag = item.select_one("h4")
-        desc_tag = item.select_one("p")
-        if not time_tag or not title_tag:
-            continue
-
-        title = html.escape(title_tag.get_text(strip=True))
-        description = html.escape(desc_tag.get_text(strip=True)) if desc_tag else ""
-        time_text = time_tag.get_text(strip=True)  # e.g., "Fri, 7:30 PM"
-
-        try:
-            # Parse the time portion
-            time_part = time_text.split(",")[-1].strip()
-            show_time = datetime.strptime(time_part, "%I:%M %p")
-            today = datetime.now()
-            start = today.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-
-            # Stop = start of next show or 30 mins if last
-            if i + 1 < len(upcoming_items):
-                next_time_tag = upcoming_items[i + 1].select_one("div.card-header h3")
-                next_time_text = next_time_tag.get_text(strip=True).split(",")[-1].strip()
-                next_show_time = datetime.strptime(next_time_text, "%I:%M %p")
-                stop = today.replace(hour=next_show_time.hour, minute=next_show_time.minute, second=0, microsecond=0)
-                # If stop < start, it means past midnight → add 1 day
-                if stop <= start:
-                    stop += timedelta(days=1)
-            else:
+        current_show = soup.select_one("div.prog-list")
+        if current_show:
+            title_tag = current_show.select_one("h4")
+            if title_tag:
+                title = html.escape(title_tag.get_text(strip=True))
+                start = datetime.now()
                 stop = start + timedelta(minutes=30)
-
-            programmes.append({"title": title, "start": start, "stop": stop})
-
-        except Exception as e:
-            logging.warning(f"Failed to parse time '{time_text}' for {title}: {e}")
-
-    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
-
-
-def scrape_othersite(channel_id, display_name, logo_url, url):
-    """
-    Example scraper for another site with different HTML structure
-    You must inspect that site's HTML and adjust selectors
-    """
-    logging.info(f"Fetching TV schedule from other site for {display_name} ...")
-    try:
-        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        response.raise_for_status()
+                programmes.append({"title": title, "start": start, "stop": stop})
+                logging.info(f"Current show: {title}")
     except Exception as e:
-        logging.error(f"Failed to fetch {url}: {e}")
-        return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": []}
+        logging.error(f"Failed to fetch current show: {e}")
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    programmes = []
-
-    # Adjust selectors based on the site's HTML
-    items = soup.select("div.program-item")
-    logging.info(f"Found {len(items)} programmes for {display_name}")
-
-    for item in items:
-        title_tag = item.select_one(".show-name")
-        time_tag = item.select_one(".time")
-        if not title_tag or not time_tag:
-            continue
-
-        title = html.escape(title_tag.get_text(strip=True))
-        time_text = time_tag.get_text(strip=True)
-
-        try:
-            show_time = datetime.strptime(time_text, "%I:%M %p")
-            today = datetime.now()
-            start = today.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-            stop = start + timedelta(minutes=30)
-            programmes.append({"title": title, "start": start, "stop": stop})
-        except Exception as e:
-            logging.warning(f"Failed to parse time '{time_text}' for {title}: {e}")
+    # -------------------
+    # Upcoming shows (JS rendered)
+    # -------------------
+    try:
+        if browser is None:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                programmes += _fetch_upcoming_tvwish(browser, url)
+                browser.close()
+        else:
+            programmes += _fetch_upcoming_tvwish(browser, url)
+    except Exception as e:
+        logging.error(f"Failed to fetch upcoming shows: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
+def _fetch_upcoming_tvwish(browser, url):
+    """
+    Helper function to fetch upcoming shows from TVWish using Playwright browser.
+    """
+    programmes = []
+    page = browser.new_page()
+    page.goto(url)
+    page.wait_for_selector("#divUpcoming", timeout=10000)
+
+    html_content = page.content()
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    upcoming_items = soup.select("#divUpcoming div.card.schedule-item")
+    for item in upcoming_items:
+        title_tag = item.select_one("h4.text-warning")
+        if not title_tag:
+            continue
+        title = html.escape(title_tag.get_text(strip=True))
+
+        time_tag = item.select_one("div.card-header h3")
+        if time_tag:
+            time_text = time_tag.get_text(strip=True).split(",")[-1].strip()
+            try:
+                show_time = datetime.strptime(time_text, "%I:%M %p")
+                start = datetime.now().replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+            except:
+                start = datetime.now()
+        else:
+            start = datetime.now()
+
+        stop = start + timedelta(minutes=30)
+        programmes.append({"title": title, "start": start, "stop": stop})
+
+    logging.info(f"Fetched {len(upcoming_items)} upcoming shows via Playwright")
+    page.close()
+    return programmes
 
 
 # -----------------------
 # Channels dictionary
-# key = channel_id
-# value = (display name, logo url, schedule url, scraper function)
 # -----------------------
 CHANNELS = {
     "starjalsha.in": (
@@ -240,8 +205,15 @@ def build_epg(channels_data, filename="epg.xml"):
 # -----------------------
 if __name__ == "__main__":
     all_channels = []
-    for ch_id, (name, logo, url, scraper_func) in CHANNELS.items():
-        ch_data = scraper_func(ch_id, name, logo, url)
-        all_channels.append(ch_data)
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        for ch_id, (name, logo, url, scraper_func) in CHANNELS.items():
+            if scraper_func == scrape_tvwish:
+                ch_data = scraper_func(ch_id, name, logo, url, browser=browser)
+            else:
+                ch_data = scraper_func(ch_id, name, logo, url)
+            all_channels.append(ch_data)
+        browser.close()
 
     build_epg(all_channels, "epg.xml")
