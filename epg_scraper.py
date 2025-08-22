@@ -60,15 +60,12 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
 def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
     Scrape TVWish schedule.
-    Uses requests for current show, Playwright for upcoming shows.
-    Only sets start times; stop times are handled in build_epg.
+    Includes current show and sets stop times to match the next show.
     """
     logging.info(f"Fetching TV schedule from TVWish for {display_name} ...")
     programmes = []
 
-    # -------------------
     # Current show (HTML)
-    # -------------------
     try:
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
         response.raise_for_status()
@@ -81,13 +78,11 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
                 title = html.escape(title_tag.get_text(strip=True))
                 start = datetime.now()
                 programmes.append({"title": title, "start": start})
-                logging.info(f"Current show: {title}")
+                logging.info(f"Current show added: {title}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
 
-    # -------------------
     # Upcoming shows (JS rendered)
-    # -------------------
     try:
         if browser is None:
             with sync_playwright() as p:
@@ -99,7 +94,15 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     except Exception as e:
         logging.error(f"Failed to fetch upcoming shows: {e}")
 
+    # Sort and assign stop times
+    programmes = sorted(programmes, key=lambda x: x["start"])
+    for i in range(len(programmes) - 1):
+        programmes[i]["stop"] = programmes[i + 1]["start"]
+    if programmes:
+        programmes[-1]["stop"] = programmes[-1]["start"] + timedelta(minutes=30)
+
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
 
 
 def _fetch_upcoming_tvwish(browser, url):
