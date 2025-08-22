@@ -185,7 +185,32 @@ def build_epg(channels_data, filename="epg.xml"):
         if ch["logo"]:
             ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
 
-        for prog in ch["programmes"]:
+        # -------------------
+        # Handle overlapping programmes
+        # -------------------
+        sorted_programmes = sorted(ch["programmes"], key=lambda x: x["start"])
+        cleaned_programmes = []
+        prev_stop = None
+
+        for prog in sorted_programmes:
+            start = prog["start"]
+            stop = prog["stop"]
+
+            if prev_stop and start < prev_stop:
+                # If overlap, shift start to prev_stop
+                logging.warning(f"Overlap detected on {ch['id']}: '{prog['title']}' start adjusted from {start} to {prev_stop}")
+                start = prev_stop
+                # Optional: Ensure stop is after start (minimum 5 min)
+                if stop <= start:
+                    stop = start + timedelta(minutes=5)
+
+            cleaned_programmes.append({"title": prog["title"], "start": start, "stop": stop})
+            prev_stop = stop
+
+        # -------------------
+        # Write programmes to XML
+        # -------------------
+        for prog in cleaned_programmes:
             start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
             stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
@@ -198,6 +223,7 @@ def build_epg(channels_data, filename="epg.xml"):
         f.write(pretty_xml)
 
     logging.info(f"EPG saved to {filename}")
+
 
 
 # -----------------------
