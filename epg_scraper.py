@@ -177,6 +177,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Zee-Bangla-Cinema/33/Schedule",
         scrape_tvwish
     ),
+    "akashaat.in": (
+        "AKASH 8",
+        "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
+        "https://www.tvwish.com/IN/Channels/Aakash-Aath/1288/Schedule",
+        scrape_tvwish
+    ),
 }
 
 
