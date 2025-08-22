@@ -81,8 +81,8 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
                 title = html.escape(title_tag.get_text(strip=True))
                 start = datetime.now()
                 stop = start + timedelta(minutes=30)
-                programmes.append({"title": title, "start": start, "stop": stop})
-                logging.info(f"Current show: {title}")
+                programmes.append({"title": title+"rokon", "start": start, "stop": stop})
+                logging.info(f"Current show: {title+"rokon"}")
     except Exception as e:
         logging.error(f"Failed to fetch current show: {e}")
 
