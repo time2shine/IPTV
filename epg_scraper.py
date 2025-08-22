@@ -93,7 +93,7 @@ def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
         if current_show:
             title_tag = current_show.select_one("h4")
             if title_tag:
-                title = html.escape(title_tag.get_text(strip=True)))
+                title = html.escape(title_tag.get_text(strip=True))
                 
                 first_upcoming_start = programmes[0]["start"]
                 start = first_upcoming_start - timedelta(minutes=30)
