@@ -183,6 +183,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Aakash-Aath/1288/Schedule",
         scrape_tvwish
     ),
+    "sunbangla.in": (
+        "SUN Bangla",
+        "https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png",
+        "https://www.tvwish.com/IN/Channels/Sun-Bangla/716/Schedule",
+        scrape_tvwish
+    ),
 }
 
 
