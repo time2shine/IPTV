@@ -182,25 +182,27 @@ def build_epg(channels_data, filename="epg.xml"):
     tv = ET.Element("tv")
 
     for ch in channels_data:
-        # 1️⃣ Add channel first
+        # Add channel
         channel_elem = ET.SubElement(tv, "channel", {"id": ch["id"]})
         ET.SubElement(channel_elem, "display-name").text = ch["name"]
         if ch["logo"]:
             ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
 
-        # 2️⃣ Sort programmes by start time
+        # Sort programmes by start time
         programmes = sorted(ch["programmes"], key=lambda x: x["start"])
 
-        # 3️⃣ Ensure no overlaps, round to 30-minute blocks
-        for prog in programmes:
+        # Calculate stop times dynamically
+        for i, prog in enumerate(programmes):
             start = prog["start"]
-            stop = prog["stop"]
-
-            # Round start and stop to nearest half hour
-            start = start.replace(minute=(0 if start.minute < 30 else 30), second=0, microsecond=0)
-            stop = stop.replace(minute=(0 if stop.minute < 30 else 30), second=0, microsecond=0)
-            if stop <= start:
-                stop = start + timedelta(minutes=30)
+            if "stop" in prog:
+                # existing channels with stop times
+                stop = prog["stop"]
+            else:
+                # TVWish: stop = start of next programme or +30 mins
+                if i + 1 < len(programmes):
+                    stop = programmes[i + 1]["start"]
+                else:
+                    stop = start + timedelta(minutes=30)
 
             start_str = start.strftime("%Y%m%d%H%M%S +0600")
             stop_str = stop.strftime("%Y%m%d%H%M%S +0600")
@@ -215,6 +217,7 @@ def build_epg(channels_data, filename="epg.xml"):
         f.write(pretty_xml)
 
     logging.info(f"EPG saved to {filename}")
+
 
 
 # -----------------------
