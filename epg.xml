@@ -4,9 +4,6 @@
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
-  <programme start="20250822200000 +0600" stop="20250822203000 +0600" channel="starjalsha.in">
-    <title lang="bn">Parashuram</title>
-  </programme>
   <programme start="20250822203000 +0600" stop="20250822210000 +0600" channel="starjalsha.in">
     <title lang="bn">Rajrajeshwari Rani Bhabani</title>
   </programme>
@@ -93,6 +90,9 @@
   </programme>
   <programme start="20250823160000 +0600" stop="20250823163000 +0600" channel="starjalsha.in">
     <title lang="bn">Rakhi Bandhan</title>
+  </programme>
+  <programme start="20250823173000 +0600" stop="20250823180000 +0600" channel="starjalsha.in">
+    <title lang="bn">Geeta LLB</title>
   </programme>
   <channel id="colors.in">
     <display-name>Colors</display-name>
@@ -192,9 +192,6 @@
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20250822200000 +0600" stop="20250822203000 +0600" channel="zeebangla.in">
-    <title lang="bn">Parineeta</title>
-  </programme>
   <programme start="20250822203000 +0600" stop="20250822210000 +0600" channel="zeebangla.in">
     <title lang="bn">Amader Dadamoni</title>
   </programme>
@@ -204,7 +201,7 @@
   <programme start="20250822213000 +0600" stop="20250822220000 +0600" channel="zeebangla.in">
     <title lang="bn">Anandi</title>
   </programme>
-  <programme start="20250822220000 +0600" stop="20250822223000 +0600" channel="zeebangla.in">
+  <programme start="20250822221500 +0600" stop="20250822224500 +0600" channel="zeebangla.in">
     <title lang="bn">Mittir Bari</title>
   </programme>
   <programme start="20250822230000 +0600" stop="20250822233000 +0600" channel="zeebangla.in">
@@ -237,7 +234,7 @@
   <programme start="20250823033000 +0600" stop="20250823040000 +0600" channel="zeebangla.in">
     <title lang="bn">Anandi</title>
   </programme>
-  <programme start="20250823040000 +0600" stop="20250823043000 +0600" channel="zeebangla.in">
+  <programme start="20250823041500 +0600" stop="20250823044500 +0600" channel="zeebangla.in">
     <title lang="bn">Mittir Bari</title>
   </programme>
   <programme start="20250823050000 +0600" stop="20250823053000 +0600" channel="zeebangla.in">
@@ -282,20 +279,23 @@
   <programme start="20250823123000 +0600" stop="20250823130000 +0600" channel="zeebangla.in">
     <title lang="bn">Joy Baba Lokenath</title>
   </programme>
+  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="zeebangla.in">
+    <title lang="bn">Chirodini Tumi Je Amar</title>
+  </programme>
   <channel id="zeebanglacinema.in">
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
   </channel>
-  <programme start="20250822003000 +0600" stop="20250822010000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822004500 +0600" stop="20250822030000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Kaw Khaw Gaw Gha</title>
   </programme>
-  <programme start="20250822030000 +0600" stop="20250822033000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822030000 +0600" stop="20250822050000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Robot The Wonder Car</title>
   </programme>
-  <programme start="20250822050000 +0600" stop="20250822053000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822050000 +0600" stop="20250822060000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Patanjali Yog - By Yogrishi Swami Ramdev</title>
   </programme>
-  <programme start="20250822060000 +0600" stop="20250822063000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822060000 +0600" stop="20250822080000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Subarnalata</title>
   </programme>
   <programme start="20250822080000 +0600" stop="20250822083000 +0600" channel="zeebanglacinema.in">
@@ -304,22 +304,22 @@
   <programme start="20250822083000 +0600" stop="20250822090000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sakaler Sure</title>
   </programme>
-  <programme start="20250822090000 +0600" stop="20250822093000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822090000 +0600" stop="20250822113000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sangharsha</title>
   </programme>
-  <programme start="20250822113000 +0600" stop="20250822120000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822113000 +0600" stop="20250822140000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Pooja (1996)</title>
   </programme>
-  <programme start="20250822140000 +0600" stop="20250822143000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822140000 +0600" stop="20250822151228 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sultan: The Saviour</title>
   </programme>
-  <programme start="20250822143000 +0600" stop="20250822150000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Trinayani</title>
-  </programme>
-  <programme start="20250822203000 +0600" stop="20250822210000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822151228 +0600" stop="20250822170000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Hridoy haran BA Pass</title>
   </programme>
-  <programme start="20250822213000 +0600" stop="20250822220000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250822170000 +0600" stop="20250822213000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Annaye Atyachar</title>
+  </programme>
+  <programme start="20250822213000 +0600" stop="20250822223000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Best Of Mirakkel</title>
   </programme>
   <programme start="20250822223000 +0600" stop="20250822230000 +0600" channel="zeebanglacinema.in">
