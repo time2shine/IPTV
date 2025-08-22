@@ -3,12 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 import logging
-from xml.dom import minidom
-import html
 
-# -----------------------
-# Logging setup
-# -----------------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
@@ -20,24 +15,15 @@ CHANNELS = {
         "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
         "https://tvgenie.in/star-jalsha-schedule"
     ),
+    # Add more channels here
 }
 
 
 def scrape_channel(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching schedule for {display_name} ...")
-    try:
-        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        response.raise_for_status()
-    except Exception as e:
-        logging.error(f"Failed to fetch {url}: {e}")
-        return {
-            "id": channel_id,
-            "name": display_name,
-            "logo": logo_url,
-            "programmes": []
-        }
-
+    response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
     soup = BeautifulSoup(response.text, "html.parser")
+
     programmes = []
 
     items = soup.select("div.requested-movies.card")
@@ -50,8 +36,7 @@ def scrape_channel(channel_id, display_name, logo_url, url):
         if not title_tag or not time_tag:
             continue
 
-        # Escape dangerous XML chars
-        title = html.escape(title_tag.get_text(strip=True))
+        title = title_tag.get_text(strip=True)
         time_text = time_tag.get_text(strip=True)
 
         try:
@@ -66,12 +51,7 @@ def scrape_channel(channel_id, display_name, logo_url, url):
             else:
                 date_obj = today
 
-            start = date_obj.replace(
-                hour=show_time.hour,
-                minute=show_time.minute,
-                second=0,
-                microsecond=0
-            )
+            start = date_obj.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
             stop = start + timedelta(minutes=30)
 
             programmes.append({
@@ -96,10 +76,10 @@ def build_epg(channels_data, filename="epg.xml"):
     tv = ET.Element("tv")
 
     for ch in channels_data:
-        channel_elem = ET.SubElement(tv, "channel", {"id": ch["id"]})
+        channel_elem = ET.SubElement(tv, "channel", id=ch["id"])
         ET.SubElement(channel_elem, "display-name").text = ch["name"]
         if ch["logo"]:
-            ET.SubElement(channel_elem, "icon", {"src": ch["logo"]})
+            ET.SubElement(channel_elem, "icon", src=ch["logo"])
 
         for prog in ch["programmes"]:
             start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
@@ -110,9 +90,10 @@ def build_epg(channels_data, filename="epg.xml"):
                 "stop": stop_str,
                 "channel": ch["id"]
             })
-            ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
+            ET.SubElement(prog_elem, "title", lang="bn").text = prog["title"]
 
     xml_str = ET.tostring(tv, encoding="utf-8")
+    from xml.dom import minidom
     pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
 
     with open(filename, "w", encoding="utf-8") as f:
