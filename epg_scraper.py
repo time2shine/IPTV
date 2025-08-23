@@ -192,7 +192,7 @@ def scrape_dw(channel_id, display_name, logo_url, url, browser=None):
 
 
 def scrape_dw(channel_id, display_name, logo_url, url):
-    logging.info(f"Fetching DW English schedule from {url} ...")
+    logging.info(f"Fetching DW English schedule from {display_name} ...")
     programmes = []
     now = datetime.now()
 
