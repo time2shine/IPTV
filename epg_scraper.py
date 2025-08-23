@@ -189,6 +189,78 @@ CHANNELS = {
         "https://tvgenie.in/ndtv-india-schedule",
         scrape_tvgenie
     ),
+    "starsports2.in": (
+        "Star Sports 2 4K",
+        "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
+        "https://tvgenie.in/star-sports-2-hd-schedule",
+        scrape_tvgenie
+    ),
+    "starsports1.in": (
+        "Star Sports Select 1 4K",
+        "hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png",
+        "https://tvgenie.in/star-sports-select-1-hd-schedule",
+        scrape_tvgenie
+    ),
+    "starsports2.in": (
+        "Star Sports Select 2 4K",
+        "http://openboxv8s.com/india/star_sports2_in.jpg",
+        "https://tvgenie.in/star-sports-select-2-hd-schedule",
+        scrape_tvgenie
+    ),
+    "starsports1hindi.in": (
+        "Star Sports 1 Hindi",
+        "https://static.epg.best/cn/StarSports1.cn.png",
+        "https://tvgenie.in/star-sports-1-hd-hindi-schedule",
+        scrape_tvgenie
+    ),
+    "starsports.tamil": (
+        "Star Sports Tamil 1",
+        "https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png",
+        "https://tvgenie.in/star-sports-1-tamil-schedule",
+        scrape_tvgenie
+    ),
+    "starsports1hd.in": (
+        "Star Sports 1 HD",
+        "https://static.epg.best/cn/StarSports1.cn.png",
+        "https://tvgenie.in/star-sports-1-hd-schedule",
+        scrape_tvgenie
+    ),
+    "starsports3.in": (
+        "Star Sports 3 HD",
+        "https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png",
+        "https://tvgenie.in/star-sports-3-schedule",
+        scrape_tvgenie
+    ),
+    "starsportsselect1.in": (
+        "Star Sports Select 1",
+        "https://static.epg.best/in/StarSportsSelect1.in.png",
+        "https://tvgenie.in/star-sports-select-1-schedule",
+        scrape_tvgenie
+    ),
+    "starsportsselect2.in": (
+        "Star Sports Select 2",
+        "https://static.epg.best/in/StarSportsSelect2.in.png",
+        "https://tvgenie.in/star-sports-select-2-schedule",
+        scrape_tvgenie
+    ),
+    "sonyten1.in": (
+        "Sony Ten 1 HD",
+        "https://static.epg.best/in/SonyTEN1.in.png",
+        "https://tvgenie.in/sony-ten-1-hd-schedule",
+        scrape_tvgenie
+    ),
+    "sonyten2.in": (
+        "Sony Ten 2 HD",
+        "https://static.epg.best/in/SonyTEN2.in.png",
+        "https://tvgenie.in/sony-ten-2-hd-schedule",
+        scrape_tvgenie
+    ),
+    "sonyten3.in": (
+        "Sony Ten 3 HD",
+        "https://static.epg.best/in/SonyTEN3.in.png",
+        "https://tvgenie.in/sony-ten-3-hd-schedulee",
+        scrape_tvgenie
+    ),
     "zeebanglacinema.in": (
         "Zee Bangla Cinema",
         "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
