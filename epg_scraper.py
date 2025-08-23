@@ -6,6 +6,7 @@ from xml.dom import minidom
 import logging
 import html
 from playwright.sync_api import sync_playwright
+import pytz
 
 # -----------------------
 # Logging setup
@@ -241,59 +242,56 @@ def scrape_dw2(channel_id, display_name, logo_url, url):
 # Scape from OnTVTonight site
 # -----------------------
 def scrape_dw(channel_id, display_name, logo_url, url):
-    logging.info(f"Fetching schedule from DW (via OnTVTonight) for {display_name} ...")
+    logging.info(f"Fetching schedule from OnTVTonight for {display_name} ...")
     programmes = []
 
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=15)
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ Get table containing EPG
         table = soup.find("table", class_="table table-hover")
         if not table:
-            logging.warning("No schedule table found on page.")
+            logging.warning("No schedule table found.")
             return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
         rows = table.find_all("tr")
-        now = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=6)))  # Bangladesh time
         epg_list = []
+        source_tz = pytz.timezone("US/Eastern")
+        target_tz = pytz.timezone("Asia/Dhaka")
 
-        # ✅ Extract time & title
         for row in rows:
             cols = row.find_all("td")
             if len(cols) >= 2:
                 time_str = cols[0].get_text(strip=True)
-                title_el = cols[1].find('a') or cols[1]
+                title_el = cols[1].find("a") or cols[1]
                 title = html.escape(title_el.get_text(strip=True))
 
                 try:
-                    # Parse source time (assume US/Eastern from OnTVTonight)
+                    # Parse time (e.g. "10:30 am")
                     time_obj = datetime.strptime(time_str, "%I:%M %p")
                 except ValueError:
                     continue
 
                 # Apply today's date in source TZ
-                source_tz = pytz.timezone('US/Eastern')
                 now_source = datetime.now(source_tz)
                 time_obj = now_source.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
 
                 # Convert to Bangladesh time
-                target_tz = pytz.timezone('Asia/Dhaka')
                 time_in_target = time_obj.astimezone(target_tz)
-
                 epg_list.append({"title": title, "start": time_in_target})
 
-        # ✅ Sort by time
+        # Sort by start time
         epg_list.sort(key=lambda x: x["start"])
 
-        # ✅ Add stop times (next show start or +30 min fallback)
+        # Add stop times
         for i in range(len(epg_list)):
             start = epg_list[i]["start"]
             stop = epg_list[i + 1]["start"] if i + 1 < len(epg_list) else start + timedelta(minutes=30)
             if stop <= start:
                 stop = start + timedelta(minutes=1)
+
             programmes.append({
                 "title": epg_list[i]["title"],
                 "start": start,
@@ -303,7 +301,7 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
     except Exception as e:
-        logging.error(f"Failed to fetch DW schedule: {e}")
+        logging.error(f"Failed to fetch schedule for {display_name}: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
@@ -430,7 +428,7 @@ CHANNELS = {
     "dwnews": (
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
-        "https://www.dw.com/en/live-tv/channel-english",
+        "https://www.ontvtonight.com/guide/listings/channel/69035806",
         scrape_dw
     )
 }
@@ -471,8 +469,8 @@ def build_epg(channels_data, filename="epg.xml"):
             prev_stop = stop
 
         for prog in cleaned_programmes:
-            start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
-            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
+            start_str = prog["start"].strftime("%Y%m%d%H%M%S")
+            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S")
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
             ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
 
