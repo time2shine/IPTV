@@ -27,55 +27,64 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ Current Bangladesh time
+        # ✅ Use timezone-aware UTC and convert to Bangladesh time (UTC+6)
         now = datetime.now(timezone.utc) + timedelta(hours=6)
 
-        # ✅ Extract current program
+        # ✅ 1. Current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
-        current_title = current_tag.get_text(strip=True) if current_tag else None
+        current_title = None
+        if current_tag:
+            current_title = current_tag.get_text(strip=True)
+            logging.info(f"Current Program: {current_title}")
+        else:
+            logging.warning("No current program found.")
 
-        # ✅ Extract upcoming schedule rows
+        # ✅ 2. Upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
+        upcoming_programmes = []
 
-        parsed_schedule = []
         for row in schedule_rows:
             time_tag = row.find("span", attrs={"role": "cell", "class": lambda c: c and "time" in c})
             program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
 
             if time_tag and program_names:
-                time_text = time_tag.get_text(strip=True)  # e.g., "20:34"
+                time_text = time_tag.get_text(strip=True)  # e.g., "14:30"
                 names = program_names.find_all("span")
                 main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
 
                 try:
-                    start_time = datetime.strptime(time_text, "%H:%M")
-                    start_dt = now.replace(hour=start_time.hour, minute=start_time.minute, second=0, microsecond=0)
+                    show_time = datetime.strptime(time_text, "%H:%M")
+                    start_dt = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
                     if start_dt < now:
                         start_dt += timedelta(days=1)
                 except:
-                    continue
+                    start_dt = now
 
-                parsed_schedule.append({"title": main_title, "start": start_dt})
+                stop_dt = start_dt + timedelta(minutes=30)
 
-        # ✅ Assign stop times based on next start or +1 min for last
-        for i, prog in enumerate(parsed_schedule):
-            start_dt = prog["start"]
-            stop_dt = parsed_schedule[i + 1]["start"] if i + 1 < len(parsed_schedule) else start_dt + timedelta(minutes=1)
+                upcoming_programmes.append({
+                    "title": main_title,
+                    "start": start_dt,
+                    "stop": stop_dt
+                })
+
+        # ✅ 3. Add current program (30 min before next if possible)
+        if current_title:
+            if upcoming_programmes:
+                next_start_dt = upcoming_programmes[0]["start"]
+                current_start_dt = next_start_dt - timedelta(minutes=30)
+                current_stop_dt = next_start_dt - timedelta(seconds=1)
+            else:
+                current_start_dt = now - timedelta(minutes=30)
+                current_stop_dt = now + timedelta(minutes=30)
+
             programmes.append({
-                "title": prog["title"],
-                "start": start_dt,
-                "stop": stop_dt
+                "title": current_title,
+                "start": current_start_dt,
+                "stop": current_stop_dt
             })
 
-        # ✅ If current program is missing, add it as previous slot
-        if current_title and programmes:
-            first_start = programmes[0]["start"]
-            current_start = first_start - timedelta(minutes=30)
-            programmes.insert(0, {
-                "title": current_title,
-                "start": current_start,
-                "stop": first_start
-            })
+        programmes.extend(upcoming_programmes)
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
@@ -83,7 +92,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         logging.error(f"Failed to fetch DW English: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
 
 
 CHANNELS = {
