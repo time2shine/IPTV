@@ -30,16 +30,10 @@ jobs:
         run: |
           python epg_scraper_DW.py
 
-      - name: Commit and push changes
+      - name: Commit and push results
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git pull --rebase
-          if [[ `git status --porcelain` ]]; then
-            git add epg.xml
-            git commit -m "Update EPG (DW Hourly Job)"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg.xml
+          git commit -m "Update EPG ($(date))" || echo "No changes"
+          git push
