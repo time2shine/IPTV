@@ -238,9 +238,6 @@ def scrape_dw2(channel_id, display_name, logo_url, url):
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
 
-# -----------------------
-# Scape from OnTVTonight site
-# -----------------------
 def scrape_dw(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching schedule from OnTVTonight for {display_name} ...")
     programmes = []
@@ -258,8 +255,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
 
         rows = table.find_all("tr")
         epg_list = []
-        source_tz = pytz.timezone("US/Eastern")
-        target_tz = pytz.timezone("Asia/Dhaka")
 
         for row in rows:
             cols = row.find_all("td")
@@ -274,12 +269,13 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 except ValueError:
                     continue
 
-                # Apply today's date in source TZ
-                now_source = datetime.now(source_tz)
-                time_obj = now_source.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
+                # Apply today's date (local server date)
+                now = datetime.now()
+                time_obj = now.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
 
-                # Convert to Bangladesh time
-                time_in_target = time_obj.astimezone(target_tz)
+                # Add 14 hours manually
+                time_in_target = time_obj + timedelta(hours=-14)
+
                 epg_list.append({"title": title, "start": time_in_target})
 
         # Sort by start time
