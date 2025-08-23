@@ -28,7 +28,7 @@ jobs:
 
       - name: Scraping EPG from DW site
         run: |
-          python epg_scraper.py
+          python epg_scraper_DW.py
 
       - name: Commit and push changes
         run: |
