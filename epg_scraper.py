@@ -62,6 +62,9 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
 
+# -----------------------
+# Scrapers for tvwish sites
+# -----------------------
 def scrape_tvwish(channel_id, display_name, logo_url, url, browser=None):
     """
     Scrape TVWish schedule (Indian time) and convert to Bangladesh time.
@@ -150,95 +153,10 @@ def _fetch_upcoming_tvwish(browser, url, now):
     return programmes
 
 # -----------------------
-# Scape from DW Official site
+# Scape from ontvtonight
 # -----------------------
-def scrape_dw2(channel_id, display_name, logo_url, url):
-    logging.info(f"Fetching DW English schedule from {display_name} ...")
-    programmes = []
 
-    try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=15)
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # ✅ Get current Bangladesh time (for fallback)
-        now = datetime.now(timezone(timedelta(hours=6)))
-
-        # ✅ 1. Current program
-        current_tag = soup.find("h2", attrs={"aria-label": True})
-        current_title = None
-        if current_tag:
-            current_title = current_tag.get_text(strip=True)
-            logging.info(f"Current Program: {current_title}")
-        else:
-            logging.warning("No current program found.")
-
-        # ✅ 2. Upcoming schedule
-        schedule_rows = soup.find_all("div", attrs={"role": "row"})
-        raw_programmes = []
-
-        for row in schedule_rows:
-            time_tag = row.find("span", attrs={"role": "cell", "class": lambda c: c and "time" in c})
-            program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
-
-            if time_tag and program_names:
-                time_text = time_tag.get_text(strip=True)  # e.g., "15:30 UTC"
-                names = program_names.find_all("span")
-                main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
-
-                try:
-                    # ✅ Clean time string
-                    clean_time = time_text.replace(" UTC", "")
-                    hour, minute = map(int, clean_time.split(":"))
-
-                    # ✅ Parse as UTC datetime for today
-                    utc_today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-                    start_dt_utc = utc_today.replace(hour=hour, minute=minute)
-
-                    # ✅ Convert to Bangladesh time (UTC+6)
-                    bangladesh_offset = timezone(timedelta(hours=6))
-                    start_dt = start_dt_utc.astimezone(bangladesh_offset)
-
-                except Exception as e:
-                    print(f"Error parsing time {time_text}: {e}")
-                    start_dt = now
-
-                # ✅ Append with start only (stop will be calculated later)
-                raw_programmes.append({
-                    "title": main_title,
-                    "start": start_dt
-                })
-
-        # ✅ Replace first title with current program title if available
-        if raw_programmes and current_title:
-            raw_programmes[0]["title"] = current_title
-
-        # ✅ Sort by start time
-        raw_programmes.sort(key=lambda x: x["start"])
-
-        # ✅ Assign stop times based on next programme
-        for i in range(len(raw_programmes)):
-            start_dt = raw_programmes[i]["start"]
-            if i < len(raw_programmes) - 1:
-                stop_dt = raw_programmes[i + 1]["start"]
-            else:
-                stop_dt = start_dt + timedelta(minutes=30)  # Last one: add 30 mins
-
-            programmes.append({
-                "title": raw_programmes[i]["title"],
-                "start": start_dt,
-                "stop": stop_dt
-            })
-
-        logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
-
-    except Exception as e:
-        logging.error(f"Failed to fetch DW English: {e}")
-
-    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
-
-def scrape_dw(channel_id, display_name, logo_url, url):
+def scrape_ontvtonight(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching schedule from OnTVTonight for {display_name} ...")
     programmes = []
 
@@ -273,7 +191,7 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 now = datetime.now()
                 time_obj = now.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
 
-                # Add 14 hours manually
+                # Add 10 hours manually
                 time_in_target = time_obj + timedelta(hours=10)
 
                 epg_list.append({"title": title, "start": time_in_target})
@@ -425,7 +343,7 @@ CHANNELS = {
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
         "https://www.ontvtonight.com/guide/listings/channel/69035806",
-        scrape_dw
+        scrape_ontvtonight
     )
 }
 
