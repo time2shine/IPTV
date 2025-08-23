@@ -274,7 +274,7 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 time_obj = now.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
 
                 # Add 14 hours manually
-                time_in_target = time_obj + timedelta(hours=14)
+                time_in_target = time_obj + timedelta(hours=10)
 
                 epg_list.append({"title": title, "start": time_in_target})
 
@@ -465,8 +465,8 @@ def build_epg(channels_data, filename="epg.xml"):
             prev_stop = stop
 
         for prog in cleaned_programmes:
-            start_str = prog["start"].strftime("%Y%m%d%H%M%S")
-            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S")
+            start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
+            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
             ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
 
