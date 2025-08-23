@@ -1634,4 +1634,16 @@
     <display-name>DW English</display-name>
     <icon src="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg"/>
   </channel>
+  <programme start="20250823193743 +0600" stop="20250823200743 +0600" channel="dwnews">
+    <title lang="bn">DW News — News</title>
+  </programme>
+  <programme start="20250823200743 +0600" stop="20250823203743 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823203743 +0600" stop="20250823203843 +0600" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250823203843 +0600" stop="20250823203943 +0600" channel="dwnews">
+    <title lang="bn">The 77 Percent</title>
+  </programme>
 </tv>
