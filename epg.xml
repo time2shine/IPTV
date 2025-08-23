@@ -98,12 +98,6 @@
     <display-name>Colors</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="colors.in">
-    <title lang="bn">Shiv Shakti</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="colors.in">
-    <title lang="bn">Shiv Shakti</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823173000 +0600" channel="colors.in">
     <title lang="bn">Movie - Black</title>
   </programme>
@@ -188,16 +182,16 @@
   <programme start="20250824083000 +0600" stop="20250824090000 +0600" channel="colors.in">
     <title lang="bn">Tumii Je Amar Maa</title>
   </programme>
+  <programme start="20250824090000 +0600" stop="20250824093000 +0600" channel="colors.in">
+    <title lang="bn">Shiv Shakti</title>
+  </programme>
+  <programme start="20250824093000 +0600" stop="20250824100000 +0600" channel="colors.in">
+    <title lang="bn">Swapnodana</title>
+  </programme>
   <channel id="zeebangla.in">
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20250823130000 +0600" stop="20250823140000 +0600" channel="zeebangla.in">
-    <title lang="bn">Joy Baba Lokenath</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="zeebangla.in">
-    <title lang="bn">Chirodini Tumi Je Amar</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="zeebangla.in">
     <title lang="bn">Tui Amar Hero</title>
   </programme>
@@ -281,6 +275,12 @@
   </programme>
   <programme start="20250824063000 +0600" stop="20250824070000 +0600" channel="zeebangla.in">
     <title lang="bn">Jagadhatri</title>
+  </programme>
+  <programme start="20250824070000 +0600" stop="20250824073000 +0600" channel="zeebangla.in">
+    <title lang="bn">Parineeta</title>
+  </programme>
+  <programme start="20250824073000 +0600" stop="20250824080000 +0600" channel="zeebangla.in">
+    <title lang="bn">Phulki</title>
   </programme>
   <channel id="indiatoday.in">
     <display-name>India Today</display-name>
@@ -380,12 +380,6 @@
     <display-name>NDTV English</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="ndtvenglish">
-    <title lang="bn">News</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="ndtvenglish">
-    <title lang="bn">News</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="ndtvenglish">
     <title lang="bn">News</title>
   </programme>
@@ -470,16 +464,16 @@
   <programme start="20250824040000 +0600" stop="20250824043000 +0600" channel="ndtvenglish">
     <title lang="bn">News</title>
   </programme>
+  <programme start="20250824043000 +0600" stop="20250824050000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20250824050000 +0600" stop="20250824053000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
   <channel id="ndtvindia">
     <display-name>NDTV India</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="ndtvindia">
-    <title lang="bn">News NDTV India</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="ndtvindia">
-    <title lang="bn">News NDTV India</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="ndtvindia">
     <title lang="bn">News NDTV India</title>
   </programme>
@@ -564,6 +558,12 @@
   <programme start="20250824040000 +0600" stop="20250824043000 +0600" channel="ndtvindia">
     <title lang="bn">News NDTV India</title>
   </programme>
+  <programme start="20250824043000 +0600" stop="20250824050000 +0600" channel="ndtvindia">
+    <title lang="bn">News NDTV India</title>
+  </programme>
+  <programme start="20250824050000 +0600" stop="20250824053000 +0600" channel="ndtvindia">
+    <title lang="bn">News NDTV India</title>
+  </programme>
   <channel id="starsports2.in">
     <display-name>Star Sports Select 2 4K</display-name>
     <icon src="http://openboxv8s.com/india/star_sports2_in.jpg"/>
@@ -572,12 +572,6 @@
     <display-name>Star Sports Select 1 4K</display-name>
     <icon src="hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="starsports1.in">
-    <title lang="bn">Preview; U.S. Open 2025</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="starsports1.in">
-    <title lang="bn">Antigua &amp;amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsports1.in">
     <title lang="bn">Preview; U.S. Open 2025</title>
   </programme>
@@ -659,20 +653,20 @@
   <programme start="20250824110000 +0600" stop="20250824113000 +0600" channel="starsports1.in">
     <title lang="bn">1st ODI: Australia v South Africa; One-Day Internationa...</title>
   </programme>
-  <programme start="20250824113000 +0600" stop="20250824120000 +0600" channel="starsports1.in">
+  <programme start="20250824113000 +0600" stop="20250824133000 +0600" channel="starsports1.in">
     <title lang="bn">Live - Manchester City vs. Tottenham Hotspur; Premier L...</title>
+  </programme>
+  <programme start="20250824133000 +0600" stop="20250824140000 +0600" channel="starsports1.in">
+    <title lang="bn">Preview; U.S. Open 2025</title>
+  </programme>
+  <programme start="20250824140000 +0600" stop="20250824143000 +0600" channel="starsports1.in">
+    <title lang="bn">Saint Lucia Kings vs Trinbago Knight Riders, 10th Match...</title>
   </programme>
   <channel id="starsports1hindi.in">
     <display-name>Star Sports 1 Hindi</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823143000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">ICC Twenty20 World Championship; Cricket Highlights</title>
-  </programme>
-  <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Total KBD - Know Your Team</title>
-  </programme>
-  <programme start="20250823150000 +0600" stop="20250823150600 +0600" channel="starsports1hindi.in">
+  <programme start="20250823143600 +0600" stop="20250823150600 +0600" channel="starsports1hindi.in">
     <title lang="bn">Total KBD - Know Your Team</title>
   </programme>
   <programme start="20250823150600 +0600" stop="20250823151500 +0600" channel="starsports1hindi.in">
@@ -756,20 +750,17 @@
   <programme start="20250824000000 +0600" stop="20250824001500 +0600" channel="starsports1hindi.in">
     <title lang="bn">St Kitts and Nevis Patriots vs Barbados Royals, 8th Mat...</title>
   </programme>
+  <programme start="20250824001500 +0600" stop="20250824003000 +0600" channel="starsports1hindi.in">
+    <title lang="bn">Champions Trophy 2000 - India vs South Africa; Cricket...</title>
+  </programme>
+  <programme start="20250824003000 +0600" stop="20250824010000 +0600" channel="starsports1hindi.in">
+    <title lang="bn">IDFC First Bank India vs Australia 2ns ODI; Cricket Hig...</title>
+  </programme>
   <channel id="starsports.tamil">
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
-  <programme start="20250823134500 +0600" stop="20250823141500 +0600" channel="starsports.tamil">
-    <title lang="bn">India vs Australia, 2nd T20I; Cricket Highlights</title>
-  </programme>
-  <programme start="20250823141500 +0600" stop="20250823143000 +0600" channel="starsports.tamil">
-    <title lang="bn">Regional 3; Total KBD - Know Your Team</title>
-  </programme>
-  <programme start="20250823143000 +0600" stop="20250823144500 +0600" channel="starsports.tamil">
-    <title lang="bn">Pro Kabaddi Highlights</title>
-  </programme>
-  <programme start="20250823144500 +0600" stop="20250823150000 +0600" channel="starsports.tamil">
+  <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsports.tamil">
     <title lang="bn">ICC World T20 Highlights</title>
   </programme>
   <programme start="20250823150000 +0600" stop="20250823153000 +0600" channel="starsports.tamil">
@@ -850,13 +841,19 @@
   <programme start="20250824010000 +0600" stop="20250824013000 +0600" channel="starsports.tamil">
     <title lang="bn">Pro Kabaddi Highlights</title>
   </programme>
+  <programme start="20250824013000 +0600" stop="20250824020000 +0600" channel="starsports.tamil">
+    <title lang="bn">World Cup Classics</title>
+  </programme>
+  <programme start="20250824020000 +0600" stop="20250824023000 +0600" channel="starsports.tamil">
+    <title lang="bn">Icc CWC 2023: India vs New Zealand - 21st Match; Cricke...</title>
+  </programme>
+  <programme start="20250824023000 +0600" stop="20250824030000 +0600" channel="starsports.tamil">
+    <title lang="bn">ICC Twenty20 World Championship; Cricket Highlights</title>
+  </programme>
   <channel id="starsports1hd.in">
     <display-name>Star Sports 1 HD</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823143000 +0600" channel="starsports1hd.in">
-    <title lang="bn">ICC Twenty20 World Championship; Cricket Highlights</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsports1hd.in">
     <title lang="bn">Antigua &amp;amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
   </programme>
@@ -944,20 +941,14 @@
   <programme start="20250824003000 +0600" stop="20250824010000 +0600" channel="starsports1hd.in">
     <title lang="bn">IDFC First Bank India vs Australia 2ns ODI; Cricket Hig...</title>
   </programme>
+  <programme start="20250824010000 +0600" stop="20250824013000 +0600" channel="starsports1hd.in">
+    <title lang="bn">Pro Kabaddi Highlights</title>
+  </programme>
   <channel id="starsports3.in">
     <display-name>Star Sports 3 HD</display-name>
     <icon src="https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="starsports3.in">
-    <title lang="bn">ICC CT 2025: Pakistan vs India - 5th Match; Cricket Hig...</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="starsports3.in">
-    <title lang="bn">ICC Twenty20 World Championship; Cricket Highlights</title>
-  </programme>
-  <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsports3.in">
-    <title lang="bn">Cricket Fillers</title>
-  </programme>
-  <programme start="20250823150000 +0600" stop="20250823150500 +0600" channel="starsports3.in">
+  <programme start="20250823143500 +0600" stop="20250823150500 +0600" channel="starsports3.in">
     <title lang="bn">Kerala Cricket League T20 Highlights</title>
   </programme>
   <programme start="20250823150500 +0600" stop="20250823164500 +0600" channel="starsports3.in">
@@ -1038,16 +1029,19 @@
   <programme start="20250824090000 +0600" stop="20250824091500 +0600" channel="starsports3.in">
     <title lang="bn">St Kitts and Nevis Patriots vs Barbados Royals, 8th Mat...</title>
   </programme>
+  <programme start="20250824091500 +0600" stop="20250824093000 +0600" channel="starsports3.in">
+    <title lang="bn">ICC Champions Trophy 2025 India vs Australia, 1st Semi...</title>
+  </programme>
+  <programme start="20250824093000 +0600" stop="20250824100000 +0600" channel="starsports3.in">
+    <title lang="bn">ICC CWC Highlights</title>
+  </programme>
+  <programme start="20250824100000 +0600" stop="20250824103000 +0600" channel="starsports3.in">
+    <title lang="bn">India vs Australia - 1st T20I; Cricket Highlights</title>
+  </programme>
   <channel id="starsportsselect1.in">
     <display-name>Star Sports Select 1</display-name>
     <icon src="https://static.epg.best/in/StarSportsSelect1.in.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="starsportsselect1.in">
-    <title lang="bn">Preview; U.S. Open 2025</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="starsportsselect1.in">
-    <title lang="bn">Antigua &amp;amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823150000 +0600" channel="starsportsselect1.in">
     <title lang="bn">Preview; U.S. Open 2025</title>
   </programme>
@@ -1129,16 +1123,19 @@
   <programme start="20250824110000 +0600" stop="20250824113000 +0600" channel="starsportsselect1.in">
     <title lang="bn">1st ODI: Australia v South Africa; One-Day Internationa...</title>
   </programme>
-  <programme start="20250824113000 +0600" stop="20250824120000 +0600" channel="starsportsselect1.in">
+  <programme start="20250824113000 +0600" stop="20250824133000 +0600" channel="starsportsselect1.in">
     <title lang="bn">Live - Manchester City vs. Tottenham Hotspur; Premier L...</title>
+  </programme>
+  <programme start="20250824133000 +0600" stop="20250824140000 +0600" channel="starsportsselect1.in">
+    <title lang="bn">Preview; U.S. Open 2025</title>
+  </programme>
+  <programme start="20250824140000 +0600" stop="20250824143000 +0600" channel="starsportsselect1.in">
+    <title lang="bn">Saint Lucia Kings vs Trinbago Knight Riders, 10th Match...</title>
   </programme>
   <channel id="starsportsselect2.in">
     <display-name>Star Sports Select 2</display-name>
     <icon src="https://static.epg.best/in/StarSportsSelect2.in.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="starsportsselect2.in">
-    <title lang="bn">Indian Racing Festival 2025; Auto Racing</title>
-  </programme>
   <programme start="20250823140000 +0600" stop="20250823170000 +0600" channel="starsportsselect2.in">
     <title lang="bn">Live - Indian Racing Festival; Auto Racing</title>
   </programme>
@@ -1226,13 +1223,13 @@
   <programme start="20250824120000 +0600" stop="20250824123000 +0600" channel="starsportsselect2.in">
     <title lang="bn">West Ham United vs. Chelsea; Premier League Highlights</title>
   </programme>
+  <programme start="20250824123000 +0600" stop="20250824130000 +0600" channel="starsportsselect2.in">
+    <title lang="bn">Saint Lucia Kings vs Trinbago Knight Riders, 10th Match...</title>
+  </programme>
   <channel id="sonyten1.in">
     <display-name>Sony Ten 1 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN1.in.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="sonyten1.in">
-    <title lang="bn">Final; Men&amp;#x27;s Asian Champions Trophy Highlights</title>
-  </programme>
   <programme start="20250823140000 +0600" stop="20250823150000 +0600" channel="sonyten1.in">
     <title lang="bn">Asia Cup: India v Sri Lanka, 7th Match; T20 Cricket</title>
   </programme>
@@ -1287,7 +1284,10 @@
   <programme start="20250824073000 +0600" stop="20250824080000 +0600" channel="sonyten1.in">
     <title lang="bn">London Spirit vs. Southern Brave; Men&amp;#x27;s The Hundred</title>
   </programme>
-  <programme start="20250824080000 +0600" stop="20250824083000 +0600" channel="sonyten1.in">
+  <programme start="20250824080000 +0600" stop="20250824080100 +0600" channel="sonyten1.in">
+    <title lang="bn">Birmingham Phoenix vs. London Spirit; Men&amp;#x27;s The Hundred</title>
+  </programme>
+  <programme start="20250824080100 +0600" stop="20250824083000 +0600" channel="sonyten1.in">
     <title lang="bn">Northern Superchargers vs. Oval Invincibles; Women&amp;#x27;s Th...</title>
   </programme>
   <programme start="20250824083000 +0600" stop="20250824090000 +0600" channel="sonyten1.in">
@@ -1324,12 +1324,6 @@
     <display-name>Sony Ten 2 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN2.in.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="sonyten2.in">
-    <title lang="bn">MD 1: Bayern Munich vs RB Leipzig; Bundesliga Highlight...</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="sonyten2.in">
-    <title lang="bn">VfB Stuttgart vs Bayern Munich; DFL-Supercup Highlights</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823153000 +0600" channel="sonyten2.in">
     <title lang="bn">Germany; SailGP Highlights</title>
   </programme>
@@ -1414,16 +1408,16 @@
   <programme start="20250824140000 +0600" stop="20250824143000 +0600" channel="sonyten2.in">
     <title lang="bn">MD 1: Bayer Leverkusen vs Hoffenheim; Bundesliga Highli...</title>
   </programme>
+  <programme start="20250824143000 +0600" stop="20250824163000 +0600" channel="sonyten2.in">
+    <title lang="bn">FC St. Pauli vs. Borussia Dortmund; Bundesliga Soccer</title>
+  </programme>
+  <programme start="20250824163000 +0600" stop="20250824170000 +0600" channel="sonyten2.in">
+    <title lang="bn">Final; Durand Cup HLs</title>
+  </programme>
   <channel id="sonyten3.in">
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="sonyten3.in">
-    <title lang="bn">Final; Men&amp;#x27;s Asian Champions Trophy Highlights</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="sonyten3.in">
-    <title lang="bn">England vs India 2025 2nd Test; Best of the Tests</title>
-  </programme>
   <programme start="20250823143000 +0600" stop="20250823153000 +0600" channel="sonyten3.in">
     <title lang="bn">Asia Cup: India vs Afghanistan; T20 Cricket</title>
   </programme>
@@ -1442,7 +1436,10 @@
   <programme start="20250823234500 +0600" stop="20250824004500 +0600" channel="sonyten3.in">
     <title lang="bn">4th Test: England vs. India; Test Cricket</title>
   </programme>
-  <programme start="20250824004500 +0600" stop="20250824014500 +0600" channel="sonyten3.in">
+  <programme start="20250824004500 +0600" stop="20250824011500 +0600" channel="sonyten3.in">
+    <title lang="bn">Bharat Tum Chale Chalo - Kahani 2021-22 Ki</title>
+  </programme>
+  <programme start="20250824011500 +0600" stop="20250824014500 +0600" channel="sonyten3.in">
     <title lang="bn">Bharat Tum Chale Chalo - Kahani 2021-22 Ki</title>
   </programme>
   <programme start="20250824014500 +0600" stop="20250824021500 +0600" channel="sonyten3.in">
@@ -1505,26 +1502,26 @@
   <programme start="20250824194500 +0600" stop="20250824200000 +0600" channel="sonyten3.in">
     <title lang="bn">3rd ODI: England v India; Women&amp;#x27;s One-Day International...</title>
   </programme>
-  <programme start="20250824200000 +0600" stop="20250824203000 +0600" channel="sonyten3.in">
+  <programme start="20250824200000 +0600" stop="20250824234500 +0600" channel="sonyten3.in">
     <title lang="bn">Live - Kashi Rudras vs. Lucknow Falcons; Uttar Pradesh...</title>
+  </programme>
+  <programme start="20250824234500 +0600" stop="20250825001500 +0600" channel="sonyten3.in">
+    <title lang="bn">5th Test: England vs. India; Test Cricket</title>
   </programme>
   <channel id="zeebanglacinema.in">
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
   </channel>
-  <programme start="20250823083000 +0600" stop="20250823090000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Sakaler Sure</title>
-  </programme>
   <programme start="20250823090000 +0600" stop="20250823093000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sakaler Sure</title>
   </programme>
-  <programme start="20250823093000 +0600" stop="20250823140200 +0600" channel="zeebanglacinema.in">
+  <programme start="20250823093000 +0600" stop="20250823123000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Satru Mitra</title>
   </programme>
-  <programme start="20250823140200 +0600" stop="20250823143200 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Pooja(1996)</title>
+  <programme start="20250823123000 +0600" stop="20250823170000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Pradhan (2023)</title>
   </programme>
-  <programme start="20250823143200 +0600" stop="20250823173000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250823170000 +0600" stop="20250823173000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Sultan: The Saviour</title>
   </programme>
   <programme start="20250823173000 +0600" stop="20250823200200 +0600" channel="zeebanglacinema.in">
@@ -1548,20 +1545,17 @@
   <programme start="20250824053000 +0600" stop="20250824063000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Patanjali Yog by Yog Rishi Swami Ramdev</title>
   </programme>
-  <programme start="20250824063000 +0600" stop="20250824070000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250824063000 +0600" stop="20250824083000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Subarnalata</title>
+  </programme>
+  <programme start="20250824083000 +0600" stop="20250824090000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Sakaler Sure</title>
   </programme>
   <channel id="akashaat.in">
     <display-name>AKASH 8</display-name>
     <icon src="https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png"/>
   </channel>
-  <programme start="20250823133000 +0600" stop="20250823140000 +0600" channel="akashaat.in">
-    <title lang="bn">Police Files</title>
-  </programme>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="akashaat.in">
-    <title lang="bn">Radhuni</title>
-  </programme>
-  <programme start="20250823143000 +0600" stop="20250823153000 +0600" channel="akashaat.in">
+  <programme start="20250823150000 +0600" stop="20250823153000 +0600" channel="akashaat.in">
     <title lang="bn">Akashe Superstar</title>
   </programme>
   <programme start="20250823153000 +0600" stop="20250823160000 +0600" channel="akashaat.in">
@@ -1594,14 +1588,17 @@
   <programme start="20250823230000 +0600" stop="20250823233000 +0600" channel="akashaat.in">
     <title lang="bn">Aakash Barta</title>
   </programme>
+  <programme start="20250823233000 +0600" stop="20250824010000 +0600" channel="akashaat.in">
+    <title lang="bn">Police Files</title>
+  </programme>
+  <programme start="20250824010000 +0600" stop="20250824013000 +0600" channel="akashaat.in">
+    <title lang="bn">Bishnu Narayan</title>
+  </programme>
   <channel id="sunbangla.in">
     <display-name>SUN Bangla</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png"/>
   </channel>
-  <programme start="20250823140000 +0600" stop="20250823143000 +0600" channel="sunbangla.in">
-    <title lang="bn">Lakh Takar Lokkhi Labh</title>
-  </programme>
-  <programme start="20250823143000 +0600" stop="20250823153000 +0600" channel="sunbangla.in">
+  <programme start="20250823150000 +0600" stop="20250823153000 +0600" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
   </programme>
   <programme start="20250823153000 +0600" stop="20250823163000 +0600" channel="sunbangla.in">
@@ -1634,7 +1631,10 @@
   <programme start="20250823220400 +0600" stop="20250823230700 +0600" channel="sunbangla.in">
     <title lang="bn">Crime Diary</title>
   </programme>
-  <programme start="20250823230700 +0600" stop="20250823233700 +0600" channel="sunbangla.in">
+  <programme start="20250823230700 +0600" stop="20250824000800 +0600" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
+  </programme>
+  <programme start="20250824000800 +0600" stop="20250824003800 +0600" channel="sunbangla.in">
+    <title lang="bn">Putul TTP</title>
   </programme>
 </tv>
