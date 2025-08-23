@@ -236,6 +236,10 @@ def scrape_dw2(channel_id, display_name, logo_url, url):
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
+
+# -----------------------
+# Scape from OnTVTonight site
+# -----------------------
 def scrape_dw(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching schedule from DW (via OnTVTonight) for {display_name} ...")
     programmes = []
