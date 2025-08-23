@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import logging
@@ -15,27 +15,31 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 
-
+# -----------------------
+# Scrape from DW Official site
+# -----------------------
 def scrape_dw(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching DW English schedule from {display_name} ...")
     programmes = []
-    now = datetime.now()
 
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ 1. Get current program from <h2 aria-label>
+        # ✅ Use timezone-aware UTC and convert to Bangladesh time (UTC+6)
+        now = datetime.now(timezone.utc) + timedelta(hours=6)
+
+        # ✅ 1. Current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
         current_title = None
         if current_tag:
-            current_title = html.escape(current_tag.get_text(strip=True))
+            current_title = current_tag.get_text(strip=True)
             logging.info(f"Current Program: {current_title}")
         else:
             logging.warning("No current program found.")
 
-        # ✅ 2. Get upcoming schedule rows
+        # ✅ 2. Upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
         upcoming_programmes = []
 
@@ -44,42 +48,42 @@ def scrape_dw(channel_id, display_name, logo_url, url):
             program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
 
             if time_tag and program_names:
-                time_text = time_tag.get_text(strip=True)
+                time_text = time_tag.get_text(strip=True)  # e.g., "14:30"
                 names = program_names.find_all("span")
                 main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
 
                 try:
                     show_time = datetime.strptime(time_text, "%H:%M")
-                    start_time = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-                    if start_time < now:
-                        start_time += timedelta(days=1)
+                    start_dt = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+                    if start_dt < now:
+                        start_dt += timedelta(days=1)
                 except:
-                    start_time = now
+                    start_dt = now
 
-                stop_time = start_time + timedelta(minutes=30)  # assume 30 mins
+                stop_dt = start_dt + timedelta(minutes=30)
+
                 upcoming_programmes.append({
-                    "title": html.escape(main_title),
-                    "start": start_time,
-                    "stop": stop_time
+                    "title": main_title,
+                    "start": start_dt,
+                    "stop": stop_dt
                 })
 
-        # ✅ 3. Handle current program time
+        # ✅ 3. Add current program (30 min before next if possible)
         if current_title:
             if upcoming_programmes:
-                next_start = upcoming_programmes[0]["start"]
-                current_start = next_start - timedelta(minutes=30)
-                current_stop = next_start - timedelta(minutes=1)
+                next_start_dt = upcoming_programmes[0]["start"]
+                current_start_dt = next_start_dt - timedelta(minutes=30)
+                current_stop_dt = next_start_dt - timedelta(seconds=1)
             else:
-                current_start = now - timedelta(minutes=30)
-                current_stop = now + timedelta(minutes=30)
+                current_start_dt = now - timedelta(minutes=30)
+                current_stop_dt = now + timedelta(minutes=30)
 
             programmes.append({
                 "title": current_title,
-                "start": current_start,
-                "stop": current_stop
+                "start": current_start_dt,
+                "stop": current_stop_dt
             })
 
-        # ✅ 4. Merge current and upcoming programmes
         programmes.extend(upcoming_programmes)
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
@@ -99,7 +103,9 @@ CHANNELS = {
     ),
 }
 
-
+# -----------------------
+# Update EPG
+# -----------------------
 def update_epg(channels_data, filename="epg.xml"):
     logging.info("Updating EPG XML ...")
 
@@ -162,7 +168,6 @@ def update_epg(channels_data, filename="epg.xml"):
     xml_str = ET.tostring(tv, encoding="utf-8")
     pretty_xml = minidom.parseString(xml_str).toprettyxml(indent="  ")
 
-    # Remove empty lines
     pretty_xml = "\n".join([line for line in pretty_xml.split("\n") if line.strip()])
 
     with open(filename, "w", encoding="utf-8") as f:
@@ -171,9 +176,11 @@ def update_epg(channels_data, filename="epg.xml"):
     logging.info(f"EPG updated and saved to {filename}")
 
 
+# -----------------------
+# Main Execution
+# -----------------------
 if __name__ == "__main__":
     all_channels = []
-
     for ch_id, (name, logo, url, scraper_func) in CHANNELS.items():
         ch_data = scraper_func(ch_id, name, logo, url)
         all_channels.append(ch_data)
