@@ -207,7 +207,7 @@ CHANNELS = {
         "https://tvgenie.in/star-sports-1-tamil-schedule",
         scrape_tvgenie
     ),
-    "starsports2.in": (
+    "starsports2hd.in": (
         "Star Sports 2 4K",
         "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
         "https://tvgenie.in/star-sports-2-hd-schedule",
