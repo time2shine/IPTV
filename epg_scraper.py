@@ -160,8 +160,8 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ Use timezone-aware UTC and add 6 hours for Bangladesh
-        now = datetime.now(timezone.utc) + timedelta(hours=6)
+        # ✅ Get current Bangladesh time (for fallback)
+        now = datetime.now(timezone(timedelta(hours=6)))
 
         # ✅ 1. Current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
@@ -174,51 +174,60 @@ def scrape_dw(channel_id, display_name, logo_url, url):
 
         # ✅ 2. Upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
-        upcoming_programmes = []
+        raw_programmes = []
 
         for row in schedule_rows:
             time_tag = row.find("span", attrs={"role": "cell", "class": lambda c: c and "time" in c})
             program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
 
             if time_tag and program_names:
-                time_text = time_tag.get_text(strip=True)  # e.g., "14:30"
+                time_text = time_tag.get_text(strip=True)  # e.g., "15:30 UTC"
                 names = program_names.find_all("span")
                 main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
 
                 try:
-                    show_time = datetime.strptime(time_text, "%H:%M")
-                    start_dt = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-                    if start_dt < now:
-                        start_dt += timedelta(days=1)
-                except:
+                    # ✅ Clean time string
+                    clean_time = time_text.replace(" UTC", "")
+                    hour, minute = map(int, clean_time.split(":"))
+
+                    # ✅ Parse as UTC datetime for today
+                    utc_today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+                    start_dt_utc = utc_today.replace(hour=hour, minute=minute)
+
+                    # ✅ Convert to Bangladesh time (UTC+6)
+                    bangladesh_offset = timezone(timedelta(hours=6))
+                    start_dt = start_dt_utc.astimezone(bangladesh_offset)
+
+                except Exception as e:
+                    print(f"Error parsing time {time_text}: {e}")
                     start_dt = now
 
-                stop_dt = start_dt + timedelta(minutes=30)
-
-                # ✅ Return as datetime (not string)
-                upcoming_programmes.append({
+                # ✅ Append with start only (stop will be calculated later)
+                raw_programmes.append({
                     "title": main_title,
-                    "start": start_dt,
-                    "stop": stop_dt
+                    "start": start_dt
                 })
 
-        # ✅ 3. Add current program (30 min before next)
-        if current_title:
-            if upcoming_programmes:
-                next_start_dt = upcoming_programmes[0]["start"]
-                current_start_dt = next_start_dt - timedelta(minutes=30)
-                current_stop_dt = next_start_dt - timedelta(seconds=1)
+        # ✅ Replace first title with current program title if available
+        if raw_programmes and current_title:
+            raw_programmes[0]["title"] = current_title
+
+        # ✅ Sort by start time
+        raw_programmes.sort(key=lambda x: x["start"])
+
+        # ✅ Assign stop times based on next programme
+        for i in range(len(raw_programmes)):
+            start_dt = raw_programmes[i]["start"]
+            if i < len(raw_programmes) - 1:
+                stop_dt = raw_programmes[i + 1]["start"]
             else:
-                current_start_dt = now - timedelta(minutes=30)
-                current_stop_dt = now + timedelta(minutes=30)
+                stop_dt = start_dt + timedelta(minutes=30)  # Last one: add 30 mins
 
             programmes.append({
-                "title": current_title,
-                "start": current_start_dt,
-                "stop": current_stop_dt
+                "title": raw_programmes[i]["title"],
+                "start": start_dt,
+                "stop": stop_dt
             })
-
-        programmes.extend(upcoming_programmes)
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
