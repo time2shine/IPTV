@@ -41,7 +41,7 @@ def scrape_tvgenie(channel_id, display_name, logo_url, url):
         if not title_tag or not time_tag:
             continue
 
-        title = html.escape(title_tag.get_text(strip=True))
+        title = title_tag.get_text(strip=True)
         time_text = time_tag.get_text(strip=True)
 
         try:
