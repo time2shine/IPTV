@@ -2,7 +2,7 @@ name: YouTube Live Link Check
 
 on:
   schedule:
-  # UTC times equivalent to 08:10, 12:10, 16:10, 20:10 in Bangladesh (UTC+6)
+    # Runs every 4 hours at minute 10 (08:10, 12:10, 16:10, 20:10 UTC+6)
     - cron: '10 */4 * * *'
   workflow_dispatch:      # Allows manual run
 
@@ -33,7 +33,7 @@ jobs:
         sudo cp "$FFMPEG_DIR/ffprobe" /usr/local/bin/
         ffmpeg -version
 
-    - name: Run main script to get all latest link from YouTube
+    - name: Run main script to get all latest links from YouTube
       run: |
         python main.py
 
@@ -43,18 +43,18 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
         git add YT_playlist.m3u
-        # Only commit if there are changes
         if git diff --cached --quiet; then
-          echo "No changes to commit"
+            echo "No changes to YT_playlist.m3u"
         else
-          current_time=$(date +"%Y-%m-%d %H:%M:%S")
-          git commit -m "Updated m3u playlist via Action every 3 hours at $current_time"
-          git push
+            git commit -m "Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git push
         fi
 
     - name: Run combine_playlist script to combine YouTube and Working_playlist together
-      run: python combine_playlists.py
+      run: |
+        python combine_playlists.py
 
     - name: Commit and push combined playlist (combined.m3u)
       env:
@@ -62,13 +62,8 @@ jobs:
       run: |
         git add combined.m3u
         if git diff --cached --quiet; then
-          echo "No combined.m3u changes to commit"
+            echo "No changes to combined.m3u"
         else
-          current_time=$(date +"%Y-%m-%d %H:%M:%S")
-          git commit -m "Updated combined.m3u at $current_time"
-          git push
+            git commit -m "Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git push
         fi
-
-
-
-
