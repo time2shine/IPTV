@@ -171,6 +171,24 @@ CHANNELS = {
         "https://tvgenie.in/zee-bangla-hd-schedule",
         scrape_tvgenie
     ),
+    "indiatoday.in": (
+        "India Today",
+        "https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png",
+        "https://tvgenie.in/india-today-schedule",
+        scrape_tvgenie
+    ),
+    "ndtvenglish": (
+        "NDTV English",
+        "https://logotyp.us/file/ndtv.svg",
+        "https://tvgenie.in/ndtv-24x7-schedule",
+        scrape_tvgenie
+    ),
+    "ndtvindia": (
+        "NDTV India",
+        "https://logotyp.us/file/ndtv.svg",
+        "https://tvgenie.in/ndtv-india-schedule",
+        scrape_tvgenie
+    ),
     "zeebanglacinema.in": (
         "Zee Bangla Cinema",
         "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
