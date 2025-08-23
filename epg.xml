@@ -565,13 +565,7 @@
     <display-name>Star Sports 1 HD</display-name>
     <icon src="hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png"/>
   </channel>
-  <programme start="20250823190600 +0600" stop="20250823193600 +0600" channel="starsports1hd.in">
-    <title lang="bn">Total KBD - Know Your Team</title>
-  </programme>
-  <programme start="20250823193600 +0600" stop="20250823194500 +0600" channel="starsports1hd.in">
-    <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
-  </programme>
-  <programme start="20250823194500 +0600" stop="20250823195100 +0600" channel="starsports1hd.in">
+  <programme start="20250823192100 +0600" stop="20250823195100 +0600" channel="starsports1hd.in">
     <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
   </programme>
   <programme start="20250823195100 +0600" stop="20250823200000 +0600" channel="starsports1hd.in">
@@ -654,6 +648,12 @@
   </programme>
   <programme start="20250824073000 +0600" stop="20250824080000 +0600" channel="starsports1hd.in">
     <title lang="bn">India v Bangladesh 2024; T20 Cricket</title>
+  </programme>
+  <programme start="20250824080000 +0600" stop="20250824081500 +0600" channel="starsports1hd.in">
+    <title lang="bn">India vs Australia - 1st T20I; Cricket Highlights</title>
+  </programme>
+  <programme start="20250824081500 +0600" stop="20250824083000 +0600" channel="starsports1hd.in">
+    <title lang="bn">Pro Kabaddi Highlights</title>
   </programme>
   <channel id="starsports1hindi.in">
     <display-name>Star Sports 1 Hindi</display-name>
@@ -753,10 +753,7 @@
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
-  <programme start="20250823190000 +0600" stop="20250823193000 +0600" channel="starsports.tamil">
-    <title lang="bn">Regional 4; Total KBD - Know Your Team</title>
-  </programme>
-  <programme start="20250823193000 +0600" stop="20250823194500 +0600" channel="starsports.tamil">
+  <programme start="20250823191500 +0600" stop="20250823194500 +0600" channel="starsports.tamil">
     <title lang="bn">Total KBD - Tamizhum Kabaddiyum 2025</title>
   </programme>
   <programme start="20250823194500 +0600" stop="20250823203000 +0600" channel="starsports.tamil">
@@ -843,14 +840,14 @@
   <programme start="20250824080000 +0600" stop="20250824083000 +0600" channel="starsports.tamil">
     <title lang="bn">Regional 4; Total KBD - Know Your Team</title>
   </programme>
+  <programme start="20250824083000 +0600" stop="20250824084500 +0600" channel="starsports.tamil">
+    <title lang="bn">Regional 1; Total KBD - Know Your Team</title>
+  </programme>
   <channel id="starsports2hd.in">
     <display-name>Star Sports 2 4K</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg"/>
   </channel>
-  <programme start="20250823190500 +0600" stop="20250823193500 +0600" channel="starsports2hd.in">
-    <title lang="bn">Follow The Blues</title>
-  </programme>
-  <programme start="20250823193500 +0600" stop="20250823195000 +0600" channel="starsports2hd.in">
+  <programme start="20250823192000 +0600" stop="20250823195000 +0600" channel="starsports2hd.in">
     <title lang="bn">ICC Mens T20 WC 2024: Australia vs India - 51st Match;...</title>
   </programme>
   <programme start="20250823195000 +0600" stop="20250823213000 +0600" channel="starsports2hd.in">
@@ -936,6 +933,9 @@
   </programme>
   <programme start="20250824113000 +0600" stop="20250824120000 +0600" channel="starsports2hd.in">
     <title lang="bn">North Delhi Strikers vs. East Delhi Riders; Delhi Premi...</title>
+  </programme>
+  <programme start="20250824120000 +0600" stop="20250824121500 +0600" channel="starsports2hd.in">
+    <title lang="bn">West Delhi Lions vs. Purani Dilli 6; Delhi Premier Leag...</title>
   </programme>
   <channel id="starsports3.in">
     <display-name>Star Sports 3 HD</display-name>
@@ -1411,9 +1411,6 @@
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
-  <programme start="20250823153000 +0600" stop="20250823191500 +0600" channel="sonyten3.in">
-    <title lang="bn">Live - Kashi Rudras vs. Meerut Mavericks; Uttar Pradesh...</title>
-  </programme>
   <programme start="20250823191500 +0600" stop="20250823194500 +0600" channel="sonyten3.in">
     <title lang="bn">Snippets</title>
   </programme>
@@ -1441,7 +1438,10 @@
   <programme start="20250824021600 +0600" stop="20250824023000 +0600" channel="sonyten3.in">
     <title lang="bn">2nd ODI: England v India; Women's One-Day International...</title>
   </programme>
-  <programme start="20250824023000 +0600" stop="20250824033000 +0600" channel="sonyten3.in">
+  <programme start="20250824023000 +0600" stop="20250824023100 +0600" channel="sonyten3.in">
+    <title lang="bn">3rd ODI: England v India; Women's One-Day International...</title>
+  </programme>
+  <programme start="20250824023100 +0600" stop="20250824033000 +0600" channel="sonyten3.in">
     <title lang="bn">UFC 319: Du Plessis vs. Chimaev</title>
   </programme>
   <programme start="20250824033000 +0600" stop="20250824043000 +0600" channel="sonyten3.in">
@@ -1634,16 +1634,16 @@
     <display-name>DW English</display-name>
     <icon src="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg"/>
   </channel>
-  <programme start="20250823124348 +0600" stop="20250823131348 +0600" channel="dwnews">
-    <title lang="bn">DW News — News</title>
+  <programme start="20250823125302 +0600" stop="20250823132302 +0600" channel="dwnews">
+    <title lang="bn">DocFilm — Surviving Globalization - Part 1: Smartphone Wars</title>
   </programme>
-  <programme start="20250823131348 +0600" stop="20250823134348 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250823134348 +0600" stop="20250823134448 +0600" channel="dwnews">
+  <programme start="20250823132302 +0600" stop="20250823135302 +0600" channel="dwnews">
     <title lang="bn">DocFilm</title>
   </programme>
-  <programme start="20250823134448 +0600" stop="20250823134548 +0600" channel="dwnews">
+  <programme start="20250823135302 +0600" stop="20250823135402 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823135402 +0600" stop="20250823135502 +0600" channel="dwnews">
+    <title lang="bn">Reporter</title>
   </programme>
 </tv>
