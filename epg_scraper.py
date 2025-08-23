@@ -160,10 +160,10 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ Bangladesh time now
-        now = datetime.utcnow() + timedelta(hours=6)
+        # ✅ Use timezone-aware UTC and add 6 hours for Bangladesh
+        now = datetime.now(timezone.utc) + timedelta(hours=6)
 
-        # ✅ 1. Get current program
+        # ✅ 1. Current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
         current_title = None
         if current_tag:
@@ -172,7 +172,7 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         else:
             logging.warning("No current program found.")
 
-        # ✅ 2. Get upcoming schedule
+        # ✅ 2. Upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
         upcoming_programmes = []
 
@@ -195,36 +195,29 @@ def scrape_dw(channel_id, display_name, logo_url, url):
 
                 stop_dt = start_dt + timedelta(minutes=30)
 
-                # ✅ Format as string for EPG (Bangladesh time)
-                start_str = start_dt.strftime("%Y%m%d%H%M%S +0600")
-                stop_str = stop_dt.strftime("%Y%m%d%H%M%S +0600")
-
+                # ✅ Return as datetime (not string)
                 upcoming_programmes.append({
                     "title": main_title,
-                    "start": start_str,
-                    "stop": stop_str
+                    "start": start_dt,
+                    "stop": stop_dt
                 })
 
-        # ✅ 3. Add current program (30 min window before next show)
+        # ✅ 3. Add current program (30 min before next)
         if current_title:
             if upcoming_programmes:
-                next_start_dt = datetime.strptime(upcoming_programmes[0]["start"][:14], "%Y%m%d%H%M%S")
+                next_start_dt = upcoming_programmes[0]["start"]
                 current_start_dt = next_start_dt - timedelta(minutes=30)
                 current_stop_dt = next_start_dt - timedelta(seconds=1)
             else:
                 current_start_dt = now - timedelta(minutes=30)
                 current_stop_dt = now + timedelta(minutes=30)
 
-            current_start = current_start_dt.strftime("%Y%m%d%H%M%S +0600")
-            current_stop = current_stop_dt.strftime("%Y%m%d%H%M%S +0600")
-
             programmes.append({
                 "title": current_title,
-                "start": current_start,
-                "stop": current_stop
+                "start": current_start_dt,
+                "stop": current_stop_dt
             })
 
-        # ✅ 4. Add upcoming programmes
         programmes.extend(upcoming_programmes)
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
