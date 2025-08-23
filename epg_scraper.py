@@ -155,24 +155,24 @@ def scrape_dw(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching DW English schedule from {display_name} ...")
     programmes = []
 
-    # ✅ Always use BD time even in GitHub Actions (which runs in UTC)
-    now = datetime.utcnow() + timedelta(hours=6)
-
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
+        # ✅ Bangladesh time now
+        now = datetime.utcnow() + timedelta(hours=6)
+
         # ✅ 1. Get current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
         current_title = None
         if current_tag:
-            current_title = html.escape(current_tag.get_text(strip=True))
+            current_title = current_tag.get_text(strip=True)
             logging.info(f"Current Program: {current_title}")
         else:
             logging.warning("No current program found.")
 
-        # ✅ 2. Parse upcoming schedule
+        # ✅ 2. Get upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
         upcoming_programmes = []
 
@@ -181,34 +181,42 @@ def scrape_dw(channel_id, display_name, logo_url, url):
             program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
 
             if time_tag and program_names:
-                time_text = time_tag.get_text(strip=True)
+                time_text = time_tag.get_text(strip=True)  # e.g., "14:30"
                 names = program_names.find_all("span")
                 main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
 
                 try:
                     show_time = datetime.strptime(time_text, "%H:%M")
-                    start_time = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
-                    if start_time < now:
-                        start_time += timedelta(days=1)  # move to next day if already passed
+                    start_dt = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+                    if start_dt < now:
+                        start_dt += timedelta(days=1)
                 except:
-                    start_time = now
+                    start_dt = now
 
-                stop_time = start_time + timedelta(minutes=30)  # assume 30 mins slot
+                stop_dt = start_dt + timedelta(minutes=30)
+
+                # ✅ Format as string for EPG (Bangladesh time)
+                start_str = start_dt.strftime("%Y%m%d%H%M%S +0600")
+                stop_str = stop_dt.strftime("%Y%m%d%H%M%S +0600")
+
                 upcoming_programmes.append({
-                    "title": html.escape(main_title),
-                    "start": start_time,
-                    "stop": stop_time
+                    "title": main_title,
+                    "start": start_str,
+                    "stop": stop_str
                 })
 
-        # ✅ 3. Handle current program timing
+        # ✅ 3. Add current program (30 min window before next show)
         if current_title:
             if upcoming_programmes:
-                next_start = upcoming_programmes[0]["start"]
-                current_start = next_start - timedelta(minutes=30)
-                current_stop = next_start - timedelta(minutes=1)
+                next_start_dt = datetime.strptime(upcoming_programmes[0]["start"][:14], "%Y%m%d%H%M%S")
+                current_start_dt = next_start_dt - timedelta(minutes=30)
+                current_stop_dt = next_start_dt - timedelta(seconds=1)
             else:
-                current_start = now - timedelta(minutes=30)
-                current_stop = now + timedelta(minutes=30)
+                current_start_dt = now - timedelta(minutes=30)
+                current_stop_dt = now + timedelta(minutes=30)
+
+            current_start = current_start_dt.strftime("%Y%m%d%H%M%S +0600")
+            current_stop = current_stop_dt.strftime("%Y%m%d%H%M%S +0600")
 
             programmes.append({
                 "title": current_title,
@@ -216,13 +224,8 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 "stop": current_stop
             })
 
-        # ✅ 4. Merge current and upcoming programmes
+        # ✅ 4. Add upcoming programmes
         programmes.extend(upcoming_programmes)
-
-        # ✅ 5. Convert times to EPG XML format: YYYYMMDDHHMMSS +0600
-        for p in programmes:
-            p["start"] = p["start"].strftime("%Y%m%d%H%M%S") + " +0600"
-            p["stop"] = p["stop"].strftime("%Y%m%d%H%M%S") + " +0600"
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
@@ -230,7 +233,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         logging.error(f"Failed to fetch DW English: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
 
 
 # -----------------------
