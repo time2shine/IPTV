@@ -189,22 +189,10 @@ CHANNELS = {
         "https://tvgenie.in/ndtv-india-schedule",
         scrape_tvgenie
     ),
-    "starsports2.in": (
-        "Star Sports 2 4K",
-        "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
-        "https://tvgenie.in/star-sports-2-hd-schedule",
-        scrape_tvgenie
-    ),
-    "starsports1.in": (
-        "Star Sports Select 1 4K",
+    "starsports1hd.in": (
+        "Star Sports 1 HD",
         "hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png",
-        "https://tvgenie.in/star-sports-select-1-hd-schedule",
-        scrape_tvgenie
-    ),
-    "starsports2.in": (
-        "Star Sports Select 2 4K",
-        "http://openboxv8s.com/india/star_sports2_in.jpg",
-        "https://tvgenie.in/star-sports-select-2-hd-schedule",
+        "https://tvgenie.in/star-sports-1-hd-schedule",
         scrape_tvgenie
     ),
     "starsports1hindi.in": (
@@ -219,10 +207,10 @@ CHANNELS = {
         "https://tvgenie.in/star-sports-1-tamil-schedule",
         scrape_tvgenie
     ),
-    "starsports1hd.in": (
-        "Star Sports 1 HD",
-        "https://static.epg.best/cn/StarSports1.cn.png",
-        "https://tvgenie.in/star-sports-1-hd-schedule",
+    "starsports2.in": (
+        "Star Sports 2 4K",
+        "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
+        "https://tvgenie.in/star-sports-2-hd-schedule",
         scrape_tvgenie
     ),
     "starsports3.in": (
@@ -232,14 +220,14 @@ CHANNELS = {
         scrape_tvgenie
     ),
     "starsportsselect1.in": (
-        "Star Sports Select 1",
+        "Star Sports Select 1 HD",
         "https://static.epg.best/in/StarSportsSelect1.in.png",
-        "https://tvgenie.in/star-sports-select-1-schedule",
+        "https://tvgenie.in/star-sports-select-1-hd-schedule",
         scrape_tvgenie
     ),
     "starsportsselect2.in": (
-        "Star Sports Select 2",
-        "https://static.epg.best/in/StarSportsSelect2.in.png",
+        "Star Sports Select 2 HD",
+        "http://openboxv8s.com/india/star_sports2_in.jpg",
         "https://tvgenie.in/star-sports-select-2-schedule",
         scrape_tvgenie
     ),
