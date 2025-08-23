@@ -151,7 +151,7 @@ def _fetch_upcoming_tvwish(browser, url, now):
 # -----------------------
 # Scape from DW Official site
 # -----------------------
-def scrape_dw(channel_id, display_name, logo_url, url):
+def scrape_dw2(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching DW English schedule from {display_name} ...")
     programmes = []
 
@@ -235,6 +235,74 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         logging.error(f"Failed to fetch DW English: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+def scrape_dw(channel_id, display_name, logo_url, url):
+    logging.info(f"Fetching schedule from DW (via OnTVTonight) for {display_name} ...")
+    programmes = []
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # ✅ Get table containing EPG
+        table = soup.find("table", class_="table table-hover")
+        if not table:
+            logging.warning("No schedule table found on page.")
+            return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+        rows = table.find_all("tr")
+        now = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=6)))  # Bangladesh time
+        epg_list = []
+
+        # ✅ Extract time & title
+        for row in rows:
+            cols = row.find_all("td")
+            if len(cols) >= 2:
+                time_str = cols[0].get_text(strip=True)
+                title_el = cols[1].find('a') or cols[1]
+                title = html.escape(title_el.get_text(strip=True))
+
+                try:
+                    # Parse source time (assume US/Eastern from OnTVTonight)
+                    time_obj = datetime.strptime(time_str, "%I:%M %p")
+                except ValueError:
+                    continue
+
+                # Apply today's date in source TZ
+                source_tz = pytz.timezone('US/Eastern')
+                now_source = datetime.now(source_tz)
+                time_obj = now_source.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
+
+                # Convert to Bangladesh time
+                target_tz = pytz.timezone('Asia/Dhaka')
+                time_in_target = time_obj.astimezone(target_tz)
+
+                epg_list.append({"title": title, "start": time_in_target})
+
+        # ✅ Sort by time
+        epg_list.sort(key=lambda x: x["start"])
+
+        # ✅ Add stop times (next show start or +30 min fallback)
+        for i in range(len(epg_list)):
+            start = epg_list[i]["start"]
+            stop = epg_list[i + 1]["start"] if i + 1 < len(epg_list) else start + timedelta(minutes=30)
+            if stop <= start:
+                stop = start + timedelta(minutes=1)
+            programmes.append({
+                "title": epg_list[i]["title"],
+                "start": start,
+                "stop": stop
+            })
+
+        logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
+
+    except Exception as e:
+        logging.error(f"Failed to fetch DW schedule: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
 
 
 # -----------------------
