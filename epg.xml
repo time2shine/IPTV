@@ -756,10 +756,7 @@
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
-  <programme start="20250825000000 +0600" stop="20250825003000 +0600" channel="starsports.tamil">
-    <title lang="bn">India vs Australia - 4th T20I; Cricket Highlights</title>
-  </programme>
-  <programme start="20250825003000 +0600" stop="20250825004500 +0600" channel="starsports.tamil">
+  <programme start="20250825001500 +0600" stop="20250825004500 +0600" channel="starsports.tamil">
     <title lang="bn">India vs Australia - 1st T20I; Cricket Highlights</title>
   </programme>
   <programme start="20250825004500 +0600" stop="20250825010000 +0600" channel="starsports.tamil">
@@ -845,6 +842,9 @@
   </programme>
   <programme start="20250825121500 +0600" stop="20250825123000 +0600" channel="starsports.tamil">
     <title lang="bn">ICC World T20 Highlights</title>
+  </programme>
+  <programme start="20250825123000 +0600" stop="20250825130000 +0600" channel="starsports.tamil">
+    <title lang="bn">ICC Champions Trophy 2025 New Zealand vs India, 12th Ma...</title>
   </programme>
   <channel id="starsports2hd.in">
     <display-name>Star Sports 2 4K</display-name>
@@ -1132,10 +1132,7 @@
     <display-name>Star Sports Select 2 HD</display-name>
     <icon src="http://openboxv8s.com/india/star_sports2_in.jpg"/>
   </channel>
-  <programme start="20250825000000 +0600" stop="20250825003000 +0600" channel="starsportsselect2.in">
-    <title lang="bn">US Open Heroes</title>
-  </programme>
-  <programme start="20250825003000 +0600" stop="20250825004500 +0600" channel="starsportsselect2.in">
+  <programme start="20250825001500 +0600" stop="20250825004500 +0600" channel="starsportsselect2.in">
     <title lang="bn">US Open Heroes</title>
   </programme>
   <programme start="20250825004500 +0600" stop="20250825010000 +0600" channel="starsportsselect2.in">
@@ -1192,7 +1189,10 @@
   <programme start="20250825123000 +0600" stop="20250825130000 +0600" channel="starsportsselect2.in">
     <title lang="bn">Saint Lucia Kings vs Trinbago Knight Riders, 10th Match...</title>
   </programme>
-  <programme start="20250825130000 +0600" stop="20250825133000 +0600" channel="starsportsselect2.in">
+  <programme start="20250825130000 +0600" stop="20250825130100 +0600" channel="starsportsselect2.in">
+    <title lang="bn">Sports Programme</title>
+  </programme>
+  <programme start="20250825130100 +0600" stop="20250825133000 +0600" channel="starsportsselect2.in">
     <title lang="bn">PL: The Big Interview</title>
   </programme>
   <programme start="20250825133000 +0600" stop="20250825140000 +0600" channel="starsportsselect2.in">
@@ -1508,14 +1508,14 @@
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
   </channel>
-  <programme start="20250824003000 +0600" stop="20250824010000 +0600" channel="zeebanglacinema.in">
+  <programme start="20250824003200 +0600" stop="20250824010100 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Abhimanyu(1989)</title>
   </programme>
-  <programme start="20250824010000 +0600" stop="20250824013000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Password (2019)</title>
+  <programme start="20250824010100 +0600" stop="20250824013000 +0600" channel="zeebanglacinema.in">
+    <title lang="bn">Boss 2</title>
   </programme>
   <programme start="20250824013000 +0600" stop="20250824031500 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Boss 2</title>
+    <title lang="bn">Password (2019)</title>
   </programme>
   <programme start="20250824031500 +0600" stop="20250824053000 +0600" channel="zeebanglacinema.in">
     <title lang="bn">Bhalobasi Tomake</title>
@@ -1594,7 +1594,7 @@
     <display-name>SUN Bangla</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png"/>
   </channel>
-  <programme start="20250824001350 +0600" stop="20250824003500 +0600" channel="sunbangla.in">
+  <programme start="20250824001817 +0600" stop="20250824003500 +0600" channel="sunbangla.in">
     <title lang="bn">Putul TTP</title>
   </programme>
   <programme start="20250824003500 +0600" stop="20250824073000 +0600" channel="sunbangla.in">
@@ -1637,77 +1637,188 @@
     <display-name>DW English</display-name>
     <icon src="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg"/>
   </channel>
-  <programme start="20250824080000 +0600" stop="20250824080200 +0600" channel="dwnews">
+  <programme start="20250823190000 +0600" stop="20250823190200 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
-  <programme start="20250824080200 +0600" stop="20250824083000 +0600" channel="dwnews">
+  <programme start="20250823190200 +0600" stop="20250823193000 +0600" channel="dwnews">
     <title lang="bn">Arts Unveiled Art.See.Afrika: Addis Abeba</title>
   </programme>
-  <programme start="20250824083000 +0600" stop="20250824090000 +0600" channel="dwnews">
+  <programme start="20250823193000 +0600" stop="20250823200000 +0600" channel="dwnews">
     <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250823200000 +0600" stop="20250823201500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823201500 +0600" stop="20250823203000 +0600" channel="dwnews">
+    <title lang="bn">Travel</title>
+  </programme>
+  <programme start="20250823203000 +0600" stop="20250823210000 +0600" channel="dwnews">
+    <title lang="bn">Best of DW Podcasts</title>
+  </programme>
+  <programme start="20250823210000 +0600" stop="20250823211500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823211500 +0600" stop="20250823213000 +0600" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250823213000 +0600" stop="20250823220000 +0600" channel="dwnews">
+    <title lang="bn">Tomorrow Today The Science Magazine</title>
+  </programme>
+  <programme start="20250823220000 +0600" stop="20250823221500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823221500 +0600" stop="20250823230000 +0600" channel="dwnews">
+    <title lang="bn">International Adoptions - A Global Scandal</title>
+  </programme>
+  <programme start="20250823230000 +0600" stop="20250823231500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823231500 +0600" stop="20250823233000 +0600" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250823233000 +0600" stop="20250824000000 +0600" channel="dwnews">
+    <title lang="bn">In Good Shape</title>
+  </programme>
+  <programme start="20250824000000 +0600" stop="20250824001500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824001500 +0600" stop="20250824003000 +0600" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250824003000 +0600" stop="20250824010000 +0600" channel="dwnews">
+    <title lang="bn">Arts Unveiled Art.See.Afrika: Addis Abeba</title>
+  </programme>
+  <programme start="20250824010000 +0600" stop="20250824010300 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824010300 +0600" stop="20250824020000 +0600" channel="dwnews">
+    <title lang="bn">1001 Days</title>
+  </programme>
+  <programme start="20250824020000 +0600" stop="20250824021500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824021500 +0600" stop="20250824023000 +0600" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250824023000 +0600" stop="20250824030000 +0600" channel="dwnews">
+    <title lang="bn">Euromaxx Lifestyle Europe</title>
+  </programme>
+  <programme start="20250824030000 +0600" stop="20250824031500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824031500 +0600" stop="20250824040000 +0600" channel="dwnews">
+    <title lang="bn">Surviving Globalization</title>
+  </programme>
+  <programme start="20250824040000 +0600" stop="20250824041500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824041500 +0600" stop="20250824043000 +0600" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824043000 +0600" stop="20250824050000 +0600" channel="dwnews">
+    <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250824050000 +0600" stop="20250824051500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824051500 +0600" stop="20250824053000 +0600" channel="dwnews">
+    <title lang="bn">Business Beyond</title>
+  </programme>
+  <programme start="20250824053000 +0600" stop="20250824060000 +0600" channel="dwnews">
+    <title lang="bn">Euromaxx Lifestyle Europe</title>
+  </programme>
+  <programme start="20250824060000 +0600" stop="20250824061500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824061500 +0600" stop="20250824063000 +0600" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250824063000 +0600" stop="20250824070000 +0600" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
+  </programme>
+  <programme start="20250824070000 +0600" stop="20250824071500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824071500 +0600" stop="20250824073000 +0600" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250824073000 +0600" stop="20250824080000 +0600" channel="dwnews">
+    <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250824080000 +0600" stop="20250824081500 +0600" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824081500 +0600" stop="20250824083000 +0600" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824083000 +0600" stop="20250824090000 +0600" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
   </programme>
   <programme start="20250824090000 +0600" stop="20250824091500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
-  <programme start="20250824091500 +0600" stop="20250824093000 +0600" channel="dwnews">
-    <title lang="bn">Travel</title>
-  </programme>
-  <programme start="20250824093000 +0600" stop="20250824100000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW Podcasts</title>
+  <programme start="20250824091500 +0600" stop="20250824100000 +0600" channel="dwnews">
+    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
   </programme>
   <programme start="20250824100000 +0600" stop="20250824101500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20250824101500 +0600" stop="20250824103000 +0600" channel="dwnews">
-    <title lang="bn">Sports Life</title>
+    <title lang="bn">Reporter</title>
   </programme>
   <programme start="20250824103000 +0600" stop="20250824110000 +0600" channel="dwnews">
-    <title lang="bn">Tomorrow Today The Science Magazine</title>
+    <title lang="bn">Afrimaxx Modern African Lifestyle</title>
   </programme>
   <programme start="20250824110000 +0600" stop="20250824111500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
-  <programme start="20250824111500 +0600" stop="20250824120000 +0600" channel="dwnews">
-    <title lang="bn">International Adoptions - A Global Scandal</title>
+  <programme start="20250824111500 +0600" stop="20250824113000 +0600" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
   </programme>
-  <programme start="20250824120000 +0600" stop="20250824121500 +0600" channel="dwnews">
+  <programme start="20250824113000 +0600" stop="20250824120000 +0600" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
+  </programme>
+  <programme start="20250824120000 +0600" stop="20250824120300 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
-  <programme start="20250824121500 +0600" stop="20250824123000 +0600" channel="dwnews">
-    <title lang="bn">Sports Life</title>
-  </programme>
-  <programme start="20250824123000 +0600" stop="20250824130000 +0600" channel="dwnews">
-    <title lang="bn">In Good Shape</title>
+  <programme start="20250824120300 +0600" stop="20250824130000 +0600" channel="dwnews">
+    <title lang="bn">1001 Days</title>
   </programme>
   <programme start="20250824130000 +0600" stop="20250824131500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20250824131500 +0600" stop="20250824133000 +0600" channel="dwnews">
-    <title lang="bn">Shift Living in the Digital Age</title>
+    <title lang="bn">Sports Life</title>
   </programme>
   <programme start="20250824133000 +0600" stop="20250824140000 +0600" channel="dwnews">
-    <title lang="bn">Arts Unveiled Art.See.Afrika: Addis Abeba</title>
+    <title lang="bn">Tomorrow Today The Science Magazine</title>
   </programme>
-  <programme start="20250824140000 +0600" stop="20250824140300 +0600" channel="dwnews">
+  <programme start="20250824140000 +0600" stop="20250824140200 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
-  <programme start="20250824140300 +0600" stop="20250824150000 +0600" channel="dwnews">
-    <title lang="bn">1001 Days</title>
+  <programme start="20250824140200 +0600" stop="20250824143000 +0600" channel="dwnews">
+    <title lang="bn">Environmental Crime - PFAS Chemicals in Drinking Water</title>
+  </programme>
+  <programme start="20250824143000 +0600" stop="20250824150000 +0600" channel="dwnews">
+    <title lang="bn">In Good Shape</title>
   </programme>
   <programme start="20250824150000 +0600" stop="20250824151500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20250824151500 +0600" stop="20250824153000 +0600" channel="dwnews">
-    <title lang="bn">Shift Living in the Digital Age</title>
+    <title lang="bn">Reporter</title>
   </programme>
   <programme start="20250824153000 +0600" stop="20250824160000 +0600" channel="dwnews">
     <title lang="bn">Euromaxx Lifestyle Europe</title>
   </programme>
-  <programme start="20250824160000 +0600" stop="20250824161500 +0600" channel="dwnews">
+  <programme start="20250824160000 +0600" stop="20250824160200 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
   </programme>
+  <programme start="20250824160200 +0600" stop="20250824161500 +0600" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
   <programme start="20250824161500 +0600" stop="20250824170000 +0600" channel="dwnews">
-    <title lang="bn">Surviving Globalization</title>
+    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
   </programme>
   <programme start="20250824170000 +0600" stop="20250824171500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
@@ -1716,117 +1827,6 @@
     <title lang="bn">Reporter</title>
   </programme>
   <programme start="20250824173000 +0600" stop="20250824180000 +0600" channel="dwnews">
-    <title lang="bn">The 77 Percent How to tackle school bullying</title>
-  </programme>
-  <programme start="20250824180000 +0600" stop="20250824181500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824181500 +0600" stop="20250824183000 +0600" channel="dwnews">
-    <title lang="bn">Business Beyond</title>
-  </programme>
-  <programme start="20250824183000 +0600" stop="20250824190000 +0600" channel="dwnews">
-    <title lang="bn">Euromaxx Lifestyle Europe</title>
-  </programme>
-  <programme start="20250824190000 +0600" stop="20250824191500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824191500 +0600" stop="20250824193000 +0600" channel="dwnews">
-    <title lang="bn">Sports Life</title>
-  </programme>
-  <programme start="20250824193000 +0600" stop="20250824200000 +0600" channel="dwnews">
-    <title lang="bn">DW News Africa</title>
-  </programme>
-  <programme start="20250824200000 +0600" stop="20250824201500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824201500 +0600" stop="20250824203000 +0600" channel="dwnews">
-    <title lang="bn">Shift Living in the Digital Age</title>
-  </programme>
-  <programme start="20250824203000 +0600" stop="20250824210000 +0600" channel="dwnews">
-    <title lang="bn">The 77 Percent How to tackle school bullying</title>
-  </programme>
-  <programme start="20250824210000 +0600" stop="20250824211500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824211500 +0600" stop="20250824213000 +0600" channel="dwnews">
-    <title lang="bn">Reporter</title>
-  </programme>
-  <programme start="20250824213000 +0600" stop="20250824220000 +0600" channel="dwnews">
-    <title lang="bn">DW News Africa</title>
-  </programme>
-  <programme start="20250824220000 +0600" stop="20250824221500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824221500 +0600" stop="20250824230000 +0600" channel="dwnews">
-    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
-  </programme>
-  <programme start="20250824230000 +0600" stop="20250824231500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250824231500 +0600" stop="20250824233000 +0600" channel="dwnews">
-    <title lang="bn">Reporter</title>
-  </programme>
-  <programme start="20250824233000 +0600" stop="20250825000000 +0600" channel="dwnews">
-    <title lang="bn">Afrimaxx Modern African Lifestyle</title>
-  </programme>
-  <programme start="20250825000000 +0600" stop="20250825001500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825001500 +0600" stop="20250825003000 +0600" channel="dwnews">
-    <title lang="bn">Shift Living in the Digital Age</title>
-  </programme>
-  <programme start="20250825003000 +0600" stop="20250825010000 +0600" channel="dwnews">
-    <title lang="bn">DW News Africa</title>
-  </programme>
-  <programme start="20250825010000 +0600" stop="20250825010300 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825010300 +0600" stop="20250825020000 +0600" channel="dwnews">
-    <title lang="bn">1001 Days</title>
-  </programme>
-  <programme start="20250825020000 +0600" stop="20250825021500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825021500 +0600" stop="20250825023000 +0600" channel="dwnews">
-    <title lang="bn">Sports Life</title>
-  </programme>
-  <programme start="20250825023000 +0600" stop="20250825030000 +0600" channel="dwnews">
-    <title lang="bn">Tomorrow Today The Science Magazine</title>
-  </programme>
-  <programme start="20250825030000 +0600" stop="20250825030200 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825030200 +0600" stop="20250825033000 +0600" channel="dwnews">
-    <title lang="bn">Environmental Crime - PFAS Chemicals in Drinking Water</title>
-  </programme>
-  <programme start="20250825033000 +0600" stop="20250825040000 +0600" channel="dwnews">
-    <title lang="bn">In Good Shape</title>
-  </programme>
-  <programme start="20250825040000 +0600" stop="20250825041500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825041500 +0600" stop="20250825043000 +0600" channel="dwnews">
-    <title lang="bn">Reporter</title>
-  </programme>
-  <programme start="20250825043000 +0600" stop="20250825050000 +0600" channel="dwnews">
-    <title lang="bn">Euromaxx Lifestyle Europe</title>
-  </programme>
-  <programme start="20250825050000 +0600" stop="20250825050200 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825050200 +0600" stop="20250825051500 +0600" channel="dwnews">
-    <title lang="bn">Sports Life</title>
-  </programme>
-  <programme start="20250825051500 +0600" stop="20250825060000 +0600" channel="dwnews">
-    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
-  </programme>
-  <programme start="20250825060000 +0600" stop="20250825061500 +0600" channel="dwnews">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20250825061500 +0600" stop="20250825063000 +0600" channel="dwnews">
-    <title lang="bn">Reporter</title>
-  </programme>
-  <programme start="20250825063000 +0600" stop="20250825070000 +0600" channel="dwnews">
     <title lang="bn">Environmental Crime - PFAS Chemicals in Drinking Water</title>
   </programme>
 </tv>
