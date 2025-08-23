@@ -159,11 +159,16 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ 1. Get current program
+        # ✅ 1. Get current program from <h2 aria-label>
         current_tag = soup.find("h2", attrs={"aria-label": True})
-        current_title = html.escape(current_tag.get_text(strip=True)) if current_tag else None
+        current_title = None
+        if current_tag:
+            current_title = current_tag.get_text(strip=True)
+            logging.info(f"Current Program: {current_title}")
+        else:
+            logging.warning("No current program found.")
 
-        # ✅ 2. Get upcoming schedule
+        # ✅ 2. Get upcoming schedule rows
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
         upcoming_programmes = []
 
@@ -186,20 +191,20 @@ def scrape_dw(channel_id, display_name, logo_url, url):
 
                 stop_time = start_time + timedelta(minutes=30)  # assume 30 mins
                 upcoming_programmes.append({
-                    "title": html.escape(main_title),
+                    "title": main_title,
                     "start": start_time,
                     "stop": stop_time
                 })
 
-        # ✅ 3. Add current programme covering "now"
+        # ✅ 3. Handle current program time
         if current_title:
             if upcoming_programmes:
                 next_start = upcoming_programmes[0]["start"]
-                current_start = now - timedelta(minutes=15)
-                current_stop = next_start - timedelta(seconds=1)
+                current_start = next_start - timedelta(minutes=30)
+                current_stop = next_start - timedelta(minutes=1)
             else:
-                current_start = now - timedelta(minutes=15)
-                current_stop = now + timedelta(minutes=15)
+                current_start = now - timedelta(minutes=30)
+                current_stop = now + timedelta(minutes=30)
 
             programmes.append({
                 "title": current_title,
@@ -210,17 +215,13 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         # ✅ 4. Merge current and upcoming programmes
         programmes.extend(upcoming_programmes)
 
-        # ✅ 5. Convert times to XMLTV format
-        for p in programmes:
-            p["start"] = p["start"].strftime("%Y%m%d%H%M%S +0600")
-            p["stop"] = p["stop"].strftime("%Y%m%d%H%M%S +0600")
-
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
     except Exception as e:
         logging.error(f"Failed to fetch DW English: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
 
 
 # -----------------------
