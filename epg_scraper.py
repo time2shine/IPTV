@@ -191,6 +191,80 @@ def scrape_dw(channel_id, display_name, logo_url, url, browser=None):
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
 
+def scrape_dw(channel_id, display_name, logo_url, url):
+    logging.info(f"Fetching DW English schedule from {url} ...")
+    programmes = []
+    now = datetime.now()
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers, timeout=15)
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # ✅ 1. Get current program from <h2 aria-label>
+        current_tag = soup.find("h2", attrs={"aria-label": True})
+        current_title = None
+        if current_tag:
+            current_title = html.escape(current_tag.get_text(strip=True))
+            logging.info(f"Current Program: {current_title}")
+        else:
+            logging.warning("No current program found.")
+
+        # ✅ 2. Get upcoming schedule rows
+        schedule_rows = soup.find_all("div", attrs={"role": "row"})
+        upcoming_programmes = []
+
+        for row in schedule_rows:
+            time_tag = row.find("span", attrs={"role": "cell", "class": lambda c: c and "time" in c})
+            program_names = row.find("div", attrs={"role": "cell", "class": lambda c: c and "program-names" in c})
+
+            if time_tag and program_names:
+                time_text = time_tag.get_text(strip=True)
+                names = program_names.find_all("span")
+                main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
+
+                try:
+                    show_time = datetime.strptime(time_text, "%H:%M")
+                    start_time = now.replace(hour=show_time.hour, minute=show_time.minute, second=0, microsecond=0)
+                    if start_time < now:
+                        start_time += timedelta(days=1)
+                except:
+                    start_time = now
+
+                stop_time = start_time + timedelta(minutes=30)  # assume 30 mins
+                upcoming_programmes.append({
+                    "title": html.escape(main_title),
+                    "start": start_time,
+                    "stop": stop_time
+                })
+
+        # ✅ 3. Handle current program time
+        if current_title:
+            if upcoming_programmes:
+                next_start = upcoming_programmes[0]["start"]
+                current_start = next_start - timedelta(minutes=30)
+                current_stop = next_start - timedelta(minutes=1)
+            else:
+                current_start = now - timedelta(minutes=30)
+                current_stop = now + timedelta(minutes=30)
+
+            programmes.append({
+                "title": current_title,
+                "start": current_start,
+                "stop": current_stop
+            })
+
+        # ✅ 4. Merge current and upcoming programmes
+        programmes.extend(upcoming_programmes)
+
+        logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
+
+    except Exception as e:
+        logging.error(f"Failed to fetch DW English: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
 # -----------------------
 # Channels dictionary
 # -----------------------
@@ -311,10 +385,10 @@ CHANNELS = {
     ),
     "dwnews": (
         "DW English",
-        "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",  # DW logo
+        "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
         "https://www.dw.com/en/live-tv/channel-english",
-        scrape_dw  # new scraper function
-    ),
+        scrape_dw
+    )
 }
 
 
