@@ -52,9 +52,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 names = program_names.find_all("span")
                 main_title = names[0].get_text(strip=True) if len(names) > 0 else ""
 
-                # ✅ Debug print for raw data
-                print(f"Extracted -> time: {time_text}, title: {main_title}")
-
                 try:
                     # ✅ Clean time string
                     clean_time = time_text.replace(" UTC", "")
@@ -98,10 +95,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 "start": start_dt,
                 "stop": stop_dt
             })
-
-        # ✅ Debug print for verification
-        for p in programmes:
-            print(f"Converted -> start: {p['start'].strftime('%H:%M')}, stop: {p['stop'].strftime('%H:%M')}, title: {p['title']}")
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
