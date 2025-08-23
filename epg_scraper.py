@@ -258,7 +258,7 @@ CHANNELS = {
     "sonyten3.in": (
         "Sony Ten 3 HD",
         "https://static.epg.best/in/SonyTEN3.in.png",
-        "https://tvgenie.in/sony-ten-3-hd-schedulee",
+        "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
     "zeebanglacinema.in": (
