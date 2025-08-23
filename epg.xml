@@ -641,10 +641,7 @@
     <display-name>Star Sports 1 Hindi</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20250823234500" stop="20250824001500" channel="starsports1hindi.in">
-    <title lang="bn">St Kitts and Nevis Patriots vs Barbados Royals, 8th Mat...</title>
-  </programme>
-  <programme start="20250824001500" stop="20250824003000" channel="starsports1hindi.in">
+  <programme start="20250824000000" stop="20250824003000" channel="starsports1hindi.in">
     <title lang="bn">Champions Trophy 2000 - India vs South Africa; Cricket...</title>
   </programme>
   <programme start="20250824003000" stop="20250824010000" channel="starsports1hindi.in">
@@ -727,6 +724,9 @@
   </programme>
   <programme start="20250824111500" stop="20250824113000" channel="starsports1hindi.in">
     <title lang="bn">ICC WT20 Highlights</title>
+  </programme>
+  <programme start="20250824113000" stop="20250824120000" channel="starsports1hindi.in">
+    <title lang="bn">Antigua &amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
   </programme>
   <channel id="starsports.tamil">
     <display-name>Star Sports Tamil 1</display-name>
@@ -823,10 +823,7 @@
     <display-name>Star Sports 2 4K</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg"/>
   </channel>
-  <programme start="20250823234500" stop="20250824001500" channel="starsports2hd.in">
-    <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
-  </programme>
-  <programme start="20250824001500" stop="20250824002100" channel="starsports2hd.in">
+  <programme start="20250823235100" stop="20250824002100" channel="starsports2hd.in">
     <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
   </programme>
   <programme start="20250824002100" stop="20250824003000" channel="starsports2hd.in">
@@ -908,6 +905,9 @@
     <title lang="bn">Total KBD - Know Your Team</title>
   </programme>
   <programme start="20250824133600" stop="20250824134500" channel="starsports2hd.in">
+    <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
+  </programme>
+  <programme start="20250824134500" stop="20250824135100" channel="starsports2hd.in">
     <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
   </programme>
   <channel id="starsports3.in">
@@ -1369,9 +1369,6 @@
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
-  <programme start="20250823234500" stop="20250824004500" channel="sonyten3.in">
-    <title lang="bn">4th Test: England vs. India; Test Cricket</title>
-  </programme>
   <programme start="20250824004500" stop="20250824011500" channel="sonyten3.in">
     <title lang="bn">Bharat Tum Chale Chalo - Kahani 2021-22 Ki</title>
   </programme>
@@ -1402,7 +1399,10 @@
   <programme start="20250824040000" stop="20250824043000" channel="sonyten3.in">
     <title lang="bn">Bharat Tum Chale Chalo - Kahani 2021-22 Ki</title>
   </programme>
-  <programme start="20250824043000" stop="20250824063000" channel="sonyten3.in">
+  <programme start="20250824043000" stop="20250824050000" channel="sonyten3.in">
+    <title lang="bn">5th Test: England vs. India; Test Cricket</title>
+  </programme>
+  <programme start="20250824050000" stop="20250824063000" channel="sonyten3.in">
     <title lang="bn">5th Test: England vs. India; Test Cricket</title>
   </programme>
   <programme start="20250824063000" stop="20250824073000" channel="sonyten3.in">
@@ -1546,7 +1546,7 @@
     <display-name>SUN Bangla</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png"/>
   </channel>
-  <programme start="20250823234417" stop="20250824000800" channel="sunbangla.in">
+  <programme start="20250823235004" stop="20250824000800" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
   </programme>
   <programme start="20250824000800" stop="20250824003800" channel="sunbangla.in">
