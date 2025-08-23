@@ -100,20 +100,10 @@ channel_metadata = {
     },
 
     # --- International News Channels ---
-    'UCNye-wNBqNL5ZzHSJj3l8Bg': {  # Al Jazeera English
-        'group_title': 'International News',
-        'channel_name': 'Al Jazeera English',
-        'channel_logo': 'https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png',
-    },
     'UC7fWeaHhqgM4Ry-RMpM2YYw': {  # TRT World
         'group_title': 'International News',
         'channel_name': 'TRT World',
         'channel_logo': 'https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg',
-    },
-    'UCknLrEdhRCp1aegoMqRaCZg': {  # DW News
-        'group_title': 'International News',
-        'channel_name': 'DW News',
-        'channel_logo': 'https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg',
     },
 
     # --- Entertainment Channels ---
@@ -152,6 +142,7 @@ channel_metadata = {
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
 
