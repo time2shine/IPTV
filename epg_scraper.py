@@ -465,8 +465,8 @@ def build_epg(channels_data, filename="epg.xml"):
             prev_stop = stop
 
         for prog in cleaned_programmes:
-            start_str = prog["start"].strftime("%Y%m%d%H%M%S")
-            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S")
+            start_str = prog["start"].strftime("%Y%m%d%H%M%S +0600")
+            stop_str = prog["stop"].strftime("%Y%m%d%H%M%S +0600")
             prog_elem = ET.SubElement(tv, "programme", {"start": start_str, "stop": stop_str, "channel": ch["id"]})
             ET.SubElement(prog_elem, "title", {"lang": "bn"}).text = prog["title"]
 
