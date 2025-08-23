@@ -4,6 +4,9 @@
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="starjalsha.in">
+    <title lang="bn">Shubho Bibaho</title>
+  </programme>
   <programme start="20250823233000" stop="20250824003000" channel="starjalsha.in">
     <title lang="bn">Mon Phagun</title>
   </programme>
@@ -95,6 +98,9 @@
     <display-name>Colors</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="colors.in">
+    <title lang="bn">Tumii Je Amar Maa</title>
+  </programme>
   <programme start="20250823233000" stop="20250824003000" channel="colors.in">
     <title lang="bn">Swapnodana</title>
   </programme>
@@ -186,6 +192,9 @@
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
+  <programme start="20250823220000" stop="20250823233000" channel="zeebangla.in">
+    <title lang="bn">Dance Bangla Dance - 2025</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="zeebangla.in">
     <title lang="bn">Kusum</title>
   </programme>
@@ -368,6 +377,9 @@
     <display-name>NDTV English</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="ndtvenglish">
     <title lang="bn">News</title>
   </programme>
@@ -459,6 +471,9 @@
     <display-name>NDTV India</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="ndtvindia">
+    <title lang="bn">News NDTV India</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="ndtvindia">
     <title lang="bn">News NDTV India</title>
   </programme>
@@ -550,6 +565,9 @@
     <display-name>Star Sports 1 HD</display-name>
     <icon src="hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png"/>
   </channel>
+  <programme start="20250823223000" stop="20250823233000" channel="starsports1hd.in">
+    <title lang="bn">ICC World T20 Highlights</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="starsports1hd.in">
     <title lang="bn">Antigua &amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
   </programme>
@@ -641,10 +659,7 @@
     <display-name>Star Sports 1 Hindi</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20250823230600" stop="20250823233600" channel="starsports1hindi.in">
-    <title lang="bn">Total KBD - Know Your Team</title>
-  </programme>
-  <programme start="20250823233600" stop="20250823234500" channel="starsports1hindi.in">
+  <programme start="20250823231500" stop="20250823234500" channel="starsports1hindi.in">
     <title lang="bn">Total KBD - Kings Of Kabaddi 2025</title>
   </programme>
   <programme start="20250823234500" stop="20250823235400" channel="starsports1hindi.in">
@@ -728,10 +743,19 @@
   <programme start="20250824100000" stop="20250824101500" channel="starsports1hindi.in">
     <title lang="bn">India vs Afghanistan: 2nd T20I; Cricket Highlights</title>
   </programme>
+  <programme start="20250824101500" stop="20250824103000" channel="starsports1hindi.in">
+    <title lang="bn">ICC CT 2025: Pakistan vs India - 5th Match; Cricket Hig...</title>
+  </programme>
+  <programme start="20250824103000" stop="20250824110000" channel="starsports1hindi.in">
+    <title lang="bn">Follow The Blues</title>
+  </programme>
   <channel id="starsports.tamil">
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="starsports.tamil">
+    <title lang="bn">Pro Kabaddi Highlights</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="starsports.tamil">
     <title lang="bn">World Cup Classics 2022</title>
   </programme>
@@ -823,6 +847,9 @@
     <display-name>Star Sports 2 4K</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg"/>
   </channel>
+  <programme start="20250823230000" stop="20250823233000" channel="starsports2hd.in">
+    <title lang="bn">ICC Champions Trophy 2025 India vs New Zealand, Final;...</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="starsports2hd.in">
     <title lang="bn">Total KBD - Know Your Team</title>
   </programme>
@@ -914,6 +941,9 @@
     <display-name>Star Sports 3 HD</display-name>
     <icon src="https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png"/>
   </channel>
+  <programme start="20250823223000" stop="20250824003000" channel="starsports3.in">
+    <title lang="bn">Live - Arsenal vs. Leeds United; Premier League Soccer</title>
+  </programme>
   <programme start="20250824003000" stop="20250824010000" channel="starsports3.in">
     <title lang="bn">Antigua &amp; Barbuda Falcons vs Guyana Amazon Warriors, 9t...</title>
   </programme>
@@ -1005,6 +1035,9 @@
     <display-name>Star Sports Select 1 HD</display-name>
     <icon src="https://static.epg.best/in/StarSportsSelect1.in.png"/>
   </channel>
+  <programme start="20250823222000" stop="20250824003000" channel="starsportsselect1.in">
+    <title lang="bn">Live - Arsenal vs. Leeds United; Premier League Soccer</title>
+  </programme>
   <programme start="20250824003000" stop="20250824010000" channel="starsportsselect1.in">
     <title lang="bn">Live - Premier League: Matchday Post Show</title>
   </programme>
@@ -1096,6 +1129,9 @@
     <display-name>Star Sports Select 2 HD</display-name>
     <icon src="http://openboxv8s.com/india/star_sports2_in.jpg"/>
   </channel>
+  <programme start="20250823223000" stop="20250823233000" channel="starsportsselect2.in">
+    <title lang="bn">PL Moments</title>
+  </programme>
   <programme start="20250823233000" stop="20250824000000" channel="starsportsselect2.in">
     <title lang="bn">Preview; U.S. Open 2025</title>
   </programme>
@@ -1187,6 +1223,9 @@
     <display-name>Sony Ten 1 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN1.in.png"/>
   </channel>
+  <programme start="20250823230000" stop="20250824023000" channel="sonyten1.in">
+    <title lang="bn">Live - London Spirit vs. Southern Brave; Men's The Hund...</title>
+  </programme>
   <programme start="20250824023000" stop="20250824030000" channel="sonyten1.in">
     <title lang="bn">Éngland vs India 2025 2nd Test; Best of the Tests</title>
   </programme>
@@ -1278,6 +1317,9 @@
     <display-name>Sony Ten 2 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN2.in.png"/>
   </channel>
+  <programme start="20250823223000" stop="20250824003000" channel="sonyten2.in">
+    <title lang="bn">Live - FC St. Pauli vs. Borussia Dortmund; Bundesliga S...</title>
+  </programme>
   <programme start="20250824003000" stop="20250824010000" channel="sonyten2.in">
     <title lang="bn">Paris Saint-Germain vs. Tottenham Hotspur; UEFA Super C...</title>
   </programme>
@@ -1369,6 +1411,9 @@
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
+  <programme start="20250823200000" stop="20250823234500" channel="sonyten3.in">
+    <title lang="bn">Live - Gorakhpur Lions vs. Kanpur Superstars; Uttar Pra...</title>
+  </programme>
   <programme start="20250823234500" stop="20250824004500" channel="sonyten3.in">
     <title lang="bn">4th Test: England vs. India; Test Cricket</title>
   </programme>
@@ -1460,6 +1505,12 @@
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
   </channel>
+  <programme start="20250823183000" stop="20250823213000" channel="zeebanglacinema.in">
+    <title lang="bn">Sonar Jalshaghar - Subha Arambha</title>
+  </programme>
+  <programme start="20250823213000" stop="20250824003000" channel="zeebanglacinema.in">
+    <title lang="bn">Bohurupi</title>
+  </programme>
   <programme start="20250824003000" stop="20250824010000" channel="zeebanglacinema.in">
     <title lang="bn">Abhimanyu(1989)</title>
   </programme>
@@ -1490,20 +1541,14 @@
   <programme start="20250824123000" stop="20250824153000" channel="zeebanglacinema.in">
     <title lang="bn">Pradhan (2023)</title>
   </programme>
-  <programme start="20250824153000" stop="20250824183000" channel="zeebanglacinema.in">
+  <programme start="20250824153000" stop="20250824160000" channel="zeebanglacinema.in">
     <title lang="bn">Sonar Jatra</title>
-  </programme>
-  <programme start="20250824183000" stop="20250824213000" channel="zeebanglacinema.in">
-    <title lang="bn">Sonar Jalshaghar - Subha Arambha</title>
-  </programme>
-  <programme start="20250824213000" stop="20250824220000" channel="zeebanglacinema.in">
-    <title lang="bn">Bohurupi</title>
   </programme>
   <channel id="akashaat.in">
     <display-name>AKASH 8</display-name>
     <icon src="https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png"/>
   </channel>
-  <programme start="20250823230158" stop="20250823233000" channel="akashaat.in">
+  <programme start="20250823230000" stop="20250823233000" channel="akashaat.in">
     <title lang="bn">Aakash Barta</title>
   </programme>
   <programme start="20250823233000" stop="20250824010000" channel="akashaat.in">
@@ -1546,10 +1591,7 @@
     <display-name>SUN Bangla</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png"/>
   </channel>
-  <programme start="20250823230200" stop="20250823230700" channel="sunbangla.in">
-    <title lang="bn">Crime Diary</title>
-  </programme>
-  <programme start="20250823230700" stop="20250824000800" channel="sunbangla.in">
+  <programme start="20250823233800" stop="20250824000800" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
   </programme>
   <programme start="20250824000800" stop="20250824003800" channel="sunbangla.in">
@@ -1582,20 +1624,206 @@
   <programme start="20250824143000" stop="20250824153000" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
   </programme>
-  <programme start="20250824153000" stop="20250824160000" channel="sunbangla.in">
+  <programme start="20250824153000" stop="20250824163000" channel="sunbangla.in">
+    <title lang="bn">Lakh Takar Lokkhi Labh</title>
+  </programme>
+  <programme start="20250824163000" stop="20250824170000" channel="sunbangla.in">
     <title lang="bn">Lakh Takar Lokkhi Labh</title>
   </programme>
   <channel id="dwnews">
     <display-name>DW English</display-name>
     <icon src="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg"/>
   </channel>
-  <programme start="20250823231500 +0600" stop="20250823233000 +0600" channel="dwnews">
-    <title lang="bn">Shift — Mind-Reading AI, Meta’s Cleanup and Digital Freedom</title>
-  </programme>
-  <programme start="20250823233000 +0600" stop="20250824000000 +0600" channel="dwnews">
-    <title lang="bn">The 77 Percent</title>
-  </programme>
-  <programme start="20250824000000 +0600" stop="20250824003000 +0600" channel="dwnews">
+  <programme start="20250823110000" stop="20250823110200" channel="dwnews">
     <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823110200" stop="20250823113000" channel="dwnews">
+    <title lang="bn">Arts Unveiled Art.See.Afrika: Addis Abeba</title>
+  </programme>
+  <programme start="20250823113000" stop="20250823120000" channel="dwnews">
+    <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250823120000" stop="20250823121500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823121500" stop="20250823123000" channel="dwnews">
+    <title lang="bn">Travel</title>
+  </programme>
+  <programme start="20250823123000" stop="20250823130000" channel="dwnews">
+    <title lang="bn">Best of DW Podcasts</title>
+  </programme>
+  <programme start="20250823130000" stop="20250823131500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823131500" stop="20250823133000" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250823133000" stop="20250823140000" channel="dwnews">
+    <title lang="bn">Tomorrow Today The Science Magazine</title>
+  </programme>
+  <programme start="20250823140000" stop="20250823141500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823141500" stop="20250823150000" channel="dwnews">
+    <title lang="bn">International Adoptions - A Global Scandal</title>
+  </programme>
+  <programme start="20250823150000" stop="20250823151500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823151500" stop="20250823153000" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250823153000" stop="20250823160000" channel="dwnews">
+    <title lang="bn">In Good Shape</title>
+  </programme>
+  <programme start="20250823160000" stop="20250823161500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823161500" stop="20250823163000" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250823163000" stop="20250823170000" channel="dwnews">
+    <title lang="bn">Arts Unveiled Art.See.Afrika: Addis Abeba</title>
+  </programme>
+  <programme start="20250823170000" stop="20250823170300" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823170300" stop="20250823180000" channel="dwnews">
+    <title lang="bn">1001 Days</title>
+  </programme>
+  <programme start="20250823180000" stop="20250823181500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823181500" stop="20250823183000" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250823183000" stop="20250823190000" channel="dwnews">
+    <title lang="bn">Euromaxx Lifestyle Europe</title>
+  </programme>
+  <programme start="20250823190000" stop="20250823191500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823191500" stop="20250823200000" channel="dwnews">
+    <title lang="bn">Surviving Globalization</title>
+  </programme>
+  <programme start="20250823200000" stop="20250823201500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823201500" stop="20250823203000" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250823203000" stop="20250823210000" channel="dwnews">
+    <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250823210000" stop="20250823211500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823211500" stop="20250823213000" channel="dwnews">
+    <title lang="bn">Business Beyond</title>
+  </programme>
+  <programme start="20250823213000" stop="20250823220000" channel="dwnews">
+    <title lang="bn">Euromaxx Lifestyle Europe</title>
+  </programme>
+  <programme start="20250823220000" stop="20250823221500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823221500" stop="20250823223000" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250823223000" stop="20250823230000" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
+  </programme>
+  <programme start="20250823230000" stop="20250823231500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250823231500" stop="20250823233000" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250823233000" stop="20250824000000" channel="dwnews">
+    <title lang="bn">The 77 Percent How to tackle school bullying</title>
+  </programme>
+  <programme start="20250824000000" stop="20250824001500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824001500" stop="20250824003000" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824003000" stop="20250824010000" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
+  </programme>
+  <programme start="20250824010000" stop="20250824011500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824011500" stop="20250824020000" channel="dwnews">
+    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
+  </programme>
+  <programme start="20250824020000" stop="20250824021500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824021500" stop="20250824023000" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824023000" stop="20250824030000" channel="dwnews">
+    <title lang="bn">Afrimaxx Modern African Lifestyle</title>
+  </programme>
+  <programme start="20250824030000" stop="20250824031500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824031500" stop="20250824033000" channel="dwnews">
+    <title lang="bn">Shift Living in the Digital Age</title>
+  </programme>
+  <programme start="20250824033000" stop="20250824040000" channel="dwnews">
+    <title lang="bn">DW News Africa</title>
+  </programme>
+  <programme start="20250824040000" stop="20250824040300" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824040300" stop="20250824050000" channel="dwnews">
+    <title lang="bn">1001 Days</title>
+  </programme>
+  <programme start="20250824050000" stop="20250824051500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824051500" stop="20250824053000" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250824053000" stop="20250824060000" channel="dwnews">
+    <title lang="bn">Tomorrow Today The Science Magazine</title>
+  </programme>
+  <programme start="20250824060000" stop="20250824060200" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824060200" stop="20250824063000" channel="dwnews">
+    <title lang="bn">Environmental Crime - PFAS Chemicals in Drinking Water</title>
+  </programme>
+  <programme start="20250824063000" stop="20250824070000" channel="dwnews">
+    <title lang="bn">In Good Shape</title>
+  </programme>
+  <programme start="20250824070000" stop="20250824071500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824071500" stop="20250824073000" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824073000" stop="20250824080000" channel="dwnews">
+    <title lang="bn">Euromaxx Lifestyle Europe</title>
+  </programme>
+  <programme start="20250824080000" stop="20250824080200" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824080200" stop="20250824081500" channel="dwnews">
+    <title lang="bn">Sports Life</title>
+  </programme>
+  <programme start="20250824081500" stop="20250824090000" channel="dwnews">
+    <title lang="bn">Superpower Laughter - How Humor Makes Us Strong</title>
+  </programme>
+  <programme start="20250824090000" stop="20250824091500" channel="dwnews">
+    <title lang="bn">DW News</title>
+  </programme>
+  <programme start="20250824091500" stop="20250824093000" channel="dwnews">
+    <title lang="bn">Reporter</title>
+  </programme>
+  <programme start="20250824093000" stop="20250824100000" channel="dwnews">
+    <title lang="bn">Environmental Crime - PFAS Chemicals in Drinking Water</title>
   </programme>
 </tv>
