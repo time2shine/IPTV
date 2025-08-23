@@ -274,7 +274,7 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 time_obj = now.replace(hour=time_obj.hour, minute=time_obj.minute, second=0, microsecond=0)
 
                 # Add 14 hours manually
-                time_in_target = time_obj + timedelta(hours=-8)
+                time_in_target = time_obj + timedelta(hours=8)
 
                 epg_list.append({"title": title, "start": time_in_target})
 
