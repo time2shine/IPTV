@@ -60,24 +60,20 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 except:
                     start_dt = now
 
+                stop_dt = start_dt + timedelta(minutes=30)
+
                 upcoming_programmes.append({
                     "title": main_title,
-                    "start": start_dt
+                    "start": start_dt,
+                    "stop": stop_dt
                 })
 
-        # ✅ 3. Assign stop times based on the next programme start
-        for i in range(len(upcoming_programmes)):
-            if i < len(upcoming_programmes) - 1:
-                upcoming_programmes[i]["stop"] = upcoming_programmes[i + 1]["start"]
-            else:
-                upcoming_programmes[i]["stop"] = upcoming_programmes[i]["start"] + timedelta(minutes=30)
-
-        # ✅ 4. Add current program (ends when next starts)
+        # ✅ 3. Add current program (30 min before next if possible)
         if current_title:
             if upcoming_programmes:
                 next_start_dt = upcoming_programmes[0]["start"]
                 current_start_dt = next_start_dt - timedelta(minutes=30)
-                current_stop_dt = next_start_dt
+                current_stop_dt = next_start_dt - timedelta(seconds=1)
             else:
                 current_start_dt = now - timedelta(minutes=30)
                 current_stop_dt = now + timedelta(minutes=30)
@@ -88,7 +84,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                 "stop": current_stop_dt
             })
 
-        # ✅ 5. Combine programmes
         programmes.extend(upcoming_programmes)
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
@@ -97,7 +92,6 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         logging.error(f"Failed to fetch DW English: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
-
 
 
 CHANNELS = {
