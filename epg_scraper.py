@@ -159,16 +159,11 @@ def scrape_dw(channel_id, display_name, logo_url, url):
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # ✅ 1. Get current program from <h2 aria-label>
+        # ✅ 1. Get current program
         current_tag = soup.find("h2", attrs={"aria-label": True})
-        current_title = None
-        if current_tag:
-            current_title = html.escape(current_tag.get_text(strip=True))
-            logging.info(f"Current Program: {current_title}")
-        else:
-            logging.warning("No current program found.")
+        current_title = html.escape(current_tag.get_text(strip=True)) if current_tag else None
 
-        # ✅ 2. Get upcoming schedule rows
+        # ✅ 2. Get upcoming schedule
         schedule_rows = soup.find_all("div", attrs={"role": "row"})
         upcoming_programmes = []
 
@@ -196,15 +191,15 @@ def scrape_dw(channel_id, display_name, logo_url, url):
                     "stop": stop_time
                 })
 
-        # ✅ 3. Handle current program time
+        # ✅ 3. Add current programme covering "now"
         if current_title:
             if upcoming_programmes:
                 next_start = upcoming_programmes[0]["start"]
-                current_start = next_start - timedelta(minutes=30)
-                current_stop = next_start - timedelta(minutes=1)
+                current_start = now - timedelta(minutes=15)
+                current_stop = next_start - timedelta(seconds=1)
             else:
-                current_start = now - timedelta(minutes=30)
-                current_stop = now + timedelta(minutes=30)
+                current_start = now - timedelta(minutes=15)
+                current_stop = now + timedelta(minutes=15)
 
             programmes.append({
                 "title": current_title,
@@ -214,6 +209,11 @@ def scrape_dw(channel_id, display_name, logo_url, url):
 
         # ✅ 4. Merge current and upcoming programmes
         programmes.extend(upcoming_programmes)
+
+        # ✅ 5. Convert times to XMLTV format
+        for p in programmes:
+            p["start"] = p["start"].strftime("%Y%m%d%H%M%S +0600")
+            p["stop"] = p["stop"].strftime("%Y%m%d%H%M%S +0600")
 
         logging.info(f"Fetched {len(programmes)} programmes for {display_name}")
 
