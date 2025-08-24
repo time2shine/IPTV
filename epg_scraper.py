@@ -351,6 +351,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Enterr10-Bangla/1743/Schedule",
         scrape_tvwish
     ),
+    "sangeetbangla.in": (
+        "SANGEET BANGLA",
+        "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
+        "https://www.tvwish.com/IN/Channels/Sangeet-Bangla/1768/Schedule",
+        scrape_tvwish
+    ),
     "sonymaxhd.in": (
         "SONY MAX HD",
         "https://static.wikia.nocookie.net/logopedia/images/8/84/Sony_Max_HD_2022.png",
