@@ -126,22 +126,13 @@ channel_metadata = {
         'channel_name': 'Curious George Official',
         'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_mme5GlHmFNnSrrGhurc8y-IRauHMAkCUQGbAF_k2CbzCs=s160-c-k-c0x00ffffff-no-rj',
     },
-    'UCVzLLZkDuFGAE2BGdBuBNBg': {  # Bluey - Official Channel
-        'group_title': 'Kids',
-        'channel_name': 'Bluey - Official Channel',
-        'channel_logo': 'https://yt3.googleusercontent.com/ntD3FiuQNxb-dxWlbzZoqn1M5WtyMjkhoUaG63_vrsTEVtfAqhmF4RyfrSIBJb7gGG7_S9jSAA=s160-c-k-c0x00ffffff-no-rj',
-    },
-    'UCoBpC9J2EcbAMprw7YjC93A': {  # The Amazing World of Gumball
-        'group_title': 'Kids',
-        'channel_name': 'The Amazing World of Gumball',
-        'channel_logo': 'https://yt3.googleusercontent.com/sH4BeWbHl1R_47tBWPGMs-YbqG7_JsXselWIHD30GLsk8Q_9XFOYsC2p-MejZShM0WhciTPsVA=s160-c-k-c0x00ffffff-no-rj',
-    },
     'UCu59yAFE8fM0sVNTipR4edw': {  # Masha and The Bear
         'group_title': 'Kids',
         'channel_name': 'Masha and The Bear',
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
 
