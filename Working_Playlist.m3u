@@ -18,6 +18,8 @@ https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sunbangla.in" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png", SUN Bangla (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/245906.m3u8
+#EXTINF:-1 tvg-id="sunbangla.in" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png", SUN Bangla (*)
+https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8
 #EXTINF:-1 tvg-id="asiantv.bd" group-title="Entertainment" tvg-logo="https://images.seeklogo.com/logo-png/53/1/asian-tv-logo-png_seeklogo-534370.png", ASIAN TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245908.m3u8
 #EXTINF:-1 tvg-id="channeli.bd" group-title="Entertainment" tvg-logo="https://images.seeklogo.com/logo-png/42/1/channel-i-logo-png_seeklogo-427745.png", CHANNEL I
@@ -56,12 +58,18 @@ https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245895.m3u8
 #EXTINF:-1 tvg-id="colors.in" group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/Colors_Bangla.png", Colors Bangla (*)
 https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
+#EXTINF:-1 tvg-id="colorsbanglacinemahd.in" group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg", COLORS BANGLA CINEMA HD
+https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="zeebangla.in" group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla.jpg", ZEE BANGLA HD (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/245893.m3u8
 #EXTINF:-1 tvg-id="zeebanglasd.in" group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla.jpg", Zee Bangla SD
 https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8
 #EXTINF:-1 tvg-id="zeebanglacinema.in" group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla_cinema.jpg", ZEE BANGLA CINEMA (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/245897.m3u8
+#EXTINF:-1 tvg-id="zeebanglacinema.in" group-title="Entertainment" tvg-logo="http://openboxv8s.com/india/zee_bangla_cinema.jpg", ZEE BANGLA CINEMA (*)
+https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
+#EXTINF:-1 tvg-id="sonyaathhd.in" group-title="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/SONY_AATH.png", SONY AATH HD
+https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 
 
 #EXTINF:-1 tvg-id="atnmusic.bd" group-title="Music" tvg-logo="https://lh3.googleusercontent.com/-30dX2gAbWBA/XrWrVwyUkSI/AAAAAAAAAnE/CIy_3loKQ34fED9Azwynih_T73E8is9jQCLcBGAsYHQ/w680/ATNMusic.png", ATN MUSIC
@@ -70,17 +78,18 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245965.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245921.m3u8
 #EXTINF:-1 tvg-id="montvmusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/7/7e/Mon_Music_HD_2023.png", Mon TV Music
 https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
-#EXTINF:-1 tvg-id="sangeetbangla.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png/revision/latest?cb=20240322134434", SANGEET BANGLA
+#EXTINF:-1 tvg-id="sangeetbangla.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png", SANGEET BANGLA
 https://restream-freeflix.farhadhossain52524.workers.dev/245933.m3u8
 #EXTINF:-1 tvg-id="amc.us" group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/MYcrmTg-2FfK3mVvNsjttNsXXTLfUG7i3QjMd0fzticooxMwLMK0NQdyQSMnF0iC9lg", AMC
 https://amchls.wns.live/hls/stream.m3u8
+
 
 
 #EXTINF:-1 tvg-id="my9.in" group-title="International" tvg-logo="https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png", My 9
 http://208.86.19.13:81/105.stream/index.m3u8
 #EXTINF:-1 tvg-id="fox2.us" group-title="International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2d/KTVU_FOX_2_logo.png", Fox 2
 http://208.86.19.13:81/106.stream/index.m3u8
-#EXTINF:-1 tvg-id="fox.us" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e3/Fox_2019.svg/revision/latest?cb=20220925085535", Fox
+#EXTINF:-1 tvg-id="fox.us" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e3/Fox_2019.svg", Fox
 http://208.86.19.13:81/103.stream/index.m3u8
 #EXTINF:-1 tvg-id="4newyork.us" group-title="International" tvg-logo="https://i.ibb.co/8MJdM0y/4-NY.png", 4 New York
 http://208.86.19.13:81/102.stream/index.m3u8
@@ -93,20 +102,6 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245917.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245940.m3u8
 #EXTINF:-1 tvg-id="banglatv.bd" group-title="News" tvg-logo="https://images.seeklogo.com/logo-png/40/1/bangla-tv-logo-png_seeklogo-404114.png", BANGLA TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245910.m3u8
-
-
-
-#EXTINF:-1 tvg-id="indiatoday.in" group-title="News India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="indiatoday.in" group-title="News India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
-https://feeds.intoday.in/hltapps/api/master.m3u8
-#EXTINF:-1 tvg-id="highnews.in" group-title="News India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg", High News
-https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
-#EXTINF:-1 tvg-id="ndtvenglish" group-title="News India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV English (*)
-https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
-#EXTINF:-1 tvg-id="ndtvindia" group-title=News India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV India (*)
-https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
-
 
 
 
@@ -131,6 +126,24 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/strea
 https://restream-freeflix.farhadhossain52524.workers.dev/245907.m3u8
 
 
+#EXTINF:-1 tvg-id="sonymaxhd.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/84/Sony_Max_HD_2022.png", SONY MAX HD
+http://s5.alltvfree.com:8081/live/sonymax_480p/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="sonysabhd.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png", SONY SAB HD
+https://fifabd.site/JOIN@TGxRANAPK33/TATACC/play.php?id=11672
+#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
+https://feeds.intoday.in/hltapps/api/master.m3u8
+#EXTINF:-1 tvg-id="highnews.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg", High News
+https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
+#EXTINF:-1 tvg-id="ndtvenglish" group-title="India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV English (*)
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-id="ndtvindia" group-title="India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV India (*)
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
+
+
 #EXTINF:-1 tvg-id="dunya" group-title="Pakistan" tvg-logo="https://images.seeklogo.com/logo-png/31/1/dunya-news-logo-png_seeklogo-314631.png", Dunya News
 http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8
 #EXTINF:-1 tvg-id="primecanada.ca" group-title="Pakistan" tvg-logo="https://images.seeklogo.com/logo-png/11/1/prime-tv-logo-png_seeklogo-111977.png", Prime Canada TV (CA)
@@ -143,6 +156,8 @@ http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/245959.m3u8
 #EXTINF:-1 tvg-id="toonami.aftermath" group-title="Kids" tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg", Toonami Aftermath East
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 tvg-id="duronto" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/ed/Duronto_TV_logo.png", DURONTO HD
+https://tvsen4.aynaott.com/durontotv/index.m3u8
 
 
 
@@ -158,10 +173,14 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167576.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/167577.m3u8
 #EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/109993.m3u8
+#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K (*)
+https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8
 #EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/167578.m3u8
 #EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/109994.m3u8
+#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K (*)
+https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8
 #EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 (*)
 https://restream-freeflix.farhadhossain52524.workers.dev/167579.m3u8
 #EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten1.png", Sony Ten 1 4K (*)
@@ -232,6 +251,7 @@ http://smart.bengaldigital.live/WWE/index.m3u8
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="dubaisports3.in" group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
 
 
 
