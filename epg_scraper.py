@@ -327,6 +327,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Zee-Bangla-Cinema/33/Schedule",
         scrape_tvwish
     ),
+    "colorsbanglacinemahd.in": (
+        "COLORS BANGLA CINEMA HD",
+        "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
+        "https://www.tvwish.com/IN/Channels/Colors-Bangla-Cinema/1758/Schedule",
+        scrape_tvwish
+    ),
     "akashaat.in": (
         "AKASH 8",
         "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
