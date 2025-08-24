@@ -357,6 +357,12 @@ CHANNELS = {
         "https://www.ontvtonight.com/guide/listings/channel/69035806",
         scrape_ontvtonight
     )
+    "my9.us": (
+        "My 9",
+        "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
+        "https://www.ontvtonight.com/guide/listings/channel/1714278231/my-9.html",
+        scrape_ontvtonight
+    )
 }
 
 
