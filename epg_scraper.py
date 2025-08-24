@@ -357,6 +357,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Sony-Max-HD/31/Schedule",
         scrape_tvwish
     ),
+    "sonysabhd.in": (
+        "SONY SAB HD",
+        "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
+        "https://www.tvwish.com/IN/Channels/Sony-SAB-HD/669/Schedule",
+        scrape_tvwish
+    ),
     "dwnews": (
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
