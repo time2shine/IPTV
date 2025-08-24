@@ -374,7 +374,7 @@ CHANNELS = {
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
         "https://www.ontvtonight.com/guide/listings/channel/69035806",
         scrape_ontvtonight
-    )
+    ),
     "my9.us": (
         "My 9",
         "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
