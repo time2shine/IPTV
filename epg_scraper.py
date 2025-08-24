@@ -339,6 +339,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Sun-Bangla/716/Schedule",
         scrape_tvwish
     ),
+    "sonymaxhd.in": (
+        "SONY MAX HD",
+        "https://static.wikia.nocookie.net/logopedia/images/8/84/Sony_Max_HD_2022.png",
+        "https://www.tvwish.com/IN/Channels/Sony-Max-HD/31/Schedule",
+        scrape_tvwish
+    ),
     "dwnews": (
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
