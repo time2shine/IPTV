@@ -16,8 +16,9 @@ OUTPUT_FILE = "combined.m3u"
 GROUP_ORDER = [
     "Entertainment",
     "News",
-    "News India",
     "International News",
+    "Movie",
+    "India",
     "Pakistan",
     "Music",
     "International",
