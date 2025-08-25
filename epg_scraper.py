@@ -473,6 +473,18 @@ CHANNELS = {
         "https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg",
         "https://epg.pw/last/9416.html?lang=en",
         scrape_epgpw
+    ),
+    "CGTN.cn": (
+        "CGTN",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png",
+        "https://epg.pw/last/431469.html?lang=en",
+        scrape_epgpw
+    ),
+    "Channel News Asia": (
+        "cna.sg",
+        "https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg",
+        "https://epg.pw/last/171959.html?lang=en",
+        scrape_epgpw
     )
 }
 
