@@ -100,11 +100,6 @@ channel_metadata = {
     },
 
     # --- International News Channels ---
-    'UC7fWeaHhqgM4Ry-RMpM2YYw': {  # TRT World
-        'group_title': 'International News',
-        'channel_name': 'TRT World',
-        'channel_logo': 'https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg',
-    },
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
@@ -132,6 +127,7 @@ channel_metadata = {
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
 
