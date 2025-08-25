@@ -4,9 +4,6 @@
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="starjalsha.in">
-    <title lang="bn">Shubho Bibaho</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826003000 +0600" channel="starjalsha.in">
     <title lang="bn">Mon Phagun</title>
   </programme>
@@ -94,13 +91,13 @@
   <programme start="20250826200000 +0600" stop="20250826203000 +0600" channel="starjalsha.in">
     <title lang="bn">Rangamati Tirandaj</title>
   </programme>
+  <programme start="20250826203000 +0600" stop="20250826210000 +0600" channel="starjalsha.in">
+    <title lang="bn">Parashuram</title>
+  </programme>
   <channel id="colors.in">
     <display-name>Colors</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="colors.in">
-    <title lang="bn">Tumpa Autowali</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826003000 +0600" channel="colors.in">
     <title lang="bn">Swarnor Sangsar</title>
   </programme>
@@ -188,13 +185,13 @@
   <programme start="20250826213000 +0600" stop="20250826220000 +0600" channel="colors.in">
     <title lang="bn">Pherari Mon</title>
   </programme>
+  <programme start="20250826220000 +0600" stop="20250826223000 +0600" channel="colors.in">
+    <title lang="bn">Pherari Mon</title>
+  </programme>
   <channel id="zeebangla.in">
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20250825224500 +0600" stop="20250825233000 +0600" channel="zeebangla.in">
-    <title lang="bn">Mithijhora</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="zeebangla.in">
     <title lang="bn">Kusum</title>
   </programme>
@@ -282,13 +279,13 @@
   <programme start="20250826183000 +0600" stop="20250826190000 +0600" channel="zeebangla.in">
     <title lang="bn">Tui Amar Hero</title>
   </programme>
+  <programme start="20250826190000 +0600" stop="20250826193000 +0600" channel="zeebangla.in">
+    <title lang="bn">Chirodini Tumi Je Amar</title>
+  </programme>
   <channel id="indiatoday.in">
     <display-name>India Today</display-name>
     <icon src="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="indiatoday.in">
-    <title lang="bn">World Today</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="indiatoday.in">
     <title lang="bn">News</title>
   </programme>
@@ -376,13 +373,13 @@
   <programme start="20250826133000 +0600" stop="20250826140000 +0600" channel="indiatoday.in">
     <title lang="bn">Lunch Break</title>
   </programme>
+  <programme start="20250826140000 +0600" stop="20250826143000 +0600" channel="indiatoday.in">
+    <title lang="bn">Lunch Break</title>
+  </programme>
   <channel id="ndtvenglish">
     <display-name>NDTV English</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="ndtvenglish">
-    <title lang="bn">News</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="ndtvenglish">
     <title lang="bn">News</title>
   </programme>
@@ -470,13 +467,13 @@
   <programme start="20250826133000 +0600" stop="20250826140000 +0600" channel="ndtvenglish">
     <title lang="bn">News</title>
   </programme>
+  <programme start="20250826140000 +0600" stop="20250826143000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
   <channel id="ndtvindia">
     <display-name>NDTV India</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="ndtvindia">
-    <title lang="bn">X-Ray Report</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="ndtvindia">
     <title lang="bn">News Headquarter@11Pm</title>
   </programme>
@@ -562,6 +559,9 @@
     <title lang="bn">News NDTV India</title>
   </programme>
   <programme start="20250826133000 +0600" stop="20250826140000 +0600" channel="ndtvindia">
+    <title lang="bn">News NDTV India</title>
+  </programme>
+  <programme start="20250826140000 +0600" stop="20250826143000 +0600" channel="ndtvindia">
     <title lang="bn">News NDTV India</title>
   </programme>
   <channel id="starsports1hd.in">
@@ -662,13 +662,7 @@
     <display-name>Star Sports 1 Hindi</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20250825223000 +0600" stop="20250825233000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">ICC World T20 Highlights</title>
-  </programme>
-  <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Saint Lucia Kings vs Barbados Royals, 12th Match; CPL T...</title>
-  </programme>
-  <programme start="20250826000000 +0600" stop="20250826001500 +0600" channel="starsports1hindi.in">
+  <programme start="20250825234500 +0600" stop="20250826001500 +0600" channel="starsports1hindi.in">
     <title lang="bn">Saint Lucia Kings vs Trinbago Knight Riders, 10th Match...</title>
   </programme>
   <programme start="20250826001500 +0600" stop="20250826063000 +0600" channel="starsports1hindi.in">
@@ -693,9 +687,6 @@
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="starsports.tamil">
-    <title lang="bn">Pro Kabaddi Highlights</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="starsports.tamil">
     <title lang="bn">ICC WT20 Highlights</title>
   </programme>
@@ -944,9 +935,6 @@
     <display-name>Sony Ten 1 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN1.in.png"/>
   </channel>
-  <programme start="20250825200000 +0600" stop="20250825233000 +0600" channel="sonyten1.in">
-    <title lang="bn">UFC - Fight O'Clock Israel Adesanyaep</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826030000 +0600" channel="sonyten1.in">
     <title lang="bn">3rd Test: England vs. India; Test Cricket</title>
   </programme>
@@ -1020,9 +1008,6 @@
     <display-name>Sony Ten 2 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN2.in.png"/>
   </channel>
-  <programme start="20250825200000 +0600" stop="20250825233000 +0600" channel="sonyten2.in">
-    <title lang="bn">Final: Teams TBA; 2025 Durand Cup</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826003000 +0600" channel="sonyten2.in">
     <title lang="bn">MD 3; European Qualifier Highlights</title>
   </programme>
@@ -1090,9 +1075,6 @@
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
-  <programme start="20250825200000 +0600" stop="20250825234500 +0600" channel="sonyten3.in">
-    <title lang="bn">Live - Kashi Rudras vs. Lucknow Falcons; Uttar Pradesh...</title>
-  </programme>
   <programme start="20250825234500 +0600" stop="20250826030000 +0600" channel="sonyten3.in">
     <title lang="bn">5th Test: England vs. India; Test Cricket</title>
   </programme>
@@ -1178,12 +1160,6 @@
     <display-name>Zee Bangla Cinema</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">S.I.T. Bengal</title>
-  </programme>
-  <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="zeebanglacinema.in">
-    <title lang="bn">Sanjhbati</title>
-  </programme>
   <channel id="colorsbanglacinemahd.in">
     <display-name>COLORS BANGLA CINEMA HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
@@ -1231,10 +1207,7 @@
     <display-name>AKASH 8</display-name>
     <icon src="https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="akashaat.in">
-    <title lang="bn">Aakash Barta</title>
-  </programme>
-  <programme start="20250825233000 +0600" stop="20250826010000 +0600" channel="akashaat.in">
+  <programme start="20250826003000 +0600" stop="20250826010000 +0600" channel="akashaat.in">
     <title lang="bn">Police Files</title>
   </programme>
   <programme start="20250826010000 +0600" stop="20250826033000 +0600" channel="akashaat.in">
@@ -1269,6 +1242,9 @@
   </programme>
   <programme start="20250826103000 +0600" stop="20250826110000 +0600" channel="akashaat.in">
     <title lang="bn">Khonar Kahini</title>
+  </programme>
+  <programme start="20250826110000 +0600" stop="20250826113000 +0600" channel="akashaat.in">
+    <title lang="bn">Om Sai Ram</title>
   </programme>
   <channel id="sunbangla.in">
     <display-name>SUN Bangla</display-name>
@@ -1360,10 +1336,7 @@
     <display-name>SANGEET BANGLA</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="sangeetbangla.in">
-    <title lang="bn">SB Viral Hits</title>
-  </programme>
-  <programme start="20250825233000 +0600" stop="20250826003000 +0600" channel="sangeetbangla.in">
+  <programme start="20250826000000 +0600" stop="20250826003000 +0600" channel="sangeetbangla.in">
     <title lang="bn">Tumi Hansbe Bole</title>
   </programme>
   <programme start="20250826003000 +0600" stop="20250826013000 +0600" channel="sangeetbangla.in">
@@ -1396,8 +1369,11 @@
   <programme start="20250826093000 +0600" stop="20250826103000 +0600" channel="sangeetbangla.in">
     <title lang="bn">Nonstop Hits</title>
   </programme>
-  <programme start="20250826103000 +0600" stop="20250826110000 +0600" channel="sangeetbangla.in">
+  <programme start="20250826103000 +0600" stop="20250826113000 +0600" channel="sangeetbangla.in">
     <title lang="bn">Tumi Hansbe Bole</title>
+  </programme>
+  <programme start="20250826113000 +0600" stop="20250826120000 +0600" channel="sangeetbangla.in">
+    <title lang="bn">SB Public Demand</title>
   </programme>
   <channel id="sonymaxhd.in">
     <display-name>SONY MAX HD</display-name>
@@ -1407,11 +1383,8 @@
     <display-name>SONY SAB HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png"/>
   </channel>
-  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="sonysabhd.in">
-    <title lang="bn">Ufff...Yeh Love Hai Mushkil</title>
-  </programme>
   <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="sonysabhd.in">
-    <title lang="bn">Taarak Mehta Ka Ooltah Chashmah (2008)</title>
+    <title lang="bn">Taarak Mehta Ka Ooltah Chashmah(2008)</title>
   </programme>
   <programme start="20250826000000 +0600" stop="20250826003000 +0600" channel="sonysabhd.in">
     <title lang="bn">Pushpa Impossible (2022)</title>
@@ -1445,6 +1418,9 @@
   </programme>
   <programme start="20250826050000 +0600" stop="20250826053000 +0600" channel="sonysabhd.in">
     <title lang="bn">Tenali Rama (2006)</title>
+  </programme>
+  <programme start="20250826053000 +0600" stop="20250826060000 +0600" channel="sonysabhd.in">
+    <title lang="bn">Wagle Ki Duniya (2021)</title>
   </programme>
   <channel id="dwnews">
     <display-name>DW English</display-name>
@@ -2090,5 +2066,947 @@
   </programme>
   <programme start="20250827223000 +0600" stop="20250827230000 +0600" channel="aljazeera.com">
     <title lang="bn">Studio B: Unscripted</title>
+  </programme>
+  <channel id="WION.in">
+    <display-name>WION</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg"/>
+  </channel>
+  <programme start="20250825000000 +0600" stop="20250825003000 +0600" channel="WION.in">
+    <title lang="bn">WION Wideangle</title>
+  </programme>
+  <programme start="20250825003000 +0600" stop="20250825010000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825010000 +0600" stop="20250825013000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250825013000 +0600" stop="20250825020000 +0600" channel="WION.in">
+    <title lang="bn">WION E-Club</title>
+  </programme>
+  <programme start="20250825020000 +0600" stop="20250825023000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825023000 +0600" stop="20250825030000 +0600" channel="WION.in">
+    <title lang="bn">Inside South Asia</title>
+  </programme>
+  <programme start="20250825030000 +0600" stop="20250825033000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825033000 +0600" stop="20250825040000 +0600" channel="WION.in">
+    <title lang="bn">World At War</title>
+  </programme>
+  <programme start="20250825040000 +0600" stop="20250825043000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250825043000 +0600" stop="20250825050000 +0600" channel="WION.in">
+    <title lang="bn">The West Asia Post</title>
+  </programme>
+  <programme start="20250825050000 +0600" stop="20250825053000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825053000 +0600" stop="20250825060000 +0600" channel="WION.in">
+    <title lang="bn">WION Wideangle</title>
+  </programme>
+  <programme start="20250825060000 +0600" stop="20250825063000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825063000 +0600" stop="20250825070000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250825070000 +0600" stop="20250825073000 +0600" channel="WION.in">
+    <title lang="bn">The West Asia Post</title>
+  </programme>
+  <programme start="20250825073000 +0600" stop="20250825080000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825080000 +0600" stop="20250825083000 +0600" channel="WION.in">
+    <title lang="bn">World DNA</title>
+  </programme>
+  <programme start="20250825083000 +0600" stop="20250825090000 +0600" channel="WION.in">
+    <title lang="bn">World DNA</title>
+  </programme>
+  <programme start="20250825090000 +0600" stop="20250825093000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825093000 +0600" stop="20250825100000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825100000 +0600" stop="20250825103000 +0600" channel="WION.in">
+    <title lang="bn">World Business Watch</title>
+  </programme>
+  <programme start="20250825103000 +0600" stop="20250825110000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825110000 +0600" stop="20250825113000 +0600" channel="WION.in">
+    <title lang="bn">The West Asia Post</title>
+  </programme>
+  <programme start="20250825113000 +0600" stop="20250825120000 +0600" channel="WION.in">
+    <title lang="bn">Newspoint</title>
+  </programme>
+  <programme start="20250825120000 +0600" stop="20250825123000 +0600" channel="WION.in">
+    <title lang="bn">Speed News</title>
+  </programme>
+  <programme start="20250825123000 +0600" stop="20250825130000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825130000 +0600" stop="20250825133000 +0600" channel="WION.in">
+    <title lang="bn">WION Climate Tracker</title>
+  </programme>
+  <programme start="20250825133000 +0600" stop="20250825140000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825140000 +0600" stop="20250825143000 +0600" channel="WION.in">
+    <title lang="bn">Speed News</title>
+  </programme>
+  <programme start="20250825143000 +0600" stop="20250825150000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825150000 +0600" stop="20250825153000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825153000 +0600" stop="20250825160000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825160000 +0600" stop="20250825163000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825163000 +0600" stop="20250825170000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825170000 +0600" stop="20250825173000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825173000 +0600" stop="20250825180000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825180000 +0600" stop="20250825183000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825183000 +0600" stop="20250825190000 +0600" channel="WION.in">
+    <title lang="bn">WION Dispatch</title>
+  </programme>
+  <programme start="20250825190000 +0600" stop="20250825193000 +0600" channel="WION.in">
+    <title lang="bn">Wion World Of Sport</title>
+  </programme>
+  <programme start="20250825193000 +0600" stop="20250825200000 +0600" channel="WION.in">
+    <title lang="bn">WION Live Broadcast From USA</title>
+  </programme>
+  <programme start="20250825200000 +0600" stop="20250825203000 +0600" channel="WION.in">
+    <title lang="bn">World At War</title>
+  </programme>
+  <programme start="20250825203000 +0600" stop="20250825210000 +0600" channel="WION.in">
+    <title lang="bn">Race To Power</title>
+  </programme>
+  <programme start="20250825210000 +0600" stop="20250825213000 +0600" channel="WION.in">
+    <title lang="bn">WION Fineprint</title>
+  </programme>
+  <programme start="20250825213000 +0600" stop="20250825220000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250825220000 +0600" stop="20250825223000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250825223000 +0600" stop="20250825230000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250825230000 +0600" stop="20250825233000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250825233000 +0600" stop="20250826000000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826000000 +0600" stop="20250826003000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826003000 +0600" stop="20250826010000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826010000 +0600" stop="20250826013000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250826013000 +0600" stop="20250826020000 +0600" channel="WION.in">
+    <title lang="bn">WION Dispatch</title>
+  </programme>
+  <programme start="20250826020000 +0600" stop="20250826023000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826023000 +0600" stop="20250826030000 +0600" channel="WION.in">
+    <title lang="bn">Tech It Out</title>
+  </programme>
+  <programme start="20250826030000 +0600" stop="20250826033000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826033000 +0600" stop="20250826040000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826040000 +0600" stop="20250826043000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250826043000 +0600" stop="20250826050000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826050000 +0600" stop="20250826053000 +0600" channel="WION.in">
+    <title lang="bn">WION Fineprint</title>
+  </programme>
+  <programme start="20250826053000 +0600" stop="20250826060000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826060000 +0600" stop="20250826063000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826063000 +0600" stop="20250826070000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250826070000 +0600" stop="20250826073000 +0600" channel="WION.in">
+    <title lang="bn">Race To Power</title>
+  </programme>
+  <programme start="20250826073000 +0600" stop="20250826080000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826080000 +0600" stop="20250826083000 +0600" channel="WION.in">
+    <title lang="bn">World DNA</title>
+  </programme>
+  <programme start="20250826083000 +0600" stop="20250826090000 +0600" channel="WION.in">
+    <title lang="bn">World DNA</title>
+  </programme>
+  <programme start="20250826090000 +0600" stop="20250826093000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826093000 +0600" stop="20250826100000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826100000 +0600" stop="20250826103000 +0600" channel="WION.in">
+    <title lang="bn">World Business Watch</title>
+  </programme>
+  <programme start="20250826103000 +0600" stop="20250826110000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826110000 +0600" stop="20250826113000 +0600" channel="WION.in">
+    <title lang="bn">World At War</title>
+  </programme>
+  <programme start="20250826113000 +0600" stop="20250826120000 +0600" channel="WION.in">
+    <title lang="bn">Newspoint</title>
+  </programme>
+  <programme start="20250826120000 +0600" stop="20250826123000 +0600" channel="WION.in">
+    <title lang="bn">Speed News</title>
+  </programme>
+  <programme start="20250826123000 +0600" stop="20250826130000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826130000 +0600" stop="20250826133000 +0600" channel="WION.in">
+    <title lang="bn">WION Climate Tracker</title>
+  </programme>
+  <programme start="20250826133000 +0600" stop="20250826140000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826140000 +0600" stop="20250826143000 +0600" channel="WION.in">
+    <title lang="bn">Speed News</title>
+  </programme>
+  <programme start="20250826143000 +0600" stop="20250826150000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826150000 +0600" stop="20250826153000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826153000 +0600" stop="20250826160000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826160000 +0600" stop="20250826163000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826163000 +0600" stop="20250826170000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826170000 +0600" stop="20250826173000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826173000 +0600" stop="20250826180000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826180000 +0600" stop="20250826183000 +0600" channel="WION.in">
+    <title lang="bn">WION Business Insights</title>
+  </programme>
+  <programme start="20250826183000 +0600" stop="20250826190000 +0600" channel="WION.in">
+    <title lang="bn">WION Dispatch</title>
+  </programme>
+  <programme start="20250826190000 +0600" stop="20250826193000 +0600" channel="WION.in">
+    <title lang="bn">Wion World Of Sport</title>
+  </programme>
+  <programme start="20250826193000 +0600" stop="20250826200000 +0600" channel="WION.in">
+    <title lang="bn">WION Live Broadcast From USA</title>
+  </programme>
+  <programme start="20250826200000 +0600" stop="20250826203000 +0600" channel="WION.in">
+    <title lang="bn">World Of Africa</title>
+  </programme>
+  <programme start="20250826203000 +0600" stop="20250826210000 +0600" channel="WION.in">
+    <title lang="bn">Race To Power</title>
+  </programme>
+  <programme start="20250826210000 +0600" stop="20250826213000 +0600" channel="WION.in">
+    <title lang="bn">WION Fineprint</title>
+  </programme>
+  <programme start="20250826213000 +0600" stop="20250826220000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826220000 +0600" stop="20250826223000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250826223000 +0600" stop="20250826230000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250826230000 +0600" stop="20250826233000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250826233000 +0600" stop="20250827000000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250827000000 +0600" stop="20250827003000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250827003000 +0600" stop="20250827010000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250827010000 +0600" stop="20250827013000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250827013000 +0600" stop="20250827020000 +0600" channel="WION.in">
+    <title lang="bn">WION Dispatch</title>
+  </programme>
+  <programme start="20250827020000 +0600" stop="20250827023000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <programme start="20250827023000 +0600" stop="20250827030000 +0600" channel="WION.in">
+    <title lang="bn">World Of Africa</title>
+  </programme>
+  <programme start="20250827030000 +0600" stop="20250827033000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250827033000 +0600" stop="20250827040000 +0600" channel="WION.in">
+    <title lang="bn">Gravitas</title>
+  </programme>
+  <programme start="20250827040000 +0600" stop="20250827043000 +0600" channel="WION.in">
+    <title lang="bn">WION Pulse</title>
+  </programme>
+  <programme start="20250827043000 +0600" stop="20250827050000 +0600" channel="WION.in">
+    <title lang="bn">Top Stories</title>
+  </programme>
+  <channel id="CGTN.cn">
+    <display-name>CGTN</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png"/>
+  </channel>
+  <programme start="20250825000000 +0600" stop="20250825003000 +0600" channel="CGTN.cn">
+    <title lang="bn">Razor</title>
+  </programme>
+  <programme start="20250825003000 +0600" stop="20250825010000 +0600" channel="CGTN.cn">
+    <title lang="bn">Talk Africa</title>
+  </programme>
+  <programme start="20250825010000 +0600" stop="20250825013000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825013000 +0600" stop="20250825020000 +0600" channel="CGTN.cn">
+    <title lang="bn">Inheritors</title>
+  </programme>
+  <programme start="20250825020000 +0600" stop="20250825023000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825023000 +0600" stop="20250825030000 +0600" channel="CGTN.cn">
+    <title lang="bn">Travelogue</title>
+  </programme>
+  <programme start="20250825030000 +0600" stop="20250825033000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825033000 +0600" stop="20250825040000 +0600" channel="CGTN.cn">
+    <title lang="bn">Assignment Asia</title>
+  </programme>
+  <programme start="20250825040000 +0600" stop="20250825050000 +0600" channel="CGTN.cn">
+    <title lang="bn">Americas Now</title>
+  </programme>
+  <programme start="20250825050000 +0600" stop="20250825053000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825053000 +0600" stop="20250825060000 +0600" channel="CGTN.cn">
+    <title lang="bn">Faces of Africa</title>
+  </programme>
+  <programme start="20250825060000 +0600" stop="20250825063000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825063000 +0600" stop="20250825070000 +0600" channel="CGTN.cn">
+    <title lang="bn">Inheritors</title>
+  </programme>
+  <programme start="20250825070000 +0600" stop="20250825073000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825073000 +0600" stop="20250825080000 +0600" channel="CGTN.cn">
+    <title lang="bn">Razor</title>
+  </programme>
+  <programme start="20250825080000 +0600" stop="20250825083000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825083000 +0600" stop="20250825090000 +0600" channel="CGTN.cn">
+    <title lang="bn">Travelogue</title>
+  </programme>
+  <programme start="20250825090000 +0600" stop="20250825091500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825091500 +0600" stop="20250825093000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250825093000 +0600" stop="20250825100000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20250825100000 +0600" stop="20250825110000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Watch</title>
+  </programme>
+  <programme start="20250825110000 +0600" stop="20250825111500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825111500 +0600" stop="20250825113000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250825113000 +0600" stop="20250825120000 +0600" channel="CGTN.cn">
+    <title lang="bn">Rediscovering China</title>
+  </programme>
+  <programme start="20250825120000 +0600" stop="20250825123000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825123000 +0600" stop="20250825130000 +0600" channel="CGTN.cn">
+    <title lang="bn">Razor</title>
+  </programme>
+  <programme start="20250825130000 +0600" stop="20250825133000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825133000 +0600" stop="20250825140000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250825140000 +0600" stop="20250825141500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825141500 +0600" stop="20250825150000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250825150000 +0600" stop="20250825153000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825153000 +0600" stop="20250825160000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Vibe</title>
+  </programme>
+  <programme start="20250825160000 +0600" stop="20250825161500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825161500 +0600" stop="20250825170000 +0600" channel="CGTN.cn">
+    <title lang="bn">Africa Live</title>
+  </programme>
+  <programme start="20250825170000 +0600" stop="20250825173000 +0600" channel="CGTN.cn">
+    <title lang="bn">Asia Today</title>
+  </programme>
+  <programme start="20250825173000 +0600" stop="20250825180000 +0600" channel="CGTN.cn">
+    <title lang="bn">Dialogue</title>
+  </programme>
+  <programme start="20250825180000 +0600" stop="20250825181500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825181500 +0600" stop="20250825190000 +0600" channel="CGTN.cn">
+    <title lang="bn">China 24</title>
+  </programme>
+  <programme start="20250825190000 +0600" stop="20250825193000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250825193000 +0600" stop="20250825200000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20250825200000 +0600" stop="20250825203000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825203000 +0600" stop="20250825210000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250825210000 +0600" stop="20250825213000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250825213000 +0600" stop="20250825220000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Vibe</title>
+  </programme>
+  <programme start="20250825220000 +0600" stop="20250825230000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250825230000 +0600" stop="20250826000000 +0600" channel="CGTN.cn">
+    <title lang="bn">Africa Live</title>
+  </programme>
+  <programme start="20250826000000 +0600" stop="20250826010000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826010000 +0600" stop="20250826013000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826013000 +0600" stop="20250826020000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250826020000 +0600" stop="20250826023000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826023000 +0600" stop="20250826030000 +0600" channel="CGTN.cn">
+    <title lang="bn">Dialogue</title>
+  </programme>
+  <programme start="20250826030000 +0600" stop="20250826033000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826033000 +0600" stop="20250826040000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20250826040000 +0600" stop="20250826043000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826043000 +0600" stop="20250826050000 +0600" channel="CGTN.cn">
+    <title lang="bn">Rediscovering China</title>
+  </programme>
+  <programme start="20250826050000 +0600" stop="20250826053000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Heat</title>
+  </programme>
+  <programme start="20250826053000 +0600" stop="20250826060000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826060000 +0600" stop="20250826070000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826070000 +0600" stop="20250826073000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826073000 +0600" stop="20250826080000 +0600" channel="CGTN.cn">
+    <title lang="bn">China 24</title>
+  </programme>
+  <programme start="20250826080000 +0600" stop="20250826083000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826083000 +0600" stop="20250826090000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250826090000 +0600" stop="20250826091500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826091500 +0600" stop="20250826093000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250826093000 +0600" stop="20250826100000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Hub With Wang Guan</title>
+  </programme>
+  <programme start="20250826100000 +0600" stop="20250826110000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Watch</title>
+  </programme>
+  <programme start="20250826110000 +0600" stop="20250826111500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826111500 +0600" stop="20250826113000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250826113000 +0600" stop="20250826120000 +0600" channel="CGTN.cn">
+    <title lang="bn">Rediscovering China</title>
+  </programme>
+  <programme start="20250826120000 +0600" stop="20250826123000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826123000 +0600" stop="20250826130000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Heat</title>
+  </programme>
+  <programme start="20250826130000 +0600" stop="20250826133000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826133000 +0600" stop="20250826140000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250826140000 +0600" stop="20250826141500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826141500 +0600" stop="20250826150000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826150000 +0600" stop="20250826153000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826153000 +0600" stop="20250826160000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Vibe</title>
+  </programme>
+  <programme start="20250826160000 +0600" stop="20250826161500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826161500 +0600" stop="20250826170000 +0600" channel="CGTN.cn">
+    <title lang="bn">Africa Live</title>
+  </programme>
+  <programme start="20250826170000 +0600" stop="20250826173000 +0600" channel="CGTN.cn">
+    <title lang="bn">Asia Today</title>
+  </programme>
+  <programme start="20250826173000 +0600" stop="20250826180000 +0600" channel="CGTN.cn">
+    <title lang="bn">Dialogue</title>
+  </programme>
+  <programme start="20250826180000 +0600" stop="20250826181500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826181500 +0600" stop="20250826190000 +0600" channel="CGTN.cn">
+    <title lang="bn">China 24</title>
+  </programme>
+  <programme start="20250826190000 +0600" stop="20250826193000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826193000 +0600" stop="20250826200000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Hub With Wang Guan</title>
+  </programme>
+  <programme start="20250826200000 +0600" stop="20250826203000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826203000 +0600" stop="20250826210000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250826210000 +0600" stop="20250826213000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250826213000 +0600" stop="20250826220000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Vibe</title>
+  </programme>
+  <programme start="20250826220000 +0600" stop="20250826230000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250826230000 +0600" stop="20250827000000 +0600" channel="CGTN.cn">
+    <title lang="bn">Africa Live</title>
+  </programme>
+  <programme start="20250827000000 +0600" stop="20250827010000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250827010000 +0600" stop="20250827013000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827013000 +0600" stop="20250827020000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250827020000 +0600" stop="20250827023000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827023000 +0600" stop="20250827030000 +0600" channel="CGTN.cn">
+    <title lang="bn">Dialogue</title>
+  </programme>
+  <programme start="20250827030000 +0600" stop="20250827033000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250827033000 +0600" stop="20250827040000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Hub With Wang Guan</title>
+  </programme>
+  <programme start="20250827040000 +0600" stop="20250827043000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827043000 +0600" stop="20250827050000 +0600" channel="CGTN.cn">
+    <title lang="bn">Rediscovering China</title>
+  </programme>
+  <programme start="20250827050000 +0600" stop="20250827053000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Heat</title>
+  </programme>
+  <programme start="20250827053000 +0600" stop="20250827060000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827060000 +0600" stop="20250827070000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250827070000 +0600" stop="20250827073000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827073000 +0600" stop="20250827080000 +0600" channel="CGTN.cn">
+    <title lang="bn">China 24</title>
+  </programme>
+  <programme start="20250827080000 +0600" stop="20250827083000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827083000 +0600" stop="20250827090000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250827090000 +0600" stop="20250827091500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827091500 +0600" stop="20250827093000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250827093000 +0600" stop="20250827100000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20250827100000 +0600" stop="20250827110000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Watch</title>
+  </programme>
+  <programme start="20250827110000 +0600" stop="20250827111500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827111500 +0600" stop="20250827113000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250827113000 +0600" stop="20250827120000 +0600" channel="CGTN.cn">
+    <title lang="bn">Rediscovering China</title>
+  </programme>
+  <programme start="20250827120000 +0600" stop="20250827123000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827123000 +0600" stop="20250827130000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Heat</title>
+  </programme>
+  <programme start="20250827130000 +0600" stop="20250827133000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827133000 +0600" stop="20250827140000 +0600" channel="CGTN.cn">
+    <title lang="bn">Sports Scene</title>
+  </programme>
+  <programme start="20250827140000 +0600" stop="20250827141500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827141500 +0600" stop="20250827150000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250827150000 +0600" stop="20250827153000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827153000 +0600" stop="20250827160000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Vibe</title>
+  </programme>
+  <programme start="20250827160000 +0600" stop="20250827161500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827161500 +0600" stop="20250827170000 +0600" channel="CGTN.cn">
+    <title lang="bn">Africa Live</title>
+  </programme>
+  <programme start="20250827170000 +0600" stop="20250827173000 +0600" channel="CGTN.cn">
+    <title lang="bn">Asia Today</title>
+  </programme>
+  <programme start="20250827173000 +0600" stop="20250827180000 +0600" channel="CGTN.cn">
+    <title lang="bn">Dialogue</title>
+  </programme>
+  <programme start="20250827180000 +0600" stop="20250827181500 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827181500 +0600" stop="20250827190000 +0600" channel="CGTN.cn">
+    <title lang="bn">China 24</title>
+  </programme>
+  <programme start="20250827190000 +0600" stop="20250827193000 +0600" channel="CGTN.cn">
+    <title lang="bn">Global Business</title>
+  </programme>
+  <programme start="20250827193000 +0600" stop="20250827200000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Point with Liu Xin</title>
+  </programme>
+  <programme start="20250827200000 +0600" stop="20250827203000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <programme start="20250827203000 +0600" stop="20250827210000 +0600" channel="CGTN.cn">
+    <title lang="bn">World Insight with Tian Wei</title>
+  </programme>
+  <programme start="20250827210000 +0600" stop="20250827213000 +0600" channel="CGTN.cn">
+    <title lang="bn">The World Today</title>
+  </programme>
+  <channel id="Channel News Asia">
+    <display-name>cna.sg</display-name>
+    <icon src="https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg"/>
+  </channel>
+  <programme start="20250825000000 +0600" stop="20250825003000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250825003000 +0600" stop="20250825010000 +0600" channel="Channel News Asia">
+    <title lang="bn">Remarkable Living</title>
+  </programme>
+  <programme start="20250825010000 +0600" stop="20250825013000 +0600" channel="Channel News Asia">
+    <title lang="bn">Lunch With Us</title>
+  </programme>
+  <programme start="20250825013000 +0600" stop="20250825020000 +0600" channel="Channel News Asia">
+    <title lang="bn">On The Red Dot</title>
+  </programme>
+  <programme start="20250825020000 +0600" stop="20250825023000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250825023000 +0600" stop="20250825030000 +0600" channel="Channel News Asia">
+    <title lang="bn">The New Locals</title>
+  </programme>
+  <programme start="20250825030000 +0600" stop="20250825040000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250825040000 +0600" stop="20250825043000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250825043000 +0600" stop="20250825050000 +0600" channel="Channel News Asia">
+    <title lang="bn">Money Mind</title>
+  </programme>
+  <programme start="20250825050000 +0600" stop="20250825080000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia First</title>
+  </programme>
+  <programme start="20250825080000 +0600" stop="20250825090000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250825090000 +0600" stop="20250825110000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250825110000 +0600" stop="20250825120000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250825120000 +0600" stop="20250825140000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250825140000 +0600" stop="20250825150000 +0600" channel="Channel News Asia">
+    <title lang="bn">Born In 1965</title>
+  </programme>
+  <programme start="20250825150000 +0600" stop="20250825150200 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250825150200 +0600" stop="20250825160000 +0600" channel="Channel News Asia">
+    <title lang="bn">Insight</title>
+  </programme>
+  <programme start="20250825160000 +0600" stop="20250825170000 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
+  </programme>
+  <programme start="20250825170000 +0600" stop="20250825173000 +0600" channel="Channel News Asia">
+    <title lang="bn">Money Mind</title>
+  </programme>
+  <programme start="20250825173000 +0600" stop="20250825180000 +0600" channel="Channel News Asia">
+    <title lang="bn">On The Red Dot</title>
+  </programme>
+  <programme start="20250825180000 +0600" stop="20250825190000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250825190000 +0600" stop="20250825200000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore&amp;#x27;s Balancing Act</title>
+  </programme>
+  <programme start="20250825200000 +0600" stop="20250825210000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250825210000 +0600" stop="20250825220000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250825220000 +0600" stop="20250825220300 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250825220300 +0600" stop="20250825230000 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
+  </programme>
+  <programme start="20250825230000 +0600" stop="20250826000000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Hour</title>
+  </programme>
+  <programme start="20250826000000 +0600" stop="20250826010000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250826010000 +0600" stop="20250826020000 +0600" channel="Channel News Asia">
+    <title lang="bn">Insight</title>
+  </programme>
+  <programme start="20250826020000 +0600" stop="20250826030000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250826030000 +0600" stop="20250826040000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore&amp;#x27;s Balancing Act</title>
+  </programme>
+  <programme start="20250826040000 +0600" stop="20250826050000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250826050000 +0600" stop="20250826080000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia First</title>
+  </programme>
+  <programme start="20250826080000 +0600" stop="20250826090000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore&amp;#x27;s Balancing Act</title>
+  </programme>
+  <programme start="20250826090000 +0600" stop="20250826110000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250826110000 +0600" stop="20250826120000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250826120000 +0600" stop="20250826140000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250826140000 +0600" stop="20250826143000 +0600" channel="Channel News Asia">
+    <title lang="bn">Lunch With Us</title>
+  </programme>
+  <programme start="20250826143000 +0600" stop="20250826150000 +0600" channel="Channel News Asia">
+    <title lang="bn">CNA Correspondent</title>
+  </programme>
+  <programme start="20250826150000 +0600" stop="20250826150200 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250826150200 +0600" stop="20250826160000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Hour</title>
+  </programme>
+  <programme start="20250826160000 +0600" stop="20250826170000 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
+  </programme>
+  <programme start="20250826170000 +0600" stop="20250826180000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250826180000 +0600" stop="20250826190000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250826190000 +0600" stop="20250826200000 +0600" channel="Channel News Asia">
+    <title lang="bn">CNA Correspondent</title>
+  </programme>
+  <programme start="20250826200000 +0600" stop="20250826210000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250826210000 +0600" stop="20250826220000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore&amp;#x27;s Balancing Act</title>
+  </programme>
+  <programme start="20250826220000 +0600" stop="20250826220300 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250826220300 +0600" stop="20250826230000 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
+  </programme>
+  <programme start="20250826230000 +0600" stop="20250827000000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250827000000 +0600" stop="20250827010000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250827010000 +0600" stop="20250827020000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Hour</title>
+  </programme>
+  <programme start="20250827020000 +0600" stop="20250827030000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250827030000 +0600" stop="20250827040000 +0600" channel="Channel News Asia">
+    <title lang="bn">CNA Correspondent</title>
+  </programme>
+  <programme start="20250827040000 +0600" stop="20250827050000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250827050000 +0600" stop="20250827080000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia First</title>
+  </programme>
+  <programme start="20250827080000 +0600" stop="20250827090000 +0600" channel="Channel News Asia">
+    <title lang="bn">CNA Correspondent</title>
+  </programme>
+  <programme start="20250827090000 +0600" stop="20250827110000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250827110000 +0600" stop="20250827120000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore&amp;#x27;s Balancing Act</title>
+  </programme>
+  <programme start="20250827120000 +0600" stop="20250827140000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Now</title>
+  </programme>
+  <programme start="20250827140000 +0600" stop="20250827150000 +0600" channel="Channel News Asia">
+    <title lang="bn">Insight</title>
+  </programme>
+  <programme start="20250827150000 +0600" stop="20250827150200 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250827150200 +0600" stop="20250827160000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250827160000 +0600" stop="20250827170000 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
+  </programme>
+  <programme start="20250827170000 +0600" stop="20250827180000 +0600" channel="Channel News Asia">
+    <title lang="bn">Hidden Histories</title>
+  </programme>
+  <programme start="20250827180000 +0600" stop="20250827190000 +0600" channel="Channel News Asia">
+    <title lang="bn">Asia Tonight</title>
+  </programme>
+  <programme start="20250827190000 +0600" stop="20250827200000 +0600" channel="Channel News Asia">
+    <title lang="bn">Separation Declassified</title>
+  </programme>
+  <programme start="20250827200000 +0600" stop="20250827210000 +0600" channel="Channel News Asia">
+    <title lang="bn">Singapore Tonight</title>
+  </programme>
+  <programme start="20250827210000 +0600" stop="20250827220000 +0600" channel="Channel News Asia">
+    <title lang="bn">CNA Correspondent</title>
+  </programme>
+  <programme start="20250827220000 +0600" stop="20250827220300 +0600" channel="Channel News Asia">
+    <title lang="bn">Headline News</title>
+  </programme>
+  <programme start="20250827220300 +0600" stop="20250827223300 +0600" channel="Channel News Asia">
+    <title lang="bn">East Asia Tonight</title>
   </programme>
 </tv>
