@@ -268,7 +268,11 @@ def scrape_epgpw(channel_id, display_name, logo_url, url):
                     continue
 
                 show_time = time_tag.get_text(strip=True)  # Example: 23:30
-                show_name = block.get_text(strip=True).replace(show_time, "").strip()
+                for dropdown in block.select(".dropdown-menu"):
+                    dropdown.extract()  # Remove dropdown description completely
+
+                time_tag.extract()  # Remove time
+                show_name = block.get_text(strip=True)  # Now only main title remains
 
                 # Combine date + time
                 try:
