@@ -74,27 +74,27 @@ channel_metadata = {
 
     # --- News Channels (India) ---
     'UCbf0XHULBkTfv2hBjaaDw9Q': {  # News18 Bangla
-        'group_title': 'News India',
+        'group_title': 'News',
         'channel_name': 'News18 Bangla',
         'channel_logo': 'https://yt3.googleusercontent.com/0pVAsTdgTX-iREI9xZUMsYbqjpclujOiC7mocZIvLlWYVmhKRP131kzwVzM-i63lQz2YMMXo=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCdF5Q5QVbYstYrTfpgUl0ZA': {  # Zee 24 Ghanta
-        'group_title': 'News India',
+        'group_title': 'News',
         'channel_name': 'Zee 24 Ghanta',
         'channel_logo': 'https://yt3.googleusercontent.com/ou3JhDnH8ChdzRKooH5hGjTRGKpr9dGhi7lv7QW2zgmrnme0HbPKc8qI3yu8ZdI6NZna-CdJFw=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCHCR4UFsGwd_VcDa0-a4haw': {  # TV9 Bangla
-        'group_title': 'News India',
+        'group_title': 'News',
         'channel_name': 'TV9 Bangla',
         'channel_logo': 'https://yt3.googleusercontent.com/d8QNkJ7Jby9hVSTm67-E4nfbI-7CTgP262NPVGfYpoTZaxLw7uAOPxs5dJtARjEFQijsRsuiFQ=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCajVjEHDoVn_AHsunUZz_EQ': {  # Republic Bangla
-        'group_title': 'News India',
+        'group_title': 'News',
         'channel_name': 'Republic Bangla',
         'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_nvgVv3ZKeS6nLI_ZGZw-pZpt88bQpFPZNbUOADI3Bvz9k=s160-c-k-c0x00ffffff-no-rj',
     },
     'UCv3rFzn-GHGtqzXiaq3sWNg': {  # ABP ANANDA
-        'group_title': 'News India',
+        'group_title': 'News',
         'channel_name': 'ABP Ananda',
         'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_kLTXHZwzmSJJh3W6bm_134dfLEh_vjEpjL8QE8Yn4l6cs=s160-c-k-c0x00ffffff-no-rj',
     },
@@ -132,6 +132,7 @@ channel_metadata = {
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
 
