@@ -457,7 +457,7 @@ CHANNELS = {
         "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
         "https://www.ontvtonight.com/guide/listings/channel/1714278231/my-9.html",
         scrape_ontvtonight
-    )
+    ),
     "aljazeera.com": (
         "Al Jazeera English",
         "https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png",
