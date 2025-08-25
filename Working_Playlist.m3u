@@ -133,12 +133,24 @@ https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8
 http://s5.alltvfree.com:8081/live/sonymax_480p/playlist.m3u8
 #EXTINF:-1 tvg-id="ZBCinema.in" group-title="Movie" tvg-logo="https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg", ZB Cinema
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-id="BhojpuriCinema.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png", Bhojpuri Cinema
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="B4UMovies.in" group-title="Movie" tvg-logo="https://b4umovies.in/images/logo.jpg", B4U Movies India
+https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
+#EXTINF:-1 tvg-id="B4UKadak.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg", B4U Kadak
+https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 
 
 
 
 #EXTINF:-1 tvg-id="sonysabhd.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png", SONY SAB HD (*)
 https://fifabd.site/JOIN@TGxRANAPK33/TATACC/play.php?id=11672
+#EXTINF:-1 tvg-id="AndTV.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/%26TV_HD_%282025%29.svg", &TV HD
+https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DangalTV.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png", Dangal TV
+https://live-dangal.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="ChumbakTV.in" group-title="India" tvg-logo="https://upload.wikimedia.org/wikipedia/hi/7/77/Chumbak-TV.png", Chumbak TV
+https://cdn-1.pishow.tv/live/1451/master.m3u8
 #EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
@@ -149,6 +161,10 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7mast
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 #EXTINF:-1 tvg-id="AajTak.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png", Aaj Tak HD
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-id="ABPAnanda.in" group-title="India" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/512px-ABP_Ananda_logo.svg.png", ABP Ananda
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8
+
+
 
 
 #EXTINF:-1 tvg-id="dunya" group-title="Pakistan" tvg-logo="https://images.seeklogo.com/logo-png/31/1/dunya-news-logo-png_seeklogo-314631.png", Dunya News
@@ -192,6 +208,8 @@ https://pmcrohls.wns.live/hls/stream.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
 #EXTINF:-1 tvg-id="9XJalwa.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", 9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dc/B4U_Music_logo_2014.png", B4U Music India
+https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
 
 
 
@@ -326,6 +344,7 @@ http://smart.bengaldigital.live/WWE/index.m3u8
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="dubaisports3.in" group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
 
 
 
