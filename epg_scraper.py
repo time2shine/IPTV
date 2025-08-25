@@ -463,6 +463,12 @@ CHANNELS = {
         "https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png",
         "https://epg.pw/last/190468.html?lang=en",
         scrape_epgpw
+    ),
+    "WION.in": (
+        "WION",
+        "https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg",
+        "https://epg.pw/last/411664.html?lang=en",
+        scrape_epgpw
     )
 }
 
