@@ -485,6 +485,12 @@ CHANNELS = {
         "https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg",
         "https://epg.pw/last/171959.html?lang=en",
         scrape_epgpw
+    ),
+    "TRT World": (
+        "TRTWorld.tr",
+        "https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg",
+        "https://epg.pw/last/9440.html?lang=en",
+        scrape_epgpw
     )
 }
 
