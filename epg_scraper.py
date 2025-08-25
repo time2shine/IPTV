@@ -222,6 +222,83 @@ def scrape_ontvtonight(channel_id, display_name, logo_url, url):
 
 
 # -----------------------
+# Scape from epg.pw site
+# -----------------------
+def scrape_epgpw(channel_id, display_name, logo_url, url):
+    """
+    Scrape TV schedule from epg.pw using panel structure.
+    Extracts title, start time, stop time (in Asia/Dhaka timezone).
+    """
+    logging.info(f"Fetching schedule from epg.pw for {display_name} ...")
+    programmes = []
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Get Asia/Dhaka timezone
+        tz = pytz.timezone("Asia/Dhaka")
+        now = datetime.now(tz)
+
+        # Extract all day panels
+        panels = soup.select("article.panel")
+        if not panels:
+            logging.warning("No schedule panels found on epg.pw page.")
+            return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+        for panel in panels:
+            # Extract date from header
+            date_header = panel.select_one("p.panel-heading")
+            if not date_header:
+                continue
+            date_text = date_header.get_text(strip=True)  # Example: 2025-08-25
+            try:
+                day_date = datetime.strptime(date_text, "%Y-%m-%d").date()
+            except ValueError:
+                logging.warning(f"Invalid date format: {date_text}")
+                continue
+
+            # Extract all shows for that date
+            blocks = panel.select("a.panel-block")
+            for block in blocks:
+                time_tag = block.select_one("span")
+                if not time_tag:
+                    continue
+
+                show_time = time_tag.get_text(strip=True)  # Example: 23:30
+                show_name = block.get_text(strip=True).replace(show_time, "").strip()
+
+                # Combine date + time
+                try:
+                    start_dt = datetime.strptime(show_time, "%H:%M")
+                    start_dt = tz.localize(datetime.combine(day_date, start_dt.time()))
+                except ValueError:
+                    logging.warning(f"Failed to parse time '{show_time}' for {show_name}")
+                    continue
+
+                programmes.append({
+                    "title": html.escape(show_name),
+                    "start": start_dt
+                })
+
+        # Sort and assign stop times
+        programmes.sort(key=lambda x: x["start"])
+        for i in range(len(programmes)):
+            start = programmes[i]["start"]
+            stop = programmes[i + 1]["start"] if i + 1 < len(programmes) else start + timedelta(minutes=30)
+            programmes[i]["stop"] = stop
+
+        logging.info(f"Fetched {len(programmes)} programmes for {display_name} from epg.pw")
+
+    except Exception as e:
+        logging.error(f"Failed to fetch schedule for {display_name} from epg.pw: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
+# -----------------------
 # Channels dictionary
 # -----------------------
 CHANNELS = {
@@ -380,6 +457,12 @@ CHANNELS = {
         "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
         "https://www.ontvtonight.com/guide/listings/channel/1714278231/my-9.html",
         scrape_ontvtonight
+    )
+    "aljazeera.com": (
+        "Al Jazeera English",
+        "https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png",
+        "https://epg.pw/last/190468.html?lang=en",
+        scrape_epgpw
     )
 }
 
