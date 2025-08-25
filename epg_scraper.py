@@ -467,7 +467,7 @@ CHANNELS = {
     "WION.in": (
         "WION",
         "https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg",
-        "https://epg.pw/last/411664.html?lang=en",
+        "https://epg.pw/last/9416.html?lang=en",
         scrape_epgpw
     )
 }
