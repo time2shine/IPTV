@@ -450,6 +450,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Sony-SAB-HD/669/Schedule",
         scrape_tvwish
     ),
+    "RepublicBangla.in": (
+        "Republic Bangla",
+        "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
+        "https://www.tvwish.com/IN/Channels/Republic-Bangla/1729/Schedule",
+        scrape_tvwish
+    ),
     "dwnews": (
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
