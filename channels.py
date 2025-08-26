@@ -88,11 +88,11 @@ channel_metadata = {
         'channel_name': 'TV9 Bangla',
         'channel_logo': 'https://yt3.googleusercontent.com/d8QNkJ7Jby9hVSTm67-E4nfbI-7CTgP262NPVGfYpoTZaxLw7uAOPxs5dJtARjEFQijsRsuiFQ=s160-c-k-c0x00ffffff-no-rj',
     },
-    'UCajVjEHDoVn_AHsunUZz_EQ': {  # Republic Bangla
-        'group_title': 'News',
-        'channel_name': 'Republic Bangla',
-        'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_nvgVv3ZKeS6nLI_ZGZw-pZpt88bQpFPZNbUOADI3Bvz9k=s160-c-k-c0x00ffffff-no-rj',
-    },
+    # 'UCajVjEHDoVn_AHsunUZz_EQ': {  # Republic Bangla
+    #     'group_title': 'News',
+    #     'channel_name': 'Republic Bangla',
+    #     'channel_logo': 'https://yt3.googleusercontent.com/ytc/AIdro_nvgVv3ZKeS6nLI_ZGZw-pZpt88bQpFPZNbUOADI3Bvz9k=s160-c-k-c0x00ffffff-no-rj',
+    # },
     'UCv3rFzn-GHGtqzXiaq3sWNg': {  # ABP ANANDA
         'group_title': 'News',
         'channel_name': 'ABP Ananda',
@@ -127,6 +127,7 @@ channel_metadata = {
         'channel_logo': 'https://lislelicensing.com/wp-content/uploads/2021/11/Brand-Logos-02-1-e1637027487957-1024x916.png',
     },
 }
+
 
 
 
