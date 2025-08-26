@@ -2,7 +2,7 @@ name: Generate EPG
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # run every 12 hours
+    - cron: "0 */4 * * *"   # Run every 4 hours
   workflow_dispatch:
 
 jobs:
