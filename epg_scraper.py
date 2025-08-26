@@ -480,8 +480,8 @@ CHANNELS = {
         "https://epg.pw/last/431469.html?lang=en",
         scrape_epgpw
     ),
-    "Channel News Asia": (
-        "cna.sg",
+    "cna.sg": (
+        "Channel News Asia",
         "https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg",
         "https://epg.pw/last/171959.html?lang=en",
         scrape_epgpw
