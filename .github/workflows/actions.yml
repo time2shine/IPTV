@@ -18,6 +18,10 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
+        
+    - name: Create cookies.txt from secret
+      run: |
+        echo "${{ secrets.COOKIES }}" > cookies.txt
 
     - name: Install dependencies
       run: |
@@ -67,5 +71,6 @@ jobs:
             git commit -m "Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
         fi
+
 
 
