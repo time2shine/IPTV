@@ -61,7 +61,6 @@ def get_live_watch_url(channel_id):
                     if entry.get("is_live"):
                         return entry.get("webpage_url") or f"https://www.youtube.com/watch?v={entry['id']}"
     except yt_dlp.utils.DownloadError as e:
-        logger.warning(f"Channel {channel_id} is not live or could not fetch info: {e}")
         return None
     except Exception as e:
         logger.error(f"Unexpected error for channel {channel_id}: {e}")
