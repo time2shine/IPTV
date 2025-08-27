@@ -88,7 +88,7 @@ def check_ffmpeg(stream):
                       "-i", url, "-t", "1", "-f", "null", "-"]
 
     for attempt in range(1, RETRIES + 2):
-        print(f"[Checking] {channel_name} (Attempt {attempt})")
+        # print(f"[Checking] {channel_name} (Attempt {attempt})")
         try:
             result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=15)
             if "error" not in result.stderr.lower():
@@ -98,7 +98,7 @@ def check_ffmpeg(stream):
         except Exception:
             pass
         if attempt <= RETRIES:
-            print(f"[Retry {attempt}] {channel_name} failed, retrying...")
+            # print(f"[Retry {attempt}] {channel_name} failed, retrying...")
 
     print(f"[OFFLINE] {channel_name}")
     OFFLINE_CHANNELS.append(channel_name)
