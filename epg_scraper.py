@@ -302,10 +302,72 @@ def scrape_epgpw(channel_id, display_name, logo_url, url):
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
 
+
+# -----------------------
+# Scape from tvpassport site
+# -----------------------
+def scrape_tvpassport(channel_id, display_name, logo_url, url):
+    logging.info(f"Fetching schedule from TVPassport for {display_name} ...")
+    programmes = []
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Select all program items
+        items = soup.select(".list-group-item")
+        if not items:
+            logging.warning(f"No schedule table found on {url}")
+            return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+        for item in items:
+            start_time = item.get("data-st")       # Example: "2025-08-27 05:00:00"
+            duration = item.get("data-duration")  # Example: "60"
+            show_name = item.get("data-showname") # Example: "Some Show"
+
+            if not start_time or not show_name:
+                continue  # Skip invalid rows
+
+            try:
+                # Parse start time (string like "2025-08-27 05:00:00")
+                start_dt = datetime.strptime(start_time.strip(), "%Y-%m-%d %H:%M:%S")
+
+                # Adjust to local time if needed (+6 for Bangladesh)
+                # start_dt = start_dt - timedelta(hours=6)
+
+                # Compute stop time
+                duration_minutes = int(duration) if duration and duration.isdigit() else 30
+                stop_dt = start_dt + timedelta(minutes=duration_minutes)
+
+                programmes.append({
+                    "title": html.escape(show_name.strip()),
+                    "start": start_dt,
+                    "stop": stop_dt
+                })
+            except Exception as e:
+                logging.warning(f"Failed to parse show: {show_name} - {e}")
+                continue
+
+        logging.info(f"Fetched {len(programmes)} programmes for {display_name} from TVPassport")
+
+    except Exception as e:
+        logging.error(f"Failed to fetch schedule for {display_name} from TVPassport: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
 # -----------------------
 # Channels dictionary
 # -----------------------
 CHANNELS = {
+    "CNN.us": (
+        "CNN",
+        "https://static.wikia.nocookie.net/logopedia/images/5/52/CNN_%282014%29.svg",
+        "https://www.tvpassport.com/tv-listings/stations/cnn/70",
+        scrape_tvpassport
+    ),
     "starjalsha.in": (
         "Star Jalsha",
         "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
