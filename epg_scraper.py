@@ -335,7 +335,7 @@ def scrape_tvpassport(channel_id, display_name, logo_url, url):
                 start_dt = datetime.strptime(start_time.strip(), "%Y-%m-%d %H:%M:%S")
 
                 # Adjust to local time if needed (+6 for Bangladesh)
-                # start_dt = start_dt - timedelta(hours=6) 
+                start_dt = start_dt - timedelta(hours=4) 
 
                 # Compute stop time
                 duration_minutes = int(duration) if duration and duration.isdigit() else 30
