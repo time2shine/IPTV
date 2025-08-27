@@ -31,10 +31,10 @@ GROUP_ORDER = [
 FFMPEG_CHECK = True
 
 # FFmpeg fast mode toggle
-FAST_MODE = True
+FAST_MODE = False
 
 # Max retries for FFmpeg
-RETRIES = 2
+RETRIES = 3
 
 # Lists to track online/offline channels
 ONLINE_CHANNELS = []
