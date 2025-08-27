@@ -28,9 +28,9 @@ jobs:
       run: |
         wget -q https://github.com/BtbN/FFmpeg-Builds/releases/latest/download/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
         tar -xf ffmpeg.tar.xz
-        FFMPEG_DIR=$(ls -d ffmpeg-*amd64-static)
-        sudo cp "$FFMPEG_DIR/ffmpeg" /usr/local/bin/
-        sudo cp "$FFMPEG_DIR/ffprobe" /usr/local/bin/
+        FFMPEG_DIR=$(ls -d ffmpeg-master-*)
+        sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
+        sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
         ffmpeg -version
 
     - name: Run main script to get all latest links from YouTube
@@ -67,4 +67,5 @@ jobs:
             git commit -m "Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
         fi
+
 
