@@ -518,6 +518,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Republic-Bangla/1729/Schedule",
         scrape_tvwish
     ),
+    "DisneyXD.us": (
+        "Disney XD",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
+        "https://www.ontvtonight.com/guide/listings/channel/69045318",
+        scrape_ontvtonight
+    ),
     "dwnews": (
         "DW English",
         "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
