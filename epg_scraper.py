@@ -368,198 +368,198 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
-    "starjalsha.in": (
-        "Star Jalsha",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
-        "https://tvgenie.in/star-jalsha-schedule",
-        scrape_tvgenie
-    ),
-    "colors.in": (
-        "Colors",
-        "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
-        "https://tvgenie.in/colors-bangla-hd-schedule",
-        scrape_tvgenie
-    ),
-    "zeebangla.in": (
-        "Zee Bangla TV",
-        "http://openboxv8s.com/india/zee_bangla.jpg",
-        "https://tvgenie.in/zee-bangla-hd-schedule",
-        scrape_tvgenie
-    ),
-    "indiatoday.in": (
-        "India Today",
-        "https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png",
-        "https://tvgenie.in/india-today-schedule",
-        scrape_tvgenie
-    ),
-    "ndtvenglish": (
-        "NDTV English",
-        "https://logotyp.us/file/ndtv.svg",
-        "https://tvgenie.in/ndtv-24x7-schedule",
-        scrape_tvgenie
-    ),
-    "ndtvindia": (
-        "NDTV India",
-        "https://logotyp.us/file/ndtv.svg",
-        "https://tvgenie.in/ndtv-india-schedule",
-        scrape_tvgenie
-    ),
-    "starsports1hd.in": (
-        "Star Sports 1 HD",
-        "hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png",
-        "https://tvgenie.in/star-sports-1-hd-schedule",
-        scrape_tvgenie
-    ),
-    "starsports1hindi.in": (
-        "Star Sports 1 Hindi",
-        "https://static.epg.best/cn/StarSports1.cn.png",
-        "https://tvgenie.in/star-sports-1-hd-hindi-schedule",
-        scrape_tvgenie
-    ),
-    "starsports.tamil": (
-        "Star Sports Tamil 1",
-        "https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png",
-        "https://tvgenie.in/star-sports-1-tamil-schedule",
-        scrape_tvgenie
-    ),
-    "starsports2hd.in": (
-        "Star Sports 2 4K",
-        "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
-        "https://tvgenie.in/star-sports-2-hd-schedule",
-        scrape_tvgenie
-    ),
-    "starsports3.in": (
-        "Star Sports 3 HD",
-        "https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png",
-        "https://tvgenie.in/star-sports-3-schedule",
-        scrape_tvgenie
-    ),
-    "starsportsselect1.in": (
-        "Star Sports Select 1 HD",
-        "https://static.epg.best/in/StarSportsSelect1.in.png",
-        "https://tvgenie.in/star-sports-select-1-hd-schedule",
-        scrape_tvgenie
-    ),
-    "starsportsselect2.in": (
-        "Star Sports Select 2 HD",
-        "http://openboxv8s.com/india/star_sports2_in.jpg",
-        "https://tvgenie.in/star-sports-select-2-schedule",
-        scrape_tvgenie
-    ),
-    "sonyten1.in": (
-        "Sony Ten 1 HD",
-        "https://static.epg.best/in/SonyTEN1.in.png",
-        "https://tvgenie.in/sony-ten-1-hd-schedule",
-        scrape_tvgenie
-    ),
-    "sonyten2.in": (
-        "Sony Ten 2 HD",
-        "https://static.epg.best/in/SonyTEN2.in.png",
-        "https://tvgenie.in/sony-ten-2-hd-schedule",
-        scrape_tvgenie
-    ),
-    "sonyten3.in": (
-        "Sony Ten 3 HD",
-        "https://static.epg.best/in/SonyTEN3.in.png",
-        "https://tvgenie.in/sony-ten-3-hd-schedule",
-        scrape_tvgenie
-    ),
-    "zeebanglacinema.in": (
-        "Zee Bangla Cinema",
-        "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
-        "https://www.tvwish.com/IN/Channels/Zee-Bangla-Cinema/33/Schedule",
-        scrape_tvwish
-    ),
-    "colorsbanglacinemahd.in": (
-        "COLORS BANGLA CINEMA HD",
-        "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
-        "https://www.tvwish.com/IN/Channels/Colors-Bangla-Cinema/1758/Schedule",
-        scrape_tvwish
-    ),
-    "akashaat.in": (
-        "AKASH 8",
-        "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
-        "https://www.tvwish.com/IN/Channels/Aakash-Aath/1288/Schedule",
-        scrape_tvwish
-    ),
-    "sunbangla.in": (
-        "SUN Bangla",
-        "https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png",
-        "https://www.tvwish.com/IN/Channels/Sun-Bangla/716/Schedule",
-        scrape_tvwish
-    ),
-    "enter10bangla.in": (
-        "Enter 10 Bangla",
-        "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg",
-        "https://www.tvwish.com/IN/Channels/Enterr10-Bangla/1743/Schedule",
-        scrape_tvwish
-    ),
-    "sangeetbangla.in": (
-        "SANGEET BANGLA",
-        "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
-        "https://www.tvwish.com/IN/Channels/Sangeet-Bangla/1768/Schedule",
-        scrape_tvwish
-    ),
-    "sonymaxhd.in": (
-        "SONY MAX HD",
-        "https://static.wikia.nocookie.net/logopedia/images/8/84/Sony_Max_HD_2022.png",
-        "https://www.tvwish.com/IN/Channels/Sony-Max-HD/31/Schedule",
-        scrape_tvwish
-    ),
-    "sonysabhd.in": (
-        "SONY SAB HD",
-        "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
-        "https://www.tvwish.com/IN/Channels/Sony-SAB-HD/669/Schedule",
-        scrape_tvwish
-    ),
-    "RepublicBangla.in": (
-        "Republic Bangla",
-        "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
-        "https://www.tvwish.com/IN/Channels/Republic-Bangla/1729/Schedule",
-        scrape_tvwish
-    ),
-    "dwnews": (
-        "DW English",
-        "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
-        "https://www.ontvtonight.com/guide/listings/channel/69035806",
-        scrape_ontvtonight
-    ),
-    "my9.us": (
-        "My 9",
-        "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
-        "https://www.ontvtonight.com/guide/listings/channel/1714278231/my-9.html",
-        scrape_ontvtonight
-    ),
-    "aljazeera.com": (
-        "Al Jazeera English",
-        "https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png",
-        "https://epg.pw/last/190468.html?lang=en",
-        scrape_epgpw
-    ),
-    "WION.in": (
-        "WION",
-        "https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg",
-        "https://epg.pw/last/9416.html?lang=en",
-        scrape_epgpw
-    ),
-    "CGTN.cn": (
-        "CGTN",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png",
-        "https://epg.pw/last/431469.html?lang=en",
-        scrape_epgpw
-    ),
-    "cna.sg": (
-        "Channel News Asia",
-        "https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg",
-        "https://epg.pw/last/171959.html?lang=en",
-        scrape_epgpw
-    ),
-    "TRT World": (
-        "TRTWorld.tr",
-        "https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg",
-        "https://epg.pw/last/9440.html?lang=en",
-        scrape_epgpw
-    )
+    # "starjalsha.in": (
+    #     "Star Jalsha",
+    #     "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
+    #     "https://tvgenie.in/star-jalsha-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "colors.in": (
+    #     "Colors",
+    #     "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
+    #     "https://tvgenie.in/colors-bangla-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "zeebangla.in": (
+    #     "Zee Bangla TV",
+    #     "http://openboxv8s.com/india/zee_bangla.jpg",
+    #     "https://tvgenie.in/zee-bangla-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "indiatoday.in": (
+    #     "India Today",
+    #     "https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png",
+    #     "https://tvgenie.in/india-today-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "ndtvenglish": (
+    #     "NDTV English",
+    #     "https://logotyp.us/file/ndtv.svg",
+    #     "https://tvgenie.in/ndtv-24x7-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "ndtvindia": (
+    #     "NDTV India",
+    #     "https://logotyp.us/file/ndtv.svg",
+    #     "https://tvgenie.in/ndtv-india-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsports1hd.in": (
+    #     "Star Sports 1 HD",
+    #     "hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png",
+    #     "https://tvgenie.in/star-sports-1-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsports1hindi.in": (
+    #     "Star Sports 1 Hindi",
+    #     "https://static.epg.best/cn/StarSports1.cn.png",
+    #     "https://tvgenie.in/star-sports-1-hd-hindi-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsports.tamil": (
+    #     "Star Sports Tamil 1",
+    #     "https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png",
+    #     "https://tvgenie.in/star-sports-1-tamil-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsports2hd.in": (
+    #     "Star Sports 2 4K",
+    #     "https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg",
+    #     "https://tvgenie.in/star-sports-2-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsports3.in": (
+    #     "Star Sports 3 HD",
+    #     "https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png",
+    #     "https://tvgenie.in/star-sports-3-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsportsselect1.in": (
+    #     "Star Sports Select 1 HD",
+    #     "https://static.epg.best/in/StarSportsSelect1.in.png",
+    #     "https://tvgenie.in/star-sports-select-1-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "starsportsselect2.in": (
+    #     "Star Sports Select 2 HD",
+    #     "http://openboxv8s.com/india/star_sports2_in.jpg",
+    #     "https://tvgenie.in/star-sports-select-2-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "sonyten1.in": (
+    #     "Sony Ten 1 HD",
+    #     "https://static.epg.best/in/SonyTEN1.in.png",
+    #     "https://tvgenie.in/sony-ten-1-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "sonyten2.in": (
+    #     "Sony Ten 2 HD",
+    #     "https://static.epg.best/in/SonyTEN2.in.png",
+    #     "https://tvgenie.in/sony-ten-2-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "sonyten3.in": (
+    #     "Sony Ten 3 HD",
+    #     "https://static.epg.best/in/SonyTEN3.in.png",
+    #     "https://tvgenie.in/sony-ten-3-hd-schedule",
+    #     scrape_tvgenie
+    # ),
+    # "zeebanglacinema.in": (
+    #     "Zee Bangla Cinema",
+    #     "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
+    #     "https://www.tvwish.com/IN/Channels/Zee-Bangla-Cinema/33/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "colorsbanglacinemahd.in": (
+    #     "COLORS BANGLA CINEMA HD",
+    #     "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
+    #     "https://www.tvwish.com/IN/Channels/Colors-Bangla-Cinema/1758/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "akashaat.in": (
+    #     "AKASH 8",
+    #     "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
+    #     "https://www.tvwish.com/IN/Channels/Aakash-Aath/1288/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "sunbangla.in": (
+    #     "SUN Bangla",
+    #     "https://upload.wikimedia.org/wikipedia/en/b/b3/Sun_Bangla.png",
+    #     "https://www.tvwish.com/IN/Channels/Sun-Bangla/716/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "enter10bangla.in": (
+    #     "Enter 10 Bangla",
+    #     "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg",
+    #     "https://www.tvwish.com/IN/Channels/Enterr10-Bangla/1743/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "sangeetbangla.in": (
+    #     "SANGEET BANGLA",
+    #     "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
+    #     "https://www.tvwish.com/IN/Channels/Sangeet-Bangla/1768/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "sonymaxhd.in": (
+    #     "SONY MAX HD",
+    #     "https://static.wikia.nocookie.net/logopedia/images/8/84/Sony_Max_HD_2022.png",
+    #     "https://www.tvwish.com/IN/Channels/Sony-Max-HD/31/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "sonysabhd.in": (
+    #     "SONY SAB HD",
+    #     "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
+    #     "https://www.tvwish.com/IN/Channels/Sony-SAB-HD/669/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "RepublicBangla.in": (
+    #     "Republic Bangla",
+    #     "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
+    #     "https://www.tvwish.com/IN/Channels/Republic-Bangla/1729/Schedule",
+    #     scrape_tvwish
+    # ),
+    # "dwnews": (
+    #     "DW English",
+    #     "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
+    #     "https://www.ontvtonight.com/guide/listings/channel/69035806",
+    #     scrape_ontvtonight
+    # ),
+    # "my9.us": (
+    #     "My 9",
+    #     "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
+    #     "https://www.ontvtonight.com/guide/listings/channel/1714278231/my-9.html",
+    #     scrape_ontvtonight
+    # ),
+    # "aljazeera.com": (
+    #     "Al Jazeera English",
+    #     "https://emergencyuk.org/wp-content/uploads/2017/03/Aljazeera-logo-English-1024x768.png",
+    #     "https://epg.pw/last/190468.html?lang=en",
+    #     scrape_epgpw
+    # ),
+    # "WION.in": (
+    #     "WION",
+    #     "https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg",
+    #     "https://epg.pw/last/9416.html?lang=en",
+    #     scrape_epgpw
+    # ),
+    # "CGTN.cn": (
+    #     "CGTN",
+    #     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png",
+    #     "https://epg.pw/last/431469.html?lang=en",
+    #     scrape_epgpw
+    # ),
+    # "cna.sg": (
+    #     "Channel News Asia",
+    #     "https://logowik.com/content/uploads/images/cna-channel-news-asia9392.jpg",
+    #     "https://epg.pw/last/171959.html?lang=en",
+    #     scrape_epgpw
+    # ),
+    # "TRT World": (
+    #     "TRTWorld.tr",
+    #     "https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg",
+    #     "https://epg.pw/last/9440.html?lang=en",
+    #     scrape_epgpw
+    # )
 }
 
 
