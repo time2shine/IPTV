@@ -26,7 +26,7 @@ jobs:
 
     - name: Setup fast static FFmpeg
       run: |
-        wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -O ffmpeg.tar.xz
+        wget -q https://github.com/BtbN/FFmpeg-Builds/releases/latest/download/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
         tar -xf ffmpeg.tar.xz
         FFMPEG_DIR=$(ls -d ffmpeg-*amd64-static)
         sudo cp "$FFMPEG_DIR/ffmpeg" /usr/local/bin/
@@ -67,3 +67,4 @@ jobs:
             git commit -m "Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
         fi
+
