@@ -31,10 +31,10 @@ GROUP_ORDER = [
 FFMPEG_CHECK = True
 
 # FFmpeg fast mode toggle
-FAST_MODE = False
+FAST_MODE = True
 
 # Max retries for FFmpeg
-RETRIES = 3
+RETRIES = 2
 
 # Lists to track online/offline channels
 ONLINE_CHANNELS = []
@@ -174,9 +174,11 @@ def main():
 
     # Summary
     print(f"\n=== SUMMARY ===")
-    print(f"Total online channels: {len(ONLINE_CHANNELS)}")
-    for ch in ONLINE_CHANNELS:
+    unique_online = sorted(set(ONLINE_CHANNELS))
+    print(f"Total online channels: {len(unique_online)}")
+    for ch in unique_online:
         print(f" - {ch}")
+
     print(f"\nTotal offline channels: {len(OFFLINE_CHANNELS)}")
     for ch in OFFLINE_CHANNELS:
         print(f" - {ch}")
