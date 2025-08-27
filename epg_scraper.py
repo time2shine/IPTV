@@ -518,6 +518,18 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Republic-Bangla/1729/Schedule",
         scrape_tvwish
     ),
+    "DisneyJunior.in": (
+        "Disney Junior",
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg",
+        "https://www.tvwish.com/IN/Channels/Disney-Junior/611/Schedule",
+        scrape_tvwish
+    ),
+    "DisneyJunior.in@East": (
+        "Disney Junior East",
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg",
+        "https://www.ontvtonight.com/guide/listings/channel/69044944",
+        scrape_ontvtonight
+    ),
     "DisneyXD.us": (
         "Disney XD",
         "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
