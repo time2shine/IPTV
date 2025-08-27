@@ -530,6 +530,12 @@ CHANNELS = {
         "https://www.ontvtonight.com/guide/listings/channel/69044944",
         scrape_ontvtonight
     ),
+    "DisneyChannel.us@East": (
+        "Disney Channel East",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+        "https://www.ontvtonight.com/guide/listings/channel/69047105",
+        scrape_ontvtonight
+    ),
     "DisneyXD.us": (
         "Disney XD",
         "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",
