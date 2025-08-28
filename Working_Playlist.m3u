@@ -175,10 +175,8 @@ https://epiconvh.akamaized.net/live/nazara/master.m3u8
 #EXTINF:-1 tvg-id="Zoom.in" group-title="India" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/Zoom%28TVchannel%29Logo.jpg", Zoom
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
 
-#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
-https://feeds.intoday.in/hltapps/api/master.m3u8
+
+
 #EXTINF:-1 tvg-id="ndtvenglish" group-title="India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV English (*)
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
 #EXTINF:-1 tvg-id="ndtvenglish" group-title="India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV English (*)
@@ -187,8 +185,16 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 #EXTINF:-1 tvg-id="ndtvindia" group-title="India" tvg-logo="https://logotyp.us/file/ndtv.svg", NDTV India (*)
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+
 #EXTINF:-1 tvg-id="AajTak.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png", Aaj Tak HD
-https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+https://feeds.intoday.in/aajtak/api/master.m3u8
+#EXTINF:-1 tvg-id="AajTak.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png", Aaj Tak
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="indiatoday.in" group-title="India" tvg-logo="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png", India Today (*)
+https://feeds.intoday.in/hltapps/api/master.m3u8
+
 #EXTINF:-1 tvg-id="ABPAnanda.in" group-title="India" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/512px-ABP_Ananda_logo.svg.png", ABP Ananda
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8
 #EXTINF:-1 tvg-id="DDNews.in" group-title="India" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/DD_News_new_logo_2024.jpg", DD News
@@ -423,10 +429,5 @@ http://smart.bengaldigital.live/WWE/index.m3u8
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="dubaisports3.in" group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
-
-
-
-
-
 
 
