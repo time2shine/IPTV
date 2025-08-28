@@ -97,7 +97,7 @@ def check_ffmpeg(stream):
                 return (header, url, group, tvg_id)
         except Exception:
             pass
-        if attempt <= RETRIES:
+        # if attempt <= RETRIES:
             # print(f"[Retry {attempt}] {channel_name} failed, retrying...")
 
     print(f"[OFFLINE] {channel_name}")
