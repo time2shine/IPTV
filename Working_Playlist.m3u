@@ -143,6 +143,8 @@ https://bloomberg.com/media-manifest/streams/eu.m3u8
 https://fl3.moveonjoy.com/CNBC_World/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/Euronews_2022_Stacked_III.svg", Euronews English
 https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="GlobalNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Global_News_2022.svg", Global News (US)
+https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8
 
 
 
@@ -385,6 +387,8 @@ https://fl5.moveonjoy.com/DISNEY/index.m3u8
 
 
 
+#EXTINF:-1 tvg-id="live" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Live%21_logo.png",, --Live Sports--
+https://tvsen7.aynaott.com/asports-bkp/index.m3u8
 #EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167575.m3u8
 #EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD
@@ -393,6 +397,8 @@ http://41.205.93.154/STARSPORTS1/index.m3u8
 https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="starsports1hindi.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 Hindi
 https://restream-freeflix.farhadhossain52524.workers.dev/167573.m3u8
+#EXTINF:-1 tvg-id="starsports1hindi.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 Hindi
+https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="starsports.tamil" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png", Star Sports Tamil 1
 https://restream-freeflix.farhadhossain52524.workers.dev/167574.m3u8
 #EXTINF:-1 tvg-id="starsports2hd.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSports2.in.png", Star Sports 2 HD
@@ -447,12 +453,29 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167581.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/167592.m3u8
 #EXTINF:-1 tvg-id="foxcricket.in" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Fox_Cricket_Logo.png", Fox Cricket 501
 https://restream-freeflix.farhadhossain52524.workers.dev/167593.m3u8
+
+#EXTINF:-1 tvg-id="skysports1.nz" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dc/Sky_Sports_1_2015.svg", Sky Sports 1
+https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="skysports2.nz" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports 2
+https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="skysports.max" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports Mix
+https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="skysports.cricket" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/167594.m3u8
+#EXTINF:-1 tvg-id="skysports.cricket" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports Cricket
+https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="skysports.football" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sky_Sports_Football_2020.svg", Sky Sports Football
+https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="willowxtra.in" group-title="Sports" tvg-logo="https://5gtv.online:2053/logo/willowxtra1.png", Willow Xtra
 https://restream-freeflix.farhadhossain52524.workers.dev/167582.m3u8
+#EXTINF:-1 tvg-id="willowxtra.in" group-title="Sports" tvg-logo="https://5gtv.online:2053/logo/willowxtra1.png", Willow HD
+https://tiger-hub.vercel.app/WillowHD-2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="willowxtra.in" group-title="Sports" tvg-logo="https://5gtv.online:2053/logo/willowxtra1.png", Willow HD
+https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="willowcricket.in" group-title="Sports" tvg-logo="https://static.epg.best/us/WillowCricket.us.png", Willow Cricket HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167583.m3u8
+
 #EXTINF:-1 tvg-id="bein.cricket" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/13-HD.png/120px-13-HD.png", beIN Sport Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/167584.m3u8
 #EXTINF:-1 tvg-id="eurosport.in" group-title="Sports" tvg-logo="https://e7.pngegg.com/pngimages/317/742/png-clipart-europe-eurosport-1-televis-channel-others-televis-blue.png", EuroSport HD
@@ -487,8 +510,13 @@ http://smart.bengaldigital.live/WWE/index.m3u8
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="dubaisports3.in" group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
-#EXTINF:-1 tvg-id="elevensports3" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/DAZN_3_2024.svg",, Eleven Sports 3
+#EXTINF:-1 tvg-id="elevensports3" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/DAZN_3_2024.svg", Eleven Sports 3
 https://kusnadipepenk.github.io/ntn/elesp3.m3u8
+#EXTINF:-1 tvg-id="SuperSportsCricket" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9a/SuperSports-2023.svg", SuperSports Cricket
+https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ESPN" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg", ESPN
+https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
+
 
 
 
