@@ -27,6 +27,15 @@ GROUP_ORDER = [
     "Kids",
 ]
 
+# Channels to skip FFmpeg check
+EXCLUDE_LIST = [
+    "Republic Bangla",
+    "Republic Bharat",
+    "Aaj Tak HD",
+    "Aaj Tak",
+    "India Today",
+]
+
 # FFmpeg check toggle
 FFMPEG_CHECK = True
 
@@ -80,6 +89,12 @@ def check_ffmpeg(stream):
     """Check if stream is playable using FFmpeg with retries."""
     header, url, group, tvg_id = stream
     channel_name = header.split(",")[-1].strip() if "," in header else url
+
+    # Skip excluded channels
+    if any(skip.lower() in channel_name.lower() for skip in EXCLUDE_LIST):
+        print(f"[SKIPPED] {channel_name}")
+        ONLINE_CHANNELS.append(channel_name)
+        return stream  # Treat skipped as valid
 
     ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
                   "-i", url, "-t", "2", "-f", "null", "-"]
