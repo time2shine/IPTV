@@ -301,6 +301,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 #EXTINF:-1 tvg-id="MTVHitsEurope.uk" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/MTV_Hits_2021.svg", MTV Hits Europe
 http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
+#EXTINF:-1 tvg-id="JooMusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3f/Joo_Music.png", Joo Music
+https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HindiHits.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HITS-RADIO-2024.svg", Hindi Hits HD
+http://146.59.253.52:8080/hindihitshd/index.m3u8
 
 
 
@@ -381,39 +385,41 @@ https://fl5.moveonjoy.com/DISNEY/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD (*)
+#EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167575.m3u8
-#EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD (*)
+#EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD
 http://41.205.93.154/STARSPORTS1/index.m3u8
-#EXTINF:-1 tvg-id="starsports1hindi.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 Hindi (*)
+#EXTINF:-1 tvg-id="starsports1hd.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 HD
+https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="starsports1hindi.in" group-title="Sports" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png", Star Sports 1 Hindi
 https://restream-freeflix.farhadhossain52524.workers.dev/167573.m3u8
-#EXTINF:-1 tvg-id="starsports.tamil" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png", Star Sports Tamil 1 (*)
+#EXTINF:-1 tvg-id="starsports.tamil" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png", Star Sports Tamil 1
 https://restream-freeflix.farhadhossain52524.workers.dev/167574.m3u8
-#EXTINF:-1 tvg-id="starsports2hd.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSports2.in.png", Star Sports 2 HD (*)
+#EXTINF:-1 tvg-id="starsports2hd.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSports2.in.png", Star Sports 2 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167576.m3u8
-#EXTINF:-1 tvg-id="starsports3.in" group-title="Sports" tvg-logo="https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png", Star Sports 3 HD (*)
+#EXTINF:-1 tvg-id="starsports3.in" group-title="Sports" tvg-logo="https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png", Star Sports 3 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167577.m3u8
-#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K (*)
+#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K
 https://restream-freeflix.farhadhossain52524.workers.dev/109993.m3u8
-#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K (*)
+#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 4K
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8
-#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1 (*)
+#EXTINF:-1 tvg-id="starsportsselect1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png", Star Sports Select 1
 https://restream-freeflix.farhadhossain52524.workers.dev/167578.m3u8
-#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K (*)
+#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K
 https://restream-freeflix.farhadhossain52524.workers.dev/109994.m3u8
-#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K (*)
+#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 4K
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8
-#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2 (*)
+#EXTINF:-1 tvg-id="starsportsselect2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png", Star Sports Select 2
 https://restream-freeflix.farhadhossain52524.workers.dev/167579.m3u8
-#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten1.png", Sony Ten 1 4K (*)
+#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten1.png", Sony Ten 1 4K
 https://restream-freeflix.farhadhossain52524.workers.dev/109983.m3u8
-#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN1.in.png", Sony Ten 1 HD (*)
+#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN1.in.png", Sony Ten 1 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167570.m3u8
-#EXTINF:-1 tvg-id="sonyten2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN2.in.png", Sony Ten 2 HD (*)
+#EXTINF:-1 tvg-id="sonyten2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN2.in.png", Sony Ten 2 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167571.m3u8
-#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten3.png", Sony Ten 3 4K (*)
+#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten3.png", Sony Ten 3 4K
 https://restream-freeflix.farhadhossain52524.workers.dev/109985.m3u8
-#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN3.in.png", Sony Ten 3 HD (*)
+#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN3.in.png", Sony Ten 3 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167572.m3u8
 #EXTINF:-1 tvg-id="sonyten4.in" group-title="Sports" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/general_content/PGT_1624_1.png", Sony Ten 4 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167595.m3u8
@@ -455,11 +461,14 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167585.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/167588.m3u8
 #EXTINF:-1 tvg-id="ddsports.in" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg", DD Sports
 https://cdn-6.pishow.tv/live/13/master.m3u8
-#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports
+#EXTINF:-1 tvg-id="PTVsports.pk" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png", PTV Sports
+https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167590.m3u8
-#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports
-https://restream-freeflix.farhadhossain52524.workers.dev/167590.m3u8
+#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports (BD)
 https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="tntsports2.cricket" group-title="Sports" tvg-logo="https://cdn6.aptoide.com/imgs/0/4/2/042b850e2b3895e1e4dc4728a87cd185_icon.png", TNT Sport 2 Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/206566.m3u8
 #EXTINF:-1 tvg-id="criclife1.in" group-title="Sports" tvg-logo="http://logo.opplextv.com/logo/criclifelogo.png", CricLife 1
@@ -480,6 +489,7 @@ http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunkl
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
 #EXTINF:-1 tvg-id="elevensports3" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0f/DAZN_3_2024.svg",, Eleven Sports 3
 https://kusnadipepenk.github.io/ntn/elesp3.m3u8
+
 
 
 
