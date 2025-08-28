@@ -120,6 +120,8 @@ https://live-hls-web-aje.getaj.net/AJE/03.m3u8
 https://live-hls-web-aje.getaj.net/AJE/04.m3u8
 #EXTINF:-1 tvg-id="dwnews" group-title="International News" tvg-logo="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg", DW News
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8
+#EXTINF:-1 tvg-id="dwnews" group-title="International News" tvg-logo="https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg", DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" group-title="International News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png", CGTN
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="WION.in" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg", WION
@@ -130,6 +132,12 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/02/France_24_2013.svg", France 24 English
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@Europe" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="CNBCWorld.us" group-title="International News" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/26849/s26849_ll_h15_ab.png", CNBC World
+https://fl3.moveonjoy.com/CNBC_World/index.m3u8
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/Euronews_2022_Stacked_III.svg", Euronews English
+https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
 
 
 
@@ -272,6 +280,10 @@ https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-id="PunjabiHits.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Punjabi_Hits.jpg", Punjabi Hits
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8
+#EXTINF:-1 tvg-id="HTV.us" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5e/HTV_alt.png", HTV
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
+#EXTINF:-1 tvg-id="MTVHitsEurope.uk" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/MTV_Hits_2021.svg", MTV Hits Europe
+http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 
 
 
@@ -294,6 +306,8 @@ https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBRICSEnglish.in" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0c/TV_BRICS.svg", TV BRICS English
 https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
+#EXTINF:-1 tvg-id="RedCarpetTVInternational.pl" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e6/Red_Carpet_TV.svg", Red Carpet TV International
+https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8
 
 
 
@@ -443,6 +457,7 @@ http://smart.bengaldigital.live/WWE/index.m3u8
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="dubaisports3.in" group-title="Sports" tvg-logo="https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg", Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
 
 
 
