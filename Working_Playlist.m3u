@@ -87,8 +87,11 @@ https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 
 
 
+
 #EXTINF:-1 tvg-id="jamuna.tv" group-title="News" tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg", Jamuna TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245917.m3u8
+#EXTINF:-1 tvg-id="somoy.tv" group-title="News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg", Somoy News
+https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sangsad.bd" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_the_Jatiya_Sangsad.svg/2048px-Emblem_of_the_Jatiya_Sangsad.svg.png", SANGSAD BANGLADESH
 https://restream-freeflix.farhadhossain52524.workers.dev/245940.m3u8
 #EXTINF:-1 tvg-id="banglatv.bd" group-title="News" tvg-logo="https://images.seeklogo.com/logo-png/40/1/bangla-tv-logo-png_seeklogo-404114.png", BANGLA TV
@@ -177,6 +180,10 @@ https://fl5.moveonjoy.com/HBO_2/index.m3u8
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/Bollywood_HD_2014_alt.svg", Bollywood HD
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+#EXTINF:-1 tvg-id="Bollywood.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/Bollywood_HD_2014_alt.svg", Bollywood Movie
+https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
+#EXTINF:-1 tvg-id="Bollywood2.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/Bollywood_HD_2014_alt.svg", Bollywood Movie 2
+https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
 #EXTINF:-1 tvg-id="BollywoodClassic.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0d/Bollywood_Clasic_2024.svg", Bollywood Classic
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
 #EXTINF:-1 tvg-id="amgtv.us" group-title="Movie" tvg-logo="https://img1.wsimg.com/isteam/ip/f5ca61b0-4924-46b3-93d1-5961808d44f6/Home%20no%20vignette%20low_Half2.jpg", AMG TV (Classic)
@@ -315,6 +322,8 @@ http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HindiHits.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HITS-RADIO-2024.svg", Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
+#EXTINF:-1 tvg-id="oMusic" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/68/Google_play_music.png", O Music
+https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
 
 
 
@@ -411,6 +420,14 @@ https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="motupatlu" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/Motu-patlu-cover.jpg", Motu Patlu
 https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
+#EXTINF:-1 tvg-id="PBSkids" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/PBS_Kids_%282022%29.svg", PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 tvg-id="RongeenTV" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/09/Rongeen_TV.jpeg", Rongeen TV
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="DuckTV" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/Duck_TV.svg", Duck TV
+https://d2lmgfyblo9rak.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="doraemon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e4/Doraemon2005.svg", doraemon
+https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
 
 
 
@@ -548,11 +565,14 @@ https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="PremireSports1" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/Premier_Sports_1_II.svg", Premire Sports 1
 https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="FoxCricket501" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg", Fox Cricket 501 HD
+http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
 
 #EXTINF:-1 tvg-id="LaLiga" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/LaLiga_SmartBank_TV_logo.svg", LaLiga TV
 https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="LaLiga.DAZN" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/DAZN_2019_logo.svg", LaLiga TV (DAZN)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
+
 
 
 
