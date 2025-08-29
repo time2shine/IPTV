@@ -181,8 +181,10 @@ https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
 https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8
 #EXTINF:-1 tvg-id="GlobalNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Global_News_2022.svg", Global News (US)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
-#EXTINF:-1 tvg-id="FoxNews.us" group-title="International News" tvg-logo=https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg", Fox News
+#EXTINF:-1 tvg-id="FoxNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg", Fox News
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
+#EXTINF:-1 tvg-id="SkyNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/16/Sky_News_2020.svg", Sky News
+https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8
 
 
 
@@ -227,6 +229,15 @@ https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
 #EXTINF:-1 tvg-id="MovieOne.pk" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Movie_One_HD.svg", Movie One
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/movie-one-176/playlist.m3u8
+#EXTINF:-1 tvg-id="CHUMBAK.pk" group-title="Movie" tvg-logo="https://i.ibb.co/vvcckpkW/4d9f95ffa96d.jpg", CHUMBAK TV
+https://cdn-1.pishow.tv/live/1451/master.m3u8
+
+#EXTINF:-1 tvg-id="Goldmines.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png", Goldmines
+https://cdn-2.pishow.tv/live/1459/master.m3u8
+#EXTINF:-1 tvg-id="GoldminesMovies.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/50/Goldmines_old_logo.jpg", Goldmines Movies
+https://cdn-2.pishow.tv/live/1461/master.m3u8
+#EXTINF:-1 tvg-id="GoldminesMovies2.in" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/50/Goldmines_old_logo.jpg", Goldmines Movies 2
+https://cdn-2.pishow.tv/live/1460/master.m3u8
 
 
 
@@ -371,6 +382,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8
 #EXTINF:-1 tvg-id="9XJalwa.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", 9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
+#EXTINF:-1 tvg-id="9XJalwa.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", 9X Jalwa
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/47bdb49d-f6f3-4927-a9ea-12c4c5afc732/0.m3u8
 #EXTINF:-1 tvg-id="Jalwa.pk" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", Jalwa
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dc/B4U_Music_logo_2014.png", B4U Music India
@@ -433,6 +446,8 @@ http://fl1.moveonjoy.com/Destination_America/index.m3u8
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="AnimalPlanet" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/d/dc/Animal_Planet_2008.svg", Animal Planet
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8
+#EXTINF:-1 tvg-id="4KTravel" group-title="International" tvg-logo="https://a.jsrdn.com/hls/23064/4k-travel-tv/logo_20231219_183416_68.png", 4K Travel
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
 
 
 
@@ -443,6 +458,12 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245907.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/m@d@n1ch@nn3lb@ngl@/playlist.m3u8
 #EXTINF:-1 tvg-id="IQRABANGLA.bd" group-title="Religious" tvg-logo="http://www.jagobd.com/wp-content/uploads/2017/01/IQRA-BANGLA-TV.jpeg", IQRA BANGLA
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
+#EXTINF:-1 tvg-id="TVONE.bd" group-title="Religious" tvg-logo="https://vhx.imgix.net/oneislamtv1/assets/f9be264e-cfb2-4ebd-9c4a-0df38e7b96a4.png", TV ONE Bangla
+https://ap02.iqplay.tv:8082/iqb8002/tv01/playlist.m3u8
+#EXTINF:-1 tvg-id="deentv.bd" group-title="Religious" tvg-logo="https://www.jagobd.com/wp-content/uploads/2021/05/Deentv.png", Deen TV Bangla
+https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
+#EXTINF:-1 tvg-id="islamicBangla.bd" group-title="Religious" tvg-logo="https://i.ibb.co/TMS1rbj2/download.jpg", Islamic Bangla
+https://cdn149.anystream.uk:8082/app/ic6a5l6/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" group-title="Religious" tvg-logo="https://makkahlive.net//images/makkah-live-low-resolution-logo-color-on-transparent-background.png", Al Quran Al Kareem TV
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="MakkahTV.sa" group-title="Religious" tvg-logo="https://play-lh.googleusercontent.com/89KDTm-c-N9GOuG4CK9P7Nc6WcbgGYOLguwblg1254ho2HkuZLkXkH35iuJM19-rng=w240-h480-rw", Makkah TV
@@ -453,9 +474,16 @@ https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/
 https://ap02.iqplay.tv:8082/iqb8002/bil77tv/playlist.m3u8
 #EXTINF:-1 tvg-id="IslamTV" group-title="Religious" tvg-logo="https://i.supaimg.com/2109eaa2-edd1-48fc-bf64-6f0fa161e734.webp", ISLAM TV
 https://ap02.iqplay.tv:8082/iqb8002/i6sl9m/playlist.m3u8
+#EXTINF:-1 tvg-id="EmanChannel" group-title="Religious" tvg-logo="https://is4-ssl.mzstatic.com/image/thumb/Purple30/v4/f3/b0/be/f3b0be12-eacf-89d1-e559-95041f0e8fde/source/512x512bb.jpg", Eman Channel
+https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
+#EXTINF:-1 tvg-id="SalaamTV" group-title="Religious" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/08/salaam.jpg", Salaam TV
+https://ap02.iqplay.tv:8082/iqb8002/sa1aamch568/playlist.m3u8
 
 
 
+
+#EXTINF:-1 tvg-id="sonyyay.in" group-title="Kids" tvg-logo="https://pash.ink/storage/uploads/JungleBook_Logo.png", Jungle Book
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 #EXTINF:-1 tvg-id="sonyyay.in" group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png", SONY YAY!
 https://restream-freeflix.farhadhossain52524.workers.dev/245959.m3u8
 #EXTINF:-1 tvg-id="toonami.aftermath" group-title="Kids" tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg", Toonami Aftermath East
@@ -511,6 +539,8 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 https://d2lmgfyblo9rak.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="doraemon" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e4/Doraemon2005.svg", Doraemon
 https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
+#EXTINF:-1 tvg-id="TomandJerry" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/26/-416014211062tg5cor5qw.png", Tom and Jerry
+https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8
 
 
 
@@ -729,6 +759,7 @@ https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8
 https://tiger-hub.vercel.app/Hub_Sports-2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="HubSports4" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 4
 https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8
+
 
 
 
