@@ -92,10 +92,21 @@ https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 
 
 
+
+#EXTINF:-1 tvg-id="jamuna.tv" group-title="News" tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg", Jamuna TV
+https://tvsen6.aynaott.com/jamunatv/index.m3u8
 #EXTINF:-1 tvg-id="jamuna.tv" group-title="News" tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg", Jamuna TV
 https://restream-freeflix.farhadhossain52524.workers.dev/245917.m3u8
 #EXTINF:-1 tvg-id="somoy.tv" group-title="News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg", Somoy News
 https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ekattor.tv" group-title="News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5d/Ekattor_TV_logo.png", Ekattor TV
+https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8
+#EXTINF:-1 tvg-id="ekattor.tv" group-title="News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5d/Ekattor_TV_logo.png", Ekattor TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=1692000.m3u8
+#EXTINF:-1 tvg-id="ekattor.tv" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Channel24logo.svg", Channal 24
+https://tvsen6.aynaott.com/channel24/index.m3u8
+#EXTINF:-1 tvg-id="ekattor.tv" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Channel24logo.svg", Channal 24
+https://ch24cdn.ncare.live/channel24/ch24office/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sangsad.bd" group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_the_Jatiya_Sangsad.svg/2048px-Emblem_of_the_Jatiya_Sangsad.svg.png", SANGSAD BANGLADESH
 https://restream-freeflix.farhadhossain52524.workers.dev/245940.m3u8
 #EXTINF:-1 tvg-id="banglatv.bd" group-title="News" tvg-logo="https://images.seeklogo.com/logo-png/40/1/bangla-tv-logo-png_seeklogo-404114.png", BANGLA TV
@@ -196,6 +207,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
 #EXTINF:-1 tvg-id="DuniaSinema.ml" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6a/Dunia_Sinema_New.png", Dunia Sinema (Malaysia)
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8
+#EXTINF:-1 tvg-id="MovieOne.pk" group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Movie_One_HD.svg", Movie One
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/movie-one-176/playlist.m3u8
 
 
 
@@ -318,6 +331,8 @@ https://pmcrohls.wns.live/hls/stream.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
 #EXTINF:-1 tvg-id="9XJalwa.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", 9X Jalwa
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
+#EXTINF:-1 tvg-id="Jalwa.pk" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png", Jalwa
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dc/B4U_Music_logo_2014.png", B4U Music India
 https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
 #EXTINF:-1 tvg-id="BalleBalle.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Balle_Balle.jpeg", Balle Balle
@@ -372,6 +387,8 @@ http://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
 http://fl1.moveonjoy.com/Destination_America/index.m3u8
 #EXTINF:-1 tvg-id="Nick@Nite.us" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c3/Nick%40Nite_2012.svg", Nick at Nite
 http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanet" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/d/dc/Animal_Planet_2008.svg", Animal Planet
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8
 
 
 
@@ -482,9 +499,17 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167579.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/109983.m3u8
 #EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN1.in.png", Sony Ten 1 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167570.m3u8
+#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN1.in.png", Sony Ten 1 HD
+https://tiger-hub.vercel.app/SONY/Sports-1/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="sonyten1.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN1.in.png", Sony Ten 1 HD
+http://103.110.111.36:8081/live/ten1_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="sonyten2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN2.in.png", Sony Ten 2 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167571.m3u8
-#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten3.png", Sony Ten 3 4K
+#EXTINF:-1 tvg-id="sonyten2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN2.in.png", Sony Ten 2 HD
+https://tiger-hub.vercel.app/SONY/Sports-2/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="sonyten2.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN2.in.png", Sony Ten 2 HD
+http://103.110.111.36:8081/live/spten2_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="http://openboxv8s.com/india/sony-ten3.png", Sony Ten 3 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/109985.m3u8
 #EXTINF:-1 tvg-id="sonyten3.in" group-title="Sports" tvg-logo="https://static.epg.best/in/SonyTEN3.in.png", Sony Ten 3 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167572.m3u8
@@ -492,6 +517,11 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167572.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/167595.m3u8
 #EXTINF:-1 tvg-id="sonyten5.in" group-title="Sports" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png", Sony Ten 5 HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167580.m3u8
+#EXTINF:-1 tvg-id="sonyten5.in" group-title="Sports" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png", Sony Ten 5 HD
+https://tiger-hub.vercel.app/SONY/Sports-5/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="sonyten5.in" group-title="Sports" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png", Sony Ten 5 HD
+http://103.110.111.36:8081/live/spten5_720p/playlist.m3u8
+
 #EXTINF:-1 tvg-id="supersports.cricket" group-title="Sports" tvg-logo="", Super Sports Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/238475.m3u8
 #EXTINF:-1 tvg-id="ptvsports.pk" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png", PTV Sports
@@ -506,10 +536,16 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167569.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/219689.m3u8
 #EXTINF:-1 tvg-id="asportsary.in" group-title="Sports" tvg-logo="http://opplextv.com/logo/ASPORTSARY.jfif", A Sports HD (Server 2)
 https://restream-freeflix.farhadhossain52524.workers.dev/221417.m3u8
+
 #EXTINF:-1 tvg-id="tensports.pk" group-title="Sports" tvg-logo="https://www.pngkey.com/png/detail/244-2446295_pakistan-ten-sports-channel-logo.png", Ten Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/167587.m3u8
+#EXTINF:-1 tvg-id="tensports.pk" group-title="Sports" tvg-logo="https://www.pngkey.com/png/detail/244-2446295_pakistan-ten-sports-channel-logo.png", Ten Cricket
+https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/chunklist_b996000.m3u8
+
 #EXTINF:-1 tvg-id="astrocricket.my" group-title="Sports" tvg-logo="https://static.epg.best/my/AstroOnDemand361.my.png", Astro Cricket HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167581.m3u8
+#EXTINF:-1 tvg-id="astrocricket.my" group-title="Sports" tvg-logo="https://static.epg.best/my/AstroOnDemand361.my.png", Astro Cricket HD
+https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="supersport.cricket" group-title="Sports" tvg-logo="https://seeklogo.com/images/S/Super_Sport-logo-3B6B403F2C-seeklogo.com.png", SuperSport Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/167592.m3u8
 #EXTINF:-1 tvg-id="foxcricket.in" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Fox_Cricket_Logo.png", Fox Cricket 501
@@ -527,6 +563,8 @@ https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8
 https://restream-freeflix.farhadhossain52524.workers.dev/167594.m3u8
 #EXTINF:-1 tvg-id="skysports.cricket" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports Cricket
 https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="skysports.cricket" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg", Sky Sports Cricket
+http://195.181.161.132/skycricket/index.m3u8
 #EXTINF:-1 tvg-id="skysports.football" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sky_Sports_Football_2020.svg", Sky Sports Football
 https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8
 
@@ -586,12 +624,27 @@ http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
 #EXTINF:-1 tvg-id="M-Sports" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4b/M-Sport_%28logo%29.png", M-Sports HD
 http://live.matribhumitv.com/matribhumi-sports/index.m3u8
 
+#EXTINF:-1 tvg-id="RTASportsHD" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/b/bd/RTA_Sport_TV_Live.jpg", RTA Sports HD
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8
+#EXTINF:-1 tvg-id="RTASportsHD" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/b/bd/RTA_Sport_TV_Live.jpg", RTA Sports HD
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8
+#EXTINF:-1 tvg-id="RTASportsHD" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/b/bd/RTA_Sport_TV_Live.jpg", RTA Sports HD
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8
+#EXTINF:-1 tvg-id="RTASportsHD" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/b/bd/RTA_Sport_TV_Live.jpg", RTA Sports HD
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
+
 #EXTINF:-1 tvg-id="ArenaSports1" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/Arena_Sport_1.png", Arena Sports 1
 https://tiger-hub.vercel.app/Arena-Sports/1/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Arena1Premium" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0d/Arena_Sport_Premium_1_2021.png", Arena Sport Premium 1
+https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ArenaSports2" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Arena_Sport_2.png", Arena Sports 2
 https://tiger-hub.vercel.app/Arena-Sports/2/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Arena2Premium" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/Arena_Sport_Premium_2_2021.png", Arena Sport Premium 2
+https://tiger-hub.vercel.app/Arena-Sports/Premium_2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ArenaSports3" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5c/Arena_Sport_3.png", Arena Sports 3
 https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="Arena3Premium" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9f/Arena_Sport_Premium_3_2021.png", Arena Sport Premium 3
+https://tiger-hub.vercel.app/Arena-Sports/Premium_3/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ArenaSports4" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Arena_Sport_4.png", Arena Sports 4
 https://tiger-hub.vercel.app/Arena-Sports/4/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ArenaSports5" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/32/Arena_Sport_5.png", Arena Sports 5
@@ -607,6 +660,14 @@ https://tiger-hub.vercel.app/Arena-Sports/8/tracks-v1a1/mono.ts.m3u8
 https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="LaLiga.DAZN" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/DAZN_2019_logo.svg", LaLiga TV (DAZN)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="HubSports1" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 1
+https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="HubSports2" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 2
+https://tiger-hub.vercel.app/Hub_Sports-2/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="HubSports4" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 4
+https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8
+
 
 
 
