@@ -147,6 +147,10 @@ https://fl3.moveonjoy.com/CNBC_World/index.m3u8
 https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Global_News_2022.svg", Global News (US)
 https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8
+#EXTINF:-1 tvg-id="GlobalNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Global_News_2022.svg", Global News (US)
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
+#EXTINF:-1 tvg-id="FoxNews.us" group-title="International News" tvg-logo=https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg", Fox News
+https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 
 
 
@@ -339,6 +343,16 @@ https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa
 https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelXPEnglish.nz" group-title="International" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png", Travel XP English NZ
 https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/Discovery_Channel_2019.svg", Discovery Channel
+http://fl1.moveonjoy.com/Discovery_Channel/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryLife" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/89/Discovery_Life_2016.jpg", Discovery Life
+http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryFamily" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Discovery_Family.svg", Discovery Family
+http://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="DestinationAmerica" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a1/Destination_America_2015_%28Print%29.svg", Destination America
+http://fl1.moveonjoy.com/Destination_America/index.m3u8
+#EXTINF:-1 tvg-id="Nick@Nite.us" group-title="International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c3/Nick%40Nite_2012.svg", Nick at Nite
+http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
 
 
 
@@ -376,19 +390,27 @@ https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NickJr.us@East" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg", Nick Jr East
 https://fl3.moveonjoy.com/NICK_JR/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.us" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg", Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.us" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg", Nickelodeon USA
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 
 #EXTINF:-1 tvg-id="DisneyXD.us" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/13/Logo_disney_xd.svg", Disney XD
 http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.in" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/disney/images/a/a8/Disney_Jr._2024_logo.svg", Disney Junior
+#EXTINF:-1 tvg-id="DisneyJunior.in" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/disney/images/a/a8/Disney_Jr._2024_logo.svg", Disney Junior India
 http://116.90.120.149:8000/play/a0b3/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.eu" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/disney/images/a/a8/Disney_Jr._2024_logo.svg", Disney Junior Europe
+https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.in@East" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/Disney_Junior.svg", Disney Junior East
 https://fl3.moveonjoy.com/DISNEY_JR/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.in@East" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/Disney_Junior.svg", Disney Junior East
+http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/Disney_Channel_2022.svg", Disney Channel East
 https://fl5.moveonjoy.com/DISNEY/index.m3u8
 #EXTINF:-1 tvg-id="sonic.in" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Nickelodeon_Sonic_logo_2025.png", Sonic
 https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zoomoo" group-title="Kids" tvg-logo="https://images.squarespace-cdn.com/content/v1/5c4104e7af209609ea6f281b/b440d39b-935e-4b40-9b6d-edc3d94f11b9/Primary+Logo.png", Zoo Moo
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="motupatlu" group-title="Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/Motu-patlu-cover.jpg", Motu Patlu
+https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 
 
 
@@ -531,6 +553,7 @@ https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="LaLiga.DAZN" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/DAZN_2019_logo.svg", LaLiga TV (DAZN)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
+
 
 
 
