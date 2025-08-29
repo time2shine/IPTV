@@ -155,6 +155,8 @@ https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="CNN.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/CNN_%282014%29.svg", CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="CNN.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/CNN_%282014%29.svg", CNN
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/cnn-86/playlist.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/02/France_24_2013.svg", France 24 English
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@Europe" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Europe
@@ -302,6 +304,14 @@ https://video.primexsports.com/suchnews/live/playlist.m3u8
 https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="WasebTV.pk" group-title="Pakistan" tvg-logo="https://yt3.googleusercontent.com/Jq1I-TUADvMU8g-1IPAlVpnE9CZ95oNyW1B94IlhKlJ0vqG5-oxbBqIc4E1G7Kxjo_8hneVxVg=s160-c-k-c0x00ffffff-no-rj", Waseb TV
 https://vodzong.mjunoon.tv:8087/streamtest/WASEB-130/playlist.m3u8
+#EXTINF:-1 tvg-id="TimeNews.pk" group-title="Pakistan" tvg-logo="https://thetimenews.tv/wp-content/uploads/2021/03/pahenji-akhbar-Logo-vector-design-File.png", Time News
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/time-news-172/playlist.m3u8
+#EXTINF:-1 tvg-id="LahoreRang.pk" group-title="Pakistan" tvg-logo="https://lahorerang.tv/uploads/theme/logo-1751881025.png", Lahore Rang
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/lhrrang-179/playlist.m3u8
+#EXTINF:-1 tvg-id="GNN.pk" group-title="Pakistan" tvg-logo="https://gnnhd.tv/_next/image?url=%2Fimages%2Fgnn-logo.png&w=640&q=75", GNN
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/gnnnews-181/playlist.m3u8
+#EXTINF:-1 tvg-id="NeoNews.pk" group-title="Pakistan" tvg-logo="https://www.neonews.pk/uploads/theme/logo-1666868077.png", Neo News
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Neo-110/playlist.m3u8
 
 
 
@@ -315,8 +325,10 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245921.m3u8
 https://cdn-1.pishow.tv/live/1456/master.m3u8
 #EXTINF:-1 tvg-id="montvmusic.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/7/7e/Mon_Music_HD_2023.png", Mon TV Music
 https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
-#EXTINF:-1 tvg-id="sangeetbangla.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png", SANGEET BANGLA (*)
+#EXTINF:-1 tvg-id="sangeetbangla.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png", SANGEET BANGLA
 https://restream-freeflix.farhadhossain52524.workers.dev/245933.m3u8
+#EXTINF:-1 tvg-id="sangeetbangla.in" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png", SANGEET BANGLA
+https://tiger-hub.vercel.app/Sangeet-Bangla/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="ZBMusic.in" group-title="Music" tvg-logo="https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg", ZB Music
 https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="amc.us" group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/MYcrmTg-2FfK3mVvNsjttNsXXTLfUG7i3QjMd0fzticooxMwLMK0NQdyQSMnF0iC9lg", AMC
@@ -349,6 +361,10 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1 tvg-id="oMusic" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/68/Google_play_music.png", O Music
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
+#EXTINF:-1 tvg-id="SEETV" group-title="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/See_TV_2022.png", SEE TV
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SeeTV-156/playlist.m3u8
+#EXTINF:-1 tvg-id="ArabicSong" group-title="Music" tvg-logo="", Arabic Song
+https://mbc1-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index_3.m3u8
 
 
 
@@ -399,6 +415,9 @@ https://restream-freeflix.farhadhossain52524.workers.dev/245907.m3u8
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="MakkahTV.sa" group-title="Religious" tvg-logo="https://play-lh.googleusercontent.com/89KDTm-c-N9GOuG4CK9P7Nc6WcbgGYOLguwblg1254ho2HkuZLkXkH35iuJM19-rng=w240-h480-rw", Makkah TV
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SunnahTV.sa" group-title="Religious" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/Saudi_Sunnah_TV_2020.png", Sunnah TV
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
 
 
 
@@ -522,8 +541,10 @@ https://tiger-hub.vercel.app/SONY/Sports-5/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="sonyten5.in" group-title="Sports" tvg-logo="https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png", Sony Ten 5 HD
 http://103.110.111.36:8081/live/spten5_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="supersports.cricket" group-title="Sports" tvg-logo="", Super Sports Cricket
+#EXTINF:-1 tvg-id="supersports.cricket" group-title="Sports" tvg-logo="https://images.supersport.com/media/eoagvak1/ss-logo-2024.png", Super Sports Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/238475.m3u8
+#EXTINF:-1 tvg-id="supersports.cricket" group-title="Sports" tvg-logo="https://images.supersport.com/media/eoagvak1/ss-logo-2024.png", Super Sports Cricket
+https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ptvsports.pk" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png", PTV Sports
 https://restream-freeflix.farhadhossain52524.workers.dev/167567.m3u8
 #EXTINF:-1 tvg-id="ptvsports.pk" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/PTV_Sports_HD.png", PTV Sports HD
@@ -587,11 +608,14 @@ https://restream-freeflix.farhadhossain52524.workers.dev/167588.m3u8
 https://cdn-6.pishow.tv/live/13/master.m3u8
 #EXTINF:-1 tvg-id="PTVsports.pk" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png", PTV Sports
 https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports
+http://103.15.140.138/tsports/index.m3u8
 #EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports HD
 https://restream-freeflix.farhadhossain52524.workers.dev/167590.m3u8
 #EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports (BD)
 https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
-
+#EXTINF:-1 tvg-id="tsports.bd" group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png", T Sports (BD)
+https://tvsen6.aynaott.com/tsportsfhd/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-id="tntsports2.cricket" group-title="Sports" tvg-logo="https://cdn6.aptoide.com/imgs/0/4/2/042b850e2b3895e1e4dc4728a87cd185_icon.png", TNT Sport 2 Cricket
 https://restream-freeflix.farhadhossain52524.workers.dev/206566.m3u8
@@ -667,6 +691,7 @@ https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8
 https://tiger-hub.vercel.app/Hub_Sports-2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="HubSports4" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 4
 https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8
+
 
 
 
