@@ -171,12 +171,19 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/cnn-86/playlist.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/02/France_24_2013.svg", France 24 English
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="BloombergTV.asia@Asia" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Asia
+https://www.bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@USA" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV USA
-https://bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@Europe" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Europe
-https://bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 tvg-id="CNBCWorld.us" group-title="International News" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/26849/s26849_ll_h15_ab.png", CNBC World
-https://fl3.moveonjoy.com/CNBC_World/index.m3u8
+https://www.bloomberg.com/media-manifest/streams/phoenix-us.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.eu@Europe" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Europe
+https://www.bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.aus@Australia" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Australia
+https://www.bloomberg.com/media-manifest/streams/aus.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.event@LiveEvent" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg", Bloomberg TV Live Event
+https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+
+
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/Euronews_2022_Stacked_III.svg", Euronews English
 https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalNews.us" group-title="International News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Global_News_2022.svg", Global News (US)
@@ -760,6 +767,7 @@ https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8
 https://tiger-hub.vercel.app/Hub_Sports-2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="HubSports4" group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png", Hub Sports 4
 https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8
+
 
 
 
