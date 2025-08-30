@@ -583,6 +583,12 @@ CHANNELS = {
         "https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg",
         "https://epg.pw/last/9440.html?lang=en",
         scrape_epgpw
+    ),
+    "Bloomberg TV": (
+        "BloombergTV.us",
+        "https://static.wikia.nocookie.net/logopedia/images/9/93/Bloomberg_tv_2016.svg",
+        "https://epg.pw/last/446971.html?lang=en",
+        scrape_epgpw
     )
 }
 
