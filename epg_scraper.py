@@ -362,6 +362,12 @@ def scrape_tvpassport(channel_id, display_name, logo_url, url):
 # Channels dictionary
 # -----------------------
 CHANNELS = {
+    "FoxNews.us": (
+        "Fox News",
+        "https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg",
+        "https://www.tvpassport.com/tv-listings/stations/fox-news/1083",
+        scrape_tvpassport
+    ),
     "EuronewsEnglish.fr": (
         "Euronews English",
         "https://static.wikia.nocookie.net/logopedia/images/f/f9/Euronews_2022_Stacked_III.svg",
