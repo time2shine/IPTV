@@ -359,9 +359,81 @@ def scrape_tvpassport(channel_id, display_name, logo_url, url):
 
 
 # -----------------------
+# Scape from tvguide site
+# -----------------------
+def scrape_tvguide(channel_id, display_name, logo_url, url):
+    """
+    Scrape schedule from TVGuide UK (example: TRT World) and return programmes with start, stop, title.
+    """
+    logging.info(f"Fetching schedule from TVGuide for {display_name} ...")
+    programmes = []
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        tz = pytz.timezone("Asia/Dhaka")
+        now = datetime.now(tz)
+
+        items = soup.select(".js-schedule")
+        logging.info(f"Found {len(items)} programmes for {display_name}")
+
+        epg_list = []
+        for div in items:
+            start_time = div.get("data-date")  # Example: "2025-09-02T10:00:00"
+            title_tag = div.select_one(".flex-grow a")
+            title = title_tag.text.strip() if title_tag else ""
+            if not start_time or not title:
+                continue
+
+            try:
+                # Convert string to datetime (UTC assumed), then to Asia/Dhaka
+                start_dt = datetime.fromisoformat(start_time)
+                if start_dt.tzinfo is None:
+                    start_dt = pytz.UTC.localize(start_dt)
+                start_dt = start_dt.astimezone(tz)
+            except Exception as e:
+                logging.warning(f"Failed to parse time '{start_time}' for {title}: {e}")
+                continue
+
+            epg_list.append({"title": html.escape(title), "start": start_dt})
+
+        # Sort by start time
+        epg_list.sort(key=lambda x: x["start"])
+
+        # Assign stop times (next start or +30 min)
+        for i in range(len(epg_list)):
+            start = epg_list[i]["start"]
+            stop = epg_list[i + 1]["start"] if i + 1 < len(epg_list) else start + timedelta(minutes=30)
+            if stop <= start:
+                stop = start + timedelta(minutes=1)
+
+            programmes.append({
+                "title": epg_list[i]["title"],
+                "start": start,
+                "stop": stop
+            })
+
+        logging.info(f"Processed {len(programmes)} programmes for {display_name}")
+
+    except Exception as e:
+        logging.error(f"Failed to fetch schedule for {display_name} from TVGuide: {e}")
+
+    return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
+
+
+# -----------------------
 # Channels dictionary
 # -----------------------
 CHANNELS = {
+    "TRTWorld.tr": (
+        "TRT World",
+        "https://static.wikia.nocookie.net/logopedia/images/6/6e/TRT_World_logo.svg",
+        "https://www.tvguide.co.uk/channel/trt-world",
+        scrape_tvguide
+    ),
     "FoxNews.us": (
         "Fox News",
         "https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg",
