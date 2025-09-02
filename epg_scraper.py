@@ -548,6 +548,12 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
+    "Goldmines.in": (
+        "Goldmines",
+        "https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",
+        "https://www.tvwish.com/IN/Channels/Goldmines/745/Schedule",
+        scrape_tvwish
+    ),
     "zeebanglacinema.in": (
         "Zee Bangla Cinema",
         "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
