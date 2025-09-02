@@ -548,7 +548,13 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
-        "B4UKadak.in": (
+    "B4UMovies.in": (
+        "B4U Movies",
+        "https://b4umovies.in/images/logo.jpg",
+        "https://www.tvwish.com/IN/Channels/B4U-Movies/22/Schedule",
+        scrape_tvwish
+    ),
+    "B4UKadak.in": (
         "B4U Kadak",
         "https://static.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg",
         "https://www.tvwish.com/IN/Channels/B4U-Kadak/713/Schedule",
