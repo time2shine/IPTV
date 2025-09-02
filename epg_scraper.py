@@ -548,6 +548,12 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
+    "BhojpuriCinema.in": (
+        "Bhojpuri Cinema",
+        "https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png",
+        "https://www.tvwish.com/IN/Channels/Bhojpuri-Cinema/704/Schedule",
+        scrape_tvwish
+    ),
     "B4UMovies.in": (
         "B4U Movies",
         "https://b4umovies.in/images/logo.jpg",
