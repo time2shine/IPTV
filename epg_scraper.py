@@ -548,6 +548,12 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
+        "B4UKadak.in": (
+        "B4U Kadak",
+        "https://static.wikia.nocookie.net/logopedia/images/a/ab/B4U_Kadak.jpeg",
+        "https://www.tvwish.com/IN/Channels/B4U-Kadak/713/Schedule",
+        scrape_tvwish
+    ),
     "Goldmines.in": (
         "Goldmines",
         "https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",
