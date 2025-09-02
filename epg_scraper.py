@@ -554,6 +554,12 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Goldmines/745/Schedule",
         scrape_tvwish
     ),
+    "GoldminesMovies.in": (
+        "Goldmines Movies",
+        "https://static.wikia.nocookie.net/logopedia/images/5/50/Goldmines_old_logo.jpg",
+        "https://www.tvwish.com/IN/Channels/Goldmines-Movies/1557/Schedule",
+        scrape_tvwish
+    ),
     "zeebanglacinema.in": (
         "Zee Bangla Cinema",
         "https://static.wikia.nocookie.net/logopedia/images/5/59/Zee_Bangla_Cinema_%282025%29.svg",
