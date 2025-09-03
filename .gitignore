@@ -1,12 +1,31 @@
-# Byte-compiled / optimized / DLL files
+# -----------------------------
+# Python bytecode and caches
+# -----------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 
+# -----------------------------
 # C extensions
+# -----------------------------
 *.so
+*.pyd
+*.dll
 
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
 # Distribution / packaging
+# -----------------------------
 .Python
 build/
 develop-eggs/
@@ -26,24 +45,60 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# -----------------------------
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+# -----------------------------
 *.manifest
 *.spec
 
+# -----------------------------
 # Installer logs
+# -----------------------------
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# -----------------------------
+# IDE / Editor settings
+# -----------------------------
+# VS Code
+.vscode/
+# PyCharm
+.idea/
 
-# Local cookies file
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# Logs and temporary files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+pytest_cache/
+
+# -----------------------------
+# Bytecode / Cython debug
+# -----------------------------
+cython_debug/
+
+# -----------------------------
+# Local cookies or secrets
+# -----------------------------
 cookies.txt
+
+# -----------------------------
+# Node / frontend artifacts (if applicable)
+# -----------------------------
+node_modules/
+dist/
