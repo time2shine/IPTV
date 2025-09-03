@@ -20,18 +20,43 @@ def check_ffmpeg(url, channel_name):
         print(f"[SKIPPED] {channel_name}")
         return url, "online"
 
-    ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
-                  "-i", url, "-t", "2", "-f", "null", "-"]
+    # FFmpeg command with reconnect and appropriate duration
     if FAST_MODE:
-        ffmpeg_cmd = ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
-                      "-i", url, "-t", "1", "-f", "null", "-"]
+        ffmpeg_cmd = [
+            "ffmpeg",
+            "-reconnect", "1",
+            "-reconnect_streamed", "1",
+            "-reconnect_delay_max", "2",
+            "-probesize", "500000",
+            "-analyzeduration", "500000",
+            "-i", url,
+            "-t", "2",
+            "-f", "null", "-"
+        ]
+        timeout_sec = 15
+    else:
+        ffmpeg_cmd = [
+            "ffmpeg",
+            "-reconnect", "1",
+            "-reconnect_streamed", "1",
+            "-reconnect_delay_max", "2",
+            "-probesize", "1000000",
+            "-analyzeduration", "1000000",
+            "-i", url,
+            "-t", "5",
+            "-f", "null", "-"
+        ]
+        timeout_sec = 30
 
     for attempt in range(1, RETRIES + 2):
         try:
-            result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=15)
-            if "error" not in result.stderr.lower():
+            result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=timeout_sec)
+            # Use returncode to determine success
+            if result.returncode == 0:
                 print(f"[ONLINE] {channel_name} -> {url}")
                 return url, "online"
+        except subprocess.TimeoutExpired:
+            pass
         except Exception:
             pass
 
@@ -48,10 +73,12 @@ def update_status_parallel(channels):
                     info["links"][i] = {"url": link_entry, "status": "unknown"}
                     link_entry = info["links"][i]
 
+                if "status" not in link_entry:
+                    link_entry["status"] = "unknown"
+
                 url = link_entry["url"]
                 tasks.append(executor.submit(check_ffmpeg, url, channel_name))
 
-        # Collect results and update JSON
         for future in as_completed(tasks):
             url, status = future.result()
             for info in channels.values():
