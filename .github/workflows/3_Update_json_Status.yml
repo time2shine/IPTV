@@ -26,7 +26,7 @@ jobs:
           
       - name: Setup fast static FFmpeg
         run: |
-          wget -q https://github.com/BtbN/FFmpeg-Builds/releases/latest/download/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
+          wget -q https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
           tar -xf ffmpeg.tar.xz
           FFMPEG_DIR=$(ls -d ffmpeg-master-*)
           sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
