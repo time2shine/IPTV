@@ -35,7 +35,7 @@ jobs:
 
       - name: Run FFmpeg link check
         run: |
-          python 5_Update_json_Status.py  # Your Python script with parallel FFmpeg checks
+          python static_channels_update.py  # Your Python script with parallel FFmpeg checks
 
       - name: Commit updated JSON
         run: |
