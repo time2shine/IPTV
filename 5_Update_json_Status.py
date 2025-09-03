@@ -12,7 +12,7 @@ print = functools.partial(print, flush=True)
 JSON_FILE = "static_channels.json"
 FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 40       # Parallel FFmpeg threads
+MAX_WORKERS = 50       # Parallel FFmpeg threads
 EXCLUDE_LIST = ["Republic Bangla", 
                 "Republic Bharat", 
                 "Aaj Tak HD", 
