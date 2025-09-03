@@ -1,0 +1,37 @@
+name: Update IPTV Channels
+
+on:
+  schedule:
+    # Runs every day at 3 AM Bangladesh time (UTC+6 = UTC-6 offset)
+    - cron: '21 21 * * *'  # 3 AM BDT is 21:00 UTC previous day
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run FFmpeg link check
+        run: |
+          python 5_Update_json_Status.py  # Your Python script with parallel FFmpeg checks
+
+      - name: Commit updated JSON
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add static_channels.json
+          git commit -m "Update channel online/offline status [skip ci]" || echo "No changes to commit"
+          git push
