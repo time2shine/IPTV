@@ -12,7 +12,7 @@ print = functools.partial(print, flush=True)
 JSON_FILE = "static_channels.json"
 FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 50       # Parallel FFmpeg threads
+MAX_WORKERS = 60       # Parallel FFmpeg threads
 EXCLUDE_LIST = ["Republic Bangla", 
                 "Republic Bharat", 
                 "Aaj Tak HD", 
@@ -107,7 +107,7 @@ def summarize(channels, start_time):
     today = date.today()
 
     print("\n=== SUMMARY ===")
-    for info in channels.values():
+    for channel_name, info in channels.items():
         for link in info.get("links", []):
             url = link.get("url")
             status = link.get("status")
@@ -131,6 +131,7 @@ def summarize(channels, start_time):
     print(f"Total offline links: {offline_links}")
     print(f"Total missing links: {missing_links}")
     print(f"Total runtime: {elapsed:.2f} seconds")
+
 
 def sort_channels(channels):
     """Sort channels by group then channel name."""
