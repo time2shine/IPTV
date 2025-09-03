@@ -10,22 +10,23 @@ print = functools.partial(print, flush=True)
 
 # Config
 JSON_FILE = "static_channels.json"
-FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
+FAST_MODE = False  # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 60       # Parallel FFmpeg threads
-EXCLUDE_LIST = ["Republic Bangla", 
-                "Republic Bharat", 
-                "Aaj Tak HD", 
+MAX_WORKERS = 60  # Parallel FFmpeg threads
+EXCLUDE_LIST = ["Republic Bangla",
+                "Republic Bharat",
+                "Aaj Tak HD",
                 "Aaj Tak",
                 "India TV",
-                "India Today", 
-                "Ekushay TV (Local)", "Ekushay TV", 
+                "India Today",
+                "Ekushay TV (Local)", "Ekushay TV",
                 "Star Sports Select 1 4K", "Star Sports Select 2 4K"]
+
 
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
     today = date.today()
-    
+
     if any(skip.lower() in channel_name.lower() for skip in EXCLUDE_LIST):
         print(f"[SKIPPED] {channel_name}")
         return url, "online", today
@@ -47,6 +48,7 @@ def check_ffmpeg(url, channel_name):
 
     print(f"[OFFLINE] {channel_name} -> {url}")
     return url, "offline", today
+
 
 def update_status_parallel(channels):
     """Update status of all links using parallel FFmpeg checks."""
@@ -98,6 +100,7 @@ def update_status_parallel(channels):
                             if link_entry.get("last_offline") is None:
                                 link_entry["last_offline"] = today.isoformat()
 
+
 def summarize(channels, start_time):
     """Print summary of online/offline/missing links and offline durations."""
     total_channels = len(channels)
@@ -118,19 +121,23 @@ def summarize(channels, start_time):
                 last_offline = link.get("last_offline")
                 if last_offline:
                     days_offline = (today - datetime.fromisoformat(last_offline).date()).days
-                    print(f"[OFFLINE] {channel_name} Offline for {days_offline} day(s) -> {url}")
+                    print(f"[OFFLINE] {channel_name:<30} | Offline for {days_offline:>5} day(s) -> {url}")
                 else:
-                    print(f"[OFFLINE] {channel_name} Offline (unknown duration) -> {url}")
+                    print(f"[OFFLINE] {channel_name:<30} | Offline (unknown duration) -> {url}")
             elif status == "missing":
                 missing_links += 1
                 print(f"[MISSING] {channel_name} -> No link provided")
 
     elapsed = time.time() - start_time
-    print(f"\nTotal channels: {total_channels}")
-    print(f"Total online links: {online_links}")
-    print(f"Total offline links: {offline_links}")
-    print(f"Total missing links: {missing_links}")
-    print(f"Total runtime: {elapsed:.2f} seconds")
+    separator = "=" * 50
+
+    print(f"\n{separator}")
+    print(f"{'Total channels':<20}: {total_channels}")
+    print(f"{'Total online links':<20}: {online_links}")
+    print(f"{'Total offline links':<20}: {offline_links}")
+    print(f"{'Total missing links':<20}: {missing_links}")
+    print(f"{'Total runtime':<20}: {elapsed:.2f} seconds")
+    print(f"{separator}\n")
 
 
 def sort_channels(channels):
@@ -140,10 +147,11 @@ def sort_channels(channels):
             channels.items(),
             key=lambda item: (
                 item[1].get("group", "").lower(),  # sort by group
-                item[0].lower()                    # then by channel name
+                item[0].lower()  # then by channel name
             )
         )
     )
+
 
 def main():
     start_time = time.time()
@@ -165,6 +173,7 @@ def main():
 
     # Print summary
     summarize(channels_sorted, start_time)
+
 
 if __name__ == "__main__":
     main()
