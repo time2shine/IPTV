@@ -13,7 +13,14 @@ JSON_FILE = "static_channels.json"
 FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
 MAX_WORKERS = 40       # Parallel FFmpeg threads
-EXCLUDE_LIST = ["Republic Bangla", "Republic Bharat", "Aaj Tak HD", "Aaj Tak", "India Today", "Ekushay TV (Local)", "Ekushay TV"]
+EXCLUDE_LIST = ["Republic Bangla", 
+                "Republic Bharat", 
+                "Aaj Tak HD", 
+                "Aaj Tak",
+                "India TV",
+                "India Today", 
+                "Ekushay TV (Local)", "Ekushay TV", 
+                "Star Sports Select 1 4K", "Star Sports Select 2 4K"]
 
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
