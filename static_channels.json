@@ -7,7 +7,9 @@
       {
         "url": "https://mytvbangla.com/0.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -19,12 +21,16 @@
       {
         "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://208.86.19.13:81/514.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -36,7 +42,9 @@
       {
         "url": "https://byphdgllyk.gpcdn.net/hls/DeeptoTV/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -48,12 +56,16 @@
       {
         "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -65,12 +77,16 @@
       {
         "url": "https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -82,7 +98,9 @@
       {
         "url": "http://208.86.19.13:81/506.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -94,7 +112,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -106,7 +126,9 @@
       {
         "url": "http://208.86.19.13:81/509.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -118,7 +140,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245908.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -130,7 +154,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245913.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -142,7 +168,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/nt589v/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -154,7 +182,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245946.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -165,8 +195,10 @@
     "links": [
       {
         "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03"
+        "status": "offline",
+        "last_online": "2025-09-03",
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -178,12 +210,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245937.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -195,7 +231,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245957.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -207,7 +245,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245909.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -219,7 +259,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245901.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -231,7 +273,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245911.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -243,7 +287,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245920.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -255,7 +301,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245930.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -267,7 +315,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245967.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -279,7 +329,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Discovery-bangla/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -291,17 +343,23 @@
       {
         "url": "https://tiger-hub.vercel.app/Star-jalsha/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245898.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -313,17 +371,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245895.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -335,12 +399,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245906.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -352,7 +420,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245893.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -364,7 +434,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Zee-bangla/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -376,7 +448,9 @@
       {
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -388,17 +462,23 @@
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://tiger-hub.vercel.app/Sony-aath/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -410,7 +490,9 @@
       {
         "url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -422,12 +504,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245928.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -439,7 +525,9 @@
       {
         "url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -451,7 +539,9 @@
       {
         "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -463,12 +553,16 @@
       {
         "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -480,7 +574,9 @@
       {
         "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -492,12 +588,16 @@
       {
         "url": "https://tvsen6.aynaott.com/jamunatv/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245917.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -509,7 +609,9 @@
       {
         "url": "https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -521,12 +623,16 @@
       {
         "url": "https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=1692000.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -538,12 +644,16 @@
       {
         "url": "https://tvsen6.aynaott.com/channel24/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ch24cdn.ncare.live/channel24/ch24office/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -555,7 +665,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245940.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -567,7 +679,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245910.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -579,7 +693,9 @@
       {
         "url": "https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -591,7 +707,9 @@
       {
         "url": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -603,7 +721,9 @@
       {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -615,7 +735,9 @@
       {
         "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -627,12 +749,16 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -644,7 +770,9 @@
       {
         "url": "https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -655,8 +783,10 @@
     "links": [
       {
         "url": "http://cdn01.palki.tv/live/TBN24-M/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03"
+        "status": "offline",
+        "last_online": "2025-09-03",
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -668,12 +798,16 @@
       {
         "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -685,22 +819,30 @@
       {
         "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live-hls-web-aje.getaj.net/AJE/02.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live-hls-web-aje.getaj.net/AJE/04.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -712,12 +854,16 @@
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -729,12 +875,16 @@
       {
         "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://0472.org/hls/cgtn.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -746,7 +896,9 @@
       {
         "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -758,7 +910,9 @@
       {
         "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -770,12 +924,16 @@
       {
         "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/cnn-86/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -787,7 +945,9 @@
       {
         "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -799,17 +959,23 @@
       {
         "url": "https://www.bloomberg.com/media-manifest/streams/asia.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://www.bloomberg.com/media-manifest/streams/eu.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://www.bloomberg.com/media-manifest/streams/aus.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -821,7 +987,9 @@
       {
         "url": "https://www.bloomberg.com/media-manifest/streams/us-event.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -833,7 +1001,9 @@
       {
         "url": "https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -845,12 +1015,16 @@
       {
         "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -862,7 +1036,9 @@
       {
         "url": "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -874,7 +1050,9 @@
       {
         "url": "https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -886,17 +1064,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245897.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://tiger-hub.vercel.app/Zee-bangla-Cinema/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -908,7 +1092,9 @@
       {
         "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -920,7 +1106,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -932,7 +1120,9 @@
       {
         "url": "http://s5.alltvfree.com:8081/live/sonymax_480p/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -944,7 +1134,9 @@
       {
         "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -956,7 +1148,9 @@
       {
         "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -968,7 +1162,9 @@
       {
         "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -980,7 +1176,9 @@
       {
         "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -992,7 +1190,9 @@
       {
         "url": "https://fl5.moveonjoy.com/HBO_2/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1004,7 +1204,9 @@
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1016,7 +1218,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1028,7 +1232,9 @@
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1040,7 +1246,9 @@
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1052,7 +1260,9 @@
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1064,7 +1274,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1076,7 +1288,9 @@
       {
         "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1088,7 +1302,9 @@
       {
         "url": "https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1100,7 +1316,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/movie-one-176/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1112,7 +1330,9 @@
       {
         "url": "https://cdn-1.pishow.tv/live/1451/master.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1124,7 +1344,9 @@
       {
         "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1136,7 +1358,9 @@
       {
         "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1148,7 +1372,9 @@
       {
         "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1160,7 +1386,9 @@
       {
         "url": "https://fifabd.site/JOIN@TGxRANAPK33/TATACC/play.php?id=11672",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1172,7 +1400,9 @@
       {
         "url": "https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1184,7 +1414,9 @@
       {
         "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1196,7 +1428,9 @@
       {
         "url": "https://cdn-1.pishow.tv/live/1451/master.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1207,8 +1441,10 @@
     "links": [
       {
         "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03"
+        "status": "offline",
+        "last_online": "2025-09-03",
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1220,7 +1456,9 @@
       {
         "url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1232,7 +1470,9 @@
       {
         "url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1244,12 +1484,16 @@
       {
         "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1261,7 +1505,9 @@
       {
         "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1273,7 +1519,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1285,7 +1533,9 @@
       {
         "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1297,7 +1547,9 @@
       {
         "url": "https://cdn-1.pishow.tv/live/10/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1309,7 +1561,9 @@
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1321,17 +1575,23 @@
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1343,22 +1603,30 @@
       {
         "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1370,7 +1638,9 @@
       {
         "url": "https://feeds.intoday.in/aajtak/api/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1382,7 +1652,9 @@
       {
         "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1394,7 +1666,9 @@
       {
         "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1406,12 +1680,16 @@
       {
         "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1423,7 +1701,9 @@
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1435,12 +1715,16 @@
       {
         "url": "https://poclive-indiatvnews.akamaized.net/hlslive/Admin/px0219297/live/digital/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1452,7 +1736,9 @@
       {
         "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1464,7 +1750,9 @@
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1476,7 +1764,9 @@
       {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1488,7 +1778,9 @@
       {
         "url": "http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1500,7 +1792,9 @@
       {
         "url": "http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1512,7 +1806,9 @@
       {
         "url": "http://cdn11.live247stream.com/tag/tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1524,7 +1820,9 @@
       {
         "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1536,7 +1834,9 @@
       {
         "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1548,7 +1848,9 @@
       {
         "url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1560,7 +1862,9 @@
       {
         "url": "https://vodzong.mjunoon.tv:8087/streamtest/WASEB-130/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1572,7 +1876,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/time-news-172/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1584,7 +1890,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/lhrrang-179/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1596,7 +1904,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/gnnnews-181/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1608,7 +1918,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Neo-110/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1620,7 +1932,9 @@
       {
         "url": "https://cdn149.anystream.uk:8082/app/qtvglmb/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1632,7 +1946,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1644,7 +1960,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245965.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1656,12 +1974,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245921.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1673,7 +1995,9 @@
       {
         "url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1685,17 +2009,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245933.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/Sangeet-Bangla/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1707,12 +2037,16 @@
       {
         "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -1724,7 +2058,9 @@
       {
         "url": "https://amchls.wns.live/hls/stream.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1736,7 +2072,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1748,7 +2086,9 @@
       {
         "url": "https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1760,7 +2100,9 @@
       {
         "url": "https://pmcrohls.wns.live/hls/stream.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1772,12 +2114,16 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1789,12 +2135,16 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/47bdb49d-f6f3-4927-a9ea-12c4c5afc732/0.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1806,7 +2156,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1818,7 +2170,9 @@
       {
         "url": "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1830,7 +2184,9 @@
       {
         "url": "https://mcncdndigital.com/balleballetv/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1842,7 +2198,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1853,8 +2211,10 @@
     "links": [
       {
         "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8",
-        "status": "offline",
-        "last_online": null
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1866,7 +2226,9 @@
       {
         "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1878,7 +2240,9 @@
       {
         "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1890,7 +2254,9 @@
       {
         "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1902,7 +2268,9 @@
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1914,7 +2282,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SeeTV-156/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1926,7 +2296,9 @@
       {
         "url": "https://mbc1-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index_3.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1938,7 +2310,9 @@
       {
         "url": "http://208.86.19.13:81/105.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1950,7 +2324,9 @@
       {
         "url": "http://208.86.19.13:81/106.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1961,8 +2337,10 @@
     "links": [
       {
         "url": "http://208.86.19.13:81/103.stream/index.m3u8",
-        "status": "offline",
-        "last_online": null
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1974,7 +2352,9 @@
       {
         "url": "http://208.86.19.13:81/102.stream/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1986,7 +2366,9 @@
       {
         "url": "https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1998,7 +2380,9 @@
       {
         "url": "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2010,7 +2394,9 @@
       {
         "url": "https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2022,7 +2408,9 @@
       {
         "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2034,7 +2422,9 @@
       {
         "url": "https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2046,7 +2436,9 @@
       {
         "url": "https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2058,7 +2450,9 @@
       {
         "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2070,7 +2464,9 @@
       {
         "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2082,7 +2478,9 @@
       {
         "url": "http://fl1.moveonjoy.com/Discovery_Channel/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2094,7 +2492,9 @@
       {
         "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2106,7 +2506,9 @@
       {
         "url": "http://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2118,7 +2520,9 @@
       {
         "url": "http://fl1.moveonjoy.com/Destination_America/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2130,7 +2534,9 @@
       {
         "url": "http://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2142,7 +2548,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2154,7 +2562,9 @@
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2166,7 +2576,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245907.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2178,7 +2590,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/m@d@n1ch@nn3lb@ngl@/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2190,7 +2604,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2202,7 +2618,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/tv01/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2214,7 +2632,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2226,7 +2646,9 @@
       {
         "url": "https://cdn149.anystream.uk:8082/app/ic6a5l6/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2238,7 +2660,9 @@
       {
         "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2250,7 +2674,9 @@
       {
         "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2262,7 +2688,9 @@
       {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2274,7 +2702,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/bil77tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2286,7 +2716,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/i6sl9m/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2298,7 +2730,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2310,7 +2744,9 @@
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/sa1aamch568/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2322,7 +2758,9 @@
       {
         "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2334,7 +2772,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/245959.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2346,7 +2786,9 @@
       {
         "url": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2358,7 +2800,9 @@
       {
         "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2370,7 +2814,9 @@
       {
         "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2382,7 +2828,9 @@
       {
         "url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2394,7 +2842,9 @@
       {
         "url": "https://cdn-1.pishow.tv/live/224/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2406,7 +2856,9 @@
       {
         "url": "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2418,7 +2870,9 @@
       {
         "url": "http://tv.mediacdn.ru/live/solntse/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2429,8 +2883,10 @@
     "links": [
       {
         "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
-        "status": "offline",
-        "last_online": null
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2442,7 +2898,9 @@
       {
         "url": "https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2454,7 +2912,9 @@
       {
         "url": "https://fl3.moveonjoy.com/NICK_JR/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2466,7 +2926,9 @@
       {
         "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2478,7 +2940,9 @@
       {
         "url": "http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2490,7 +2954,9 @@
       {
         "url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2502,7 +2968,9 @@
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2514,12 +2982,16 @@
       {
         "url": "https://fl3.moveonjoy.com/DISNEY_JR/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2531,7 +3003,9 @@
       {
         "url": "https://fl5.moveonjoy.com/DISNEY/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2543,7 +3017,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2555,7 +3031,9 @@
       {
         "url": "https://zoomoo-samsungau.amagi.tv/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2567,12 +3045,16 @@
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2584,7 +3066,9 @@
       {
         "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2596,7 +3080,9 @@
       {
         "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2608,7 +3094,9 @@
       {
         "url": "https://d2lmgfyblo9rak.cloudfront.net/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2620,7 +3108,9 @@
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2632,7 +3122,9 @@
       {
         "url": "https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2644,7 +3136,9 @@
       {
         "url": "https://tvsen7.aynaott.com/asports-bkp/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2656,22 +3150,30 @@
       {
         "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167575.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2683,12 +3185,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167573.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2700,7 +3206,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167574.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2712,7 +3220,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167576.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2724,7 +3234,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167577.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2736,12 +3248,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/109993.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2753,7 +3269,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167578.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2765,12 +3283,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/109994.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2782,7 +3304,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167579.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2794,7 +3318,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/109983.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2806,17 +3332,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167570.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/SONY/Sports-1/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://103.110.111.36:8081/live/ten1_720p/chunks.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2828,17 +3360,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167571.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/SONY/Sports-2/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://103.110.111.36:8081/live/spten2_720p/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2850,12 +3388,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/109985.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167572.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2867,7 +3409,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167595.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2879,17 +3423,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167580.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/SONY/Sports-5/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://103.110.111.36:8081/live/spten5_720p/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2901,12 +3451,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/238475.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2918,12 +3472,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167567.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -2935,7 +3493,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/217968.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2947,7 +3507,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167568.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2959,7 +3521,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167569.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2971,7 +3535,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/219689.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2983,7 +3549,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/221417.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -2995,12 +3563,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167587.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/chunklist_b996000.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3012,12 +3584,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167581.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3029,7 +3605,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167592.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3041,7 +3619,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167593.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3053,7 +3633,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3065,7 +3647,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3077,7 +3661,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3089,7 +3675,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3101,17 +3689,23 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167594.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://195.181.161.132/skycricket/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3123,7 +3717,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3135,7 +3731,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167582.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3147,12 +3745,16 @@
       {
         "url": "https://tiger-hub.vercel.app/WillowHD-2/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3164,7 +3766,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167583.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3176,7 +3780,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167584.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3188,7 +3794,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167585.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3200,12 +3808,16 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167588.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3217,7 +3829,9 @@
       {
         "url": "http://103.15.140.138/tsports/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3229,7 +3843,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/167590.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3241,12 +3857,16 @@
       {
         "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       },
       {
         "url": "https://tvsen6.aynaott.com/tsportsfhd/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3258,7 +3878,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/206566.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3270,7 +3892,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/371469.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3282,7 +3906,9 @@
       {
         "url": "https://restream-freeflix.farhadhossain52524.workers.dev/371470.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3294,7 +3920,9 @@
       {
         "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3306,12 +3934,16 @@
       {
         "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3323,7 +3955,9 @@
       {
         "url": "http://smart.bengaldigital.live/WWE/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3335,7 +3969,9 @@
       {
         "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3347,7 +3983,9 @@
       {
         "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3359,7 +3997,9 @@
       {
         "url": "https://kusnadipepenk.github.io/ntn/elesp3.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3371,7 +4011,9 @@
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3383,7 +4025,9 @@
       {
         "url": "https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3395,7 +4039,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3407,7 +4053,9 @@
       {
         "url": "http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3419,7 +4067,9 @@
       {
         "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3431,7 +4081,9 @@
       {
         "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/fe320f6f-fbc4-4b81-8549-1f7a5ff71ca0/0.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3443,22 +4095,30 @@
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3470,7 +4130,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/1/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3482,7 +4144,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3493,8 +4157,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/2/tracks-v1a1/mono.ts.m3u8",
-        "status": "offline",
-        "last_online": null
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3506,7 +4172,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/Premium_2/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3518,7 +4186,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3530,7 +4200,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/Premium_3/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3542,7 +4214,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/4/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3554,7 +4228,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/5/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2025-09-03"
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3565,8 +4241,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/6/tracks-v1a1/mono.ts.m3u8",
-        "status": "offline",
-        "last_online": null
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3578,7 +4256,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/7/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3590,7 +4270,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/8/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3602,7 +4284,9 @@
       {
         "url": "https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3614,7 +4298,9 @@
       {
         "url": "https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3626,7 +4312,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3638,7 +4326,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Hub_Sports-2/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -3650,7 +4340,9 @@
       {
         "url": "https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8",
         "status": "offline",
-        "last_online": null
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
       }
     ]
   }
