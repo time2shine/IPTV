@@ -20,37 +20,15 @@ def check_ffmpeg(url, channel_name):
         print(f"[SKIPPED] {channel_name}")
         return url, "online"
 
-    # FFmpeg command with reconnect and appropriate duration
+    ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
+                  "-i", url, "-t", "2", "-f", "null", "-"]
     if FAST_MODE:
-        ffmpeg_cmd = [
-            "ffmpeg",
-            "-reconnect", "1",
-            "-reconnect_streamed", "1",
-            "-reconnect_delay_max", "2",
-            "-probesize", "500000",
-            "-analyzeduration", "500000",
-            "-i", url,
-            "-t", "2",
-            "-f", "null", "-"
-        ]
-        timeout_sec = 15
-    else:
-        ffmpeg_cmd = [
-            "ffmpeg",
-            "-reconnect", "1",
-            "-reconnect_streamed", "1",
-            "-reconnect_delay_max", "2",
-            "-probesize", "1000000",
-            "-analyzeduration", "1000000",
-            "-i", url,
-            "-t", "5",
-            "-f", "null", "-"
-        ]
-        timeout_sec = 30
+        ffmpeg_cmd = ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
+                      "-i", url, "-t", "1", "-f", "null", "-"]
 
     for attempt in range(1, RETRIES + 2):
         try:
-            result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=timeout_sec)
+            result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=15)
             # Use returncode to determine success
             if result.returncode == 0:
                 print(f"[ONLINE] {channel_name} -> {url}")
@@ -62,6 +40,7 @@ def check_ffmpeg(url, channel_name):
 
     print(f"[OFFLINE] {channel_name} -> {url}")
     return url, "offline"
+
 
 def update_status_parallel(channels):
     """Update status of all links using parallel FFmpeg checks."""
