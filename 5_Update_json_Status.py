@@ -8,7 +8,6 @@ import time
 print = functools.partial(print, flush=True)
 
 JSON_FILE = "static_channels.json"
-OUTPUT_FILE = "static_channels_checked.json"
 
 # Channels to skip FFmpeg check (optional)
 EXCLUDE_LIST = [
@@ -93,10 +92,10 @@ def main():
             channels[name] = updated_data
 
     # Save updated JSON
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(channels, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ Status check complete. Updated JSON saved as {OUTPUT_FILE}")
+    print(f"\n✅ Status check complete. Updated JSON saved as {JSON_FILE}")
     print(f"\n=== SUMMARY ===")
     print(f"Total online streams: {len(ONLINE_CHANNELS)}")
     for ch in ONLINE_CHANNELS:
