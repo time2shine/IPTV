@@ -12,7 +12,7 @@ print = functools.partial(print, flush=True)
 JSON_FILE = "static_channels.json"
 FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 20       # Parallel FFmpeg threads
+MAX_WORKERS = 40       # Parallel FFmpeg threads
 EXCLUDE_LIST = ["Republic Bangla", "Republic Bharat", "Aaj Tak HD", "Aaj Tak", "India Today"]
 
 def check_ffmpeg(url, channel_name):
@@ -39,24 +39,41 @@ def check_ffmpeg(url, channel_name):
             pass
 
     print(f"[OFFLINE] {channel_name} -> {url}")
-    return url, "offline", None
+    return url, "offline", today
 
 def update_status_parallel(channels):
     """Update status of all links using parallel FFmpeg checks."""
     tasks = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         for channel_name, info in channels.items():
-            for i, link_entry in enumerate(info["links"]):
-                # Convert string links to dict if needed
-                if isinstance(link_entry, str):
-                    info["links"][i] = {"url": link_entry, "status": "unknown", "last_online": None}
-                    link_entry = info["links"][i]
-                
-                # Ensure 'last_online' key exists
-                if "last_online" not in link_entry:
-                    link_entry["last_online"] = None
+            # Ensure 'links' exists and is a list
+            if "links" not in info or not isinstance(info["links"], list):
+                info["links"] = []
 
-                url = link_entry["url"]
+            for i, link_entry in enumerate(info["links"]):
+                # If link is empty or None, keep as missing
+                if not link_entry:
+                    info["links"][i] = {"url": None, "status": "missing",
+                                        "first_online": None, "last_offline": None}
+                    continue
+
+                # Convert string links to dict
+                if isinstance(link_entry, str):
+                    info["links"][i] = {"url": link_entry, "status": "unknown",
+                                        "first_online": None, "last_offline": None}
+                    link_entry = info["links"][i]
+
+                # Ensure keys exist
+                if "first_online" not in link_entry:
+                    link_entry["first_online"] = None
+                if "last_offline" not in link_entry:
+                    link_entry["last_offline"] = None
+
+                url = link_entry.get("url")
+                if not url:
+                    link_entry["status"] = "missing"
+                    continue
+
                 tasks.append(executor.submit(check_ffmpeg, url, channel_name))
 
         # Collect results and update JSON
@@ -64,56 +81,49 @@ def update_status_parallel(channels):
             url, status, today = future.result()
             for info in channels.values():
                 for link_entry in info["links"]:
-                    if link_entry["url"] == url:
+                    if link_entry.get("url") == url:
                         link_entry["status"] = status
                         if status == "online":
-                            link_entry["last_online"] = today.isoformat()
-                        # If offline and last_online is missing, leave as None
+                            # Set first_online if never online before
+                            if link_entry.get("first_online") is None:
+                                link_entry["first_online"] = today.isoformat()
+                            # Reset last_offline
+                            link_entry["last_offline"] = None
+                        elif status == "offline":
+                            # Set last_offline if not already set
+                            if link_entry.get("last_offline") is None:
+                                link_entry["last_offline"] = today.isoformat()
 
 def summarize(channels, start_time):
-    """Print summary of online/offline links and offline durations."""
+    """Print summary of online/offline/missing links and offline durations."""
     total_channels = len(channels)
     online_links = 0
     offline_links = 0
+    missing_links = 0
     today = date.today()
 
     print("\n=== SUMMARY ===")
     for info in channels.values():
-        for link in info["links"]:
-            if link.get("status") == "online":
+        for link in info.get("links", []):
+            url = link.get("url")
+            status = link.get("status")
+            if status == "online":
                 online_links += 1
-            elif link.get("status") == "offline":
+            elif status == "offline":
                 offline_links += 1
-                last_online = link.get("last_online")
-                if last_online:
-                    days_offline = (today - datetime.fromisoformat(last_online).date()).days
-                    print(f"[OFFLINE] {link['url']} -> Offline for {days_offline} day(s)")
+                last_offline = link.get("last_offline")
+                if last_offline:
+                    days_offline = (today - datetime.fromisoformat(last_offline).date()).days
+                    print(f"[OFFLINE] {url} -> Offline for {days_offline} day(s)")
                 else:
-                    print(f"[OFFLINE] {link['url']} -> Offline (unknown duration)")
+                    print(f"[OFFLINE] {url} -> Offline (unknown duration)")
+            elif status == "missing":
+                missing_links += 1
+                print(f"[MISSING] {url} -> No link provided")
 
     elapsed = time.time() - start_time
     print(f"\nTotal channels: {total_channels}")
     print(f"Total online links: {online_links}")
     print(f"Total offline links: {offline_links}")
-    print(f"Total runtime: {elapsed:.2f} seconds")
-
-def main():
-    start_time = time.time()
-
-    # Load JSON
-    with open(JSON_FILE, "r", encoding="utf-8") as f:
-        channels = json.load(f)
-
-    # Update status in parallel
-    update_status_parallel(channels)
-
-    # Save updated JSON
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(channels, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ Updated {JSON_FILE} with online/offline status.")
-
-    # Print summary
-    summarize(channels, start_time)
-
-if __name__ == "__main__":
-    main()
+    print(f"Total missing links: {missing_links}")
+    print(f"Total run
