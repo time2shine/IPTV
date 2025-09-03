@@ -10,9 +10,9 @@ print = functools.partial(print, flush=True)
 
 # Config
 JSON_FILE = "static_channels.json"
-FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
+FAST_MODE = True       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 40       # Parallel FFmpeg threads
+MAX_WORKERS = 10       # Parallel FFmpeg threads
 EXCLUDE_LIST = ["Republic Bangla", "Republic Bharat", "Aaj Tak HD", "Aaj Tak", "India Today"]
 
 def check_ffmpeg(url, channel_name):
@@ -126,4 +126,25 @@ def summarize(channels, start_time):
     print(f"Total online links: {online_links}")
     print(f"Total offline links: {offline_links}")
     print(f"Total missing links: {missing_links}")
-    print(f"Total run
+    print(f"Total runtime: {elapsed:.2f} seconds")
+
+def main():
+    start_time = time.time()
+
+    # Load JSON
+    with open(JSON_FILE, "r", encoding="utf-8") as f:
+        channels = json.load(f)
+
+    # Update status in parallel
+    update_status_parallel(channels)
+
+    # Save updated JSON
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(channels, f, ensure_ascii=False, indent=2)
+    print(f"\n✅ Updated {JSON_FILE} with online/offline/missing status.")
+
+    # Print summary
+    summarize(channels, start_time)
+
+if __name__ == "__main__":
+    main()
