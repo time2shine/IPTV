@@ -118,12 +118,12 @@ def summarize(channels, start_time):
                 last_offline = link.get("last_offline")
                 if last_offline:
                     days_offline = (today - datetime.fromisoformat(last_offline).date()).days
-                    print(f"[OFFLINE] {channel_name} offline for {days_offline} day(s)")
+                    print(f"[OFFLINE] {channel_name} Offline for {days_offline} day(s) -> {url}")
                 else:
-                    print(f"[OFFLINE] {url} -> Offline (unknown duration)")
+                    print(f"[OFFLINE] {channel_name} Offline (unknown duration) -> {url}")
             elif status == "missing":
                 missing_links += 1
-                print(f"[MISSING] {url} -> No link provided")
+                print(f"[MISSING] {channel_name} -> No link provided")
 
     elapsed = time.time() - start_time
     print(f"\nTotal channels: {total_channels}")
