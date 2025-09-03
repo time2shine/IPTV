@@ -10,10 +10,10 @@ print = functools.partial(print, flush=True)
 
 # Config
 JSON_FILE = "static_channels.json"
-FAST_MODE = True       # True = fast FFmpeg, False = full/slow check
+FAST_MODE = False       # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
-MAX_WORKERS = 10       # Parallel FFmpeg threads
-EXCLUDE_LIST = ["Republic Bangla", "Republic Bharat", "Aaj Tak HD", "Aaj Tak", "India Today"]
+MAX_WORKERS = 40       # Parallel FFmpeg threads
+EXCLUDE_LIST = ["Republic Bangla", "Republic Bharat", "Aaj Tak HD", "Aaj Tak", "India Today", "Ekushay TV (Local)", "Ekushay TV"]
 
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
@@ -51,23 +51,21 @@ def update_status_parallel(channels):
                 info["links"] = []
 
             for i, link_entry in enumerate(info["links"]):
-                # If link is empty or None, keep as missing
+                # If link is empty or None, mark as missing but keep in JSON
                 if not link_entry:
                     info["links"][i] = {"url": None, "status": "missing",
                                         "first_online": None, "last_offline": None}
                     continue
 
-                # Convert string links to dict
+                # Convert string link to dict
                 if isinstance(link_entry, str):
                     info["links"][i] = {"url": link_entry, "status": "unknown",
                                         "first_online": None, "last_offline": None}
                     link_entry = info["links"][i]
 
                 # Ensure keys exist
-                if "first_online" not in link_entry:
-                    link_entry["first_online"] = None
-                if "last_offline" not in link_entry:
-                    link_entry["last_offline"] = None
+                link_entry.setdefault("first_online", None)
+                link_entry.setdefault("last_offline", None)
 
                 url = link_entry.get("url")
                 if not url:
@@ -87,7 +85,6 @@ def update_status_parallel(channels):
                             # Set first_online if never online before
                             if link_entry.get("first_online") is None:
                                 link_entry["first_online"] = today.isoformat()
-                            # Reset last_offline
                             link_entry["last_offline"] = None
                         elif status == "offline":
                             # Set last_offline if not already set
@@ -128,6 +125,18 @@ def summarize(channels, start_time):
     print(f"Total missing links: {missing_links}")
     print(f"Total runtime: {elapsed:.2f} seconds")
 
+def sort_channels(channels):
+    """Sort channels by group then channel name."""
+    return dict(
+        sorted(
+            channels.items(),
+            key=lambda item: (
+                item[1].get("group", "").lower(),  # sort by group
+                item[0].lower()                    # then by channel name
+            )
+        )
+    )
+
 def main():
     start_time = time.time()
 
@@ -138,13 +147,16 @@ def main():
     # Update status in parallel
     update_status_parallel(channels)
 
-    # Save updated JSON
+    # Sort channels by group then name
+    channels_sorted = sort_channels(channels)
+
+    # Save updated and sorted JSON
     with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(channels, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ Updated {JSON_FILE} with online/offline/missing status.")
+        json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
+    print(f"\n✅ Updated {JSON_FILE} with online/offline/missing status and sorted by group/name.")
 
     # Print summary
-    summarize(channels, start_time)
+    summarize(channels_sorted, start_time)
 
 if __name__ == "__main__":
     main()
