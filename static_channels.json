@@ -637,17 +637,10 @@
     ]
   },
   "ABP Ananda": {
-    "group": "India",
+    "group": "Bangla News",
     "tvg_id": "ABPAnanda.in",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/512px-ABP_Ananda_logo.svg.png",
     "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
         "status": "online",
@@ -664,6 +657,13 @@
     "links": [
       {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1392,6 +1392,20 @@
       }
     ]
   },
+  "Africanews": {
+    "group": "International News",
+    "tvg_id": "Africanews.sa",
+    "tvg_logo": "https://a.jsrdn.com/hls/22886/africanews/logo_20231218_175639_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "DW News": {
     "group": "International News",
     "tvg_id": "dwnews",
@@ -1424,6 +1438,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -1434,6 +1455,20 @@
     "links": [
       {
         "url": "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "OAN Plus": {
+    "group": "International News",
+    "tvg_id": "OANPlus.us",
+    "tvg_logo": "https://a.jsrdn.com/hls/22866/oan-encore/logo_20231219_220536_57.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1775,6 +1810,13 @@
     "tvg_id": "RongeenTV",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/09/Rongeen_TV.jpeg",
     "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rongeen-tv/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
       {
         "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
         "status": "online",
@@ -2165,8 +2207,15 @@
   "Tara TV": {
     "group": "Movie",
     "tvg_id": "TaraTV.in",
-    "tvg_logo": "https://i.ibb.co.com/q97X828/Tara-TV.png",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/tara-tv/logo_20250401_184429_70.png",
     "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      },
       {
         "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8",
         "status": "offline",
@@ -2245,7 +2294,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png",
     "links": [
       {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8",
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -2253,6 +2302,13 @@
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -2323,6 +2379,13 @@
     "links": [
       {
         "url": "https://mcncdndigital.com/balleballetv/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -2732,8 +2795,15 @@
   "Tribe TV": {
     "group": "Bangla News",
     "tvg_id": "TribeTV.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/Tribe_TV_Bangla.png",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/tribe-tv/logo_20250429_225821_70.png",
     "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tribe-tv/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
       {
         "url": "https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8",
         "status": "online",
@@ -2753,6 +2823,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+            {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/main.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -4335,6 +4412,944 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Wild Nature": {
+    "group": "Kids",
+    "tvg_id": "WildNature",
+    "tvg_logo": "https://a.jsrdn.com/hls/23208/wild-nature/logo_20250401_214215_70.png",
+    "links": [
+      {
+        "url": "https://dg5rg8emlfy55.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WildNature2/491.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Viajar TV": {
+    "group": "Travel",
+    "tvg_id": "ViajarTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/viajar-tv/logo_20250102_223334_36.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/VVP0MGDRUILC8BDR6S0M/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "DroneTV": {
+    "group": "Travel",
+    "tvg_id": "DroneTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23176/dronetv/logo_20240521_191242_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "The Boat Show": {
+    "group": "Travel",
+    "tvg_id": "TheBoatShow",
+    "tvg_logo": "https://a.jsrdn.com/hls/22706/the-boat-show/logo_20231219_223008_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "IDG": {
+    "group": "Technology",
+    "tvg_id": "IDG",
+    "tvg_logo": "https://a.jsrdn.com/hls/22751/idg/logo_20231219_214050_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/idg/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Peak Fighting": {
+    "group": "Sports",
+    "tvg_id": "PeakFighting",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/peak-fighting/logo_20250422_184955_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/WHO7DFHIX4DBKUFBSGIY/hls3/now,-1m,15s/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Sports First TV": {
+    "group": "Sports",
+    "tvg_id": "SportsFirstTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23208/sports-first-tv/logo_20250211_205731_70.png",
+    "links": [
+      {
+        "url": "https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Skull Bound TV": {
+    "group": "Sports",
+    "tvg_id": "SkullBoundTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/skull-bound-tv/logo_20250102_202956_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/E93PS4KYXIWU8QT6LONU/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "SportsTVPlus": {
+    "group": "Sports",
+    "tvg_id": "SportsTVPlus",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/sportstvplus/logo_20241119_225320_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Cowboy Channel": {
+    "group": "Sports",
+    "tvg_id": "CowboyChannel",
+    "tvg_logo": "https://a.jsrdn.com/hls/23180/cowboy-channel/logo_20250512_172556_70.png",
+    "links": [
+      {
+        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "PLL Network": {
+    "group": "Sports",
+    "tvg_id": "PLLNetwork",
+    "tvg_logo": "https://a.jsrdn.com/hls/22964/pll-network-ww/logo_20240626_232614_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pll-network-ww/pll.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "MTRSPT1": {
+    "group": "Sports",
+    "tvg_id": "MTRSPT1",
+    "tvg_logo": "https://a.jsrdn.com/hls/23099/mtrspt1/logo_20250122_232635_70.png",
+    "links": [
+      {
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Sports Connect": {
+    "group": "Sports",
+    "tvg_id": "SportsConnect",
+    "tvg_logo": "https://a.jsrdn.com/hls/23181/sports-connect/logo_20231219_222026_50.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "LifeFit by Triptic": {
+    "group": "Sports",
+    "tvg_id": "LifeFitbyTriptic",
+    "tvg_logo": "https://a.jsrdn.com/hls/23024/lifefit-by-triptic/logo_20231219_215130_63.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Bleav Football": {
+    "group": "Sports",
+    "tvg_id": "BleavFootball",
+    "tvg_logo": "https://a.jsrdn.com/hls/23091/bleav-football/logo_20231219_184637_64.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bleav-football/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "FUEL TV": {
+    "group": "Sports",
+    "tvg_id": "FUELTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv-ww/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "MotorRacing": {
+    "group": "Sports",
+    "tvg_id": "MotorRacing",
+    "tvg_logo": "https://a.jsrdn.com/hls/22705/motorracing/logo_20231219_215946_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Dot Esports": {
+    "group": "Sports",
+    "tvg_id": "DotEsports",
+    "tvg_logo": "https://a.jsrdn.com/hls/22904/dot-esports/logo_20231219_193130_43.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dot-esports/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "MMA Junkie": {
+    "group": "Sports",
+    "tvg_id": "MMAJunkie",
+    "tvg_logo": "https://a.jsrdn.com/hls/22814/mma-junkie/logo_20231219_215607_30.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Outsidetv": {
+    "group": "Sports",
+    "tvg_id": "Outsidetv",
+    "tvg_logo": "https://a.jsrdn.com/hls/22765/outside-tv/logo_20231219_220634_59.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Horizon Sports": {
+    "group": "Sports",
+    "tvg_id": "HorizonSports",
+    "tvg_logo": "https://a.jsrdn.com/hls/22705/horizon-sports/logo_20231219_213910_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Kolkata Tv": {
+    "group": "Bangla News",
+    "tvg_id": "KolkataTv.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/kolkata-tv/logo_20250819_185012_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "India Daily 24x7": {
+    "group": "India",
+    "tvg_id": "IndiaDaily24x7.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23225/india-daily-24x7/logo_20250618_171159_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "News India 24X7": {
+    "group": "India",
+    "tvg_id": "NewsIndia24X7.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/news-india-24x7/logo_20250611_205743_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-india-24x7/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Bharat 24": {
+    "group": "India",
+    "tvg_id": "Bharat24.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/bharat-24/logo_20250611_203139_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-24/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "News9Live": {
+    "group": "India",
+    "tvg_id": "News9Live.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23129/news9live/logo_20250813_011629_68.jpg",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Rockola Television": {
+    "group": "Music",
+    "tvg_id": "RockolaTelevision",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/rockola-television/logo_20250109_231904_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/RHT6XGG6VHZA0P8T1MGX/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "HITS MEXICANOS": {
+    "group": "Music",
+    "tvg_id": "HITSMEXICANOS",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/hits-mexicanos/logo_20250109_231027_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "4ACETV RNB": {
+    "group": "Music",
+    "tvg_id": "4ACETVRNB",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv-rnb/logo_20241125_203020_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/F5ULR0LIVWER0I6ONXY4/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "4ACETV CLASSIC HITS": {
+    "group": "Music",
+    "tvg_id": "4ACETVCLASSICHITS",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv-classic-hits/logo_20241125_202430_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MH8JAMWTLW2AQV5RA55S/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "4ACETV AFROBEAT": {
+    "group": "Music",
+    "tvg_id": "4ACETVAFROBEAT",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv-afrobeat/logo_20241125_201355_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/4599G7ELH7ADOE9DQJK4/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "4ACETV": {
+    "group": "Music",
+    "tvg_id": "4ACETV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv/logo_20241125_195233_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "TRACE UK": {
+    "group": "Music",
+    "tvg_id": "TRACEUK",
+    "tvg_logo": "https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Saga Music": {
+    "group": "Music",
+    "tvg_id": "SagaMusic.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23146/saga-music/logo_20240322_183949_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "YRF Music": {
+    "group": "Music",
+    "tvg_id": "YRFMusic.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Shemaroo Filmigaane": {
+    "group": "Music",
+    "tvg_id": "ShemarooFilmigaane.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-filmigaane/logo_20240206_190035_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Dabangg": {
+    "group": "Music",
+    "tvg_id": "Dabangg.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23199/dabangg/logo_20250324_190201_63.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dabangg/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Maiboli": {
+    "group": "Music",
+    "tvg_id": "Maiboli.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/22973/maiboli/logo_20231219_215344_67.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/maiboli/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Kids TV India - Nursery Rhymes and Baby Songs": {
+    "group": "Kids",
+    "tvg_id": "KidsTVIndiaNurseryRhymesandBabySongs.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23088/kids-tv-india/logo_20231219_214815_66.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kids-tv-india-nursery-rhymes-and-baby-songs/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "TRACE Brazuca": {
+    "group": "Music",
+    "tvg_id": "TRACEBrazuca",
+    "tvg_logo": "https://a.jsrdn.com/hls/23073/trace-brazuca/logo_20231219_223457_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-brazuca/encrypted.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "TRACE Latina": {
+    "group": "Music",
+    "tvg_id": "TRACELatina",
+    "tvg_logo": "https://a.jsrdn.com/hls/23073/trace-latina/logo_20231219_223517_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-latina/encrypted.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "POWERtube TV": {
+    "group": "Travel",
+    "tvg_id": "POWERtubeTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23064/powertube-tv/logo_20250617_213124_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Mahua Play": {
+    "group": "Movie",
+    "tvg_id": "MahuaPlay.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/mahua-play/logo_20250429_233701_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "a-z Western Grit": {
+    "group": "Movie",
+    "tvg_id": "azWesternGrit.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-western-grit/logo_20250205_010126_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "a-z Classic Flix": {
+    "group": "Movie",
+    "tvg_id": "azClassicFlix.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-classic-flix/logo_20250205_005636_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "a-z Best Classic TV": {
+    "group": "Movie",
+    "tvg_id": "azBestClassicTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-best-classic-tv/logo_20250205_004115_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Urban Action Channel": {
+    "group": "Movie",
+    "tvg_id": "UrbanActionChannel.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/urban-action-channel/logo_20250205_002523_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Colorized.TV": {
+    "group": "Movie",
+    "tvg_id": "ColorizedTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/colorizedtv/logo_20241210_234659_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Haryana Beat": {
+    "group": "Music",
+    "tvg_id": "HaryanaBeat.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/22994/haryana-beat/logo_20241127_213000_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Old West TV": {
+    "group": "Movie",
+    "tvg_id": "OldWestTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/old-west-tv/logo_20241119_225939_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Comedy Classics": {
+    "group": "Movie",
+    "tvg_id": "ComedyClassics.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/comedy-classics/logo_20241119_223830_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/ETV3I79BLYUCBY8O1B27/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Cartoon Classics": {
+    "group": "Kids",
+    "tvg_id": "CartoonClassics.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/cartoon-classics/logo_20241119_223053_61.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Tabbar Hits": {
+    "group": "Music",
+    "tvg_id": "TabbarHits.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23196/tabbar-hits/logo_20241119_184505_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Green Chillies TV": {
+    "group": "Music",
+    "tvg_id": "GreenChilliesTV.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23179/green-chillies-tv/logo_20240627_214400_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Surf Roots TV": {
+    "group": "Music",
+    "tvg_id": "SurfRootsTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23139/surf-roots-tv/logo_20240523_220440_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/surf-roots-tv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Bollywood Masala": {
+    "group": "India",
+    "tvg_id": "BollywoodMasala.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Shemaroo Bollywood": {
+    "group": "Movie",
+    "tvg_id": "ShemarooBollywood.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-bollywood/logo_20240206_185308_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Mediacorp Entertainment": {
+    "group": "Movie",
+    "tvg_id": "MediacorpEntertainment",
+    "tvg_logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-english/logo_20240102_190017_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "ToonzKids niños": {
+    "group": "Kids",
+    "tvg_id": "ToonzKidsnios",
+    "tvg_logo": "https://a.jsrdn.com/hls/23131/toonzkids-ninos/logo_20231219_223332_60.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids-spanish/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "ToonzKids Atfal": {
+    "group": "Kids",
+    "tvg_id": "ToonzKidsAtfal",
+    "tvg_logo": "https://a.jsrdn.com/hls/23131/toonzkids-atfal/logo_20231219_223251_61.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids-arabic/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "ToonzKids": {
+    "group": "Kids",
+    "tvg_id": "ToonzKids",
+    "tvg_logo": "https://a.jsrdn.com/hls/23131/toonzkids/logo_20231219_223312_67.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "BritAsiaTV": {
+    "group": "Music",
+    "tvg_id": "BritAsiaTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/22693/britasiatv/logo_20231219_185045_64.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Masala Entertainment Plus": {
+    "group": "India",
+    "tvg_id": "MasalaEntertainmentPlus.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23029/masala-entertainment-plus/logo_20231219_215407_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/masala-entertainment-plus/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Pitaara TV": {
+    "group": "Music",
+    "tvg_id": "PitaaraTV.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23049/pitaara-tv/logo_20231219_220959_63.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "PTrue History": {
+    "group": "Educational",
+    "tvg_id": "TrueHistory",
+    "tvg_logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "Documentary+": {
+    "group": "Educational",
+    "tvg_id": "DocumentaryPlus",
+    "tvg_logo": "https://a.jsrdn.com/hls/22943/documentary/logo_20231219_193112_63.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+   "MilitaryTimes": {
+    "group": "Educational",
+    "tvg_id": "MilitaryTimes",
+    "tvg_logo": "https://a.jsrdn.com/hls/22930/militarytimes/logo_20231219_215521_36.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sightline/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
