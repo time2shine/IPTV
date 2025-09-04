@@ -13,14 +13,17 @@ OUTPUT_FILE = "combined.m3u"
 
 # Group order
 GROUP_ORDER = [
-    "Entertainment",
-    "News",
+    "Bangla",
+    "Bangla News",
     "International News",
-    "Movie",
     "India",
     "Pakistan",
+    "Movie",
+    "Educational",
     "Music",
     "International",
+    "Technology",
+    "Travel",
     "Sports",
     "Religious",
     "Kids",
