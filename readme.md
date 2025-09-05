@@ -18,16 +18,16 @@ A simple yet powerful IPTV playlist & EPG manager. This project was created as a
 
 ```
 IPTV/
-├── .github/workflows/       # CI/CD pipelines for automation
-├── channels.py              # Channel management logic
-├── combine_playlists.py     # Combines M3U playlists into one
-├── epg_scraper.py           # Scrapes and generates EPG (XMLTV format)
-├── main.py                  # Main entry point – runs everything
-├── static_channels.json     # Predefined static channels
-├── static_channels_update.py# Updates static channels automatically
-├── YT_playlist.m3u          # YouTube sourced playlist
-├── combined.m3u             # Final generated playlist (output)
-└── epg.xml                  # Final generated TV guide (output)
+├── .github/workflows/         # CI/CD pipelines for automation
+├── channels.py                # YouTube channels list
+├── combine_playlists.py       # Combines YouTube and static channels playlist into one
+├── epg_scraper.py             # Scrapes and generates EPG (XML format)
+├── main.py                    # Main entry point – runs everything
+├── static_channels.json       # Predefined static channels
+├── static_channels_update.py  # Updates static channels status automatically
+├── YT_playlist.m3u            # Playlist generated from Youtube (output)
+├── combined.m3u               # Final generated playlist (output)
+└── epg.xml                    # Final generated TV guide (output)
 ```
 
 ---
