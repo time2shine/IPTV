@@ -3502,10 +3502,17 @@
   "Dunya News": {
     "group": "Pakistan",
     "tvg_id": "dunya",
-    "tvg_logo": "https://images.seeklogo.com/logo-png/31/1/dunya-news-logo-png_seeklogo-314631.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/Dunya_News.png",
     "links": [
       {
         "url": "http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://intl.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/chunklist_w1668837618_b950272.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -3516,7 +3523,7 @@
   "Geo Kahani HD": {
     "group": "Pakistan",
     "tvg_id": "GeoKahani.pk",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/d/d8/Geo_Kahani.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d8/Geo_Kahani.png",
     "links": [
       {
         "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
@@ -3544,7 +3551,7 @@
   "Hum TV HD": {
     "group": "Pakistan",
     "tvg_id": "HumTV.pk",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/Hum_TV_2013.png",
+    "tvg_logo": "https://hum.tv/wp-content/uploads/2022/03/logo-2.png",
     "links": [
       {
         "url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8",
@@ -3586,7 +3593,7 @@
   "Prime Canada TV (CA)": {
     "group": "Pakistan",
     "tvg_id": "primecanada.ca",
-    "tvg_logo": "https://images.seeklogo.com/logo-png/11/1/prime-tv-logo-png_seeklogo-111977.png",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_k927GbNeWja0mF2-rg3RMfSHfehGOY8NekMiHtf7Bb2QE=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
         "url": "http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8",
@@ -3614,7 +3621,7 @@
   "Such TV SD": {
     "group": "Pakistan",
     "tvg_id": "SuchTV.pk",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Such_news_logo.jpg",
+    "tvg_logo": "https://yt3.googleusercontent.com/ywkjqFzUtIcj3RS3ab-BCBoZkUyc8PGeiXBqxxCwBCwyRVGyxK5FTXuV_-FHrk9hJIQrbPO5Mw=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
         "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8",
@@ -3628,7 +3635,7 @@
   "Tag TV": {
     "group": "Pakistan",
     "tvg_id": "tagtv.pk",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Tag_%28TV_channel%29_logo.png",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_mnt-zSHy_ezc-HbwHC6fsV-WkT0VobmddALhF1rO1zYF8=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
         "url": "http://cdn11.live247stream.com/tag/tv/playlist.m3u8",
