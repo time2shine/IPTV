@@ -103,7 +103,7 @@ channel_metadata = {
 
     # --- Entertainment Channels ---
     'UC9nuJbEL-AMJLLqc2-ej8xQ': {  # Bongo
-        'group_title': 'Entertainment',
+        'group_title': 'Bangla',
         'channel_name': 'Bongo',
         'channel_logo': 'https://images.seeklogo.com/logo-png/52/1/bongo-logo-png_seeklogo-520242.png',
     },
@@ -127,6 +127,7 @@ channel_metadata = {
         'channel_logo': 'https://yt3.googleusercontent.com/plbYMBlbSJHXOLEqCE4tCFPkw-WwoZ5y-oI4M1l5dljjOFMrQj9g_ZYTb5Fu8t_y8weRNR4iHQ=s160-c-k-c0x00ffffff-no-rj',
     },
 }
+
 
 
 
