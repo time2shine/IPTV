@@ -1,0 +1,107 @@
+# 📺 time2shine/IPTV
+
+A simple yet powerful IPTV playlist & EPG manager. This project was created as a **coding hobby** and to maintain a working IPTV setup for personal use.
+
+---
+
+## 🚀 Features
+
+- ✅ **Playlist Aggregation** – Combines multiple `.m3u` playlists into one.
+- ✅ **Static Channel Updates** – Automatically merges static channels from `static_channels.json`.
+- ✅ **EPG Scraper** – Generates or updates `epg.xml` for TV guide support.
+- ✅ **YouTube Playlist Support** – Reads channels from `YT_playlist.m3u`.
+- ✅ **Fully Automated** – CI/CD workflows can regenerate playlists and guides.
+
+---
+
+## 🗂 Project Structure
+
+```
+IPTV/
+├── .github/workflows/       # CI/CD pipelines for automation
+├── channels.py              # Channel management logic
+├── combine_playlists.py     # Combines M3U playlists into one
+├── epg_scraper.py           # Scrapes and generates EPG (XMLTV format)
+├── main.py                  # Main entry point – runs everything
+├── static_channels.json     # Predefined static channels
+├── static_channels_update.py# Updates static channels automatically
+├── YT_playlist.m3u          # YouTube sourced playlist
+├── combined.m3u             # Final generated playlist (output)
+└── epg.xml                  # Final generated TV guide (output)
+```
+
+---
+
+## 📊 Workflow Diagram
+
+```mermaid
+graph TD;
+  A[YT_playlist.m3u] --> B[combine_playlists.py]
+  C[static_channels.json] --> B
+  B --> D[combined.m3u]
+  D --> E[main.py]
+  E --> F[epg_scraper.py]
+  F --> G[epg.xml]
+```
+
+---
+
+## ⚙️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/time2shine/IPTV.git
+   cd IPTV
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Generate Playlist & EPG:**
+   ```bash
+   python main.py
+   ```
+
+4. **Find outputs:**
+   - `combined.m3u` → your IPTV playlist
+   - `epg.xml` → your TV guide
+
+---
+
+## 🖼 Example Output
+
+**Sample combined.m3u:**
+```m3u
+#EXTM3U
+#EXTINF:-1 tvg-id="BBCWORLD" group-title="News",BBC World News
+http://example.com/stream/bbcworld
+```
+
+---
+
+## 🛠 For Developers
+
+- Add new channels by editing `static_channels.json`.
+- Modify playlist combination rules in `combine_playlists.py`.
+- Extend EPG scraping logic in `epg_scraper.py` for custom sources.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork the repo, make your changes, and submit a PR.
+
+---
+
+## 📜 License
+
+MIT License – free to use, modify, and share.
+
+---
+
+## ❤️ Maintainer Notes
+
+This project is maintained as a **hobby** and for family use. It's a fun way to keep learning Python while keeping IPTV streams organized for daily use.
+
