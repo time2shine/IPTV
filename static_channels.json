@@ -860,7 +860,7 @@
       }
     ]
   },
-  "Aaj Tak HD": {
+  "Aaj Tak": {
     "group": "India",
     "tvg_id": "AajTak.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png",
@@ -1066,17 +1066,17 @@
   "India Today": {
     "group": "India",
     "tvg_id": "indiatoday.in",
-    "tvg_logo": "https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/India_Today_TV.jpg",
     "links": [
       {
-        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8",
+        "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
       },
       {
-        "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1134,7 +1134,7 @@
     ]
   },
   "Mastiii": {
-    "group": "India",
+    "group": "Music",
     "tvg_id": "Mastiii.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Mastiii_2023.jpg",
     "links": [
@@ -1171,7 +1171,7 @@
   "NDTV English": {
     "group": "India",
     "tvg_id": "ndtvenglish",
-    "tvg_logo": "https://logotyp.us/file/ndtv.svg",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/63/NDTV_24x7.png",
     "links": [
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
@@ -1196,10 +1196,10 @@
       }
     ]
   },
-  "NDTV India": {
+  "NDTV Hindi": {
     "group": "India",
     "tvg_id": "ndtvindia",
-    "tvg_logo": "https://logotyp.us/file/ndtv.svg",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/Ndtvindialogo.png",
     "links": [
       {
         "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8",
@@ -1295,9 +1295,9 @@
     ]
   },
   "Zoom": {
-    "group": "India",
+    "group": "Music",
     "tvg_id": "Zoom.in",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Zoom%28TVchannel%29Logo.jpg",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Zoom_2018_logo.jpg",
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
