@@ -1174,7 +1174,7 @@
     "tvg_logo": "https://logodix.com/logo/2131903.jpg",
     "links": [
       {
-        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+        "url": "https://yt3.googleusercontent.com/ytc/AIdro_lcj8idHNsaTiTITY2vWQD6gaxZ6ITkpQPaLVskaDMyiml9=s160-c-k-c0x00ffffff-no-rj",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1318,6 +1318,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "CNN International (USA)": {
+    "group": "International",
+    "tvg_id": "cnn.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "RT News (Russia)": {
+    "group": "International",
+    "tvg_id": "RTnews.ru",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
+    "links": [
+      {
+        "url": "https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
