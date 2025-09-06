@@ -30,7 +30,7 @@ jobs:
 
     - name: Run main script to get all latest links from YouTube
       run: |
-        python main.py
+        python YT_get_YouTube_link.py
 
     - name: Commit and push YouTube playlist (YT_playlist.m3u)
       env:
