@@ -4633,6 +4633,20 @@
       }
     ]
   },
+  "Sky Sport 5": {
+    "group": "Sports",
+    "tvg_id": "skysports5.nz",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/23/Sky_Sport_5_NZ.svg",
+    "links": [
+      {
+        "url": "https://a1xs.vip/700035",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
   "Sky Sports Cricket": {
     "group": "Sports",
     "tvg_id": "skysports.cricket",
@@ -5350,6 +5364,188 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[Other] CANAL+ ACTION HD": {
+    "group": "Movie",
+    "tvg_id": "CANALplusACTION",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/Canal%2B_Action_CZ%26SK_2024.svg",
+    "links": [
+      {
+        "url": "http://185.236.230.212:9981/play/a0bw",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[hi] Star Plus": {
+    "group": "India",
+    "tvg_id": "StarPlus.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/32/StarPlus_logo_%282018%29.png",
+    "links": [
+      {
+        "url": "http://103.182.170.32:8888/play/a03o",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "CANAL+ SPORT": {
+    "group": "Sports",
+    "tvg_id": "CANALplusSPORT",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Canal%2B_Sport_2023.svg",
+    "links": [
+      {
+        "url": "http://185.236.230.212:9981/play/a0bu",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "Cartoon Network": {
+    "group": "Kids",
+    "tvg_id": "CartoonNetwork",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png",
+    "links": [
+      {
+        "url": "http://38.143.48.212:9981/stream/channelid/1520310405?profile=pass",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "Cartoon Network UK FHD": {
+    "group": "Kids",
+    "tvg_id": "CartoonNetwork.uk",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png",
+    "links": [
+      {
+        "url": "https://a1xs.vip/1000050",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "Global Toronto": {
+    "group": "International",
+    "tvg_id": "GlobalToronto",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Global_TV_2019.svg",
+    "links": [
+      {
+        "url": "http://38.143.48.212:9981/stream/channelid/41831820?profile=pass",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "HBO": {
+    "group": "International",
+    "tvg_id": "HBO.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HBO Movies": {
+    "group": "International",
+    "tvg_id": "HBOMovies.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HBO Hits": {
+    "group": "Movie",
+    "tvg_id": "HBOHits.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a0/HBO_Hits_2025.svg",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO2/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HLN": {
+    "group": "International",
+    "tvg_id": "HLN.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
+    "links": [
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HBO Drama": {
+    "group": "Movie",
+    "tvg_id": "HBODrama.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b6/HBO_Drama_2025.svg",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO_SIGNATURE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HBO Comedy": {
+    "group": "Movie",
+    "tvg_id": "HBOComedy.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-comedy-us.png",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "Nicktoons UK": {
+    "group": "Kids",
+    "tvg_id": "Nicktoons.uk",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/69/Nicktoons_2023_Logo.svg",
+    "links": [
+      {
+        "url": "https://a1xs.vip/100054",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
         "last_offline": null
       }
     ]
