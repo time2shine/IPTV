@@ -6,10 +6,10 @@ A simple yet powerful IPTV playlist & EPG manager. This project was created as a
 
 ## 🚀 Features
 
-- ✅ **Playlist Aggregation** – Combines multiple `.m3u` playlists into one.
-- ✅ **Static Channel Updates** – Automatically merges static channels from `static_channels.json`.
+- ✅ **Playlist Aggregation** – Combines multiple `combined.m3u` playlists into one.
+- ✅ **Static Channel Updates** – Automatically check working channel static channels from `static_channels.json`.
 - ✅ **EPG Scraper** – Generates or updates `epg.xml` for TV guide support.
-- ✅ **YouTube Playlist Support** – Reads channels from `YT_playlist.m3u`.
+- ✅ **YouTube Playlist Support** – Automatically save live channels from YouTube in `YT_playlist.m3u`.
 - ✅ **Fully Automated** – CI/CD workflows can regenerate playlists and guides.
 
 ---
@@ -19,12 +19,12 @@ A simple yet powerful IPTV playlist & EPG manager. This project was created as a
 ```
 IPTV/
 ├── .github/workflows/         # CI/CD pipelines for automation
-├── channels.py                # YouTube channels list
+├── YT_channels.py             # YouTube channels list
+├── YT_get_YouTube_link.py     # Get m3u8 links from YouTube
 ├── combine_playlists.py       # Combines YouTube and static channels playlist into one
 ├── epg_scraper.py             # Scrapes and generates EPG (XML format)
-├── main.py                    # Main entry point – runs everything
-├── static_channels.json       # Predefined static channels
 ├── static_channels_update.py  # Updates static channels status automatically
+├── static_channels.json       # Predefined static channels (outpot)
 ├── YT_playlist.m3u            # Playlist generated from Youtube (output)
 ├── combined.m3u               # Final generated playlist (output)
 └── epg.xml                    # Final generated TV guide (output)
