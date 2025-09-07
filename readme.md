@@ -36,6 +36,7 @@ IPTV/
 
 ```mermaid
 graph TD;
+  A[YT_get_YouTube_link.py] --> B[YT_channels.py]
   A[YT_playlist.m3u] --> B[combine_playlists.py]
   C[static_channels.json] --> B
   B --> D[combined.m3u]
