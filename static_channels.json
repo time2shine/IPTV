@@ -818,6 +818,20 @@
       }
     ]
   },
+  "Investigation Discovery": {
+    "group": "Educational",
+    "tvg_id": "InvestigationDiscovery",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/investigation-discovery-us.png",
+    "links": [
+      {
+        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/40689.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "Descovery Bangla": {
     "group": "Educational",
     "tvg_id": "Descovery.in",
@@ -1532,7 +1546,7 @@
       }
     ]
   },
-  "HBO": {
+  "[en] HBO": {
     "group": "International",
     "tvg_id": "HBO.us",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
@@ -1546,7 +1560,7 @@
       }
     ]
   },
-  "My 9": {
+  "[en] My 9": {
     "group": "International",
     "tvg_id": "my9.us",
     "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
@@ -1556,6 +1570,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Family Channel West": {
+    "group": "International",
+    "tvg_id": "FamilyChannelWest",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/647744.ts",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
         "last_offline": null
       }
     ]
@@ -1952,6 +1980,34 @@
       }
     ]
   },
+  "MeTV Toons": {
+    "group": "Kids",
+    "tvg_id": "MeTV.Toons.(WJLP2).NJ.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-toons-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/48753.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "PBS Kids": {
+    "group": "Kids",
+    "tvg_id": "PBS.Kids.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/pbs-kids-dot-icon-us.png?raw=true",
+    "links": [
+      {
+        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "Baby Shark TV": {
     "group": "Kids",
     "tvg_id": "BabySharkTV.us@SD",
@@ -2056,7 +2112,28 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Disney_Channel_2022.svg",
     "links": [
       {
+        "url": "http://kstv.us:8080/live/Purn3542/38791114838/40725.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "https://fl5.moveonjoy.com/DISNEY/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Disney Channel West": {
+    "group": "Kids",
+    "tvg_id": "DisneyChannel.us@West",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Disney_Channel_2022.svg",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/26725074/92867131/2590",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -2124,9 +2201,16 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      },
+      }
+    ]
+  },
+  "Disney XD East": {
+    "group": "Kids",
+    "tvg_id": "DisneyXD.east",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/13/Logo_disney_xd.svg",
+    "links": [
       {
-        "url": "https://fl3.moveonjoy.com/DISNEY_XD/index.m3u8",
+        "url": "http://user.scalecdn.co:8080/26725074/92867131/2586",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -2407,6 +2491,20 @@
     "links": [
       {
         "url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Starz Encore Action": {
+    "group": "Movie",
+    "tvg_id": "Starz.Encore.Action.-.Eastern.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-action-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
