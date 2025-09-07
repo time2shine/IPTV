@@ -13,150 +13,10 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "123GO!": {
-    "group": "Kids",
-    "tvg_id": "123GO",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/59623ed1-b641-4001-b634-b25e307c3c49/123GO_-_Jonathan_Shrank1500x1000.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63eecb32ac23d1ee072087cb.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "5-Minute Crafts": {
-    "group": "Kids",
-    "tvg_id": "5-MinuteCrafts",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/52b33d5e-f48e-472d-896c-94759eccc1e4/5-Minute_Crafts_1500x1000_White.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Action Hollywood Movies": {
-    "group": "Movie",
-    "tvg_id": "ActionHollywoodMovies",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Always Funny": {
-    "group": "Kids",
-    "tvg_id": "AlwaysFunny",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/1bfcb8e4-9593-4914-aa02-14b966a2ec7e/AF_Logo_for_Light_BG__transparent__-_Jose_RiveraRDX.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Brat TV": {
-    "group": "International",
-    "tvg_id": "BratTV",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | CINEPRIDE": {
-    "group": "International",
-    "tvg_id": "CINEPRIDE",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f9b44328-8571-4e8a-9066-022bd8665082/cinepride-logo.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-62167144ab2095ca85353ad6.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Cricket Gold": {
-    "group": "Sports",
-    "tvg_id": "CricketGold",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/d041b4b4-65f0-4862-8d26-a0be4c984e2e/Cricket_Gold_Logo_1-1RDX.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Death Valley Days": {
-    "group": "Movie",
-    "tvg_id": "DeathValleyDay",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f2194eb4-c78d-4502-a3ab-616eb2624c7d/FilmRise_DeathValleyDays_White_LogoRDX.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6674b68af04cf4bb9233c916.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Drool": {
-    "group": "International",
-    "tvg_id": "Drool",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/7fff0047-9828-4ce4-b5b4-e49cf7e120bb/DroolLight_Logo__3_.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Camp Spoopy": {
-    "group": "Kids",
-    "tvg_id": "CampSpoopy",
-    "tvg_logo": "https://provider-static.plex.tv/epg/images/ott_channels/logos/camp-spoopy-logo_dark.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6164a963766ab4f9f57e81b1.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -216,10 +76,10 @@
     "links": [
       {
         "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -454,10 +314,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -524,10 +384,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -552,10 +412,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       },
       {
         "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
@@ -958,20 +818,6 @@
       }
     ]
   },
-  "Investigation Discovery": {
-    "group": "Educational",
-    "tvg_id": "InvestigationDiscovery",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/investigation-discovery-us.png",
-    "links": [
-      {
-        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/40689.ts",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "Descovery Bangla": {
     "group": "Educational",
     "tvg_id": "Descovery.in",
@@ -979,10 +825,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Discovery-bangla/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -1010,6 +856,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Investigation Discovery": {
+    "group": "Educational",
+    "tvg_id": "InvestigationDiscovery",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/investigation-discovery-us.png",
+    "links": [
+      {
+        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/40689.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -1322,10 +1182,10 @@
     "links": [
       {
         "url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -1497,6 +1357,174 @@
       }
     ]
   },
+  "[en] BBC First HD": {
+    "group": "International",
+    "tvg_id": "BBC.First.HD.ca",
+    "tvg_logo": "https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/698467.ts",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Brave": {
+    "group": "International",
+    "tvg_id": "bravo.canada.ca",
+    "tvg_logo": "https://media.starlite.best/bravo.canada.ca.png",
+    "links": [
+      {
+        "url": "http://38.143.48.212:9981/stream/channelid/1866338186?profile=pass",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Brave +1": {
+    "group": "International",
+    "tvg_id": "Bravo.PLUS.1.nz",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/new-zealand/bravo-plus-nz.png?raw=true",
+    "links": [
+      {
+        "url": "https://i.mjh.nz/.r/bravo-plus1.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] CINEMAX MOREMAX": {
+    "group": "International",
+    "tvg_id": "MoreMax..Eastern.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] COURT TV": {
+    "group": "International",
+    "tvg_id": "Court.TV.US.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/court-tv-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] CTV2 Toronto": {
+    "group": "International",
+    "tvg_id": "CTV2Toronto.ca",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/93008.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Destination America": {
+    "group": "International",
+    "tvg_id": "DestinationAmerica",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a1/Destination_America_2015_%28Print%29.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/Destination_America/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Discovery Family": {
+    "group": "International",
+    "tvg_id": "DiscoveryFamily",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/51/Discovery_Family.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Discovery Life": {
+    "group": "International",
+    "tvg_id": "DiscoveryLife",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/89/Discovery_Life_2016.jpg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Family Channel West": {
+    "group": "International",
+    "tvg_id": "FamilyChannelWest",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/647744.ts",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Fuse": {
+    "group": "International",
+    "tvg_id": "FUSE.TV.-.Eastern.feed.us",
+    "tvg_logo": "http://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s14929_dark_360w_270h.png",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/FUSE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] HBO": {
+    "group": "International",
+    "tvg_id": "HBO.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
   "[en] HBO Movies": {
     "group": "International",
     "tvg_id": "HBOMovies.us",
@@ -1521,6 +1549,20 @@
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] My 9": {
+    "group": "International",
+    "tvg_id": "my9.us",
+    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
+    "links": [
+      {
+        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -1560,76 +1602,6 @@
       }
     ]
   },
-  "[en] Destination America": {
-    "group": "International",
-    "tvg_id": "DestinationAmerica",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a1/Destination_America_2015_%28Print%29.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/Destination_America/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Fuse": {
-    "group": "International",
-    "tvg_id": "FUSE.TV.-.Eastern.feed.us",
-    "tvg_logo": "http://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s14929_dark_360w_270h.png",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/FUSE/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Discovery Family": {
-    "group": "International",
-    "tvg_id": "DiscoveryFamily",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/51/Discovery_Family.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Discovery Life": {
-    "group": "International",
-    "tvg_id": "DiscoveryLife",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/89/Discovery_Life_2016.jpg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] COURT TV": {
-    "group": "International",
-    "tvg_id": "Court.TV.US.us",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/court-tv-us.png?raw=true",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "Dubai One": {
     "group": "International",
     "tvg_id": "DubaiOne.ae",
@@ -1641,6 +1613,48 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      }
+    ]
+  },
+  "EN | Brat TV": {
+    "group": "International",
+    "tvg_id": "BratTV",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
+  "EN | CINEPRIDE": {
+    "group": "International",
+    "tvg_id": "CINEPRIDE",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f9b44328-8571-4e8a-9066-022bd8665082/cinepride-logo.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-62167144ab2095ca85353ad6.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
+  "EN | Drool": {
+    "group": "International",
+    "tvg_id": "Drool",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/7fff0047-9828-4ce4-b5b4-e49cf7e120bb/DroolLight_Logo__3_.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -1686,48 +1700,6 @@
       }
     ]
   },
-  "[en] HBO": {
-    "group": "International",
-    "tvg_id": "HBO.us",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
-    "links": [
-      {
-        "url": "http://23.237.104.106:8080/USA_HBO/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] My 9": {
-    "group": "International",
-    "tvg_id": "my9.us",
-    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
-    "links": [
-      {
-        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Family Channel West": {
-    "group": "International",
-    "tvg_id": "FamilyChannelWest",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
-    "links": [
-      {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/647744.ts",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
   "Nick at Nite": {
     "group": "International",
     "tvg_id": "Nick@Nite.us",
@@ -1749,10 +1721,10 @@
     "links": [
       {
         "url": "https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -2106,6 +2078,34 @@
       }
     ]
   },
+  "123GO!": {
+    "group": "Kids",
+    "tvg_id": "123GO",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/59623ed1-b641-4001-b634-b25e307c3c49/123GO_-_Jonathan_Shrank1500x1000.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63eecb32ac23d1ee072087cb.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
+  "5-Minute Crafts": {
+    "group": "Kids",
+    "tvg_id": "5-MinuteCrafts",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/52b33d5e-f48e-472d-896c-94759eccc1e4/5-Minute_Crafts_1500x1000_White.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
   "ADN TV+": {
     "group": "Kids",
     "tvg_id": "ADNTVPlus.fr",
@@ -2117,6 +2117,20 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      }
+    ]
+  },
+  "Always Funny": {
+    "group": "Kids",
+    "tvg_id": "AlwaysFunny",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/1bfcb8e4-9593-4914-aa02-14b966a2ec7e/AF_Logo_for_Light_BG__transparent__-_Jose_RiveraRDX.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -2134,48 +2148,6 @@
       }
     ]
   },
-  "MeTV Toons": {
-    "group": "Kids",
-    "tvg_id": "MeTV.Toons.(WJLP2).NJ.us",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-toons-us.png?raw=true",
-    "links": [
-      {
-        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/48753.ts",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "PBS Kids": {
-    "group": "Kids",
-    "tvg_id": "PBS.Kids.us",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/pbs-kids-dot-icon-us.png?raw=true",
-    "links": [
-      {
-        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      },
-      {
-        "url": "https://livestream.pbskids.org/v1/master/afde4238821a08932ac8931c7b3e89adcbe90300/pbskids-prod-hls/14507d931bbe48a69287e4850e53443c/est.m3u8?ads.station_id=fc47f495-57b9-4aea-bb6b-d2ce52b74ea1",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "Baby Shark TV": {
     "group": "Kids",
     "tvg_id": "BabySharkTV.us@SD",
@@ -2186,6 +2158,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Camp Spoopy": {
+    "group": "Kids",
+    "tvg_id": "CampSpoopy",
+    "tvg_logo": "https://provider-static.plex.tv/epg/images/ott_channels/logos/camp-spoopy-logo_dark.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6164a963766ab4f9f57e81b1.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-07",
         "last_offline": null
       }
     ]
@@ -2218,13 +2204,13 @@
       }
     ]
   },
-  "Cartoon Network USA": {
+  "Cartoon Network (Retro Blast)": {
     "group": "Kids",
-    "tvg_id": "CartoonNetwork",
-    "tvg_logo": "https://cdn.tvpassport.com/image/station/240x135/v2/s12131_h15_aa.png",
+    "tvg_id": "CartoonNetworkRetroBlast.uk",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png",
     "links": [
       {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/3711.ts",
+        "url": "https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f",
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
@@ -2246,13 +2232,13 @@
       }
     ]
   },
-  "Cartoon Network (Retro Blast)": {
+  "Cartoon Network USA": {
     "group": "Kids",
-    "tvg_id": "CartoonNetworkRetroBlast.uk",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png",
+    "tvg_id": "CartoonNetwork",
+    "tvg_logo": "https://cdn.tvpassport.com/image/station/240x135/v2/s12131_h15_aa.png",
     "links": [
       {
-        "url": "https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f",
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/3711.ts",
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
@@ -2428,6 +2414,20 @@
       }
     ]
   },
+  "Family Guy 24/7": {
+    "group": "Kids",
+    "tvg_id": "24.7.Dummy.us",
+    "tvg_logo": "https://www.pngmart.com/files/15/Family-Guy-Logo-PNG-Image-420x236.png",
+    "links": [
+      {
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/50187.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "Gubbare": {
     "group": "Kids",
     "tvg_id": "Gubbare.in",
@@ -2435,10 +2435,10 @@
     "links": [
       {
         "url": "https://epiconvh.akamaized.net/live/gubbare/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -2480,6 +2480,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "MeTV Toons": {
+    "group": "Kids",
+    "tvg_id": "MeTV.Toons.(WJLP2).NJ.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/me-tv-toons-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/48753.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -2638,48 +2652,6 @@
       }
     ]
   },
-  "Family Guy 24/7": {
-    "group": "Kids",
-    "tvg_id": "24.7.Dummy.us",
-    "tvg_logo": "https://www.pngmart.com/files/15/Family-Guy-Logo-PNG-Image-420x236.png",
-    "links": [
-      {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/50187.ts",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Toonami Aftermath Movie": {
-    "group": "Movie",
-    "tvg_id": "toonami.aftermath.movie",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/TOONAMI-2025.svg",
-    "links": [
-      {
-        "url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Starz Encore Action": {
-    "group": "Movie",
-    "tvg_id": "Starz.Encore.Action.-.Eastern.us",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-action-us.png?raw=true",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "ToonzKids": {
     "group": "Kids",
     "tvg_id": "ToonzKids",
@@ -2830,6 +2802,34 @@
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Starz Encore Action": {
+    "group": "Movie",
+    "tvg_id": "Starz.Encore.Action.-.Eastern.us",
+    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-action-us.png?raw=true",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "[en] Toonami Aftermath Movie": {
+    "group": "Movie",
+    "tvg_id": "toonami.aftermath.movie",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/TOONAMI-2025.svg",
+    "links": [
+      {
+        "url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -3086,6 +3086,34 @@
       }
     ]
   },
+  "EN | Action Hollywood Movies": {
+    "group": "Movie",
+    "tvg_id": "ActionHollywoodMovies",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
+  "EN | Death Valley Days": {
+    "group": "Movie",
+    "tvg_id": "DeathValleyDay",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f2194eb4-c78d-4502-a3ab-616eb2624c7d/FilmRise_DeathValleyDays_White_LogoRDX.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6674b68af04cf4bb9233c916.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-07"
+      }
+    ]
+  },
   "Goldmines": {
     "group": "Movie",
     "tvg_id": "Goldmines.in",
@@ -3093,10 +3121,10 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -3107,10 +3135,10 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -3121,10 +3149,10 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -3730,10 +3758,10 @@
     "links": [
       {
         "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -3842,10 +3870,10 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -4374,10 +4402,10 @@
     "links": [
       {
         "url": "https://tvsen7.aynaott.com/asports-bkp/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-04"
+        "last_offline": null
       }
     ]
   },
@@ -4619,10 +4647,10 @@
     "links": [
       {
         "url": "http://185.236.230.212:9981/play/a0bu",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -4637,6 +4665,20 @@
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
         "last_offline": "2025-09-04"
+      }
+    ]
+  },
+  "Cricket Gold": {
+    "group": "Sports",
+    "tvg_id": "CricketGold",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/d041b4b4-65f0-4862-8d26-a0be4c984e2e/Cricket_Gold_Logo_1-1RDX.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-07",
+        "last_offline": null
       }
     ]
   },
@@ -4696,10 +4738,10 @@
       },
       {
         "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-07"
       }
     ]
   },
@@ -5641,10 +5683,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-05"
+        "last_offline": null
       }
     ]
   },
@@ -5669,10 +5711,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-05"
+        "last_offline": null
       }
     ]
   },
@@ -5886,10 +5928,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-06"
+        "last_offline": null
       }
     ]
   },
@@ -5942,76 +5984,6 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/VVP0MGDRUILC8BDR6S0M/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] CTV2 Toronto": {
-    "group": "International",
-    "tvg_id": "CTV2Toronto.ca",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png",
-    "links": [
-      {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/93008.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] BBC First HD": {
-    "group": "International",
-    "tvg_id": "BBC.First.HD.ca",
-    "tvg_logo": "https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",
-    "links": [
-      {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/698467.ts",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Brave": {
-    "group": "International",
-    "tvg_id": "bravo.canada.ca",
-    "tvg_logo": "https://media.starlite.best/bravo.canada.ca.png",
-    "links": [
-      {
-        "url": "http://38.143.48.212:9981/stream/channelid/1866338186?profile=pass",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] Brave +1": {
-    "group": "International",
-    "tvg_id": "Bravo.PLUS.1.nz",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/new-zealand/bravo-plus-nz.png?raw=true",
-    "links": [
-      {
-        "url": "https://i.mjh.nz/.r/bravo-plus1.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "[en] CINEMAX MOREMAX": {
-    "group": "International",
-    "tvg_id": "MoreMax..Eastern.us",
-    "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true",
-    "links": [
-      {
-        "url": "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
