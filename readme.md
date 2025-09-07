@@ -35,14 +35,20 @@ IPTV/
 ## 📊 Workflow Diagram
 
 ```mermaid
-graph TD;
-  A[YT_get_YouTube_link.py] --> B[YT_channels.py]
-  A[YT_playlist.m3u] --> B[combine_playlists.py]
-  C[static_channels.json] --> B
-  B --> D[combined.m3u]
-  D --> E[main.py]
-  E --> F[epg_scraper.py]
-  F --> G[epg.xml]
+---
+config:
+  layout: dagre
+---
+flowchart TD
+    A2["YT_get_YouTube_link.py"] -- <br> --> A3["YT_playlist.m3u"]
+    A3 --> A5["combine_playlists.py"]
+    A4["static_channels.json"] -- </br> --> A5
+    A5 --> A6["combined.m3u"]
+    B1["epg_scraper.py"] -- Scrap Sites for EPG --> B2["epg.xml"]
+    C1["static_channels_update.py"] -- checks/updates --> A4
+    n1["YT_channels.py<br>"] -- <br> --> A3
+    n1@{ shape: rect}
+
 ```
 
 ---
