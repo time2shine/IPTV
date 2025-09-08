@@ -195,7 +195,7 @@
       }
     ]
   },
-  "Colors Bangla": {
+  "Colors Bangla HD": {
     "group": "Bangla",
     "tvg_id": "colors.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg",
@@ -594,6 +594,20 @@
     "links": [
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ANIMAL PLANT HD": {
+    "group": "Educational",
+    "tvg_id": "ANIMALPLANT.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/tvfanon6528/images/f/f4/Animal_Planet_HD_%282018-.n.v.%29.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/animalplanethdworld/master.m3u8",
         "status": "slow",
         "last_online": null,
         "first_online": null,
@@ -1171,8 +1185,15 @@
   "[hi] Star Plus": {
     "group": "India",
     "tvg_id": "StarPlus.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/32/StarPlus_logo_%282018%29.png",
+    "tvg_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
     "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starplushd/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      },
       {
         "url": "http://103.182.170.32:8888/play/a03o",
         "status": "online",
@@ -3401,6 +3422,13 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
