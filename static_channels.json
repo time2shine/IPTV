@@ -20,6 +20,34 @@
       }
     ]
   },
+  "BOISHAKHI TV": {
+    "group": "Bangla",
+    "tvg_id": "BOISHAKHITV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/08/Boishakhi_TV_HD_logo_2022.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/390.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BTV CHITTAGONG": {
+    "group": "Bangla",
+    "tvg_id": "BTVCHITTAGONG.tv",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/52/BTV_Chattogram_Logo.svg",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3818.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "PTV Global": {
     "group": "Pakistan",
     "tvg_id": "PTVGlobal.pk",
@@ -61,8 +89,8 @@
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
-        "status": "offline",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/430.ts",
+        "status": "online",
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
@@ -75,7 +103,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2e/ATN_Bangla.svg",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/431.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -103,7 +131,7 @@
     "tvg_logo": "https://www.bvnews24.com/media/common/newbvlogo.png",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/426.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -117,7 +145,7 @@
     "tvg_logo": "https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a42cff0b32f1705258239.jpg",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/408.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -131,7 +159,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/998.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -145,11 +173,25 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/Channel_i_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/34665.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "DBC NEWS HD": {
+    "group": "Bangla News",
+    "tvg_id": "DBCNEWSHD.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9f/DBC_News_logo.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/420.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -170,6 +212,27 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "DISCOVERY BANGLA HD": {
+    "group": "Educational",
+    "tvg_id": "DISCOVERYBANGLA.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/Discovery_HD_2009.png",
+    "links": [
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277415&extension=ts&play_token=nrDDIKbzCX",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -199,7 +262,14 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      }
+      },
+      {
+        "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
     ]
   },
   "Deshi TV": {
@@ -258,7 +328,7 @@
       }
     ]
   },
-  "Enter 10 Bangla (*)": {
+  "Enter10 Bangla HD": {
     "group": "Bangla",
     "tvg_id": "enter10bangla.in",
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg",
@@ -341,7 +411,7 @@
     "tvg_logo": "https://mohona.tv/wp-content/uploads/2023/10/Mohona-Logo-PNG_02-1-e1696243467828.png",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/397.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -359,6 +429,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "NATIONAL GEOGRAPHIC HD": {
+    "group": "Educational",
+    "tvg_id": "NATIONALGEOGRAPHIC",
+    "tvg_logo": "https://static.wikia.nocookie.net/tvfanon6528/images/1/1f/National_Geographic_HD_%282016-.n.v.%29.png",
+    "links": [
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277422&extension=ts&play_token=oEN0X1gPSK",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NAGORIK HD": {
+    "group": "Bangla",
+    "tvg_id": "NAGORIK HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/87/Nagorik_TV_logo.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3802.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -388,6 +486,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/424.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -411,7 +516,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4e/Rtv_bangladesh.svg",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/401.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -468,6 +573,34 @@
       }
     ]
   },
+  "BAN | JALSHA MOVIES HD": {
+    "group": "Movie",
+    "tvg_id": "JALSHAMOVIEs.in@HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/jalshamovieshd/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | JALSHA MOVIES SD": {
+    "group": "Movie",
+    "tvg_id": "JALSHAMOVIEs.in@SD",
+    "tvg_logo": "https://www.pngfind.com/pngs/m/73-738298_jalsha-movies-live-tv-hd-png-download.png",
+    "links": [
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "STAR JALSA HD": {
     "group": "Bangla",
     "tvg_id": "starjalsha.in",
@@ -481,7 +614,7 @@
         "last_offline": null
       },
       {
-        "url": "",
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277424&extension=ts&play_token=AQaUdSko1H",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -537,7 +670,28 @@
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla.jpg",
     "links": [
       {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/435.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "https://tiger-hub.vercel.app/Zee-bangla/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277402&extension=ts&play_token=8Rvq4Bwhn7",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -545,30 +699,44 @@
       }
     ]
   },
-  "ZEE BANGLA HD (*)": {
-    "group": "Bangla",
-    "tvg_id": "zeebangla.in",
-    "tvg_logo": "http://openboxv8s.com/india/zee_bangla.jpg",
+  "HI | ZEE CINEMA HD": {
+    "group": "Movie",
+    "tvg_id": "ZEECINEMA.in",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zee_Cinema_2025.svg/1600px-Zee_Cinema_2025.svg.png",
     "links": [
       {
-        "url": "",
-        "status": "offline",
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q",
+        "status": "online",
         "last_online": null,
         "first_online": null,
-        "last_offline": "2025-09-03"
+        "last_offline": null
       }
     ]
   },
-  "Zee Bangla SD": {
-    "group": "Bangla",
-    "tvg_id": "zeebanglasd.in",
-    "tvg_logo": "http://openboxv8s.com/india/zee_bangla.jpg",
+  "ZEE TV HD": {
+    "group": "India",
+    "tvg_id": "ZEETV.tv",
+    "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
     "links": [
       {
-        "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/161.ts",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  }
+  "ANANDA TV HD": {
+    "group": "Bangla",
+    "tvg_id": "ANANDATV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/b7/Ananda_TV_logo.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/399.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -584,7 +752,7 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      }
+      },
     ]
   },
   "BANGLA TV": {
@@ -593,7 +761,7 @@
     "tvg_logo": "https://images.seeklogo.com/logo-png/40/1/bangla-tv-logo-png_seeklogo-404114.png",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3803.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -618,6 +786,27 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/391.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+    ]
+  },
+  "CHANNEL 9 HD": {
+    "group": "Bangla",
+    "tvg_id": "CHANNEL9.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/e4/Channel_9_HD.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/434.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -678,6 +867,48 @@
       }
     ]
   },
+  "DESH TV": {
+    "group": "Bangla",
+    "tvg_id": "DESH TV",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/2/27/Desh_TV_on-screen_logo_2022.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/394.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS24 Television": {
+    "group": "Bangla News",
+    "tvg_id": "NEWS24.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3810.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEXUS TV HD": {
+    "group": "Bangla",
+    "tvg_id": "NEXUSTV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/0b/Nexus_Television_HD_logo.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/411.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Kolkata Tv": {
     "group": "Bangla News",
     "tvg_id": "KolkataTv.in",
@@ -726,7 +957,7 @@
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_the_Jatiya_Sangsad.svg/2048px-Emblem_of_the_Jatiya_Sangsad.svg.png",
     "links": [
       {
-        "url": "",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/413.ts",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -734,13 +965,20 @@
       }
     ]
   },
-  "Somoy News": {
+  "Somoy TV": {
     "group": "Bangla News",
     "tvg_id": "somoy.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg",
     "links": [
       {
         "url": "https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/422.ts",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1833,6 +2071,62 @@
       }
     ]
   },
+  "Independent Television": {
+    "group": "Bangla News",
+    "tvg_id": "INDEPENDENTTV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/bb/Independent_logo_2011.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/423.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MAASRANGA HD": {
+    "group": "Bangla",
+    "tvg_id": "MAASRANGA.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
+    "links": [
+      {
+        "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "JAMUNA TV": {
+    "group": "Bangla News",
+    "tvg_id": "JAMUNATV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/89/Jamuna_TV.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/421.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "GTV HD": {
+    "group": "Bangla",
+    "tvg_id": "GTVHD.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Gtvhd.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/767.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Bloomberg TV": {
     "group": "International News",
     "tvg_id": "BloombergTV.us",
@@ -2425,6 +2719,41 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/433.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "GLOBAL TV HD": {
+    "group": "Bangla",
+    "tvg_id": "GLOBALTV.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/4231.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "SATV HD": {
+    "group": "Bangla",
+    "tvg_id": "SATV.tv",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/1/11/SATV_HD.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3814.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2957,6 +3286,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/968.ts",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3442,6 +3778,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png",
     "links": [
       {
+        "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -3492,6 +3835,20 @@
       }
     ]
   },
+  "ATN News": {
+    "group": "Bangla",
+    "tvg_id": "atnnews.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/ATN_News_HD.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/427.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "ATN MUSIC": {
     "group": "Music",
     "tvg_id": "atnmusic.bd",
@@ -3516,6 +3873,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "MUSIC INDIA HD": {
+    "group": "Music",
+    "tvg_id": "MUSICINDIA.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2f/Music_India.jpeg",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/musicindia/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5011,7 +5382,21 @@
       }
     ]
   },
-  "DD Sports": {
+  "BD | TSPORTS HD": {
+    "group": "Sports",
+    "tvg_id": "TSPORTS.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/130714.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "IN | DD Sports": {
     "group": "Sports",
     "tvg_id": "ddsports.in",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
@@ -5683,6 +6068,20 @@
       }
     ]
   },
+"& PICTURES HD": {
+    "group": "Movie",
+    "tvg_id": "andPICTURESHD.in",
+    "tvg_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures_HD.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/231.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Sony Ten 3 HD": {
     "group": "Sports",
     "tvg_id": "sonyten3.in",
@@ -5858,6 +6257,20 @@
       }
     ]
   },
+  "ENT | COLORS HD": {
+    "group": "India",
+    "tvg_id": "COLORS.in",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/colorshd/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Star Sports 3 HD": {
     "group": "Sports",
     "tvg_id": "starsports3.in",
@@ -5872,13 +6285,13 @@
       }
     ]
   },
-  "Star Sports Select 1": {
+  "STAR SPORTS SELECT 1 HD": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -5886,13 +6299,13 @@
       }
     ]
   },
-  "Star Sports Select 1 4K": {
+  "STAR SPORTS SELECT 2 HD": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
