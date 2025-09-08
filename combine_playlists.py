@@ -82,20 +82,34 @@ def parse_json(file_path):
     return channels
 
 def save_m3u(channels, output_file):
-    """Save combined channels to M3U file."""
+    """Save combined channels to M3U file with normalized headers."""
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for header, link, group, tvg_id, tvg_logo in channels:
-            new_header = header
-            if tvg_id or tvg_logo:
-                parts = new_header.split(",", 1)
-                new_header = parts[0]
-                if tvg_id:
-                    new_header += f' tvg-id="{tvg_id}"'
-                if tvg_logo:
-                    new_header += f' tvg-logo="{tvg_logo}"'
-                new_header += f',{parts[1]}'
+            parts = header.split(",", 1)
+            base_header = parts[0]  # everything before the channel name
+            channel_name = parts[1] if len(parts) > 1 else ""
+
+            # Normalize tvg-id
+            if tvg_id:
+                if 'tvg-id="' in base_header:
+                    # Replace existing tvg-id
+                    base_header = re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', base_header)
+                else:
+                    base_header += f' tvg-id="{tvg_id}"'
+
+            # Normalize tvg-logo
+            if tvg_logo:
+                if 'tvg-logo="' in base_header:
+                    # Replace existing tvg-logo
+                    base_header = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{tvg_logo}"', base_header)
+                else:
+                    base_header += f' tvg-logo="{tvg_logo}"'
+
+            # Recombine
+            new_header = f"{base_header},{channel_name}"
             f.write(f"{new_header}\n{link}\n")
+
 
 def main():
     start_time = time.time()
