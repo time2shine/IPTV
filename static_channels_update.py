@@ -13,30 +13,48 @@ JSON_FILE = "static_channels.json"
 FAST_MODE = False  # True = fast FFmpeg, False = full/slow check
 RETRIES = 3
 MAX_WORKERS = 80  # Parallel FFmpeg threads
-EXCLUDE_LIST = ["Republic Bangla",
-                "Republic Bharat",
-                "Aaj Tak HD",
-                "Aaj Tak",
-                "India TV",
-                "India Today",
-                "Ekushay TV (Local)", "Ekushay TV",
-                "Star Sports Select 1 4K", "Star Sports Select 2 4K"]
+
+EXCLUDE_LIST = [
+    "Republic Bangla",
+    "Republic Bharat",
+    "Aaj Tak HD",
+    "Aaj Tak",
+    "India TV",
+    "India Today",
+    "Ekushay TV (Local)",
+    "Ekushay TV",
+    "Star Sports Select 1 4K",
+    "Star Sports Select 2 4K"
+]
+
+# ✅ Whitelist domains (any URL containing these will be auto-marked as online)
+WHITELIST_DOMAINS = [
+    "https://epg.provider",  # Add more domains as needed
+]
 
 
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
     today = date.today()
 
+    # Skip excluded channels
     if any(skip.lower() in channel_name.lower() for skip in EXCLUDE_LIST):
         print(f"[SKIPPED] {channel_name}")
         return url, "online", today
 
+    # ✅ Skip ffmpeg check for whitelisted domains
+    if any(domain in url for domain in WHITELIST_DOMAINS):
+        print(f"[WHITELISTED] {channel_name} -> {url}")
+        return url, "online", today
+
+    # Build ffmpeg command
     ffmpeg_cmd = ["ffmpeg", "-probesize", "1000000", "-analyzeduration", "1000000",
                   "-i", url, "-t", "2", "-f", "null", "-"]
     if FAST_MODE:
         ffmpeg_cmd = ["ffmpeg", "-probesize", "500000", "-analyzeduration", "500000",
                       "-i", url, "-t", "1", "-f", "null", "-"]
 
+    # Run ffmpeg with retries
     for attempt in range(1, RETRIES + 2):
         try:
             result = subprocess.run(ffmpeg_cmd, capture_output=True, text=True, timeout=15)
@@ -91,12 +109,10 @@ def update_status_parallel(channels):
                     if link_entry.get("url") == url:
                         link_entry["status"] = status
                         if status == "online":
-                            # Set first_online if never online before
                             if link_entry.get("first_online") is None:
                                 link_entry["first_online"] = today.isoformat()
                             link_entry["last_offline"] = None
                         elif status == "offline":
-                            # Set last_offline if not already set
                             if link_entry.get("last_offline") is None:
                                 link_entry["last_offline"] = today.isoformat()
 
@@ -146,8 +162,8 @@ def sort_channels(channels):
         sorted(
             channels.items(),
             key=lambda item: (
-                item[1].get("group", "").lower(),  # sort by group
-                item[0].lower()  # then by channel name
+                item[1].get("group", "").lower(),
+                item[0].lower()
             )
         )
     )
