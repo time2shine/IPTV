@@ -159,6 +159,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg",
     "links": [
       {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/998.ts",
         "status": "online",
         "last_online": null,
@@ -815,6 +822,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -908,10 +922,17 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/89/Jamuna_TV.png",
     "links": [
       {
-        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/421.ts",
+        "url": "",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5029,6 +5050,20 @@
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "Takbeer TV(UK)": {
+    "group": "Religious",
+    "tvg_id": "TakbeerTv.uk",
+    "tvg_logo": "https://www.lyngsat.com/logo/tv/tt/takbeer-tv-uk.png",
+    "links": [
+      {
+        "url": "https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
