@@ -18,7 +18,7 @@ GROUP_ORDER = [
     "International News",
     "India",
     "Pakistan",
-    "Movie",
+    "Movies",
     "Educational",
     "Music",
     "International",
