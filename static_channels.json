@@ -216,10 +216,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
@@ -937,10 +937,10 @@
     "links": [
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3810.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -965,10 +965,10 @@
     "links": [
       {
         "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -1014,10 +1014,10 @@
     "links": [
       {
         "url": "http://cdn01.palki.tv/live/TBN24-M/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -1217,6 +1217,20 @@
       }
     ]
   },
+  "E 24": {
+    "group": "India",
+    "tvg_id": "E24.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/E24_new.jpg",
+    "links": [
+      {
+        "url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | &TV HD": {
     "group": "India",
     "tvg_id": "AndTV.in",
@@ -1228,6 +1242,174 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      }
+    ]
+  },
+  "ENT | Abzy Dhakad": {
+    "group": "India",
+    "tvg_id": "AbzyDhakad.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Abzy_dhakad.jpg",
+    "links": [
+      {
+        "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Bollywood Masala": {
+    "group": "India",
+    "tvg_id": "BollywoodMasala.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Chumbak TV": {
+    "group": "India",
+    "tvg_id": "ChumbakTV.in",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/hi/7/77/Chumbak-TV.png",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "ENT | COLORS HD": {
+    "group": "India",
+    "tvg_id": "COLORS.in",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/colorshd/master.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-08"
+      }
+    ]
+  },
+  "ENT | Dangal TV": {
+    "group": "India",
+    "tvg_id": "DangalTV.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
+    "links": [
+      {
+        "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | DD Bharati": {
+    "group": "India",
+    "tvg_id": "DDBharati.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
+    "links": [
+      {
+        "url": "https://cdn-1.pishow.tv/live/10/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | DD National HD": {
+    "group": "India",
+    "tvg_id": "DDNational.in@HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png",
+    "links": [
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Epic TV": {
+    "group": "India",
+    "tvg_id": "EpicTV.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
+    "links": [
+      {
+        "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Ishara TV": {
+    "group": "India",
+    "tvg_id": "IsharaTV.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Ishara_tv.png",
+    "links": [
+      {
+        "url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Masala Entertainment Plus": {
+    "group": "India",
+    "tvg_id": "MasalaEntertainmentPlus.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23029/masala-entertainment-plus/logo_20231219_215407_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/masala-entertainment-plus/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Nazara": {
+    "group": "India",
+    "tvg_id": "Nazara.in",
+    "tvg_logo": "https://www.epicon.in/img/nazara-logo.png",
+    "links": [
+      {
+        "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | SONY SAB HD": {
+    "group": "India",
+    "tvg_id": "sonysabhd.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": "2025-09-04"
       }
     ]
   },
@@ -1245,10 +1427,24 @@
       },
       {
         "url": "http://103.182.170.32:8888/play/a03o",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": "2025-09-09"
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | ZEE TV HD": {
+    "group": "India",
+    "tvg_id": "ZEETV.tv",
+    "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
+    "links": [
+      {
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/161.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
       }
     ]
   },
@@ -1301,20 +1497,6 @@
       }
     ]
   },
-  "ENT | Abzy Dhakad": {
-    "group": "India",
-    "tvg_id": "AbzyDhakad.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Abzy_dhakad.jpg",
-    "links": [
-      {
-        "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "NEWS | Bharat 24": {
     "group": "India",
     "tvg_id": "Bharat24.in",
@@ -1329,76 +1511,6 @@
       }
     ]
   },
-  "ENT | Bollywood Masala": {
-    "group": "India",
-    "tvg_id": "BollywoodMasala.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | Chumbak TV": {
-    "group": "India",
-    "tvg_id": "ChumbakTV.in",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/hi/7/77/Chumbak-TV.png",
-    "links": [
-      {
-        "url": "",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "ENT | Dangal TV": {
-    "group": "India",
-    "tvg_id": "DangalTV.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
-    "links": [
-      {
-        "url": "https://live-dangal.akamaized.net/liveabr/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | DD Bharati": {
-    "group": "India",
-    "tvg_id": "DDBharati.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
-    "links": [
-      {
-        "url": "https://cdn-1.pishow.tv/live/10/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | DD National HD": {
-    "group": "India",
-    "tvg_id": "DDNational.in@HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png",
-    "links": [
-      {
-        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "NEWS | DD News": {
     "group": "India",
     "tvg_id": "DDNews.in",
@@ -1406,48 +1518,6 @@
     "links": [
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "E 24": {
-    "group": "India",
-    "tvg_id": "E24.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/E24_new.jpg",
-    "links": [
-      {
-        "url": "https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | COLORS HD": {
-    "group": "India",
-    "tvg_id": "COLORS.in",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Colors_tv2017.png",
-    "links": [
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/colorshd/master.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-08"
-      }
-    ]
-  },
-  "ENT | Epic TV": {
-    "group": "India",
-    "tvg_id": "EpicTV.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
-    "links": [
-      {
-        "url": "https://epiconvh.akamaized.net/live/epic/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1504,62 +1574,6 @@
       },
       {
         "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "Just for laughs (Pluto TV)": {
-    "group": "Kids",
-    "tvg_id": "Just for laughs \u2013 Pluto TV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b4/Just_for_Laughs_2021.svg",
-    "links": [
-      {
-        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | Ishara TV": {
-    "group": "India",
-    "tvg_id": "IsharaTV.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Ishara_tv.png",
-    "links": [
-      {
-        "url": "https://epiconvh.akamaized.net/live/ishaara/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | Masala Entertainment Plus": {
-    "group": "India",
-    "tvg_id": "MasalaEntertainmentPlus.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23029/masala-entertainment-plus/logo_20231219_215407_68.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/masala-entertainment-plus/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | Nazara": {
-    "group": "India",
-    "tvg_id": "Nazara.in",
-    "tvg_logo": "https://www.epicon.in/img/nazara-logo.png",
-    "links": [
-      {
-        "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1679,34 +1693,6 @@
       }
     ]
   },
-  "ENT | SONY SAB HD": {
-    "group": "India",
-    "tvg_id": "sonysabhd.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
-    "links": [
-      {
-        "url": "",
-        "status": "offline",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-04"
-      }
-    ]
-  },
-  "ENT | ZEE TV HD": {
-    "group": "India",
-    "tvg_id": "ZEETV.tv",
-    "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
-    "links": [
-      {
-        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/161.ts",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
   "EN | 4 New York": {
     "group": "International",
     "tvg_id": "4newyork.us",
@@ -1717,6 +1703,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | ATTICA": {
+    "group": "International",
+    "tvg_id": "AtticaTV.gr",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/attica-tv-gr.png",
+    "links": [
+      {
+        "url": "https://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-09",
         "last_offline": null
       }
     ]
@@ -1735,16 +1735,16 @@
       }
     ]
   },
-  "QVC UK": {
+  "EN | Brat TV": {
     "group": "International",
-    "tvg_id": "QVCUK.uk",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/QVC.svg",
+    "tvg_id": "BratTV",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png",
     "links": [
       {
-        "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8",
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-08",
         "last_offline": null
       }
     ]
@@ -1787,6 +1787,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | CINEPRIDE": {
+    "group": "International",
+    "tvg_id": "CINEPRIDE",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f9b44328-8571-4e8a-9066-022bd8665082/cinepride-logo.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-62167144ab2095ca85353ad6.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
         "last_offline": null
       }
     ]
@@ -1861,86 +1875,16 @@
       }
     ]
   },
-  "EN | Family Channel West": {
+  "EN | Drool": {
     "group": "International",
-    "tvg_id": "FamilyChannelWest",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
+    "tvg_id": "Drool",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/7fff0047-9828-4ce4-b5b4-e49cf7e120bb/DroolLight_Logo__3_.png",
     "links": [
       {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/647744.ts",
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Fuse": {
-    "group": "International",
-    "tvg_id": "FUSE.TV.-.Eastern.feed.us",
-    "tvg_logo": "http://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s14929_dark_360w_270h.png",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/FUSE/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | HBO": {
-    "group": "International",
-    "tvg_id": "HBO.us",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
-    "links": [
-      {
-        "url": "http://23.237.104.106:8080/USA_HBO/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Afroturk TV": {
-    "group": "International",
-    "tvg_id": "AfroturkTV.tr",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Afroturk-agro-tv-tr.png",
-    "links": [
-      {
-        "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "CNN International (USA)": {
-    "group": "International News",
-    "tvg_id": "cnn.us",
-    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      },
-      {
-        "url": "http://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      },
-      {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
+        "last_online": null,
+        "first_online": "2025-09-08",
         "last_offline": null
       }
     ]
@@ -1959,86 +1903,16 @@
       }
     ]
   },
-  "EN | Brat TV": {
+  "EN | Family Channel West": {
     "group": "International",
-    "tvg_id": "BratTV",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png",
+    "tvg_id": "FamilyChannelWest",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
     "links": [
       {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | CINEPRIDE": {
-    "group": "International",
-    "tvg_id": "CINEPRIDE",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f9b44328-8571-4e8a-9066-022bd8665082/cinepride-logo.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-62167144ab2095ca85353ad6.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Drool": {
-    "group": "International",
-    "tvg_id": "Drool",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/7fff0047-9828-4ce4-b5b4-e49cf7e120bb/DroolLight_Logo__3_.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | HBO Movies": {
-    "group": "Movies",
-    "tvg_id": "HBOMovies.us",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
-    "links": [
-      {
-        "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
+        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/647744.ts",
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | HLN": {
-    "group": "International News",
-    "tvg_id": "HLN.us",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
-    "links": [
-      {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | My 9": {
-    "group": "International",
-    "tvg_id": "my9.us",
-    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
-    "links": [
-      {
-        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -2071,6 +1945,20 @@
       }
     ]
   },
+  "EN | Fuse": {
+    "group": "International",
+    "tvg_id": "FUSE.TV.-.Eastern.feed.us",
+    "tvg_logo": "http://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s14929_dark_360w_270h.png",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/FUSE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Global Toronto": {
     "group": "International",
     "tvg_id": "GlobalToronto",
@@ -2081,6 +1969,34 @@
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HBO": {
+    "group": "International",
+    "tvg_id": "HBO.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | My 9": {
+    "group": "International",
+    "tvg_id": "my9.us",
+    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
+    "links": [
+      {
+        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -2113,20 +2029,6 @@
       }
     ]
   },
-  "RT News (Russia)": {
-    "group": "International News",
-    "tvg_id": "RTnews.ru",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
-    "links": [
-      {
-        "url": "https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
   "EN | Saudia Radio": {
     "group": "International",
     "tvg_id": "SaudiaRadio.sa",
@@ -2155,16 +2057,30 @@
       }
     ]
   },
-  "EN | ATTICA": {
+  "OTHER | Afroturk TV": {
     "group": "International",
-    "tvg_id": "AtticaTV.gr",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/attica-tv-gr.png",
+    "tvg_id": "AfroturkTV.tr",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Afroturk-agro-tv-tr.png",
     "links": [
       {
-        "url": "https://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+        "url": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "QVC UK": {
+    "group": "International",
+    "tvg_id": "QVCUK.uk",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/QVC.svg",
+    "links": [
+      {
+        "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-09",
         "last_offline": null
       }
     ]
@@ -2176,10 +2092,10 @@
     "links": [
       {
         "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -2344,6 +2260,34 @@
       }
     ]
   },
+  "CNN International (USA)": {
+    "group": "International News",
+    "tvg_id": "cnn.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "http://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
   "DW News": {
     "group": "International News",
     "tvg_id": "dwnews",
@@ -2361,6 +2305,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HLN": {
+    "group": "International News",
+    "tvg_id": "HLN.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
+    "links": [
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
         "last_offline": null
       }
     ]
@@ -2445,6 +2403,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "RT News (Russia)": {
+    "group": "International News",
+    "tvg_id": "RTnews.ru",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
+    "links": [
+      {
+        "url": "https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -2715,10 +2687,10 @@
     "links": [
       {
         "url": "https://fl3.moveonjoy.com/DISNEY_JR/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "http://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
@@ -2764,10 +2736,10 @@
     "links": [
       {
         "url": "http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -2890,6 +2862,20 @@
       }
     ]
   },
+  "Just for laughs (Pluto TV)": {
+    "group": "Kids",
+    "tvg_id": "Just for laughs – Pluto TV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b4/Just_for_Laughs_2021.svg",
+    "links": [
+      {
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-09",
+        "last_offline": null
+      }
+    ]
+  },
   "Kids TV India - Nursery Rhymes and Baby Songs": {
     "group": "Kids",
     "tvg_id": "KidsTVIndiaNurseryRhymesandBabySongs.in",
@@ -2946,10 +2932,10 @@
     "links": [
       {
         "url": "https://fl3.moveonjoy.com/NICK_JR/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -3184,20 +3170,6 @@
       }
     ]
   },
-  "OTHER | CANAL+ ACTION HD": {
-    "group": "Movies",
-    "tvg_id": "CANALplusACTION",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/Canal%2B_Action_CZ%26SK_2024.svg",
-    "links": [
-      {
-        "url": "http://185.236.230.212:9981/play/a0bw",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
   "BAN | COLORS BANGLA CINEMA HD (*)": {
     "group": "Movies",
     "tvg_id": "colorsbanglacinemahd.in",
@@ -3205,10 +3177,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
@@ -3352,10 +3324,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-09"
+        "last_offline": null
       }
     ]
   },
@@ -3366,10 +3338,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-09"
+        "last_offline": null
       }
     ]
   },
@@ -3492,6 +3464,20 @@
     "links": [
       {
         "url": "http://23.237.104.106:8080/USA_HBO2/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HBO Movies": {
+    "group": "Movies",
+    "tvg_id": "HBOMovies.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
@@ -3786,6 +3772,20 @@
       }
     ]
   },
+  "OTHER | CANAL+ ACTION HD": {
+    "group": "Movies",
+    "tvg_id": "CANALplusACTION",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/Canal%2B_Action_CZ%26SK_2024.svg",
+    "links": [
+      {
+        "url": "http://185.236.230.212:9981/play/a0bw",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | Dunia Sinema (Malaysia)": {
     "group": "Movies",
     "tvg_id": "DuniaSinema.ml",
@@ -3814,30 +3814,170 @@
       }
     ]
   },
-  "OTHER | 4ACETV": {
+  "AR | AMC": {
     "group": "Music",
-    "tvg_id": "4ACETV",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv/logo_20241125_195233_70.png",
+    "tvg_id": "amc.us",
+    "tvg_logo": "https://play-lh.googleusercontent.com/MYcrmTg-2FfK3mVvNsjttNsXXTLfUG7i3QjMd0fzticooxMwLMK0NQdyQSMnF0iC9lg",
     "links": [
       {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8",
+        "url": "https://amchls.wns.live/hls/stream.m3u8",
         "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
   },
-  "OTHER | 4ACETV AFROBEAT": {
+  "AR | Arabic Song": {
     "group": "Music",
-    "tvg_id": "4ACETVAFROBEAT",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv-afrobeat/logo_20241125_201355_70.png",
+    "tvg_id": "ArabicSong",
+    "tvg_logo": "",
     "links": [
       {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/4599G7ELH7ADOE9DQJK4/hls3/now,-1m/m.m3u8",
+        "url": "https://mbc1-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index_3.m3u8",
         "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | M+": {
+    "group": "Music",
+    "tvg_id": "MPlus.sa",
+    "tvg_logo": "https://images.seeklogo.com/logo-png/28/1/m-design-logo-png_seeklogo-285925.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | Majid Al Mohandis": {
+    "group": "Music",
+    "tvg_id": "MajidAlMohandis.sa",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Majid_2020.png",
+    "links": [
+      {
+        "url": "https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | SEE TV": {
+    "group": "Music",
+    "tvg_id": "SEETV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b4/See_TV_2022.png",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SeeTV-156/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | ATN MUSIC": {
+    "group": "Music",
+    "tvg_id": "atnmusic.bd",
+    "tvg_logo": "https://lh3.googleusercontent.com/-30dX2gAbWBA/XrWrVwyUkSI/AAAAAAAAAnE/CIy_3loKQ34fED9Azwynih_T73E8is9jQCLcBGAsYHQ/w680/ATNMusic.png",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "BAN | DHOOM MUSIC": {
+    "group": "Music",
+    "tvg_id": "dhoommusic.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      },
+      {
+        "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | Mon TV Music": {
+    "group": "Music",
+    "tvg_id": "montvmusic.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/7/7e/Mon_Music_HD_2023.png",
+    "links": [
+      {
+        "url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | SANGEET BANGLA": {
+    "group": "Music",
+    "tvg_id": "sangeetbangla.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      },
+      {
+        "url": "https://tiger-hub.vercel.app/Sangeet-Bangla/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | ZB Music": {
+    "group": "Music",
+    "tvg_id": "ZBMusic.in",
+    "tvg_logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
+    "links": [
+      {
+        "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -3863,6 +4003,104 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/F5ULR0LIVWER0I6ONXY4/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Green Chillies TV": {
+    "group": "Music",
+    "tvg_id": "GreenChilliesTV.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23179/green-chillies-tv/logo_20240627_214400_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HTV": {
+    "group": "Music",
+    "tvg_id": "HTV.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5e/HTV_alt.png",
+    "links": [
+      {
+        "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | MTV Hits Europe": {
+    "group": "Music",
+    "tvg_id": "MTVHitsEurope.uk",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/MTV_Hits_2021.svg",
+    "links": [
+      {
+        "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | O Music": {
+    "group": "Music",
+    "tvg_id": "oMusic",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/68/Google_play_music.png",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Rockola Television": {
+    "group": "Music",
+    "tvg_id": "RockolaTelevision",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/rockola-television/logo_20250109_231904_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/RHT6XGG6VHZA0P8T1MGX/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Surf Roots TV": {
+    "group": "Music",
+    "tvg_id": "SurfRootsTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23139/surf-roots-tv/logo_20240523_220440_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/surf-roots-tv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | TRACE UK": {
+    "group": "Music",
+    "tvg_id": "TRACEUK",
+    "tvg_logo": "https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
@@ -3923,48 +4161,6 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      }
-    ]
-  },
-  "AR | AMC": {
-    "group": "Music",
-    "tvg_id": "amc.us",
-    "tvg_logo": "https://play-lh.googleusercontent.com/MYcrmTg-2FfK3mVvNsjttNsXXTLfUG7i3QjMd0fzticooxMwLMK0NQdyQSMnF0iC9lg",
-    "links": [
-      {
-        "url": "https://amchls.wns.live/hls/stream.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "AR | Arabic Song": {
-    "group": "Music",
-    "tvg_id": "ArabicSong",
-    "tvg_logo": "",
-    "links": [
-      {
-        "url": "https://mbc1-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index_3.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | ATN MUSIC": {
-    "group": "Music",
-    "tvg_id": "atnmusic.bd",
-    "tvg_logo": "https://lh3.googleusercontent.com/-30dX2gAbWBA/XrWrVwyUkSI/AAAAAAAAAnE/CIy_3loKQ34fED9Azwynih_T73E8is9jQCLcBGAsYHQ/w680/ATNMusic.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
       }
     ]
   },
@@ -4031,41 +4227,6 @@
       }
     ]
   },
-  "BAN | DHOOM MUSIC": {
-    "group": "Music",
-    "tvg_id": "dhoommusic.bd",
-    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
-      {
-        "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Green Chillies TV": {
-    "group": "Music",
-    "tvg_id": "GreenChilliesTV.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23179/green-chillies-tv/logo_20240627_214400_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8",
-        "status": "offline",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": "2025-09-09"
-      }
-    ]
-  },
   "HI | Haryana Beat": {
     "group": "Music",
     "tvg_id": "HaryanaBeat.in",
@@ -4089,34 +4250,6 @@
         "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | HITS MEXICANOS": {
-    "group": "Music",
-    "tvg_id": "HITSMEXICANOS",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/hits-mexicanos/logo_20250109_231027_70.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | HTV": {
-    "group": "Music",
-    "tvg_id": "HTV.us",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5e/HTV_alt.png",
-    "links": [
-      {
-        "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8",
-        "status": "online",
-        "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
       }
@@ -4150,20 +4283,6 @@
       }
     ]
   },
-  "AR | M+": {
-    "group": "Music",
-    "tvg_id": "MPlus.sa",
-    "tvg_logo": "https://images.seeklogo.com/logo-png/28/1/m-design-logo-png_seeklogo-285925.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "HI | Maiboli": {
     "group": "Music",
     "tvg_id": "Maiboli.in",
@@ -4174,20 +4293,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "AR | Majid Al Mohandis": {
-    "group": "Music",
-    "tvg_id": "MajidAlMohandis.sa",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Majid_2020.png",
-    "links": [
-      {
-        "url": "https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -4213,34 +4318,6 @@
       }
     ]
   },
-  "BAN | Mon TV Music": {
-    "group": "Music",
-    "tvg_id": "montvmusic.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/7/7e/Mon_Music_HD_2023.png",
-    "links": [
-      {
-        "url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | MTV Hits Europe": {
-    "group": "Music",
-    "tvg_id": "MTVHitsEurope.uk",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/MTV_Hits_2021.svg",
-    "links": [
-      {
-        "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "HI | MUSIC INDIA HD": {
     "group": "Music",
     "tvg_id": "MUSICINDIA.in",
@@ -4255,20 +4332,6 @@
       }
     ]
   },
-  "EN | O Music": {
-    "group": "Music",
-    "tvg_id": "oMusic",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/68/Google_play_music.png",
-    "links": [
-      {
-        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "HI | Pitaara TV": {
     "group": "Music",
     "tvg_id": "PitaaraTV.in",
@@ -4276,6 +4339,132 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Punjabi Hits": {
+    "group": "Music",
+    "tvg_id": "PunjabiHits.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e9/Punjabi_Hits.jpg",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Saga Music": {
+    "group": "Music",
+    "tvg_id": "SagaMusic.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23146/saga-music/logo_20240322_183949_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Shemaroo Filmigaane": {
+    "group": "Music",
+    "tvg_id": "ShemarooFilmigaane.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-filmigaane/logo_20240206_190035_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Tabbar Hits": {
+    "group": "Music",
+    "tvg_id": "TabbarHits.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23196/tabbar-hits/logo_20241119_184505_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | YRF Music": {
+    "group": "Music",
+    "tvg_id": "YRFMusic.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Zoom": {
+    "group": "Music",
+    "tvg_id": "Zoom.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Zoom_2018_logo.jpg",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | 4ACETV": {
+    "group": "Music",
+    "tvg_id": "4ACETV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv/logo_20241125_195233_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | 4ACETV AFROBEAT": {
+    "group": "Music",
+    "tvg_id": "4ACETVAFROBEAT",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/4acetv-afrobeat/logo_20241125_201355_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/4599G7ELH7ADOE9DQJK4/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | HITS MEXICANOS": {
+    "group": "Music",
+    "tvg_id": "HITSMEXICANOS",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/hits-mexicanos/logo_20250109_231027_70.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
@@ -4297,128 +4486,16 @@
       }
     ]
   },
-  "HI | Punjabi Hits": {
+  "OTHER | Radio Norba Tv": {
     "group": "Music",
-    "tvg_id": "PunjabiHits.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e9/Punjabi_Hits.jpg",
+    "tvg_id": "RadionorbaTV.it",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/it/8/80/Radionorba_tv_logo_2021.png",
     "links": [
       {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8",
+        "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Rockola Television": {
-    "group": "Music",
-    "tvg_id": "RockolaTelevision",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/rockola-television/logo_20250109_231904_70.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/RHT6XGG6VHZA0P8T1MGX/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | Saga Music": {
-    "group": "Music",
-    "tvg_id": "SagaMusic.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23146/saga-music/logo_20240322_183949_68.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | SANGEET BANGLA": {
-    "group": "Music",
-    "tvg_id": "sangeetbangla.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
         "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
-      {
-        "url": "https://tiger-hub.vercel.app/Sangeet-Bangla/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "AR | SEE TV": {
-    "group": "Music",
-    "tvg_id": "SEETV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b4/See_TV_2022.png",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SeeTV-156/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | Shemaroo Filmigaane": {
-    "group": "Music",
-    "tvg_id": "ShemarooFilmigaane.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-filmigaane/logo_20240206_190035_68.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Surf Roots TV": {
-    "group": "Music",
-    "tvg_id": "SurfRootsTV",
-    "tvg_logo": "https://a.jsrdn.com/hls/23139/surf-roots-tv/logo_20240523_220440_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/surf-roots-tv/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | Tabbar Hits": {
-    "group": "Music",
-    "tvg_id": "TabbarHits.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23196/tabbar-hits/logo_20241119_184505_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
+        "first_online": "2025-09-09",
         "last_offline": null
       }
     ]
@@ -4447,69 +4524,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | TRACE UK": {
-    "group": "Music",
-    "tvg_id": "TRACEUK",
-    "tvg_logo": "https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | YRF Music": {
-    "group": "Music",
-    "tvg_id": "YRFMusic.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | ZB Music": {
-    "group": "Music",
-    "tvg_id": "ZBMusic.in",
-    "tvg_logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-    "links": [
-      {
-        "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | Zoom": {
-    "group": "Music",
-    "tvg_id": "Zoom.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Zoom_2018_logo.jpg",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -4675,6 +4689,20 @@
     "links": [
       {
         "url": "http://webo.asia:80/6992/2996/176068",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | PTV Global": {
+    "group": "Pakistan",
+    "tvg_id": "PTVGlobal.pk",
+    "tvg_logo": "https://www.ptv.com.pk/frontend/media/logo/ptvgloballogo2024.png",
+    "links": [
+      {
+        "url": "http://webo.asia:80/6992/2996/12565",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
@@ -4990,20 +5018,6 @@
       }
     ]
   },
-  "ENT | PTV Global": {
-    "group": "Pakistan",
-    "tvg_id": "PTVGlobal.pk",
-    "tvg_logo": "https://www.ptv.com.pk/frontend/media/logo/ptvgloballogo2024.png",
-    "links": [
-      {
-        "url": "http://webo.asia:80/6992/2996/12565",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
   "71BANGLATV": {
     "group": "Religious",
     "tvg_id": "71banglatv.bd",
@@ -5277,10 +5291,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-09"
+        "last_offline": null
       }
     ]
   },
@@ -5564,10 +5578,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5739,10 +5753,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5998,6 +6012,20 @@
       }
     ]
   },
+  "Sharjah Sports": {
+    "group": "Sports",
+    "tvg_id": "SharjahSports.ae",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Sharjah_Sports_TV_Logo_2014.png",
+    "links": [
+      {
+        "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-09",
+        "last_offline": null
+      }
+    ]
+  },
   "Skull Bound TV": {
     "group": "Sports",
     "tvg_id": "SkullBoundTV",
@@ -6005,10 +6033,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/E93PS4KYXIWU8QT6LONU/hls3/now,-1m/m.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-09"
+        "last_offline": null
       }
     ]
   },
@@ -6726,10 +6754,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6771,34 +6799,6 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "Sharjah Sports": {
-    "group": "Sports",
-    "tvg_id": "SharjahSports.ae",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Sharjah_Sports_TV_Logo_2014.png",
-    "links": [
-      {
-        "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Radio Norba Tv": {
-    "group": "Music",
-    "tvg_id": "RadionorbaTV.it",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/it/8/80/Radionorba_tv_logo_2021.png",
-    "links": [
-      {
-        "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
