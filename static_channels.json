@@ -1511,6 +1511,20 @@
       }
     ]
   },
+  "Just for laughs (Pluto TV)": {
+    "group": "Kids",
+    "tvg_id": "Just for laughs \u2013 Pluto TV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b4/Just_for_Laughs_2021.svg",
+    "links": [
+      {
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | Ishara TV": {
     "group": "India",
     "tvg_id": "IsharaTV.in",
@@ -1693,7 +1707,7 @@
       }
     ]
   },
-  "4 New York": {
+  "EN | 4 New York": {
     "group": "International",
     "tvg_id": "4newyork.us",
     "tvg_logo": "https://i.ibb.co/8MJdM0y/4-NY.png",
@@ -1707,7 +1721,7 @@
       }
     ]
   },
-  "[en] BBC First HD": {
+  "EN | BBC First HD": {
     "group": "International",
     "tvg_id": "BBC.First.HD.ca",
     "tvg_logo": "https://bbcfirst.ca/wp-content/uploads/2021/02/BBC-First-WhiteBoxLogo-copy.png",
@@ -1721,7 +1735,21 @@
       }
     ]
   },
-  "[en] Brave": {
+  "QVC UK": {
+    "group": "International",
+    "tvg_id": "QVCUK.uk",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/QVC.svg",
+    "links": [
+      {
+        "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Brave": {
     "group": "International",
     "tvg_id": "bravo.canada.ca",
     "tvg_logo": "https://media.starlite.best/bravo.canada.ca.png",
@@ -1735,7 +1763,7 @@
       }
     ]
   },
-  "[en] Brave +1": {
+  "EN | Brave +1": {
     "group": "International",
     "tvg_id": "Bravo.PLUS.1.nz",
     "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/new-zealand/bravo-plus-nz.png?raw=true",
@@ -1749,7 +1777,7 @@
       }
     ]
   },
-  "[en] CINEMAX MOREMAX": {
+  "EN | CINEMAX MOREMAX": {
     "group": "International",
     "tvg_id": "MoreMax..Eastern.us",
     "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true",
@@ -1763,7 +1791,7 @@
       }
     ]
   },
-  "[en] COURT TV": {
+  "EN | COURT TV": {
     "group": "International",
     "tvg_id": "Court.TV.US.us",
     "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/court-tv-us.png?raw=true",
@@ -1777,7 +1805,7 @@
       }
     ]
   },
-  "[en] CTV2 Toronto": {
+  "EN | CTV2 Toronto": {
     "group": "International",
     "tvg_id": "CTV2Toronto.ca",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png",
@@ -1791,7 +1819,7 @@
       }
     ]
   },
-  "[en] Destination America": {
+  "EN | Destination America": {
     "group": "International",
     "tvg_id": "DestinationAmerica",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a1/Destination_America_2015_%28Print%29.svg",
@@ -1805,7 +1833,7 @@
       }
     ]
   },
-  "[en] Discovery Family": {
+  "EN | Discovery Family": {
     "group": "International",
     "tvg_id": "DiscoveryFamily",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/51/Discovery_Family.svg",
@@ -1819,7 +1847,7 @@
       }
     ]
   },
-  "[en] Discovery Life": {
+  "EN | Discovery Life": {
     "group": "International",
     "tvg_id": "DiscoveryLife",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/89/Discovery_Life_2016.jpg",
@@ -1833,7 +1861,7 @@
       }
     ]
   },
-  "[en] Family Channel West": {
+  "EN | Family Channel West": {
     "group": "International",
     "tvg_id": "FamilyChannelWest",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/family-ca.png",
@@ -1847,7 +1875,7 @@
       }
     ]
   },
-  "[en] Fuse": {
+  "EN | Fuse": {
     "group": "International",
     "tvg_id": "FUSE.TV.-.Eastern.feed.us",
     "tvg_logo": "http://schedulesdirect-api20141201-logos.s3.amazonaws.com/stationLogos/s14929_dark_360w_270h.png",
@@ -1861,7 +1889,7 @@
       }
     ]
   },
-  "[en] HBO": {
+  "EN | HBO": {
     "group": "International",
     "tvg_id": "HBO.us",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
@@ -1875,7 +1903,7 @@
       }
     ]
   },
-  "Afroturk TV": {
+  "OTHER | Afroturk TV": {
     "group": "International",
     "tvg_id": "AfroturkTV.tr",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Afroturk-agro-tv-tr.png",
@@ -1890,7 +1918,7 @@
     ]
   },
   "CNN International (USA)": {
-    "group": "International",
+    "group": "International News",
     "tvg_id": "cnn.us",
     "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
     "links": [
@@ -1907,10 +1935,17 @@
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
         "last_offline": null
+      },
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
       }
     ]
   },
-  "Dubai One": {
+  "EN | Dubai One": {
     "group": "International",
     "tvg_id": "DubaiOne.ae",
     "tvg_logo": "https://www.dmi.gov.ae/content/dam/corporate/dev/2023/elogos-ar/dubaione-logo.png",
@@ -1967,7 +2002,7 @@
     ]
   },
   "EN | HBO Movies": {
-    "group": "International",
+    "group": "Movies",
     "tvg_id": "HBOMovies.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
     "links": [
@@ -1981,7 +2016,7 @@
     ]
   },
   "EN | HLN": {
-    "group": "International",
+    "group": "International News",
     "tvg_id": "HLN.us",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
     "links": [
@@ -2008,7 +2043,7 @@
       }
     ]
   },
-  "Fox": {
+  "EN | Fox": {
     "group": "International",
     "tvg_id": "fox.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Fox_2019.svg",
@@ -2022,7 +2057,7 @@
       }
     ]
   },
-  "Fox 2": {
+  "EN | Fox 2": {
     "group": "International",
     "tvg_id": "fox2.us",
     "tvg_logo": "https://fox2now.com/wp-content/uploads/sites/14/2020/02/cropped-FOX2NOW.png",
@@ -2036,7 +2071,7 @@
       }
     ]
   },
-  "Global Toronto": {
+  "EN | Global Toronto": {
     "group": "International",
     "tvg_id": "GlobalToronto",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Global_TV_2019.svg",
@@ -2050,7 +2085,7 @@
       }
     ]
   },
-  "Nick at Nite": {
+  "EN | Nick at Nite": {
     "group": "International",
     "tvg_id": "Nick@Nite.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Nick%40Nite_2012.svg",
@@ -2064,7 +2099,7 @@
       }
     ]
   },
-  "Red Carpet TV International": {
+  "EN | Red Carpet TV International": {
     "group": "International",
     "tvg_id": "RedCarpetTVInternational.pl",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e6/Red_Carpet_TV.svg",
@@ -2079,7 +2114,7 @@
     ]
   },
   "RT News (Russia)": {
-    "group": "International",
+    "group": "International News",
     "tvg_id": "RTnews.ru",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
     "links": [
@@ -2092,7 +2127,7 @@
       }
     ]
   },
-  "Saudia Radio": {
+  "EN | Saudia Radio": {
     "group": "International",
     "tvg_id": "SaudiaRadio.sa",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/11/Saudia_Radio_Logo_2024.png",
@@ -2106,7 +2141,7 @@
       }
     ]
   },
-  "TV BRICS English": {
+  "EN | TV BRICS English": {
     "group": "International",
     "tvg_id": "TVBRICSEnglish.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0c/TV_BRICS.svg",
@@ -2116,6 +2151,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | ATTICA": {
+    "group": "International",
+    "tvg_id": "AtticaTV.gr",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/greece/attica-tv-gr.png",
+    "links": [
+      {
+        "url": "https://atticatv.siliconweb.com/atticatv/atticaliveabr/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "AccuWeather NOW": {
+    "group": "International News",
+    "tvg_id": "AccuWeatherNOW.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/ec/AccuWeather_2019_stacked.svg",
+    "links": [
+      {
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5708,6 +5771,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -6701,6 +6771,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Sharjah Sports": {
+    "group": "Sports",
+    "tvg_id": "SharjahSports.ae",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Sharjah_Sports_TV_Logo_2014.png",
+    "links": [
+      {
+        "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Radio Norba Tv": {
+    "group": "Music",
+    "tvg_id": "RadionorbaTV.it",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/it/8/80/Radionorba_tv_logo_2021.png",
+    "links": [
+      {
+        "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
