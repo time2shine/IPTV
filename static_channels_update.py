@@ -15,12 +15,12 @@ RETRIES = 3
 MAX_WORKERS = 80  # Parallel FFmpeg threads
 
 EXCLUDE_LIST = [
-    "Republic Bangla",
-    "Republic Bharat",
-    "Aaj Tak HD",
-    "Aaj Tak",
-    "India TV",
-    "India Today",
+    "NEWS | Republic Bangla",
+    "NEWS | Republic Bharat",
+    "NEWS | Aaj Tak HD",
+    "NEWS | Aaj Tak",
+    "NEWS | India TV",
+    "NEWS | India Today",
     "Ekushay TV (Local)",
     "Ekushay TV",
     "Star Sports Select 1 4K",
