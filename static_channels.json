@@ -104,10 +104,10 @@
     "links": [
       {
         "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -174,10 +174,10 @@
     "links": [
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3818.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -440,10 +440,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -688,6 +688,27 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Tara TV": {
+    "group": "Bangla",
+    "tvg_id": "TaraTV.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/tara-tv/logo_20250401_184429_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -1224,10 +1245,10 @@
       },
       {
         "url": "http://103.182.170.32:8888/play/a03o",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -1693,10 +1714,10 @@
     "links": [
       {
         "url": "http://user.scalecdn.co:8080/live/26725074/92867131/698467.ts",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -1854,48 +1875,6 @@
       }
     ]
   },
-  "EN | HBO Movies": {
-    "group": "International",
-    "tvg_id": "HBOMovies.us",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
-    "links": [
-      {
-        "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | HLN": {
-    "group": "International",
-    "tvg_id": "HLN.us",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
-    "links": [
-      {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | My 9": {
-    "group": "International",
-    "tvg_id": "my9.us",
-    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
-    "links": [
-      {
-        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "Afroturk TV": {
     "group": "International",
     "tvg_id": "AfroturkTV.tr",
@@ -1983,6 +1962,48 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HBO Movies": {
+    "group": "International",
+    "tvg_id": "HBOMovies.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/HBO_Movies_2025.svg",
+    "links": [
+      {
+        "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HLN": {
+    "group": "International",
+    "tvg_id": "HLN.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
+    "links": [
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | My 9": {
+    "group": "International",
+    "tvg_id": "my9.us",
+    "tvg_logo": "https://cdn.titantv.com/i4fXAxGXCj88NotOCDfyK-YZKL1vqYrc0fXzRxmrvPg.png",
+    "links": [
+      {
+        "url": "http://208.86.19.13:81/105.stream/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -3051,10 +3072,10 @@
     "links": [
       {
         "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -3100,16 +3121,275 @@
       }
     ]
   },
-  "HI | & PICTURES HD": {
+  "[Other] CANAL+ ACTION HD": {
     "group": "Movies",
-    "tvg_id": "andPICTURESHD.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d1/%26pictures_On_Nahi%2C_Full_On.jpg",
+    "tvg_id": "CANALplusACTION",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/Canal%2B_Action_CZ%26SK_2024.svg",
     "links": [
       {
-        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/231.ts",
+        "url": "http://185.236.230.212:9981/play/a0bw",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | COLORS BANGLA CINEMA HD (*)": {
+    "group": "Movies",
+    "tvg_id": "colorsbanglacinemahd.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | JALSHA MOVIES HD": {
+    "group": "Movies",
+    "tvg_id": "JALSHAMOVIEs.in@HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/jalshamovieshd/master.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-08"
+      }
+    ]
+  },
+  "BAN | JALSHA MOVIES SD": {
+    "group": "Movies",
+    "tvg_id": "JALSHAMOVIEs.in@SD",
+    "tvg_logo": "https://www.pngfind.com/pngs/m/73-738298_jalsha-movies-live-tv-hd-png-download.png",
+    "links": [
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | Kolkata Movies": {
+    "group": "Movies",
+    "tvg_id": "kolkatamovie.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Bollywood_HD_2014_alt.svg",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | ZB Cinema": {
+    "group": "Movies",
+    "tvg_id": "ZBCinema.in",
+    "tvg_logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
+    "links": [
+      {
+        "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | ZEE BANGLA CINEMA": {
+    "group": "Movies",
+    "tvg_id": "zeebanglacinema.in",
+    "tvg_logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
+    "links": [
+      {
+        "url": "",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-03"
+      },
+      {
+        "url": "https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://tiger-hub.vercel.app/Zee-bangla-Cinema/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BHOJ | Bhojpuri Cinema": {
+    "group": "Movies",
+    "tvg_id": "BhojpuriCinema.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png",
+    "links": [
+      {
+        "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BHOJ | Mahua Play": {
+    "group": "Movies",
+    "tvg_id": "MahuaPlay.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23215/mahua-play/logo_20250429_233701_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | a-z Best Classic TV": {
+    "group": "Movies",
+    "tvg_id": "azBestClassicTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-best-classic-tv/logo_20250205_004115_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | a-z Classic Flix": {
+    "group": "Movies",
+    "tvg_id": "azClassicFlix.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-classic-flix/logo_20250205_005636_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8",
+        "status": "offline",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": "2025-09-09"
+      }
+    ]
+  },
+  "EN | a-z Western Grit": {
+    "group": "Movies",
+    "tvg_id": "azWesternGrit.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-western-grit/logo_20250205_010126_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8",
+        "status": "offline",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": "2025-09-09"
+      }
+    ]
+  },
+  "EN | Action Hollywood Movies": {
+    "group": "Movies",
+    "tvg_id": "ActionHollywoodMovies",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | AMG TV (Classic)": {
+    "group": "Movies",
+    "tvg_id": "amgtv.us",
+    "tvg_logo": "https://img1.wsimg.com/isteam/ip/f5ca61b0-4924-46b3-93d1-5961808d44f6/Home%20no%20vignette%20low_Half2.jpg",
+    "links": [
+      {
+        "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Colorized.TV": {
+    "group": "Movies",
+    "tvg_id": "ColorizedTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/colorizedtv/logo_20241210_234659_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Comedy Classics": {
+    "group": "Movies",
+    "tvg_id": "ComedyClassics.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/comedy-classics/logo_20241119_223830_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/ETV3I79BLYUCBY8O1B27/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Death Valley Days": {
+    "group": "Movies",
+    "tvg_id": "DeathValleyDay",
+    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f2194eb4-c78d-4502-a3ab-616eb2624c7d/FilmRise_DeathValleyDays_White_LogoRDX.png",
+    "links": [
+      {
+        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6674b68af04cf4bb9233c916.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | HBO 2 East": {
+    "group": "Movies",
+    "tvg_id": "HBO2East.us",
+    "tvg_logo": "https://d60d34ithxz8n.cloudfront.net/us-logos/bd2d388668e408843ff7c5bcada53ca5.png",
+    "links": [
+      {
+        "url": "https://fl5.moveonjoy.com/HBO_2/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -3156,6 +3436,34 @@
       }
     ]
   },
+  "EN | Mediacorp Entertainment": {
+    "group": "Movies",
+    "tvg_id": "MediacorpEntertainment",
+    "tvg_logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-english/logo_20240102_190017_70.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Old West TV": {
+    "group": "Movies",
+    "tvg_id": "OldWestTV.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/old-west-tv/logo_20241119_225939_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Starz Encore Action": {
     "group": "Movies",
     "tvg_id": "Starz.Encore.Action.-.Eastern.us",
@@ -3184,27 +3492,13 @@
       }
     ]
   },
-  "[Other] CANAL+ ACTION HD": {
+  "EN | Urban Action Channel": {
     "group": "Movies",
-    "tvg_id": "CANALplusACTION",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/Canal%2B_Action_CZ%26SK_2024.svg",
+    "tvg_id": "UrbanActionChannel.usa",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/urban-action-channel/logo_20250205_002523_70.png",
     "links": [
       {
-        "url": "http://185.236.230.212:9981/play/a0bw",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | a-z Best Classic TV": {
-    "group": "Movies",
-    "tvg_id": "azBestClassicTV.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-best-classic-tv/logo_20250205_004115_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8",
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
@@ -3212,30 +3506,16 @@
       }
     ]
   },
-  "EN | a-z Classic Flix": {
+  "HI | & PICTURES HD": {
     "group": "Movies",
-    "tvg_id": "azClassicFlix.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-classic-flix/logo_20250205_005636_68.png",
+    "tvg_id": "andPICTURESHD.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d1/%26pictures_On_Nahi%2C_Full_On.jpg",
     "links": [
       {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8",
+        "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/231.ts",
         "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | a-z Western Grit": {
-    "group": "Movies",
-    "tvg_id": "azWesternGrit.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/a-z-western-grit/logo_20250205_010126_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
+        "last_online": null,
+        "first_online": "2025-09-08",
         "last_offline": null
       }
     ]
@@ -3247,20 +3527,6 @@
     "links": [
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | AMG TV (Classic)": {
-    "group": "Movies",
-    "tvg_id": "amgtv.us",
-    "tvg_logo": "https://img1.wsimg.com/isteam/ip/f5ca61b0-4924-46b3-93d1-5961808d44f6/Home%20no%20vignette%20low_Half2.jpg",
-    "links": [
-      {
-        "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -3296,48 +3562,6 @@
       },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/968.ts",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | JALSHA MOVIES HD": {
-    "group": "Movies",
-    "tvg_id": "JALSHAMOVIEs.in@HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
-    "links": [
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/jalshamovieshd/master.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-08"
-      }
-    ]
-  },
-  "BAN | JALSHA MOVIES SD": {
-    "group": "Movies",
-    "tvg_id": "JALSHAMOVIEs.in@SD",
-    "tvg_logo": "https://www.pngfind.com/pngs/m/73-738298_jalsha-movies-live-tv-hd-png-download.png",
-    "links": [
-      {
-        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "BHOJ | Bhojpuri Cinema": {
-    "group": "Movies",
-    "tvg_id": "BhojpuriCinema.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png",
-    "links": [
-      {
-        "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -3408,101 +3632,10 @@
     "links": [
       {
         "url": "",
-        "status": "offline",
+        "status": "missing",
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "EN | Colorized.TV": {
-    "group": "Movies",
-    "tvg_id": "ColorizedTV.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/colorizedtv/logo_20241210_234659_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | COLORS BANGLA CINEMA HD (*)": {
-    "group": "Movies",
-    "tvg_id": "colorsbanglacinemahd.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Comedy Classics": {
-    "group": "Movies",
-    "tvg_id": "ComedyClassics.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/comedy-classics/logo_20241119_223830_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/ETV3I79BLYUCBY8O1B27/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Dunia Sinema (Malaysia)": {
-    "group": "Movies",
-    "tvg_id": "DuniaSinema.ml",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/Dunia_Sinema_New.png",
-    "links": [
-      {
-        "url": "https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Action Hollywood Movies": {
-    "group": "Movies",
-    "tvg_id": "ActionHollywoodMovies",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Death Valley Days": {
-    "group": "Movies",
-    "tvg_id": "DeathValleyDay",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/f2194eb4-c78d-4502-a3ab-616eb2624c7d/FilmRise_DeathValleyDays_White_LogoRDX.png",
-    "links": [
-      {
-        "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6674b68af04cf4bb9233c916.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
       }
     ]
   },
@@ -3548,76 +3681,6 @@
       }
     ]
   },
-  "EN | HBO 2 East": {
-    "group": "Movies",
-    "tvg_id": "HBO2East.us",
-    "tvg_logo": "https://d60d34ithxz8n.cloudfront.net/us-logos/bd2d388668e408843ff7c5bcada53ca5.png",
-    "links": [
-      {
-        "url": "https://fl5.moveonjoy.com/HBO_2/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "HI | ZEE CINEMA HD": {
-    "group": "Movies",
-    "tvg_id": "ZEECINEMA.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Zee_Cinema_2017_old.png",
-    "links": [
-      {
-        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | Kolkata Movies": {
-    "group": "Movies",
-    "tvg_id": "kolkatamovie.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Bollywood_HD_2014_alt.svg",
-    "links": [
-      {
-        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "BHOJ | Mahua Play": {
-    "group": "Movies",
-    "tvg_id": "MahuaPlay.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23215/mahua-play/logo_20250429_233701_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Mediacorp Entertainment": {
-    "group": "Movies",
-    "tvg_id": "MediacorpEntertainment",
-    "tvg_logo": "https://a.jsrdn.com/hls/23077/mediacorp-entertainment-english/logo_20240102_190017_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
   "HI | Movie One": {
     "group": "Movies",
     "tvg_id": "MovieOne.pk",
@@ -3628,20 +3691,6 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Old West TV": {
-    "group": "Movies",
-    "tvg_id": "OldWestTV.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/old-west-tv/logo_20241119_225939_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -3660,6 +3709,34 @@
       }
     ]
   },
+  "HI | ZEE CINEMA HD": {
+    "group": "Movies",
+    "tvg_id": "ZEECINEMA.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Zee_Cinema_2017_old.png",
+    "links": [
+      {
+        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Dunia Sinema (Malaysia)": {
+    "group": "Movies",
+    "tvg_id": "DuniaSinema.ml",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/Dunia_Sinema_New.png",
+    "links": [
+      {
+        "url": "https://unifi-live05.secureswiftcontent.com/UnifiHD/live27-1080FHD.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "SONY MAX HD": {
     "group": "Movies",
     "tvg_id": "sonymaxhd.in",
@@ -3667,87 +3744,10 @@
     "links": [
       {
         "url": "",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "Tara TV": {
-    "group": "Bangla",
-    "tvg_id": "TaraTV.in",
-    "tvg_logo": "https://a.jsrdn.com/hls/23215/tara-tv/logo_20250401_184429_70.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-04",
-        "last_offline": null
-      },
-      {
-        "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Urban Action Channel": {
-    "group": "Movies",
-    "tvg_id": "UrbanActionChannel.usa",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/urban-action-channel/logo_20250205_002523_70.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | ZB Cinema": {
-    "group": "Movies",
-    "tvg_id": "ZBCinema.in",
-    "tvg_logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-    "links": [
-      {
-        "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | ZEE BANGLA CINEMA": {
-    "group": "Movies",
-    "tvg_id": "zeebanglacinema.in",
-    "tvg_logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
-    "links": [
-      {
-        "url": "",
         "status": "missing",
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
-      },
-      {
-        "url": "https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://tiger-hub.vercel.app/Zee-bangla-Cinema/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
       }
     ]
   },
@@ -3996,10 +3996,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -4052,10 +4052,10 @@
     "links": [
       {
         "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -4325,10 +4325,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -5130,10 +5130,10 @@
     "links": [
       {
         "url": "https://tvsen7.aynaott.com/asports-bkp/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
@@ -5214,10 +5214,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5305,10 +5305,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5662,10 +5662,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5830,10 +5830,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5851,10 +5851,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5935,10 +5935,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/E93PS4KYXIWU8QT6LONU/hls3/now,-1m/m.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5963,10 +5963,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5977,10 +5977,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -5998,10 +5998,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "http://195.181.161.132/skycricket/index.m3u8",
@@ -6019,10 +6019,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6033,10 +6033,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6047,10 +6047,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6250,10 +6250,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
@@ -6278,10 +6278,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6358,7 +6358,7 @@
         "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6372,7 +6372,7 @@
         "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
+        "last_offline": "2025-09-09"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
@@ -6411,10 +6411,10 @@
       },
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6439,10 +6439,10 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6565,17 +6565,17 @@
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/WillowHD-2/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       },
       {
         "url": "https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-09"
       }
     ]
   },
@@ -6656,10 +6656,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-08"
+        "last_offline": null
       }
     ]
   },
