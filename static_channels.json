@@ -1217,7 +1217,7 @@
       }
     ]
   },
-  "&TV HD": {
+  "ENT | &TV HD": {
     "group": "India",
     "tvg_id": "AndTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4c/%26TV_HD_%282025%29.svg",
@@ -1231,7 +1231,7 @@
       }
     ]
   },
-  "[hi] Star Plus": {
+  "ENT | Star Plus": {
     "group": "India",
     "tvg_id": "StarPlus.in",
     "tvg_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
@@ -1252,7 +1252,7 @@
       }
     ]
   },
-  "Aaj Tak": {
+  "NEWS | Aaj Tak": {
     "group": "India",
     "tvg_id": "AajTak.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png",
@@ -1280,7 +1280,7 @@
       }
     ]
   },
-  "ABP News": {
+  "NEWS | ABP News": {
     "group": "India",
     "tvg_id": "Abp.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/eb/ABP_News.svg",
@@ -1301,7 +1301,7 @@
       }
     ]
   },
-  "Abzy Dhakad": {
+  "ENT | Abzy Dhakad": {
     "group": "India",
     "tvg_id": "AbzyDhakad.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Abzy_dhakad.jpg",
@@ -1315,7 +1315,7 @@
       }
     ]
   },
-  "Bharat 24": {
+  "NEWS | Bharat 24": {
     "group": "India",
     "tvg_id": "Bharat24.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23215/bharat-24/logo_20250611_203139_70.png",
@@ -1329,7 +1329,7 @@
       }
     ]
   },
-  "Bollywood Masala": {
+  "ENT | Bollywood Masala": {
     "group": "India",
     "tvg_id": "BollywoodMasala.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png",
@@ -1343,13 +1343,13 @@
       }
     ]
   },
-  "Chumbak TV": {
+  "ENT | Chumbak TV": {
     "group": "India",
     "tvg_id": "ChumbakTV.in",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/hi/7/77/Chumbak-TV.png",
     "links": [
       {
-        "url": "https://cdn-1.pishow.tv/live/1451/master.m3u8",
+        "url": "",
         "status": "offline",
         "last_online": null,
         "first_online": null,
@@ -1357,7 +1357,7 @@
       }
     ]
   },
-  "Dangal TV": {
+  "ENT | Dangal TV": {
     "group": "India",
     "tvg_id": "DangalTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
@@ -1371,7 +1371,7 @@
       }
     ]
   },
-  "DD Bharati": {
+  "ENT | DD Bharati": {
     "group": "India",
     "tvg_id": "DDBharati.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
@@ -1385,7 +1385,7 @@
       }
     ]
   },
-  "DD National HD": {
+  "ENT | DD National HD": {
     "group": "India",
     "tvg_id": "DDNational.in@HD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png",
@@ -1399,7 +1399,7 @@
       }
     ]
   },
-  "DD News": {
+  "NEWS | DD News": {
     "group": "India",
     "tvg_id": "DDNews.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/DD_News_new_logo_2024.jpg",
@@ -1441,7 +1441,7 @@
       }
     ]
   },
-  "Epic TV": {
+  "ENT | Epic TV": {
     "group": "India",
     "tvg_id": "EpicTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
@@ -1455,7 +1455,7 @@
       }
     ]
   },
-  "India Daily 24x7": {
+  "NEWS | India Daily 24x7": {
     "group": "India",
     "tvg_id": "IndiaDaily24x7.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23225/india-daily-24x7/logo_20250618_171159_70.png",
@@ -1469,7 +1469,7 @@
       }
     ]
   },
-  "India Today": {
+  "NEWS | India Today": {
     "group": "India",
     "tvg_id": "indiatoday.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/India_Today_TV.jpg",
@@ -1490,7 +1490,7 @@
       }
     ]
   },
-  "India TV": {
+  "NEWS | India TV": {
     "group": "India",
     "tvg_id": "IndiaTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg",
@@ -1511,7 +1511,7 @@
       }
     ]
   },
-  "Ishara TV": {
+  "ENT | Ishara TV": {
     "group": "India",
     "tvg_id": "IsharaTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Ishara_tv.png",
@@ -1525,7 +1525,7 @@
       }
     ]
   },
-  "Masala Entertainment Plus": {
+  "ENT | Masala Entertainment Plus": {
     "group": "India",
     "tvg_id": "MasalaEntertainmentPlus.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23029/masala-entertainment-plus/logo_20231219_215407_68.png",
@@ -1539,7 +1539,7 @@
       }
     ]
   },
-  "Nazara": {
+  "ENT | Nazara": {
     "group": "India",
     "tvg_id": "Nazara.in",
     "tvg_logo": "https://www.epicon.in/img/nazara-logo.png",
@@ -1553,7 +1553,7 @@
       }
     ]
   },
-  "NDTV English": {
+  "NEWS | NDTV English": {
     "group": "India",
     "tvg_id": "ndtvenglish",
     "tvg_logo": "https://logodix.com/logo/2131903.jpg",
@@ -1581,7 +1581,7 @@
       }
     ]
   },
-  "NDTV Hindi": {
+  "NEWS | NDTV Hindi": {
     "group": "India",
     "tvg_id": "ndtvindia",
     "tvg_logo": "https://logodix.com/logo/2131933.jpg",
@@ -1609,7 +1609,7 @@
       }
     ]
   },
-  "News India 24X7": {
+  "NEWS | News India 24X7": {
     "group": "India",
     "tvg_id": "NewsIndia24X7.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23215/news-india-24x7/logo_20250611_205743_70.png",
@@ -1623,7 +1623,7 @@
       }
     ]
   },
-  "News9Live": {
+  "NEWS | News9Live": {
     "group": "India",
     "tvg_id": "News9Live.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23129/news9live/logo_20250813_011629_68.jpg",
@@ -1637,7 +1637,7 @@
       }
     ]
   },
-  "Republic Bharat": {
+  "NEWS | Republic Bharat": {
     "group": "India",
     "tvg_id": "RepublicBharat.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/88/Republic_Bharat_Rashtra_ke_Naam.jpg",
@@ -1651,7 +1651,7 @@
       }
     ]
   },
-  "Republic TV": {
+  "NEWS | Republic TV": {
     "group": "India",
     "tvg_id": "RepublicTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/fe/Republic-logo2.svg",
@@ -1665,13 +1665,13 @@
       }
     ]
   },
-  "SONY SAB HD (*)": {
+  "ENT | SONY SAB HD": {
     "group": "India",
     "tvg_id": "sonysabhd.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
     "links": [
       {
-        "url": "https://fifabd.site/JOIN@TGxRANAPK33/TATACC/play.php?id=11672",
+        "url": "",
         "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1679,7 +1679,7 @@
       }
     ]
   },
-  "ZEE TV HD": {
+  "ENT | ZEE TV HD": {
     "group": "India",
     "tvg_id": "ZEETV.tv",
     "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
