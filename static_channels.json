@@ -131,6 +131,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2e/ATN_Bangla.svg",
     "links": [
       {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/431.ts",
         "status": "online",
         "last_online": null,
@@ -306,6 +313,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg",
     "links": [
       {
+        "url": "https://tvsen5.aynaott.com/u3LkNQ7UHhFX/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -324,6 +338,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BBC News": {
+    "group": "NEWS INTERNASIONAL",
+    "tvg_id": "BBC News",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/BBC_News_2022_%28Alt%29.svg",
+    "links": [
+      {
+        "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8?v=1",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -737,6 +765,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "RT Now": {
+    "group": "International News",
+    "tvg_id": "RTNow",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
+    "links": [
+      {
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2740,6 +2782,27 @@
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
         "last_offline": null
+      },
+      {
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | ZEE BOLLYWOOD": {
+    "group": "Movies",
+    "tvg_id": "ZEEBOLLYWOOD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e9/Zee_Bollywood_%282025%29.svg",
+    "links": [
+      {
+        "url": "http://212.102.34.8:9080/ZeeBollywood/video.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3271,6 +3334,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "NICKTOONS": {
+    "group": "Kids",
+    "tvg_id": "NICKTOONS",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/NickToons_TV.svg",
+    "links": [
+      {
+        "url": "http://143.244.60.30/NICKTOONS/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -4825,6 +4902,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "Europe Sports 1 HD": {
+    "group": "Sports",
+    "tvg_id": "Europe Sports 1 HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Europe_1_Flat_%282010%29.svg",
+    "links": [
+      {
+        "url": "http://185.189.225.157/EuroSport1/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
