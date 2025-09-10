@@ -21,13 +21,23 @@ EXCLUDE_LIST = [
     "NEWS | Aaj Tak",
     "NEWS | India TV",
     "NEWS | India Today",
+    "NEWS | India Daily 24x7",
+    "NEWS | ARY NEWS",
+    "NEWS | News9Live",
+    "NEWS | CNN News 18",
+    "IN | TV9 Bangla",
+    "HINDI | RDC Movies",
     "Ekushay TV (Local)",
     "Ekushay TV",
     "STAR SPORTS SELECT 1 HD",
     "STAR SPORTS SELECT 2 HD",
     "T Sports (BD)",
     "MTRSPT1",
-    "Cowboy Channel"
+    "Cowboy Channel",
+    "Cricket Gold",
+    "Outdoor Channel",
+    "AccuWeather NOW",
+    "POWERtube TV"
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
@@ -36,7 +46,8 @@ WHITELIST_DOMAINS = [
     "https://live.dinesh29.com",
     "http://fl1.moveonjoy.com",
     "https://cdn-4.pishow.tv",
-    "https://amg01448-samsungin"
+    "https://amg01448-samsungin",
+    "https://tiger-hub.vercel.app"
 ]
 
 def check_ffmpeg(url, channel_name):
