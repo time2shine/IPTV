@@ -1532,7 +1532,49 @@
       }
     ]
   },
-  "Tribe TV": {
+  "EN | Vevo '90s & '00s": {
+    "group": "Music",
+    "tvg_id": "Vevo90s00s",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/15/Vevo2016.svg",
+    "links": [
+      {
+        "url": "https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90sand00sit-rakutenit/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "WeTV": {
+    "group": "International",
+    "tvg_id": "WeTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/20/WE_TV_logo_%282024%29.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/WE_TV/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Vevo Pop": {
+    "group": "Music",
+    "tvg_id": "Vevo Pop",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/15/Vevo2016.svg",
+    "links": [
+      {
+        "url": "https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "IN | Tribe TV": {
     "group": "Bangla News",
     "tvg_id": "TribeTV.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23215/tribe-tv/logo_20250429_225821_70.png",
@@ -2715,6 +2757,20 @@
       }
     ]
   },
+  "NEWS | ZEE News": {
+    "group": "India",
+    "tvg_id": "ZEENews",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg",
+    "links": [
+      {
+        "url": "https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Africanews": {
     "group": "International News",
     "tvg_id": "Africanews.sa",
@@ -3117,6 +3173,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | XITE Hits": {
+    "group": "Music",
+    "tvg_id": "XITEHits",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/Xite_2013.svg",
+    "links": [
+      {
+        "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3849,27 +3919,6 @@
       }
     ]
   },
-  "Zoo Moo": {
-    "group": "Kids",
-    "tvg_id": "zoomoo",
-    "tvg_logo": "https://images.squarespace-cdn.com/content/v1/5c4104e7af209609ea6f281b/b440d39b-935e-4b40-9b6d-edc3d94f11b9/Primary+Logo.png",
-    "links": [
-      {
-        "url": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-09"
-      },
-      {
-        "url": "https://zoomoo-samsungau.amagi.tv/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "ZOOMOO (KIDS)": {
     "group": "Kids",
     "tvg_id": "ZOOMOO (KIDS)",
@@ -3880,13 +3929,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
-        "last_offline": null
-      },
-      {
-        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
         "last_offline": null
       }
     ]
@@ -5294,6 +5336,48 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | ZEE BUSINESS": {
+    "group": "India",
+    "tvg_id": "ZEEBUSINESS",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg",
+    "links": [
+      {
+        "url": "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Young Hollywood": {
+    "group": "International",
+    "tvg_id": "YoungHollywood",
+    "tvg_logo": "https://younghollywood.com/templates/yh2016/images/logo.png",
+    "links": [
+      {
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "YRF Music HD": {
+    "group": "Music",
+    "tvg_id": "YRFMusicHD",
+    "tvg_logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
+    "links": [
+      {
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
