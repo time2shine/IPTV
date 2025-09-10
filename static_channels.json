@@ -853,11 +853,18 @@
       }
     ]
   },
-  "STAR JALSA HD": {
+  "STAR JALSHA HD": {
     "group": "Bangla",
     "tvg_id": "starjalsha.in",
     "tvg_logo": "http://openboxv8s.com/india/star_jalsha.png",
     "links": [
+      {
+        "url": "https://tvsen5.aynaott.com/gUX8BJmNc2yF/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tiger-hub.vercel.app/Star-jalsha/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
@@ -902,6 +909,20 @@
       }
     ]
   },
+  "OTHER | K Cine": {
+    "group": "Movies",
+    "tvg_id": "KCine.pt",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/92/K%2B_Cine_2024.svg/",
+    "links": [
+      {
+        "url": "https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Tara TV": {
     "group": "Bangla",
     "tvg_id": "TaraTV.in",
@@ -912,6 +933,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/8451cd5b-af45-46f3-b3f8-41497e8aa5c1/0.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -970,6 +998,13 @@
     "tvg_id": "zeebangla.in",
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla.jpg",
     "links": [
+      {
+        "url": "https://tvsen5.aynaott.com/PNEb3v2q6GBk/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://smart.bengaldigital.live/Zee-Bangla/index.m3u8",
         "status": "online",
@@ -1055,7 +1090,7 @@
         "last_offline": null
       },
       {
-        "url": "https://ch24cdn.ncare.live/channel24/ch24office/tracks-v1a1/mono.m3u8",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -1069,7 +1104,7 @@
         "last_offline": null
       },
       {
-        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+        "url": "https://ch24cdn.ncare.live/channel24/ch24office/tracks-v1a1/mono.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
@@ -1301,11 +1336,18 @@
       }
     ]
   },
-  "Somoy TV": {
+  "SOMOY TV": {
     "group": "Bangla News",
     "tvg_id": "somoy.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg",
     "links": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tvsen6.aynaott.com/somoytv/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
@@ -2077,6 +2119,13 @@
     "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png",
     "links": [
       {
+        "url": "https://brat-samsung-us.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
         "last_online": null,
@@ -2785,6 +2834,20 @@
       },
       {
         "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "RT NEWS GLOBAL": {
+    "group": "International News",
+    "tvg_id": "RTNEWS GLOBAL",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
+    "links": [
+      {
+        "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
         "status": "slow",
         "last_online": null,
         "first_online": null,
@@ -3735,13 +3798,6 @@
     "tvg_id": "zeebanglacinema.in",
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
     "links": [
-      {
-        "url": "http://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
       {
         "url": "https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
         "status": "online",
@@ -6019,6 +6075,34 @@
       }
     ]
   },
+  "ION Mystery": {
+    "group": "Educational",
+    "tvg_id": "ION Mystery",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a8/Ion_Mystery_2024.png",
+    "links": [
+      {
+        "url": "https://scripps-ionmystery-1-us.xumo.wurl.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Tennis Channel": {
+    "group": "Sports",
+    "tvg_id": "Tennis Channel",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Tennis_Channel_2022.svg",
+    "links": [
+      {
+        "url": "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Bleav Football": {
     "group": "Sports",
     "tvg_id": "BleavFootball",
@@ -6830,14 +6914,7 @@
     "tvg_logo": "https://static.epg.best/in/SonyTEN3.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
-      {
-        "url": "",
+        "url": "http://filex.tv:8080/live/Home329/Sohailhome/52086.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
