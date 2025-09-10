@@ -404,7 +404,7 @@
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/Logo_of_GTV_%28Bangladesh%29.svg",
     "links": [
       {
-        "url": "",
+        "url": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/tracks-v1a1/mono.ts.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
@@ -487,6 +487,13 @@
     "tvg_id": "MAASRANGA.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
     "links": [
+      {
+        "url": "https://tvsen5.aynaott.com/tK2BNvT68fHZ/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
         "status": "offline",
@@ -571,6 +578,13 @@
     "tvg_id": "ntv.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e1/NTV_Bangladesh.svg",
     "links": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://ap02.iqplay.tv:8082/iqb8002/nt589v/chunks.m3u8",
         "status": "online",
@@ -1458,6 +1472,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "SportsGrid": {
+    "group": "Sports",
+    "tvg_id": "SportsGrid",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg",
+    "links": [
+      {
+        "url": "https://sportsgrid-tribal.amagi.tv/playlistR432p.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3349,6 +3377,13 @@
         "last_online": null,
         "first_online": "2025-09-09",
         "last_offline": null
+      },
+      {
+        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3463,7 +3498,7 @@
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
     "links": [
       {
-        "url": "",
+        "url": "http://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
@@ -4365,6 +4400,13 @@
     "tvg_id": "9XM.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png",
     "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8",
         "status": "online",
