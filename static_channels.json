@@ -159,6 +159,13 @@
     "tvg_logo": "https://www.bvnews24.com/media/common/newbvlogo.png",
     "links": [
       {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/426.ts",
         "status": "online",
         "last_online": null,
@@ -520,6 +527,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Europe Sports 2 HD": {
+    "group": "Sports",
+    "tvg_id": "EuropeSports2HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
+    "links": [
+      {
+        "url": "http://185.189.225.157/EuroSport2/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -4605,6 +4626,20 @@
       }
     ]
   },
+  "Cricket Gold": {
+    "group": "Sports",
+    "tvg_id": "Cricket Gold",
+    "tvg_logo": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png",
+    "links": [
+      {
+        "url": "https://cc-bpss9asqfihqh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bpss9asqfihqh/scheduler/scheduleMaster/453.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "HI | Jalwa": {
     "group": "Music",
     "tvg_id": "Jalwa.pk",
@@ -7019,7 +7054,7 @@
     "tvg_logo": "https://www.medianews4u.com/wp-content/uploads/2015/02/df8bdc0787eb68c35292ff74fa60466b-2-3.jpg",
     "links": [
       {
-        "url": "",
+        "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
         "status": "missing",
         "last_online": null,
         "first_online": null,
