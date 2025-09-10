@@ -20,6 +20,48 @@
       }
     ]
   },
+  "EN | Oxygen Music": {
+    "group": "Music",
+    "tvg_id": "OxygenMusic",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6c/Oxygen_2017.svg",
+    "links": [
+      {
+        "url": "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Afrobeats": {
+    "group": "Music",
+    "tvg_id": "Afrobeats",
+    "tvg_logo": "https://yt3.googleusercontent.com/_6TcpCK4f6BfoKArtanMuzYMWt9h2syEw3yb_5DEx-Ih0Qf8VU7q5B8vh-FV1iJxXA1jL8o0wPo=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://stream.ecable.tv/afrobeats/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | ShowBox": {
+    "group": "Music",
+    "tvg_id": "8Xmusic",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f9/ShowBox_logo.jpeg",
+    "links": [
+      {
+        "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -1055,6 +1097,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/bb/Independent_logo_2011.png",
     "links": [
       {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://tvsen6.aynaott.com/independenttv/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
         "last_online": null,
@@ -1070,45 +1119,24 @@
       }
     ]
   },
-  "Jamuna TV": {
+  "JAMUNA TV": {
     "group": "Bangla News",
     "tvg_id": "jamuna.tv",
     "tvg_logo": "https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg",
     "links": [
       {
-        "url": "https://tvsen6.aynaott.com/jamunatv/index.m3u8",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
       },
       {
-        "url": "",
+        "url": "https://tvsen6.aynaott.com/jamunatv/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "JAMUNA TV": {
-    "group": "Bangla News",
-    "tvg_id": "JAMUNATV.bd",
-    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/89/Jamuna_TV.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null
-      },
-      {
-        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-09",
-        "last_offline": null
       }
     ]
   },
