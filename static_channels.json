@@ -265,6 +265,20 @@
       }
     ]
   },
+  "Amazing Discoveries TV": {
+    "group": "Educational",
+    "tvg_id": "AmazingDiscoveriesTV",
+    "tvg_logo": "https://www.adventisttv.org/assets/img/main/ADTV.png",
+    "links": [
+      {
+        "url": "https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "DD Bangla": {
     "group": "Bangla",
     "tvg_id": "DDBangla.in",
@@ -776,6 +790,20 @@
       }
     ]
   },
+  "OTHER | Q MUSIC": {
+    "group": "Music",
+    "tvg_id": "Q MUSIC",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Qmusic.svg",
+    "links": [
+      {
+        "url": "https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Time Televis HD": {
     "group": "Bangla",
     "tvg_id": "timetelevision.bd",
@@ -786,6 +814,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | DANGAL2": {
+    "group": "India",
+    "tvg_id": "DANGAL2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/ac/Dangal_2.png",
+    "links": [
+      {
+        "url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -6712,13 +6754,13 @@
       }
     ]
   },
-  "Star Sports 2 HD": {
+  "Star Sports 2 Hindi": {
     "group": "Sports",
     "tvg_id": "starsports2hd.in",
     "tvg_logo": "https://static.epg.best/in/StarSports2.in.png",
     "links": [
       {
-        "url": "",
+        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
