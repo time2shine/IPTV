@@ -2763,6 +2763,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg",
     "links": [
       {
+        "url": "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -3373,17 +3380,31 @@
       }
     ]
   },
-  "Nick Jr East": {
+  "Nick Jr": {
     "group": "Kids",
     "tvg_id": "NickJr.us@East",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg",
     "links": [
       {
-        "url": "https://fl3.moveonjoy.com/NICK_JR/index.m3u8",
+        "url": "https://dai.google.com/linear/hls/event/0HWMZ7VTTAi8C7Y35fcbgQ/master.m3u8",
         "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": "2025-09-09"
+      }
+    ]
+  },
+  "EN | MUZZIK": {
+    "group": "Music",
+    "tvg_id": "MUZZIK",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1c/Muzzik1996.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-6/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -4829,20 +4850,6 @@
       }
     ]
   },
-  "Cricket Gold": {
-    "group": "Sports",
-    "tvg_id": "Cricket Gold",
-    "tvg_logo": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png",
-    "links": [
-      {
-        "url": "https://cc-bpss9asqfihqh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bpss9asqfihqh/scheduler/scheduleMaster/453.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "HI | Jalwa": {
     "group": "Music",
     "tvg_id": "Jalwa.pk",
@@ -6148,8 +6155,15 @@
   "Cricket Gold": {
     "group": "Sports",
     "tvg_id": "CricketGold",
-    "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/d041b4b4-65f0-4862-8d26-a0be4c984e2e/Cricket_Gold_Logo_1-1RDX.png",
+    "tvg_logo": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png",
     "links": [
+      {
+        "url": "https://cc-bpss9asqfihqh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bpss9asqfihqh/scheduler/scheduleMaster/453.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
