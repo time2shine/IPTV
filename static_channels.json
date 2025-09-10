@@ -20,6 +20,20 @@
       }
     ]
   },
+  "GB News": {
+    "group": "International News",
+    "tvg_id": "GBNews",
+    "tvg_logo": "ahttps://static.wikia.nocookie.net/logopedia/images/0/03/GBNews.svg",
+    "links": [
+      {
+        "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -481,10 +495,45 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
     "links": [
       {
+        "url": "https://tvsen6.aynaott.com/globaltvhd/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/4231.ts",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Hallmark Family": {
+    "group": "Movies",
+    "tvg_id": "HallmarkFamily",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/91/Hallmark_Family_2024.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/HALLMARK_DRAMA/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Grand Cinema": {
+    "group": "Movies",
+    "tvg_id": "GrandCinema",
+    "tvg_logo": "https://grandcinema.tv/logo.png",
+    "links": [
+      {
+        "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1157,6 +1206,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "Kid Screation": {
+    "group": "Kids",
+    "tvg_id": "KidScreation",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png",
+    "links": [
+      {
+        "url": "http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1874,6 +1937,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg",
     "links": [
       {
+        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "https://poclive-indiatvnews.akamaized.net/hlslive/Admin/px0219297/live/digital/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -1881,10 +1951,10 @@
         "last_offline": null
       },
       {
-        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+        "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -4128,6 +4198,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",
     "links": [
       {
+        "url": "http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -5813,6 +5890,34 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": "2025-09-10"
+      }
+    ]
+  },
+  "MSG": {
+    "group": "Sports",
+    "tvg_id": "MSG",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/MSG_Network.png",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/MSG/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | MGM+": {
+    "group": "Movies",
+    "tvg_id": "MGMplus",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7d/MGM%2B.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/EPIX_2/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
