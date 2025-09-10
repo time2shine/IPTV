@@ -20,6 +20,20 @@
       }
     ]
   },
+  "HINDI | RDC Movies": {
+    "group": "Movies",
+    "tvg_id": "RDCMovies",
+    "tvg_logo": "https://onezoo.net/wp-content/uploads/2024/07/ChatGPT-Image-Apr-14-2025-05_05_47-PM-200x300.png",
+    "links": [
+      {
+        "url": "https://janya-rdcmovies.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/230a723f-867d-4fa3-b2d2-a622ba994cd2/main.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Oxygen Music": {
     "group": "Music",
     "tvg_id": "OxygenMusic",
@@ -359,6 +373,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | CNN News 18": {
+    "group": "India",
+    "tvg_id": "CNN News 18",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1b/CNN-News_18_logo.jpg",
+    "links": [
+      {
+        "url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3275,6 +3303,48 @@
       }
     ]
   },
+  "IN | R Plus News": {
+    "group": "Bangla News",
+    "tvg_id": "R Plus News",
+    "tvg_logo": "https://rplus.in/wp-content/uploads/2025/06/RPLUS_NEWS.png",
+    "links": [
+      {
+        "url": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "True History": {
+    "group": "Unknown",
+    "tvg_id": "True History",
+    "tvg_logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Trace Sports Stars": {
+    "group": "Sports",
+    "tvg_id": "TraceSportsStars",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg",
+    "links": [
+      {
+        "url": "https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Rongeen TV": {
     "group": "Kids",
     "tvg_id": "RongeenTV",
@@ -5814,6 +5884,13 @@
     "tvg_id": "TSPORTS.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/130714.ts",
         "status": "online",
