@@ -123,10 +123,11 @@ channel_metadata = {
     },
     'UCu59yAFE8fM0sVNTipR4edw': {  # Masha and The Bear
         'group_title': 'Kids',
-        'channel_name': 'Masha and The Bear',
+        'channel_name': '0.Masha and The Bear',
         'channel_logo': 'https://yt3.googleusercontent.com/plbYMBlbSJHXOLEqCE4tCFPkw-WwoZ5y-oI4M1l5dljjOFMrQj9g_ZYTb5Fu8t_y8weRNR4iHQ=s160-c-k-c0x00ffffff-no-rj',
     },
 }
+
 
 
 
