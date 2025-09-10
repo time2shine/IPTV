@@ -5382,6 +5382,20 @@
       }
     ]
   },
+  "EN | getTV": {
+    "group": "Movies",
+    "tvg_id": "getTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/Great_Entertainment_Television_2023.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/GET_TV/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "HI | Zoom": {
     "group": "Music",
     "tvg_id": "Zoom.in",
