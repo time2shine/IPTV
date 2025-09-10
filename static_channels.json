@@ -20,6 +20,34 @@
       }
     ]
   },
+  "EN | NOW 80s": {
+    "group": "Music",
+    "tvg_id": "NOW80s",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/cf/NOW_80s.png",
+    "links": [
+      {
+        "url": "https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | NOW 70s": {
+    "group": "Music",
+    "tvg_id": "NOW70s",
+    "tvg_logo": "ahttps://static.wikia.nocookie.net/logopedia/images/b/b9/NOW_70s_2022.png",
+    "links": [
+      {
+        "url": "https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "MTV2": {
     "group": "International",
     "tvg_id": "MTV2",
@@ -1350,6 +1378,48 @@
       }
     ]
   },
+  "EN | STARZ WEST": {
+    "group": "Movies",
+    "tvg_id": "STARZWEST",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e5/STARZ-2022.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/STARZ_WEST/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Saudi Quran": {
+    "group": "Islamic",
+    "tvg_id": "Saudi Quran",
+    "tvg_logo": "https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Sananda TV": {
+    "group": "Bangla",
+    "tvg_id": "Sanandatv",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Sananda_TV_logo.jpeg",
+    "links": [
+      {
+        "url": "https://live.sanonda.tv/sanonda/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Republic Bangla": {
     "group": "Bangla News",
     "tvg_id": "RepublicBangla.in",
@@ -1360,6 +1430,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2554,6 +2631,34 @@
       }
     ]
   },
+  "Popstar! TV": {
+    "group": "Music",
+    "tvg_id": "PopstarTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/44/PopStar_%282018%29.png",
+    "links": [
+      {
+        "url": "https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Paramount Network": {
+    "group": "Movies",
+    "tvg_id": "ParamountNetwork",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/57/Paramount_Network_2024.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "QVC UK": {
     "group": "International",
     "tvg_id": "QVCUK.uk",
@@ -2958,6 +3063,13 @@
     "tvg_id": "SkyNews.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f5/Sky_News_2018.svg",
     "links": [
+      {
+        "url": "https://i.mjh.nz/.r/sky-news-now.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8",
         "status": "online",
@@ -3471,11 +3583,32 @@
       }
     ]
   },
+  "AR | NogoumFMTV (Egypt)": {
+    "group": "Music",
+    "tvg_id": "NogoumFMTV (Egypt)",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Nogoum_FM.svg",
+    "links": [
+      {
+        "url": "https://nogoumtv.nrpstream.com/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Nickelodeon USA": {
     "group": "Kids",
     "tvg_id": "Nickelodeon.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg",
     "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
         "status": "online",
@@ -5079,6 +5212,13 @@
     "tvg_id": "ShemarooFilmigaane.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-filmigaane/logo_20240206_190035_68.png",
     "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/2515c090-3d53-443f-9654-a7e74a6acf06/0.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/master.m3u8",
         "status": "offline",
@@ -7135,6 +7275,34 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | Star Gold HD": {
+    "group": "Movies",
+    "tvg_id": "Star Gold HD",
+    "tvg_logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
+    "links": [
+      {
+        "url": "https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | Star Gold 2 HD": {
+    "group": "Movies",
+    "tvg_id": "StarGold2HD",
+    "tvg_logo": "https://live.dinesh29.com.np/logos/jiotvplus/stargold2hd.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/stargold2hd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
