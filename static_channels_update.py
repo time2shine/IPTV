@@ -39,7 +39,6 @@ WHITELIST_DOMAINS = [
     "https://amg01448-samsungin"
 ]
 
-
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
     today = date.today()
@@ -73,7 +72,6 @@ def check_ffmpeg(url, channel_name):
 
     print(f"[OFFLINE] {channel_name} -> {url}")
     return url, "offline", today
-
 
 def update_status_parallel(channels):
     """Update status of all links using parallel FFmpeg checks."""
@@ -123,45 +121,79 @@ def update_status_parallel(channels):
                             if link_entry.get("last_offline") is None:
                                 link_entry["last_offline"] = today.isoformat()
 
+def categorize_link(channel_name, url, status):
+    """Determine the category of a link for sorting."""
+    if status == "missing":
+        return "MISSING"
+    if status == "offline":
+        return "OFFLINE"
+    if any(skip.lower() in channel_name.lower() for skip in EXCLUDE_LIST):
+        return "EXCLUDED"
+    if any(domain in url for domain in WHITELIST_DOMAINS):
+        return "WHITELISTED"
+    return status.upper()
 
 def summarize(channels, start_time):
-    """Print summary of online/offline/missing links and offline durations."""
-    total_channels = len(channels)
-    online_links = 0
-    offline_links = 0
-    missing_links = 0
+    """Print sorted summary: MISSING → OFFLINE → EXCLUDED → WHITELISTED."""
     today = date.today()
+    entries = []
 
-    print("\n=== SUMMARY ===")
+    online_links = offline_links = missing_links = excluded_links = whitelist_links = 0
+
     for channel_name, info in channels.items():
         for link in info.get("links", []):
             url = link.get("url")
-            status = link.get("status")
-            if status == "online":
-                online_links += 1
-            elif status == "offline":
-                offline_links += 1
-                last_offline = link.get("last_offline")
-                if last_offline:
-                    days_offline = (today - datetime.fromisoformat(last_offline).date()).days
-                    print(f"[OFFLINE] {channel_name:<30} | Offline for {days_offline:>5} day(s) -> {url}")
-                else:
-                    print(f"[OFFLINE] {channel_name:<30} | Offline (unknown duration) -> {url}")
-            elif status == "missing":
+            status = link.get("status", "unknown")
+
+            category = categorize_link(channel_name, url, status)
+
+            if category == "MISSING":
                 missing_links += 1
-                print(f"[MISSING] {channel_name} -> No link provided")
+            elif category == "OFFLINE":
+                offline_links += 1
+            elif category == "EXCLUDED":
+                excluded_links += 1
+            elif category == "WHITELISTED":
+                whitelist_links += 1
+            elif status == "online":
+                online_links += 1
+
+            entries.append({
+                "category": category,
+                "channel": channel_name,
+                "url": url,
+                "last_offline": link.get("last_offline"),
+            })
+
+    # Sort categories first, then URL alphabetically
+    category_order = {"MISSING": 0, "OFFLINE": 1, "EXCLUDED": 2, "WHITELISTED": 3}
+    entries.sort(key=lambda x: (category_order.get(x["category"], 4), str(x["url"])))
+
+    print("\n=== SUMMARY ===")
+    for e in entries:
+        if e["category"] == "MISSING":
+            print(f"[MISSING] {e['channel']} -> No link provided")
+        elif e["category"] == "OFFLINE":
+            days_offline = "unknown duration"
+            if e["last_offline"]:
+                days_offline = f"{(today - datetime.fromisoformat(e['last_offline']).date()).days:>5} day(s)"
+            print(f"[OFFLINE] {e['channel']:<30} | Offline for {days_offline} -> {e['url']}")
+        elif e["category"] == "EXCLUDED":
+            print(f"[EXCLUDED] {e['channel']} -> {e['url']}")
+        elif e["category"] == "WHITELISTED":
+            print(f"[WHITELISTED] {e['channel']} -> {e['url']}")
 
     elapsed = time.time() - start_time
     separator = "=" * 50
-
     print(f"\n{separator}")
-    print(f"{'Total channels':<20}: {total_channels}")
+    print(f"{'Total channels':<20}: {len(channels)}")
     print(f"{'Total online links':<20}: {online_links}")
     print(f"{'Total offline links':<20}: {offline_links}")
     print(f"{'Total missing links':<20}: {missing_links}")
+    print(f"{'Excluded links':<20}: {excluded_links}")
+    print(f"{'Whitelisted links':<20}: {whitelist_links}")
     print(f"{'Total runtime':<20}: {elapsed:.2f} seconds")
     print(f"{separator}\n")
-
 
 def sort_channels(channels):
     """Sort channels by group then channel name."""
@@ -174,7 +206,6 @@ def sort_channels(channels):
             )
         )
     )
-
 
 def main():
     start_time = time.time()
@@ -196,7 +227,6 @@ def main():
 
     # Print summary
     summarize(channels_sorted, start_time)
-
 
 if __name__ == "__main__":
     main()
