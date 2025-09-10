@@ -153,7 +153,7 @@
       }
     ]
   },
-  "ATN News": {
+  "BD | ATN News": {
     "group": "Bangla News",
     "tvg_id": "atnnews.in",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/ATN_News_HD.png",
@@ -1077,7 +1077,7 @@
       }
     ]
   },
-  "ABP Ananda": {
+  "IN | ABP Ananda": {
     "group": "Bangla News",
     "tvg_id": "ABPAnanda.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Abp-ananda.png",
@@ -1098,7 +1098,7 @@
       }
     ]
   },
-  "BANGLA TV": {
+  "BD | BANGLA TV": {
     "group": "Bangla News",
     "tvg_id": "banglatv.bd",
     "tvg_logo": "https://images.seeklogo.com/logo-png/40/1/bangla-tv-logo-png_seeklogo-404114.png",
@@ -1119,9 +1119,9 @@
       }
     ]
   },
-  "Channel 24": {
+  "BD | Channel 24": {
     "group": "Bangla News",
-    "tvg_id": "ekattor.tv",
+    "tvg_id": "channel24.bd",
     "tvg_logo": "https://backoffice.channel24bd.tv/media/common/logo.png",
     "links": [
       {
@@ -1161,7 +1161,7 @@
       }
     ]
   },
-  "DBC NEWS HD": {
+  "BD | DBC NEWS HD": {
     "group": "Bangla News",
     "tvg_id": "DBCNEWSHD.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9f/DBC_News_logo.png",
@@ -1182,7 +1182,7 @@
       }
     ]
   },
-  "Ekattor TV": {
+  "BD | Ekattor TV": {
     "group": "Bangla News",
     "tvg_id": "ekattor.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5d/Ekattor_TV_logo.png",
@@ -1203,7 +1203,7 @@
       }
     ]
   },
-  "High News": {
+  "IN | High News": {
     "group": "Bangla News",
     "tvg_id": "highnews.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg",
@@ -1301,7 +1301,7 @@
       }
     ]
   },
-  "Independent Television": {
+  "BD | Independent Television": {
     "group": "Bangla News",
     "tvg_id": "INDEPENDENTTV.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/bb/Independent_logo_2011.png",
@@ -1329,7 +1329,7 @@
       }
     ]
   },
-  "JAMUNA TV": {
+  "BD | JAMUNA TV": {
     "group": "Bangla News",
     "tvg_id": "jamuna.tv",
     "tvg_logo": "https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg",
@@ -1364,7 +1364,7 @@
       }
     ]
   },
-  "Kolkata Tv": {
+  "IN | Kolkata Tv": {
     "group": "Bangla News",
     "tvg_id": "KolkataTv.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23215/kolkata-tv/logo_20250819_185012_70.png",
@@ -1378,7 +1378,7 @@
       }
     ]
   },
-  "NEWS24 Television": {
+  "IN | NEWS24 Television": {
     "group": "Bangla News",
     "tvg_id": "NEWS24.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
@@ -1392,7 +1392,7 @@
       }
     ]
   },
-  "R Plus": {
+  "IN | R Plus": {
     "group": "Bangla News",
     "tvg_id": "RPlus.in",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/4d/RPlus_logo_%282013%29.png",
@@ -1448,7 +1448,7 @@
       }
     ]
   },
-  "Republic Bangla": {
+  "IN | Republic Bangla": {
     "group": "Bangla News",
     "tvg_id": "RepublicBangla.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
@@ -1469,7 +1469,7 @@
       }
     ]
   },
-  "SANGSAD BANGLADESH": {
+  "BD | SANGSAD BANGLADESH": {
     "group": "Bangla News",
     "tvg_id": "sangsad.bd",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_the_Jatiya_Sangsad.svg/2048px-Emblem_of_the_Jatiya_Sangsad.svg.png",
@@ -1483,7 +1483,7 @@
       }
     ]
   },
-  "SOMOY TV": {
+  "BD | SOMOY TV": {
     "group": "Bangla News",
     "tvg_id": "somoy.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg",
@@ -1518,7 +1518,7 @@
       }
     ]
   },
-  "TBN 24 USA": {
+  "BD | TBN 24 USA": {
     "group": "Bangla News",
     "tvg_id": "TBN24.us",
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/TBN24.png",
@@ -5375,20 +5375,6 @@
     "links": [
       {
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | getTV": {
-    "group": "Movies",
-    "tvg_id": "getTV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/Great_Entertainment_Television_2023.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/GET_TV/index.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": null,
