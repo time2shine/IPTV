@@ -6117,20 +6117,6 @@
       }
     ]
   },
-  "CricLife 3 (T Sports)": {
-    "group": "Sports",
-    "tvg_id": "criclife3.in",
-    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4TS_QZbgpN1hhgxpya8iHzk796CoLUK95BA&s",
-    "links": [
-      {
-        "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
   "Dot Esports": {
     "group": "Sports",
     "tvg_id": "DotEsports",
@@ -7076,41 +7062,6 @@
       }
     ]
   },
-  "Star Sports Select 2": {
-    "group": "Sports",
-    "tvg_id": "starsportsselect2.in",
-    "tvg_logo": "https://static.epg.best/in/StarSportsSelect2.in.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "Star Sports Select 2 4K": {
-    "group": "Sports",
-    "tvg_id": "starsportsselect2.in",
-    "tvg_logo": "https://static.epg.best/in/StarSportsSelect2.in.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-10"
-      }
-    ]
-  },
   "STAR SPORTS SELECT 2 HD": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
@@ -7122,13 +7073,6 @@
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": "2025-09-10"
-      },
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-08"
       }
     ]
   },
