@@ -15,7 +15,6 @@ RETRIES = 3
 MAX_WORKERS = 100  # Parallel FFmpeg threads
 
 EXCLUDE_LIST = [
-    "Republic Bangla",
     "NEWS | Republic Bharat",
     "NEWS | Aaj Tak HD",
     "NEWS | Aaj Tak",
@@ -25,6 +24,7 @@ EXCLUDE_LIST = [
     "NEWS | ARY NEWS",
     "NEWS | News9Live",
     "NEWS | CNN News 18",
+    "IN | Republic Bangla",
     "IN | TV9 Bangla",
     "HINDI | RDC Movies",
     "Ekushay TV (Local)",
