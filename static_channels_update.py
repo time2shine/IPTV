@@ -15,7 +15,7 @@ RETRIES = 3
 MAX_WORKERS = 80  # Parallel FFmpeg threads
 
 EXCLUDE_LIST = [
-    "NEWS | Republic Bangla",
+    "Republic Bangla",
     "NEWS | Republic Bharat",
     "NEWS | Aaj Tak HD",
     "NEWS | Aaj Tak",
@@ -26,12 +26,17 @@ EXCLUDE_LIST = [
     "STAR SPORTS SELECT 1 HD",
     "STAR SPORTS SELECT 2 HD",
     "T Sports (BD)",
-    "MTRSPT1"
+    "MTRSPT1",
+    "Cowboy Channel"
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
-    "https://epg.provider",  # Add more domains as needed
+    "https://epg.provider",
+    "https://live.dinesh29.com",
+    "http://fl1.moveonjoy.com",
+    "https://cdn-4.pishow.tv",
+    "https://amg01448-samsungin"
 ]
 
 
