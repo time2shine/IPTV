@@ -20,6 +20,20 @@
       }
     ]
   },
+  "MTV2": {
+    "group": "International",
+    "tvg_id": "MTV2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/56/MTV2_2013.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/MTV_2/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "GB News": {
     "group": "International News",
     "tvg_id": "GBNews",
@@ -615,16 +629,37 @@
       }
     ]
   },
-  "MOHONA TV": {
+  "Mohona TV": {
     "group": "Bangla",
     "tvg_id": "mohona.bd",
     "tvg_logo": "https://mohona.tv/wp-content/uploads/2023/10/Mohona-Logo-PNG_02-1-e1696243467828.png",
     "links": [
       {
+        "url": "https://tvsen6.aynaott.com/mohonatv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/397.ts",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Movie Dome Family": {
+    "group": "Movies",
+    "tvg_id": "MovieDomeFamily",
+    "tvg_logo": "https://yt3.googleusercontent.com/VxlYQBBWs-gQUX5LJZDrG63VFpKNmt7BBnPjd9143b38YQUIR5toM2_6BNZi9RMjvq_-rfzOHXI=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -639,6 +674,48 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | NBA 5": {
+    "group": "Sports",
+    "tvg_id": "NBA5",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1a/NBA_TV_2017.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/NBA_5/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | NBA 7": {
+    "group": "Sports",
+    "tvg_id": "NBA7",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1a/NBA_TV_2017.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/NBA_7/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Marquee Sports Network": {
+    "group": "Sports",
+    "tvg_id": "MarqueeSportsNetwork",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Marquee_Sports_Network.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/MARQUEE_SPORTS_NETWORK/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -676,6 +753,13 @@
     "tvg_id": "NEXUSTV.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/0b/Nexus_Television_HD_logo.png",
     "links": [
+      {
+        "url": "https://tvsen6.aynaott.com/nexustv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/411.ts",
         "status": "online",
@@ -4923,6 +5007,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://sabliveyupp.akamaized.net/mastii/mastii_poc_800k.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
