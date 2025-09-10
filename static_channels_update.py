@@ -24,7 +24,9 @@ EXCLUDE_LIST = [
     "Ekushay TV (Local)",
     "Ekushay TV",
     "Star Sports Select 1 4K",
-    "Star Sports Select 2 4K"
+    "Star Sports Select 2 4K",
+    "STAR SPORTS SELECT 1 HD",
+    "T Sports (BD)"
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
