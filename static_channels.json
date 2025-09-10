@@ -1273,6 +1273,34 @@
       }
     ]
   },
+  "EN | Trace Urban": {
+    "group": "Music",
+    "tvg_id": "TraceUrban",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Trace_Urban.svg",
+    "links": [
+      {
+        "url": "https://amg01131-tracetv-amg01131c1-rakuten-us-1081.playouts.now.amagi.tv/playlist/amg01131-tracetvfast-traceurban-rakutenus/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "TVRI World": {
+    "group": "International",
+    "tvg_id": "TVRIWorld",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/91/TVRI_World_Old_Logo.png",
+    "links": [
+      {
+        "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Independent Television": {
     "group": "Bangla News",
     "tvg_id": "INDEPENDENTTV.bd",
@@ -7279,9 +7307,23 @@
       }
     ]
   },
+  "HINDI | Star Gold Select HD": {
+    "group": "Movies",
+    "tvg_id": "StarGoldSelect HD",
+    "tvg_logo": "https://live.dinesh29.com.np/logos/jiotvplus/stargoldselecthd.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/stargoldselecthd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "HINDI | Star Gold HD": {
     "group": "Movies",
-    "tvg_id": "Star Gold HD",
+    "tvg_id": "StarGoldHD",
     "tvg_logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
     "links": [
       {
@@ -7362,7 +7404,7 @@
     "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
     "links": [
       {
-        "url": "",
+        "url": "https://starsportshindiii.pages.dev/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
