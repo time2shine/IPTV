@@ -3912,6 +3912,20 @@
       }
     ]
   },
+  "OTHER | La Bocina Latina": {
+    "group": "Music",
+    "tvg_id": "la-bocina-latina",
+    "tvg_logo": "https://a.jsrdn.com/hls/23040/la-bocina-latina/logo_20231219_214948_65.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/la-bocina-latina/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "PBS Kids": {
     "group": "Kids",
     "tvg_id": "PBSkids",
@@ -3922,6 +3936,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
