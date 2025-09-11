@@ -7108,6 +7108,27 @@
         "last_online": null,
         "first_online": null,
         "last_offline": null
+      },
+      {
+        "url": "http://filex.tv:8080/live/Multicity/1234/52109.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | My Cinema": {
+    "group": "Movies",
+    "tvg_id": "My Cinema",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",
+    "links": [
+      {
+        "url": "https://mytime-tcl.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
