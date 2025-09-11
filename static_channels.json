@@ -20,6 +20,20 @@
       }
     ]
   },
+  "Anime All Day": {
+    "group": "Kids",
+    "tvg_id": "AnimeAllDay",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | Box Cinama": {
     "group": "Movies",
     "tvg_id": "BoxCinama",
