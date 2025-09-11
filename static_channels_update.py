@@ -15,6 +15,9 @@ RETRIES = 3
 MAX_WORKERS = 100  # Parallel FFmpeg threads
 
 EXCLUDE_LIST = [
+    "RACING | MTRSPT1",
+    "HINDI | RDC Movies",
+    "OTHER | Cowboy Channel",
     "NEWS | Republic Bharat",
     "NEWS | Aaj Tak HD",
     "NEWS | Aaj Tak",
@@ -26,14 +29,11 @@ EXCLUDE_LIST = [
     "NEWS | CNN News 18",
     "IN | Republic Bangla",
     "IN | TV9 Bangla",
-    "HINDI | RDC Movies",
-    "Ekushay TV (Local)",
-    "Ekushay TV",
     "CR | STAR SPORTS SELECT 1 HD",
     "CR | STAR SPORTS SELECT 2 HD",
-    "RACING | MTRSPT1",
-    "OTHER | Cowboy Channel",
     "CR | Cricket Gold",
+    "Ekushay TV (Local)",
+    "Ekushay TV",
     "Outdoor Channel",
     "AccuWeather NOW",
     "POWERtube TV"
@@ -41,13 +41,13 @@ EXCLUDE_LIST = [
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
-    "https://epg.provider",
+    "https://tiger-hub.vercel.app",
+    "https://amg01448-samsungin",
     "https://live.dinesh29.com",
+    "https://app.hughag.store",
     "http://fl1.moveonjoy.com",
     "https://cdn-4.pishow.tv",
-    "https://amg01448-samsungin",
-    "https://tiger-hub.vercel.app",
-    "https://app.hughag.store",
+    "https://epg.provider",
     "https://amg"
 ]
 
