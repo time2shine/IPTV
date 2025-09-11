@@ -20,6 +20,20 @@
       }
     ]
   },
+  "OTHER | Telemundo": {
+    "group": "International",
+    "tvg_id": "Telemundo",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8c/Telemundo_2018.svg",
+    "links": [
+      {
+        "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | Jeka": {
     "group": "Music",
     "tvg_id": "Jeka",
@@ -3310,6 +3324,20 @@
     "links": [
       {
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=36",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Peace TV Bangla": {
+    "group": "Religious",
+    "tvg_id": "PeaceTVBangla",
+    "tvg_logo": "https://m1pfxzepyyyj.merlincdn.net/content/6/BJ/169578/logo_50.png",
+    "links": [
+      {
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8",
         "status": "slow",
         "last_online": null,
         "first_online": null,
@@ -6666,6 +6694,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live Sports (3)--": {
+    "group": "Sports",
+    "tvg_id": "LiveSports-4",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0a/Eurosport_%282015%29.svg",
+    "links": [
+      {
+        "url": "https://app.hughag.store/api/ef22d71b0e/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
