@@ -1020,6 +1020,14 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
     "links": [
       {
+        "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
+        "status": "fast",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null,
+        "measured_speed_mbps": 1.0
+      },
+      {
         "url": "https://tvsen5.aynaott.com/tK2BNvT68fHZ/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
         "last_online": null,
@@ -7321,13 +7329,13 @@
       }
     ]
   },
-  "CR | PTV Sports": {
+  "--Live(PTV Sports)--": {
     "group": "Sports",
     "tvg_id": "PTVsports.pk",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png",
     "links": [
       {
-        "url": "",
+        "url": "https://tvsen5.aynaott.com/PtvSports/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
@@ -8301,11 +8309,32 @@
       }
     ]
   },
+  "CBN News": {
+    "group": "International News",
+    "tvg_id": "CBNNews",
+    "tvg_logo": "https://cbn.com/themes/custom/cbn_emulsify/images/cbn-logo-full.svg",
+    "links": [
+      {
+        "url": "https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8",
+        "status": "fast",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | Redbull TV": {
     "group": "Sports",
     "tvg_id": "redbull.tv",
     "tvg_logo": "https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg",
     "links": [
+      {
+        "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
+        "status": "fast",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
         "status": "online",
