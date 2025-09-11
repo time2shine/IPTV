@@ -29,12 +29,11 @@ EXCLUDE_LIST = [
     "HINDI | RDC Movies",
     "Ekushay TV (Local)",
     "Ekushay TV",
-    "STAR SPORTS SELECT 1 HD",
-    "STAR SPORTS SELECT 2 HD",
-    "T Sports (BD)",
-    "MTRSPT1",
-    "Cowboy Channel",
-    "Cricket Gold",
+    "CR | STAR SPORTS SELECT 1 HD",
+    "CR | STAR SPORTS SELECT 2 HD",
+    "RACING | MTRSPT1",
+    "OTHER | Cowboy Channel",
+    "CR | Cricket Gold",
     "Outdoor Channel",
     "AccuWeather NOW",
     "POWERtube TV"
@@ -47,7 +46,9 @@ WHITELIST_DOMAINS = [
     "http://fl1.moveonjoy.com",
     "https://cdn-4.pishow.tv",
     "https://amg01448-samsungin",
-    "https://tiger-hub.vercel.app"
+    "https://tiger-hub.vercel.app",
+    "https://app.hughag.store",
+    "https://amg"
 ]
 
 def check_ffmpeg(url, channel_name):
