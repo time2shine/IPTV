@@ -5,7 +5,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
     "links": [
       {
-        "url": "",
+        "url": "https://tvsen5.aynaott.com/Wm9Lv2RjZGT6/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
@@ -16,6 +16,27 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Taiwan Plus": {
+    "group": "International",
+    "tvg_id": "TaiwanPlus",
+    "tvg_logo": "https://www.taiwanplus.com/assets/img/download-app-logo.svg",
+    "links": [
+      {
+        "url": "https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_3/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -83,6 +104,20 @@
     "links": [
       {
         "url": "https://i.mjh.nz/.r/c31.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ABC Sport in 90 Seconds": {
+    "group": "International News",
+    "tvg_id": "ABCSportin90Seconds",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/86/ABC_News_2021_%28stacked%29.svg",
+    "links": [
+      {
+        "url": "https://c.mjh.nz/sport_in_90_seconds",
         "status": "slow",
         "last_online": null,
         "first_online": null,
