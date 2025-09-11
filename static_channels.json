@@ -20,6 +20,20 @@
       }
     ]
   },
+  "OTHER | Jeka": {
+    "group": "Music",
+    "tvg_id": "Jeka",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-4/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Spacetoon": {
     "group": "Kids",
     "tvg_id": "Spacetoon",
@@ -152,10 +166,73 @@
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
+        "url": "https://tvsen6.aynaott.com/asiantv/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/430.ts",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | CINEMAX EAST": {
+    "group": "Movies",
+    "tvg_id": "CINEMAXEAST",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/54/Cinemax_2011_%28Yellow%29.svg",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/CINEMAX/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Flashback": {
+    "group": "Music",
+    "tvg_id": "Flashback",
+    "tvg_logo": "https://flashbacktv.vip/assets/img/logo-header.svg",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Movie Bangla TV": {
+    "group": "Bangla",
+    "tvg_id": "MovieBanglaTV",
+    "tvg_logo": "https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png",
+    "links": [
+      {
+        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "eden+1": {
+    "group": "Educational",
+    "tvg_id": "edenPLUS1",
+    "tvg_logo": "https://freeviewnz.tv/Media/w12nmsps/018-edenplus1-red.png",
+    "links": [
+      {
+        "url": "https://i.mjh.nz/.r/eden-plus1.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1766,6 +1843,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Tik Tak": {
+    "group": "Music",
+    "tvg_id": "Tik Tak",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/22/TikTak1989logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-a5/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -8024,6 +8115,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
