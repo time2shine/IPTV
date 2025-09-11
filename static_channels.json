@@ -195,20 +195,6 @@
       }
     ]
   },
-  "EN | FashionTV Asia HD": {
-    "group": "International",
-    "tvg_id": "FashionTVAsiaHD",
-    "tvg_logo": "https://cdn.marschannels.com/files/channel_settings/img/1637571920876.svg",
-    "links": [
-      {
-        "url": "https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/bd8f1eaade6782c3ad8c6916f840f89052a2c590/700a192f4d09363.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "OTHER | Rotana Cinema (KSA)": {
     "group": "Movies",
     "tvg_id": "RotanaCinema",
@@ -653,6 +639,13 @@
         "status": "slow",
         "last_online": null,
         "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -7944,20 +7937,6 @@
       }
     ]
   },
-  "OTHER | Dubai Sports 2": {
-    "group": "Sports",
-    "tvg_id": "dubaisports2.in",
-    "tvg_logo": "https://i.ibb.co/zG2bzwF/IMG-20220730-WA0007.jpg",
-    "links": [
-      {
-        "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "OTHER | Dubai Sports 3": {
     "group": "Sports",
     "tvg_id": "dubaisports3.in",
@@ -8312,6 +8291,13 @@
         "last_online": null,
         "first_online": null,
         "last_offline": null
+      },
+      {
+        "url": "https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
       }
     ]
   },
@@ -8560,20 +8546,6 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Sports First TV": {
-    "group": "Sports",
-    "tvg_id": "SportsFirstTV",
-    "tvg_logo": "https://a.jsrdn.com/hls/23208/sports-first-tv/logo_20250211_205731_70.png",
-    "links": [
-      {
-        "url": "https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
