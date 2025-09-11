@@ -20,6 +20,20 @@
       }
     ]
   },
+  "EN | Channel 31": {
+    "group": "International",
+    "tvg_id": "Channel31",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/Channel_31_logo_2020.png",
+    "links": [
+      {
+        "url": "https://i.mjh.nz/.r/c31.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -247,6 +261,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -513,6 +534,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Now Rock": {
+    "group": "Music",
+    "tvg_id": "NowRock",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -801,6 +836,27 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | M20 Music": {
+    "group": "Music",
+    "tvg_id": "M20Music",
+    "tvg_logo": "https://static.mytuner.mobi/media/tvos_radios/298/radio-m2o.24a4d505.jpg",
+    "links": [
+      {
+        "url": "https://streamcdne2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1064000.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -912,6 +968,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1185,6 +1248,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2473,6 +2543,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "http://fl1.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -4833,6 +4910,13 @@
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-10"
+      },
+      {
+        "url": "https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5357,6 +5441,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Channel 44": {
+    "group": "International",
+    "tvg_id": "Channel44",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4c/44_Adelaide_2015-.png",
+    "links": [
+      {
+        "url": "https://i.mjh.nz/.r/c44.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
