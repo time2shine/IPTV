@@ -20,6 +20,34 @@
       }
     ]
   },
+  "OTHER | Box Cinama": {
+    "group": "Movies",
+    "tvg_id": "BoxCinama",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a0/Box_Cinema.jpg",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QK2TKFREGRYXDI8IJGHW/hls3/now,-1m/m.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | SUN MUSIC": {
+    "group": "Music",
+    "tvg_id": "SUNMUSIC",
+    "tvg_logo": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/sun-music-black.png",
+    "links": [
+      {
+        "url": "https://hls.sunmusic.live/hls/stream.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Madina live": {
     "group": "Religious",
     "tvg_id": "Madinalive",
