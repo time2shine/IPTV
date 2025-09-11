@@ -20,6 +20,20 @@
       }
     ]
   },
+  "TR | Kral Pop (Turkey)": {
+    "group": "Music",
+    "tvg_id": "KralPop",
+    "tvg_logo": "https://www.kralmuzik.com.tr/app/themes/kral/assets/images/kralmuzik_logo.png",
+    "links": [
+      {
+        "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | FashionTV Asia HD": {
     "group": "International",
     "tvg_id": "FashionTVAsiaHD",
@@ -4559,6 +4573,13 @@
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
+        "last_offline": null
+      },
+      {
+        "url": "http://fl1.moveonjoy.com/HBO_COMEDY/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
