@@ -20,6 +20,62 @@
       }
     ]
   },
+  "Cartoon Network Hindi": {
+    "group": "Kids",
+    "tvg_id": "CartoonNetworkHindi",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2021/08/Cartoon-Network-Emblem.png",
+    "links": [
+      {
+        "url": "https://app.hughag.store/api/68b0f4e13e/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | SL1": {
+    "group": "Movies",
+    "tvg_id": "SL1",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://slonehls.wns.live/hls/stream.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Me-TV": {
+    "group": "Bangla",
+    "tvg_id": "Me-tv",
+    "tvg_logo": "https://yt3.googleusercontent.com/OHsKWwrPCUUomluu0R4GqjQNXuD3vOHDK3dLq2Qczmu9ZI5X7ljltXoHM8c4-vElz4DdD3qflQ=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://iptvbd.live/metv1080/1080.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | FX2": {
+    "group": "Movies",
+    "tvg_id": "FX2",
+    "tvg_logo": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/m9kufdwxrebnfsaade94",
+    "links": [
+      {
+        "url": "https://toonixhls.wns.live/hls/stream.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "TR | Kral Pop (Turkey)": {
     "group": "Music",
     "tvg_id": "KralPop",
