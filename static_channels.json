@@ -2068,6 +2068,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -3121,6 +3128,34 @@
       }
     ]
   },
+  "FB | Oman Sports TV": {
+    "group": "Sports",
+    "tvg_id": "OmanSportsTV",
+    "tvg_logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/oman-tv-sport.png",
+    "links": [
+      {
+        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | 4 Fun TV": {
+    "group": "Music",
+    "tvg_id": "4FunTV",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/4fun.tv_Logo_%282017%29.svg/1200px-4fun.tv_Logo_%282017%29.svg.png",
+    "links": [
+      {
+        "url": "https://stream.4fun.tv:8888/hls/4f_low/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "TOON GOOGLE": {
     "group": "Kids",
     "tvg_id": "TOONGOOGLE",
@@ -4041,6 +4076,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Magic Bangla TV": {
+    "group": "Bangla",
+    "tvg_id": "MagicBanglaTV",
+    "tvg_logo": "https://magicbanglatv.com/images/logo-170679715465bba8620786e.png",
+    "links": [
+      {
+        "url": "https://jolshabd.com/live/mbanglatv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
