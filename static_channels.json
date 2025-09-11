@@ -2308,10 +2308,38 @@
     "tvg_logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/court-tv-us.png?raw=true",
     "links": [
       {
-        "url": "http://fl1.moveonjoy.com/DISCOVERY_LIFE/index.m3u8",
+        "url": "http://fl1.moveonjoy.com/COURT_TV/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | MUZZIK MIX": {
+    "group": "Music",
+    "tvg_id": "MUZZIKMIX",
+    "tvg_logo": "https://static.hrvatskitelekom.hr/webresources/images/maxtv-new/programi/Muzzik_mix_250x250.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-a7/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | MUZZIK SEE": {
+    "group": "Music",
+    "tvg_id": "MUZZIKSEE",
+    "tvg_logo": "https://static.hrvatskitelekom.hr/webresources/images/maxtv-new/programi/Muzzik_mix_250x250.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-6/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -6536,7 +6564,7 @@
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
     "links": [
       {
-        "url": "",
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": null,
