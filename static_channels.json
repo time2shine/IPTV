@@ -20,6 +20,48 @@
       }
     ]
   },
+  "Madina live": {
+    "group": "Religious",
+    "tvg_id": "Madinalive",
+    "tvg_logo": "https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png",
+    "links": [
+      {
+        "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | 7X PANJAB MUSIC": {
+    "group": "Music",
+    "tvg_id": "7XPANJABMUSIC",
+    "tvg_logo": "https://d3jnkp3lrs2hd5.cloudfront.net/images/320x180/880c1e6e-62cd-4632-b5f9-c5b34e14da61.jpg",
+    "links": [
+      {
+        "url": "https://stream.e2is.in/hls/7xMusic.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | ELECTRO": {
+    "group": "Music",
+    "tvg_id": "ELECTRO",
+    "tvg_logo": "https://www.electricnow.tv/themes/custom/elec/electricnow/logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-9/576p/chunklist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Cartoon Network Hindi": {
     "group": "Kids",
     "tvg_id": "CartoonNetworkHindi",
@@ -1077,11 +1119,32 @@
       }
     ]
   },
+  "IN | Kalkata TV": {
+    "group": "Bangla News",
+    "tvg_id": "Kalkatatv",
+    "tvg_logo": "https://www.lyngsat.com/logo/tv/ss/sun-bangla-in.png",
+    "links": [
+      {
+        "url": "https://tvsen6.aynaott.com/kolkatatv/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "SATV HD": {
     "group": "Bangla",
     "tvg_id": "SATV.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/1/11/SATV_HD.png",
     "links": [
+      {
+        "url": "https://tvsen6.aynaott.com/satv/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tvsen6.aynaott.com/satv/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
@@ -1411,6 +1474,13 @@
     "tvg_id": "ekattor.tv",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5d/Ekattor_TV_logo.png",
     "links": [
+        {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8",
         "status": "online",
@@ -1495,6 +1565,13 @@
     "tvg_id": "NEWS24.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
     "links": [
+      {
+        "url": "https://tvsen6.aynaott.com/news24/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/3810.ts",
         "status": "online",
@@ -6873,7 +6950,7 @@
       }
     ]
   },
-  "--Live Sports (1)--": {
+  "--Live(A Sports)--": {
     "group": "Sports",
     "tvg_id": "live",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1c/Live%21_logo.png",
@@ -6887,7 +6964,7 @@
       }
     ]
   },
-  "--Live Sports (2)--": {
+  "--Live(Afghan Sports)--": {
     "group": "Sports",
     "tvg_id": "live",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1c/Live%21_logo.png",
@@ -6901,13 +6978,27 @@
       }
     ]
   },
-  "--Live Sports (3)--": {
+  "--Live(Euro Sport)--": {
     "group": "Sports",
     "tvg_id": "LiveSports-4",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0a/Eurosport_%282015%29.svg",
     "links": [
       {
         "url": "https://app.hughag.store/api/ef22d71b0e/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Willow Extra HD)--": {
+    "group": "Sports",
+    "tvg_id": "WillowExtraHD",
+    "tvg_logo": "https://aimages.willow.tv/wlo_logo_200_200.jpg",
+    "links": [
+      {
+        "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8",
         "status": "slow",
         "last_online": null,
         "first_online": null,
