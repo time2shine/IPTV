@@ -20,6 +20,20 @@
       }
     ]
   },
+  "BBC America": {
+    "group": "International",
+    "tvg_id": "BBCAmerica.us@East",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/BBC_America_2015_%28Square%29.svg",
+    "links": [
+      {
+        "url": "https://bcovlive-a.akamaihd.net/7f5ec16d102f4b5d92e8e27bc95ff424/us-east-1/6240731308001/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "IBN TV": {
     "group": "Religious",
     "tvg_id": "IBNTV.tz",
