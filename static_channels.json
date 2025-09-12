@@ -20,6 +20,48 @@
       }
     ]
   },
+  "IBN TV": {
+    "group": "Religious",
+    "tvg_id": "IBNTV.tz",
+    "tvg_logo": "https://i.imgur.com/hkV51ij.png",
+    "links": [
+      {
+        "url": "http://138.68.138.119:8080/live/5a8993709ea19/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Iran Press (720p)": {
+    "group": "International News",
+    "tvg_id": "IranPress.ir",
+    "tvg_logo": "https://iranpress.com//img/watermark.png",
+    "links": [
+      {
+        "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "IBN TV Africa": {
+    "group": "Religious",
+    "tvg_id": "IBNTVAfrica.tz",
+    "tvg_logo": "https://www.ibn-tv.co.tz/img/IBN-NewLogo.png",
+    "links": [
+      {
+        "url": "http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | FB TV": {
     "group": "Sports",
     "tvg_id": "FBTV.tr@SD",
@@ -2329,6 +2371,13 @@
     "tvg_id": "News9Live.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23129/news9live/logo_20250813_011629_68.jpg",
     "links": [
+      {
+        "url": "https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8",
         "status": "online",
@@ -5500,6 +5549,13 @@
     "tvg_id": "Flashback",
     "tvg_logo": "https://flashbacktv.vip/assets/img/logo-header.svg",
     "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-8/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8",
         "status": "online",
