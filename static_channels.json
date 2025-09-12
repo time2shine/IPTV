@@ -3597,7 +3597,7 @@
     "tvg_logo": "https://cdn.tvpassport.com/image/station/240x135/v2/s12131_h15_aa.png",
     "links": [
       {
-        "url": "http://user.scalecdn.co:8080/live/26725074/92867131/3711.ts",
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
         "status": "offline",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
@@ -4052,6 +4052,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2b/Spacetoon_logo.png",
     "links": [
       {
+        "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/chunklist.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-11"
+      },
+      {
         "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8",
         "status": "offline",
         "last_online": null,
@@ -4200,11 +4207,32 @@
       }
     ]
   },
-  "ZOOMOO (KIDS)": {
+  "KIDS FLIX": {
     "group": "Kids",
-    "tvg_id": "ZOOMOO (KIDS)",
+    "tvg_id": "KIDSFLIX",
+    "tvg_logo": "https://www.kidsflix.com/themes/custom/viva/kidsflix/logo.png",
+    "links": [
+      {
+        "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ZOO MOO": {
+    "group": "Kids",
+    "tvg_id": "ZOOMOO",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/44/ZooMoo_Kids_2020.svg",
     "links": [
+      {
+        "url": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-09",
+        "last_offline": null
+      },
       {
         "url": "https://zoomoo-samsungau.amagi.tv/playlist720p.m3u8",
         "status": "online",
