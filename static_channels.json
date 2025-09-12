@@ -3269,10 +3269,10 @@
       }
     ]
   },
-  "CNN": {
+  "CNN International": {
     "group": "International News",
-    "tvg_id": "CNN.us",
-    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/11/CNN-Logo-2014-present-700x394.jpg",
+    "tvg_id": "CNNInternational.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/CNN_International_2009.svg",
     "links": [
       {
         "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
@@ -3306,28 +3306,14 @@
   },
   "CNN USA": {
     "group": "International News",
-    "tvg_id": "cnnInternationalusa.us",
-    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
+    "tvg_id": "cnn.us",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/11/CNN-Logo-2014-present-700x394.jpg",
     "links": [
       {
         "url": "https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "CNN International": {
-    "group": "International News",
-    "tvg_id": "cnnInternational.us",
-    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
