@@ -7245,20 +7245,6 @@
       }
     ]
   },
-  "Saudi Quran": {
-    "group": "Religious",
-    "tvg_id": "Saudi Quran",
-    "tvg_logo": "https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
   "Sunnah TV": {
     "group": "Religious",
     "tvg_id": "SunnahTV.sa",
@@ -7613,6 +7599,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
       }
     ]
   },
@@ -7774,41 +7767,6 @@
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "CR | Super Sports Cricket": {
-    "group": "Sports",
-    "tvg_id": "supersports.cricket",
-    "tvg_logo": "https://images.supersport.com/media/eoagvak1/ss-logo-2024.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
-      {
-        "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "CR | SuperSports Cricket": {
-    "group": "Sports",
-    "tvg_id": "SuperSportsCricket",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9a/SuperSports-2023.svg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
       }
     ]
   },
@@ -8241,8 +8199,8 @@
   },
   "YOGA | Fitness TV": {
     "group": "Sports",
-    "tvg_id": "Fitness tv",
-    "tvg_logo": "https://lo1.in/LOGO/CARIBBEAN/NBCGOLF.png",
+    "tvg_id": "FitnessTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23024/lifefit-by-triptic/logo_20231219_215130_63.png",
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8",
@@ -8347,20 +8305,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "YOGA | LifeFit by Triptic": {
-    "group": "Sports",
-    "tvg_id": "LifeFitbyTriptic",
-    "tvg_logo": "https://a.jsrdn.com/hls/23024/lifefit-by-triptic/logo_20231219_215130_63.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
