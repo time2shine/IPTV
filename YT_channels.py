@@ -32,8 +32,8 @@ channel_metadata = {
         'channel_logo': 'https://yt3.googleusercontent.com/Jw5N_GsIqsDis5cvYkAlJZFU2Z3m_6q6GaTdmUK0hJ4bsadl4He51sFu1LoCGKmf3QiTG-9P5G4=s160-c-k-c0x00ffffff-no-rj',
     },
     'UC0V3IJCnr6ZNjB9t_GLhFFA': {  # NTV Live
-        'group_title': 'Bangla News',
-        'channel_name': 'BD | NTV Live',
+        'group_title': 'Bangla',
+        'channel_name': 'NTV Live',
         'channel_logo': 'https://yt3.googleusercontent.com/NgVaE3RsOhC9cIV_6kTp0h2ikrHIFG8QPJF5IrRg_nPiQbQeG-dzK5SHLmi_MDEyVNj73aeSHg=s160-c-k-c0x00ffffff-no-rj',
     },
     'UC8NcXMG3A3f2aFQyGTpSNww': {  # Channel i News
@@ -127,6 +127,7 @@ channel_metadata = {
         'channel_logo': 'https://yt3.googleusercontent.com/plbYMBlbSJHXOLEqCE4tCFPkw-WwoZ5y-oI4M1l5dljjOFMrQj9g_ZYTb5Fu8t_y8weRNR4iHQ=s160-c-k-c0x00ffffff-no-rj',
     },
 }
+
 
 
 
