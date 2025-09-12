@@ -59,7 +59,7 @@ WHITELIST_DOMAINS = [
     "https://epg.provider",
     "http://41.205.93.154",
     "http://filex.tv:8080",
-    "https://amg"https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8
+    "https://amg"
 ]
 
 def check_ffmpeg(url, channel_name):
