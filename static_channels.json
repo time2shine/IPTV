@@ -8260,7 +8260,7 @@
       }
     ]
   },
-  "MIX | ESPN": {
+  "MIXER | ESPN": {
     "group": "Sports",
     "tvg_id": "ESPN",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg",
@@ -8274,7 +8274,7 @@
       }
     ]
   },
-  "MIX | Europe Sports 1 HD": {
+  "MIXER | Europe Sports 1 HD": {
     "group": "Sports",
     "tvg_id": "Europe Sports 1 HD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Europe_1_Flat_%282010%29.svg",
@@ -8288,7 +8288,7 @@
       }
     ]
   },
-  "MIX | Europe Sports 2 HD": {
+  "MIXER | Europe Sports 2 HD": {
     "group": "Sports",
     "tvg_id": "EuropeSports2HD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
@@ -8316,7 +8316,7 @@
       }
     ]
   },
-  "MIX | FUEL TV": {
+  "MIXER | FUEL TV": {
     "group": "Sports",
     "tvg_id": "FUELTV",
     "tvg_logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
@@ -8330,7 +8330,7 @@
       }
     ]
   },
-  "MIX | Horizon Sports": {
+  "MIXER | Horizon Sports": {
     "group": "Sports",
     "tvg_id": "HorizonSports",
     "tvg_logo": "https://a.jsrdn.com/hls/22705/horizon-sports/logo_20231219_213910_70.png",
@@ -8344,7 +8344,7 @@
       }
     ]
   },
-  "MIX | Hub Sports 1": {
+  "MIXER | Hub Sports 1": {
     "group": "Sports",
     "tvg_id": "HubSports1",
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
@@ -8358,7 +8358,7 @@
       }
     ]
   },
-  "MIX | Hub Sports 2": {
+  "MIXER | Hub Sports 2": {
     "group": "Sports",
     "tvg_id": "HubSports2",
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
@@ -8372,7 +8372,7 @@
       }
     ]
   },
-  "MIX | Hub Sports 4": {
+  "MIXER | Hub Sports 4": {
     "group": "Sports",
     "tvg_id": "HubSports4",
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
@@ -8449,21 +8449,7 @@
       }
     ]
   },
-  "OTHER | Marquee Sports Network": {
-    "group": "Sports",
-    "tvg_id": "MarqueeSportsNetwork",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b8/Marquee_Sports_Network.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/MARQUEE_SPORTS_NETWORK/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | MMA Junkie": {
+  "FIGHT | MMA Junkie": {
     "group": "Sports",
     "tvg_id": "MMAJunkie",
     "tvg_logo": "https://a.jsrdn.com/hls/22814/mma-junkie/logo_20231219_215607_30.png",
@@ -8477,7 +8463,7 @@
       }
     ]
   },
-  "OTHER | MSG": {
+  "MIXER | MSG": {
     "group": "Sports",
     "tvg_id": "MSG",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/MSG_Network.png",
@@ -8491,35 +8477,7 @@
       }
     ]
   },
-  "OTHER | NBA 5": {
-    "group": "Sports",
-    "tvg_id": "NBA5",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1a/NBA_TV_2017.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/NBA_5/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | NBA 7": {
-    "group": "Sports",
-    "tvg_id": "NBA7",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1a/NBA_TV_2017.svg",
-    "links": [
-      {
-        "url": "http://fl1.moveonjoy.com/NBA_7/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Outsidetv": {
+  "MIXER | OUTSIDE TV": {
     "group": "Sports",
     "tvg_id": "Outsidetv",
     "tvg_logo": "https://a.jsrdn.com/hls/22765/outside-tv/logo_20231219_220634_59.png",
@@ -8533,7 +8491,7 @@
       }
     ]
   },
-  "OTHER | Peak Fighting": {
+  "FIGHT | Peak Fighting": {
     "group": "Sports",
     "tvg_id": "PeakFighting",
     "tvg_logo": "https://a.jsrdn.com/hls/23195/peak-fighting/logo_20250422_184955_68.png",
@@ -8547,7 +8505,7 @@
       }
     ]
   },
-  "OTHER | PLL Network": {
+  "MIXER | PLL Network": {
     "group": "Sports",
     "tvg_id": "PLLNetwork",
     "tvg_logo": "https://a.jsrdn.com/hls/22964/pll-network-ww/logo_20240626_232614_70.png",
@@ -8561,7 +8519,7 @@
       }
     ]
   },
-  "OTHER | Premire Sports 1": {
+  "FB+MIX | Premire Sports 1": {
     "group": "Sports",
     "tvg_id": "PremireSports1",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a7/Premier_Sports_1_II.svg",
@@ -8575,7 +8533,7 @@
       }
     ]
   },
-  "OTHER | Redbull TV": {
+  "MIXER | Redbull TV": {
     "group": "Sports",
     "tvg_id": "redbull.tv",
     "tvg_logo": "https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg",
@@ -8603,42 +8561,7 @@
       }
     ]
   },
-  "OTHER | RTA Sports HD": {
-    "group": "Sports",
-    "tvg_id": "RTASportsHD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/b/bd/RTA_Sport_TV_Live.jpg",
-    "links": [
-      {
-        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Sharjah Sports": {
+  "MIXER | Sharjah Sports": {
     "group": "Sports",
     "tvg_id": "SharjahSports.ae",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Sharjah_Sports_TV_Logo_2014.png",
@@ -8652,7 +8575,7 @@
       }
     ]
   },
-  "OTHER | Skull Bound TV": {
+  "MIXER | Skull Bound TV": {
     "group": "Sports",
     "tvg_id": "SkullBoundTV",
     "tvg_logo": "https://a.jsrdn.com/hls/23195/skull-bound-tv/logo_20250102_202956_70.png",
@@ -8666,7 +8589,7 @@
       }
     ]
   },
-  "OTHER | Sky Sport 5": {
+  "FB+MIX | Sky Sports 5": {
     "group": "Sports",
     "tvg_id": "skysports5.nz",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/23/Sky_Sport_5_NZ.svg",
@@ -8680,7 +8603,7 @@
       }
     ]
   },
-  "OTHER | Sky Sports 1": {
+  "FB+MIX | Sky Sports 1": {
     "group": "Sports",
     "tvg_id": "skysports1.nz",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/dc/Sky_Sports_1_2015.svg",
@@ -8694,7 +8617,7 @@
       }
     ]
   },
-  "OTHER | Sky Sports 2": {
+  "FB+MIX | Sky Sports 2": {
     "group": "Sports",
     "tvg_id": "skysports2.nz",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
@@ -8708,7 +8631,7 @@
       }
     ]
   },
-  "OTHER | Sky Sports Mix": {
+  "FB+MIX | Sky Sports Mix": {
     "group": "Sports",
     "tvg_id": "skysports.max",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
@@ -8722,7 +8645,7 @@
       }
     ]
   },
-  "OTHER | Sony Ten 1 4K": {
+  "MIXER | Sony Ten 1 4K": {
     "group": "Sports",
     "tvg_id": "sonyten1.in",
     "tvg_logo": "http://openboxv8s.com/india/sony-ten1.png",
@@ -8736,7 +8659,7 @@
       }
     ]
   },
-  "OTHER | Sony Ten 1 HD": {
+  "MIXER | Sony Ten 1 HD": {
     "group": "Sports",
     "tvg_id": "sonyten1.in",
     "tvg_logo": "https://static.epg.best/in/SonyTEN1.in.png",
@@ -8750,7 +8673,7 @@
       }
     ]
   },
-  "OTHER | Sony Ten 2 HD": {
+  "MIXER | Sony Ten 2 HD": {
     "group": "Sports",
     "tvg_id": "sonyten2.in",
     "tvg_logo": "https://static.epg.best/in/SonyTEN2.in.png",
@@ -8771,7 +8694,7 @@
       }
     ]
   },
-  "OTHER | Sony Ten 4 HD": {
+  "MIXER | Sony Ten 4 HD": {
     "group": "Sports",
     "tvg_id": "sonyten4.in",
     "tvg_logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/general_content/PGT_1624_1.png",
@@ -8785,7 +8708,7 @@
       }
     ]
   },
-  "OTHER | Sony Ten 5 HD": {
+  "MIXER | Sony Ten 5 HD": {
     "group": "Sports",
     "tvg_id": "sonyten5.in",
     "tvg_logo": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png",
@@ -8806,7 +8729,7 @@
       }
     ]
   },
-  "OTHER | Sports Connect": {
+  "MIXER | Sports Connect": {
     "group": "Sports",
     "tvg_id": "SportsConnect",
     "tvg_logo": "https://a.jsrdn.com/hls/23181/sports-connect/logo_20231219_222026_50.png",
@@ -8820,7 +8743,7 @@
       }
     ]
   },
-  "OTHER | Sports First TV": {
+  "MIXER | Sports First TV": {
     "group": "Sports",
     "tvg_id": "SportsFirstTV",
     "tvg_logo": "http://dds.oncast.me/img/logo/sp6.png",
@@ -8841,7 +8764,7 @@
       }
     ]
   },
-  "OTHER | SportsGrid": {
+  "MIXER | SportsGrid": {
     "group": "Sports",
     "tvg_id": "SportsGrid",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg",
@@ -8855,7 +8778,7 @@
       }
     ]
   },
-  "OTHER | SportsTVPlus": {
+  "MIXER | SportsTVPlus": {
     "group": "Sports",
     "tvg_id": "SportsTVPlus",
     "tvg_logo": "https://a.jsrdn.com/hls/23195/sportstvplus/logo_20241119_225320_70.png",
@@ -8869,7 +8792,7 @@
       }
     ]
   },
-  "OTHER | Ten Sports": {
+  "CR | Ten Sports HD": {
     "group": "Sports",
     "tvg_id": "tensports.in",
     "tvg_logo": "https://www.medianews4u.com/wp-content/uploads/2015/02/df8bdc0787eb68c35292ff74fa60466b-2-3.jpg",
@@ -8883,7 +8806,7 @@
       }
     ]
   },
-  "OTHER | Tennis Channel": {
+  "TENNIS | Tennis Channel": {
     "group": "Sports",
     "tvg_id": "Tennis Channel",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Tennis_Channel_2022.svg",
@@ -8897,7 +8820,7 @@
       }
     ]
   },
-  "OTHER | Trace Sports Stars": {
+  "MIXER | Trace Sports Stars": {
     "group": "Sports",
     "tvg_id": "TraceSportsStars",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg",
@@ -8918,7 +8841,7 @@
       }
     ]
   },
-  "OTHER | WWE": {
+  "FIGHT | WWE": {
     "group": "Sports",
     "tvg_id": "wwe.in",
     "tvg_logo": "https://brandslogos.com/wp-content/uploads/images/wwe-logo.png",
