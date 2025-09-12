@@ -215,6 +215,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2e/ATN_Bangla.svg",
     "links": [
       {
+        "url": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
         "status": "online",
         "last_online": null,
@@ -401,6 +408,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
+        "last_offline": null
+      },
+      {
+        "url": "https://tvsen6.aynaott.com/channeli/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -854,7 +868,7 @@
       }
     ]
   },
-  "NTV": {
+  "NTV HD": {
     "group": "Bangla",
     "tvg_id": "ntv.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e1/NTV_Bangladesh.svg",
@@ -864,6 +878,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -1371,6 +1392,13 @@
         "last_offline": null
       },
       {
+        "url": "https://tvsen6.aynaott.com/independenttv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://tvsen6.aynaott.com/independenttv/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
         "last_online": null,
@@ -1382,6 +1410,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Star MAA MUSIC": {
+    "group": "Music",
+    "tvg_id": "StarMAAMUSIC",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/bb/StarMaa_Music.jpg",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/maamusic/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1578,6 +1620,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/news18banglanews/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2026,6 +2075,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | STAR BHARAT": {
+    "group": "India",
+    "tvg_id": "STARBHARAT",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7b/Star_Bharat_2022.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starbharat/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | STAR BHARAT HD": {
+    "group": "INDIAN",
+    "tvg_id": "STAR BHARAT HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starbharathd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3905,6 +3982,13 @@
         "last_offline": null
       },
       {
+        "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/433.ts",
         "status": "online",
         "last_online": "2025-09-03",
@@ -5163,6 +5247,13 @@
         "last_online": null,
         "first_online": "2025-09-10",
         "last_offline": null
+      },
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/stargoldhd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5414,6 +5505,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | SUN MUSIC HD": {
+    "group": "Music",
+    "tvg_id": "SUNMUSICHD.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/52/HD.SMU.jpg",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/sunmusichd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5907,6 +6012,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/21/9x_Jalwa.png",
     "links": [
       {
+        "url": "https://xfireflix.fun/stream/da617cc0-9209-434c-9156-0f9387182a3f/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -5988,6 +6100,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
+        "last_offline": null
+      },
+      {
+        "url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7291,6 +7410,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://xfireflix.fun/stream/a3d48c46-7902-45e2-abf9-0fab60c4d117/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -7623,16 +7749,37 @@
       }
     ]
   },
-  "CR | Star Sports 2 Hindi": {
+  "CR | Star Sports 2 HD": {
     "group": "Sports",
     "tvg_id": "starsports2hd.in",
     "tvg_logo": "https://static.epg.best/in/StarSports2.in.png",
     "links": [
       {
+        "url": "https://xfireflix.fun/stream/3ac46078-2bf0-4998-a021-37b459e09fba/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | STAR SPORTS 2": {
+    "group": "Sports",
+    "tvg_id": "STARSPORTS2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/ac/Star_Sports_2.jpg",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsports2/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7740,6 +7887,13 @@
     "tvg_id": "tensports.pk",
     "tvg_logo": "https://www.pngkey.com/png/detail/244-2446295_pakistan-ten-sports-channel-logo.png",
     "links": [
+      {
+        "url": "http://app.hughag.store/api/6b9c461155/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/chunklist_b996000.m3u8",
         "status": "online",
