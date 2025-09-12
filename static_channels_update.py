@@ -27,6 +27,7 @@ EXCLUDE_LIST = [
     "NEWS | ARY NEWS",
     "NEWS | News9Live",
     "NEWS | CNN News 18",
+    "BD | TBN 24 USA",
     "IN | Republic Bangla",
     "IN | TV9 Bangla",
     "CR | Cricket Gold",
@@ -46,6 +47,7 @@ WHITELIST_DOMAINS = [
     "http://fl1.moveonjoy.com",
     "https://cdn-4.pishow.tv",
     "https://epg.provider",
+    "http://41.205.93.154",
     "https://amg"
 ]
 
