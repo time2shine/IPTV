@@ -1,4 +1,4 @@
-# 📺 time2shine/IPTV
+# 📺 IPTV
 
 A simple yet powerful IPTV playlist & EPG manager. This project was created as a **coding hobby** and to maintain a working IPTV setup for personal use.
 
