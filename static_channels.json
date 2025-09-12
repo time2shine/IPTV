@@ -7469,7 +7469,7 @@
       }
     ]
   },
-  "--Live(Willow Extra HD)--": {
+  "--Live(Willow Sports HD)--": {
     "group": "Sports",
     "tvg_id": "WillowExtraHD",
     "tvg_logo": "https://aimages.willow.tv/wlo_logo_200_200.jpg",
@@ -7514,6 +7514,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | WILLOW HD": {
+    "group": "Sports",
+    "tvg_id": "WILLOWHD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Willow_HD_2023.svg",
+    "links": [
+      {
+        "url": "http://xxip9.top:8080/live/7656691303/chrisbolden765%40icloud.com/58847.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7917,24 +7931,10 @@
       }
     ]
   },
-  "CR | Willow Cricket HD": {
+  "CR | Willow HD 2": {
     "group": "Sports",
-    "tvg_id": "willowcricket.in",
-    "tvg_logo": "https://static.epg.best/us/WillowCricket.us.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
-  "CR | Willow HD": {
-    "group": "Sports",
-    "tvg_id": "willowxtra.in",
-    "tvg_logo": "https://5gtv.online:2053/logo/willowxtra1.png",
+    "tvg_id": "willow2.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/91/Willow_2_2025.png",
     "links": [
       {
         "url": "https://tiger-hub.vercel.app/WillowHD-2/tracks-v1a1/mono.m3u8",
@@ -7942,27 +7942,6 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      },
-      {
-        "url": "https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "CR | Willow Xtra": {
-    "group": "Sports",
-    "tvg_id": "willowxtra.in",
-    "tvg_logo": "https://5gtv.online:2053/logo/willowxtra1.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
       }
     ]
   },
