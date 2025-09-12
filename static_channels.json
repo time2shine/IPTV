@@ -20,6 +20,48 @@
       }
     ]
   },
+  "OTHER | FB TV": {
+    "group": "Sports",
+    "tvg_id": "FBTV.tr@SD",
+    "tvg_logo": "https://i.imgur.com/qBVqtYd.png",
+    "links": [
+      {
+        "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | ET Now Swadesh": {
+    "group": "India",
+    "tvg_id": "ETNowSwadesh.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/ET_Now_Swadesh.jpg",
+    "links": [
+      {
+        "url": "https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EAC News TV": {
+    "group": "International News",
+    "tvg_id": "EACNewsTV.kh@SD",
+    "tvg_logo": "https://eacnews.asia/front/img/E-Arts03-01.png",
+    "links": [
+      {
+        "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Blues TV": {
     "group": "International",
     "tvg_id": "KMBYLD5.us",
