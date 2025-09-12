@@ -7419,7 +7419,28 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1c/Live%21_logo.png",
     "links": [
       {
+        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -7427,7 +7448,7 @@
       }
     ]
   },
-  "--Live(Euro Sport)--": {
+  "--Live(Euro Sport HD)--": {
     "group": "Sports",
     "tvg_id": "LiveSports-4",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0a/Eurosport_%282015%29.svg",
@@ -8274,10 +8295,10 @@
       }
     ]
   },
-  "MIXER | Europe Sports 1 HD": {
+  "--Live(Euro Sport 1)--": {
     "group": "Sports",
     "tvg_id": "Europe Sports 1 HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Europe_1_Flat_%282010%29.svg",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Eurosport_1_%28II%29.svg",
     "links": [
       {
         "url": "http://185.189.225.157/EuroSport1/index.m3u8",
@@ -8288,7 +8309,7 @@
       }
     ]
   },
-  "MIXER | Europe Sports 2 HD": {
+  "--Live(Euro Sport 2)--": {
     "group": "Sports",
     "tvg_id": "EuropeSports2HD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
