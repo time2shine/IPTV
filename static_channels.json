@@ -479,6 +479,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -738,6 +745,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-12",
+        "last_offline": null
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -1263,6 +1277,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -7623,11 +7644,32 @@
       }
     ]
   },
+  "--Live(Star Sports 3)--": {
+    "group": "Sports",
+    "tvg_id": "StarSports3",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Starsports3hd.png",
+    "links": [
+      {
+        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/400159568.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "CR | Star Sports 1 HD": {
     "group": "Sports",
     "tvg_id": "starsports1hd.in",
     "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
     "links": [
+      {
+        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/187268.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8",
         "status": "online",
@@ -7742,11 +7784,18 @@
       }
     ]
   },
-  "CR+FB | STAR SPORTS SELECT 2 HD": {
+  "--Live(STAR SPORTS SELECT 2 HD)": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
+      {
+        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/376465.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
         "status": "online",
