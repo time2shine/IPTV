@@ -7189,7 +7189,7 @@
       }
     ]
   },
-  "BD | TSPORTS HD": {
+  "--Live(TSPORTS HD)--": {
     "group": "Sports",
     "tvg_id": "TSPORTS.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
@@ -7567,32 +7567,11 @@
       }
     ]
   },
-  "CR | T Sports": {
-    "group": "Sports",
-    "tvg_id": "tsports.bd",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/1/11/T_Sports_logo.png",
-    "links": [
-      {
-        "url": "http://103.15.140.138/tsports/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-11"
-      }
-    ]
-  },
   "CR | Ten Cricket": {
     "group": "Sports",
     "tvg_id": "tensports.pk",
     "tvg_logo": "https://www.pngkey.com/png/detail/244-2446295_pakistan-ten-sports-channel-logo.png",
     "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
       {
         "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/chunklist_b996000.m3u8",
         "status": "online",
