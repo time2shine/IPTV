@@ -3055,7 +3055,7 @@
   "ABC WWAY 3": {
     "group": "International News",
     "tvg_id": "WWAYDT1.us",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a0/WWAY_3_%282016%29.svg",
     "links": [
       {
         "url": "https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8",
@@ -3146,7 +3146,7 @@
   "BBC News": {
     "group": "International News",
     "tvg_id": "BBC News",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/BBC_News_2022_%28Alt%29.svg",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/BBC_News_2019.svg",
     "links": [
       {
         "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8?v=1",
@@ -3202,10 +3202,17 @@
   "CBN News": {
     "group": "International News",
     "tvg_id": "CBNNews",
-    "tvg_logo": "https://cbn.com/themes/custom/cbn_emulsify/images/cbn-logo-full.svg",
+    "tvg_logo": "https://cbn.com/themes/custom/cbn_emulsify/cbn-logo-full.svg",
     "links": [
       {
         "url": "https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
@@ -3265,20 +3272,13 @@
   "CNN": {
     "group": "International News",
     "tvg_id": "CNN.us",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/52/CNN_%282014%29.svg",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/11/CNN-Logo-2014-present-700x394.jpg",
     "links": [
       {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+        "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       },
       {
@@ -3294,30 +3294,44 @@
         "last_online": null,
         "first_online": "2025-09-10",
         "last_offline": null
-      }
-    ]
-  },
-  "CNN International (USA)": {
-    "group": "International News",
-    "tvg_id": "cnn.us",
-    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      },
-      {
-        "url": "http://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
       },
       {
         "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "CNN USA": {
+    "group": "International News",
+    "tvg_id": "cnnInternationalusa.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "CNN International": {
+    "group": "International News",
+    "tvg_id": "cnnInternational.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/wSqAf5WdxsGsl7ZMtlyfz3qKULo_URoFjmKky0gLThm_Jtu2wsVHMu-XzGZPAb-z8zeMBYUUMYA=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "http://fl1.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
@@ -3360,7 +3374,7 @@
       }
     ]
   },
-  "EN | HLN": {
+  "HLN": {
     "group": "International News",
     "tvg_id": "HLN.us",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
@@ -3433,7 +3447,7 @@
   "GB News": {
     "group": "International News",
     "tvg_id": "GBNews",
-    "tvg_logo": "ahttps://static.wikia.nocookie.net/logopedia/images/0/03/GBNews.svg",
+    "tvg_logo": "https://assets.rbl.ms/61228189/origin.png",
     "links": [
       {
         "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8",
