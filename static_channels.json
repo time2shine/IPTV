@@ -320,13 +320,6 @@
         "last_offline": null
       },
       {
-        "url": "https://tiger-hub.vercel.app/Colors-bangla-cinema/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
         "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -665,20 +658,6 @@
       }
     ]
   },
-  "Movie Bangla TV": {
-    "group": "Bangla",
-    "tvg_id": "MovieBanglaTV",
-    "tvg_logo": "https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png",
-    "links": [
-      {
-        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-11",
-        "last_offline": null
-      }
-    ]
-  },
   "MY TV": {
     "group": "Bangla",
     "tvg_id": "deshitv.bd",
@@ -840,13 +819,6 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -4421,13 +4393,6 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      },
-      {
-        "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
       }
     ]
   },
@@ -4473,8 +4438,8 @@
       }
     ]
   },
-  "BAN | Movie Bangla TV": {
-    "group": "Movies",
+  "Movie Bangla TV": {
+    "group": "Bangla",
     "tvg_id": "MovieBanglaTV",
     "tvg_logo": "https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png",
     "links": [
@@ -4482,7 +4447,7 @@
         "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": "2025-09-09",
+        "first_online": "2025-09-11",
         "last_offline": null
       }
     ]
@@ -5465,13 +5430,6 @@
     "tvg_id": "dhoommusic.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png",
     "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      },
       {
         "url": "https://cdn-1.pishow.tv/live/1456/master.m3u8",
         "status": "online",
