@@ -195,10 +195,10 @@
       },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/390.ts",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": "2025-09-12"
+        "last_offline": null
       }
     ]
   },
@@ -265,10 +265,10 @@
       },
       {
         "url": "http://starshare.fun:8080/live/keerthi5599/superdeal34/434.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-12"
       }
     ]
   },
@@ -484,7 +484,7 @@
         "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-12",
         "last_offline": null
       }
     ]
@@ -609,10 +609,10 @@
       },
       {
         "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-12"
       },
       {
         "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
@@ -668,6 +668,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "Movie Bangla TV": {
+    "group": "Bangla",
+    "tvg_id": "MovieBanglaTV",
+    "tvg_logo": "https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png",
+    "links": [
+      {
+        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
         "last_offline": null
       }
     ]
@@ -758,7 +772,7 @@
         "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-12",
         "last_offline": null
       },
       {
@@ -1290,7 +1304,7 @@
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-12",
         "last_offline": null
       },
       {
@@ -2009,6 +2023,20 @@
       }
     ]
   },
+  "ENT | STAR BHARAT HD": {
+    "group": "India",
+    "tvg_id": "STAR BHARAT HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png",
+    "links": [
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starbharathd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-12",
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | Star Plus": {
     "group": "India",
     "tvg_id": "StarPlus.in",
@@ -2362,20 +2390,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | STAR BHARAT HD": {
-    "group": "India",
-    "tvg_id": "STAR BHARAT HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png",
-    "links": [
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starbharathd/master.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-12",
         "last_offline": null
       }
     ]
@@ -3325,20 +3339,6 @@
       }
     ]
   },
-  "HLN": {
-    "group": "International News",
-    "tvg_id": "HLN.us",
-    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
-    "links": [
-      {
-        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
   "Euronews English": {
     "group": "International News",
     "tvg_id": "EuronewsEnglish.fr",
@@ -3426,6 +3426,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "HLN": {
+    "group": "International News",
+    "tvg_id": "HLN.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hln-us.png",
+    "links": [
+      {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
         "last_offline": null
       }
     ]
@@ -3913,10 +3927,10 @@
     "links": [
       {
         "url": "http://user.scalecdn.co:8080/live/26725074/92867131/50187.ts",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-11"
+        "last_offline": null
       }
     ]
   },
@@ -4427,20 +4441,6 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "Movie Bangla TV": {
-    "group": "Bangla",
-    "tvg_id": "MovieBanglaTV",
-    "tvg_logo": "https://moviebangla.tv/wp-content/uploads/2024/06/moviebanglatv-logo-2.png",
-    "links": [
-      {
-        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-11",
         "last_offline": null
       }
     ]
@@ -5124,10 +5124,10 @@
     "links": [
       {
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-12"
       }
     ]
   },
@@ -5733,6 +5733,20 @@
       }
     ]
   },
+  "EN | Popstar! TV": {
+    "group": "Music",
+    "tvg_id": "PopstarTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/44/PopStar_%282018%29.png",
+    "links": [
+      {
+        "url": "https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Rockola Television": {
     "group": "Music",
     "tvg_id": "RockolaTelevision",
@@ -6055,10 +6069,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-12"
       }
     ]
   },
@@ -6125,10 +6139,10 @@
     "links": [
       {
         "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-12"
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8",
@@ -6153,9 +6167,9 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-        "status": "slow",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-12",
         "last_offline": null
       },
       {
@@ -6174,10 +6188,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-12"
       }
     ]
   },
@@ -6541,20 +6555,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Popstar! TV": {
-    "group": "Music",
-    "tvg_id": "PopstarTV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/44/PopStar_%282018%29.png",
-    "links": [
-      {
-        "url": "https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
         "last_offline": null
       }
     ]
@@ -7231,10 +7231,10 @@
     "links": [
       {
         "url": "https://media2.streambrothers.com:1936/8122/8122/chunklist_w1247854077.m3u8",
-        "status": "missing",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-10"
+        "last_offline": null
       }
     ]
   },
@@ -7364,6 +7364,69 @@
       }
     ]
   },
+  "--Live(Euro Sport 1)--": {
+    "group": "Sports",
+    "tvg_id": "Europe Sports 1 HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Eurosport_1_%28II%29.svg",
+    "links": [
+      {
+        "url": "http://185.189.225.157/EuroSport1/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Euro Sport 2)--": {
+    "group": "Sports",
+    "tvg_id": "EuropeSports2HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
+    "links": [
+      {
+        "url": "http://185.189.225.157/EuroSport2/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Euro Sport HD)--": {
+    "group": "Sports",
+    "tvg_id": "LiveSports-4",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0a/Eurosport_%282015%29.svg",
+    "links": [
+      {
+        "url": "https://app.hughag.store/api/ef22d71b0e/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(PTV Sports)--": {
+    "group": "Sports",
+    "tvg_id": "PTVsports.pk",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png",
+    "links": [
+      {
+        "url": "https://tvsen5.aynaott.com/PtvSports/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "--Live(RTA Sports[Afghan])--": {
     "group": "Sports",
     "tvg_id": "live",
@@ -7399,36 +7462,36 @@
       }
     ]
   },
-  "--Live(Euro Sport HD)--": {
+  "--Live(Star Sports 3)--": {
     "group": "Sports",
-    "tvg_id": "LiveSports-4",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0a/Eurosport_%282015%29.svg",
+    "tvg_id": "StarSports3",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Starsports3hd.png",
     "links": [
       {
-        "url": "https://app.hughag.store/api/ef22d71b0e/playlist.m3u8",
+        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/400159568.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": "2025-09-11",
+        "first_online": "2025-09-12",
         "last_offline": null
       }
     ]
   },
-  "--Live(PTV Sports)--": {
+  "--Live(STAR SPORTS SELECT 2 HD)": {
     "group": "Sports",
-    "tvg_id": "PTVsports.pk",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png",
+    "tvg_id": "starsportsselect1.in",
+    "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "https://tvsen5.aynaott.com/PtvSports/index.m3u8",
+        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/376465.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": "2025-09-11",
+        "first_online": "2025-09-12",
         "last_offline": null
       },
       {
-        "url": "https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8",
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
+        "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
       }
@@ -7560,27 +7623,6 @@
       }
     ]
   },
-  "CR+MIX | DD Sports": {
-    "group": "Sports",
-    "tvg_id": "ddsports.in",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
-    "links": [
-      {
-        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-11",
-        "last_offline": null
-      },
-      {
-        "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "CR | Fox Cricket 501": {
     "group": "Sports",
     "tvg_id": "foxcricket.in",
@@ -7672,20 +7714,6 @@
       }
     ]
   },
-  "--Live(Star Sports 3)--": {
-    "group": "Sports",
-    "tvg_id": "StarSports3",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Starsports3hd.png",
-    "links": [
-      {
-        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/400159568.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "CR | Star Sports 1 HD": {
     "group": "Sports",
     "tvg_id": "starsports1hd.in",
@@ -7695,7 +7723,7 @@
         "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/187268.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-12",
         "last_offline": null
       },
       {
@@ -7791,48 +7819,6 @@
       }
     ]
   },
-  "CR+FB | STAR SPORTS SELECT 1 HD": {
-    "group": "Sports",
-    "tvg_id": "starsportsselect1.in",
-    "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
-    "links": [
-      {
-        "url": "https://tvsen6.aynaott.com/spsel1/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-11",
-        "last_offline": null
-      },
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "--Live(STAR SPORTS SELECT 2 HD)": {
-    "group": "Sports",
-    "tvg_id": "starsportsselect1.in",
-    "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
-    "links": [
-      {
-        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/376465.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      },
-      {
-        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
   "CR | Star Sports Tamil 1": {
     "group": "Sports",
     "tvg_id": "starsports.tamil",
@@ -7864,6 +7850,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | Ten Sports HD": {
+    "group": "Sports",
+    "tvg_id": "tensports.in",
+    "tvg_logo": "https://www.medianews4u.com/wp-content/uploads/2015/02/df8bdc0787eb68c35292ff74fa60466b-2-3.jpg",
+    "links": [
+      {
+        "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
         "last_offline": null
       }
     ]
@@ -7910,55 +7910,41 @@
       }
     ]
   },
-  "FB | Bleav Football": {
+  "CR+FB | STAR SPORTS SELECT 1 HD": {
     "group": "Sports",
-    "tvg_id": "BleavFootball",
-    "tvg_logo": "https://a.jsrdn.com/hls/23091/bleav-football/logo_20231219_184637_64.png",
+    "tvg_id": "starsportsselect1.in",
+    "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bleav-football/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB | Oman Sports TV": {
-    "group": "Sports",
-    "tvg_id": "OmanSportsTV",
-    "tvg_logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/oman-tv-sport.png",
-    "links": [
-      {
-        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8",
+        "url": "https://tvsen6.aynaott.com/spsel1/index.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
-      }
-    ]
-  },
-  "FB | Sky Sports Football": {
-    "group": "Sports",
-    "tvg_id": "skysports.football",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/fb/Sky_Sports_Football_2020.svg",
-    "links": [
+      },
       {
-        "url": "https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8",
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": null,
+        "first_online": "2025-09-10",
         "last_offline": null
       }
     ]
   },
-  "FB | SkySports premier League": {
+  "CR+MIX | DD Sports": {
     "group": "Sports",
-    "tvg_id": "skysports.premier",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Sky_Sports_Premier_League_2020.svg",
+    "tvg_id": "ddsports.in",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
     "links": [
       {
-        "url": "https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8",
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -8120,23 +8106,107 @@
       }
     ]
   },
-  "MIXER | BeiN Sports Extra": {
+  "FB | Bleav Football": {
     "group": "Sports",
-    "tvg_id": "BeiNSportsExtra",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png",
+    "tvg_id": "BleavFootball",
+    "tvg_logo": "https://a.jsrdn.com/hls/23091/bleav-football/logo_20231219_184637_64.png",
     "links": [
       {
-        "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bleav-football/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | LaLiga TV": {
+    "group": "Sports",
+    "tvg_id": "LaLiga",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/LaLiga_SmartBank_TV_logo.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": "2025-09-10",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | LaLiga TV (DAZN)": {
+    "group": "Sports",
+    "tvg_id": "LaLiga.DAZN",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/DAZN_2019_logo.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | M-Sports HD": {
+    "group": "Sports",
+    "tvg_id": "M-Sports",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/M-Sport_%28logo%29.png",
+    "links": [
+      {
+        "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       },
       {
-        "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8",
+        "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Oman Sports TV": {
+    "group": "Sports",
+    "tvg_id": "OmanSportsTV",
+    "tvg_logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/oman-tv-sport.png",
+    "links": [
+      {
+        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": "2025-09-09",
+        "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Sky Sports Football": {
+    "group": "Sports",
+    "tvg_id": "skysports.football",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/fb/Sky_Sports_Football_2020.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | SkySports premier League": {
+    "group": "Sports",
+    "tvg_id": "skysports.premier",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Sky_Sports_Premier_League_2020.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -8151,34 +8221,6 @@
         "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Cowboy TV": {
-    "group": "Sports",
-    "tvg_id": "CowboyTV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e6/Cowboy_Channel_logo.png",
-    "links": [
-      {
-        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "PC GAME | Dot Esports": {
-    "group": "Sports",
-    "tvg_id": "DotEsports",
-    "tvg_logo": "https://a.jsrdn.com/hls/22904/dot-esports/logo_20231219_193130_43.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dot-esports/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -8232,6 +8274,139 @@
       }
     ]
   },
+  "FB+MIX | Premire Sports 1": {
+    "group": "Sports",
+    "tvg_id": "PremireSports1",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a7/Premier_Sports_1_II.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB+MIX | Sky Sports 1": {
+    "group": "Sports",
+    "tvg_id": "skysports1.nz",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/dc/Sky_Sports_1_2015.svg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB+MIX | Sky Sports 2": {
+    "group": "Sports",
+    "tvg_id": "skysports2.nz",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB+MIX | Sky Sports 5": {
+    "group": "Sports",
+    "tvg_id": "skysports5.nz",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/23/Sky_Sport_5_NZ.svg",
+    "links": [
+      {
+        "url": "https://a1xs.vip/700035",
+        "status": "online",
+        "last_online": "2025-09-06",
+        "first_online": "2025-09-06",
+        "last_offline": null
+      }
+    ]
+  },
+  "FB+MIX | Sky Sports Mix": {
+    "group": "Sports",
+    "tvg_id": "skysports.max",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT | MMA Junkie": {
+    "group": "Sports",
+    "tvg_id": "MMAJunkie",
+    "tvg_logo": "https://a.jsrdn.com/hls/22814/mma-junkie/logo_20231219_215607_30.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT | Peak Fighting": {
+    "group": "Sports",
+    "tvg_id": "PeakFighting",
+    "tvg_logo": "https://a.jsrdn.com/hls/23195/peak-fighting/logo_20250422_184955_68.png",
+    "links": [
+      {
+        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/WHO7DFHIX4DBKUFBSGIY/hls3/now,-1m,15s/m.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT | WWE": {
+    "group": "Sports",
+    "tvg_id": "wwe.in",
+    "tvg_logo": "https://brandslogos.com/wp-content/uploads/images/wwe-logo.png",
+    "links": [
+      {
+        "url": "http://smart.bengaldigital.live/WWE/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | BeiN Sports Extra": {
+    "group": "Sports",
+    "tvg_id": "BeiNSportsExtra",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png",
+    "links": [
+      {
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-09",
+        "last_offline": null
+      }
+    ]
+  },
   "MIXER | ESPN": {
     "group": "Sports",
     "tvg_id": "ESPN",
@@ -8242,48 +8417,6 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "--Live(Euro Sport 1)--": {
-    "group": "Sports",
-    "tvg_id": "Europe Sports 1 HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Eurosport_1_%28II%29.svg",
-    "links": [
-      {
-        "url": "http://185.189.225.157/EuroSport1/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "--Live(Euro Sport 2)--": {
-    "group": "Sports",
-    "tvg_id": "EuropeSports2HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
-    "links": [
-      {
-        "url": "http://185.189.225.157/EuroSport2/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "YOGA | Fitness TV": {
-    "group": "Sports",
-    "tvg_id": "FitnessTV",
-    "tvg_logo": "https://a.jsrdn.com/hls/23024/lifefit-by-triptic/logo_20231219_215130_63.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-11",
         "last_offline": null
       }
     ]
@@ -8358,69 +8491,6 @@
       }
     ]
   },
-  "FB | LaLiga TV": {
-    "group": "Sports",
-    "tvg_id": "LaLiga",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/LaLiga_SmartBank_TV_logo.svg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB | LaLiga TV (DAZN)": {
-    "group": "Sports",
-    "tvg_id": "LaLiga.DAZN",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/DAZN_2019_logo.svg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB | M-Sports HD": {
-    "group": "Sports",
-    "tvg_id": "M-Sports",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/4/4b/M-Sport_%28logo%29.png",
-    "links": [
-      {
-        "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "FIGHT | MMA Junkie": {
-    "group": "Sports",
-    "tvg_id": "MMAJunkie",
-    "tvg_logo": "https://a.jsrdn.com/hls/22814/mma-junkie/logo_20231219_215607_30.png",
-    "links": [
-      {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
   "MIXER | MSG": {
     "group": "Sports",
     "tvg_id": "MSG",
@@ -8449,20 +8519,6 @@
       }
     ]
   },
-  "FIGHT | Peak Fighting": {
-    "group": "Sports",
-    "tvg_id": "PeakFighting",
-    "tvg_logo": "https://a.jsrdn.com/hls/23195/peak-fighting/logo_20250422_184955_68.png",
-    "links": [
-      {
-        "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/WHO7DFHIX4DBKUFBSGIY/hls3/now,-1m,15s/m.m3u8",
-        "status": "online",
-        "last_online": "2025-09-04",
-        "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
   "MIXER | PLL Network": {
     "group": "Sports",
     "tvg_id": "PLLNetwork",
@@ -8473,20 +8529,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB+MIX | Premire Sports 1": {
-    "group": "Sports",
-    "tvg_id": "PremireSports1",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a7/Premier_Sports_1_II.svg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -8543,62 +8585,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB+MIX | Sky Sports 5": {
-    "group": "Sports",
-    "tvg_id": "skysports5.nz",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/23/Sky_Sport_5_NZ.svg",
-    "links": [
-      {
-        "url": "https://a1xs.vip/700035",
-        "status": "online",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB+MIX | Sky Sports 1": {
-    "group": "Sports",
-    "tvg_id": "skysports1.nz",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/dc/Sky_Sports_1_2015.svg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB+MIX | Sky Sports 2": {
-    "group": "Sports",
-    "tvg_id": "skysports2.nz",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "FB+MIX | Sky Sports Mix": {
-    "group": "Sports",
-    "tvg_id": "skysports.max",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
-    "links": [
-      {
-        "url": "https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -8750,34 +8736,6 @@
       }
     ]
   },
-  "CR | Ten Sports HD": {
-    "group": "Sports",
-    "tvg_id": "tensports.in",
-    "tvg_logo": "https://www.medianews4u.com/wp-content/uploads/2015/02/df8bdc0787eb68c35292ff74fa60466b-2-3.jpg",
-    "links": [
-      {
-        "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "TENNIS | Tennis Channel": {
-    "group": "Sports",
-    "tvg_id": "Tennis Channel",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Tennis_Channel_2022.svg",
-    "links": [
-      {
-        "url": "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
   "MIXER | Trace Sports Stars": {
     "group": "Sports",
     "tvg_id": "TraceSportsStars",
@@ -8799,16 +8757,30 @@
       }
     ]
   },
-  "FIGHT | WWE": {
+  "OTHER | Cowboy TV": {
     "group": "Sports",
-    "tvg_id": "wwe.in",
-    "tvg_logo": "https://brandslogos.com/wp-content/uploads/images/wwe-logo.png",
+    "tvg_id": "CowboyTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e6/Cowboy_Channel_logo.png",
     "links": [
       {
-        "url": "http://smart.bengaldigital.live/WWE/index.m3u8",
+        "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "PC GAME | Dot Esports": {
+    "group": "Sports",
+    "tvg_id": "DotEsports",
+    "tvg_logo": "https://a.jsrdn.com/hls/22904/dot-esports/logo_20231219_193130_43.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dot-esports/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
         "last_offline": null
       }
     ]
@@ -8851,6 +8823,34 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "TENNIS | Tennis Channel": {
+    "group": "Sports",
+    "tvg_id": "Tennis Channel",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Tennis_Channel_2022.svg",
+    "links": [
+      {
+        "url": "https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "YOGA | Fitness TV": {
+    "group": "Sports",
+    "tvg_id": "FitnessTV",
+    "tvg_logo": "https://a.jsrdn.com/hls/23024/lifefit-by-triptic/logo_20231219_215130_63.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-11",
         "last_offline": null
       }
     ]
