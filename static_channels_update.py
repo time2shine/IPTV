@@ -29,8 +29,6 @@ EXCLUDE_LIST = [
     "NEWS | CNN News 18",
     "IN | Republic Bangla",
     "IN | TV9 Bangla",
-    "CR | STAR SPORTS SELECT 1 HD",
-    "CR | STAR SPORTS SELECT 2 HD",
     "CR | Cricket Gold",
     "Ekushay TV (Local)",
     "Ekushay TV",
