@@ -425,17 +425,17 @@
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png",
     "links": [
       {
-        "url": "https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
         "url": "https://tvsen6.aynaott.com/etv/index.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
@@ -605,6 +605,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -5096,13 +5103,27 @@
       }
     ]
   },
-  "HINDI | Shemaroo Bollywood": {
+  "HINDI | Shemaroo Bollywood 1": {
     "group": "Movies",
     "tvg_id": "ShemarooBollywood.in",
     "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-bollywood/logo_20240206_185308_68.png",
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-04",
+        "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | Shemaroo Bollywood 2": {
+    "group": "Movies",
+    "tvg_id": "ShemarooBollywood.in",
+    "tvg_logo": "https://a.jsrdn.com/hls/23141/shemaroo-bollywood/logo_20240206_185308_68.png",
+    "links": [
+      {
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
