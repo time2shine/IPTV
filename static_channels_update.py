@@ -28,27 +28,38 @@ EXCLUDE_LIST = [
     "NEWS | News9Live",
     "NEWS | CNN News 18",
     "BD | TBN 24 USA",
+    "HI | Shemaroo Filmigaane",
+    "HI | YRF Music HD",
     "IN | Republic Bangla",
     "IN | TV9 Bangla",
     "CR | Cricket Gold",
     "Ekushay TV (Local)",
-    "Ekushay TV",
-    "Outdoor Channel",
     "AccuWeather NOW",
-    "POWERtube TV"
+    "Outdoor Channel",
+    "RT NEWS GLOBAL",
+    "POWERtube TV",
+    "Ekushay TV",
+    "TVRI World",
+    "Spacetoon",
+    "Sky News",
+    "GB News"
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
+    "https://lightning-now80s-rakuten.amagi.tv",
+    "https://cdn-ue1-prod.tsv2.amagi.tv",
     "https://tiger-hub.vercel.app",
     "https://amg01448-samsungin",
     "https://live.dinesh29.com",
     "https://app.hughag.store",
     "http://fl1.moveonjoy.com",
+    "https://mtv.sunplex.live",
     "https://cdn-4.pishow.tv",
     "https://epg.provider",
     "http://41.205.93.154",
-    "https://amg"
+    "http://filex.tv:8080",
+    "https://amg"https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8
 ]
 
 def check_ffmpeg(url, channel_name):
