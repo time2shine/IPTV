@@ -230,6 +230,21 @@ def sort_channels(channels):
         )
     )
 
+def mark_old_offline_links(channels, days_threshold=10):
+    """Mark links offline for >= days_threshold days by setting URL to empty."""
+    today = date.today()
+    for channel_name, info in channels.items():
+        for link in info.get("links", []):
+            status = link.get("status", "unknown")
+            last_offline = link.get("last_offline")
+
+            if status == "offline" and last_offline:
+                last_offline_date = datetime.fromisoformat(last_offline).date()
+                offline_days = (today - last_offline_date).days
+                if offline_days >= days_threshold:
+                    print(f"[RESET URL] {channel_name} -> Offline for {offline_days} day(s) -> {link.get('url')}")
+                    link["url"] = ""
+
 def main():
     start_time = time.time()
 
@@ -243,10 +258,13 @@ def main():
     # Sort channels by group then name
     channels_sorted = sort_channels(channels)
 
+    # Mark links offline for 10+ days by emptying URL
+    mark_old_offline_links(channels_sorted, days_threshold=10)
+
     # Save updated and sorted JSON
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ Updated {JSON_FILE} with online/offline/missing status and sorted by group/name.")
+    print(f"\n✅ Updated {JSON_FILE} with online/offline/missing status, reset URLs for old offline links, and sorted by group/name.")
 
     # Print summary
     summarize(channels_sorted, start_time)
