@@ -1581,6 +1581,20 @@
       }
     ]
   },
+  "ENT | Channel Y": {
+    "group": "India",
+    "tvg_id": "ChannelY",
+    "tvg_logo": "https://i.postimg.cc/4xxWq58B/image_10.jpg",
+    "links": [
+      {
+        "url": "http://cdn19.live247stream.com/channely/tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-14",
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | Chumbak TV": {
     "group": "India",
     "tvg_id": "ChumbakTV.in",
@@ -2197,20 +2211,6 @@
       }
     ]
   },
-  "ENT | Channel Y": {
-    "group": "India",
-    "tvg_id": "ChannelY",
-    "tvg_logo": "https://i.postimg.cc/4xxWq58B/image_10.jpg",
-    "links": [
-      {
-        "url": "http://cdn19.live247stream.com/channely/tv/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-14",
-        "last_offline": null
-      }
-    ]
-  },
   "BBC America": {
     "group": "International",
     "tvg_id": "BBCAmerica.us@East",
@@ -2652,10 +2652,10 @@
     "links": [
       {
         "url": "https://i.mjh.nz/.r/discovery-ptgn.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
-        "last_offline": "2025-09-14"
+        "last_offline": null
       }
     ]
   },
@@ -4122,10 +4122,10 @@
     "links": [
       {
         "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-14"
+        "last_offline": null
       }
     ]
   },
@@ -4227,10 +4227,10 @@
     "links": [
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": "2025-09-14"
+        "last_offline": null
       }
     ]
   },
@@ -5032,10 +5032,10 @@
     "links": [
       {
         "url": "https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-14"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/stargoldhd/master.m3u8",
@@ -5277,10 +5277,10 @@
     "links": [
       {
         "url": "https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-14"
       }
     ]
   },
@@ -5641,10 +5641,10 @@
     "links": [
       {
         "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-14"
+        "first_online": "2025-09-14",
+        "last_offline": null
       }
     ]
   },
@@ -6677,10 +6677,10 @@
       },
       {
         "url": "http://webo.asia:80/6992/2996/922065",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-14"
       }
     ]
   },
@@ -6950,10 +6950,10 @@
     "links": [
       {
         "url": "http://webo.asia:80/6992/2996/9061",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": "2025-09-14"
+        "last_offline": null
       }
     ]
   },
@@ -7573,10 +7573,10 @@
     "links": [
       {
         "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/376465.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
+        "last_offline": "2025-09-14"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
