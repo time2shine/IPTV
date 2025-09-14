@@ -1,129 +1,50 @@
-name: Check Channels and Movies Status
+name: Check Channels Status
 
 on:
   schedule:
+    # Runs every day at 3 AM Bangladesh time (UTC+6 = UTC-6 offset)
     - cron: '21 21 * * *'  # 3 AM BDT is 21:00 UTC previous day
-  workflow_dispatch:
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  setup-ffmpeg:
+  update-channels:
     runs-on: ubuntu-latest
-    outputs:
-      ffmpeg-dir: ffmpeg
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download FFmpeg
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          
+      - name: Setup fast static FFmpeg
         run: |
           wget -q https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
           tar -xf ffmpeg.tar.xz
-          mv $(ls -d ffmpeg-master-*) ffmpeg
-
-      - name: Upload FFmpeg as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ffmpeg-binary
-          path: ffmpeg
-
-  update-channels:
-    runs-on: ubuntu-latest
-    needs: setup-ffmpeg
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Download FFmpeg artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ffmpeg-binary
-          path: ./ffmpeg
-
-      - name: Add FFmpeg to PATH locally
-        run: |
-          mkdir -p $HOME/bin
-          cp ffmpeg/bin/ffmpeg $HOME/bin/
-          cp ffmpeg/bin/ffprobe $HOME/bin/
-          chmod +x $HOME/bin/ffmpeg $HOME/bin/ffprobe
-          echo "$HOME/bin" >> $GITHUB_PATH
-
-      - name: Verify FFmpeg
-        run: ffmpeg -version
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: pip install requests
+          FFMPEG_DIR=$(ls -d ffmpeg-master-*)
+          sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
+          sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
+          ffmpeg -version
 
       - name: Run FFmpeg to check Channel status
-        run: python static_channels_update.py
-
-      - name: Commit updated channels JSON
         run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
-          git add static_channels.json
-          git commit -m "Update channel status [skip ci]" || echo "No changes to commit"
-          git push
-
-  update-movies:
-    runs-on: ubuntu-latest
-    needs: setup-ffmpeg
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Download FFmpeg artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ffmpeg-binary
-          path: ./ffmpeg
-
-      - name: Add FFmpeg to PATH locally
-        run: |
-          mkdir -p $HOME/bin
-          cp ffmpeg/bin/ffmpeg $HOME/bin/
-          cp ffmpeg/bin/ffprobe $HOME/bin/
-          chmod +x $HOME/bin/ffmpeg $HOME/bin/ffprobe
-          echo "$HOME/bin" >> $GITHUB_PATH
-
-      - name: Verify FFmpeg
-        run: ffmpeg -version
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: pip install requests
+          python static_channels_update.py  # Your Python script with parallel FFmpeg checks
 
       - name: Run FFmpeg to check Movies status
-        run: python static_movies_update.py
+        run: |
+          python static_movies_update.py  # Your Python script with parallel FFmpeg checks
 
-      - name: Commit updated movies JSON
+      - name: Commit updated JSON
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add static_movies.json
-          git commit -m "Update movies status [skip ci]" || echo "No changes to commit"
+          git add static_channels.json static_movies.json
+          git commit -m "Update links online/offline status" || echo "No changes to commit"
           git push
