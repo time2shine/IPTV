@@ -21,10 +21,10 @@ I **do not host or distribute any copyrighted content**. This project is purely 
 
 ## 🚀 Features
 
+* 📺 **YouTube Playlist Support** – Capture live YouTube channels automatically in `YT_playlist.m3u`.
 * 🎛 **Playlist Aggregation** – Merge multiple playlists into one organized list in `combined.m3u`.
 * 🔗 **Link Status Checker** – Automatically update link status for `static_channels.json` and `static_movies.json`.
 * 🗓 **EPG Scraper** – Generate or refresh `epg.xml` for accurate TV guide support.
-* 📺 **YouTube Playlist Support** – Capture live YouTube channels automatically in `YT_playlist.m3u`.
 * ⚙️ **Fully Automated** – CI/CD workflows regenerate playlists and EPG guides without manual effort.
 * 💡 **Easy to Use** – Minimal setup required, designed for personal IPTV setups.
 
