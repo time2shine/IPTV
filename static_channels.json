@@ -5542,6 +5542,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Trace_Urban.svg",
     "links": [
       {
+        "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://amg01131-tracetv-amg01131c1-rakuten-us-1081.playouts.now.amagi.tv/playlist/amg01131-tracetvfast-traceurban-rakutenus/playlist.m3u8",
         "status": "online",
         "last_online": null,
@@ -5553,6 +5560,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | AFN TV": {
+    "group": "Music",
+    "tvg_id": "AFNTV",
+    "tvg_logo": "https://static.wikitide.net/avidwiki/thumb/2/21/AFN_Kwajalein_%282000%29_%28credit_-_KaneStar%29.png/400px-AFN_Kwajalein_%282000%29_%28credit_-_KaneStar%29.png",
+    "links": [
+      {
+        "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -6281,6 +6302,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "TR | TRT Müzik": {
+    "group": "Music",
+    "tvg_id": "TRTMUZIK",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f2/TRT_M%C3%BCzik_logo.svg",
+    "links": [
+      {
+        "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
