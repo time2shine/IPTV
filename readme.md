@@ -1,7 +1,5 @@
 # 📺 IPTV
 
-Here’s a polished and professional rewrite of your text, with some enhancements for clarity and credibility:
-
 ---
 
 **IPTV Playlist & EPG Manager**
