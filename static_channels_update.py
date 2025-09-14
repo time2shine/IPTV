@@ -53,7 +53,6 @@ WHITELIST_DOMAINS = [
     "https://amg01448-samsungin",
     "https://live.dinesh29.com",
     "https://app.hughag.store",
-    "http://fl1.moveonjoy.com",
     "https://mtv.sunplex.live",
     "https://cdn-4.pishow.tv",
     "https://epg.provider",
