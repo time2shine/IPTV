@@ -33,14 +33,18 @@ EXCLUDE_LIST = [
     "IN | Republic Bangla",
     "IN | TV9 Bangla",
     "CR | Cricket Gold",
+    "Shemaroo Bollywood 2"
     "Ekushay TV (Local)",
     "AccuWeather NOW",
     "Outdoor Channel",
     "RT NEWS GLOBAL",
     "POWERtube TV",
+    "EN | NOW 70s",
     "Ekushay TV",
     "TVRI World",
+    "ENT | E 24",
     "Spacetoon",
+    "Makkah TV",
     "Sky News",
     "GB News"
 ]
