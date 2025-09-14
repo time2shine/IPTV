@@ -13,6 +13,20 @@
       }
     ]
   },
+  "NEWS | CNBC Awaaz": {
+    "group": "India",
+    "tvg_id": "CNBCAwaaz",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/CNBC_Awaaz_2025.svg",
+    "links": [
+      {
+        "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | MovieSphere UK": {
     "group": "Movies",
     "tvg_id": "MovieSphereUK",
@@ -1437,6 +1451,34 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Bang Bang TV": {
+    "group": "Movies",
+    "tvg_id": "BangBangTV",
+    "tvg_logo": "https://alchetron.com/cdn/bang-bang-tv-channel-86505200-5377-43bb-ac56-4a72cc2c786-resize-750.jpg",
+    "links": [
+      {
+        "url": "https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | TV9 Bharatvarsh": {
+    "group": "India",
+    "tvg_id": "TV9Bharatvarsh",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/ad/TV9_Bharatvarsh.jpeg",
+    "links": [
+      {
+        "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5788,13 +5830,27 @@
       }
     ]
   },
+  "EN | XITE": {
+    "group": "Music",
+    "tvg_id": "XITE",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9b/Xite_2017.svg",
+    "links": [
+      {
+        "url": "https://xite-rakuten.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | XITE Rock On": {
     "group": "Music",
     "tvg_id": "XITERockOn",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/Xite_2013.svg",
     "links": [
       {
-        "url": "https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
+        "url": "https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
@@ -6039,14 +6095,14 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Mastiii_2023.jpg",
     "links": [
       {
-        "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8",
+        "url": "https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8",
         "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8",
+        "url": "https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -6057,6 +6113,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
