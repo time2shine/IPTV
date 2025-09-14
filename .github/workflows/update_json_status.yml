@@ -44,6 +44,7 @@ jobs:
           mkdir -p $HOME/bin
           cp ffmpeg/bin/ffmpeg $HOME/bin/
           cp ffmpeg/bin/ffprobe $HOME/bin/
+          chmod +x $HOME/bin/ffmpeg $HOME/bin/ffprobe
           echo "$HOME/bin" >> $GITHUB_PATH
 
       - name: Verify FFmpeg
@@ -94,6 +95,7 @@ jobs:
           mkdir -p $HOME/bin
           cp ffmpeg/bin/ffmpeg $HOME/bin/
           cp ffmpeg/bin/ffprobe $HOME/bin/
+          chmod +x $HOME/bin/ffmpeg $HOME/bin/ffprobe
           echo "$HOME/bin" >> $GITHUB_PATH
 
       - name: Verify FFmpeg
