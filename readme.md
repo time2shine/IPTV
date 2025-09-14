@@ -21,11 +21,12 @@ I **do not host or distribute any copyrighted content**. This project is purely 
 
 ## 🚀 Features
 
-- ✅ **Playlist Aggregation** – Combines multiple `combined.m3u` playlists into one.
-- ✅ **Static Channel Updates** – Automatically check working channel static channels from `static_channels.json`.
-- ✅ **EPG Scraper** – Generates or updates `epg.xml` for TV guide support.
-- ✅ **YouTube Playlist Support** – Automatically save live channels from YouTube in `YT_playlist.m3u`.
-- ✅ **Fully Automated** – CI/CD workflows can regenerate playlists and guides.
+* 🎛 **Playlist Aggregation** – Merge multiple playlists into one organized list in `combined.m3u`.
+* 🔗 **Link Status Checker** – Automatically verify and update link statuses from `static_channels.json` and `static_movies.json`.
+* 🗓 **EPG Scraper** – Generate or refresh `epg.xml` for accurate TV guide support.
+* 📺 **YouTube Playlist Support** – Capture live YouTube channels automatically in `YT_playlist.m3u`.
+* ⚙️ **Fully Automated** – CI/CD workflows regenerate playlists and EPG guides without manual effort.
+* 💡 **Easy to Use** – Minimal setup required, designed for personal IPTV setups.
 
 ---
 
@@ -76,14 +77,23 @@ flowchart TD
    cd IPTV
    ```
 
-2. **Install dependencies:**
+2. **Install Python dependencies**:
+
    ```bash
-   pip install -r requirements.txt
+   python -m pip install --upgrade pip
+   pip install requests beautifulsoup4 lxml playwright pytz yt_dlp
+   playwright install chromium
    ```
 
-3. **Generate Playlist & EPG:**
+3. **Install FFmpeg** (required for stream processing):
+
    ```bash
-   python main.py
+   wget -q https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
+   tar -xf ffmpeg.tar.xz
+   FFMPEG_DIR=$(ls -d ffmpeg-master-*)
+   sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
+   sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
+   ffmpeg -version
    ```
 
 4. **Find outputs:**
