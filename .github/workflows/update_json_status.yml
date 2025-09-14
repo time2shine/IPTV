@@ -33,14 +33,18 @@ jobs:
           sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
           ffmpeg -version
 
-      - name: Run FFmpeg link check
+      - name: Run FFmpeg to check Channel status
         run: |
           python static_channels_update.py  # Your Python script with parallel FFmpeg checks
+
+      - name: Run FFmpeg to check Movies status
+        run: |
+          python static_movies_update.py  # Your Python script with parallel FFmpeg checks
 
       - name: Commit updated JSON
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add static_channels.json
-          git commit -m "Update channel online/offline status [skip ci]" || echo "No changes to commit"
+          git add static_channels.json static_movies.json
+          git commit -m "Update links online/offline status" || echo "No changes to commit"
           git push
