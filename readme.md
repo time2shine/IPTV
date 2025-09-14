@@ -72,33 +72,58 @@ flowchart TD
 ## ⚙️ Installation & Usage
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/time2shine/IPTV.git
-   cd IPTV
-   ```
 
-2. **Install Python dependencies**:
+```bash
+git clone https://github.com/time2shine/IPTV.git
+cd IPTV
+```
 
-   ```bash
-   python -m pip install --upgrade pip
-   pip install requests beautifulsoup4 lxml playwright pytz yt_dlp
-   playwright install chromium
-   ```
+2. **Install Python dependencies:**
+
+```bash
+python -m pip install --upgrade pip
+pip install requests beautifulsoup4 lxml playwright pytz yt_dlp
+playwright install chromium
+```
 
 3. **Install FFmpeg** (required for stream processing):
 
-   ```bash
-   wget -q https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
-   tar -xf ffmpeg.tar.xz
-   FFMPEG_DIR=$(ls -d ffmpeg-master-*)
-   sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
-   sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
-   ffmpeg -version
-   ```
+#### Linux / macOS
+
+```bash
+# Download and extract FFmpeg
+wget -q https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz -O ffmpeg.tar.xz
+tar -xf ffmpeg.tar.xz
+FFMPEG_DIR=$(ls -d ffmpeg-master-*)
+# Copy binaries to system path (requires sudo)
+sudo cp "$FFMPEG_DIR/bin/ffmpeg" /usr/local/bin/
+sudo cp "$FFMPEG_DIR/bin/ffprobe" /usr/local/bin/
+ffmpeg -version
+```
+
+> If you don’t have `sudo` access, extract FFmpeg to a local folder and add it to your PATH:
+
+```bash
+export PATH="$PWD/$FFMPEG_DIR/bin:$PATH"
+```
+
+#### Windows
+
+1. Download a static build from [FFmpeg Builds](https://www.gyan.dev/ffmpeg/builds/).
+2. Extract to a folder (e.g., `C:\ffmpeg`).
+3. Add the `bin` folder to your system PATH or PyCharm terminal PATH.
+4. Verify installation:
+
+```powershell
+ffmpeg -version
+```
+
+> FFmpeg will now work in terminals and Python scripts (`subprocess` or `ffmpeg-python`).
 
 4. **Find outputs:**
-   - `combined.m3u` → your IPTV playlist
-   - `epg.xml` → your TV guide
+
+* `combined.m3u` → your IPTV playlist
+* `epg.xml` → your TV guide
 
 ---
 
