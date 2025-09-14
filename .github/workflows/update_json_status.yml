@@ -45,7 +45,9 @@ jobs:
           cp ffmpeg/bin/ffmpeg $HOME/bin/
           cp ffmpeg/bin/ffprobe $HOME/bin/
           echo "$HOME/bin" >> $GITHUB_PATH
-          ffmpeg -version
+
+      - name: Verify FFmpeg
+        run: ffmpeg -version
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -93,7 +95,9 @@ jobs:
           cp ffmpeg/bin/ffmpeg $HOME/bin/
           cp ffmpeg/bin/ffprobe $HOME/bin/
           echo "$HOME/bin" >> $GITHUB_PATH
-          ffmpeg -version
+
+      - name: Verify FFmpeg
+        run: ffmpeg -version
 
       - name: Set up Python
         uses: actions/setup-python@v4
