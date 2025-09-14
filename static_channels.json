@@ -13,6 +13,90 @@
       }
     ]
   },
+  "EN | MovieSphere UK": {
+    "group": "Movies",
+    "tvg_id": "MovieSphereUK",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/MovieSphere_2022_logo.svg",
+    "links": [
+      {
+        "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Kronehit HD": {
+    "group": "Music",
+    "tvg_id": "KronehitHD",
+    "tvg_logo": "https://smotret.tv/images/kronehit-tv.webp",
+    "links": [
+      {
+        "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | The Walking Dead Universe": {
+    "group": "Movies",
+    "tvg_id": "TheWalkingDeadUniverse",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2024/09/The-Walking-Dead-Logo-500x281.png",
+    "links": [
+      {
+        "url": "https://22985209144b4ff78289fbb19f55e93e.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_TWDUniverseExperience/playlist.m3u8?ads.wurl_channel=565&ads.wurl_name=TWDUniverseExperience&ads.coppa=0&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=sQN_f5E2o3f4xpcEPue3&ads.plex_id=5fc705ff2f220e002d5e6bce&ads.ua=okhttp%2F4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "RU | RU.TV": {
+    "group": "Music",
+    "tvg_id": "RU.TV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5b/RU.TV_%282023%29.webp",
+    "links": [
+      {
+        "url": "https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "AR | Arabica Music": {
+    "group": "Music",
+    "tvg_id": "ArabicaMusic",
+    "tvg_logo": "https://arabica-tv.com/wp-content/uploads/2022/07/cropped-Arabica-tv-Logo-1.png",
+    "links": [
+      {
+        "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | TMA": {
+    "group": "Music",
+    "tvg_id": "TMA",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_lVZiE0N1RYdDqoG8QEN_b6WUOVuxjmp2CJmx152E_f0g=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "http://hls.tmacaraibes.com/live/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Circle": {
     "group": "Movies",
     "tvg_id": "Circle",
@@ -1549,6 +1633,27 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
+        "last_offline": null
+      },
+      {
+        "url": "https://wildearth-plex.amagi.tv/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Rouge TV [Switzerland]": {
+    "group": "Music",
+    "tvg_id": "CARAC1",
+    "tvg_logo": "https://www.livehdtv.com/uploads/kanal/23770carac1.png",
+    "links": [
+      {
+        "url": "https://rougetv.vedge.infomaniak.com/livecast/rougetv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7065,6 +7170,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Discover Pakistan TV": {
+    "group": "Educational",
+    "tvg_id": "DiscoverPakistanTV",
+    "tvg_logo": "https://www.discoverpakistan.tv/assets/dp-logo-DEj6gG6U.png",
+    "links": [
+      {
+        "url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Wonder": {
+    "group": "Educational",
+    "tvg_id": "Wonder",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_kpdwclVeOKtinypabEccGw0gWkzRIP38a7W2FBiHHc44k=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://lds-wonder-plex.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
