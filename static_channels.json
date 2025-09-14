@@ -13,6 +13,20 @@
       }
     ]
   },
+  "US-BD Journal 24 TV": {
+    "group": "Bangla",
+    "tvg_id": "US-BDJournal24TV",
+    "tvg_logo": "https://www.usbdjournal24.com/wp-content/uploads/2025/09/Picsart_25-09-11_13-55-56-310-scaled.png",
+    "links": [
+      {
+        "url": "http://208.86.19.13:81/510.stream/index.m3u8?",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -291,6 +305,13 @@
     "tvg_id": "ekushey.bd",
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Ekushey%20TV.png",
     "links": [
+      {
+        "url": "https://ekusheyserver.com/etvlivesn.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
         "status": "online",
@@ -1088,6 +1109,20 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-13"
+      }
+    ]
+  },
+  "IN | Calcutta News": {
+    "group": "Bangla News",
+    "tvg_id": "CalcuttaNews",
+    "tvg_logo": "https://assets.calcuttatelevisionnetwork.in/cn.png",
+    "links": [
+      {
+        "url": "https://akdnetwork.co.in/live/cnnew/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
