@@ -1063,6 +1063,20 @@
       }
     ]
   },
+  "ENT | Pardesi TV": {
+    "group": "India",
+    "tvg_id": "PardesiTV",
+    "tvg_logo": "https://www.pardesitv.com/images/logo.png",
+    "links": [
+      {
+        "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "IN | Kalkata TV": {
     "group": "Bangla News",
     "tvg_id": "Kalkatatv",
@@ -1686,11 +1700,18 @@
       }
     ]
   },
-  "NEWS | Aaj Tak": {
+  "NEWS | Aaj Tak HD": {
     "group": "India",
     "tvg_id": "AajTak.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png",
     "links": [
+      {
+        "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://feeds.intoday.in/aajtak/api/master.m3u8",
         "status": "online",
@@ -4150,11 +4171,32 @@
       }
     ]
   },
+  "IN | Bangla Jago TV": {
+    "group": "Bangla News",
+    "tvg_id": "BanglaJagoTV",
+    "tvg_logo": "https://banglajagotv.com/wp-content/themes/BANGLAJAGOTV/images/logo.png",
+    "links": [
+      {
+        "url": "http://banglajagotv.livebox.co.in:80/banglajagohls/24x7.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Action Hollywood Movies": {
     "group": "Movies",
     "tvg_id": "ActionHollywoodMovies",
     "tvg_logo": "https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png",
     "links": [
+      {
+        "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be944f8711311880995280.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
@@ -6351,6 +6393,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | The Q TV": {
+    "group": "India",
+    "tvg_id": "TheQTV.in",
+    "tvg_logo": "https://www.theq.tv/wp-content/uploads/2023/10/The-Q-new-Logo.png",
+    "links": [
+      {
+        "url": "https://vg-theqlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-306905/main.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
