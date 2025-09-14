@@ -39,10 +39,12 @@ jobs:
           name: ffmpeg-binary
           path: ./ffmpeg
 
-      - name: Add FFmpeg to PATH
+      - name: Add FFmpeg to PATH locally
         run: |
-          sudo cp ffmpeg/bin/ffmpeg /usr/local/bin/
-          sudo cp ffmpeg/bin/ffprobe /usr/local/bin/
+          mkdir -p $HOME/bin
+          cp ffmpeg/bin/ffmpeg $HOME/bin/
+          cp ffmpeg/bin/ffprobe $HOME/bin/
+          echo "$HOME/bin" >> $GITHUB_PATH
           ffmpeg -version
 
       - name: Set up Python
@@ -85,10 +87,12 @@ jobs:
           name: ffmpeg-binary
           path: ./ffmpeg
 
-      - name: Add FFmpeg to PATH
+      - name: Add FFmpeg to PATH locally
         run: |
-          sudo cp ffmpeg/bin/ffmpeg /usr/local/bin/
-          sudo cp ffmpeg/bin/ffprobe /usr/local/bin/
+          mkdir -p $HOME/bin
+          cp ffmpeg/bin/ffmpeg $HOME/bin/
+          cp ffmpeg/bin/ffprobe $HOME/bin/
+          echo "$HOME/bin" >> $GITHUB_PATH
           ffmpeg -version
 
       - name: Set up Python
