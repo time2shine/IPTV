@@ -132,7 +132,7 @@ ffmpeg -version
 **Sample combined.m3u:**
 ```m3u
 #EXTM3U
-#EXTINF:-1 group-title="News" tvg-id="BBCWorld" tvg-logo="https://example.com/bbcworld.png", BBC World
+#EXTINF:-1 tvg-id="BBCWORLD" group-title="News",BBC World News
 http://example.com/stream/bbcworld
 ```
 
@@ -142,11 +142,11 @@ http://example.com/stream/bbcworld
 
 - Add new channels by editing `static_channels.json`.
 - Add new movies by editing `static_movies.json`.
-- Add new YouTube channel by editing `YT_channels.py`.
-- Modify YouTube extraction logic in `YT_get_YouTube_link.py`.
+- Add new YouTube channels by editing `YT_channels.py`.
+- Modify YouTube extraction rules in `YT_get_YouTube_link.py`.
 - Modify playlist combination rules in `combine_playlists.py`.
-- Modify channels online/offline status logic in `static_channels_update.py`.
-- Modify movies online/offline status logic in `static_movies_update.py`.
+- Modify movies onnline/offline status logic in `static_movies_update.py`.
+- Modify channels onnline/offline status logic in `static_channels_update.py`.
 - Extend EPG scraping logic in `epg_scraper.py` for custom sources.
 
 ---
@@ -166,4 +166,3 @@ MIT License – free to use, modify, and share.
 ## ❤️ Maintainer Notes
 
 This project is maintained as a **hobby** and for family use. It's a fun way to keep learning Python while keeping IPTV streams organized for daily use.
-
