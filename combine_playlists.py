@@ -9,6 +9,7 @@ print = functools.partial(print, flush=True)
 # File names
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
+MOVIES_FILE = "static_movies.json"
 OUTPUT_FILE = "combined.m3u"
 
 # Group order
@@ -27,6 +28,9 @@ GROUP_ORDER = [
     "Sports",
     "Religious",
     "Kids",
+    "Movies - Bangla",
+    "Movies - English",
+    "Movies - Hindi",
 ]
 
 def parse_m3u(file_path):
@@ -69,15 +73,35 @@ def parse_json(file_path):
         group = info.get("group", "Other")
         tvg_id = info.get("tvg_id")
         if not tvg_id:
-            tvg_id = generate_tvg_id(channel_name)  # Auto-generate tvg-id
-        tvg_logo = info.get("tvg_logo")  # Optional logo
+            tvg_id = generate_tvg_id(channel_name)
+        tvg_logo = info.get("tvg_logo")
 
         links = info.get("links", [])
-        # Find first online link
         online_link = next((l["url"] for l in links if l.get("status") == "online"), None)
         if online_link:
-            # Build M3U header
             header = f'#EXTINF:-1 group-title="{group}",{channel_name}'
+            channels.append((header, online_link, group, tvg_id, tvg_logo))
+    return channels
+
+def parse_movies_json(file_path):
+    """Parse movies JSON and extract first online link, adding year to name."""
+    channels = []
+    with open(file_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    for movie_name, info in data.items():
+        group = info.get("group", "Movies")
+        year = info.get("year")
+        tvg_logo = info.get("tvg_logo")
+        tvg_id = generate_tvg_id(movie_name)
+
+        # Format name as "Name (Year)"
+        display_name = f"{movie_name} ({year})" if year else movie_name
+
+        links = info.get("links", [])
+        online_link = next((l["url"] for l in links if l.get("status") == "online"), None)
+        if online_link:
+            header = f'#EXTINF:-1 group-title="{group}",{display_name}'
             channels.append((header, online_link, group, tvg_id, tvg_logo))
     return channels
 
@@ -87,45 +111,41 @@ def save_m3u(channels, output_file):
         f.write("#EXTM3U\n")
         for header, link, group, tvg_id, tvg_logo in channels:
             parts = header.split(",", 1)
-            base_header = parts[0]  # everything before the channel name
+            base_header = parts[0]
             channel_name = parts[1] if len(parts) > 1 else ""
 
-            # Normalize tvg-id
             if tvg_id:
                 if 'tvg-id="' in base_header:
-                    # Replace existing tvg-id
                     base_header = re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', base_header)
                 else:
                     base_header += f' tvg-id="{tvg_id}"'
 
-            # Normalize tvg-logo
             if tvg_logo:
                 if 'tvg-logo="' in base_header:
-                    # Replace existing tvg-logo
                     base_header = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{tvg_logo}"', base_header)
                 else:
                     base_header += f' tvg-logo="{tvg_logo}"'
 
-            # Recombine
             new_header = f"{base_header},{channel_name}"
             f.write(f"{new_header}\n{link}\n")
-
 
 def main():
     start_time = time.time()
 
-    # Parse YT playlist
     print("Parsing YouTube playlist...")
     yt_channels = parse_m3u(YT_FILE)
     print(f"{len(yt_channels)} channels found in {YT_FILE}\n")
 
-    # Parse JSON playlist
     print("Parsing JSON playlist...")
     json_channels = parse_json(JSON_FILE)
     print(f"{len(json_channels)} online channels found in {JSON_FILE}\n")
 
-    # Combine
-    combined_channels = yt_channels + json_channels
+    print("Parsing Movies JSON playlist...")
+    movie_channels = parse_movies_json(MOVIES_FILE)
+    print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
+
+    # Combine all
+    combined_channels = yt_channels + json_channels + movie_channels
 
     # Deduplicate by channel name
     unique_by_name = {}
@@ -156,7 +176,6 @@ def main():
     for g in GROUP_ORDER + sorted([k for k in groups.keys() if k not in GROUP_ORDER]):
         sorted_channels.extend(groups.get(g, []))
 
-    # Save combined playlist
     save_m3u(sorted_channels, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
     print(f"⏱ Total script time: {time.time() - start_time:.2f} seconds")
