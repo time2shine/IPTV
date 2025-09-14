@@ -13,6 +13,20 @@
       }
     ]
   },
+  "ENT | Channel Y": {
+    "group": "Indian",
+    "tvg_id": "ChannelY",
+    "tvg_logo": "https://i.postimg.cc/4xxWq58B/image_10.jpg",
+    "links": [
+      {
+        "url": "http://cdn19.live247stream.com/channely/tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "US-BD Journal 24 TV": {
     "group": "Bangla",
     "tvg_id": "US-BDJournal24TV",
@@ -2805,7 +2819,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/BBC_News_2019.svg",
     "links": [
       {
-        "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8?v=1",
+        "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
