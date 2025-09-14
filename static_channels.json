@@ -27,6 +27,20 @@
       }
     ]
   },
+  "OTHER | 1Mus": {
+    "group": "Music",
+    "tvg_id": "1Mus",
+    "tvg_logo": "https://i.postimg.cc/RFrMsR7Y/download-1.jpg",
+    "links": [
+      {
+        "url": "http://hz1.teleport.cc/HLS/HD.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "US-BD Journal 24 TV": {
     "group": "Bangla",
     "tvg_id": "US-BDJournal24TV",
@@ -170,6 +184,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Desi Channel": {
+    "group": "Music",
+    "tvg_id": "DesiChannel",
+    "tvg_logo": "https://godlywoodstudio.org/wp-content/uploads/2016/12/2-desi-logo.png",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -618,6 +646,27 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://103.230.105.252:1935/live/ntv/manifest.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Play TV": {
+    "group": "Music",
+    "tvg_id": "PlayTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/32/PlayTV2006.svg",
+    "links": [
+      {
+        "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -6606,6 +6655,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/Dunya_News.png",
     "links": [
       {
+        "url": "http://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -6855,6 +6911,83 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | MyTime Movie Network BR": {
+    "group": "Movies",
+    "tvg_id": "MyTimeMovieNetworkBR",
+    "tvg_logo": "https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png",
+    "links": [
+      {
+        "url": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist360p.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Mercy TV": {
+    "group": "Religious",
+    "tvg_id": "MercyTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b3/Mercy_TV.jpg",
+    "links": [
+      {
+        "url": "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | MAD": {
+    "group": "Music",
+    "tvg_id": "MAD",
+    "tvg_logo": "https://tvchannels4all.com/tvonline/madtv.png",
+    "links": [
+      {
+        "url": "http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Isai Aruvi": {
+    "group": "Music",
+    "tvg_id": "IsaiAruvi",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Isai_Aruvi.jpeg",
+    "links": [
+      {
+        "url": "https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Iqra TV": {
+    "group": "Religious",
+    "tvg_id": "IqraTV",
+    "tvg_logo": "https://iqra.tv/wp-content/uploads/2019/12/IQ-logo-light-120px.png",
+    "links": [
+      {
+        "url": "https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7891,6 +8024,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
