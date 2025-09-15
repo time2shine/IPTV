@@ -860,6 +860,34 @@
       }
     ]
   },
+  "--Live(Toffee Sports HD)--": {
+    "group": "Sports",
+    "tvg_id": "ToffeeSportsHD",
+    "tvg_logo": "https://images.toffeelive.com/images/program/304419/logo/115x115/mobile_logo_253140001742624618.png",
+    "links": [
+      {
+        "url": "http://103.73.107.122:3255/TSportsHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | Tara Bangla Cinema": {
+    "group": "Movies",
+    "tvg_id": "TaraBanglacinema",
+    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjV-Uny70t-T2TsCyzzt-8mnRfkRy0VLdl6g&s",
+    "links": [
+      {
+        "url": "http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Time Televis HD": {
     "group": "Bangla",
     "tvg_id": "timetelevision.bd",
@@ -2263,6 +2291,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
+        "last_offline": null
+      },
+      {
+        "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/pub-iotv9hinjzgtpe/live_720p/chunks.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5571,11 +5606,32 @@
       }
     ]
   },
+  "POGO": {
+    "group": "Kids",
+    "tvg_id": "POGO",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/Pogo_2016.svg",
+    "links": [
+      {
+        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "BAN | SANGEET BANGLA": {
     "group": "Music",
     "tvg_id": "sangeetbangla.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png",
     "links": [
+      {
+        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://tiger-hub.vercel.app/Sangeet-Bangla/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
@@ -6449,6 +6505,13 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -8699,7 +8762,7 @@
     "tvg_logo": "https://brandslogos.com/wp-content/uploads/images/wwe-logo.png",
     "links": [
       {
-        "url": "http://smart.bengaldigital.live/WWE/index.m3u8",
+        "url": "https://smart.bengaldigital.live/WWE/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
