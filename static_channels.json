@@ -13,20 +13,6 @@
       }
     ]
   },
-  "OTHER | Teleritmo": {
-    "group": "Music",
-    "tvg_id": "Teleritmo",
-    "tvg_logo": "https://d60d34ithxz8n.cloudfront.net/us-logos/94a358accfbdcb772eb78f3a592903f8.png",
-    "links": [
-      {
-        "url": "http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -307,10 +293,10 @@
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23014&ads.content_duration=18000&ads.episode_id=76356&ads.show_id=2954&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Desi%20TV&ads.episodetitle=Desi%20TV&ads.keywords=desi&ads.contenturl=__PAGEURL_ESC__&ads.paln=__PALN__&ads.tagname=dtv",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       },
       {
         "url": "http://208.86.19.13:81/514.stream/index.m3u8",
@@ -365,7 +351,7 @@
         "url": "https://fyfl.short.gy/nadimraja.m3u8?www.017666.blogspot.com",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       },
       {
@@ -394,34 +380,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
-      }
-    ]
-  },
-  "NICK Hindi": {
-    "group": "Kids",
-    "tvg_id": "NICKHindi",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia-fanon/images/b/ba/NickToons_UK_2007.svg",
-    "links": [
-      {
-        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "MUSIC BANGLA": {
-    "group": "Bangla",
-    "tvg_id": "MUSICBANGLA",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
-    "links": [
-      {
-        "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -583,6 +541,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "MUSIC BANGLA": {
+    "group": "Bangla",
+    "tvg_id": "MUSICBANGLA",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
+    "links": [
+      {
+        "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       }
     ]
@@ -856,34 +828,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "--Live(Toffee Sports HD)--": {
-    "group": "Sports",
-    "tvg_id": "ToffeeSportsHD",
-    "tvg_logo": "https://images.toffeelive.com/images/program/304419/logo/115x115/mobile_logo_253140001742624618.png",
-    "links": [
-      {
-        "url": "http://103.73.107.122:3255/TSportsHD/index.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | Tara Bangla Cinema": {
-    "group": "Movies",
-    "tvg_id": "TaraBanglacinema",
-    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjV-Uny70t-T2TsCyzzt-8mnRfkRy0VLdl6g&s",
-    "links": [
-      {
-        "url": "http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1868,10 +1812,10 @@
     "links": [
       {
         "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -1931,10 +1875,10 @@
       },
       {
         "url": "http://103.182.170.32:8888/play/a03o",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -2297,7 +2241,7 @@
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/pub-iotv9hinjzgtpe/live_720p/chunks.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       }
     ]
@@ -3632,6 +3576,20 @@
       }
     ]
   },
+  "Bantul The Great": {
+    "group": "Kids",
+    "tvg_id": "BantulTheGreat",
+    "tvg_logo": "https://yt3.googleusercontent.com/2bh8pNkXBsWXD-1jdvn71Ae6GCQz3pUcJpRgASPtl_ESkWPUdXiAnJ4MAZ9Kp0M5d0lIUyTZww=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
+        "last_offline": null
+      }
+    ]
+  },
   "Camp Spoopy": {
     "group": "Kids",
     "tvg_id": "CampSpoopy",
@@ -3828,10 +3786,10 @@
     "links": [
       {
         "url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -4080,6 +4038,20 @@
       }
     ]
   },
+  "NICK Hindi": {
+    "group": "Kids",
+    "tvg_id": "NICKHindi",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia-fanon/images/b/ba/NickToons_UK_2007.svg",
+    "links": [
+      {
+        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
+        "last_offline": null
+      }
+    ]
+  },
   "Nick Jr": {
     "group": "Kids",
     "tvg_id": "NickJr.us@East",
@@ -4154,6 +4126,20 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-14"
+      }
+    ]
+  },
+  "POGO": {
+    "group": "Kids",
+    "tvg_id": "POGO",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/Pogo_2016.svg",
+    "links": [
+      {
+        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
+        "last_offline": null
       }
     ]
   },
@@ -4472,6 +4458,20 @@
       }
     ]
   },
+  "BAN | Tara Bangla Cinema": {
+    "group": "Movies",
+    "tvg_id": "TaraBanglacinema",
+    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjV-Uny70t-T2TsCyzzt-8mnRfkRy0VLdl6g&s",
+    "links": [
+      {
+        "url": "http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
+        "last_offline": null
+      }
+    ]
+  },
   "BAN | ZB Cinema": {
     "group": "Movies",
     "tvg_id": "ZBCinema.in",
@@ -4633,10 +4633,10 @@
     "links": [
       {
         "url": "https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -5228,10 +5228,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -5606,20 +5606,6 @@
       }
     ]
   },
-  "POGO": {
-    "group": "Kids",
-    "tvg_id": "POGO",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/Pogo_2016.svg",
-    "links": [
-      {
-        "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "BAN | SANGEET BANGLA": {
     "group": "Music",
     "tvg_id": "sangeetbangla.in",
@@ -5629,7 +5615,7 @@
         "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       },
       {
@@ -6173,20 +6159,6 @@
       }
     ]
   },
-  "Bantul The Great": {
-    "group": "Kids",
-    "tvg_id": "BantulTheGreat",
-    "tvg_logo": "https://yt3.googleusercontent.com/2bh8pNkXBsWXD-1jdvn71Ae6GCQz3pUcJpRgASPtl_ESkWPUdXiAnJ4MAZ9Kp0M5d0lIUyTZww=s72-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "HI | 9XM": {
     "group": "Music",
     "tvg_id": "9XM.in",
@@ -6320,10 +6292,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -6334,10 +6306,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -6511,7 +6483,7 @@
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       }
     ]
@@ -6691,10 +6663,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/4599G7ELH7ADOE9DQJK4/hls3/now,-1m/m.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -6849,6 +6821,20 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Teleritmo": {
+    "group": "Music",
+    "tvg_id": "Teleritmo",
+    "tvg_logo": "https://d60d34ithxz8n.cloudfront.net/us-logos/94a358accfbdcb772eb78f3a592903f8.png",
+    "links": [
+      {
+        "url": "http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-15"
       }
     ]
   },
@@ -7912,6 +7898,20 @@
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Toffee Sports HD)--": {
+    "group": "Sports",
+    "tvg_id": "ToffeeSportsHD",
+    "tvg_logo": "https://images.toffeelive.com/images/program/304419/logo/115x115/mobile_logo_253140001742624618.png",
+    "links": [
+      {
+        "url": "http://103.73.107.122:3255/TSportsHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-15",
         "last_offline": null
       }
     ]
