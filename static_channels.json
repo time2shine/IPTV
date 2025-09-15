@@ -1634,6 +1634,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://live-dangal.akamaized.net/liveabr/pub-iodang10p4al/live_720p/chunks.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2973,6 +2980,13 @@
         "last_offline": null
       },
       {
+        "url": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://www.bloomberg.com/media-manifest/streams/eu.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -3243,6 +3257,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "DOCUMENT": {
+    "group": "Educational",
+    "tvg_id": "DOCUMENT",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5578,11 +5606,32 @@
       }
     ]
   },
+  "Moonbug": {
+    "group": "Kids",
+    "tvg_id": "Moonbug",
+    "tvg_logo": "https://yt3.googleusercontent.com/3fWnBPeggOeAwIiDTKowTUF-Va2gqE8j0yn0dTObXYliN7rlVloY4CAoqiqbo7FIIHLzFrjjbg=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://moonbug-rokuus.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | NOW 80s": {
     "group": "Music",
     "tvg_id": "NOW80s",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/cf/NOW_80s.png",
     "links": [
+      {
+        "url": "https://lightning-now80s-samsunguk.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8",
         "status": "online",
@@ -7436,6 +7485,62 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "BabyFirst": {
+    "group": "Kids",
+    "tvg_id": "BabyFirst",
+    "tvg_logo": "https://babyfirsttv.com/wp-content/uploads/2024/03/babyfirst_logo_2022-1024x202.png",
+    "links": [
+      {
+        "url": "https://streams.sofast.tv/ptnr-yupptv/title-BABYFIRST-ENG_YuppTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c8d16110-566c-4e95-a1df-55d175e9e201/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "CBS News": {
+    "group": "International News",
+    "tvg_id": "CBSNews.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png",
+    "links": [
+      {
+        "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | LoL TV": {
+    "group": "Movies",
+    "tvg_id": "LoLTV",
+    "tvg_logo": "https://yt3.googleusercontent.com/wfugK-_Y4Hr89XKEAOEi2wiK8sRfqz4xvj2B_N7xEcFyiuBmcrM7519oFOnyM7aUpnXUyi5t-w=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(FOOTBALL)--": {
+    "group": "Sports",
+    "tvg_id": "LIVEFOOTBALL",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
