@@ -36,7 +36,6 @@ EXCLUDE_LIST = [
     "Shemaroo Bollywood 2"
     "Ekushay TV (Local)",
     "AccuWeather NOW",
-    "Outdoor Channel",
     "RT NEWS GLOBAL",
     "POWERtube TV",
     "EN | NOW 70s",
@@ -52,6 +51,7 @@ EXCLUDE_LIST = [
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
     "https://lightning-now80s-rakuten.amagi.tv",
+    "https://cdn-apse1-prod.tsv2.amagi.tv",
     "https://cdn-ue1-prod.tsv2.amagi.tv",
     "https://tiger-hub.vercel.app",
     "https://amg01448-samsungin",
