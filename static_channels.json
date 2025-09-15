@@ -13,20 +13,6 @@
       }
     ]
   },
-  "Camp Spoopy": {
-    "group": "Kids",
-    "tvg_id": "CampSpoopy.us",
-    "tvg_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaKH3uzyMWl7vLEOuc6gTayS2MjpJpMoSjn3V8mNQNstWu6SoIX9uCh5T1KZ-CfHxVNYzclUlKdg0fgaE3uno9xMhhyphenhyphenCtd5NU3V43R0cLOyg_k6IGE_IDsOFWQAqHkMlvjyl6mB7OCTkYr/s320/06_Camp+Snoopy+logo.JPG",
-    "links": [
-      {
-        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=269",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "AfroLandTV": {
     "group": "International",
     "tvg_id": "AfroLandTV.us",
@@ -3546,6 +3532,13 @@
     "tvg_id": "CampSpoopy",
     "tvg_logo": "https://provider-static.plex.tv/epg/images/ott_channels/logos/camp-spoopy-logo_dark.png",
     "links": [
+      {
+        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=269",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6164a963766ab4f9f57e81b1.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m",
         "status": "online",
