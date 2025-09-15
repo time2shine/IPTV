@@ -13,6 +13,62 @@
       }
     ]
   },
+  "Camp Spoopy": {
+    "group": "Kids",
+    "tvg_id": "CampSpoopy.us",
+    "tvg_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaKH3uzyMWl7vLEOuc6gTayS2MjpJpMoSjn3V8mNQNstWu6SoIX9uCh5T1KZ-CfHxVNYzclUlKdg0fgaE3uno9xMhhyphenhyphenCtd5NU3V43R0cLOyg_k6IGE_IDsOFWQAqHkMlvjyl6mB7OCTkYr/s320/06_Camp+Snoopy+logo.JPG",
+    "links": [
+      {
+        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=269",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "AfroLandTV": {
+    "group": "International",
+    "tvg_id": "AfroLandTV.us",
+    "tvg_logo": "https://www.afrolandtv.com/themes/custom/alt/afrolandtv/logo.png",
+    "links": [
+      {
+        "url": "https://alt-al.otteravision.com/alt/al/al.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "TV Sul de Minas": {
+    "group": "Kids",
+    "tvg_id": "TVSuldeMinas.br",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_k6BzhoO6x2b6h6L7aw5tfSWZLwzwnlAPhhQ1hHCPEEOYA=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | BEK TV Sports West": {
+    "group": "Sports",
+    "tvg_id": "BEKSportsWest.us",
+    "tvg_logo": "https://appcmsprod.viewlift.com/eae092c0-d256-11ed-9371-6da166a39e0f/images/bek-tv-plus-web-logo-noc-1280X728.png",
+    "links": [
+      {
+        "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -7509,7 +7565,42 @@
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png",
     "links": [
       {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c799153-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=15376bcb-2b34-4530-a2f7-c528a8eb2aa3",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "American Crimes": {
+    "group": "Educational",
+    "tvg_id": "AmericanCrimes",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/DORA_TV.png",
+    "links": [
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65492fc7056b9700088560b5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a780-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3ce66776-1850-472a-aae6-67709c1b0532",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Dora TV": {
+    "group": "Kids",
+    "tvg_id": "DoraTV.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/DORA_TV.png",
+    "links": [
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c49-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=58d418cb-223d-4b93-bc8e-5666e9995949",
         "status": "slow",
         "last_online": null,
         "first_online": null,
