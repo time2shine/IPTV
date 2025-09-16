@@ -293,10 +293,10 @@
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23014&ads.content_duration=18000&ads.episode_id=76356&ads.show_id=2954&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Desi%20TV&ads.episodetitle=Desi%20TV&ads.keywords=desi&ads.contenturl=__PAGEURL_ESC__&ads.paln=__PALN__&ads.tagname=dtv",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       },
       {
         "url": "http://208.86.19.13:81/514.stream/index.m3u8",
@@ -475,10 +475,10 @@
     "links": [
       {
         "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-12"
+        "first_online": "2025-09-16",
+        "last_offline": null
       },
       {
         "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
@@ -1266,34 +1266,6 @@
       }
     ]
   },
-  "NEWS | Bharat Samachar TV": {
-    "group": "India",
-    "tvg_id": "BharatSamacharTV.in",
-    "tvg_logo": "https://bharatsamachartv.com/images/logo.png",
-    "links": [
-      {
-        "url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "BAN | Bangla Songs": {
-    "group": "Music",
-    "tvg_id": "BanglaSongs",
-    "tvg_logo": "https://i.postimg.cc/cJXWTvcW/Bangla-Songs.jpg",
-    "links": [
-      {
-        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "IN | TV9 Bangla": {
     "group": "Bangla News",
     "tvg_id": "TV9Bangla.in",
@@ -1840,10 +1812,10 @@
     "links": [
       {
         "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -1917,10 +1889,10 @@
     "links": [
       {
         "url": "https://vg-theqlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-306905/main.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       }
     ]
   },
@@ -1934,6 +1906,20 @@
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | 1st India News": {
+    "group": "India",
+    "tvg_id": "1stIndiaNews",
+    "tvg_logo": "https://firstindianews.com/images/logo.png",
+    "links": [
+      {
+        "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-16",
         "last_offline": null
       }
     ]
@@ -2008,6 +1994,20 @@
       }
     ]
   },
+  "NEWS | Bharat Samachar TV": {
+    "group": "India",
+    "tvg_id": "BharatSamacharTV.in",
+    "tvg_logo": "https://bharatsamachartv.com/images/logo.png",
+    "links": [
+      {
+        "url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-16",
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | CNBC Awaaz": {
     "group": "India",
     "tvg_id": "CNBCAwaaz",
@@ -2015,16 +2015,16 @@
     "links": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       },
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/CNBC_Awaaz_NW18_MOB-audio_98834_hin=98800-video=1272000.m3u8",
-        "status": "slow",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-16",
         "last_offline": null
       }
     ]
@@ -2344,10 +2344,10 @@
     "links": [
       {
         "url": "http://208.86.19.13:81/102.stream/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       }
     ]
   },
@@ -3226,9 +3226,9 @@
       },
       {
         "url": "https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8",
-        "status": "slow",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-16",
         "last_offline": null
       },
       {
@@ -3250,20 +3250,6 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
-      }
-    ]
-  },
-  "NEWS | 1st India News": {
-    "group": "India",
-    "tvg_id": "1stIndiaNews",
-    "tvg_logo": "https://firstindianews.com/images/logo.png",
-    "links": [
-      {
-        "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3310,10 +3296,10 @@
     "links": [
       {
         "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": "2025-09-13"
+        "last_offline": null
       }
     ]
   },
@@ -3842,10 +3828,10 @@
     "links": [
       {
         "url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -4689,10 +4675,10 @@
     "links": [
       {
         "url": "https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -5298,10 +5284,10 @@
     "links": [
       {
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-12"
+        "last_offline": null
       }
     ]
   },
@@ -5571,10 +5557,10 @@
     "links": [
       {
         "url": "https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-14"
+        "last_offline": null
       }
     ]
   },
@@ -5631,6 +5617,20 @@
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "BAN | Bangla Songs": {
+    "group": "Music",
+    "tvg_id": "BanglaSongs",
+    "tvg_logo": "https://i.postimg.cc/cJXWTvcW/Bangla-Songs.jpg",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-16",
+        "last_offline": null
       }
     ]
   },
@@ -5732,10 +5732,10 @@
     "links": [
       {
         "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/F5ULR0LIVWER0I6ONXY4/hls3/now,-1m/m.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       }
     ]
   },
@@ -5795,10 +5795,10 @@
     "links": [
       {
         "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -5809,10 +5809,10 @@
     "links": [
       {
         "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       }
     ]
   },
@@ -6348,10 +6348,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -6362,10 +6362,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-15"
+        "last_offline": null
       }
     ]
   },
@@ -7930,10 +7930,10 @@
     "links": [
       {
         "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/376465.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
@@ -8294,10 +8294,10 @@
       },
       {
         "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/chunklist_b996000.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-16"
       }
     ]
   },
