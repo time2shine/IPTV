@@ -1266,6 +1266,34 @@
       }
     ]
   },
+  "NEWS | Bharat Samachar TV": {
+    "group": "India",
+    "tvg_id": "BharatSamacharTV.in",
+    "tvg_logo": "https://bharatsamachartv.com/images/logo.png",
+    "links": [
+      {
+        "url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BAN | Bangla Songs": {
+    "group": "Music",
+    "tvg_id": "BanglaSongs",
+    "tvg_logo": "https://i.postimg.cc/cJXWTvcW/Bangla-Songs.jpg",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "IN | TV9 Bangla": {
     "group": "Bangla News",
     "tvg_id": "TV9Bangla.in",
@@ -1991,12 +2019,19 @@
         "last_online": null,
         "first_online": "2025-09-14",
         "last_offline": null
+      },
+      {
+        "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/CNBC_Awaaz_NW18_MOB-audio_98834_hin=98800-video=1272000.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
   "NEWS | CNN News 18": {
     "group": "India",
-    "tvg_id": "CNN News 18",
+    "tvg_id": "CNNNews18",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1b/CNN-News_18_logo.jpg",
     "links": [
       {
@@ -3190,6 +3225,13 @@
         "last_offline": null
       },
       {
+        "url": "https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/cnn-86/playlist.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -3208,6 +3250,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | 1st India News": {
+    "group": "India",
+    "tvg_id": "1stIndiaNews",
+    "tvg_logo": "https://firstindianews.com/images/logo.png",
+    "links": [
+      {
+        "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
