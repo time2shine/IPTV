@@ -51,8 +51,12 @@ EXCLUDE_LIST = [
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
     "https://lightning-now80s-rakuten.amagi.tv",
+    "http://mdstrm.com/live-stream-playlist",
+    "https://n18syndication.akamaized.net",
     "https://cdn-apse1-prod.tsv2.amagi.tv",
     "https://cdn-ue1-prod.tsv2.amagi.tv",
+    "https://sabliveyupp.akamaized.net",
+    "https://vg-theqlive.akamaized.net",
     "http://stream.pardesitv.online",
     "https://tiger-hub.vercel.app",
     "https://cors-proxy.cooks.fyi",
@@ -63,10 +67,12 @@ WHITELIST_DOMAINS = [
     "https://mtv.sunplex.live",
     "https://cdn-4.pishow.tv",
     "http://mtv.sunplex.live",
+    "http://208.86.19.13:81",
+    "http://38.143.48.212",
     "https://epg.provider",
     "http://41.205.93.154",
     "http://filex.tv:8080",
-    "https://amg"
+    "https://amg",
 ]
 
 def check_ffmpeg(url, channel_name):
