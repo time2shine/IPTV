@@ -45,6 +45,6 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add static_channels.json static_movies.json
+          git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u
           git commit -m "Update links online/offline status" || echo "No changes to commit"
           git push
