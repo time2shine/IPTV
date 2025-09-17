@@ -21,8 +21,6 @@ http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Orange Bangla TV
 https://cdn-4.pishow.tv/live/1499/master.m3u8
-#EXTINF:-1 group-title="Bangla",R Plus Gold
-https://cdn-4.pishow.tv/live/1231/1231_2.m3u8
 #EXTINF:-1 group-title="Bangla",Rupasi Bangla
 https://cdn-4.pishow.tv/live/1039/master.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD
@@ -241,6 +239,8 @@ https://live.dinesh29.com.np/stream/jiotvplus/sunmusichd/master.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Teleritmo
 http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+#EXTINF:-1 group-title="Pakistan",NEWS | ARY NEWS
+http://webo.asia:80/6992/2996/7949
 #EXTINF:-1 group-title="Pakistan",NEWS | GNN
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/gnnnews-181/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Lahore Rang
@@ -255,8 +255,6 @@ https://media2.streambrothers.com:1936/8122/8122/chunklist_w1247854077.m3u8
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Euro Sport HD)--
 https://app.hughag.store/api/ef22d71b0e/playlist.m3u8
-#EXTINF:-1 group-title="Sports",--Live(PTV Sports)--
-https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 2 HD)
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Willow Sports HD)--
@@ -267,10 +265,6 @@ https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
 https://cc-bpss9asqfihqh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bpss9asqfihqh/scheduler/scheduleMaster/453.m3u8
 #EXTINF:-1 group-title="Sports",CR | Cricket Gold
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
-#EXTINF:-1 group-title="Sports",CR | Sky Sports Cricket
-https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",CR | Sky Sports Cricket
-https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",CR | Sony Ten 3 HD Hindi
 http://filex.tv:8080/live/Home329/Sohailhome/52086.m3u8
 #EXTINF:-1 group-title="Sports",CR | Star Sports 1 HD
