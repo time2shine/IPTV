@@ -4,6 +4,7 @@ import functools
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 from datetime import datetime, date
+import os
 
 # Force print to flush immediately
 print = functools.partial(print, flush=True)
@@ -74,6 +75,30 @@ WHITELIST_DOMAINS = [
     "http://filex.tv:8080",
     "https://amg",
 ]
+
+def export_excluded_whitelisted(channels):
+    """Export EXCLUDED + WHITELISTED channels into obsolete/excluded_whitelisted.m3u"""
+    folder = "obsolete"
+    os.makedirs(folder, exist_ok=True)  # ✅ create folder if missing
+
+    output_file = os.path.join(folder, "excluded_whitelisted.m3u")
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+
+        for channel_name, info in channels.items():
+            for link in info.get("links", []):
+                url = link.get("url")
+                if not url:
+                    continue
+
+                if any(skip.lower() in channel_name.lower() for skip in EXCLUDE_LIST) \
+                   or any(domain in url for domain in WHITELIST_DOMAINS):
+                    f.write(f'#EXTINF:-1 group-title="{info.get("group", "Other")}",{channel_name}\n{url}\n')
+
+    print(f"✅ Exported excluded + whitelisted channels to {output_file}")
+
+
 
 def check_ffmpeg(url, channel_name):
     """Check if a stream is playable with FFmpeg retries."""
@@ -281,6 +306,9 @@ def main():
 
     # Print summary
     summarize(channels_sorted, start_time)
+    
+    # ✅ Export excluded + whitelisted playlist
+    export_excluded_whitelisted(channels_sorted)
 
 if __name__ == "__main__":
     main()
