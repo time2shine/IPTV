@@ -8133,34 +8133,13 @@
       }
     ]
   },
-  "CR | PTV Sports HD": {
-    "group": "Sports",
-    "tvg_id": "ptvsports.pk",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/PTV_Sports_HD.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-09-03"
-      }
-    ]
-  },
   "CR | Sky Sports Cricket": {
     "group": "Sports",
     "tvg_id": "skysports.cricket",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
     "links": [
       {
-        "url": "https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://tiger-hub.vercel.app/SuperSports-Cricket/tracks-v1a1/mono.m3u8",
+        "url": "",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
