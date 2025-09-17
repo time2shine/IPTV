@@ -237,6 +237,20 @@
       }
     ]
   },
+  "MIXER | DubaiSports 2": {
+    "group": "Sports",
+    "tvg_id": "DubaiSports2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8b/Dubai_Sports_Logo_in_2023.png",
+    "links": [
+      {
+        "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "FB | DubaiSports 3": {
     "group": "Sports",
     "tvg_id": "DubaiSports3",
@@ -1150,6 +1164,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
+        "last_offline": null
+      },
+      {
+        "url": "https://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -9109,6 +9130,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | Sony Sports 3 HD": {
+    "group": "Sports",
+    "tvg_id": "SonySports-3HD",
+    "tvg_logo": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen3_HD.png",
+    "links": [
+      {
+        "url": "http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
