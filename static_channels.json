@@ -300,10 +300,10 @@
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8?ads.rnd=__CACHE_BUSTER__&ads.env_i=__env.i__&ads.env_u=__env.u__&ads.name=DistroTV&ads.bundle=__APP_BUNDLE__&ads.storeurl=__STORE_URL__&ads.appCategory=__APP_CATEGORY__&ads.app_version=__APP_VERSION__&ads.width=__WIDTH__&ads.height=__HEIGHT__&ads.deviceId=__DEVICE_ID__&ads.deviceDNT=__LIMIT_AD_TRACKING__&ads.gdpr=__IS_GDPR__&ads.us_privacy=__IS_CCPA__&ads.aid=__ADVERTISING_ID__&ads.deviceMake=__DEVICE__&ads.deviceIdType=__DEVICE_ID_TYPE__&ads.deviceConnectionType=__DEVICE_CONNECTION_TYPE__&ads.client_ip=__CLIENT_IP__&ads.geo=__GEO_COUNTRY__&ads.lat=__LATITUDE__&ads.long=__LONGITUDE__&ads.dma=__GEO_DMA__&ads.geoType=__GEO_TYPE__&ads.contentid=23014&ads.content_duration=18000&ads.episode_id=76356&ads.show_id=2954&ads.showCategories=IAB1&ads.episodeCategories=IAB1&ads.genre=Entertainment&ads.showRating=TV-PG&ads.episodeRating=TV-PG&ads.language=en&ads.showtitle=Desi%20TV&ads.episodetitle=Desi%20TV&ads.keywords=desi&ads.contenturl=__PAGEURL_ESC__&ads.paln=__PALN__&ads.tagname=dtv",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-19"
       },
       {
         "url": "http://208.86.19.13:81/514.stream/index.m3u8",
@@ -517,10 +517,10 @@
     "links": [
       {
         "url": "https://iptvbd.live/metv1080/1080.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-11",
-        "last_offline": null
+        "last_offline": "2025-09-19"
       }
     ]
   },
@@ -559,10 +559,10 @@
     "links": [
       {
         "url": "http://live.matribhumitv.com/music-bangla/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -699,7 +699,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -3135,10 +3135,10 @@
     "links": [
       {
         "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c799153-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=15376bcb-2b34-4530-a2f7-c528a8eb2aa3",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": null
+        "last_offline": "2025-09-19"
       },
       {
         "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
@@ -3275,10 +3275,10 @@
     "links": [
       {
         "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": "2025-09-17"
+        "last_offline": null
       }
     ]
   },
@@ -3681,7 +3681,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
@@ -3835,10 +3835,10 @@
     "links": [
       {
         "url": "http://user.scalecdn.co:8080/26725074/92867131/2586",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -4066,10 +4066,10 @@
     "links": [
       {
         "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": null
+        "last_offline": "2025-09-19"
       }
     ]
   },
@@ -4269,10 +4269,10 @@
     "links": [
       {
         "url": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -4430,7 +4430,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -5004,10 +5004,10 @@
     "links": [
       {
         "url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -5333,10 +5333,10 @@
     "links": [
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -5802,10 +5802,10 @@
     "links": [
       {
         "url": "http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -6313,10 +6313,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-19"
       }
     ]
   },
@@ -7804,7 +7804,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
@@ -8105,7 +8105,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-10",
         "last_offline": null
@@ -8287,7 +8287,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8336,7 +8336,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8350,7 +8350,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8364,7 +8364,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8392,7 +8392,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8406,7 +8406,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8420,7 +8420,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8434,7 +8434,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8448,7 +8448,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8462,7 +8462,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8476,7 +8476,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8518,7 +8518,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8532,7 +8532,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8546,10 +8546,10 @@
     "links": [
       {
         "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       },
       {
         "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
@@ -8581,7 +8581,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8595,7 +8595,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8672,7 +8672,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8686,7 +8686,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8700,7 +8700,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8728,7 +8728,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8819,7 +8819,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8861,7 +8861,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8875,7 +8875,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -8889,7 +8889,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
@@ -9015,7 +9015,7 @@
     "links": [
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -9036,7 +9036,7 @@
       },
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -9071,7 +9071,7 @@
       },
       {
         "url": "",
-        "status": "online",
+        "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
