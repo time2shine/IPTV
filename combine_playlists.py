@@ -142,7 +142,7 @@ def main():
     print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
 
     # Combine all
-    combined_channels = yt_channels + json_channels + movie_channels
+    combined_channels = json_channels + yt_channels + movie_channels
 
     # Deduplicate by channel name
     unique_by_name = {}
