@@ -40,7 +40,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/b7/Ananda_TV_logo.png",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
@@ -54,11 +54,81 @@
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-13"
+      }
+    ]
+  },
+  "EN | AVA FAMILY": {
+    "group": "Movies",
+    "tvg_id": "AVAFAMILY",
+    "tvg_logo": "https://i.pinimg.com/736x/16/96/5a/16965ad632bc23692c8c1a946bd15f2a.jpg",
+    "links": [
+      {
+        "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Atomic TV (Romania)": {
+    "group": "Music",
+    "tvg_id": "AtomicTV(Romania)",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/81/Atomic_TV_%282022%29.svg",
+    "links": [
+      {
+        "url": "https://atomic.streamnet.ro/atomictv.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | AVA SERIES": {
+    "group": "Movies",
+    "tvg_id": "AVASERIES",
+    "tvg_logo": "https://yt3.googleusercontent.com/8htYIakRJnnyIymW9dKwuwZSYav5YND6wlQlQ-v6NelcyAmpNmOZDFAngGImtaa3O4pAVgMk6w=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Academy TV": {
+    "group": "Music",
+    "tvg_id": "AcademyTV",
+    "tvg_logo": "https://yt3.googleusercontent.com/_IwJvvl4dF9eFwXh4Xv7z9mutXZq6zFxmzIMkcWUopI08EFt1PfkFD36Y08kJKu-uys2m5nr2-s=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://atomic.streamnet.ro/academia.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | Aaj ki Khabar": {
+    "group": "India",
+    "tvg_id": "AajkiKhabar",
+    "tvg_logo": "https://aajkikhabar.com/wp-content/uploads/2025/02/akk-copy-2-e1740663523684.png",
+    "links": [
+      {
+        "url": "https://server.livelegitpro.in/aajkikhabar/aajkikhabar/tracks-v1a1/mono.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -72,6 +142,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -101,6 +178,13 @@
         "last_online": null,
         "first_online": "2025-09-10",
         "last_offline": null
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -124,7 +208,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/08/Boishakhi_TV_HD_logo_2022.png",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-11",
@@ -892,6 +976,13 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1319,6 +1410,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://89.187.189.98/ANIMALPLANETHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1332,6 +1430,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "BBC Earth": {
+    "group": "Educational",
+    "tvg_id": "BBCEarth",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png",
+    "links": [
+      {
+        "url": "http://89.187.189.98/BBCEARTHHD/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2960,6 +3072,20 @@
       }
     ]
   },
+  "EN | AMC Triller": {
+    "group": "Movies",
+    "tvg_id": "AMCTriller",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/AMC_2016.svg",
+    "links": [
+      {
+        "url": "https://436f59579436473e8168284cac5d725f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_RushByAMC/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "AccuWeather NOW": {
     "group": "International News",
     "tvg_id": "AccuWeatherNOW.us",
@@ -2970,6 +3096,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
