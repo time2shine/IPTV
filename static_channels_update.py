@@ -101,64 +101,64 @@ FATAL_PATTERNS = [
 # Your existing lists (preserved)
 # -----------------------------------------------------------------------------
 EXCLUDE_LIST = [
-    "RACING | MTRSPT1",
-    "HINDI | RDC Movies",
-    "HINDI | Shemaroo Bollywood 2",
-    "OTHER | Cowboy Channel",
-    "NEWS | Republic Bharat",
-    "NEWS | Aaj Tak HD",
-    "NEWS | Aaj Tak",
-    "NEWS | India TV",
-    "NEWS | India Today",
-    "NEWS | India Daily 24x7",
-    "NEWS | ARY NEWS",
-    "NEWS | News9Live",
-    "NEWS | CNN News 18",
-    "BD | TBN 24 USA",
-    "HI | Shemaroo Filmigaane",
-    "HI | YRF Music HD",
-    "IN | Republic Bangla",
-    "IN | TV9 Bangla",
-    "CR | Cricket Gold",
-    "Shemaroo Bollywood 2"
-    "AccuWeather NOW",
-    "RT NEWS GLOBAL",
-    "POWERtube TV",
-    "EN | NOW 70s",
-    "Ekushay TV",
-    "TVRI World",
-    "ENT | E 24",
-    "Spacetoon",
-    "Makkah TV",
-    "Sky News",
-    "GB News",
+    # "RACING | MTRSPT1",
+    # "HINDI | RDC Movies",
+    # "HINDI | Shemaroo Bollywood 2",
+    # "OTHER | Cowboy Channel",
+    # "NEWS | Republic Bharat",
+    # "NEWS | Aaj Tak HD",
+    # "NEWS | Aaj Tak",
+    # "NEWS | India TV",
+    # "NEWS | India Today",
+    # "NEWS | India Daily 24x7",
+    # "NEWS | ARY NEWS",
+    # "NEWS | News9Live",
+    # "NEWS | CNN News 18",
+    # "BD | TBN 24 USA",
+    # "HI | Shemaroo Filmigaane",
+    # "HI | YRF Music HD",
+    # "IN | Republic Bangla",
+    # "IN | TV9 Bangla",
+    # "CR | Cricket Gold",
+    # "Shemaroo Bollywood 2"
+    # "AccuWeather NOW",
+    # "RT NEWS GLOBAL",
+    # "POWERtube TV",
+    # "EN | NOW 70s",
+    # "Ekushay TV",
+    # "TVRI World",
+    # "ENT | E 24",
+    # "Spacetoon",
+    # "Makkah TV",
+    # "Sky News",
+    # "GB News",
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
-    "https://lightning-now80s-rakuten.amagi.tv",
-    "http://mdstrm.com/live-stream-playlist",
-    "https://n18syndication.akamaized.net",
-    "https://cdn-apse1-prod.tsv2.amagi.tv",
-    "https://cdn-ue1-prod.tsv2.amagi.tv",
-    "https://sabliveyupp.akamaized.net",
-    "https://vg-theqlive.akamaized.net",
-    "http://stream.pardesitv.online",
-    "https://tiger-hub.vercel.app",
-    "https://cors-proxy.cooks.fyi",
-    "https://amg01448-samsungin",
-    "http://116.90.120.149:8000",
-    "https://live.dinesh29.com",
-    "https://app.hughag.store",
-    "https://mtv.sunplex.live",
-    "https://cdn-4.pishow.tv",
-    "http://mtv.sunplex.live",
-    "http://208.86.19.13:81",
-    "http://38.143.48.212",
-    "https://epg.provider",
-    "http://41.205.93.154",
-    "http://filex.tv:8080",
-    "https://amg",
+    # "https://lightning-now80s-rakuten.amagi.tv",
+    # "http://mdstrm.com/live-stream-playlist",
+    # "https://n18syndication.akamaized.net",
+    # "https://cdn-apse1-prod.tsv2.amagi.tv",
+    # "https://cdn-ue1-prod.tsv2.amagi.tv",
+    # "https://sabliveyupp.akamaized.net",
+    # "https://vg-theqlive.akamaized.net",
+    # "http://stream.pardesitv.online",
+    # "https://tiger-hub.vercel.app",
+    # "https://cors-proxy.cooks.fyi",
+    # "https://amg01448-samsungin",
+    # "http://116.90.120.149:8000",
+    # "https://live.dinesh29.com",
+    # "https://app.hughag.store",
+    # "https://mtv.sunplex.live",
+    # "https://cdn-4.pishow.tv",
+    # "http://mtv.sunplex.live",
+    # "http://208.86.19.13:81",
+    # "http://38.143.48.212",
+    # "https://epg.provider",
+    # "http://41.205.93.154",
+    # "http://filex.tv:8080",
+    # "https://amg",
 ]
 
 # -----------------------------------------------------------------------------
@@ -354,7 +354,7 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
 
     # After retries, give MPV one last shot
     ok, note = mpv_check(final_url, cookies)
-    return ("online" if ok else "offline"), float(FFMPEG_TEST_DURATION), note or last_stderr
+    return ("mpv_online" if ok else "mpv_online"), float(FFMPEG_TEST_DURATION), note or last_stderr
 
 # -----------------------------------------------------------------------------
 # File outputs preserved from your script
@@ -411,10 +411,10 @@ def update_status_parallel(channels: Dict[str, Dict]):
 
         status, dur, note = ffmpeg_check(url)
         if status in ("online", "slow", "mpv_online"):
-            print(f"[ONLINE] {channel_name} ({status}) {dur:.1f}s -> {url}")
+            print(f"🟢 {channel_name} ({status}) {dur:.1f}s -> {url}")
             return url, "online", status
         else:
-            print(f"[OFFLINE] {channel_name} ({status}) -> {url}")
+            print(f"🔴 {channel_name} -> {url}")
             return url, "offline", status
 
     # Ensure structure is sane and collect futures
