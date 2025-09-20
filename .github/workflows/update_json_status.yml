@@ -9,6 +9,9 @@ on:
 jobs:
   update-channels:
     runs-on: ubuntu-latest
+    
+    env:
+      MPV_PATH: mpv
 
     steps:
       - name: Checkout repository
@@ -23,6 +26,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests
+
+      - name: Install mpv (headless-friendly)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mpv
+          which mpv
+          mpv --version
           
       - name: Setup fast static FFmpeg
         run: |
