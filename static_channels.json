@@ -13,34 +13,6 @@
       }
     ]
   },
-  "HR | CMC TV": {
-    "group": "Music",
-    "tvg_id": "CMCTV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d0/CMC_TV.svg",
-    "links": [
-      {
-        "url": "https://stream.cmctv.hr:49998/cmc/live.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | CINE LIFE": {
-    "group": "Movies",
-    "tvg_id": "CINELIFE",
-    "tvg_logo": "https://winterfilmawards.com/wp-content/uploads/2021/03/CineLife-web.jpg",
-    "links": [
-      {
-        "url": "https://magnoliaa-cinelife-oando-n6z8u.amagi.tv/playlist/magnoliaA-cinelife-oando/cb54381b6573678e84cb3e63cef343a0f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7450db80148b61299bce8c37683f03409a5e5afba358b1ebe65a45df3ea7b61c55932f17e49f43c8814aa6d1d25e9e5e8427f54295c6f1d8db118682f3db986d965c9ccc0b07fba25dd1a37fb7d49d653898743b4e6c3a8cc1b2cd3ef702da21269cded8b6648578a630eea912529f0899448572fd0311a796932f83d7d5fb4a4032a5847f6831a9f6a985f5775cd5dc55939bbf222fe393307046c26c9244415cc1ad9b44d6837d92c7f643adce54e297b13cd56d721bbe4abb6ad64febd4fd99726646620f03bc90c3f062f626c771a4c2126e090314edd262cd88dd5127710fa8b41e854355e980cbb4d6006d9e3b5b42be34901b247cdc38694be02fd2932823dc755dcb666bbb101ea876d19460b5abd2ee037b92dbc449f026af9602c0f90fac226d0b50fda2620f0b1c3de3ef600c22708c10b78484b2217b75869dfaf7ce5737102a57035cf985c944dbdf90674d6c823940477b1f109a01ac19fc085b0f23cc5e9eec3e7d8b022e3af5e558795f7f9ddcbe918db49b14ad1e33ae47dad1ed3f4d73a37a655f2ae872ed1e286c5e6120/10/1920x1080_5058864/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -69,7 +41,7 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
         "last_offline": "2025-09-13"
@@ -83,80 +55,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-13"
-      }
-    ]
-  },
-  "EN | AVA FAMILY": {
-    "group": "Movies",
-    "tvg_id": "AVAFAMILY",
-    "tvg_logo": "https://i.pinimg.com/736x/16/96/5a/16965ad632bc23692c8c1a946bd15f2a.jpg",
-    "links": [
-      {
-        "url": "https://familyhls.avatv.live/hls/stream.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | Atomic TV (Romania)": {
-    "group": "Music",
-    "tvg_id": "AtomicTV(Romania)",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/81/Atomic_TV_%282022%29.svg",
-    "links": [
-      {
-        "url": "https://atomic.streamnet.ro/atomictv.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | AVA SERIES": {
-    "group": "Movies",
-    "tvg_id": "AVASERIES",
-    "tvg_logo": "https://yt3.googleusercontent.com/8htYIakRJnnyIymW9dKwuwZSYav5YND6wlQlQ-v6NelcyAmpNmOZDFAngGImtaa3O4pAVgMk6w=s72-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Academy TV": {
-    "group": "Music",
-    "tvg_id": "AcademyTV",
-    "tvg_logo": "https://yt3.googleusercontent.com/_IwJvvl4dF9eFwXh4Xv7z9mutXZq6zFxmzIMkcWUopI08EFt1PfkFD36Y08kJKu-uys2m5nr2-s=s72-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://atomic.streamnet.ro/academia.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "NEWS | Aaj ki Khabar": {
-    "group": "India",
-    "tvg_id": "AajkiKhabar",
-    "tvg_logo": "https://aajkikhabar.com/wp-content/uploads/2025/02/akk-copy-2-e1740663523684.png",
-    "links": [
-      {
-        "url": "https://server.livelegitpro.in/aajkikhabar/aajkikhabar/tracks-v1a1/mono.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
       }
     ]
   },
@@ -174,10 +76,10 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -188,10 +90,10 @@
     "links": [
       {
         "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -209,10 +111,10 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -237,7 +139,7 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-13"
@@ -307,10 +209,10 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -370,9 +272,9 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/37/master.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -405,10 +307,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -419,9 +321,9 @@
     "links": [
       {
         "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -475,37 +377,9 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | FX 1 Movies": {
-    "group": "Movies",
-    "tvg_id": "FX 1",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/FX_Logo_2023.svg/1200px-FX_Logo_2023.svg.png",
-    "links": [
-      {
-        "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | FEVAMusic": {
-    "group": "Music",
-    "tvg_id": "FEVAMusic",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/FEVA_TV_logo.png/250px-FEVA_TV_logo.png",
-    "links": [
-      {
-        "url": "https://dmecgxuzr2ywk.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/417.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -587,52 +461,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Home+": {
-    "group": "Movie",
-    "tvg_id": "Home+",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Home_red.svg",
-    "links": [
-      {
-        "url": "https://homeplushls.wns.live/hls/stream.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "KR | KMovies": {
-    "group": "Movies",
-    "tvg_id": "KMovies",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "HGTV": {
-    "group": "Educational",
-    "tvg_id": "HGTV",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/71/Home_%26_Garden_Television.svg",
-    "links": [
-      {
-        "url": "https://mediapackage-hgtv-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -727,10 +559,10 @@
     "links": [
       {
         "url": "https://iptvbd.live/metv1080/1080.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
-        "last_offline": "2025-09-19"
+        "last_offline": null
       }
     ]
   },
@@ -825,10 +657,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -895,10 +727,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -932,35 +764,7 @@
         "url": "http://live.dataplayer.in:8080/live/rmmeghnatv.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | SUPER TV Media": {
-    "group": "Music",
-    "tvg_id": "SUPERTVMedia",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Super_TV_logo.png",
-    "links": [
-      {
-        "url": "https://mirtv.club/live/mirtv/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Safari TV Tamil": {
-    "group": "Educational",
-    "tvg_id": "Safari TV",
-    "tvg_logo": "https://www.news.keralatv.in/media/2018/11/Safari-Television-Added-on-Sun-Direct-692x376.jpg",
-    "links": [
-      {
-        "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -1063,10 +867,10 @@
       },
       {
         "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -1147,10 +951,10 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -1231,7 +1035,7 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": "2025-09-13"
@@ -1280,10 +1084,10 @@
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/news24local.stream/playlist.m3u8",
-        "status": "missing",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -1322,10 +1126,10 @@
       },
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -1476,20 +1280,6 @@
       }
     ]
   },
-  "EN | Rock&Roll": {
-    "group": "Music",
-    "tvg_id": "Rock&Roll",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://muzzik-live.morescreens.com/mts-1/576p/chunklist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "IN | Republic Bangla": {
     "group": "Bangla News",
     "tvg_id": "RepublicBangla.in",
@@ -1499,7 +1289,7 @@
         "url": "https://vg-republictvyupp.akamaized.net/ptnr-yuppt/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-613605/93d674ab-f7a0-404e-88b2-b4f163373dbe/0.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       },
       {
@@ -1553,9 +1343,9 @@
       },
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       },
       {
@@ -1574,65 +1364,16 @@
       }
     ]
   },
-  "EN | V2BEAT": {
-    "group": "Music",
-    "tvg_id": "V2BEAT",
+  "IN | Zillar Barta": {
+    "group": "Bangla News",
+    "tvg_id": "Zillar Barta",
     "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
     "links": [
       {
-        "url": "https://de1se01.v2beat.live/playlist.m3u8",
-        "status": "mpv_good",
+        "url": "https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      },
-      {
-        "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "LT | Trace Latino": {
-    "group": "Music",
-    "tvg_id": "TraceLatino",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "TR | Top TV": {
-    "group": "Music",
-    "tvg_id": "TopTV",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "http://74.208.199.212:8081/TopTV/live/chunks.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Connecting America": {
-    "group": "International News",
-    "tvg_id": "ConnectingAmerica",
-    "tvg_logo": "https://yt3.googleusercontent.com/66gxol1mzEksrTJBYWD0dfPLqxrcN7n92CDVDzBiY_7fWD7afr4HPjKGp7ls1KgY5MECkEDt_g=s72-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -1681,7 +1422,7 @@
         "url": "http://89.187.189.98/ANIMALPLANETHD/index.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -1707,9 +1448,9 @@
     "links": [
       {
         "url": "http://89.187.189.98/BBCEARTHHD/index.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -1833,6 +1574,20 @@
       }
     ]
   },
+  "HGTV": {
+    "group": "Educational",
+    "tvg_id": "HGTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/71/Home_%26_Garden_Television.svg",
+    "links": [
+      {
+        "url": "https://mediapackage-hgtv-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "Investigation Discovery": {
     "group": "Educational",
     "tvg_id": "InvestigationDiscovery",
@@ -1840,10 +1595,10 @@
     "links": [
       {
         "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/40689.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -1875,6 +1630,20 @@
       }
     ]
   },
+  "NAT GEO HD Hindi": {
+    "group": "Educational",
+    "tvg_id": "NATGEOHD",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png",
+    "links": [
+      {
+        "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/3684.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "NAT GEO HD Tamil": {
     "group": "Educational",
     "tvg_id": "NATIONALGEOGRAPHIC",
@@ -1889,16 +1658,16 @@
       }
     ]
   },
-  "NAT GEO HD Hindi": {
+  "Safari TV Tamil": {
     "group": "Educational",
-    "tvg_id": "NATGEOHD",
-    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png",
+    "tvg_id": "Safari TV",
+    "tvg_logo": "https://www.news.keralatv.in/media/2018/11/Safari-Television-Added-on-Sun-Direct-692x376.jpg",
     "links": [
       {
-        "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/3684.ts",
+        "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
         "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -1917,6 +1686,76 @@
       }
     ]
   },
+  "WB TV Deadliest Catch": {
+    "group": "Educational",
+    "tvg_id": "Warner Bros TV Deadliest Catch",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mediapackage-azf2-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "WB TV House Hunters": {
+    "group": "Educational",
+    "tvg_id": "Warner Bros TV House Hunters",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mediapackage-azf6-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "WB TV Motorheads": {
+    "group": "Educational",
+    "tvg_id": "Warner Bros TV Motorheads",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mediapackage-azf1-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "WB TV Paranormal": {
+    "group": "Educational",
+    "tvg_id": "Warner Bros TV Paranormal",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mediapackage-azf5-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "WB TV True Crime": {
+    "group": "Educational",
+    "tvg_id": "Warner Bros TV True Crime",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mediapackage-azf4-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "Weather Spy": {
     "group": "Educational",
     "tvg_id": "WeatherSpy",
@@ -1931,135 +1770,9 @@
       },
       {
         "url": "https://beaece44.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1dlYXRoZXJTcHlfSExT/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | XITE 80s Flashback": {
-    "group": "Music",
-    "tvg_id": "XITE 80s Flashback",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | XITE 90s Throwback": {
-    "group": "Music",
-    "tvg_id": "XITE 90s Throwback",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb3200007ak-prod/amg90rock/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | XITE Just Chill": {
-    "group": "Music",
-    "tvg_id": "XITE Just Chill",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "YAHOO FINANCE": {
-    "group": "International News",
-    "tvg_id": "YAHOOFINANCE",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "HINDI | Zee Amol Cinema": {
-    "group": "Movies",
-    "tvg_id": "Zee Amol Cinema",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/chunklist_w1694401036.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Zainabia Channel": {
-    "group": "Religious",
-    "tvg_id": "ZainabiaChannel",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | ZZ TV": {
-    "group": "Music",
-    "tvg_id": "ZZ TV",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://muzzik-live.morescreens.com/mts-a4/576p/chunklist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "YAHOO NEWS": {
-    "group": "International News",
-    "tvg_id": "YAHOO NEWS",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | XITE Rock On": {
-    "group": "Music",
-    "tvg_id": "XITE Rock On",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -2183,9 +1896,9 @@
       },
       {
         "url": "http://195.181.169.162/COLORS_HD/index.m3u8?token=test",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -2337,6 +2050,20 @@
       }
     ]
   },
+  "ENT | Sony Entertainment HD": {
+    "group": "India",
+    "tvg_id": "SonyEntertainmentHD",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SET_India_logo.svg/1200px-SET_India_logo.svg.png",
+    "links": [
+      {
+        "url": "http://195.181.169.162/SONY_HD/index.m3u8?token=test",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | SONY SAB HD": {
     "group": "India",
     "tvg_id": "sonysabhd.in",
@@ -2393,10 +2120,10 @@
       },
       {
         "url": "http://103.182.170.32:8888/play/a03o",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": "2025-09-19"
+        "last_offline": null
       }
     ]
   },
@@ -2421,23 +2148,9 @@
     "links": [
       {
         "url": "http://195.181.169.162/ZEE_TV_HD/index.m3u8?token=test",
-        "status": "missing",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
-      }
-    ]
-  },
-  "IN | Zillar Barta": {
-    "group": "Bangla News",
-    "tvg_id": "Zillar Barta",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2449,9 +2162,23 @@
     "links": [
       {
         "url": "https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-16",
+        "last_offline": "2025-09-20"
+      }
+    ]
+  },
+  "NEWS | Aaj ki Khabar": {
+    "group": "India",
+    "tvg_id": "AajkiKhabar",
+    "tvg_logo": "https://aajkikhabar.com/wp-content/uploads/2025/02/akk-copy-2-e1740663523684.png",
+    "links": [
+      {
+        "url": "https://server.livelegitpro.in/aajkikhabar/aajkikhabar/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -3289,10 +3016,10 @@
     "links": [
       {
         "url": "https://i.mjh.nz/.r/discovery-ptgn.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
-        "last_offline": "2025-09-19"
+        "last_offline": null
       }
     ]
   },
@@ -3506,20 +3233,6 @@
       }
     ]
   },
-  "EN | AMC Triller": {
-    "group": "Movies",
-    "tvg_id": "AMCTriller",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/AMC_2016.svg",
-    "links": [
-      {
-        "url": "https://436f59579436473e8168284cac5d725f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_RushByAMC/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "AccuWeather NOW": {
     "group": "International News",
     "tvg_id": "AccuWeatherNOW.us",
@@ -3534,9 +3247,9 @@
       },
       {
         "url": "https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -3695,10 +3408,10 @@
     "links": [
       {
         "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c799153-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=15376bcb-2b34-4530-a2f7-c528a8eb2aa3",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       },
       {
         "url": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
@@ -3800,9 +3513,9 @@
     "links": [
       {
         "url": "https://mediapackage-ptcn-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       },
       {
@@ -3814,16 +3527,16 @@
       }
     ]
   },
-  "EN | California Music Channel": {
-    "group": "Music",
-    "tvg_id": "CaliforniaMusicChannel",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3a/CMC_logo.png",
+  "Connecting America": {
+    "group": "International News",
+    "tvg_id": "ConnectingAmerica",
+    "tvg_logo": "https://yt3.googleusercontent.com/66gxol1mzEksrTJBYWD0dfPLqxrcN7n92CDVDzBiY_7fWD7afr4HPjKGp7ls1KgY5MECkEDt_g=s72-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "https://cmc-ono.amagi.tv/playlist.m3u8",
-        "status": "mpv_good",
+        "url": "https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -3856,10 +3569,10 @@
     "links": [
       {
         "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -3919,9 +3632,9 @@
       },
       {
         "url": "http://iptv.prosto.tv:7000/ch205/video.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -4083,6 +3796,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "YAHOO FINANCE": {
+    "group": "International News",
+    "tvg_id": "YAHOOFINANCE",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "YAHOO NEWS": {
+    "group": "International News",
+    "tvg_id": "YAHOO NEWS",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -4283,10 +4024,10 @@
     "links": [
       {
         "url": "https://a1xs.vip/1000050",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -4325,10 +4066,10 @@
     "links": [
       {
         "url": "http://kstv.us:8080/live/Purn3542/38791114838/40725.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       },
       {
         "url": "https://fl5.moveonjoy.com/DISNEY/index.m3u8",
@@ -4479,7 +4220,7 @@
     "links": [
       {
         "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
-        "status": "missing",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
@@ -4605,10 +4346,10 @@
     "links": [
       {
         "url": "http://zorrohunter.com:80/live/WeaponX/Dawkins22/48753.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -4682,10 +4423,10 @@
     "links": [
       {
         "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -4710,10 +4451,10 @@
     "links": [
       {
         "url": "https://a1xs.vip/100054",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-06",
         "first_online": "2025-09-06",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -4941,10 +4682,10 @@
     "links": [
       {
         "url": "https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-19"
+        "last_offline": null
       }
     ]
   },
@@ -5007,6 +4748,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Home+": {
+    "group": "Movie",
+    "tvg_id": "Home+",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Home_red.svg",
+    "links": [
+      {
+        "url": "https://homeplushls.wns.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -5074,10 +4829,10 @@
     "links": [
       {
         "url": "http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -5207,6 +4962,20 @@
       }
     ]
   },
+  "EN | AMC Triller": {
+    "group": "Movies",
+    "tvg_id": "AMCTriller",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/36/AMC_2016.svg",
+    "links": [
+      {
+        "url": "https://436f59579436473e8168284cac5d725f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_RushByAMC/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | AMG TV (Classic)": {
     "group": "Movies",
     "tvg_id": "amgtv.us",
@@ -5228,6 +4997,34 @@
       }
     ]
   },
+  "EN | AVA FAMILY": {
+    "group": "Movies",
+    "tvg_id": "AVAFAMILY",
+    "tvg_logo": "https://i.pinimg.com/736x/16/96/5a/16965ad632bc23692c8c1a946bd15f2a.jpg",
+    "links": [
+      {
+        "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | AVA SERIES": {
+    "group": "Movies",
+    "tvg_id": "AVASERIES",
+    "tvg_logo": "https://yt3.googleusercontent.com/8htYIakRJnnyIymW9dKwuwZSYav5YND6wlQlQ-v6NelcyAmpNmOZDFAngGImtaa3O4pAVgMk6w=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Bang Bang TV": {
     "group": "Movies",
     "tvg_id": "BangBangTV",
@@ -5239,6 +5036,20 @@
         "last_online": null,
         "first_online": "2025-09-14",
         "last_offline": null
+      }
+    ]
+  },
+  "EN | CINE LIFE": {
+    "group": "Movies",
+    "tvg_id": "CINELIFE",
+    "tvg_logo": "https://winterfilmawards.com/wp-content/uploads/2021/03/CineLife-web.jpg",
+    "links": [
+      {
+        "url": "https://magnoliaa-cinelife-oando-n6z8u.amagi.tv/playlist/magnoliaA-cinelife-oando/cb54381b6573678e84cb3e63cef343a0f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7450db80148b61299bce8c37683f03409a5e5afba358b1ebe65a45df3ea7b61c55932f17e49f43c8814aa6d1d25e9e5e8427f54295c6f1d8db118682f3db986d965c9ccc0b07fba25dd1a37fb7d49d653898743b4e6c3a8cc1b2cd3ef702da21269cded8b6648578a630eea912529f0899448572fd0311a796932f83d7d5fb4a4032a5847f6831a9f6a985f5775cd5dc55939bbf222fe393307046c26c9244415cc1ad9b44d6837d92c7f643adce54e297b13cd56d721bbe4abb6ad64febd4fd99726646620f03bc90c3f062f626c771a4c2126e090314edd262cd88dd5127710fa8b41e854355e980cbb4d6006d9e3b5b42be34901b247cdc38694be02fd2932823dc755dcb666bbb101ea876d19460b5abd2ee037b92dbc449f026af9602c0f90fac226d0b50fda2620f0b1c3de3ef600c22708c10b78484b2217b75869dfaf7ce5737102a57035cf985c944dbdf90674d6c823940477b1f109a01ac19fc085b0f23cc5e9eec3e7d8b022e3af5e558795f7f9ddcbe918db49b14ad1e33ae47dad1ed3f4d73a37a655f2ae872ed1e286c5e6120/10/1920x1080_5058864/index.m3u8",
+        "status": "offline",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -5308,6 +5119,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | FX 1 Movies": {
+    "group": "Movies",
+    "tvg_id": "FX 1",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/FX_Logo_2023.svg/1200px-FX_Logo_2023.svg.png",
+    "links": [
+      {
+        "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -5473,6 +5298,20 @@
       }
     ]
   },
+  "EN | MovieSphere": {
+    "group": "Movies",
+    "tvg_id": "MovieSphere",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/MovieSphere_2022_logo.svg",
+    "links": [
+      {
+        "url": "https://mediapackage-ms-source.fullscreen.nz/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | MovieSphere UK": {
     "group": "Movies",
     "tvg_id": "MovieSphereUK",
@@ -5497,6 +5336,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Mytime Movie": {
+    "group": "Movies",
+    "tvg_id": "MytimeMovie",
+    "tvg_logo": "https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png",
+    "links": [
+      {
+        "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -5540,6 +5393,20 @@
         "last_online": null,
         "first_online": "2025-09-10",
         "last_offline": "2025-09-14"
+      }
+    ]
+  },
+  "EN | Star Movies HD": {
+    "group": "Movies",
+    "tvg_id": "StarMoviesHD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/Star_Movies_HD_India.png",
+    "links": [
+      {
+        "url": "http://89.187.189.98/STARMOVIESHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
       }
     ]
   },
@@ -5900,6 +5767,20 @@
       }
     ]
   },
+  "HINDI | Zee Amol Cinema": {
+    "group": "Movies",
+    "tvg_id": "Zee Amol Cinema",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/chunklist_w1694401036.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "HINDI | ZEE BOLLYWOOD": {
     "group": "Movies",
     "tvg_id": "ZEEBOLLYWOOD",
@@ -5928,9 +5809,23 @@
       },
       {
         "url": "http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "KR | KMovies": {
+    "group": "Movies",
+    "tvg_id": "KMovies",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -6044,6 +5939,20 @@
         "last_online": null,
         "first_online": null,
         "last_offline": "2025-09-03"
+      }
+    ]
+  },
+  "EN | Movies Now": {
+    "group": "Mpvies",
+    "tvg_id": "MoviesNow",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Movies_Now_HD.jpg",
+    "links": [
+      {
+        "url": "http://89.187.189.98/MOVIESNOWHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
       }
     ]
   },
@@ -6243,9 +6152,9 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -6299,6 +6208,34 @@
       }
     ]
   },
+  "EN | Academy TV": {
+    "group": "Music",
+    "tvg_id": "AcademyTV",
+    "tvg_logo": "https://yt3.googleusercontent.com/_IwJvvl4dF9eFwXh4Xv7z9mutXZq6zFxmzIMkcWUopI08EFt1PfkFD36Y08kJKu-uys2m5nr2-s=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://atomic.streamnet.ro/academia.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | California Music Channel": {
+    "group": "Music",
+    "tvg_id": "CaliforniaMusicChannel",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3a/CMC_logo.png",
+    "links": [
+      {
+        "url": "https://cmc-ono.amagi.tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | ELECTRO": {
     "group": "Music",
     "tvg_id": "ELECTRO",
@@ -6309,6 +6246,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | FEVAMusic": {
+    "group": "Music",
+    "tvg_id": "FEVAMusic",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/FEVA_TV_logo.png/250px-FEVA_TV_logo.png",
+    "links": [
+      {
+        "url": "https://dmecgxuzr2ywk.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/417.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -6369,10 +6320,10 @@
     "links": [
       {
         "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -6390,48 +6341,6 @@
       }
     ]
   },
-  "EN | Mytime Movie": {
-    "group": "Movies",
-    "tvg_id": "MytimeMovie",
-    "tvg_logo": "https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png",
-    "links": [
-      {
-        "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Movies Now": {
-    "group": "Mpvies",
-    "tvg_id": "MoviesNow",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Movies_Now_HD.jpg",
-    "links": [
-      {
-        "url": "http://89.187.189.98/MOVIESNOWHD/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | MovieSphere": {
-    "group": "Movies",
-    "tvg_id": "MovieSphere",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/MovieSphere_2022_logo.svg",
-    "links": [
-      {
-        "url": "https://mediapackage-ms-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "EN | Moba": {
     "group": "Music",
     "tvg_id": "Moba",
@@ -6439,9 +6348,9 @@
     "links": [
       {
         "url": "https://muzzik-live.morescreens.com/mts-2/576p/chunklist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -6551,10 +6460,10 @@
     "links": [
       {
         "url": "https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-20"
       }
     ]
   },
@@ -6600,6 +6509,20 @@
       }
     ]
   },
+  "EN | Rock&Roll": {
+    "group": "Music",
+    "tvg_id": "Rock&Roll",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-1/576p/chunklist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Rockola Television": {
     "group": "Music",
     "tvg_id": "RockolaTelevision",
@@ -6624,6 +6547,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-14",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | SUPER TV Media": {
+    "group": "Music",
+    "tvg_id": "SUPERTVMedia",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Super_TV_logo.png",
+    "links": [
+      {
+        "url": "https://mirtv.club/live/mirtv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -6698,6 +6635,27 @@
       }
     ]
   },
+  "EN | V2BEAT": {
+    "group": "Music",
+    "tvg_id": "V2BEAT",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://de1se01.v2beat.live/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      },
+      {
+        "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | V2Beat": {
     "group": "Music",
     "tvg_id": "V2Beat",
@@ -6726,6 +6684,20 @@
       }
     ]
   },
+  "EN | Vevo 2K": {
+    "group": "Music",
+    "tvg_id": "Vevo 2K",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8clivestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Vevo Pop": {
     "group": "Music",
     "tvg_id": "Vevo Pop",
@@ -6736,104 +6708,6 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
-        "last_offline": null
-      }
-    ]
-  },
-  "WB TV Deadliest Catch": {
-    "group": "Educational",
-    "tvg_id": "Warner Bros TV Deadliest Catch",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://mediapackage-azf2-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "WB TV House Hunters": {
-    "group": "Educational",
-    "tvg_id": "Warner Bros TV House Hunters",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://mediapackage-azf6-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "WB TV Motorheads": {
-    "group": "Educational",
-    "tvg_id": "Warner Bros TV Motorheads",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://mediapackage-azf1-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "WB TV Paranormal": {
-    "group": "Educational",
-    "tvg_id": "Warner Bros TV Paranormal",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://mediapackage-azf5-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "WB TV True Crime": {
-    "group": "Educational",
-    "tvg_id": "Warner Bros TV True Crime",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://mediapackage-azf4-source.fullscreen.nz/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "OTHER | WORLD WIDE MUZZIK": {
-    "group": "Music",
-    "tvg_id": "WORLDWIDEMUZZIK",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "https://muzzik-live.morescreens.com/mts-5/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "EN | Vevo 2K": {
-    "group": "Music",
-    "tvg_id": "Vevo 2K",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
-    "links": [
-      {
-        "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8clivestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -6852,6 +6726,34 @@
       }
     ]
   },
+  "EN | XITE 80s Flashback": {
+    "group": "Music",
+    "tvg_id": "XITE 80s Flashback",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | XITE 90s Throwback": {
+    "group": "Music",
+    "tvg_id": "XITE 90s Throwback",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb3200007ak-prod/amg90rock/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | XITE Hits": {
     "group": "Music",
     "tvg_id": "XITEHits",
@@ -6866,6 +6768,20 @@
       }
     ]
   },
+  "EN | XITE Just Chill": {
+    "group": "Music",
+    "tvg_id": "XITE Just Chill",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=1YNY&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | XITE Rock On": {
     "group": "Music",
     "tvg_id": "XITERockOn",
@@ -6876,6 +6792,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | ZZ TV": {
+    "group": "Music",
+    "tvg_id": "ZZ TV",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-a4/576p/chunklist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -7076,10 +7006,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -7384,6 +7314,34 @@
       }
     ]
   },
+  "HR | CMC TV": {
+    "group": "Music",
+    "tvg_id": "CMCTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d0/CMC_TV.svg",
+    "links": [
+      {
+        "url": "https://stream.cmctv.hr:49998/cmc/live.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
+  "LT | Trace Latino": {
+    "group": "Music",
+    "tvg_id": "TraceLatino",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "OTHER | 1Mus": {
     "group": "Music",
     "tvg_id": "1Mus",
@@ -7450,6 +7408,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | Atomic TV (Romania)": {
+    "group": "Music",
+    "tvg_id": "AtomicTV(Romania)",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/81/Atomic_TV_%282022%29.svg",
+    "links": [
+      {
+        "url": "https://atomic.streamnet.ro/atomictv.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -7650,6 +7622,20 @@
       }
     ]
   },
+  "OTHER | WORLD WIDE MUZZIK": {
+    "group": "Music",
+    "tvg_id": "WORLDWIDEMUZZIK",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-5/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "RU | RU.TV": {
     "group": "Music",
     "tvg_id": "RU.TV",
@@ -7674,6 +7660,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "TR | Top TV": {
+    "group": "Music",
+    "tvg_id": "TopTV",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "http://74.208.199.212:8081/TopTV/live/chunks.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
         "last_offline": null
       }
     ]
@@ -8497,6 +8497,20 @@
       }
     ]
   },
+  "Zainabia Channel": {
+    "group": "Religious",
+    "tvg_id": "ZainabiaChannel",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-20",
+        "last_offline": null
+      }
+    ]
+  },
   "--Live(A Sports)--": {
     "group": "Sports",
     "tvg_id": "live",
@@ -8515,34 +8529,6 @@
         "last_online": null,
         "first_online": "2025-09-08",
         "last_offline": "2025-09-18"
-      }
-    ]
-  },
-  "--Live(Star Sports 1 HD)--": {
-    "group": "Sports",
-    "tvg_id": "starsports1hd.in",
-    "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
-    "links": [
-      {
-        "url": "http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts",
-        "status": "offline",
-        "last_online": null,
-        "first_online": "2025-09-12",
-        "last_offline": "2025-09-18"
-      },
-      {
-        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
       }
     ]
   },
@@ -8644,6 +8630,34 @@
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Star Sports 1 HD)--": {
+    "group": "Sports",
+    "tvg_id": "starsports1hd.in",
+    "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
+    "links": [
+      {
+        "url": "http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts",
+        "status": "offline",
+        "last_online": null,
+        "first_online": "2025-09-12",
+        "last_offline": "2025-09-18"
+      },
+      {
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -8861,34 +8875,6 @@
       }
     ]
   },
-  "EN | Star Movies HD": {
-    "group": "Movies",
-    "tvg_id": "StarMoviesHD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/Star_Movies_HD_India.png",
-    "links": [
-      {
-        "url": "http://89.187.189.98/STARMOVIESHD/index.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "ENT | Sony Entertainment HD": {
-    "group": "India",
-    "tvg_id": "SonyEntertainmentHD",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SET_India_logo.svg/1200px-SET_India_logo.svg.png",
-    "links": [
-      {
-        "url": "http://195.181.169.162/SONY_HD/index.m3u8?token=test",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "CR | Sony Sports 3 HD": {
     "group": "Sports",
     "tvg_id": "SonySports-3HD",
@@ -8896,10 +8882,10 @@
     "links": [
       {
         "url": "http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-17",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -9330,10 +9316,10 @@
       },
       {
         "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-18"
+        "last_offline": null
       }
     ]
   },
@@ -9434,7 +9420,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0f/DAZN_3_2024.svg",
     "links": [
       {
-        "url": "https://kusnadipepenk.github.io/ntn/elesp3.m3u8",
+        "url": "",
         "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -9596,7 +9582,7 @@
     "links": [
       {
         "url": "http://41.205.93.154/ESPN/index.m3u8",
-        "status": "missing",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
