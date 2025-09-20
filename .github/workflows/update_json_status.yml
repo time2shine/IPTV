@@ -65,7 +65,7 @@ jobs:
         if: steps.ffmpeg-cache.outputs.cache-hit != 'true'
         run: |
           curl -fL --retry 3 -o ffmpeg.tar.xz \
-            https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-02-29-12-00/ffmpeg-n6.1.1-linux64-gpl-6.1.tar.xz
+            https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
           mkdir -p "$FFMPEG_DIR"
           tar -xf ffmpeg.tar.xz --strip-components=1 -C "$FFMPEG_DIR"
 
