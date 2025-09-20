@@ -472,6 +472,41 @@
         "last_online": null,
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | FX 1 Movies": {
+    "group": "Movies",
+    "tvg_id": "FX 1",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/FX_Logo_2023.svg/1200px-FX_Logo_2023.svg.png",
+    "links": [
+      {
+        "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | FEVAMusic": {
+    "group": "Music",
+    "tvg_id": "FEVAMusic",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/FEVA_TV_logo.png/250px-FEVA_TV_logo.png",
+    "links": [
+      {
+        "url": "https://dmecgxuzr2ywk.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/417.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -551,10 +586,52 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Home+": {
+    "group": "Movie",
+    "tvg_id": "Home+",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Home_red.svg",
+    "links": [
+      {
+        "url": "https://homeplushls.wns.live/hls/stream.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "KR | KMovies": {
+    "group": "Movies",
+    "tvg_id": "KMovies",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HGTV": {
+    "group": "Educational",
+    "tvg_id": "HGTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/71/Home_%26_Garden_Television.svg",
+    "links": [
+      {
+        "url": "https://mediapackage-hgtv-source.fullscreen.nz/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -747,7 +824,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/0b/Nexus_Television_HD_logo.png",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
@@ -817,7 +894,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4e/Rtv_bangladesh.svg",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
@@ -849,6 +926,41 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
+        "url": "http://live.dataplayer.in:8080/live/rmmeghnatv.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | SUPER TV Media": {
+    "group": "Music",
+    "tvg_id": "SUPERTVMedia",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Super_TV_logo.png",
+    "links": [
+      {
+        "url": "https://mirtv.club/live/mirtv/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Safari TV Tamil": {
+    "group": "Educational",
+    "tvg_id": "Safari TV",
+    "tvg_logo": "https://www.news.keralatv.in/media/2018/11/Safari-Television-Added-on-Sun-Direct-692x376.jpg",
+    "links": [
+      {
+        "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1167,7 +1279,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/news24local.stream/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
@@ -1206,6 +1318,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1357,11 +1476,32 @@
       }
     ]
   },
+  "EN | Rock&Roll": {
+    "group": "Music",
+    "tvg_id": "Rock&Roll",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-1/576p/chunklist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "IN | Republic Bangla": {
     "group": "Bangla News",
     "tvg_id": "RepublicBangla.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
     "links": [
+      {
+        "url": "https://vg-republictvyupp.akamaized.net/ptnr-yuppt/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-613605/93d674ab-f7a0-404e-88b2-b4f163373dbe/0.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8",
         "status": "online",
@@ -1665,7 +1805,7 @@
       }
     ]
   },
-  "NATIONAL GEOGRAPHIC HD": {
+  "NAT GEO HD Tamil": {
     "group": "Educational",
     "tvg_id": "NATIONALGEOGRAPHIC",
     "tvg_logo": "https://static.wikia.nocookie.net/tvfanon6528/images/1/1f/National_Geographic_HD_%282016-.n.v.%29.png",
@@ -1675,6 +1815,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
+  "NAT GEO HD Hindi": {
+    "group": "Educational",
+    "tvg_id": "NATGEOHD",
+    "tvg_logo": "https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Logo.png",
+    "links": [
+      {
+        "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/3684.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -3544,6 +3698,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "http://iptv.prosto.tv:7000/ch205/video.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -5855,6 +6016,13 @@
         "last_online": null,
         "first_online": "2025-09-15",
         "last_offline": null
+      },
+      {
+        "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5994,6 +6162,62 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Mytime Movie": {
+    "group": "Movies",
+    "tvg_id": "MytimeMovie",
+    "tvg_logo": "https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png",
+    "links": [
+      {
+        "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Movies Now": {
+    "group": "Mpvies",
+    "tvg_id": "MoviesNow",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Movies_Now_HD.jpg",
+    "links": [
+      {
+        "url": "http://89.187.189.98/MOVIESNOWHD/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | MovieSphere": {
+    "group": "Movies",
+    "tvg_id": "MovieSphere",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/MovieSphere_2022_logo.svg",
+    "links": [
+      {
+        "url": "https://mediapackage-ms-source.fullscreen.nz/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Moba": {
+    "group": "Music",
+    "tvg_id": "Moba",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://muzzik-live.morescreens.com/mts-2/576p/chunklist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -7972,6 +8196,34 @@
       }
     ]
   },
+  "--Live(Star Sports 1 HD)--": {
+    "group": "Sports",
+    "tvg_id": "starsports1hd.in",
+    "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
+    "links": [
+      {
+        "url": "http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts",
+        "status": "offline",
+        "last_online": null,
+        "first_online": "2025-09-12",
+        "last_offline": "2025-09-18"
+      },
+      {
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
   "--Live(Euro Sport 1)--": {
     "group": "Sports",
     "tvg_id": "Europe Sports 1 HD",
@@ -8287,6 +8539,34 @@
       }
     ]
   },
+  "EN | Star Movies HD": {
+    "group": "Movies",
+    "tvg_id": "StarMoviesHD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d6/Star_Movies_HD_India.png",
+    "links": [
+      {
+        "url": "http://89.187.189.98/STARMOVIESHD/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Sony Entertainment HD": {
+    "group": "India",
+    "tvg_id": "SonyEntertainmentHD",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SET_India_logo.svg/1200px-SET_India_logo.svg.png",
+    "links": [
+      {
+        "url": "http://195.181.169.162/SONY_HD/index.m3u8?token=test",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "CR | Sony Sports 3 HD": {
     "group": "Sports",
     "tvg_id": "SonySports-3HD",
@@ -8311,34 +8591,6 @@
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
-      }
-    ]
-  },
-  "CR | Star Sports 1 HD": {
-    "group": "Sports",
-    "tvg_id": "starsports1hd.in",
-    "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
-    "links": [
-      {
-        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/187268.m3u8",
-        "status": "offline",
-        "last_online": null,
-        "first_online": "2025-09-12",
-        "last_offline": "2025-09-18"
-      },
-      {
-        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
-      },
-      {
-        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
