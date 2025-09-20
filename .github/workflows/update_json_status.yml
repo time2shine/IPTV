@@ -43,12 +43,8 @@ jobs:
       - name: Download mpv (first run only)
         if: steps.mpv-cache.outputs.cache-hit != 'true'
         run: |
-          set -e
-          # Try ivan-hc continuous build (stable tag)
           curl -fL --retry 3 -o mpv.AppImage \
-            https://github.com/ivan-hc/MPV-appimage/releases/download/continuous/mpv.AppImage \
-          || curl -fL --retry 3 -o mpv.AppImage \
-            https://github.com/pkgforge-dev/mpv-AppImage/releases/latest/download/mpv-x86_64.AppImage
+            https://github.com/pkgforge-dev/mpv-AppImage/releases/download/v0.40.0-320-g840683407%402025-09-15_1757920254/mpv-v0.40.0-320-g840683407-anylinux-x86_64.AppImage
           chmod +x mpv.AppImage
 
       - name: Verify mpv
