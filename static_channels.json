@@ -13,6 +13,20 @@
       }
     ]
   },
+  "EN | Vevo True School Hip-Hop": {
+    "group": "Music",
+    "tvg_id": "Vevo True School Hip-Hop",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/15/Vevo2016.svg",
+    "links": [
+      {
+        "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/61d4c2817a823d00070ba53elivestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -4737,14 +4751,21 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/44/ZooMoo_Kids_2020.svg",
     "links": [
       {
-        "url": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
+        "url": "https://zoomoo-samsungau.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "https://zoomoo-samsungau.amagi.tv/playlist720p.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
         "last_offline": null
       },
       {
-        "url": "https://zoomoo-samsungau.amagi.tv/playlist720p.m3u8",
+        "url": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
@@ -8720,10 +8741,38 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png",
     "links": [
       {
-        "url": "",
+        "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/12331.ts",
         "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | ThreePlus1": {
+    "group": "Movies",
+    "tvg_id": "ThreePlus1",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Three_NZ_2023.svg/1024px-Three_NZ_2023.svg.png",
+    "links": [
+      {
+        "url": "https://mediapackage-three-plus-1-source.fullscreen.nz/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Newsmax TV": {
+    "group": "International News",
+    "tvg_id": "Newsmax",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/72/Newsmax_2021.svg",
+    "links": [
+      {
+        "url": "http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -9823,6 +9872,20 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Vevo Country": {
+    "group": "Music",
+    "tvg_id": "Vevo Country",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5da0d75e84830900098a1ea0livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
