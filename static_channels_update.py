@@ -466,7 +466,7 @@ def summarize(channels: Dict[str, Dict], start_time: float):
     print("\n=== SUMMARY ===")
     for e in entries:
         if e["category"] == "MISSING":
-            print(f"[MISSING] {e['channel']} -> No link provided")
+            # print(f"[MISSING] {e['channel']} -> No link provided") # commented out this see what channel have no link.
         elif e["category"] == "OFFLINE":
             days_offline = "unknown duration"
             if e["last_offline"]:
@@ -539,7 +539,11 @@ def main():
     # Save updated and sorted JSON
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
+    print("\n")
+    print("\n")
     print(f"\n✅ Updated {JSON_FILE} with head/ffmpeg/mpv checks, status fields, reset URLs for old offline links, and sorted by group/name.")
+    print("\n")
+    print("\n")
 
     # Print summary
     summarize(channels_sorted, start_time)
