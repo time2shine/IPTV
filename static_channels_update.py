@@ -108,7 +108,7 @@ EXCLUDE_LIST = [
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
     "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews",
-    "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312",
+    "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii",
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://indiatodaylive.akamaized.net",
@@ -314,7 +314,7 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
 
     # After retries, give MPV one last shot
     ok, note = mpv_check(final_url, cookies)
-    return ("mpv_online" if ok else "mpv_online"), float(FFMPEG_TEST_DURATION), note or last_stderr
+    return ("mpv_online" if ok else "mpv_offline"), float(FFMPEG_TEST_DURATION), note or last_stderr
 
 # -----------------------------------------------------------------------------
 # File outputs preserved from your script
