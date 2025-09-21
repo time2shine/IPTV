@@ -6,10 +6,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -272,10 +272,10 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/37/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-20",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -517,10 +517,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -699,10 +699,10 @@
     "links": [
       {
         "url": "https://cdn-4.pishow.tv/live/1499/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -1336,10 +1336,10 @@
     "links": [
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       },
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
@@ -1637,10 +1637,10 @@
     "links": [
       {
         "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/3684.ts",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-20",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -4528,10 +4528,10 @@
     "links": [
       {
         "url": "http://extraott-iptv.com:88/live/0229477349/8104258135/400159784.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-21"
+        "last_offline": null
       }
     ]
   },
@@ -5648,10 +5648,10 @@
       },
       {
         "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -5662,10 +5662,10 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -5676,10 +5676,10 @@
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -6173,10 +6173,10 @@
       },
       {
         "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-20",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -7391,10 +7391,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/2515c090-3d53-443f-9654-a7e74a6acf06/0.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -8833,17 +8833,17 @@
       },
       {
         "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-21"
-      },
-      {
-        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
+        "status": "offline",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9127,10 +9127,10 @@
       },
       {
         "url": "http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": "2025-09-21"
+        "last_offline": null
       }
     ]
   },
@@ -9267,10 +9267,10 @@
       },
       {
         "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-20"
+        "last_offline": null
       }
     ]
   },
@@ -9449,10 +9449,10 @@
     "links": [
       {
         "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-17",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9491,10 +9491,10 @@
     "links": [
       {
         "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-21"
+        "last_offline": null
       },
       {
         "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
@@ -9568,17 +9568,17 @@
     "links": [
       {
         "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       },
       {
         "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-14",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9589,10 +9589,10 @@
     "links": [
       {
         "url": "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9750,10 +9750,10 @@
     "links": [
       {
         "url": "https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/master.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-17",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
