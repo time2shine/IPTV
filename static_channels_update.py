@@ -16,26 +16,26 @@ print = functools.partial(print, flush=True)
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-JSON_FILE = "static_channels.json"
-FAST_MODE = False              # True = faster/lighter FFmpeg probe
 RETRIES = 2                    # Retries for FFmpeg attempts
+FAST_MODE = False              # True = faster/lighter FFmpeg probe
 MAX_WORKERS = 100              # Parallel workers for link checks
+JSON_FILE = "static_channels.json"
 
 # HTTP header probe
 HEAD_RETRIES = 3
 HEAD_TIMEOUT = 5               # seconds per attempt
 
 # FFmpeg probe
-FFMPEG_TEST_DURATION = 2       # seconds of demuxing work
 FFMPEG_TIMEOUT = 20            # subprocess timeout (seconds)
-FFMPEG_PROBESIZE = 1_000_000   # reduced when FAST_MODE
-FFMPEG_ANALYZE = 1_000_000     # reduced when FAST_MODE
+FFMPEG_TEST_DURATION = 2       # seconds of demuxing work
 MAX_ALLOWED_DURATION = 12      # classify above this as "slow" (still online)
+FFMPEG_ANALYZE = 1_000_000     # reduced when FAST_MODE
+FFMPEG_PROBESIZE = 1_000_000   # reduced when FAST_MODE
 
 # MPV fallback probe (used only if FFmpeg fails)
+MPV_TIMEOUT = 150
 MPV_EXECUTABLE = os.getenv("MPV_PATH", "mpv")
 HAS_MPV = shutil.which(MPV_EXECUTABLE) is not None
-MPV_TIMEOUT = 150
 
 # HTTP headers commonly required by some origins/CDNs
 HEADERS: Dict[str, str] = {
@@ -49,14 +49,14 @@ HEADERS: Dict[str, str] = {
 # Content-type heuristics
 INVALID_CONTENT = []
 VALID_CONTENT = [
-    "video",
     "application/vnd.apple.mpegurl",
     "application/x-mpegurl",
     "application/mpegurl",
-    "audio/mpegurl",
     "audio/x-mpegurl",
+    "audio/mpegurl",
     "video/mp2t",
     "video/mp4",
+    "video",
 ]
 
 # Fatal patterns to detect in ffmpeg stderr
@@ -101,37 +101,8 @@ FATAL_PATTERNS = [
 # Your existing lists (preserved)
 # -----------------------------------------------------------------------------
 EXCLUDE_LIST = [
-    # "RACING | MTRSPT1",
-    # "HINDI | RDC Movies",
-    # "HINDI | Shemaroo Bollywood 2",
-    # "OTHER | Cowboy Channel",
     # "NEWS | Republic Bharat",
     # "NEWS | Aaj Tak HD",
-    # "NEWS | Aaj Tak",
-    # "NEWS | India TV",
-    # "NEWS | India Today",
-    # "NEWS | India Daily 24x7",
-    # "NEWS | ARY NEWS",
-    # "NEWS | News9Live",
-    # "NEWS | CNN News 18",
-    # "BD | TBN 24 USA",
-    # "HI | Shemaroo Filmigaane",
-    # "HI | YRF Music HD",
-    # "IN | Republic Bangla",
-    # "IN | TV9 Bangla",
-    # "CR | Cricket Gold",
-    # "Shemaroo Bollywood 2"
-    # "AccuWeather NOW",
-    # "RT NEWS GLOBAL",
-    # "POWERtube TV",
-    # "EN | NOW 70s",
-    # "Ekushay TV",
-    # "TVRI World",
-    # "ENT | E 24",
-    # "Spacetoon",
-    # "Makkah TV",
-    # "Sky News",
-    # "GB News",
 ]
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
