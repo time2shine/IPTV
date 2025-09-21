@@ -467,6 +467,7 @@ def summarize(channels: Dict[str, Dict], start_time: float):
     for e in entries:
         if e["category"] == "MISSING":
             # print(f"[MISSING] {e['channel']} -> No link provided") # commented out this see what channel have no link.
+            continue
         elif e["category"] == "OFFLINE":
             days_offline = "unknown duration"
             if e["last_offline"]:
