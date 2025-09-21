@@ -1,67 +1,71 @@
-name: Update Channels and Movies Status
+name: 🔁 Update Channels & Movies (Daily 03:21 BDT)
 
 on:
   schedule:
-    # Runs every day at 3 AM Bangladesh time (UTC+6 = UTC-6 offset)
-    - cron: '21 21 * * *'  # 3 AM BDT is 21:00 UTC previous day
-  workflow_dispatch:  # Allow manual trigger
+    # Runs every day at 3:21 AM Bangladesh time (UTC+6 → 21:21 UTC previous day)
+    - cron: '21 21 * * *'
+  workflow_dispatch:  # ▶️ Allow manual trigger
+
+permissions:
+  contents: write  # needed for committing & pushing changes
 
 jobs:
   update-channels:
+    name: 🛰️ Link Health & Status Update
     runs-on: ubuntu-latest
 
-    # Use portable binaries and cache them; your scripts will honor MPV_PATH
+    # Portable binaries; scripts read these
     env:
       MPV_PATH: ./mpv.AppImage
       FFMPEG_DIR: ./ffmpeg-static
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: 📦 Install Python deps
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
       # ---------- mpv (AppImage) ----------
-      - name: Cache mpv AppImage
+      - name: 💾 Cache mpv AppImage
         id: mpv-cache
         uses: actions/cache@v4
         with:
           path: mpv.AppImage
-          # bump this when you change versions
-          key: mpv-appimage-0.39.0
+          # 🔑 bump this when you change versions
+          key: mpv-appimage-0.40.0-320-g840683407
           restore-keys: |
             mpv-appimage-
 
-      - name: Download mpv (first run only)
+      - name: ⬇️ Download mpv (first run only)
         if: steps.mpv-cache.outputs.cache-hit != 'true'
         run: |
           curl -fL --retry 3 -o mpv.AppImage \
             https://github.com/pkgforge-dev/mpv-AppImage/releases/download/v0.40.0-320-g840683407%402025-09-15_1757920254/mpv-v0.40.0-320-g840683407-anylinux-x86_64.AppImage
           chmod +x mpv.AppImage
 
-      - name: Verify mpv
+      - name: ✅ Verify mpv
         run: ./mpv.AppImage --version
 
       # ---------- FFmpeg (static) ----------
-      - name: Cache FFmpeg
+      - name: 💾 Cache FFmpeg
         id: ffmpeg-cache
         uses: actions/cache@v4
         with:
           path: ${{ env.FFMPEG_DIR }}
-          # bump this when you change versions
+          # 🔑 bump this when you change versions
           key: ffmpeg-static-6.1.1
           restore-keys: |
             ffmpeg-static-
 
-      - name: Download & extract FFmpeg (first run only)
+      - name: ⬇️ Download & extract FFmpeg (first run only)
         if: steps.ffmpeg-cache.outputs.cache-hit != 'true'
         run: |
           curl -fL --retry 3 -o ffmpeg.tar.xz \
@@ -69,23 +73,27 @@ jobs:
           mkdir -p "$FFMPEG_DIR"
           tar -xf ffmpeg.tar.xz --strip-components=1 -C "$FFMPEG_DIR"
 
-      - name: Add FFmpeg to PATH
-        # makes ffmpeg/ffprobe available to your scripts
+      - name: ➕ Add FFmpeg to PATH
         run: echo "$PWD/$FFMPEG_DIR/bin" >> $GITHUB_PATH
 
+      - name: ✅ Verify FFmpeg
+        run: |
+          which ffmpeg
+          ffmpeg -version
+
       # ---------- Your scripts ----------
-      - name: Run FFmpeg to check Channel status
-        run: |
-          python static_channels_update.py
+      - name: 📡 Check Channel statuses (FFmpeg/MPV)
+        run: python static_channels_update.py
 
-      - name: Run FFmpeg to check Movies status
-        run: |
-          python static_movies_update.py
+      - name: 🎬 Check Movie statuses (FFmpeg/MPV)
+        run: python static_movies_update.py
 
-      - name: Commit updated JSON
+      - name: 📝 Commit updated JSON & M3U
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
           git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u
-          git commit -m "Update links online/offline status" || echo "No changes to commit"
-          git push
+          git commit -m "🔄 Update links online/offline status" || echo "No changes to commit"
+
+      - name: 🚀 Push changes
+        run: git push
