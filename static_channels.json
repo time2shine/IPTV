@@ -13,48 +13,6 @@
       }
     ]
   },
-  "FIGHT | Boxing TV": {
-    "group": "Sports",
-    "tvg_id": "Boxing TV",
-    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/f15d93b4-edde-4342-bbc6-af669fda2213",
-    "links": [
-      {
-        "url": "https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "MIXER | ACE TV": {
-    "group": "Sports",
-    "tvg_id": "ACETV",
-    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/a0198825-7700-4a3a-8399-338e8e1d9c64",
-    "links": [
-      {
-        "url": "https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Heritage+": {
-    "group": "Educational",
-    "tvg_id": "Heritage+",
-    "tvg_logo": "https://static.12core.net/media/content/stream/07322366-d621-49bb-95f8-85e55b22022f/e8af698da12cf0c8f033d0bbe02054cf",
-    "links": [
-      {
-        "url": "https://streams.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/littlestar5_sofast/05c9af40-9d2b-445b-ab20-5e46889877ce_1000010996_HLS/manifest.m3u8?channel_name=heritage+",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -1378,10 +1336,10 @@
     "links": [
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": "2025-09-21"
+        "last_offline": null
       },
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
@@ -1413,10 +1371,10 @@
     "links": [
       {
         "url": "https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-20",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -1514,6 +1472,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Choppertown": {
+    "group": "Educational",
+    "tvg_id": "Choppertown",
+    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/71a84f5d-8c67-4d54-8a82-7854b9227914",
+    "links": [
+      {
+        "url": "https://7d8dc76d676946ec8d372d4ed7b22333.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-11-CHOPPERTOWN-SPORTSTRIBAL/mt/sportstribaltv/11/hls/master/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       }
     ]
@@ -1616,48 +1588,6 @@
       }
     ]
   },
-  "Escape TV": {
-    "group": "Educational",
-    "tvg_id": "672a67138e0fe64b11195701",
-    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/5dd7d490-69f5-4e11-b524-34a02662348c",
-    "links": [
-      {
-        "url": "https://amg00585-amg00585c13-sportstribal-emea-5522.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-escapetv-sportstribalemea/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "FIGHT | FIGHT NETWORK": {
-    "group": "Sports",
-    "tvg_id": "FIGHT NETWORK",
-    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/7607dd92-7305-4bab-886e-c38fe745fff7",
-    "links": [
-      {
-        "url": "https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "MIXER | European Football League": {
-    "group": "Sports",
-    "tvg_id": "European Football League",
-    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/deed3084-1593-4ad5-a398-d3ff653fcd51",
-    "links": [
-      {
-        "url": "https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "eden+1": {
     "group": "Educational",
     "tvg_id": "edenPLUS1",
@@ -1668,6 +1598,34 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      }
+    ]
+  },
+  "Escape TV": {
+    "group": "Educational",
+    "tvg_id": "672a67138e0fe64b11195701",
+    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/5dd7d490-69f5-4e11-b524-34a02662348c",
+    "links": [
+      {
+        "url": "https://amg00585-amg00585c13-sportstribal-emea-5522.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-escapetv-sportstribalemea/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
+  "Heritage+": {
+    "group": "Educational",
+    "tvg_id": "Heritage+",
+    "tvg_logo": "https://static.12core.net/media/content/stream/07322366-d621-49bb-95f8-85e55b22022f/e8af698da12cf0c8f033d0bbe02054cf",
+    "links": [
+      {
+        "url": "https://streams.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/littlestar5_sofast/05c9af40-9d2b-445b-ab20-5e46889877ce_1000010996_HLS/manifest.m3u8?channel_name=heritage+",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       }
     ]
@@ -1735,10 +1693,10 @@
     "links": [
       {
         "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/3684.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-20",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -2764,10 +2722,10 @@
     "links": [
       {
         "url": "http://38.143.48.212:9981/stream/channelid/1866338186?profile=pass",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -3233,10 +3191,10 @@
     "links": [
       {
         "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -3982,10 +3940,10 @@
     "links": [
       {
         "url": "http://user.scalecdn.co:8080/live/26725074/92867131/511232.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -4339,10 +4297,10 @@
     "links": [
       {
         "url": "http://user.scalecdn.co:8080/live/26725074/92867131/50187.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -6012,10 +5970,10 @@
     "links": [
       {
         "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -8875,10 +8833,10 @@
     "links": [
       {
         "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/12331.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -8938,10 +8896,10 @@
       },
       {
         "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-21"
+        "last_offline": null
       }
     ]
   },
@@ -9001,10 +8959,10 @@
     "links": [
       {
         "url": "http://103.73.107.122:3255/TSportsHD/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-15",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9071,9 +9029,9 @@
       },
       {
         "url": "https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       }
     ]
@@ -9295,10 +9253,10 @@
     "links": [
       {
         "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       }
     ]
   },
@@ -9596,10 +9554,10 @@
     "links": [
       {
         "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-21"
       },
       {
         "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
@@ -9785,6 +9743,34 @@
       }
     ]
   },
+  "FIGHT | Boxing TV": {
+    "group": "Sports",
+    "tvg_id": "Boxing TV",
+    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/f15d93b4-edde-4342-bbc6-af669fda2213",
+    "links": [
+      {
+        "url": "https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT | FIGHT NETWORK": {
+    "group": "Sports",
+    "tvg_id": "FIGHT NETWORK",
+    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/7607dd92-7305-4bab-886e-c38fe745fff7",
+    "links": [
+      {
+        "url": "https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
   "FIGHT | MMA Junkie": {
     "group": "Sports",
     "tvg_id": "MMAJunkie",
@@ -9827,6 +9813,20 @@
       }
     ]
   },
+  "MIXER | ACE TV": {
+    "group": "Sports",
+    "tvg_id": "ACETV",
+    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/a0198825-7700-4a3a-8399-338e8e1d9c64",
+    "links": [
+      {
+        "url": "https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
   "MIXER | BeiN Sports Extra": {
     "group": "Sports",
     "tvg_id": "BeiNSportsExtra",
@@ -9844,6 +9844,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-09",
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | Cornhole TV": {
+    "group": "Sports",
+    "tvg_id": "Cornhole TV",
+    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/47355675-c7fe-49b7-943a-507b3fa938e4",
+    "links": [
+      {
+        "url": "https://bbb-aclco-freelivesports.otteravision.com/bbb/aclco/aclco.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       }
     ]
@@ -9876,6 +9890,20 @@
       }
     ]
   },
+  "MIXER | European Football League": {
+    "group": "Sports",
+    "tvg_id": "European Football League",
+    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/deed3084-1593-4ad5-a398-d3ff653fcd51",
+    "links": [
+      {
+        "url": "https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
   "MIXER | FUEL TV": {
     "group": "Sports",
     "tvg_id": "FUELTV",
@@ -9883,9 +9911,9 @@
     "links": [
       {
         "url": "https://amg01074-fueltv-fueltvemeaen-sportstribal-n7krp.amagi.tv/ts-eu-w1-n2/playlist/amg01074-fueltv-fueltvemeaen-sportstribal/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       },
       {
@@ -9893,20 +9921,6 @@
         "status": "online",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
-      }
-    ]
-  },
-  "RACE | FloRacing": {
-    "group": "Sports",
-    "tvg_id": "FloRacing",
-    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/3ae62aeb-63b4-4f70-966b-16b0c39dd0c2",
-    "links": [
-      {
-        "url": "https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10268,6 +10282,20 @@
       }
     ]
   },
+  "RACE | FloRacing": {
+    "group": "Sports",
+    "tvg_id": "FloRacing",
+    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/3ae62aeb-63b4-4f70-966b-16b0c39dd0c2",
+    "links": [
+      {
+        "url": "https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
+        "last_offline": null
+      }
+    ]
+  },
   "RACING | Moto Racing": {
     "group": "Sports",
     "tvg_id": "MotoRacing",
@@ -10338,48 +10366,6 @@
       }
     ]
   },
-  "Carbon TV": {
-    "group": "Travel",
-    "tvg_id": "Carbon TV",
-    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/4716808f-c4c0-4acc-b305-72f1d9c4da38",
-    "links": [
-      {
-        "url": "https://amg00585-amg00585c15-freelivesports-emea-5932.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-carbontv-freelivesportsemea/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "Choppertown": {
-    "group": "Educational",
-    "tvg_id": "Choppertown",
-    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/71a84f5d-8c67-4d54-8a82-7854b9227914",
-    "links": [
-      {
-        "url": "https://7d8dc76d676946ec8d372d4ed7b22333.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-11-CHOPPERTOWN-SPORTSTRIBAL/mt/sportstribaltv/11/hls/master/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
-  "MIXER | Cornhole TV": {
-    "group": "Sports",
-    "tvg_id": "Cornhole TV",
-    "tvg_logo": "https://media.unreel.me/prod/sportsplus/logo/47355675-c7fe-49b7-943a-507b3fa938e4",
-    "links": [
-      {
-        "url": "https://bbb-aclco-freelivesports.otteravision.com/bbb/aclco/aclco.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "IDG": {
     "group": "Technology",
     "tvg_id": "IDG",
@@ -10404,6 +10390,20 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Carbon TV": {
+    "group": "Travel",
+    "tvg_id": "Carbon TV",
+    "tvg_logo": "https://media.unreel.me/prod/freelivesports/logo/4716808f-c4c0-4acc-b305-72f1d9c4da38",
+    "links": [
+      {
+        "url": "https://amg00585-amg00585c15-freelivesports-emea-5932.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-carbontv-freelivesportsemea/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-21",
         "last_offline": null
       }
     ]
