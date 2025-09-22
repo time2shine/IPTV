@@ -4822,20 +4822,6 @@
       }
     ]
   },
-  "EN | Home+": {
-    "group": "Movie",
-    "tvg_id": "Home+",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c0/Home_red.svg",
-    "links": [
-      {
-        "url": "https://homeplushls.wns.live/hls/stream.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": "2025-09-20",
-        "last_offline": null
-      }
-    ]
-  },
   "BAN | COLORS BANGLA CINEMA HD (*)": {
     "group": "Movies",
     "tvg_id": "colorsbanglacinemahd.in",
@@ -6020,7 +6006,7 @@
     ]
   },
   "EN | Movies Now": {
-    "group": "Mpvies",
+    "group": "Movies",
     "tvg_id": "MoviesNow",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/Movies_Now_HD.jpg",
     "links": [
