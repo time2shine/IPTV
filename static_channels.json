@@ -1231,6 +1231,48 @@
       }
     ]
   },
+  "Nosey": {
+    "group": "International",
+    "tvg_id": "IN2700003S1",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2700003S1_20241016T011405SQUARE.png",
+    "links": [
+      {
+        "url": "https://bc744a85.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9Ob3NleV9ITFM/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Powerkids Kartoon Channel": {
+    "group": "Kids",
+    "tvg_id": "Powerkids Kartoon Channel",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2500003JW_20240912T093645SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-j2qrmdlg5y7lg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j2qrmdlg5y7lg/powerkids.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | News24": {
+    "group": "India",
+    "tvg_id": "News24",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900001YE_20250430T011913SQUARE.png",
+    "links": [
+      {
+        "url": "https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c1-amgplt0016/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "BD | NEWS24 Television": {
     "group": "Bangla News",
     "tvg_id": "NEWS24.bd",
@@ -1412,6 +1454,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/85/News18_Bangla1.svg/",
     "links": [
       {
+        "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-10",
+        "last_offline": null
+      },
+      {
         "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8",
         "status": "online",
         "last_online": null,
@@ -1446,6 +1495,13 @@
     "tvg_id": "RepublicBangla.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/R.Bangla_logo_with_tagline.jpg",
     "links": [
+      {
+        "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://vg-republictvyupp.akamaized.net/ptnr-yuppt/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-613605/93d674ab-f7a0-404e-88b2-b4f163373dbe/0.m3u8",
         "status": "online",
@@ -1495,6 +1551,13 @@
     "tvg_id": "TV9Bangla.in",
     "tvg_logo": "https://images.tv9bangla.com/wp-content/themes/tv9bangla/images/tv9-bangla-logo.svg",
     "links": [
+      {
+        "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
         "status": "online",
@@ -1777,6 +1840,76 @@
       }
     ]
   },
+  "KidDo MATIX": {
+    "group": "Kids",
+    "tvg_id": "KidDo MATIX",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600008T4_20250122T004833SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-le0kohm4qt3mk.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-le0kohm4qt3mk/OTM/OTM_KiddoMatix-SCTE_SAMSUNG/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Life+Style": {
+    "group": "Travel",
+    "tvg_id": "Life+Style",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2400001L0_20250811T033504SQUARE.png",
+    "links": [
+      {
+        "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/89001001/hls/master.m3u8?ads.xumo_channelId=89001001&ads.xumo_streamId=89001001&ads.caid=Indigenius&ads.csid=samsungtvplus_in_lifeplusstyle_ssai&ads.sfid=&ads.afid=Indigenius&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1---&ads._fw_coppa=0&ads._fw_did=%7BPSID%7D&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-pg&ads._fw_deviceMake=samsung&ads._fw_gdpr=1&ads._fw_gdpr_consent=%7BTC_STRING%7D&ads._fw_h_x_country=IN&ads.appVersion=&ads.appName=%7BAPP_NAME%7D&ads.xumo_contentId=1101&ads.xumo_contentName=Indigenius&ads.xumo_providerId=1101&ads.xumo_providerName=Indigenius&ads.xumo_adsystem=mediatailor&ads.xumo_channelName=lifeplusstyle_in&ads.tpcl=MIDROLL&ads._fw_app_store_url=%7BAPP_DOMAIN%7D",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Hooray Kids": {
+    "group": "Kids",
+    "tvg_id": "Hooray Kids",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600009F9_20250122T004827SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-hcf2o1ghsvvdu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hcf2o1ghsvvdu/OTM/OTM_HoorayKids-SCTE_SAMSUNG/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "House of Crime": {
+    "group": "Educational",
+    "tvg_id": "House of Crime",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600004HW_20250416T005413SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-y2z89muounal4.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y2z89muounal4/IQJW/WBD/HouseOfCrime_IN/HouseOfCrime_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Hooray Rhymes": {
+    "group": "Kids",
+    "tvg_id": "Hooray Rhymes",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600007TC_20250122T004830SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-hqignh3tex8xc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hqignh3tex8xc/OTM/OTM_KidsToonsHindi-SCTE_SAMSUNG/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Heritage+": {
     "group": "Educational",
     "tvg_id": "Heritage+",
@@ -1787,6 +1920,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-21",
+        "last_offline": null
+      },
+      {
+        "url": "https://amg02132-sofast-heritage-samsungin-arawj.amagi.tv/ts-eu-w1-n2/playlist/amg02132-sofast-heritage-samsungin/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2273,6 +2413,13 @@
     "tvg_logo": "https://www.epicon.in/img/nazara-logo.png",
     "links": [
       {
+        "url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://epiconvh.akamaized.net/live/nazara/master.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
@@ -2523,7 +2670,7 @@
         "last_online": null,
         "first_online": null,
         "last_offline": null
-      }
+      },
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8",
         "status": "online",
@@ -2536,6 +2683,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-16",
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | News18 India": {
+    "group": "India",
+    "tvg_id": "News18 India",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300010WP_20240904T091839SQUARE.png",
+    "links": [
+      {
+        "url": "https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -2687,6 +2848,34 @@
       }
     ]
   },
+  "HI | NH BollyRaga": {
+    "group": "Music",
+    "tvg_id": "NH BollyRaga",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460001373_20250416T005420SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | NH BollyFlix": {
+    "group": "Movies",
+    "tvg_id": "NH BollyFlix",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000140Q_20250521T010047SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | NDTV Hindi": {
     "group": "India",
     "tvg_id": "ndtvindia",
@@ -2764,11 +2953,46 @@
       }
     ]
   },
+  "HINDI | South Station": {
+    "group": "Movies",
+    "tvg_id": "South Station",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20250625T011531SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "RiC+": {
+    "group": "Kids",
+    "tvg_id": "RiC+",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900010TD_20250319T011535SQUARE.png",
+    "links": [
+      {
+        "url": "https://amg02132-amg02132c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg02132-amg02132c2-amgplt0016/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | Republic TV": {
     "group": "India",
     "tvg_id": "RepublicTV.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/fe/Republic-logo2.svg",
     "links": [
+      {
+        "url": "https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
         "status": "online",
@@ -4563,6 +4787,62 @@
       }
     ]
   },
+  "NEWS | Times Now Navbharat": {
+    "group": "India",
+    "tvg_id": "Times Now Navbharat",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300003OW_20240131T032351SQUARE.png_20240131032352.png",
+    "links": [
+      {
+        "url": "https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "XXTreme Jobs Hindi": {
+    "group": "Educational",
+    "tvg_id": "XXTreme Jobs Hindi",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000011Q_20250205T004626SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-zko1curyce7jh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zko1curyce7jh/IQJW/WBD/XXtremeJobs_IN/XXtremeJobs_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Wild Flix Hindi": {
+    "group": "Educational",
+    "tvg_id": "Wild Flix",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460000585_20250416T020413SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-qgrxgp51645lw.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qgrxgp51645lw/IQJW/WBD/WildFlix_IN/WildFlix_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Wheel World": {
+    "group": "Educational",
+    "tvg_id": "Wheel World",
+    "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN460000250_20250416T020410SQUARE.png",
+    "links": [
+      {
+        "url": "https://cc-ii7599ywyixac.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ii7599ywyixac/IQJW/WBD/WheelWorld_IN/WheelWorld_IN.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Hi Dost!": {
     "group": "Kids",
     "tvg_id": "HiDost.in",
@@ -4577,11 +4857,18 @@
       }
     ]
   },
-  "Jungle Book": {
+  "The Jungle Book": {
     "group": "Kids",
     "tvg_id": "sonyyay.in",
     "tvg_logo": "https://pash.ink/storage/uploads/JungleBook_Logo.png",
     "links": [
+      {
+        "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
         "status": "online",
