@@ -59,6 +59,13 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
+      },
+      {
+        "url": "http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/146.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -142,6 +149,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/60.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -4117,7 +4131,7 @@
   },
   "BBC News": {
     "group": "International News",
-    "tvg_id": "BBC News",
+    "tvg_id": "BBCNews",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/BBC_News_2019.svg",
     "links": [
       {
@@ -5617,6 +5631,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": "2025-09-26"
+      },
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonicbangla/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -8542,6 +8563,13 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
+        "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
