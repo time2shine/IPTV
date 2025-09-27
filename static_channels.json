@@ -622,6 +622,20 @@
       }
     ]
   },
+  "Music Bangla 2": {
+    "group": "Bangla",
+    "tvg_id": "MusicBangla2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "MY TV": {
     "group": "Bangla",
     "tvg_id": "deshitv.bd",
@@ -4409,6 +4423,20 @@
       }
     ]
   },
+  "Discovery Kids": {
+    "group": "Kids",
+    "tvg_id": "Discovery Kids",
+    "tvg_logo": "https://i.postimg.cc/gjZzG3WD/Fight-Network.jpg",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209633/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EAC News TV": {
     "group": "International News",
     "tvg_id": "EACNewsTV.kh@SD",
@@ -4470,6 +4498,13 @@
     "tvg_id": "France24.fr@English",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/France_24_2013.svg",
     "links": [
+      {
+        "url": "https://amg02703-leadstory-leadstory-samsungau-rr75f.amagi.tv/ts-eu-w1-n2/playlist/amg02703-leadstory-leadstory-samsungau/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/ts-eu-w1-n2/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8",
         "status": "online",
@@ -6904,6 +6939,48 @@
         "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "Bengali Beats": {
+    "group": "Music",
+    "tvg_id": "BengaliBeats",
+    "tvg_logo": "https://tplay.live/originals/bengali-beats/bengali-beats.png",
+    "links": [
+      {
+        "url": "https://tplay.live/originals/bengali-beats/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BBC Earth US": {
+    "group": "Educational",
+    "tvg_id": "BBC Earth US",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7b/BBC_Earth_circle.png",
+    "links": [
+      {
+        "url": "https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BBC Cbeebies": {
+    "group": "Kids",
+    "tvg_id": "BBC Cbeebies",
+    "tvg_logo": "https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10079,6 +10156,20 @@
       }
     ]
   },
+  "EN | SRK TV": {
+    "group": "Movies",
+    "tvg_id": "SRK TV",
+    "tvg_logo": "https://i.imgur.com/ubZMeQv.jpg",
+    "links": [
+      {
+        "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Peace TV Bangla": {
     "group": "Religious",
     "tvg_id": "PeaceTVBangla",
@@ -10215,6 +10306,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Sport 1 HD)--": {
+    "group": "Sports",
+    "tvg_id": "Sport 1 HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7c/Sport1_CEE_%282020-present%29.svg",
+    "links": [
+      {
+        "url": "http://178.23.88.55/Sport1/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10555,6 +10660,48 @@
       }
     ]
   },
+  "FB | Sony sports 2": {
+    "group": "Sports",
+    "tvg_id": "Sony sports 2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c9/Sony_Sports_Network.jpg",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SONY/Sports-2/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | Sony sports 5": {
+    "group": "Sports",
+    "tvg_id": "Sony sports 5",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/Sony_Sports_Ten_5.png",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SONY/Sports-5/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "CR | Sony sports 1": {
+    "group": "Sports",
+    "tvg_id": "Sony sports 1",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/ed/Sony_Sports_Ten_1.png",
+    "links": [
+      {
+        "url": "https://tiger-hub.vercel.app/SONY/Sports-1/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "CR | Sony Sports 3 HD": {
     "group": "Sports",
     "tvg_id": "SonySports-3HD",
@@ -10820,11 +10967,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/64/Arena_Sport_1.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://178.23.88.55/Arena_sport/index.m3u8",
+        "status": "mpv_good",
         "last_online": null,
         "first_online": null,
-        "last_offline": "2025-09-03"
+        "last_offline": null
       }
     ]
   },
@@ -11604,10 +11751,10 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-03",
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -11618,10 +11765,10 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://tiger-hub.vercel.app/Hub_Sports-3/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-03",
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -11632,10 +11779,24 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logosfake/images/2/25/HubSports_2.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-03",
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "RACING | Motor Vision": {
+    "group": "Sports",
+    "tvg_id": "Motor Vision",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/70/Motorvision_2023.svg",
+    "links": [
+      {
+        "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
