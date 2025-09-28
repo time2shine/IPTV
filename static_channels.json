@@ -13,6 +13,20 @@
       }
     ]
   },
+  "EN | Classic Movies": {
+    "group": "Movies",
+    "tvg_id": "30A TV Classic Movies",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/TCM_logo.svg",
+    "links": [
+      {
+        "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -5374,6 +5388,13 @@
     "tvg_logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900015RO_20250217T210812SQUARE.png",
     "links": [
       {
+        "url": "https://amg01076-lightningintern-kartoonchannel-samsungnz-t8blu.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://d2z0ysa6dgxhlc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ajxyy4yaic6nq/kchan.m3u8",
         "status": "online",
         "last_online": null,
@@ -7993,7 +8014,7 @@
       }
     ]
   },
-  "EN | NOW 80s": {
+  "EN | NOW 80's": {
     "group": "Music",
     "tvg_id": "NOW80s",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/cf/NOW_80s.png",
@@ -10474,6 +10495,34 @@
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Made in Hollywood": {
+    "group": "Movies",
+    "tvg_id": "MadeInHollywood.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/6w9_DUJK4Gbg_gHdsuNnx6MeOuCK3UdjjSUIyb3mExVDJIj_uulO5AIqAXIgf6avNqYP3YnarQ=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Star Sports 2 HD)--": {
+    "group": "Sports",
+    "tvg_id": "starsports1hd.in",
+    "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Live%20Sports.png",
+    "links": [
+      {
+        "url": "http://103.78.255.178:8080/starselect1/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
