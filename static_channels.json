@@ -13,20 +13,6 @@
       }
     ]
   },
-  "EN | Classic Movies": {
-    "group": "Movies",
-    "tvg_id": "30A TV Classic Movies",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/TCM_logo.svg",
-    "links": [
-      {
-        "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -1168,10 +1154,10 @@
     "links": [
       {
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": "2025-09-27"
+        "last_offline": null
       },
       {
         "url": "https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8",
@@ -1217,10 +1203,10 @@
       },
       {
         "url": "https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       },
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8",
@@ -5116,10 +5102,10 @@
     "links": [
       {
         "url": "http://kstv.us:8080/live/Purn3542/38791114838/40725.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       },
       {
         "url": "",
@@ -5179,10 +5165,10 @@
     "links": [
       {
         "url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       }
     ]
   },
@@ -5389,9 +5375,9 @@
     "links": [
       {
         "url": "https://amg01076-lightningintern-kartoonchannel-samsungnz-t8blu.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
-        "status": "mpv_good",
+        "status": "online",
         "last_online": null,
-        "first_online": null,
+        "first_online": "2025-09-28",
         "last_offline": null
       },
       {
@@ -5781,10 +5767,10 @@
     "links": [
       {
         "url": "http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-09",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       }
     ]
   },
@@ -6453,6 +6439,20 @@
       }
     ]
   },
+  "EN | Classic Movies": {
+    "group": "Movies",
+    "tvg_id": "30A TV Classic Movies",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/83/TCM_logo.svg",
+    "links": [
+      {
+        "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-28",
+        "last_offline": null
+      }
+    ]
+  },
   "EN | Colorized.TV": {
     "group": "Movies",
     "tvg_id": "ColorizedTV.usa",
@@ -6687,6 +6687,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-15",
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Made in Hollywood": {
+    "group": "Movies",
+    "tvg_id": "MadeInHollywood.us",
+    "tvg_logo": "https://yt3.googleusercontent.com/6w9_DUJK4Gbg_gHdsuNnx6MeOuCK3UdjjSUIyb3mExVDJIj_uulO5AIqAXIgf6avNqYP3YnarQ=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-28",
         "last_offline": null
       }
     ]
@@ -7328,10 +7342,10 @@
     "links": [
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       },
       {
         "url": "http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test",
@@ -9554,10 +9568,10 @@
     "links": [
       {
         "url": "http://124.109.47.101/hls/stream1.m3u8",
-        "status": "offline",
+        "status": "online",
         "last_online": null,
         "first_online": "2025-09-08",
-        "last_offline": "2025-09-27"
+        "last_offline": null
       },
       {
         "url": "",
@@ -10415,10 +10429,10 @@
     "links": [
       {
         "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/12331.ts",
-        "status": "offline",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": "2025-09-27"
+        "last_offline": null
       }
     ]
   },
@@ -10499,20 +10513,6 @@
       }
     ]
   },
-  "EN | Made in Hollywood": {
-    "group": "Movies",
-    "tvg_id": "MadeInHollywood.us",
-    "tvg_logo": "https://yt3.googleusercontent.com/6w9_DUJK4Gbg_gHdsuNnx6MeOuCK3UdjjSUIyb3mExVDJIj_uulO5AIqAXIgf6avNqYP3YnarQ=s72-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8",
-        "status": "mpv_good",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "--Live(Star Sports 2 HD)--": {
     "group": "Sports",
     "tvg_id": "starsports1hd.in",
@@ -10520,10 +10520,10 @@
     "links": [
       {
         "url": "http://103.78.255.178:8080/starselect1/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": null,
-        "last_offline": null
+        "last_offline": "2025-09-28"
       }
     ]
   },
@@ -10533,7 +10533,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Starsports3hd.png",
     "links": [
       {
-        "url": "http://cool365.xyz:900/live/4160189881/DB4ACD54/400159568.m3u8",
+        "url": "",
         "status": "offline",
         "last_online": null,
         "first_online": "2025-09-12",
@@ -10905,10 +10905,10 @@
     "links": [
       {
         "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
-        "status": "online",
+        "status": "offline",
         "last_online": null,
         "first_online": "2025-09-10",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       }
     ]
   },
@@ -11241,10 +11241,10 @@
     "links": [
       {
         "url": "http://live.matribhumitv.com/matribhumi-sports/index.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       },
       {
         "url": "http://ares.mnet.mk/hls/mnet-sport.m3u8",
@@ -12116,10 +12116,10 @@
     "links": [
       {
         "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/playlist.m3u8",
-        "status": "online",
+        "status": "offline",
         "last_online": "2025-09-04",
         "first_online": "2025-09-04",
-        "last_offline": null
+        "last_offline": "2025-09-28"
       }
     ]
   },
