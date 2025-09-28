@@ -35,6 +35,8 @@ https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/
 https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8
 #EXTINF:-1 group-title="International News",Euronews English
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
+#EXTINF:-1 group-title="Kids",Disney Junior India
+http://116.90.120.149:8000/play/a0b3/index.m3u8
 #EXTINF:-1 group-title="Kids",Sonic
 https://live.dinesh29.com.np/stream/jiotvplus/sonicbangla/master.m3u8
 #EXTINF:-1 group-title="Kids",Spacetoon
@@ -61,6 +63,8 @@ https://live.dinesh29.com.np/stream/jiotvplus/maamusic/master.m3u8
 https://live.dinesh29.com.np/stream/jiotvplus/sunmusichd/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 2 HD)
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Toffee Sports HD)--
+http://103.73.107.122:3255/TSportsHD/index.m3u8
 #EXTINF:-1 group-title="Sports",CR | STAR SPORTS 2
 https://live.dinesh29.com.np/stream/jiotvplus/starsports2/master.m3u8
 #EXTINF:-1 group-title="Sports",CR+FB | STAR SPORTS SELECT 1 HD
