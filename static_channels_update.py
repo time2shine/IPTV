@@ -112,6 +112,7 @@ WHITELIST_DOMAINS = [
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://indiatodaylive.akamaized.net",
+    "http://103.73.107.122:3255/TSportsHD",
     "https://streams.spacetoon.com",
     "https://live.dinesh29.com",
     "https://feeds.intoday.in",
