@@ -113,6 +113,7 @@ WHITELIST_DOMAINS = [
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://indiatodaylive.akamaized.net",
     "http://103.73.107.122:3255/TSportsHD",
+    "http://116.90.120.149:8000/play",
     "https://streams.spacetoon.com",
     "https://live.dinesh29.com",
     "https://feeds.intoday.in",
