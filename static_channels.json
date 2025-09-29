@@ -612,6 +612,13 @@
         "last_online": null,
         "first_online": "2025-09-11",
         "last_offline": null
+      },
+      {
+        "url": "http://alvetv.com/mbtv/8080/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5505,13 +5512,6 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      },
-      {
-        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null
       }
     ]
   },
@@ -5529,7 +5529,7 @@
       }
     ]
   },
-  "Nick Jr": {
+  "1. Nickelodeon Pluto TV": {
     "group": "Kids",
     "tvg_id": "NickJr.us@East",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg",
@@ -5540,10 +5540,17 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca673e0d0bd6c2689c94ce3livestitch/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel&profilesFromStream=true",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
-  "Nickelodeon USA": {
+  "1. Nickelodeon": {
     "group": "Kids",
     "tvg_id": "Nickelodeon.us",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg",
@@ -5557,31 +5564,31 @@
       }
     ]
   },
-  "NICKTOONS": {
-    "group": "Kids",
-    "tvg_id": "NICKTOONS",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/NickToons_TV.svg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": "2025-09-10",
-        "last_offline": "2025-09-13"
-      }
-    ]
-  },
-  "Nicktoons UK": {
+  "1. Nick Jr US Pluto TV": {
     "group": "Kids",
     "tvg_id": "Nicktoons.uk",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/69/Nicktoons_2023_Logo.svg",
     "links": [
       {
-        "url": "https://a1xs.vip/100054",
-        "status": "offline",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": "2025-09-20"
+        "url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9livestitch/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=978&deviceId=5ca6748a37b88b269472dad9&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&profilesFromStream=true",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Nick German Pluto TV": {
+    "group": "Kids",
+    "tvg_id": "NickGermanPlutoTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e4/Nickplutotvlogo2023.png",
+    "links": [
+      {
+        "url": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ede448d3d50590007a4419elivestitch/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel&profilesFromStream=true",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
