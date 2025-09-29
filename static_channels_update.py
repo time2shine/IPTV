@@ -107,8 +107,11 @@ EXCLUDE_LIST = [
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
+    "https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea",
     "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews",
     "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii",
+    "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv",
+    "http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c",
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://indiatodaylive.akamaized.net",
@@ -121,6 +124,7 @@ WHITELIST_DOMAINS = [
     "http://185.236.230.212",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
+    "http://103.78.255.178",
 ]
 
 # -----------------------------------------------------------------------------
