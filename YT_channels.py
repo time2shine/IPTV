@@ -126,12 +126,13 @@ channel_metadata = {
         'channel_name': '0. Masha and The Bear',
         'channel_logo': 'https://yt3.googleusercontent.com/plbYMBlbSJHXOLEqCE4tCFPkw-WwoZ5y-oI4M1l5dljjOFMrQj9g_ZYTb5Fu8t_y8weRNR4iHQ=s160-c-k-c0x00ffffff-no-rj',
     },
-    'UCqW49D75sWnglb8_j0rCKDA': {  # WowKidz (Motu Patlu)
+    'UCN8S4CqMRy6tVKVXvs7Bzeg': {  # WowKidz (Motu Patlu)
         'group_title': 'Kids',
         'channel_name': '0. WowKidz (Motu Patlu) YT',
         'channel_logo': 'https://yt3.googleusercontent.com/krEBMFPvwl-Fp0TcZh8TH76-z2kHivKvr9ow1IXUvrqOq0l_EjDNDrrVxO-nb2AZeKSWZbgh=s160-c-k-c0x00ffffff-no-rj',
     },
 }
+
 
 
 
