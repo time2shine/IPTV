@@ -53,6 +53,6 @@ jobs:
           else
             BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
             git pull --rebase origin "${BRANCH}" || true
-            git commit -m "🔄 EPG update ($(date '+%Y-%m-%d %H:%M:%S %Z')) [skip ci]"
+            git commit -m "🔄 EPG update ($(date '+%Y-%m-%d %H:%M:%S %Z'))"
             git push origin "${BRANCH}"
           fi
