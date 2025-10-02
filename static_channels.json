@@ -229,6 +229,13 @@
         "last_offline": null
       },
       {
+        "url": "http://stvlive.net:8080/channeli/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8",
         "status": "online",
         "last_online": null,
@@ -432,6 +439,13 @@
         "last_offline": null
       },
       {
+        "url": "http://stvlive.net:8080/entertenbn/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8",
         "status": "online",
         "last_online": null,
@@ -495,10 +509,10 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Gtvhd.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://stvlive.net:8080/gtv/index.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-08",
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -573,11 +587,18 @@
       }
     ]
   },
-  "Me-TV": {
+  "Me TV": {
     "group": "Bangla",
-    "tvg_id": "Me-tv",
+    "tvg_id": "Metv",
     "tvg_logo": "https://yt3.googleusercontent.com/OHsKWwrPCUUomluu0R4GqjQNXuD3vOHDK3dLq2Qczmu9ZI5X7ljltXoHM8c4-vElz4DdD3qflQ=s72-c-k-c0x00ffffff-no-rj",
     "links": [
+      {
+        "url": "http://stvlive.net:8080/metv/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://iptvbd.live/metv1080/1080.m3u8",
         "status": "online",
@@ -611,6 +632,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "http://stvlive.net:8080/moviebangla/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       },
       {
@@ -670,10 +698,10 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/87/Nagorik_TV_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://stvlive.net:8080/nagorik/index.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-08",
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -892,6 +920,13 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
+      },
+      {
+        "url": "http://stvlive.net:8080/sunbangla/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -982,6 +1017,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-11",
+        "last_offline": null
+      },
+      {
+        "url": "http://stvlive.net:8080/zeebangla/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -1123,6 +1165,13 @@
         "last_online": null,
         "first_online": "2025-09-12",
         "last_offline": null
+      },
+      {
+        "url": "http://stvlive.net:8080/jamuna/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1154,11 +1203,32 @@
       }
     ]
   },
+  "Safeer TV": {
+    "group": "Relegious",
+    "tvg_id": "30",
+    "tvg_logo": "https://raw.githubusercontent.com/zuhairabs/shiachannel/main/livetv/img/channels/safeer-tv.jpg",
+    "links": [
+      {
+        "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "BD | SOMOY NEWS": {
     "group": "Bangla News",
     "tvg_id": "somoyNEWS.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg",
     "links": [
+      {
+        "url": "http://stvlive.net:8080/somoy/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
         "status": "online",
@@ -5322,6 +5392,20 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-29",
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Nick Hindi": {
+    "group": "Kids",
+    "tvg_id": "Nick Hindi",
+    "tvg_logo": "http://103.175.242.10/assets/images/Nick1731468472.png",
+    "links": [
+      {
+        "url": "http://stvlive.net:8080/nick/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10498,6 +10582,13 @@
     "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
     "links": [
       {
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      },
+      {
         "url": "http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts",
         "status": "online",
         "last_online": null,
@@ -10510,12 +10601,19 @@
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null
-      },
+      }
+    ]
+  },
+  "--Live(Star Sports 1 Hindi)--": {
+    "group": "Sports",
+    "tvg_id": "Star Sports 1 Hindi",
+    "tvg_logo": "http://103.175.242.10/assets/images/Star%20Sports%2011732941309.png",
+    "links": [
       {
-        "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8",
-        "status": "online",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
+        "url": "http://stvlive.net:8080/starsports1/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10554,13 +10652,6 @@
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": "2025-09-12",
-        "last_offline": "2025-09-16"
-      },
-      {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/master.m3u8",
         "status": "online",
         "last_online": null,
@@ -10575,10 +10666,10 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://stvlive.net:8080/tsports1/index.m3u8",
+        "status": "mpv_good",
         "last_online": null,
-        "first_online": "2025-09-08",
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -10961,11 +11052,18 @@
       }
     ]
   },
-  "CR+FB | STAR SPORTS SELECT 1 HD": {
+  "--Live(STAR SPORTS SELECT 1 HD)--": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
+      {
+        "url": "http://stvlive.net:8080/starselect1/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8",
         "status": "online",
@@ -12095,23 +12193,16 @@
       }
     ]
   },
-  "MIXER | Sony Ten 5 HD": {
+  "--Live(Sony Ten 5 HD)--": {
     "group": "Sports",
     "tvg_id": "sonyten5.in",
     "tvg_logo": "https://dtat2ks7dludr.cloudfront.net/spnsportsindia/channel_logos/SONY_SportsTen5_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://stvlive.net:8080/sonyten5/index.m3u8",
+        "status": "mpv_good",
         "last_online": null,
         "first_online": null,
-        "last_offline": "2025-09-03"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
         "last_offline": null
       }
     ]
