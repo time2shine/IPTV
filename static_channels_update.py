@@ -6,7 +6,7 @@ import subprocess
 import os, shutil
 from datetime import datetime, date
 from typing import Tuple, Optional, Dict
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
 # -----------------------------------------------------------------------------
 # Instant-flush prints
@@ -261,6 +261,7 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
     """
     Run FFmpeg probe. Returns (status, duration, note)
     status: 'online' | 'slow' | 'offline' | 'mpv_online' | 'mpv_offline'
+    duration: time for the backend that actually ran (FFmpeg OR MPV), seconds
     """
     final_url, cookies = resolve_url(url)
 
@@ -307,20 +308,27 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
                     return "slow", dur, None
                 return "online", dur, None
 
-            # Non-zero rc; inspect stderr for fatal patterns → MPV quick try
+            # Non-zero rc; inspect stderr for fatal patterns → MPV quick try (TIMED)
             if any((p in stderr) for p in FATAL_PATTERNS):
-                ok, note = mpv_check(final_url, cookies)
-                return ("mpv_online" if ok else "mpv_offline"), dur, note
+                t1 = time.time()
+                ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
+                dur_mpv = time.time() - t1
+                return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note
         except subprocess.TimeoutExpired:
-            ok, note = mpv_check(final_url, cookies)
-            return ("mpv_online" if ok else "mpv_offline"), float(FFMPEG_TEST_DURATION), note
+            # FFmpeg hung → try MPV (TIMED)
+            t1 = time.time()
+            ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
+            dur_mpv = time.time() - t1
+            return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note
         except Exception as e:
             last_stderr = f"ffmpeg error: {e}"
         time.sleep(0.7)
 
-    # After retries, give MPV one last shot
-    ok, note = mpv_check(final_url, cookies)
-    return ("mpv_online" if ok else "mpv_offline"), float(FFMPEG_TEST_DURATION), note or last_stderr
+    # After retries, give MPV one last shot (TIMED)
+    t1 = time.time()
+    ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
+    dur_mpv = time.time() - t1
+    return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note or last_stderr
 
 # -----------------------------------------------------------------------------
 # File outputs preserved from your script
@@ -336,13 +344,14 @@ def export_excluded_whitelisted(channels: Dict[str, Dict]):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
-        for channel_name, info in channels.items():
-            for link in info.get("links", []):
-                url = link.get("url")
-                if not url:
-                    continue
+    for channel_name, info in channels.items():
+        for link in info.get("links", []):
+            url = link.get("url")
+            if not url:
+                continue
 
-                if is_excluded(channel_name) or is_whitelisted(url):
+            if is_excluded(channel_name) or is_whitelisted(url):
+                with open(output_file, "a", encoding="utf-8") as f:
                     f.write(f'#EXTINF:-1 group-title="{info.get("group", "Other")}",{channel_name}\n{url}\n')
 
     print(f"✅ Exported excluded + whitelisted channels to {output_file}")
@@ -354,34 +363,38 @@ def export_excluded_whitelisted(channels: Dict[str, Dict]):
 def update_status_parallel(channels: Dict[str, Dict]):
     """Update status of all links with HEAD → FFmpeg → MPV pipeline."""
 
-    def task(channel_name: str, link_entry: Dict) -> Tuple[str, str, str]:
-        """Returns (url, status, note)"""
+    def task(channel_name: str, link_entry: Dict):
+        """Returns (url, status, note, dur_seconds, via)"""
         url = link_entry.get("url")
         if not url:
-            return "", "missing", "no url"
+            return "", "missing", "no url", None, "missing"
 
         # Skip excluded channels
         if is_excluded(channel_name):
             print(f"[SKIPPED] {channel_name}")
-            return url, "online", "excluded"
+            return url, "online", "excluded", None, "excluded"
 
         # Whitelist domains → trust online without probing
         if is_whitelisted(url):
             print(f"[WHITELISTED] {channel_name} -> {url}")
-            return url, "online", "whitelisted"
+            return url, "online", "whitelisted", None, "whitelist"
 
         ok_head, reason = head_pass(url)
         if not ok_head:
             print(f"[HEAD-FAIL] {channel_name} | {reason or 'no reason'} -> {url}")
-            return url, "offline", "head"
+            return url, "offline", "head", None, "head_fail"
 
         status, dur, note = ffmpeg_check(url)
-        if status in ("online", "slow", "mpv_online"):
-            print(f"🟢 {channel_name} ({status}) {dur:.1f}s -> {url}")
-            return url, "online", status
+
+        if status in ("online", "slow"):
+            print(f"🟢 {channel_name} (ffmpeg) {dur:.1f}s -> {url}")
+            return url, "online", note or "ffmpeg", dur, "ffmpeg"
+        elif status == "mpv_online":
+            print(f"🟢 {channel_name} (mpv) {dur:.1f}s -> {url}")
+            return url, "online", note or "mpv", dur, "mpv"
         else:
             print(f"🔴 {channel_name} -> {url}")
-            return url, "offline", status
+            return url, "offline", status, dur, ("mpv" if status.startswith("mpv_") else "ffmpeg")
 
     # Ensure structure is sane and collect futures
     futures = []
@@ -408,12 +421,23 @@ def update_status_parallel(channels: Dict[str, Dict]):
         # Collect results and update JSON in-place
         today = date.today().isoformat()
         for future, ch_name, idx in futures:
-            url, status, note = future.result()
+            url, status, note, dur, via = future.result()
             link_entry = channels[ch_name]["links"][idx]
+
             link_entry["status"] = status
+            # NEW: speed & timing & via
+            link_entry["probe_time_s"] = round(dur, 3) if dur is not None else None
+            if dur and dur > 0:
+                link_entry["speed"] = round(FFMPEG_TEST_DURATION / dur, 3)
+            else:
+                link_entry["speed"] = 0.0
+            link_entry["passed_via"] = via
+
+            # Dates
             if status == "online":
                 if link_entry.get("first_online") is None:
                     link_entry["first_online"] = today
+                link_entry["last_online"] = today
                 link_entry["last_offline"] = None
             elif status == "offline":
                 if link_entry.get("last_offline") is None:
@@ -472,7 +496,6 @@ def summarize(channels: Dict[str, Dict], start_time: float):
     print("\n=== SUMMARY ===")
     for e in entries:
         if e["category"] == "MISSING":
-            # print(f"[MISSING] {e['channel']} -> No link provided") # commented out this see what channel have no link.
             continue
         elif e["category"] == "OFFLINE":
             days_offline = "unknown duration"
@@ -523,6 +546,39 @@ def mark_old_offline_links(channels: Dict[str, Dict], days_threshold: int = 10):
                     print(f"[RESET URL] {channel_name} -> Offline for {offline_days} day(s) -> {link.get('url')}")
                     link["url"] = ""
 
+
+def reorder_links(channels: Dict[str, Dict]) -> None:
+    """
+    Reorder each channel's links:
+      1) non-whitelisted ONLINE links, sorted by speed DESC (fastest first)
+         (tiny tie-breaker: prefer ffmpeg over mpv)
+      2) WHITELISTED ONLINE
+      3) OFFLINE
+      4) MISSING
+    """
+    def key_fn(link: Dict):
+        url = (link.get("url") or "")
+        status = link.get("status", "unknown")
+        is_wl = is_whitelisted(url)
+        spd = float(link.get("speed") or 0.0)  # higher is better
+        via = (link.get("passed_via") or "").lower()
+
+        # buckets
+        bucket_wl   = 1 if is_wl else 0
+        bucket_off  = 1 if status == "offline" else 0
+        bucket_miss = 1 if status == "missing" else 0
+
+        # prefer ffmpeg slightly on ties (subtract a tiny epsilon from MPV when sorting)
+        mpv_penalty = 0.01 if via == "mpv" else 0.0
+
+        # We sort ascending, so invert speed (negate) and add penalty
+        return (bucket_wl, bucket_off, bucket_miss, -(spd - mpv_penalty))
+
+    for info in channels.values():
+        links = info.get("links")
+        if isinstance(links, list) and links:
+            links.sort(key=key_fn)
+
 # -----------------------------------------------------------------------------
 # Main
 # -----------------------------------------------------------------------------
@@ -543,12 +599,16 @@ def main():
     # Mark links offline for 10+ days by emptying URL
     mark_old_offline_links(channels_sorted, days_threshold=10)
 
+    # 🔝 Reorder links by speed (fastest first), whitelists last
+    reorder_links(channels_sorted)
+
     # Save updated and sorted JSON
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
     print("\n")
     print("\n")
-    print(f"\n✅ Updated {JSON_FILE} with head/ffmpeg/mpv checks, status fields, reset URLs for old offline links, and sorted by group/name.")
+    print(f"\n✅ Updated {JSON_FILE} with head/ffmpeg/mpv checks, speed metrics, pass backend, "
+          f"reset URLs for old offline links, and sorted by group/name with per-channel link reordering.")
     print("\n")
     print("\n")
 
