@@ -60,7 +60,7 @@ jobs:
           else
             BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
             git pull --rebase origin "${BRANCH}" || true
-            git commit -m "🔄 Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S')) [skip ci]"
+            git commit -m "🔄 Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push origin "${BRANCH}"
           fi
 
