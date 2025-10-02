@@ -1,33 +1,32 @@
-name: Orchestrate EPG Pipeline
+name: "⏱️🔗 Orchestrate EPG Pipeline"
 
 on:
   schedule:
     - cron: "0 */4 * * *"     # every 4 hours (UTC)
   workflow_dispatch: {}       # manual: runs the full chain
 
-# Stop overlapping chains per branch
+# Use a DIFFERENT concurrency group than the child workflows to avoid deadlock
 concurrency:
-  group: epg-pipeline-${{ github.ref_name }}
+  group: epg-orchestrator-${{ github.ref_name }}
   cancel-in-progress: false
 
-# Pass repo secrets to called workflows when needed
 permissions:
   contents: write
 
 jobs:
   update_json_status:
-    name: 1) Update JSON Status
+    name: "1️⃣ 🛰️ Update JSON Status"
     uses: ./.github/workflows/update_json_status.yml
     secrets: inherit
 
   combine_all_links:
-    name: 2) Combine All Links
+    name: "2️⃣ 📺🔗 Combine All Links"
     needs: [update_json_status]
     uses: ./.github/workflows/combine_all_links.yml
     secrets: inherit
 
   epg:
-    name: 3) EPG
+    name: "3️⃣ 🧭📺 Generate & Publish EPG"
     needs: [combine_all_links]
     uses: ./.github/workflows/epg.yml
     secrets: inherit
