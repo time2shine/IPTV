@@ -48,6 +48,20 @@
       }
     ]
   },
+  "BBC Lifestyle": {
+    "group": "International",
+    "tvg_id": "BBC Lifestyle",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/BBC_Lifestyle.svg",
+    "links": [
+      {
+        "url": "http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-08",
+        "last_offline": null
+      }
+    ]
+  },
   "ASIAN TV": {
     "group": "Bangla",
     "tvg_id": "asiantv.bd",
@@ -2547,6 +2561,20 @@
     "links": [
       {
         "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8",
+        "status": "online",
+        "last_online": "2025-09-03",
+        "first_online": "2025-09-03",
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Sony Entertainment Television": {
+    "group": "India",
+    "tvg_id": "SonyEntertainmentTelevesion.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/98/SET_LOGO.png",
+    "links": [
+      {
+        "url": "http://stvlive.net:8080/sonyentten/index.m3u8",
         "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -10870,11 +10898,18 @@
       }
     ]
   },
-  "CR | Sony sports 5": {
+  "--Live(Sony sports 5)": {
     "group": "Sports",
     "tvg_id": "Sony sports 5",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/18/Sony_Sports_Ten_5.png",
     "links": [
+      {
+        "url": "http://stvlive.net:8080/sonyten5/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": "2025-09-27",
+        "last_offline": null
+      },
       {
         "url": "https://tiger-hub.vercel.app/SONY/Sports-5/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
@@ -11773,7 +11808,7 @@
       }
     ]
   },
-  "MIXER | beIN SPORTS XTRA": {
+  "--Live(beIN SPORTS XTRA)--": {
     "group": "Sports",
     "tvg_id": "BeiNSportsExtra",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png",
