@@ -388,10 +388,10 @@ def update_status_parallel(channels: Dict[str, Dict]):
         status, dur, note = ffmpeg_check(url)
 
         if status in ("online", "slow"):
-            print(f"🟢 {channel_name} (ffmpeg) {dur:.1f}s -> {url}")
+            print(f"🟢 (FFMPEG) {dur:.1f}s {channel_name} -> {url}")
             return url, "online", note or "ffmpeg", dur, "ffmpeg"
         elif status == "mpv_online":
-            print(f"🟢 {channel_name} (mpv) {dur:.1f}s -> {url}")
+            print(f"🟢 [MPV]    {dur:.1f}s {channel_name} -> {url}")
             return url, "online", note or "mpv", dur, "mpv"
         else:
             print(f"🔴 {channel_name} -> {url}")
