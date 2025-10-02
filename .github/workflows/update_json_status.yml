@@ -1,13 +1,18 @@
-name: 🔁 Update Channels & Movies (Daily 03:21 BDT)
+name: 🔁 Update Channels & Movies
 
 on:
-  schedule:
-    # Runs every day at 3:21 AM Bangladesh time (UTC+6 → 21:21 UTC previous day)
-    - cron: '21 21 * * *'
-  workflow_dispatch:  # ▶️ Allow manual trigger
+  # Reusable from orchestrator
+  workflow_call: {}
+  # Manual trigger from Actions tab
+  workflow_dispatch: {}
 
 permissions:
   contents: write  # needed for committing & pushing changes
+
+# Prevent overlapping runs per branch
+concurrency:
+  group: epg-pipeline-${{ github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   update-channels:
@@ -22,6 +27,9 @@ jobs:
     steps:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0  # so we can commit & push
 
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
@@ -81,7 +89,7 @@ jobs:
           which ffmpeg
           ffmpeg -version
 
-      # ---------- Your scripts ----------
+      # ---------- scripts ----------
       - name: 📡 Check Channel statuses (FFmpeg/MPV)
         run: python static_channels_update.py
 
@@ -92,8 +100,12 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u
-          git commit -m "🔄 Update links online/offline status" || echo "No changes to commit"
-
-      - name: 🚀 Push changes
-        run: git push
+          git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u || true
+          if ! git diff --cached --quiet; then
+            BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
+            git pull --rebase origin "${BRANCH}" || true
+            git commit -m "🔄 Update links online/offline status [skip ci]"
+            git push origin "${BRANCH}"
+          else
+            echo "No changes to commit"
+          fi
