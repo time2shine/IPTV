@@ -104,7 +104,7 @@ jobs:
           if ! git diff --cached --quiet; then
             BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
             git pull --rebase origin "${BRANCH}" || true
-            git commit -m "🔄 Update links online/offline status [skip ci]"
+            git commit -m "🔄 Update links online/offline status"
             git push origin "${BRANCH}"
           else
             echo "No changes to commit"
