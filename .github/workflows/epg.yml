@@ -1,37 +1,59 @@
-name: Generate EPG
+name: "🧭📺 Generate & Publish EPG"
 
 on:
-  schedule:
-    - cron: "0 */4 * * *"   # Run every 4 hours
-  workflow_dispatch:
+  # Called by the orchestrator
+  workflow_call: {}
+  # Can still run manually from Actions tab
+  workflow_dispatch: {}
+
+permissions:
+  contents: write  # needed to commit & push results
+
+# Prevent overlapping runs per branch
+concurrency:
+  group: epg-pipeline-${{ github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   build:
+    name: "🛠️ Build EPG"
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: "📥 Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0  # allow committing & rebasing
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.13"
+      - name: "🐍 Set up Python 3.13"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 lxml playwright pytz
-        playwright install chromium
+      - name: "📦 Install scraper dependencies"
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml playwright pytz
+          playwright install chromium
 
+      - name: "🕷️ Run EPG scraper"
+        run: python epg_scraper.py
 
-    - name: Run scraper
-      run: python epg_scraper.py
+      - name: "📝 Commit & 🚀 Push epg.xml (if changed)"
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-    - name: Commit and push results
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add epg.xml
-        git commit -m "Update EPG ($(date))" || echo "No changes"
-        git push
+          git add epg.xml || true
+          if git diff --cached --quiet; then
+            echo "No changes to epg.xml"
+          else
+            BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
+            git pull --rebase origin "${BRANCH}" || true
+            git commit -m "🔄 EPG update ($(date '+%Y-%m-%d %H:%M:%S %Z')) [skip ci]"
+            git push origin "${BRANCH}"
+          fi
