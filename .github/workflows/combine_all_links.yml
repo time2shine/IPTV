@@ -1,4 +1,4 @@
-name: YouTube and Static link combination
+name: "📺🔗 Combine YouTube & Static IPTV Links"
 
 on:
   schedule:
@@ -8,31 +8,32 @@ on:
 
 jobs:
   gathering_all_IPTV:
+    name: "🚀 Build & Publish Combined IPTV Playlist"
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: "📥 Checkout repository"
       uses: actions/checkout@v3
 
-    - name: Set up Python
+    - name: "🐍 Set up Python 3.11"
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
         
-    - name: Create cookies.txt from secret
+    - name: "🍪 Create cookies.txt from secret"
       run: |
         echo "${{ secrets.COOKIES }}" > cookies.txt
 
-    - name: Install dependencies
+    - name: "📦 Install dependencies"
       run: |
         python -m pip install --upgrade pip
         pip install yt_dlp
 
-    - name: Run main script to get all latest links from YouTube
+    - name: "🎣 Fetch latest YouTube links"
       run: |
         python YT_get_YouTube_link.py
 
-    - name: Commit and push YouTube playlist (YT_playlist.m3u)
+    - name: "⬆️ Commit & push YouTube playlist (YT_playlist.m3u)"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -43,15 +44,15 @@ jobs:
         if git diff --cached --quiet; then
             echo "No changes to YT_playlist.m3u"
         else
-            git commit -m "Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "🔄 Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
         fi
 
-    - name: Run combine_playlist script to combine YouTube and Working_playlist together
+    - name: "🔀 Combine YouTube & static playlists"
       run: |
         python combine_playlists.py
 
-    - name: Commit and push combined playlist (combined.m3u)
+    - name: "⬆️ Commit & push combined playlist (combined.m3u)"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -59,6 +60,6 @@ jobs:
         if git diff --cached --quiet; then
             echo "No changes to combined.m3u"
         else
-            git commit -m "Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "🔄 Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
         fi
