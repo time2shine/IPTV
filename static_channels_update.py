@@ -112,6 +112,8 @@ WHITELIST_DOMAINS = [
     "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii",
     "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv",
     "http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c",
+    "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv",
+    "https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv",
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://indiatodaylive.akamaized.net",
