@@ -452,28 +452,10 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
-    "ndtvindia": (
-        "NDTV Hindi",
-        "https://logodix.com/logo/2131933.jpg",
-        "https://tvgenie.in/ndtv-india-schedule",
-        scrape_tvgenie
-    ),
-    "ndtvenglish": (
-        "NDTV English",
-        "https://yt3.googleusercontent.com/ytc/AIdro_lcj8idHNsaTiTITY2vWQD6gaxZ6ITkpQPaLVskaDMyiml9=s160-c-k-c0x00ffffff-no-rj",
-        "https://tvgenie.in/ndtv-24x7-schedule",
-        scrape_tvgenie
-    ),
     "IndiaTV.in": (
         "India TV",
         "https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg",
         "https://tvgenie.in/india-tv-schedule",
-        scrape_tvgenie
-    ),
-    "indiatoday.in": (
-        "India Today",
-        "https://static.wikia.nocookie.net/logopedia/images/2/25/India_Today_TV.jpg",
-        "https://tvgenie.in/india-today-schedule",
         scrape_tvgenie
     ),
     "DDNews.in": (
@@ -522,12 +504,6 @@ CHANNELS = {
         "STAR BHARAT",
         "https://static.wikia.nocookie.net/logopedia/images/7/7b/Star_Bharat_2022.png",
         "https://tvgenie.in/star-bharat-schedule",
-        scrape_tvgenie
-    ),
-    "sonysabhd.in": (
-        "SONY SAB HD",
-        "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
-        "https://tvgenie.in/sony-sab-hd-schedule",
         scrape_tvgenie
     ),
     "EpicTV.in": (
