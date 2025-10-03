@@ -122,7 +122,6 @@ WHITELIST_DOMAINS = [
     "https://live.dinesh29.com",
     "https://feeds.intoday.in",
     "http://mtv.sunplex.live",
-    "http://185.236.230.212",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
     "http://103.78.255.178",
