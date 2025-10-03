@@ -452,6 +452,120 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
+    "ndtvindia": (
+        "NDTV Hindi",
+        "https://logodix.com/logo/2131933.jpg",
+        "https://tvgenie.in/ndtv-india-schedule",
+        scrape_tvgenie
+    ),
+    "ndtvenglish": (
+        "NDTV English",
+        "https://yt3.googleusercontent.com/ytc/AIdro_lcj8idHNsaTiTITY2vWQD6gaxZ6ITkpQPaLVskaDMyiml9=s160-c-k-c0x00ffffff-no-rj",
+        "https://tvgenie.in/ndtv-24x7-schedule",
+        scrape_tvgenie
+    ),
+    "IndiaTV.in": (
+        "India TV",
+        "https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg",
+        "https://tvgenie.in/india-tv-schedule",
+        scrape_tvgenie
+    ),
+    "indiatoday.in": (
+        "India Today",
+        "https://static.wikia.nocookie.net/logopedia/images/2/25/India_Today_TV.jpg",
+        "https://tvgenie.in/india-today-schedule",
+        scrape_tvgenie
+    ),
+    "DDNews.in": (
+        "DD News",
+        "https://static.wikia.nocookie.net/logopedia/images/d/d6/DD_News_new_logo_2024.jpg",
+        "https://tvgenie.in/dd-news-schedule",
+        scrape_tvgenie
+    ),
+    "CNBCAwaaz": (
+        "CNBC Awaaz",
+        "https://static.wikia.nocookie.net/logopedia/images/1/18/CNBC_Awaaz_2025.svg",
+        "https://tvgenie.in/cnbc-awaaz-schedule",
+        scrape_tvgenie
+    ),
+    "BharatSamacharTV.in": (
+        "Bharat Samachar TV",
+        "https://bharatsamachartv.com/images/logo.png",
+        "https://tvgenie.in/bharat-samachar-schedule",
+        scrape_tvgenie
+    ),
+    "Abp.in": (
+        "ABP News",
+        "https://static.wikia.nocookie.net/logopedia/images/e/eb/ABP_News.svg",
+        "https://tvgenie.in/abp-news-schedule",
+        scrape_tvgenie
+    ),
+    "AajTak.in": (
+        "Aaj Tak HD",
+        "https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png",
+        "https://tvgenie.in/aaj-tak-hd-schedule",
+        scrape_tvgenie
+    ),
+    "ZEETV.tv": (
+        "ZEE TV HD",
+        "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
+        "https://tvgenie.in/zee-tv-hd-schedule",
+        scrape_tvgenie
+    ),
+    "STARBHARATHD": (
+        "STAR BHARAT HD",
+        "https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png",
+        "https://tvgenie.in/star-bharat-hd-schedule",
+        scrape_tvgenie
+    ),
+    "STARBHARAT": (
+        "STAR BHARAT",
+        "https://static.wikia.nocookie.net/logopedia/images/7/7b/Star_Bharat_2022.png",
+        "https://tvgenie.in/star-bharat-schedule",
+        scrape_tvgenie
+    ),
+    "sonysabhd.in": (
+        "SONY SAB HD",
+        "https://static.wikia.nocookie.net/logopedia/images/1/18/SONY_SAB_SD.png",
+        "https://tvgenie.in/sony-sab-hd-schedule",
+        scrape_tvgenie
+    ),
+    "EpicTV.in": (
+        "Epic TV",
+        "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
+        "https://tvgenie.in/epic-schedule",
+        scrape_tvgenie
+    ),
+    "E24.in": (
+        "E24",
+        "https://static.wikia.nocookie.net/logopedia/images/4/48/E24_new.jpg",
+        "https://tvgenie.in/e24-schedule",
+        scrape_tvgenie
+    ),
+    "DDNational.in@HD": (
+        "DD National HD",
+        "https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png",
+        "https://tvgenie.in/dd-national-schedule",
+        scrape_tvgenie
+    ),
+    "DDBharati.in": (
+        "DD Bharati",
+        "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
+        "https://tvgenie.in/dd-bharati-schedule",
+        scrape_tvgenie
+    ),
+    "DangalTV.in": (
+        "Dangal TV",
+        "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
+        "https://tvgenie.in/dangal-schedule",
+        scrape_tvgenie
+    ),
+    "AndTV.in": (
+        "&TV HD",
+        "https://static.wikia.nocookie.net/logopedia/images/4/4c/%26TV_HD_%282025%29.svg",
+        "https://tvgenie.in/and-tv-hd-schedule",
+        scrape_tvgenie
+    ),
     "starjalsha.in": (
         "Star Jalsha",
         "https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png",
