@@ -3500,14 +3500,7 @@
         "probe_time_s": 3.637,
         "speed": 0.55,
         "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "ENT | Sony Entertainment Television": {
-    "group": "India",
-    "tvg_id": "SonyEntertainmentTelevesion.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/98/SET_LOGO.png",
-    "links": [
+      },
       {
         "url": "http://stvlive.net:8080/sonyentten/index.m3u8",
         "status": "offline",
@@ -3556,7 +3549,7 @@
   },
   "ENT | STAR BHARAT HD": {
     "group": "India",
-    "tvg_id": "STAR BHARAT HD",
+    "tvg_id": "STARBHARATHD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png",
     "links": [
       {
@@ -3578,16 +3571,6 @@
     "links": [
       {
         "url": "https://live.dinesh29.com.np/stream/jiotvplus/starplushd/master.m3u8",
-        "status": "online",
-        "last_online": "2025-10-03",
-        "first_online": "2025-09-06",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "whitelist"
-      },
-      {
-        "url": "http://103.182.170.32:8888/play/a03o",
         "status": "online",
         "last_online": "2025-10-03",
         "first_online": "2025-09-06",
