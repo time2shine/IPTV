@@ -434,6 +434,12 @@ CHANNELS = {
         "https://www.tvguide.co.uk/channel/trt-world",
         scrape_tvguide
     ),
+    "SonyEntertainmentHD": (
+        "ENT | Sony Entertainment HD",
+        "https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",
+        "https://www.tvpassport.com/tv-listings/stations/sony-hd/6440",
+        scrape_tvpassport
+    ),
     "FoxNews.us": (
         "Fox News",
         "https://static.wikia.nocookie.net/logopedia/images/3/39/Fox_News_Channel_%282017%29.svg",
@@ -637,6 +643,18 @@ CHANNELS = {
         "https://static.epg.best/in/SonyTEN3.in.png",
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
+    ),
+    "IsharaTV.in": (
+        "ENT | Ishara TV",
+        "https://static.wikia.nocookie.net/logopedia/images/7/75/Ishara_tv.png",
+        "https://www.tvwish.com/IN/Channels/Ishara/1394/Schedule",
+        scrape_tvwish
+    ),
+    "EpicTV.in": (
+        "ENT | Epic TV",
+        "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
+        "https://www.tvwish.com/IN/Channels/EPIC/614/Schedule",
+        scrape_tvwish
     ),
     "DANGAL2": (
         "ENT | DANGAL2",
