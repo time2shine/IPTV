@@ -3479,7 +3479,7 @@
   "ENT | Pardesi TV": {
     "group": "India",
     "tvg_id": "PardesiTV",
-    "tvg_logo": "https://www.pardesitv.com/images/logo.png",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_l6ng9Q3XSycBvkucH0HoN0EuEgF7f4ZwSlPSIofS4_X9A=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
         "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
@@ -3496,18 +3496,8 @@
   "ENT | Sony Entertainment HD": {
     "group": "India",
     "tvg_id": "SonyEntertainmentHD",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SET_India_logo.svg/1200px-SET_India_logo.svg.png",
+    "tvg_logo": "https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",
     "links": [
-      {
-        "url": "http://195.181.169.162/SONY_HD/index.m3u8?token=test",
-        "status": "online",
-        "last_online": "2025-10-06",
-        "first_online": "2025-09-20",
-        "last_offline": null,
-        "probe_time_s": 6.017,
-        "speed": 0.332,
-        "passed_via": "ffmpeg"
-      },
       {
         "url": "http://stvlive.net:8080/sonyentten/index.m3u8",
         "status": "online",
