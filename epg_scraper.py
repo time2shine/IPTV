@@ -452,6 +452,12 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
+    "COLORS.in": (
+        "ENT | COLORS HD",
+        "https://static.wikia.nocookie.net/logopedia/images/1/19/Colorstv-logo-black-background.jpg",
+        "https://tvgenie.in/colors-hd-schedule",
+        scrape_tvgenie
+    ),
     "IndiaTV.in": (
         "India TV",
         "https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg",
@@ -530,12 +536,6 @@ CHANNELS = {
         "https://tvgenie.in/dd-bharati-schedule",
         scrape_tvgenie
     ),
-    "DangalTV.in": (
-        "Dangal TV",
-        "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
-        "https://tvgenie.in/dangal-schedule",
-        scrape_tvgenie
-    ),
     "AndTV.in": (
         "&TV HD",
         "https://static.wikia.nocookie.net/logopedia/images/4/4c/%26TV_HD_%282025%29.svg",
@@ -548,8 +548,8 @@ CHANNELS = {
         "https://tvgenie.in/star-jalsha-schedule",
         scrape_tvgenie
     ),
-    "colors.in": (
-        "Colors",
+    "colorsBangla.in": (
+        "Colors Bangla HD",
         "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
         "https://tvgenie.in/colors-bangla-hd-schedule",
         scrape_tvgenie
