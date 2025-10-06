@@ -662,6 +662,18 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
+    "RepublicTV.in": (
+        "NEWS | Republic TV",
+        "https://static.wikia.nocookie.net/logopedia/images/f/fe/Republic-logo2.svg",
+        "https://www.tvwish.com/IN/Channels/Republic-TV/732/Schedule",
+        scrape_tvwish
+    ),
+    "TimesNowNavbharat": (
+        "NEWS | Times Now Navbhara",
+        "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300003OW_20240131T032351SQUARE.png_20240131032352.png",
+        "https://www.tvwish.com/IN/Channels/Times-Now-Navbharat-HD/1598/Schedule",
+        scrape_tvwish
+    ),
     "StarPlus.in": (
         "ENT | Star Plus",
         "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
