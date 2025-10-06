@@ -222,7 +222,24 @@
       }
     ]
   },
-  "BTV": {
+  "BTV HD": {
+    "group": "Bangla",
+    "tvg_id": "btv.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg",
+    "links": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+        "status": "online",
+        "last_online": "2025-10-06",
+        "first_online": "2025-09-08",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      }
+    ]
+  },
+  "BTV SD": {
     "group": "Bangla",
     "tvg_id": "btv.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/12/BTV_HD_Logo.svg",
@@ -236,16 +253,6 @@
         "probe_time_s": 7.626,
         "speed": 0.262,
         "passed_via": "ffmpeg"
-      },
-      {
-        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
-        "status": "online",
-        "last_online": "2025-10-06",
-        "first_online": "2025-09-08",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "whitelist"
       }
     ]
   },
@@ -7590,17 +7597,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2b/Spacetoon_logo.png",
     "links": [
       {
-        "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/chunklist.m3u8",
-        "status": "online",
-        "last_online": "2025-10-06",
-        "first_online": "2025-09-12",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "whitelist"
-      },
-      {
-        "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8",
+        "url": "",
         "status": "online",
         "last_online": "2025-10-06",
         "first_online": "2025-09-12",
@@ -7795,14 +7792,7 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
-      }
-    ]
-  },
-  "BAN | JALSHA MOVIES SD": {
-    "group": "Movies",
-    "tvg_id": "JALSHAMOVIEs.in@SD",
-    "tvg_logo": "https://www.pngfind.com/pngs/m/73-738298_jalsha-movies-live-tv-hd-png-download.png",
-    "links": [
+      },
       {
         "url": "http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B",
         "status": "online",
