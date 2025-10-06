@@ -458,8 +458,26 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
+    "TV9Bharatvarsh": (
+        "NEWS | TV9 Bharatvarsh",
+        "https://static.wikia.nocookie.net/logopedia/images/a/ad/TV9_Bharatvarsh.jpeg",
+        "https://tvgenie.in/tv9-bharatvarsh-schedule",
+        scrape_tvgenie
+    ),
+    "ZEEBUSINESS": (
+        "NEWS | ZEE BUSINESS",
+        "https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg",
+        "https://tvgenie.in/zee-business-schedule",
+        scrape_tvgenie
+    ),
+    "ZEENews": (
+        "NEWS | ZEE News",
+        "https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg",
+        "https://tvgenie.in/zee-news-schedule",
+        scrape_tvgenie
+    ),
     "DangalTV.in": (
-        "ENT | Dangal TV"",
+        "ENT | Dangal TV",
         "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
         "https://tvgenie.in/dangal-schedule",
         scrape_tvgenie
@@ -643,6 +661,12 @@ CHANNELS = {
         "https://static.epg.best/in/SonyTEN3.in.png",
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
+    ),
+    "StarPlus.in": (
+        "ENT | Star Plus",
+        "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
+        "https://www.tvwish.com/IN/Channels/Star-Plus/1589/Schedule",
+        scrape_tvwish
     ),
     "IsharaTV.in": (
         "ENT | Ishara TV",
