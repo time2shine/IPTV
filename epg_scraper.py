@@ -452,6 +452,12 @@ CHANNELS = {
         "https://www.tvpassport.com/tv-listings/stations/cnn/70",
         scrape_tvpassport
     ),
+    "DangalTV.in": (
+        "ENT | Dangal TV"",
+        "https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png",
+        "https://tvgenie.in/dangal-schedule",
+        scrape_tvgenie
+    ),
     "COLORS.in": (
         "ENT | COLORS HD",
         "https://static.wikia.nocookie.net/logopedia/images/1/19/Colorstv-logo-black-background.jpg",
@@ -528,12 +534,6 @@ CHANNELS = {
         "DD National HD",
         "https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png",
         "https://tvgenie.in/dd-national-schedule",
-        scrape_tvgenie
-    ),
-    "DDBharati.in": (
-        "DD Bharati",
-        "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
-        "https://tvgenie.in/dd-bharati-schedule",
         scrape_tvgenie
     ),
     "AndTV.in": (
@@ -638,6 +638,12 @@ CHANNELS = {
         "https://tvgenie.in/sony-ten-3-hd-schedule",
         scrape_tvgenie
     ),
+    "DANGAL2": (
+        "ENT | DANGAL2",
+        "https://static.wikia.nocookie.net/logopedia/images/a/ac/Dangal_2.png",
+        "https://www.tvwish.com/IN/Channels/Dangal-2/1287/Schedule",
+        scrape_tvwish
+    ),
     "BhojpuriCinema.in": (
         "Bhojpuri Cinema",
         "https://static.wikia.nocookie.net/logopedia/images/a/ad/Bhojpuri_cinema.png",
@@ -727,6 +733,12 @@ CHANNELS = {
         "https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg",
         "https://www.tvwish.com/IN/Channels/Disney-Junior/611/Schedule",
         scrape_tvwish
+    ),
+    "DDBharati.in": (
+        "DD Bharati",
+        "https://static.wikia.nocookie.net/logopedia/images/d/db/DD_Bharati_english.png",
+        "https://www.ontvtonight.com/guide/listings/channel/1225515954",
+        scrape_ontvtonight
     ),
     "DisneyJunior.in@East": (
         "Disney Junior East",
