@@ -16,6 +16,20 @@
       }
     ]
   },
+  "Hindi | Colors Cineplex Bollywood": {
+    "group": "Movies",
+    "tvg_id": "ColorsCineplexBollywood.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c7/Colors_Cineplex_Bollywood.jpg",
+    "links": [
+      {
+        "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexBollywood/JCHLS/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "HI | PTC Music": {
     "group": "Music",
     "tvg_id": "PTCMusic.in@SD",
@@ -6613,16 +6627,6 @@
         "probe_time_s": 2.303,
         "speed": 0.868,
         "passed_via": "ffmpeg"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -7534,6 +7538,62 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "head_fail"
+      }
+    ]
+  },
+  "ENT | Manoranjan TV": {
+    "group": "India",
+    "tvg_id": "ManoranjanTV.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Manoranjan_TV.jpeg",
+    "links": [
+      {
+        "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Hindi | Star Gold Thrills": {
+    "group": "Movies",
+    "tvg_id": "StarGoldThrills.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b7/Star_Gold_Thrills.svg",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a0c0/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BHOJ | Filamchi Bhojpuri": {
+    "group": "Movies",
+    "tvg_id": "FilamchiBhojpuri.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/58/Filamchi_Bhojpuri_new.png",
+    "links": [
+      {
+        "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Disney Channel Hindi": {
+    "group": "Kids",
+    "tvg_id": "DisneyChannel.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6e/Disney_Channel_2017.svg",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -12643,7 +12703,7 @@
     "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_kPGCXyIAufCvR0HpbWJ_ePN9hzuuDMu0KfpBKH0-IF4g=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
+        "url": "https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
