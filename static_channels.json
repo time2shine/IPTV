@@ -16,6 +16,20 @@
       }
     ]
   },
+  "HI | PTC Music": {
+    "group": "Music",
+    "tvg_id": "PTCMusic.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/11/Ptc_Music.jpg",
+    "links": [
+      {
+        "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -1019,7 +1033,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c7/RPlus_Gold_logo_%282013%29.png",
     "links": [
       {
-        "url": "",
+        "url": "https://cdn-4.pishow.tv/live/1231/master.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-11",
@@ -4222,6 +4236,20 @@
       }
     ]
   },
+  "NEWS | Zee Hindustan": {
+    "group": "India",
+    "tvg_id": "ZeeHindustan.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Z_Bharat_English.jpg",
+    "links": [
+      {
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | ZEE News": {
     "group": "India",
     "tvg_id": "ZEENews",
@@ -6948,6 +6976,13 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/09/Rongeen_TV.jpeg",
     "links": [
       {
+        "url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
         "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
         "status": "online",
         "last_online": "2025-10-07",
@@ -7807,7 +7842,7 @@
     "tvg_logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
     "links": [
       {
-        "url": "",
+        "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-03",
@@ -9275,6 +9310,20 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
+      }
+    ]
+  },
+  "ENT | Shemaroo TV": {
+    "group": "India",
+    "tvg_id": "ShemarooTV.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/1/1b/Shemaroo_TV.svg",
+    "links": [
+      {
+        "url": "https://cdn-3.pishow.tv/live/230/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -13280,7 +13329,7 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png",
     "links": [
       {
-        "url": "http://nayatv.ydns.eu:80/xfireflix/flixfire/12331.ts",
+        "url": "https://tvsen5.aynaott.com/Ptvsports/index.m3u8",
         "status": "offline",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
@@ -13436,11 +13485,60 @@
       }
     ]
   },
+  "ENT | Sun TV": {
+    "group": "India",
+    "tvg_id": "SunTV.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/HD.SUN.jpg",
+    "links": [
+      {
+        "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HI | Steelbird Music": {
+    "group": "Music",
+    "tvg_id": "SteelbirdMusic.in@SD",
+    "tvg_logo": "https://steelbirdmusic.tv/m/images/logo1.png",
+    "links": [
+      {
+        "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Star Sports 1 Tamil HD)": {
+    "group": "Indian Sports",
+    "tvg_id": "StarSports1Tamil.in@HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Star_Sports_1_Tamil_HD.png",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/akamaissh101/ssh101/vboxsungosttamil/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "--Live(Star Sports 1 Hindi)--": {
     "group": "Sports",
     "tvg_id": "Star Sports 1 Hindi",
     "tvg_logo": "http://103.175.242.10/assets/images/Star%20Sports%2011732941309.png",
     "links": [
+        {
+        "url": "http://116.90.120.149:8000/play/a0bv/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
       {
         "url": "http://stvlive.net:8080/starsports1/index.m3u8",
         "status": "online",
