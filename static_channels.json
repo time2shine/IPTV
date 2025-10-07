@@ -3754,6 +3754,48 @@
       }
     ]
   },
+  "NEWS | CVR English": {
+    "group": "India",
+    "tvg_id": "CVREnglish.in@SD",
+    "tvg_logo": "https://i.imgur.com/k0WTQKi.png",
+    "links": [
+      {
+        "url": "https://static.wikia.nocookie.net/logopedia/images/7/78/CVR_English.jpg",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Channel WIN": {
+    "group": "Religious",
+    "tvg_id": "ChannelWIN.in@SD",
+    "tvg_logo": "https://i.imgur.com/yrBBCO4.png",
+    "links": [
+      {
+        "url": "https://static.wikia.nocookie.net/logopedia/images/e/e6/Winnetworkault.png",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | CNBC TV18": {
+    "group": "India",
+    "tvg_id": "CNBCTV18.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b0/CNBC_TV18_2025.svg",
+    "links": [
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/cnbc-tv18/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | CNBC Awaaz": {
     "group": "India",
     "tvg_id": "CNBCAwaaz",
@@ -8913,6 +8955,104 @@
         "probe_time_s": 5.992,
         "speed": 0.334,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "ENT | Indywood TV": {
+    "group": "India",
+    "tvg_id": "IndywoodTV.in",
+    "tvg_logo": "https://www.indywood.co.in/assets/logo-BS7pkz2G.png",
+    "links": [
+      {
+        "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | News Nation": {
+    "group": "India",
+    "tvg_id": "NewsNation.in@SD",
+    "tvg_logo": "https://yt3.googleusercontent.com/tWgKmMIT4YwdmT0z5S1MN2bIvoFN8_RvIsAWZbLwQVIpq21RO-_Y4sDzVdpj9l6wWRRz8YeUSg=s72-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | IBC 24": {
+    "group": "India",
+    "tvg_id": "IBC24.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4b/Ibc24.png",
+    "links": [
+      {
+        "url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Hyder TV": {
+    "group": "Religious",
+    "tvg_id": "HyderTV.ca",
+    "tvg_logo": "https://hyder.tv/wp-content/uploads/2019/08/Logo_HYDER-TV_high-res_013.png",
+    "links": [
+      {
+        "url": "https://cdn.live247stream.com/hyder/tv/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Geo Super)--": {
+    "group": "Sports",
+    "tvg_id": "GeoSuper.pk@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/Geo_Super.png",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a021/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Hindi | Colors Cineplex Superhits": {
+    "group": "Movies",
+    "tvg_id": "ColorsCineplexSuperhits.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a5/Colors_Cineplex_Superhits.png",
+    "links": [
+      {
+        "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexSuperhit/JCHLS/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "HINDI | Colors Cineplex": {
+    "group": "Movies",
+    "tvg_id": "ColorsCineplex.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b3/Colors_Cineplex.svg",
+    "links": [
+      {
+        "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
