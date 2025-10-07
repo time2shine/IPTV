@@ -75,6 +75,8 @@ https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8
 #EXTINF:-1 group-title="International News",Euronews English
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
+#EXTINF:-1 group-title="Kids",1. Disney Channel Hindi
+http://116.90.120.149:8000/play/a0bx/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Junior India
 http://116.90.120.149:8000/play/a0b3/index.m3u8
 #EXTINF:-1 group-title="Kids",2. Sonic
@@ -87,6 +89,8 @@ https://live.dinesh29.com.np/stream/jiotvplus/stargold2hd/master.m3u8
 https://live.dinesh29.com.np/stream/jiotvplus/stargoldhd/master.m3u8
 #EXTINF:-1 group-title="Movies",HINDI | Star Gold Select HD
 https://live.dinesh29.com.np/stream/jiotvplus/stargoldselecthd/master.m3u8
+#EXTINF:-1 group-title="Movies",Hindi | Star Gold Thrills
+http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="Music",HI | Mastiii
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
 #EXTINF:-1 group-title="Music",HI | MUSIC INDIA HD
@@ -97,6 +101,10 @@ https://live.dinesh29.com.np/stream/jiotvplus/maamusic/master.m3u8
 https://live.dinesh29.com.np/stream/jiotvplus/sunmusichd/master.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Teleritmo
 http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Geo Super)--
+http://116.90.120.149:8000/play/a021/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Star Sports 1 Hindi)--
+http://116.90.120.149:8000/play/a0bv/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)--
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 2 HD)
