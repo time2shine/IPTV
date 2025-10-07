@@ -6778,6 +6778,20 @@
       }
     ]
   },
+  "Nick HD+": {
+    "group": "Kids",
+    "tvg_id": "NickHDPlus.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/Nick_HD%2B.svg",
+    "links": [
+      {
+        "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "1. Nick Hindi": {
     "group": "Kids",
     "tvg_id": "Nick Hindi",
@@ -6792,6 +6806,34 @@
         "probe_time_s": 6.302,
         "speed": 0.317,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "HI | PTC Chakde": {
+    "group": "Music",
+    "tvg_id": "PTCChakde.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7a/PTC_Chakde.jpg",
+    "links": [
+      {
+        "url": "https://cdn-1.pishow.tv/live/449/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Bhoj | Oscar Movies Bhojpuri": {
+    "group": "Movies",
+    "tvg_id": "OscarMoviesBhojpuri.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f5/Oscar_movies_bhojpuri.png",
+    "links": [
+      {
+        "url": "https://cdn-4.pishow.tv/live/233/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
