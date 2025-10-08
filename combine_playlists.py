@@ -10,6 +10,7 @@ print = functools.partial(print, flush=True)
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
+CTGFUN_FILE = "(ctgfun)South_Indian_Movies.m3u"  # NEW
 OUTPUT_FILE = "combined.m3u"
 
 # Group order
@@ -31,10 +32,11 @@ GROUP_ORDER = [
     "Movies - Bangla",
     "Movies - English",
     "Movies - Hindi",
+    "Movies - Hindi Dubbed",  # NEW
 ]
 
 def parse_m3u(file_path):
-    """Parse M3U file and return list of (header, link, group, tvg_id, tvg_logo, is_movie)."""
+    """Parse M3U file and return list of (header, link, group, tvg_id, tvg_logo, is_movie=False)."""
     channels = []
     with open(file_path, encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
@@ -55,12 +57,12 @@ def parse_m3u(file_path):
         elif line and not line.startswith("#"):
             link = line
             if header and link:
-                channels.append((header, link, group, tvg_id, tvg_logo, False))  # Not a movie JSON
+                channels.append((header, link, group, tvg_id, tvg_logo, False))  # Not a movie M3U
             header, link = None, None
     return channels
 
 def generate_tvg_id(name):
-    """Generate a safe tvg-id from channel name."""
+    """Generate a safe tvg-id from channel/movie name."""
     return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
 
 def parse_json(file_path):
@@ -78,7 +80,7 @@ def parse_json(file_path):
         online_link = next((l["url"] for l in links if l.get("status") == "online"), None)
         if online_link:
             header = f'#EXTINF:-1 group-title="{group}",{channel_name}'
-            channels.append((header, online_link, group, tvg_id, tvg_logo, False))  # Not a movie JSON
+            channels.append((header, online_link, group, tvg_id, tvg_logo, False))
     return channels
 
 def parse_movies_json(file_path):
@@ -100,6 +102,46 @@ def parse_movies_json(file_path):
         if online_link:
             header = f'#EXTINF:-1 group-title="{group}",{display_name}'
             channels.append((header, online_link, group, tvg_id, tvg_logo, True))  # Flag as movie JSON
+    return channels
+
+def parse_m3u_movies(file_path):
+    """
+    Parse a movie-style M3U (like ctgfun) and flag items as movies so group order is preserved.
+    Returns list of (header, link, group, tvg_id, tvg_logo, is_movie=True).
+    """
+    channels = []
+    with open(file_path, encoding="utf-8", errors="ignore") as f:
+        lines = f.readlines()
+
+    header, link = None, None
+    for line in lines:
+        line = line.strip()
+        if line.startswith("#EXTINF"):
+            header = line
+            # Extract attributes
+            match_group = re.search(r'group-title="([^"]+)"', line)
+            group = match_group.group(1).strip() if match_group else "Movies"
+
+            match_tvg = re.search(r'tvg-id="([^"]*)"', line)
+            tvg_id = match_tvg.group(1) if match_tvg else None
+
+            match_logo = re.search(r'tvg-logo="([^"]*)"', line)
+            tvg_logo = match_logo.group(1) if match_logo else None
+
+            # Get the display name (text after the first comma)
+            parts = line.split(",", 1)
+            display_name = parts[1].strip() if len(parts) > 1 else ""
+            # If tvg-id missing, generate one from the display name
+            if not tvg_id:
+                tvg_id = generate_tvg_id(display_name)
+
+            # Rebuild header WITHOUT inserting tvg-id yet (save_m3u will normalize/inject)
+            header = f'#EXTINF:-1 group-title="{group}"' + (f' tvg-logo="{tvg_logo}"' if tvg_logo else "") + f",{display_name}"
+        elif line and not line.startswith("#"):
+            link = line
+            if header and link:
+                channels.append((header, link, group, tvg_id, tvg_logo, True))  # mark as movie
+            header, link = None, None
     return channels
 
 def save_m3u(channels, output_file):
@@ -141,14 +183,18 @@ def main():
     movie_channels = parse_movies_json(MOVIES_FILE)
     print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
 
-    # Combine all
-    combined_channels = json_channels + yt_channels + movie_channels
+    print("Parsing ctgfun Movies M3U...")
+    ctgfun_movies = parse_m3u_movies(CTGFUN_FILE)
+    print(f"{len(ctgfun_movies)} items found in {CTGFUN_FILE}\n")
 
-    # Deduplicate by channel name
+    # Combine all
+    combined_channels = json_channels + yt_channels + movie_channels + ctgfun_movies
+
+    # Deduplicate by channel/movie name (last part after the comma in EXTINF)
     unique_by_name = {}
     removed_channels = []
     for h, l, g, tid, logo, is_movie in combined_channels:
-        channel_name = h.split(",")[-1].strip()
+        channel_name = h.split(",", 1)[-1].strip()
         if channel_name not in unique_by_name:
             unique_by_name[channel_name] = (h, l, g, tid, logo, is_movie)
         else:
@@ -166,13 +212,13 @@ def main():
 
     # Sort channels in each group
     for g_name, ch_list in groups.items():
-        # Preserve order if any channel in group came from movies JSON
+        # Preserve original order if any item in the group is from a "movie" source (movies JSON or ctgfun M3U)
         if any(is_movie for _, _, _, _, _, is_movie in ch_list):
             groups[g_name] = ch_list
         else:
-            groups[g_name] = sorted(ch_list, key=lambda x: x[0].split(",")[-1].strip().lower())
+            groups[g_name] = sorted(ch_list, key=lambda x: x[0].split(",", 1)[-1].strip().lower())
 
-    # Sort groups by predefined order
+    # Sort groups by predefined order, then any others alphabetically
     sorted_channels = []
     for g in GROUP_ORDER + sorted([k for k in groups.keys() if k not in GROUP_ORDER]):
         sorted_channels.extend(groups.get(g, []))
