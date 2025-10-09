@@ -16,6 +16,48 @@
       }
     ]
   },
+  "XilamTV": {
+    "group": "Kids",
+    "tvg_id": "XilamTV.fr",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_k6spR1AVLZ0ISqrFP-Z9JeBMHPpAc9T-pmFlG6_lSkNw=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Beverly Hillbillies": {
+    "group": "Movies",
+    "tvg_id": "BeverlyHillbillies.us",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4f/The_Beverly_Hillbillies.svg",
+    "links": [
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f7796e470510900070d4e3d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c271cb4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=69bf4a83-189f-4b22-bbe6-f2e09a47e049",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "PowerNation TV": {
+    "group": "Educational",
+    "tvg_id": "PowerNationTV.us",
+    "tvg_logo": "https://i.imgur.com/jguTO8E.png",
+    "links": [
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63b48016d9dd51000828fa37livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b6275-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=534f5abf-183b-4b07-88d8-ba60af3de510&profilesFromStream=true",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -7483,6 +7525,13 @@
         "probe_time_s": 8.33,
         "speed": 0.24,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
