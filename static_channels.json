@@ -44,6 +44,20 @@
       }
     ]
   },
+  "EN | Cinevault Westerns": {
+    "group": "Movies",
+    "tvg_id": "CinevaultWesterns.us",
+    "tvg_logo": "https://billboardtvnetwork.com/wp-content/uploads/Stylized_grad_Westerns-2-02-300x169.jpg",
+    "links": [
+      {
+        "url": "https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "PowerNation TV": {
     "group": "Educational",
     "tvg_id": "PowerNationTV.us",
