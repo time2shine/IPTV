@@ -17,6 +17,15 @@ I **do not host or distribute any copyrighted content**. This project is purely 
 
 **Note:** This project is intended **strictly for personal and educational use**. All content is collected from public sources.
 
+**Copy this link for IPTV**
+```bash
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
+```
+**Copy this link for EPG**
+```bash
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml
+```
+
 ---
 
 ## 🚀 Features
