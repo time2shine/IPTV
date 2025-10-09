@@ -14,9 +14,9 @@ OUTPUT_FILE = "combined.m3u"
 
 # All movie M3Us files
 MOVIE_M3U_FILES = [
-    "(ctgfun)South_Indian_Movies.m3u",
-    "(ctgfun)Hindi_Movies.m3u",
-    "(ctgfun)English_Movies.m3u",
+    "(ctgfun)Movies_Hindi_Dubbed.m3u",
+    "(ctgfun)Movies_English.m3u",
+    "(ctgfun)Movies_Hindi.m3u",
     # add more here...
 ]
 
