@@ -10,9 +10,15 @@ print = functools.partial(print, flush=True)
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
-CTGFUN_FILE = "(ctgfun)South_Indian_Movies.m3u"
-CTGFUN_HINDI_FILE = "(ctgfun)Hindi_Movies.m3u"    # NEW
 OUTPUT_FILE = "combined.m3u"
+
+# All movie M3Us files
+MOVIE_M3U_FILES = [
+    "(ctgfun)South_Indian_Movies.m3u",
+    "(ctgfun)Hindi_Movies.m3u",
+    "(ctgfun)English_Movies.m3u",
+    # add more here...
+]
 
 # Group order
 GROUP_ORDER = [
@@ -70,9 +76,11 @@ def parse_m3u(file_path):
             header, link = None, None
     return channels
 
+
 def generate_tvg_id(name):
     """Generate a safe tvg-id from channel/movie name."""
     return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
+
 
 def parse_json(file_path):
     """Parse JSON file and extract only first online link for each channel."""
@@ -91,6 +99,7 @@ def parse_json(file_path):
             header = f'#EXTINF:-1 group-title="{group}",{channel_name}'
             channels.append((header, online_link, group, tvg_id, tvg_logo, False))
     return channels
+
 
 def parse_movies_json(file_path):
     """Parse movies JSON and extract first online link, adding year to name. Preserve order."""
@@ -112,6 +121,7 @@ def parse_movies_json(file_path):
             header = f'#EXTINF:-1 group-title="{group}",{display_name}'
             channels.append((header, online_link, group, tvg_id, tvg_logo, True))  # Flag as movie JSON
     return channels
+
 
 def parse_m3u_movies(file_path):
     """
@@ -153,6 +163,7 @@ def parse_m3u_movies(file_path):
             header, link = None, None
     return channels
 
+
 def extract_year_from_title(title: str) -> int:
     """
     Prefer a year in trailing parentheses, e.g., 'Name (1991)'.
@@ -164,6 +175,7 @@ def extract_year_from_title(title: str) -> int:
         return int(m.group(0)[1:5])  # strip parens and cast
     m = re.search(r'\b(19|20)\d{2}\b', title)
     return int(m.group(0)) if m else -1
+
 
 def save_m3u(channels, output_file):
     """Save combined channels to M3U file with normalized headers."""
@@ -189,6 +201,7 @@ def save_m3u(channels, output_file):
             new_header = f"{base_header},{channel_name}"
             f.write(f"{new_header}\n{link}\n")
 
+
 def main():
     start_time = time.time()
 
@@ -204,21 +217,23 @@ def main():
     movie_channels = parse_movies_json(MOVIES_FILE)
     print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
 
-    print("Parsing ctgfun South Indian Movies M3U...")
-    ctgfun_movies = parse_m3u_movies(CTGFUN_FILE)
-    print(f"{len(ctgfun_movies)} items found in {CTGFUN_FILE}\n")
-
-    print("Parsing ctgfun Hindi Movies M3U...")  # NEW
-    ctgfun_hindi_movies = parse_m3u_movies(CTGFUN_HINDI_FILE)
-    print(f"{len(ctgfun_hindi_movies)} items found in {CTGFUN_HINDI_FILE}\n")
+    # Parse all ctgfun-style M3U movie files from the manual list
+    ctgfun_channels = []
+    for path in MOVIE_M3U_FILES:
+        try:
+            print(f"Parsing {path}...")
+            items = parse_m3u_movies(path)
+            print(f"{len(items)} items found in {path}\n")
+            ctgfun_channels.extend(items)
+        except FileNotFoundError:
+            print(f"⚠️  Skipping missing file: {path}\n")
 
     # Combine all
     combined_channels = (
         json_channels
         + yt_channels
         + movie_channels
-        + ctgfun_movies
-        + ctgfun_hindi_movies  # NEW
+        + ctgfun_channels   # all listed ctgfun files merged
     )
 
     # Deduplicate by channel/movie name (last part after the comma in EXTINF)
@@ -267,6 +282,7 @@ def main():
     save_m3u(sorted_channels, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
     print(f"⏱ Total script time: {time.time() - start_time:.2f} seconds")
+
 
 if __name__ == "__main__":
     main()
