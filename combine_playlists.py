@@ -36,6 +36,14 @@ GROUP_ORDER = [
     "Movies - Hindi Dubbed",
 ]
 
+# Movie groups for special sorting (year desc, then name asc)
+MOVIE_GROUPS = {
+    "Movies - Bangla",
+    "Movies - English",
+    "Movies - Hindi",
+    "Movies - Hindi Dubbed",
+}
+
 def parse_m3u(file_path):
     """Parse M3U file and return list of (header, link, group, tvg_id, tvg_logo, is_movie=False)."""
     channels = []
@@ -107,7 +115,7 @@ def parse_movies_json(file_path):
 
 def parse_m3u_movies(file_path):
     """
-    Parse a movie-style M3U (like ctgfun) and flag items as movies so group order is preserved.
+    Parse a movie-style M3U (like ctgfun) and flag items as movies so group order can be handled specially.
     Returns list of (header, link, group, tvg_id, tvg_logo, is_movie=True).
     """
     channels = []
@@ -144,6 +152,18 @@ def parse_m3u_movies(file_path):
                 channels.append((header, link, group, tvg_id, tvg_logo, True))  # mark as movie
             header, link = None, None
     return channels
+
+def extract_year_from_title(title: str) -> int:
+    """
+    Prefer a year in trailing parentheses, e.g., 'Name (1991)'.
+    Fallback: first 19xx/20xx anywhere.
+    Returns -1 when not found so 'no-year' items sort last.
+    """
+    m = re.search(r'\((19|20)\d{2}\)\s*$', title)
+    if m:
+        return int(m.group(0)[1:5])  # strip parens and cast
+    m = re.search(r'\b(19|20)\d{2}\b', title)
+    return int(m.group(0)) if m else -1
 
 def save_m3u(channels, output_file):
     """Save combined channels to M3U file with normalized headers."""
@@ -223,11 +243,21 @@ def main():
 
     # Sort channels in each group
     for g_name, ch_list in groups.items():
-        # Preserve original order if any item in the group is from a "movie" source (movies JSON or ctgfun M3U)
-        if any(is_movie for _, _, _, _, _, is_movie in ch_list):
-            groups[g_name] = ch_list
+        # Sort if group is one of the four explicit movie groups
+        # OR if the entire group consists of movie items (e.g., ctgfun groups)
+        if (g_name in MOVIE_GROUPS) or all(is_movie for _, _, _, _, _, is_movie in ch_list):
+            groups[g_name] = sorted(
+                ch_list,
+                key=lambda x: (
+                    -extract_year_from_title(x[0].split(",", 1)[-1].strip()),
+                    x[0].split(",", 1)[-1].strip().lower(),
+                ),
+            )
         else:
-            groups[g_name] = sorted(ch_list, key=lambda x: x[0].split(",", 1)[-1].strip().lower())
+            # Alphabetical by name for regular channel groups
+            groups[g_name] = sorted(
+                ch_list, key=lambda x: x[0].split(",", 1)[-1].strip().lower()
+            )
 
     # Sort groups by predefined order, then any others alphabetically
     sorted_channels = []
