@@ -10,7 +10,8 @@ print = functools.partial(print, flush=True)
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
-CTGFUN_FILE = "(ctgfun)South_Indian_Movies.m3u"  # NEW
+CTGFUN_FILE = "(ctgfun)South_Indian_Movies.m3u"
+CTGFUN_HINDI_FILE = "(ctgfun)Hindi_Movies.m3u"    # NEW
 OUTPUT_FILE = "combined.m3u"
 
 # Group order
@@ -32,7 +33,7 @@ GROUP_ORDER = [
     "Movies - Bangla",
     "Movies - English",
     "Movies - Hindi",
-    "Movies - Hindi Dubbed",  # NEW
+    "Movies - Hindi Dubbed",
 ]
 
 def parse_m3u(file_path):
@@ -183,12 +184,22 @@ def main():
     movie_channels = parse_movies_json(MOVIES_FILE)
     print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
 
-    print("Parsing ctgfun Movies M3U...")
+    print("Parsing ctgfun South Indian Movies M3U...")
     ctgfun_movies = parse_m3u_movies(CTGFUN_FILE)
     print(f"{len(ctgfun_movies)} items found in {CTGFUN_FILE}\n")
 
+    print("Parsing ctgfun Hindi Movies M3U...")  # NEW
+    ctgfun_hindi_movies = parse_m3u_movies(CTGFUN_HINDI_FILE)
+    print(f"{len(ctgfun_hindi_movies)} items found in {CTGFUN_HINDI_FILE}\n")
+
     # Combine all
-    combined_channels = json_channels + yt_channels + movie_channels + ctgfun_movies
+    combined_channels = (
+        json_channels
+        + yt_channels
+        + movie_channels
+        + ctgfun_movies
+        + ctgfun_hindi_movies  # NEW
+    )
 
     # Deduplicate by channel/movie name (last part after the comma in EXTINF)
     unique_by_name = {}
