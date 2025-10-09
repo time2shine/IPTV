@@ -1,5 +1,14 @@
 # 📺 IPTV
 
+**Copy this link for IPTV**
+```bash
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
+```
+**Copy this link for EPG**
+```bash
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml
+```
+
 ---
 
 **IPTV Playlist & EPG Manager**
@@ -16,15 +25,6 @@ I **do not host or distribute any copyrighted content**. This project is purely 
 * 🌐 Fully sourced from publicly available platforms, ensuring legal compliance
 
 **Note:** This project is intended **strictly for personal and educational use**. All content is collected from public sources.
-
-**Copy this link for IPTV**
-```bash
-https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
-```
-**Copy this link for EPG**
-```bash
-https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml
-```
 
 ---
 
