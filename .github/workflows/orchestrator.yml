@@ -19,14 +19,20 @@ jobs:
     uses: ./.github/workflows/update_json_status.yml
     secrets: inherit
 
-  combine_all_links:
-    name: "2️⃣ 📺🔗 Combine All Links"
+  youtube_playlist:
+    name: "2️⃣ 🎣 Build YouTube Playlist"
     needs: [update_json_status]
-    uses: ./.github/workflows/combine_all_links.yml
+    uses: ./.github/workflows/youtube_playlist.yml
+    secrets: inherit
+
+  combine_playlists:
+    name: "3️⃣ 🔀 Combine YouTube & Static IPTV Links"
+    needs: [youtube_playlist]
+    uses: ./.github/workflows/combine_playlists.yml
     secrets: inherit
 
   epg:
-    name: "3️⃣ 🧭📺 Generate & Publish EPG"
-    needs: [combine_all_links]
+    name: "4️⃣ 🧭📺 Generate & Publish EPG"
+    needs: [combine_playlists]
     uses: ./.github/workflows/epg.yml
     secrets: inherit
