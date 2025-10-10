@@ -196,18 +196,14 @@ def save_m3u(items: list[Item], output_file: str):
 
 def main():
     start = time.time()
-    print("Parsing YouTube playlist...")
     yt = parse_m3u(YT_FILE)
-    print(f"{len(yt)} channels found in {YT_FILE}\n")
-
+    print(f"{len(yt)} channels found in {YT_FILE}")
     chans = parse_json_channels(JSON_FILE)
-    print(f"{len(chans)} online channels found in {JSON_FILE}\n")
-
+    print(f"{len(chans)} online channels found in {JSON_FILE}")
     movies = parse_movies_json(MOVIES_FILE)
-    print(f"{len(movies)} online movie channels found in {MOVIES_FILE}\n")
-
+    print(f"{len(movies)} online movie channels found in {MOVIES_FILE}")
     ctg = parse_ctgfun_movies_json(CTG_FUN_MOVIES_JSON)
-    print(f"{len(ctg)} items found in {CTG_FUN_MOVIES_JSON}\n")
+    print(f"{len(ctg)} items found in {CTG_FUN_MOVIES_JSON}")
 
     combined = chans + yt + movies + ctg
 
