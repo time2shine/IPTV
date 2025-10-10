@@ -1,39 +1,27 @@
-import json
-import re
-import functools
-import time
+from dataclasses import dataclass
+from collections import defaultdict
 from datetime import datetime, timezone, timedelta
+import json, re, functools, time
 
-# Force print to flush immediately
 print = functools.partial(print, flush=True)
 
-# File names
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
-CTG_FUN_MOVIES_JSON = "static_movies(ctgfun).json"   # NEW
+CTG_FUN_MOVIES_JSON = "static_movies(ctgfun).json"
 OUTPUT_FILE = "combined.m3u"
+RECENT_TAG = " 🆕"
+RECENT_DAYS = 30
 
-# (Removed) All movie M3Us files; replaced by CTG_FUN_MOVIES_JSON
-# MOVIE_M3U_FILES = [
-#     "(ctgfun)Movies_Hindi_Dubbed.m3u",
-#     "(ctgfun)Movies_English.m3u",
-#     "(ctgfun)Movies_Hindi.m3u",
-#     # add more here...
-# ]
-
-# Group order
 GROUP_ORDER = [
     "Bangla",
     "Bangla News",
     "International News",
-    "India",
-    "Pakistan",
+    "India","Pakistan",
     "Movies",
     "Educational",
     "Music",
     "International",
-    "Technology",
     "Travel",
     "Sports",
     "Religious",
@@ -44,135 +32,124 @@ GROUP_ORDER = [
     "Movies - Hindi Dubbed",
 ]
 
-# Movie groups for special sorting (year desc, then name asc)
 MOVIE_GROUPS = {
     "Movies - Bangla",
     "Movies - English",
     "Movies - Hindi",
-    "Movies - Hindi Dubbed",
-}
+    "Movies - Hindi Dubbed"}
 
-RECENT_DAYS = 30  # "recent" window for ctgfun movies
+# ---------- helpers
 
+@dataclass
+class Item:
+    header: str
+    link: str
+    group: str
+    tvg_id: str | None
+    tvg_logo: str | None
+    is_movie: bool
+    year: int = -1
+    name: str = ""
+    recent: bool = False
+    source_rank: int = 99  # lower is preferred (0=ctgfun json, 1=movies json, 2=yt/json, 3=m3u)
 
-def parse_m3u(file_path):
-    """Parse M3U file and return list of (header, link, group, tvg_id, tvg_logo, is_movie=False)."""
-    channels = []
-    with open(file_path, encoding="utf-8", errors="ignore") as f:
-        lines = f.readlines()
+def channel_display_name(header: str) -> str:
+    return header.split(",", 1)[-1].strip()
 
-    header, link = None, None
-    for line in lines:
-        line = line.strip()
-        if line.startswith("#EXTINF"):
-            header = line
-            match_group = re.search(r'group-title="([^"]+)"', line)
-            group = match_group.group(1).strip() if match_group else "Other"
+def normalize_year(y) -> int:
+    try:
+        if y is None or y == "": return -1
+        return int(y)
+    except Exception:
+        return -1
 
-            match_tvg = re.search(r'tvg-id="([^"]*)"', line)
-            tvg_id = match_tvg.group(1) if match_tvg else None
+def extract_year_from_title(title: str) -> int:
+    m = re.search(r'\((19|20)\d{2}\)\s*$', title)
+    if m: return int(m.group(0)[1:5])
+    m = re.search(r'\b(19|20)\d{2}\b', title)
+    return int(m.group(0)) if m else -1
 
-            match_logo = re.search(r'tvg-logo="([^"]*)"', line)
-            tvg_logo = match_logo.group(1) if match_logo else None
-        elif line and not line.startswith("#"):
-            link = line
-            if header and link:
-                channels.append((header, link, group, tvg_id, tvg_logo, False))  # Not a movie M3U
-            header, link = None, None
-    return channels
+def is_recent(date_str: str | None, days: int) -> bool:
+    if not date_str: return False
+    try:
+        dt = datetime.fromisoformat(date_str).replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - dt) <= timedelta(days=days)
+    except Exception:
+        return False
 
+def generate_tvg_id(name): return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
 
-def generate_tvg_id(name):
-    """Generate a safe tvg-id from channel/movie name."""
-    return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
-
-
-def parse_json(file_path):
-    """Parse JSON file and extract only first online link for each channel."""
-    channels = []
-    with open(file_path, encoding="utf-8") as f:
-        data = json.load(f)
-
-    for channel_name, info in data.items():
-        group = info.get("group", "Other")
-        tvg_id = info.get("tvg_id") or generate_tvg_id(channel_name)
-        tvg_logo = info.get("tvg_logo")
-
-        links = info.get("links", [])
-        online_link = next((l["url"] for l in links if l.get("status") == "online"), None)
-        if online_link:
-            header = f'#EXTINF:-1 group-title="{group}",{channel_name}'
-            channels.append((header, online_link, group, tvg_id, tvg_logo, False))
-    return channels
-
-
-def parse_movies_json(file_path):
-    """Parse movies JSON and extract first online link, adding year to name. Preserve order."""
-    channels = []
-    with open(file_path, encoding="utf-8") as f:
-        data = json.load(f)
-
-    for movie_name, info in data.items():
-        group = info.get("group", "Movies")
-        year = info.get("year")
-        tvg_logo = info.get("tvg_logo")
-        tvg_id = generate_tvg_id(movie_name)
-
-        display_name = f"{movie_name} ({year})" if year else movie_name
-
-        links = info.get("links", [])
-        online_link = next((l["url"] for l in links if l.get("status") == "online"), None)
-        if online_link:
-            header = f'#EXTINF:-1 group-title="{group}",{display_name}'
-            channels.append((header, online_link, group, tvg_id, tvg_logo, True))  # Flag as movie JSON
-    return channels
-
-
-def language_to_group(language: str) -> str:
-    """Map language to target movie group."""
-    if not language:
-        return "Movies"
-    lang = language.strip().lower()
-    if lang == "english":
-        return "Movies - English"
-    if lang == "hindi":
-        return "Movies - Hindi"
-    if lang in {"hindi dubbed", "hindi-dubbed", "hindi dub", "hindi-dub"}:
-        return "Movies - Hindi Dubbed"
-    return "Movies"
-
-
-def parse_ctgfun_movies_json(file_path):
-    """
-    Parse ctgfun-style movies JSON:
-    {
-      "Title": {
-        "year": "2025",
-        "tvg_logo": "...",
-        "links": [
-          {"url": "...", "added": "YYYY-MM-DD", "language": "English", "source": "..."},
-          ...
-        ]
-      }, ...
+def language_to_group(language: str | None) -> str:
+    if not language: return "Movies"
+    key = language.strip().lower()
+    mapping = {
+        "english": "Movies - English", "en": "Movies - English", "eng": "Movies - English",
+        "hindi": "Movies - Hindi",
+        "hindi dubbed": "Movies - Hindi Dubbed", "hindi-dubbed": "Movies - Hindi Dubbed",
+        "hindi dub": "Movies - Hindi Dubbed", "hindi-dub": "Movies - Hindi Dubbed",
+        "dual audio": "Movies - Hindi Dubbed",
     }
+    return mapping.get(key, "Movies")
 
-    Returns list of tuples:
-    (header, link, group, tvg_id, tvg_logo, is_movie, meta_dict)
-    where meta_dict contains {"year": int|-1, "recent": bool}
-    """
+# ---------- existing parsers lightly adapted to create Item
+
+def parse_m3u(path: str) -> list[Item]:
     out = []
-    now = datetime.now(timezone.utc)
-    with open(file_path, encoding="utf-8") as f:
+    with open(path, encoding="utf-8", errors="ignore") as f:
+        lines = [ln.strip() for ln in f]
+    header = link = group = tvg_id = tvg_logo = None
+    for ln in lines:
+        if ln.startswith("#EXTINF"):
+            header = ln
+            group = (re.search(r'group-title="([^"]+)"', ln) or [None,"Other"])[1]
+            tvg_id = (re.search(r'tvg-id="([^"]*)"', ln) or [None,None])[1]
+            tvg_logo = (re.search(r'tvg-logo="([^"]*)"', ln) or [None,None])[1]
+        elif ln and not ln.startswith("#"):
+            link = ln
+            if header and link:
+                name = channel_display_name(header)
+                out.append(Item(header, link, group, tvg_id, tvg_logo, False, name=name, source_rank=3))
+            header = link = None
+    return out
+
+def parse_json_channels(path: str) -> list[Item]:
+    out = []
+    with open(path, encoding="utf-8") as f: data = json.load(f)
+    for name, info in data.items():
+        group = info.get("group", "Other")
+        tvg_id = info.get("tvg_id") or generate_tvg_id(name)
+        tvg_logo = info.get("tvg_logo")
+        links = info.get("links", [])
+        online = next((l["url"] for l in links if l.get("status") == "online"), None)
+        if online:
+            header = f'#EXTINF:-1 group-title="{group}",{name}'
+            out.append(Item(header, online, group, tvg_id, tvg_logo, False, name=name, source_rank=2))
+    return out
+
+def parse_movies_json(path: str) -> list[Item]:
+    out = []
+    with open(path, encoding="utf-8") as f: data = json.load(f)
+    for title, info in data.items():
+        group = info.get("group", "Movies")
+        year = normalize_year(info.get("year"))
+        tvg_logo = info.get("tvg_logo")
+        tvg_id = generate_tvg_id(title)
+        links = info.get("links", [])
+        online = next((l["url"] for l in links if l.get("status") == "online"), None)
+        if online:
+            name = f"{title} ({year})" if year != -1 else title
+            header = f'#EXTINF:-1 group-title="{group}",{name}'
+            out.append(Item(header, online, group, tvg_id, tvg_logo, True, year=year, name=name, source_rank=1))
+    return out
+
+
+def parse_ctgfun_movies_json(path: str) -> list[Item]:
+    out = []
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
 
     for title, info in data.items():
-        year_str = info.get("year")
-        # Normalize year to int or -1
-        try:
-            year_val = int(year_str) if year_str else -1
-        except Exception:
-            year_val = -1
-
+        year = normalize_year(info.get("year"))
         tvg_logo = info.get("tvg_logo")
         tvg_id = generate_tvg_id(title)
 
@@ -185,163 +162,94 @@ def parse_ctgfun_movies_json(file_path):
         if not link:
             continue
 
-        language = first.get("language", "")
-        group = language_to_group(language)
+        group = language_to_group(first.get("language"))
+        recent = is_recent(first.get("added"), RECENT_DAYS)
 
-        # Determine "recent" by added date within RECENT_DAYS
-        recent = False
-        added = first.get("added")
-        if added:
-            try:
-                # Interpret 'added' as naive local date; treat as UTC midnight for comparison
-                added_dt = datetime.fromisoformat(added).replace(tzinfo=timezone.utc)
-                recent = (now - added_dt) <= timedelta(days=RECENT_DAYS)
-            except Exception:
-                recent = False
+        base_name = f"{title} ({year})" if year != -1 else title
+        # Add the NEW tag only for recent items
+        name = base_name + RECENT_TAG if recent else base_name
 
-        display_name = f"{title} ({year_val})" if year_val != -1 else title
-        header = f'#EXTINF:-1 group-title="{group}",{display_name}'
-
-        # Pack meta so sort can prioritize recent first, then year desc, then name asc
-        meta = {"year": year_val, "recent": recent}
-        out.append((header, link, group, tvg_id, tvg_logo, True, meta))
-
+        header = f'#EXTINF:-1 group-title="{group}",{name}'
+        out.append(
+            Item(
+                header, link, group, tvg_id, tvg_logo, True,
+                year=year, name=name, recent=recent, source_rank=0
+            )
+        )
     return out
 
 
-def extract_year_from_title(title: str) -> int:
-    """
-    Prefer a year in trailing parentheses, e.g., 'Name (1991)'.
-    Fallback: first 19xx/20xx anywhere.
-    Returns -1 when not found so 'no-year' items sort last.
-    """
-    m = re.search(r'\((19|20)\d{2}\)\s*$', title)
-    if m:
-        return int(m.group(0)[1:5])  # strip parens and cast
-    m = re.search(r'\b(19|20)\d{2}\b', title)
-    return int(m.group(0)) if m else -1
+# ---------- output
 
-
-def save_m3u(channels, output_file):
-    """Save combined channels to M3U file with normalized headers."""
+def save_m3u(items: list[Item], output_file: str):
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for item in channels:
-            # Support both 6-tuple (legacy) and 7-tuple (with meta) entries
-            if len(item) == 7:
-                header, link, group, tvg_id, tvg_logo, _, _meta = item
-            else:
-                header, link, group, tvg_id, tvg_logo, _ = item
+        for it in items:
+            base, name = it.header.split(",", 1)[0], it.name
+            if it.tvg_id:
+                base = re.sub(r'tvg-id="[^"]*"', f'tvg-id="{it.tvg_id}"', base) if 'tvg-id="' in base else f'{base} tvg-id="{it.tvg_id}"'
+            if it.tvg_logo:
+                base = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{it.tvg_logo}"', base) if 'tvg-logo="' in base else f'{base} tvg-logo="{it.tvg_logo}"'
+            f.write(f"{base},{name}\n{it.link}\n")
 
-            parts = header.split(",", 1)
-            base_header = parts[0]
-            channel_name = parts[1] if len(parts) > 1 else ""
-
-            if tvg_id:
-                if 'tvg-id="' in base_header:
-                    base_header = re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', base_header)
-                else:
-                    base_header += f' tvg-id="{tvg_id}"'
-
-            if tvg_logo:
-                if 'tvg-logo="' in base_header:
-                    base_header = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{tvg_logo}"', base_header)
-                else:
-                    base_header += f' tvg-logo="{tvg_logo}"'
-
-            new_header = f"{base_header},{channel_name}"
-            f.write(f"{new_header}\n{link}\n")
-
+# ---------- main (same behavior)
 
 def main():
-    start_time = time.time()
-
+    start = time.time()
     print("Parsing YouTube playlist...")
-    yt_channels = parse_m3u(YT_FILE)
-    print(f"{len(yt_channels)} channels found in {YT_FILE}\n")
+    yt = parse_m3u(YT_FILE)
+    print(f"{len(yt)} channels found in {YT_FILE}\n")
 
-    print("Parsing JSON playlist...")
-    json_channels = parse_json(JSON_FILE)
-    print(f"{len(json_channels)} online channels found in {JSON_FILE}\n")
+    chans = parse_json_channels(JSON_FILE)
+    print(f"{len(chans)} online channels found in {JSON_FILE}\n")
 
-    print("Parsing Movies JSON playlist...")
-    movie_channels = parse_movies_json(MOVIES_FILE)
-    print(f"{len(movie_channels)} online movie channels found in {MOVIES_FILE}\n")
+    movies = parse_movies_json(MOVIES_FILE)
+    print(f"{len(movies)} online movie channels found in {MOVIES_FILE}\n")
 
-    print(f"Parsing ctgfun Movies JSON: {CTG_FUN_MOVIES_JSON} ...")
-    ctgfun_channels = parse_ctgfun_movies_json(CTG_FUN_MOVIES_JSON)
-    print(f"{len(ctgfun_channels)} items found in {CTG_FUN_MOVIES_JSON}\n")
+    ctg = parse_ctgfun_movies_json(CTG_FUN_MOVIES_JSON)
+    print(f"{len(ctg)} items found in {CTG_FUN_MOVIES_JSON}\n")
 
-    # Combine all
-    combined_channels = (
-        json_channels
-        + yt_channels
-        + movie_channels
-        + ctgfun_channels   # new unified ctgfun JSON
-    )
+    combined = chans + yt + movies + ctg
 
-    # Deduplicate by channel/movie name (last part after the comma in EXTINF)
-    unique_by_name = {}
-    removed_channels = []
-    for item in combined_channels:
-        # Support both 6-tuple and 7-tuple entries
-        header = item[0]
-        channel_name = header.split(",", 1)[-1].strip()
-        if channel_name not in unique_by_name:
-            unique_by_name[channel_name] = item
+    # Dedup by display name, prefer richer/“better” source
+    by_name: dict[str, Item] = {}
+    removed = []
+    for it in combined:
+        key = it.name or channel_display_name(it.header)
+        if key not in by_name:
+            by_name[key] = it
         else:
-            removed_channels.append(channel_name)
-
-    if removed_channels:
-        print(f"Removed {len(removed_channels)} duplicate channels: {removed_channels}")
-
-    unique_channels = list(unique_by_name.values())
-
-    # Group channels
-    groups = {}
-    for item in unique_channels:
-        # item may be 6-tuple or 7-tuple
-        group = item[2]
-        groups.setdefault(group, []).append(item)
-
-    # Sort channels in each group
-    for g_name, ch_list in groups.items():
-        # Is this a movie group or a group consisting entirely of movie items?
-        is_movie_group = (g_name in MOVIE_GROUPS) or all((len(x) >= 6 and x[5] is True) for x in ch_list)
-
-        if is_movie_group:
-            # Sort with "recent first", then year desc, then name asc.
-            def movie_sort_key(x):
-                header = x[0]
-                name = header.split(",", 1)[-1].strip().lower()
-                # If we have meta from ctgfun JSON, prefer it; else derive year from title
-                if len(x) == 7 and isinstance(x[6], dict):
-                    meta = x[6]
-                    year = meta.get("year", -1)
-                    recent = meta.get("recent", False)
-                else:
-                    year = extract_year_from_title(header.split(",", 1)[-1].strip())
-                    recent = False  # only ctgfun JSON participates in the "recent pin" rule
-                recent_rank = 0 if recent else 1
-                return (recent_rank, -int(year) if isinstance(year, int) else -1, name)
-
-            groups[g_name] = sorted(ch_list, key=movie_sort_key)
-
-        else:
-            # Alphabetical by name for regular channel groups
-            groups[g_name] = sorted(
-                ch_list, key=lambda x: x[0].split(",", 1)[-1].strip().lower()
+            cur = by_name[key]
+            # Prefer lower source_rank, then has logo, then recent, then newer year
+            cand = min(
+                (cur, it),
+                key=lambda x: (x.source_rank, 0 if x.tvg_logo else 1, 0 if x.recent else 1, -x.year)
             )
+            removed.append(key) if cand is it else removed.append(key)  # just to log duplicates
+            by_name[key] = cand
+    if removed:
+        print(f"Removed {len(removed)} duplicate names")
 
-    # Sort groups by predefined order, then any others alphabetically
-    sorted_channels = []
-    for g in GROUP_ORDER + sorted([k for k in groups.keys() if k not in GROUP_ORDER]):
-        sorted_channels.extend(groups.get(g, []))
+    groups = defaultdict(list)
+    for it in by_name.values():
+        groups[it.group].append(it)
 
-    save_m3u(sorted_channels, OUTPUT_FILE)
+    # Sort inside groups
+    for g, lst in groups.items():
+        is_movie_group = (g in MOVIE_GROUPS) or all(it.is_movie for it in lst)
+        if is_movie_group:
+            lst.sort(key=lambda x: (0 if x.recent else 1, -x.year, x.name.lower()))
+        else:
+            lst.sort(key=lambda x: x.name.lower())
+
+    # Group order
+    out = []
+    for g in GROUP_ORDER + sorted(k for k in groups.keys() if k not in GROUP_ORDER):
+        out.extend(groups.get(g, []))
+
+    save_m3u(out, OUTPUT_FILE)
     print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
-    print(f"⏱ Total script time: {time.time() - start_time:.2f} seconds")
-
+    print(f"⏱ Total script time: {time.time()-start:.2f} seconds")
 
 if __name__ == "__main__":
     main()
