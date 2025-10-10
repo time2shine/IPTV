@@ -1,4 +1,4 @@
-name: "📺 Combine YouTube & Static IPTV Links"
+name: "🔀 Combine YouTube & Static IPTV Links"
 
 on:
   # Reusable from the orchestrator
@@ -31,39 +31,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: "🍪 Create cookies.txt from secret"
-        shell: bash
-        run: |
-          set -euo pipefail
-          # Write cookies to a file used by yt_dlp; don't echo the content
-          printf '%s' "${{ secrets.COOKIES }}" > cookies.txt
-
-      - name: "📦 Install dependencies"
-        run: |
-          python -m pip install --upgrade pip
-          pip install yt_dlp
-
-      - name: "🎣 Fetch latest YouTube links"
-        run: |
-          python YT_get_YouTube_link.py
-
-      - name: "⬆️ Commit YouTube playlist (YT_playlist.m3u) if changed"
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add YT_playlist.m3u || true
-          if git diff --cached --quiet; then
-            echo "No changes to YT_playlist.m3u"
-          else
-            BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
-            git pull --rebase origin "${BRANCH}" || true
-            git commit -m "🔄 Update YouTube playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
-            git push origin "${BRANCH}"
-          fi
-
       - name: "🔀 Combine YouTube & static playlists"
         run: |
           python combine_playlists.py
@@ -72,6 +39,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add combined.m3u || true
           if git diff --cached --quiet; then
             echo "No changes to combined.m3u"
