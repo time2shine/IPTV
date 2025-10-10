@@ -1132,6 +1132,13 @@
         "probe_time_s": 1.63,
         "speed": 1.227,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://rhsbjv7k.tvclub.xyz/iptv/MXUV9GU7KLRNNN/6641/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6272,13 +6279,20 @@
         "probe_time_s": 8.689,
         "speed": 0.23,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://amg01412-xiaomiasia-zeewion-xiaomi-nkzot.amagi.tv/playlist/amg01412-xiaomiasia-zeewion-xiaomi/playlist.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
   "YAHOO FINANCE": {
     "group": "International News",
     "tvg_id": "YAHOOFINANCE",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Yahoo%21_Finance_2019.svg",
     "links": [
       {
         "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8",
@@ -6295,7 +6309,7 @@
   "YAHOO NEWS": {
     "group": "International News",
     "tvg_id": "YAHOO NEWS",
-    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9d/Yahoo%21_News.svg",
     "links": [
       {
         "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
