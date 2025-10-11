@@ -45,7 +45,7 @@ jobs:
 
       - name: "🎣 Fetch latest YouTube links"
         run: |
-          python code/YT_get_YouTube_link.py
+          python scripts/YT_get_YouTube_link.py
 
       - name: "⬆️ Commit YouTube playlist (YT_playlist.m3u) if changed"
         shell: bash
