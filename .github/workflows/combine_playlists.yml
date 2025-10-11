@@ -35,19 +35,25 @@ jobs:
         run: |
           python scripts/combine_playlists.py
 
-      - name: "⬆️ Commit combined playlist (combined.m3u) if changed"
+      - name: "⬆️ Commit combined.m3u if changed"
         shell: bash
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
+
+          # Always update local branch before staging anything
+          git fetch origin "${BRANCH}"
+          git checkout "${BRANCH}"
+          git pull --rebase origin "${BRANCH}"
+
+          # Stage, commit, and push only if there are changes
           git add combined.m3u || true
           if git diff --cached --quiet; then
             echo "No changes to combined.m3u"
           else
-            BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
-            git pull --rebase origin "${BRANCH}" || true
             git commit -m "🔄 Update combined playlist ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push origin "${BRANCH}"
           fi
