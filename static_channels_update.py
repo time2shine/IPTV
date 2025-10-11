@@ -359,6 +359,53 @@ def export_excluded_whitelisted(channels: Dict[str, Dict]):
     print(f"✅ Exported excluded + whitelisted channels to {output_file}")
 
 # -----------------------------------------------------------------------------
+# Offline M3U export (new)
+# -----------------------------------------------------------------------------
+def export_offline(channels: Dict[str, Dict]):
+    """
+    Export OFFLINE channels to obsolete/offline.m3u
+    Display format for the name: "Channel Name (offline days)"
+    Only writes entries that still have a URL.
+    """
+    folder = "obsolete"
+    os.makedirs(folder, exist_ok=True)
+
+    output_file = os.path.join(folder, "offline.m3u")
+    today = date.today()
+    count = 0
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for channel_name, info in channels.items():
+            group = info.get("group", "Other")
+            for link in info.get("links", []):
+                if not isinstance(link, dict):
+                    continue
+                if link.get("status") != "offline":
+                    continue
+
+                url = link.get("url") or ""
+                if not url.strip():
+                    # URL has been reset for long-offline entries; skip emitting empty URLs
+                    continue
+
+                last_offline = link.get("last_offline")
+                days_str = "unknown"
+                if last_offline:
+                    try:
+                        days = (today - datetime.fromisoformat(last_offline).date()).days
+                        days_str = f"{days}d"
+                    except Exception:
+                        days_str = "unknown"
+
+                display_name = f"{channel_name} ({days_str})"
+                f.write(f'#EXTINF:-1 group-title="{group}",{display_name}\n{url}\n')
+                count += 1
+
+    print(f"✅ Exported {count} offline channel link(s) to {output_file}")
+
+
+# -----------------------------------------------------------------------------
 # JSON traversal + status update (parallel)
 # -----------------------------------------------------------------------------
 
@@ -620,6 +667,8 @@ def main():
     # ✅ Export excluded + whitelisted playlist
     export_excluded_whitelisted(channels_sorted)
 
+    # ✅ Export offline playlist (name includes offline duration)
+    export_offline(channels_sorted)
 
 if __name__ == "__main__":
     main()
