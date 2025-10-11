@@ -44,10 +44,9 @@ jobs:
 
           BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
 
-          # Always update local branch before staging anything
+          # Pull latest changes safely even if the combine step modified files
           git fetch origin "${BRANCH}"
-          git checkout "${BRANCH}"
-          git pull --rebase origin "${BRANCH}"
+          git pull --rebase --autostash origin "${BRANCH}"
 
           # Stage, commit, and push only if there are changes
           git add combined.m3u || true
