@@ -91,10 +91,10 @@ jobs:
 
       # ---------- scripts ----------
       - name: 📡 Check Channel statuses (FFmpeg/MPV)
-        run: python static_channels_update.py
+        run: python scripts/static_channels_update.py
 
       - name: 🎬 Check Movie statuses (FFmpeg/MPV)
-        run: python static_movies_update.py
+        run: python scripts/static_movies_update.py
 
       - name: 📝 Commit updated JSON & M3U
         run: |
