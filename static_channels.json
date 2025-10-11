@@ -16,6 +16,20 @@
       }
     ]
   },
+  "MOV | B4U Bhojpuri": {
+    "group": "India",
+    "tvg_id": "b4u-bhojpuri",
+    "tvg_logo": "https://prodcdn1.wavespb.com/shows/poster_url/1075363785B4UBHOJPURI_TVSETS_TVW_720x960.webp",
+    "links": [
+      {
+        "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -3968,6 +3982,13 @@
         "probe_time_s": 18.226,
         "speed": 0.11,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://bagnetwork.digivive.com/hlslive/Admin/px09241091/live/E24LiveB/master_1.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5032,14 +5053,25 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8",
+        "status": "slow",
         "last_online": null,
-        "first_online": "2025-09-12",
-        "last_offline": "2025-09-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | 9X TASHAN": {
+    "group": "India",
+    "tvg_id": "9x-tashan",
+    "tvg_logo": "https://prodcdn1.wavespb.com/shows/poster_url/14041644189x_Tashan__mob___384x512.webp",
+    "links": [
+      {
+        "url": "https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5126,14 +5158,11 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8",
-        "status": "online",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-10",
-        "last_offline": null,
-        "probe_time_s": 9.376,
-        "speed": 0.213,
-        "passed_via": "ffmpeg"
+        "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5388,6 +5417,13 @@
         "probe_time_s": 7.067,
         "speed": 0.283,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://sablive-ddpb.akamaized.net/maiboli/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
