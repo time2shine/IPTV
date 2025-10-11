@@ -38,7 +38,7 @@ jobs:
           playwright install chromium
 
       - name: "🕷️ Run EPG scraper"
-        run: python epg_scraper.py
+        run: python code/epg_scraper.py
 
       - name: "📝 Commit & 🚀 Push epg.xml (if changed)"
         shell: bash
