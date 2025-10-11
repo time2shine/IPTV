@@ -211,14 +211,11 @@
         "passed_via": "mpv"
       },
       {
-        "url": "http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/60.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-06",
-        "first_online": "2025-09-27",
-        "last_offline": "2025-10-06",
-        "probe_time_s": 62.034,
-        "speed": 0.032,
-        "passed_via": "mpv"
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -408,6 +405,13 @@
         "probe_time_s": 13.333,
         "speed": 0.15,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3375,6 +3379,41 @@
         "probe_time_s": 15.092,
         "speed": 0.133,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MOV | PITAARA MOVIES": {
+    "group": "India",
+    "tvg_id": "pitaara-movies",
+    "tvg_logo": "https://prodcdn1.wavespb.com/shows/poster_url/1406677642PITARAMOVIES_TVSETS_TVW_720x960.webp",
+    "links": [
+      {
+        "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/500a6b45f5ae41dda445d912b59eaa09/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Gangaur": {
+    "group": "India",
+    "tvg_id": "gangaur",
+    "tvg_logo": "https://prodcdn1.wavespb.com/shows/poster_url/1615915601Gangaur_TV____720x960.webp",
+    "links": [
+      {
+        "url": "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6156,7 +6195,7 @@
       }
     ]
   },
-  "RT News (Russia)": {
+  "RT Now (Russia)": {
     "group": "International News",
     "tvg_id": "RTnews.ru",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/62/RT_Flat.svg",
@@ -6439,12 +6478,12 @@
   },
   "0. Oggy and the cockroaches": {
     "group": "Kids",
-    "tvg_id": "Oggy and the cockroaches",
+    "tvg_id": "Oggyandthecockroaches",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/OggyAndTheCockroachesNextGeneration.png",
     "links": [
       {
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-        "status": "online",
+        "url": "",
+        "status": "offline",
         "last_online": "2025-10-11",
         "first_online": "2025-09-03",
         "last_offline": null,
@@ -11493,6 +11532,13 @@
         "probe_time_s": 8.038,
         "speed": 0.249,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://sablive-ddpb.akamaized.net/dabangg/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -14432,7 +14478,7 @@
       }
     ]
   },
-  "CR+MIX | DD Sports": {
+  "--Live(DD Sports)--": {
     "group": "Sports",
     "tvg_id": "ddsports.in",
     "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
@@ -14456,6 +14502,20 @@
         "probe_time_s": 14.158,
         "speed": 0.141,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "ENT | DD URDU": {
+    "group": "India",
+    "tvg_id": "dd-urdu",
+    "tvg_logo": "https://prodcdn1.wavespb.com/shows/poster_url/1423354137DD_URDU______720x960.webp",
+    "links": [
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/9b91e9007e754db39a8b32c6bfc5b24a/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
