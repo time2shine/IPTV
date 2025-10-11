@@ -100,7 +100,7 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u || true
+          git add static_channels.json static_movies.json obsolete/excluded_whitelisted.m3u offline.m3u || true
           if ! git diff --cached --quiet; then
             BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
             git pull --rebase origin "${BRANCH}" || true
