@@ -8,7 +8,7 @@ print = functools.partial(print, flush=True)
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
-CTG_FUN_MOVIES_JSON = "static_movies(ctgfun).json"
+CTG_FUN_MOVIES_JSON = "scripts/static_movies(ctgfun).json"
 OUTPUT_FILE = "combined.m3u"
 RECENT_TAG = " 🆕"
 RECENT_DAYS = 30
