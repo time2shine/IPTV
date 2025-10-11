@@ -182,8 +182,11 @@ def parse_ctgfun_movies_json(path: str) -> list[Item]:
 # ---------- output
 
 def save_m3u(items: list[Item], output_file: str):
+    _EPG_URL = "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml"
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        # Write header with EPG for better player compatibility
+        header_attrs = f'url-tvg="{_EPG_URL}" x-tvg-url="{_EPG_URL}"' if _EPG_URL else ""
+        f.write(f"#EXTM3U {header_attrs}\n")
         for it in items:
             base, name = it.header.split(",", 1)[0], it.name
             if it.tvg_id:
