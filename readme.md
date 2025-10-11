@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
 https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml
 ```
 
---- 
+---  
 
 **IPTV Playlist & EPG Manager**
 
