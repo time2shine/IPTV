@@ -33,7 +33,7 @@ jobs:
 
       - name: "🔀 Combine YouTube & static playlists"
         run: |
-          python combine_playlists.py
+          python scripts/combine_playlists.py
 
       - name: "⬆️ Commit combined playlist (combined.m3u) if changed"
         shell: bash
