@@ -4,7 +4,7 @@ import datetime
 import yt_dlp
 import os
 import logging
-from scripts.YT_channels import channel_metadata
+from .YT_channels import channel_metadata
 
 # --- Setup logging ---
 logger = logging.getLogger("yt_logger")
