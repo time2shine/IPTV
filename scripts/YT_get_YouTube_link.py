@@ -4,7 +4,14 @@ import datetime
 import yt_dlp
 import os
 import logging
-from .YT_channels import channel_metadata
+import json
+from pathlib import Path
+# from .YT_channels import channel_metadata  # replaced by JSON loader
+
+# --- Load channels from JSON (same directory as this script) ---
+_here = Path(__file__).resolve().parent
+with open(_here / "YT_channels.json", "r", encoding="utf-8") as f:
+    channel_metadata = json.load(f)
 
 # --- Setup logging ---
 logger = logging.getLogger("yt_logger")
