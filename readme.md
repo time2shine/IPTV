@@ -4,10 +4,6 @@
 ```bash
 https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
 ```
-**Copy this link for EPG**
-```bash
-https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/epg.xml
-```
 
 ---  
 
