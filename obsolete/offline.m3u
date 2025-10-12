@@ -57,6 +57,10 @@ http://89.187.189.98/BBCEARTHHD/index.m3u8
 https://www.xfireflix.fun/test/live.php?id=77e72f2ba472&e=.m3u8
 #EXTINF:-1 group-title="Educational",Discovery Turbo (1d)
 https://www.xfireflix.fun/test/live.php?id=a051de5ade20&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (0d)
+https://www.xfireflix.fun/test/live.php?id=5e23fb5def9b&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | TLC (0d)
+https://www.xfireflix.fun/test/live.php?id=e12a84713a40&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Cafe (1d)
 https://www.xfireflix.fun/test/live.php?id=c65460ba0d73&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold 2 HD (1d)
@@ -67,8 +71,6 @@ block/jiotvplus/stargoldhd/master.m3u8
 block/jiotvplus/stargoldselecthd/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Zee Action (1d)
 https://www.xfireflix.fun/test/live.php?id=72a0803cf563&e=.m3u8
-#EXTINF:-1 group-title="India",MOV | ZEE BOLLYWOOD (1d)
-https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
 #EXTINF:-1 group-title="India",MU | Desi Channel (9d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/desi-tv/master.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (1d)
@@ -85,6 +87,8 @@ http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="International",EN | Drool (6d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
+#EXTINF:-1 group-title="International News",CNN International (0d)
+https://www.xfireflix.fun/test/live.php?id=2435a44a7c67&e=.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (2d)
 http://live.iill.top/huya.php?id=11352879
 #EXTINF:-1 group-title="Kids",1. Camp Spoopy (6d)
@@ -97,8 +101,6 @@ https://dai.google.com/linear/hls/event/0HWMZ7VTTAi8C7Y35fcbgQ/master.m3u8
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="Kids",Always Funny (6d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",One Two Three GO! (6d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63eecb32ac23d1ee072087cb.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="Kids",ZB Cartoon (1d)
@@ -113,8 +115,8 @@ http://89.187.189.98/MOVIESNOWHD/index.m3u8
 http://89.187.189.98/STARMOVIESHD/index.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica Music (5d)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | HTV (0d)
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
+#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
+http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (1d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (3d)
@@ -129,17 +131,11 @@ http://stvlive.net:8080/starsports1/index.m3u8
 http://stvlive.net:8080/starselect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(T Sports HD)-- (2d)
 http://stvlive.net:8080/tsports1/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Ten Cricket)-- (0d)
+https://www.xfireflix.fun/test/live.php?id=86db7302947d&e=.m3u8
 #EXTINF:-1 group-title="Sports",CR | Cricket Gold (6d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
-#EXTINF:-1 group-title="Sports",CR | Ten Sports HD (1d)
-http://filex.tv:8080/live/Multicity/1234/52106.ts
 #EXTINF:-1 group-title="Sports",FIGHT | Boxing TV (5d)
 https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | Hub Sports 1 (0d)
-https://tiger-hub.vercel.app/Hub_Sports-1/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | Hub Sports 4 (0d)
-https://tiger-hub.vercel.app/Hub_Sports-4/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",OTHER | Cowboy TV (0d)
-https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | SportsTVPlus (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8
