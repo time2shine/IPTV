@@ -3,8 +3,8 @@
 http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/146.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (3d)
 http://stvlive.net:8080/banglavision/index.m3u8
-#EXTINF:-1 group-title="Bangla",BTV SD (0d)
-http://103.230.105.252:1935/live/btv/manifest.m3u8
+#EXTINF:-1 group-title="Bangla",Biswa Bangla (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I (3d)
 http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",DESH TV (4d)
@@ -15,12 +15,12 @@ http://stvlive.net:8080/entertenbn/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (3d)
 http://stvlive.net:8080/gtv/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (0d)
+https://www.xfireflix.fun/test/live.php?id=9f573df7cbe5&e=.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (0d)
-https://www.xfireflix.fun/test/live.php?id=3c1cc31a847f&e=.m3u8
+https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (3d)
 http://stvlive.net:8080/nagorik/index.m3u8
-#EXTINF:-1 group-title="Bangla",NTV HD (0d)
-http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",RTV (5d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (3d)
@@ -41,12 +41,10 @@ http://stvlive.net:8080/somoy/index.m3u8
 http://89.187.189.98/ANIMALPLANETHD/index.m3u8
 #EXTINF:-1 group-title="Educational",BBC Earth (3d)
 http://89.187.189.98/BBCEARTHHD/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (0d)
-https://www.xfireflix.fun/test/live.php?id=5e23fb5def9b&e=.m3u8
+#EXTINF:-1 group-title="Educational",Discovery Turbo (0d)
+https://www.xfireflix.fun/test/live.php?id=a051de5ade20&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Cafe (0d)
 https://www.xfireflix.fun/test/live.php?id=c65460ba0d73&e=.m3u8
-#EXTINF:-1 group-title="India",MOV | & PICTURES HD (0d)
-https://www.xfireflix.fun/test/live.php?id=1d8f06362c1e&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex (0d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Bollywood (0d)
@@ -59,14 +57,16 @@ block/jiotvplus/stargold2hd/master.m3u8
 block/jiotvplus/stargoldhd/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold Select HD (2d)
 block/jiotvplus/stargoldselecthd/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Zee Action (0d)
-https://www.xfireflix.fun/test/live.php?id=72a0803cf563&e=.m3u8
+#EXTINF:-1 group-title="India",MU | Mastiii (0d)
+https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (2d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (2d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (2d)
 block/jiotvplus/sunmusichd/master.m3u8
+#EXTINF:-1 group-title="International",Are We There Yet? (0d)
+https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (3d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | Brat TV (7d)
@@ -109,15 +109,9 @@ http://stvlive.net:8080/sonyten5/index.m3u8
 http://stvlive.net:8080/starsports1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (3d)
 http://stvlive.net:8080/starselect1/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (0d)
-https://premierleagpl23.akamaized.net/hls/live/2107108/TapSerie-1@2025/master.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Willow Sports HD)-- (0d)
-http://filex.tv:8080/live/Multicity/1234/52109.ts
 #EXTINF:-1 group-title="Sports",CR | Cricket Gold (7d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="Sports",CR | Sony Sports 3 HD (0d)
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
-#EXTINF:-1 group-title="Sports",CR | Ten Sports HD (0d)
-http://filex.tv:8080/live/Multicity/1234/52106.ts
 #EXTINF:-1 group-title="Sports",FIGHT | Boxing TV (6d)
 https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8
