@@ -120,16 +120,19 @@ WHITELIST_DOMAINS = [
     "https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv",
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
     "https://vg-republictvlive.akamaized.net/v1/master",
+    "https://premierleagpl23.akamaized.net",
     "https://indiatodaylive.akamaized.net",
     "http://103.73.107.122:3255/TSportsHD",
     "http://116.90.120.149:8000/play",
     "https://streams.spacetoon.com",
     "https://owrcovcrpy.gpcdn.net",
+    "http://103.230.105.252:1935",
     "https://feeds.intoday.in",
     "http://mtv.sunplex.live",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
-    "http://b1g.ooo:80",    
+    "http://filex.tv:8080",
+    "http://b1g.ooo:80",
 ]
 
 # -----------------------------------------------------------------------------
