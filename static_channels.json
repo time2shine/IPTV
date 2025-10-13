@@ -851,16 +851,6 @@
         "probe_time_s": 3.048,
         "speed": 0.656,
         "passed_via": "ffmpeg"
-      },
-      {
-        "url": "block/jiotvplus/jalshamovieshd/master.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-10",
-        "last_offline": "2025-10-11",
-        "probe_time_s": 14.679,
-        "speed": 0.136,
-        "passed_via": "mpv"
       }
     ]
   },
@@ -1430,6 +1420,13 @@
         "probe_time_s": 2.064,
         "speed": 0.969,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://www.xfireflix.fun/test/live.php?id=707e4efbda57&e=.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1582,6 +1579,20 @@
         "probe_time_s": 1.46,
         "speed": 1.37,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "Rupashi Bangla": {
+    "group": "Bangla",
+    "tvg_id": "RupashiBangla",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg",
+    "links": [
+      {
+        "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -4182,6 +4193,20 @@
         "probe_time_s": 16.253,
         "speed": 0.123,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "ENT | HUM Sitaray": {
+    "group": "Pakistan",
+    "tvg_id": "HUMSitaray",
+    "tvg_logo": "https://assets-prod.services.toffeelive.com/f_webp,w_240,q_100/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png",
+    "links": [
+      {
+        "url": "https://www.xfireflix.fun/test/live.php?id=a53f9e0ba020&e=.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -7804,6 +7829,13 @@
         "probe_time_s": 7.601,
         "speed": 0.263,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -14649,14 +14681,11 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "http://stvlive.net:8080/sonyten5/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-10",
-        "first_online": "2025-09-27",
-        "last_offline": "2025-10-10",
-        "probe_time_s": 22.526,
-        "speed": 0.089,
-        "passed_via": "mpv"
+        "url": "https://www.xfireflix.fun/test/live.php?id=2dece57b30a1&e=.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -14849,14 +14878,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
       {
-        "url": "http://stvlive.net:8080/tsports1/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-10",
-        "first_online": "2025-10-02",
-        "last_offline": "2025-10-10",
-        "probe_time_s": 22.715,
-        "speed": 0.088,
-        "passed_via": "mpv"
+        "url": "http://116.204.149.16/t_sports/index.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
