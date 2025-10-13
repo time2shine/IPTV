@@ -3362,23 +3362,6 @@
       }
     ]
   },
-  "PowerNation TV": {
-    "group": "Educational",
-    "tvg_id": "PowerNationTV.us",
-    "tvg_logo": "https://i.imgur.com/jguTO8E.png",
-    "links": [
-      {
-        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63b48016d9dd51000828fa37livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b6275-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=534f5abf-183b-4b07-88d8-ba60af3de510&profilesFromStream=true",
-        "status": "online",
-        "last_online": "2025-10-13",
-        "first_online": "2025-10-09",
-        "last_offline": null,
-        "probe_time_s": 5.773,
-        "speed": 0.346,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
   "Robot Wars by Mech+": {
     "group": "Educational",
     "tvg_id": "GBBD500005ZG",
@@ -4701,6 +4684,16 @@
         "last_online": null,
         "first_online": null,
         "last_offline": null
+      },
+      {
+        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63b48016d9dd51000828fa37livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b6275-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=534f5abf-183b-4b07-88d8-ba60af3de510&profilesFromStream=true",
+        "status": "online",
+        "last_online": "2025-10-13",
+        "first_online": "2025-10-09",
+        "last_offline": null,
+        "probe_time_s": 5.773,
+        "speed": 0.346,
+        "passed_via": "ffmpeg"
       }
     ]
   },
