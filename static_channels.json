@@ -1960,7 +1960,17 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
-      }
+      },
+      {
+        "url": "https://amg01412-xiaomiasia-abpananda-xiaomi-lzyzw.amagi.tv/playlist/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-10-13",
+        "first_online": "2025-10-10",
+        "last_offline": null,
+        "probe_time_s": 12.673,
+        "speed": 0.158,
+        "passed_via": "mpv"
+      },
     ]
   },
   "IN | Bangla Jago TV": {
@@ -2021,6 +2031,13 @@
         "probe_time_s": 3.355,
         "speed": 0.596,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://highmedia.livebox.co.in:80/HIGHNEWShls/LIVE.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2460,6 +2477,20 @@
         "probe_time_s": 94.521,
         "speed": 0.021,
         "passed_via": "mpv"
+      }
+    ]
+  },
+  "0. Bantul The Great": {
+    "group": "Kids",
+    "tvg_id": "BantulTheGreat",
+    "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Bantul_the_Great_logo.png",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -8891,14 +8922,11 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "https://amg01412-xiaomiasia-abpananda-xiaomi-lzyzw.amagi.tv/playlist/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-10-13",
-        "first_online": "2025-10-10",
-        "last_offline": null,
-        "probe_time_s": 12.673,
-        "speed": 0.158,
-        "passed_via": "mpv"
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8",
+        "status": "mpv_good",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
