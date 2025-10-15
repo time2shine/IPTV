@@ -1,16 +1,12 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ASIAN TV (9d)
 http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/146.m3u8
-#EXTINF:-1 group-title="Bangla",B24C (0d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/b24c.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (5d)
 http://stvlive.net:8080/banglavision/index.m3u8
 #EXTINF:-1 group-title="Bangla",Biswa Bangla (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I (5d)
 http://stvlive.net:8080/channeli/index.m3u8
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (1d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",DESH TV (6d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (5d)
@@ -33,10 +29,14 @@ http://stvlive.net:8080/nagorik/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Sananda TV (1d)
 https://live.sanonda.tv/sanonda/index.m3u8
+#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (0d)
+http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277424&extension=ts&play_token=AQaUdSko1H
 #EXTINF:-1 group-title="Bangla",SUN Bangla (5d)
 http://stvlive.net:8080/sunbangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (1d)
 https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8
+#EXTINF:-1 group-title="Bangla",Time Televis HD (0d)
+http://208.86.19.13:81/506.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (5d)
 http://stvlive.net:8080/zeebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (1d)
@@ -71,20 +71,18 @@ block/jiotvplus/stargold2hd/master.m3u8
 block/jiotvplus/stargoldhd/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold Select HD (4d)
 block/jiotvplus/stargoldselecthd/master.m3u8
+#EXTINF:-1 group-title="India",MOV | Zee Action (0d)
+https://www.xfireflix.fun/test/live.php?id=72a0803cf563&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE BOLLYWOOD (1d)
 https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
-#EXTINF:-1 group-title="India",MU | B4U Music APAC (1d)
-https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",MU | Mastiii (0d)
-https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (4d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (4d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (4d)
 block/jiotvplus/sunmusichd/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | 1st India News (0d)
+https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (5d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | Brat TV (9d)
@@ -103,8 +101,6 @@ https://dai.google.com/linear/hls/event/0HWMZ7VTTAi8C7Y35fcbgQ/master.m3u8
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="Kids",Always Funny (9d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (2d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="Kids",One Two Three GO! (9d)
@@ -119,22 +115,26 @@ http://89.187.189.98/MOVIESNOWHD/index.m3u8
 http://89.187.189.98/STARMOVIESHD/index.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica Music (8d)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | HTV (0d)
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
+#EXTINF:-1 group-title="Music",EN | Academy TV (0d)
+https://atomic.streamnet.ro/academia.m3u8
+#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
+http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
+#EXTINF:-1 group-title="Music",EN | Play TV (0d)
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
+#EXTINF:-1 group-title="Music",OTHER | Atomic TV (Romania) (0d)
+https://atomic.streamnet.ro/atomictv.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (1d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | aur LIFE (1d)
 http://124.109.47.101/hls/stream1.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (0d)
+https://www.xfireflix.fun/test/live.php?id=bce59316a966&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | HUM Sitaray (1d)
 https://www.xfireflix.fun/test/live.php?id=a53f9e0ba020&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (4d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Religious",MADANI Channel Bangla (1d)
-https://ap02.iqplay.tv:8082/iqb8002/m@d@n1ch@nn3lb@ngl@/playlist.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (6d)
 https://tvsen5.aynaott.com/Ptvsports/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Sony sports 1)-- (0d)
-https://www.xfireflix.fun/test/live.php?id=afd176a5b887&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony Ten 5 HD)-- (5d)
 http://stvlive.net:8080/sonyten5/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Star Sports 1 Hindi)-- (5d)
@@ -145,13 +145,9 @@ http://stvlive.net:8080/starselect1/index.m3u8
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899afe817b9d224.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="Sports",CR | Sony Sports 3 HD (2d)
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
-#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
-http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 group-title="Sports",FB | M-Sports HD (1d)
 http://live.matribhumitv.com/matribhumi-sports/index.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | Boxing TV (8d)
 https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | WWE (1d)
 https://smart.bengaldigital.live/WWE/index.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | HOOP TV (1d)
-https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8
