@@ -1,30 +1,24 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ASIAN TV (9d)
 http://tv.bdiptv.store:80/live/restreauuX58y/refstream88/146.m3u8
+#EXTINF:-1 group-title="Bangla",Bangla Plus (0d)
+https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (5d)
 http://stvlive.net:8080/banglavision/index.m3u8
 #EXTINF:-1 group-title="Bangla",Biswa Bangla (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/mono.m3u8
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",DESH TV (6d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (5d)
 http://stvlive.net:8080/entertenbn/index.m3u8
 #EXTINF:-1 group-title="Bangla",GLOBAL TV HD (7d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (5d)
 http://stvlive.net:8080/gtv/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (2d)
-https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="Bangla",MUSIC BANGLA (1d)
-http://live.matribhumitv.com/music-bangla/index.m3u8
-#EXTINF:-1 group-title="Bangla",Music Bangla 2 (1d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/moviebanglalink2.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (5d)
 http://stvlive.net:8080/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",RTV (7d)
@@ -49,8 +43,14 @@ https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-
 http://89.187.189.98/ANIMALPLANETHD/index.m3u8
 #EXTINF:-1 group-title="Educational",BBC Earth (5d)
 http://89.187.189.98/BBCEARTHHD/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (0d)
-https://www.xfireflix.fun/test/live.php?id=5e23fb5def9b&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | &TV HD (0d)
+https://www.xfireflix.fun/test/live.php?id=a6b5f6130cc5&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | DD Bharati (0d)
+https://cdn-1.pishow.tv/live/10/master.m3u8
+#EXTINF:-1 group-title="India",ENT | Zee Anmol (0d)
+https://www.xfireflix.fun/test/live.php?id=dc488b1502f5&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | Zing (0d)
+https://www.xfireflix.fun/test/live.php?id=4effcf0f2452&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex (2d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Bollywood (2d)
@@ -65,26 +65,26 @@ block/jiotvplus/stargoldhd/master.m3u8
 block/jiotvplus/stargoldselecthd/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Zee Action (0d)
 https://www.xfireflix.fun/test/live.php?id=72a0803cf563&e=.m3u8
-#EXTINF:-1 group-title="India",MOV | ZEE BOLLYWOOD (1d)
-https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
+#EXTINF:-1 group-title="India",MU | B4U Music APAC (0d)
+https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
+#EXTINF:-1 group-title="India",MU | Mastiii (0d)
+https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (4d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (4d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (4d)
 block/jiotvplus/sunmusichd/master.m3u8
-#EXTINF:-1 group-title="International",Are We There Yet? (0d)
-https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="International",EN | Brat TV (9d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-63d6f6c5a9e88ee909e7ee1f.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
 #EXTINF:-1 group-title="International",EN | Drool (9d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66ea0e029502c5778b828d45.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
+#EXTINF:-1 group-title="International News",Connecting America (0d)
+https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (5d)
 http://live.iill.top/huya.php?id=11352879
 #EXTINF:-1 group-title="Kids",1. Camp Spoopy (9d)
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6164a963766ab4f9f57e81b1.m3u8?X-Plex-Token=FwkvCmx3uzFc7eYkDe2m
-#EXTINF:-1 group-title="Kids",1. Cartoon Network Hindi (0d)
-https://www.xfireflix.fun/test/live.php?id=8be5ec5d5d7c&e=.m3u8
 #EXTINF:-1 group-title="Kids",1. Nick Hindi (5d)
 http://stvlive.net:8080/nick/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Nickelodeon Pluto TV (8d)
@@ -109,14 +109,10 @@ http://89.187.189.98/STARMOVIESHD/index.m3u8
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
 http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
-#EXTINF:-1 group-title="Music",EN | Vevo '90s & '00s (0d)
-https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90sand00sit-rakutenit/playlist.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (1d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | aur LIFE (1d)
 http://124.109.47.101/hls/stream1.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (0d)
-https://www.xfireflix.fun/test/live.php?id=bce59316a966&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | HUM Sitaray (1d)
 https://www.xfireflix.fun/test/live.php?id=a53f9e0ba020&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (4d)
@@ -133,3 +129,7 @@ https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-65e0c8c6d899
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | Boxing TV (8d)
 https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
+https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | Sports Connect (0d)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/playlist.m3u8
