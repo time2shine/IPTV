@@ -262,14 +262,31 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/52/BTV_Chattogram_Logo.svg",
     "links": [
       {
-        "url": "",
+        "url": "https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8",
         "status": "missing",
         "last_online": null,
-        "first_online": "2025-09-11",
-        "last_offline": "2025-09-13",
+        "first_online": "",
+        "last_offline": "",
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
+      }
+    ]
+  },
+  "BD | BTV News": {
+    "group": "Bangla News",
+    "tvg_id": "btvnews.bd",
+    "tvg_logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1735648543857_Poster.jpg&w=1080&q=75",
+    "links": [
+      {
+        "url": "https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
       }
     ]
   },
@@ -283,6 +300,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-08",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      },
+      {
+        "url": "https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -1953,13 +1980,13 @@
   "BD | SANGSAD BANGLADESH": {
     "group": "Bangla News",
     "tvg_id": "sangsad.bd",
-    "tvg_logo": "https://www.parliament.gov.bd/uploads/header/Editedbangladesh-parliament_1125.png",
+    "tvg_logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1676193184888_2.png&w=1080&q=75",
     "links": [
       {
-        "url": "",
+        "url": "https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8",
         "status": "missing",
         "last_online": null,
-        "first_online": "2025-09-08",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
