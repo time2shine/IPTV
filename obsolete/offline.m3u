@@ -1,28 +1,34 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",CHANNEL I (0d)
+http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr
 #EXTINF:-1 group-title="Bangla",DESH TV (7d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (6d)
 http://stvlive.net:8080/entertenbn/index.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (6d)
 http://stvlive.net:8080/gtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (0d)
-https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (0d)
 https://www.xfireflix.fun/test/live.php?id=3c1cc31a847f&e=.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (6d)
 http://stvlive.net:8080/nagorik/index.m3u8
+#EXTINF:-1 group-title="Bangla",SONY AATH HD (0d)
+https://www.xfireflix.fun/test/live.php?id=707e4efbda57&e=.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277424&extension=ts&play_token=AQaUdSko1H
 #EXTINF:-1 group-title="Bangla",SUN Bangla (6d)
 http://stvlive.net:8080/sunbangla/index.m3u8
-#EXTINF:-1 group-title="Bangla",Toffee Dramas (0d)
-https://www.xfireflix.fun/test/live.php?id=a751fcadf3c0&e=.m3u8
+#EXTINF:-1 group-title="Bangla",Zee Bangla HD (0d)
+http://stvlive.net:8080/zeebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277402&extension=ts&play_token=8Rvq4Bwhn7
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (8d)
@@ -37,14 +43,20 @@ http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277415&extensio
 https://www.xfireflix.fun/test/live.php?id=a051de5ade20&e=.m3u8
 #EXTINF:-1 group-title="Educational",NAT GEO HD Tamil (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277422&extension=ts&play_token=oEN0X1gPSK
-#EXTINF:-1 group-title="India",ENT | SONY SAB HD (0d)
-https://www.xfireflix.fun/test/live.php?id=978d421e4729&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | &TV HD (0d)
+https://www.xfireflix.fun/test/live.php?id=a6b5f6130cc5&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (0d)
+https://www.xfireflix.fun/test/live.php?id=5e23fb5def9b&e=.m3u8
+#EXTINF:-1 group-title="India",ENT | ZEE TV HD (0d)
+https://www.xfireflix.fun/test/live.php?id=9905083432a8&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex (3d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Bollywood (3d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexBollywood/JCHLS/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (3d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_ColorsCineplexSuperhit/JCHLS/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Sony MAX HD 2 (0d)
+https://www.xfireflix.fun/test/live.php?id=a8b8b701d558&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold 2 HD (5d)
 block/jiotvplus/stargold2hd/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (5d)
@@ -57,20 +69,22 @@ https://www.xfireflix.fun/test/live.php?id=72a0803cf563&e=.m3u8
 https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (1d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
-#EXTINF:-1 group-title="India",MU | Mastiii (0d)
-https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (5d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (5d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (5d)
 block/jiotvplus/sunmusichd/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | Times Now Navbharat (0d)
+https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="International",BBC Lifestyle (0d)
+http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International News",CBN News (0d)
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
 #EXTINF:-1 group-title="International News",CBN News (0d)
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
-#EXTINF:-1 group-title="International News",Fox News (0d)
-https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (6d)
 http://live.iill.top/huya.php?id=11352879
 #EXTINF:-1 group-title="Kids",1. Nick Hindi (6d)
@@ -79,12 +93,16 @@ http://stvlive.net:8080/nick/index.m3u8
 https://dai.google.com/linear/hls/event/0HWMZ7VTTAi8C7Y35fcbgQ/master.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (3d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
+#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
+https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="Movies",EN | Movies Now (6d)
 http://89.187.189.98/MOVIESNOWHD/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (0d)
+https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8?ads.wurl_channel=618&ads.wurl_name=NewMovies&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
 #EXTINF:-1 group-title="Movies",EN | Star Movies HD (6d)
 http://89.187.189.98/STARMOVIESHD/index.m3u8
-#EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (0d)
-https://www.xfireflix.fun/test/live.php?id=72e420862a7f&e=.m3u8
+#EXTINF:-1 group-title="Movies",KR | KMovies (0d)
+https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica Music (9d)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (2d)
@@ -109,7 +127,11 @@ https://live20.bozztv.com/akamaissh101/ssh101/vboxsungosttamil/playlist.m3u8
 http://stvlive.net:8080/starselect1/index.m3u8
 #EXTINF:-1 group-title="Sports",CR | Sony Sports 3 HD (3d)
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
+#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
+http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (1d)
 https://a1xs.vip/700035
 #EXTINF:-1 group-title="Sports",FIGHT | Boxing TV (9d)
 https://bbb-bxntv-freelivesports.otteravision.com/bbb/bxntv/bxntv.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
+https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
