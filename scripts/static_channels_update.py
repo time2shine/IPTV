@@ -123,7 +123,6 @@ WHITELIST_DOMAINS = [
     "https://premierleagpl23.akamaized.net",
     "https://indiatodaylive.akamaized.net",
     "http://103.73.107.122:3255/TSportsHD",
-    "http://116.90.120.149:8000/play",
     "https://streams.spacetoon.com",
     "https://owrcovcrpy.gpcdn.net",
     "http://103.230.105.252:1935",
