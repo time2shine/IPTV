@@ -439,20 +439,20 @@
       }
     ]
   },
-  "CHANNEL S": {
+  "Channel S": {
     "group": "Bangla",
-    "tvg_id": "CHANNELs.bd",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Channel_S_Logo.SVG/250px-Channel_S_Logo.SVG.png",
+    "tvg_id": "ChannelS.bd",
+    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT37QeLoNwrMrzrL8NUx_sA4tyZw0hnHoqF5RhwENo_TOP2Z29HYAMAk&s=10",
     "links": [
       {
         "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
-        "status": "missing",
-        "last_online": null,
-        "first_online": "",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-10-13",
         "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "probe_time_s": 8.52,
+        "speed": 0.235,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -2724,7 +2724,7 @@
     ]
   },
   "PowerNation TV": {
-    "group": "Education",
+    "group": "Educational",
     "tvg_id": "PowerNationTV",
     "tvg_logo": "https://www.powernationtv.com/images/brands/pn_icon_sm.png",
     "links": [
@@ -11164,23 +11164,6 @@
         "probe_time_s": 8.583,
         "speed": 0.233,
         "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "Channels S": {
-    "group": "LIVE TV",
-    "tvg_id": "Channels S",
-    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT37QeLoNwrMrzrL8NUx_sA4tyZw0hnHoqF5RhwENo_TOP2Z29HYAMAk&s=10",
-    "links": [
-      {
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-10-16",
-        "first_online": "2025-10-13",
-        "last_offline": null,
-        "probe_time_s": 8.52,
-        "speed": 0.235,
-        "passed_via": "mpv"
       }
     ]
   },
