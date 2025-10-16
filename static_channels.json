@@ -16,6 +16,23 @@
       }
     ]
   },
+  "MU | DEEWANA HD": {
+    "group": "India",
+    "tvg_id": "DEEWANAHD.in",
+    "tvg_logo": "https://i.postimg.cc/9Q7G21N6/Deewana.png",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 12.031,
+        "speed": 0.166,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -928,7 +945,7 @@
       }
     ]
   },
-  "MOV | COLORS BANGLA CINEMA HD (*)": {
+  "MOV | COLORS BANGLA CINEMA HD": {
     "group": "Bangla",
     "tvg_id": "colorsbanglacinemahd.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
@@ -938,6 +955,57 @@
         "status": "missing",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "MOV | Bangla Movies (Tplay)": {
+    "group": "Bangla",
+    "tvg_id": "BanglaMovies.Tplay",
+    "tvg_logo": "https://i.postimg.cc/RCnCv14W/T-Play.png",
+    "links": [
+      {
+        "url": "https://tplay.live/playlist/movies/bangla-movies/index.m3u8",
+        "status": "missing",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "MOV | Bollywood Movies (Tplay)": {
+    "group": "India",
+    "tvg_id": "BollywoodMovies.Tplay",
+    "tvg_logo": "https://i.postimg.cc/RCnCv14W/T-Play.png",
+    "links": [
+      {
+        "url": "https://tplay.live/playlist/movies/bollywood-movies/index.m3u8",
+        "status": "missing",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "MOV | Hindi Dubbed Movies (Tplay)": {
+    "group": "India",
+    "tvg_id": "HindiDubbedMovies.Tplay",
+    "tvg_logo": "https://i.postimg.cc/RCnCv14W/T-Play.png",
+    "links": [
+      {
+        "url": "https://tplay.live/playlist/movies/dubbed-movies/index.m3u8",
+        "status": "missing",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -1595,6 +1663,23 @@
         "probe_time_s": 55.806,
         "speed": 0.036,
         "passed_via": "mpv"
+      }
+    ]
+  },
+  "0. Gopal Var": {
+    "group": "Kids",
+    "tvg_id": "GopalVar.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/00/SONY_AATH.png",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 1.54,
+        "speed": 1.299,
+        "passed_via": "ffmpeg"
       }
     ]
   },
