@@ -13,6 +13,8 @@ http://103.230.105.252:1935/live/btv/manifest.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD
 https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8?hdnts=
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD
 http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD
@@ -55,8 +57,6 @@ https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-
 https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | Zee 24 Ghanta
 https://amg01412-xiaomiasia-zee24ghantaa-xiaomi-cvo5n.amagi.tv/playlist/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8
-#EXTINF:-1 group-title="India",MOV | Star Gold Thrills
-http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | Aaj Tak HD
@@ -79,10 +79,6 @@ https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8
 #EXTINF:-1 group-title="International News",Euronews English
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
-#EXTINF:-1 group-title="Kids",1. Disney Channel Hindi
-http://116.90.120.149:8000/play/a0bx/index.m3u8
-#EXTINF:-1 group-title="Kids",1. Disney Junior India
-http://116.90.120.149:8000/play/a0b3/index.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Teleritmo
 http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital
@@ -109,17 +105,7 @@ http://b1g.ooo:80/Gerado/Gerado1/7975
 http://b1g.ooo:80/Gerado/Gerado1/7974
 #EXTINF:-1 group-title="Pakistan",NEWS | PTV World
 http://b1g.ooo:80/Gerado/Gerado1/7973
-#EXTINF:-1 group-title="Sports",--Live(Geo Super)--
-http://116.90.120.149:8000/play/a021/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Star Sports 1 Hindi)--
-http://116.90.120.149:8000/play/a0bv/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Tapmad)--
-https://premierleagpl23.akamaized.net/hls/live/2107108/TapSerie-1@2025/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Toffee Sports HD)--
 http://103.73.107.122:3255/TSportsHD/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Willow Sports HD)--
-http://filex.tv:8080/live/Multicity/1234/52109.ts
-#EXTINF:-1 group-title="Sports",CR | Ten Sports HD
-http://filex.tv:8080/live/Multicity/1234/52106.ts
 #EXTINF:-1 group-title="Sports",GOLF | Unbeaten (Worldwide)
 https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea/playlist.m3u8
