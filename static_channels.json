@@ -16,6 +16,23 @@
       }
     ]
   },
+  "Channel A1": {
+    "group": "Bangla",
+    "tvg_id": "akashaat.in",
+    "tvg_logo": "https://yt3.googleusercontent.com/zVJv2UJQNwrChEqxfryfZBR1KCJLUEBqc68SEoYHzX9rM4YC8RcF8T06vLZKRenFwMISCD3V=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://stream.shariarsuvo.com/hls_live2/channela1.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 12.031,
+        "speed": 0.166,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
   "MU | DEEWANA HD": {
     "group": "India",
     "tvg_id": "DEEWANAHD.in",
@@ -239,6 +256,23 @@
       }
     ]
   },
+  "Islam Channel Bangla": {
+    "group": "Bangla",
+    "tvg_id": "IslamChannelBangla.bd",
+    "tvg_logo": "https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a42cff0b32f1705258239.jpg",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/playlist.m3u8",
+        "status": "missing",
+        "last_online": null,
+        "first_online": "",
+        "last_offline": "",
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
   "Biswa Bangla": {
     "group": "Bangla",
     "tvg_id": "BiswaBangla",
@@ -398,6 +432,23 @@
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "CHANNEL S": {
+    "group": "Bangla",
+    "tvg_id": "CHANNELs.bd",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Channel_S_Logo.SVG/250px-Channel_S_Logo.SVG.png",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
+        "status": "missing",
+        "last_online": null,
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -570,6 +621,16 @@
         "probe_time_s": 5.903,
         "speed": 0.339,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 5.903,
+        "speed": 0.339,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -631,16 +692,6 @@
         "probe_time_s": 2.665,
         "speed": 0.751,
         "passed_via": "ffmpeg"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-03",
-        "first_online": "2025-09-14",
-        "last_offline": "2025-10-03",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -813,6 +864,16 @@
         "probe_time_s": 70.542,
         "speed": 0.028,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8",
+        "status": "offline",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": "",
+        "probe_time_s": 70.542,
+        "speed": 0.028,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -894,6 +955,40 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-11",
+        "last_offline": null,
+        "probe_time_s": 6.163,
+        "speed": 0.325,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "NRB HD TV": {
+    "group": "Bangla",
+    "tvg_id": "NRBHDTV",
+    "tvg_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeX0fMKpc_lRfrT6qTXG0iK7ltwilygRaZ61fPX_7T7RHkjdwTIaYDHWSMRVFez2eBnGGnAM3logWZ9f7r7uJGEZQQZfjb3hydOkm9Q2FEULaQHhxJkJqUrOA8xCxdnHEYTNhNoUSXONX48zDINAFHI80edoaKzFHO2TQg4N9ojnbp-Ae3eCX_XuQ-ZOE/s1600/NRBLogoDesignwithColorAccents_copy_900x900.png",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 6.163,
+        "speed": 0.325,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "Bangla+ HD": {
+    "group": "Bangla",
+    "tvg_id": "BanglaPlusHD",
+    "tvg_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir8DIISD_3Ay4E2H__HTS4VFP7VXskYcIgkufU45epPzAFDKObL2D_p6mOal9B0RJpyaiA3feJuyaL8yvd0x-2nykRjc1pZPwT_aAGwmwFb4bEJf8oVDgty5NF30gzWlwHvh2P2c49pP2P8383ili_yboK1uSyqELcZygHTpSwru1VeK0mMwceugT5QLw/s1600/NadimRazaTVLogoDesign%282%29_copy_900x900_1.png",
+    "links": [
+      {
+        "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 6.163,
         "speed": 0.325,
@@ -1325,6 +1420,16 @@
         "probe_time_s": 1.554,
         "speed": 1.287,
         "passed_via": "ffmpeg"
+      },
+        {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-15",
+        "last_offline": null,
+        "probe_time_s": 1.554,
+        "speed": 1.287,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -1345,9 +1450,9 @@
       }
     ]
   },
-  "MY TV": {
+  "MY TV HD": {
     "group": "Bangla",
-    "tvg_id": "deshitv.bd",
+    "tvg_id": "mytv.bd",
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/My%20TV.svg.png",
     "links": [
       {
@@ -1581,11 +1686,11 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "",
+        "url": "https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8",
         "status": "missing",
         "last_online": null,
-        "first_online": "2025-09-20",
-        "last_offline": "2025-09-20",
+        "first_online": "",
+        "last_offline": "",
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
@@ -1602,6 +1707,40 @@
         "status": "missing",
         "last_online": null,
         "first_online": "2025-09-08",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "Bisso Bangla 24 TV": {
+    "group": "Bangla",
+    "tvg_id": "BissoBangla24TV",
+    "tvg_logo": "https://yt3.googleusercontent.com/rTBqQyhe-6xdFEAm-4uMw3nwTNRr1G5Ig2dgAJBOcTPzj_HWVYMWD8Vys9MHzCBFJRytwYKGDg=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/playlist.m3u8",
+        "status": "missing",
+        "last_online": null,
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
+  "Channel 52": {
+    "group": "Bangla",
+    "tvg_id": "Channel52",
+    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_nkJKVbw8obzDxMqr3icQerQ6PvZlkDFjbBaYRBfn83Lw=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel25usa.stream/playlist.m3u8",
+        "status": "missing",
+        "last_online": null,
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -1919,16 +2058,16 @@
       }
     ]
   },
-  "BD | BANGLA TV": {
-    "group": "Bangla News",
+  "BANGLA TV": {
+    "group": "Bangla",
     "tvg_id": "banglatv.bd",
     "tvg_logo": "https://banglatv.tv/wp-content/uploads/2020/09/banglatvlogo.png",
     "links": [
       {
-        "url": "",
+        "url": "https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u",
         "status": "missing",
         "last_online": null,
-        "first_online": "2025-09-08",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -4922,6 +5061,16 @@
         "probe_time_s": 4.401,
         "speed": 0.454,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/cd1f59d6-9b5d-43f0-bfb2-6ca9edc99f27/0.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 4.401,
+        "speed": 0.454,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -5485,6 +5634,16 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "head_fail"
+      },
+      {
+        "url": "https://smart.bengaldigital.live/ZeeCinema/index.m3u8",
+        "status": "offline",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": "",
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "head_fail"
       }
     ]
   },
@@ -5626,6 +5785,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 2.231,
+        "speed": 0.896,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 2.231,
         "speed": 0.896,
@@ -5879,23 +6048,6 @@
         "last_offline": null,
         "probe_time_s": 5.549,
         "speed": 0.36,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "MU | Joo Music": {
-    "group": "India",
-    "tvg_id": "JooMusic.in",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/Joo_Music.png",
-    "links": [
-      {
-        "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
-        "status": "online",
-        "last_online": "2025-10-16",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": 4.674,
-        "speed": 0.428,
         "passed_via": "ffmpeg"
       }
     ]
@@ -6167,9 +6319,9 @@
       }
     ]
   },
-  "MU | ShowBox": {
+  "MU | Show Box": {
     "group": "India",
-    "tvg_id": "8Xmusic",
+    "tvg_id": "ShowBox",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f9/ShowBox_logo.jpeg",
     "links": [
       {
@@ -6177,6 +6329,23 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-10",
+        "last_offline": null,
+        "probe_time_s": 6.855,
+        "speed": 0.292,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "MU | 8XM": {
+    "group": "India",
+    "tvg_id": "8XM",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5b/8XM_2011_logo.png",
+    "links": [
+      {
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 6.855,
         "speed": 0.292,
@@ -6303,6 +6472,23 @@
       }
     ]
   },
+  "MU | Joo Music": {
+    "group": "India",
+    "tvg_id": "JooMusic.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3f/Joo_Music.png",
+    "links": [
+      {
+        "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 4.674,
+        "speed": 0.428,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
   "MU | Zoom": {
     "group": "India",
     "tvg_id": "Zoom.in",
@@ -6323,6 +6509,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-09",
+        "last_offline": null,
+        "probe_time_s": 4.882,
+        "speed": 0.41,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/zoomin.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 4.882,
         "speed": 0.41,
@@ -9244,7 +9440,7 @@
       }
     ]
   },
-  "0. DURONTO HD": {
+  "0. Duronto TV": {
     "group": "Kids",
     "tvg_id": "duronto",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/ed/Duronto_TV_logo.png",
@@ -14547,6 +14743,23 @@
       }
     ]
   },
+  "BanglaWaz": {
+    "group": "Religious",
+    "tvg_id": "BanglaWaz.bd",
+    "tvg_logo": "https://play-lh.googleusercontent.com/Z-yuraAYw_edO1ItlMj6a9yq9M9YcQZ2Goq4YvXQgN2DNcTVtdb2qS4Bv6IoDbVSDIgF=w240-h480-rw",
+    "links": [
+      {
+        "url": "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8",
+        "status": "missing",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": "",
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing"
+      }
+    ]
+  },
   "Al Quran Al Kareem TV": {
     "group": "Religious",
     "tvg_id": "AlQuranAlKareemTV.sa",
@@ -14822,6 +15035,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 16.168,
+        "speed": 0.124,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/makkah.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 16.168,
         "speed": 0.124,
@@ -15641,6 +15864,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-11",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      },
+      {
+        "url": "https://fl31.moveonjoy.com/WILLOW_CRICKET/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
