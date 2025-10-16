@@ -121,6 +121,16 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "http://stvlive.net:8080/atnnews/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
       }
     ]
   },
@@ -293,6 +303,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-08",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      },
+      {
+        "url": "http://103.175.242.10:8080/btv/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -519,6 +539,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 5.903,
+        "speed": 0.339,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://stvlive.net:8080/deepto/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 5.903,
         "speed": 0.339,
@@ -1369,6 +1399,16 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "http://stvlive.net:8080/ntv/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
       }
     ]
   },
@@ -1542,6 +1582,16 @@
         "last_online": "2025-10-16",
         "first_online": "2025-10-13",
         "last_offline": "2025-10-16",
+        "probe_time_s": 55.806,
+        "speed": 0.036,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/sonyaath/index.m3u8",
+        "status": "offline",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": "",
         "probe_time_s": 55.806,
         "speed": 0.036,
         "passed_via": "mpv"
@@ -1824,11 +1874,11 @@
     "tvg_logo": "https://yt3.googleusercontent.com/8Q8MCd6ypr2Hzbp60VE_stJPl063kQYfeTxdIQkAXRfhdzxByLl0sJYHsk43uTM4W_cOzwcbPQ=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
+        "url": "http://stvlive.net:8080/channel24/index.m3u8",
         "status": "missing",
         "last_online": null,
-        "first_online": "2025-09-09",
-        "last_offline": "2025-09-24",
+        "first_online": "",
+        "last_offline": "",
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
@@ -1886,6 +1936,16 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "http://stvlive.net:8080/ekattor/index.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-11",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
       }
     ]
   },
@@ -1916,6 +1976,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-10",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      },
+      {
+        "url": "http://103.175.242.10:8080/independent/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -1953,6 +2023,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist"
+      },
+      {
+        "url": "http://stvlive.net:8080/jamuna/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": null,
         "speed": 0.0,
@@ -2883,6 +2963,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 19.789,
+        "speed": 0.101,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/discovery/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 19.789,
         "speed": 0.101,
@@ -4364,6 +4454,16 @@
         "probe_time_s": 20.074,
         "speed": 0.1,
         "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/sonyentten/index.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 20.074,
+        "speed": 0.1,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -4537,9 +4637,26 @@
       }
     ]
   },
-  "ENT | ZEE TV HD": {
+  "ENT | ZEE TV": {
     "group": "India",
     "tvg_id": "ZEETV.tv",
+    "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
+    "links": [
+      {
+        "url": "http://103.175.242.10:8080/zeetv/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 1.111,
+        "speed": 1.8,
+        "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "ENT | ZEE TV HD": {
+    "group": "India",
+    "tvg_id": "ZEETVhd.tv",
     "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
     "links": [
       {
@@ -4591,6 +4708,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 25.737,
+        "speed": 0.078,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/andpicture/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 25.737,
         "speed": 0.078,
@@ -4995,16 +5122,43 @@
       }
     ]
   },
+  "MOV | Sony MAX": {
+    "group": "India",
+    "tvg_id": "SonyMAX",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/46/Sony_MAX_SD.png",
+    "links": [
+      {
+        "url": "http://stvlive.net:8080/sonymax/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 21.568,
+        "speed": 0.093,
+        "passed_via": "mpv"
+      }
+    ]
+  },
   "MOV | Sony MAX 2": {
     "group": "India",
     "tvg_id": "SonyMAX2",
-    "tvg_logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a6/Sony-max-2-in.png",
     "links": [
       {
         "url": "https://www.xfireflix.fun/test/live.php?id=959476952605&e=.m3u8",
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 21.568,
+        "speed": 0.093,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://103.175.242.10:8080/sonymax2/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 21.568,
         "speed": 0.093,
@@ -5138,6 +5292,43 @@
         "probe_time_s": 22.293,
         "speed": 0.09,
         "passed_via": "mpv"
+      },
+      {
+        "url": "http://103.175.242.10:8080/zeeaction/index.m3u8",
+        "status": "offline",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": "",
+        "probe_time_s": 22.293,
+        "speed": 0.09,
+        "passed_via": "mpv"
+      }
+    ]
+  },
+  "ENT | Zee Amol TV": {
+    "group": "India",
+    "tvg_id": "ZeeAmolTV",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/9/9b/Anmol_TV_Logo_%282025%2C_Low_Quality%29.jpg",
+    "links": [
+      {
+        "url": "https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/chunklist_w1694401036.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-20",
+        "last_offline": null,
+        "probe_time_s": 1.593,
+        "speed": 1.255,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://103.175.242.10:8080/zeeanmol/index.m3u8",
+        "status": "online",
+        "last_online": "2025-10-16",
+        "first_online": "2025-09-20",
+        "last_offline": null,
+        "probe_time_s": 1.593,
+        "speed": 1.255,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -9314,17 +9505,17 @@
       }
     ]
   },
-  "1. Cartoon Network HD +": {
+  "0. Cartoon Network HD +": {
     "group": "Kids",
     "tvg_id": "CartoonNetwork.uk",
     "tvg_logo": "https://assets-prod.services.toffeelive.com/f_webp,w_240,q_100/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",
     "links": [
       {
-        "url": "",
+        "url": "http://103.175.242.10:8080/cartoonnetwork/index.m3u8",
         "status": "missing",
-        "last_online": "2025-09-06",
-        "first_online": "2025-09-06",
-        "last_offline": "2025-09-20",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": "",
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
@@ -10019,6 +10210,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 23.17,
+        "speed": 0.086,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/sonyyay/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 23.17,
         "speed": 0.086,
@@ -11504,6 +11705,23 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
+      }
+    ]
+  },
+  "EN | Sony PIX": {
+    "group": "Movies",
+    "tvg_id": "SonyPIX",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2a/SONY_PIX_SD.png",
+    "links": [
+      {
+        "url": "http://103.175.242.10:8080/sonypix/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 18.528,
+        "speed": 0.108,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -14980,6 +15198,16 @@
         "probe_time_s": 23.603,
         "speed": 0.085,
         "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/sonyten1/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 23.603,
+        "speed": 0.085,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -15006,6 +15234,16 @@
         "last_offline": null,
         "probe_time_s": 22.176,
         "speed": 0.09,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://stvlive.net:8080/sonyten2/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 23.603,
+        "speed": 0.085,
         "passed_via": "mpv"
       }
     ]
@@ -15234,6 +15472,16 @@
         "probe_time_s": 7.743,
         "speed": 0.258,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://stvlive.net:8080/tsports1/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
+        "last_offline": null,
+        "probe_time_s": 7.743,
+        "speed": 0.258,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -15264,6 +15512,16 @@
         "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
+        "last_offline": null,
+        "probe_time_s": 17.603,
+        "speed": 0.114,
+        "passed_via": "mpv"
+      },
+      {
+        "url": "http://103.175.242.10:8080/tencricket/index.m3u8",
+        "status": "online",
+        "last_online": "",
+        "first_online": "",
         "last_offline": null,
         "probe_time_s": 17.603,
         "speed": 0.114,
