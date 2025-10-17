@@ -16,6 +16,48 @@
       }
     ]
   },
+  "EN | CTV Winnipeg (CKY)": {
+    "group": "International",
+    "tvg_id": "CTV Winnipeg",
+    "tvg_logo": "https://cdn.tvpassport.com/image/station/240x135/v2/s10108_h15_ab.png",
+    "links": [
+      {
+        "url": "http://38.143.48.212:9981/stream/channelid/741174107?profile=pass",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Puls 24": {
+    "group": "Sports",
+    "tvg_id": "Puls24",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Puls_24_Logo_2022.svg/1200px-Puls_24_Logo_2022.svg.png",
+    "links": [
+      {
+        "url": "http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | ORF Sport+ HD": {
+    "group": "Sports",
+    "tvg_id": "ORFSport+",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ORF_Sport_%2B_Logo_2024.svg/2560px-ORF_Sport_%2B_Logo_2024.svg.png",
+    "links": [
+      {
+        "url": "http://212.186.45.34:9981/stream/channelid/906723447?profile=pass",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
