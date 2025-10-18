@@ -126,6 +126,7 @@ WHITELIST_DOMAINS = [
     "https://streams.spacetoon.com",
     "https://owrcovcrpy.gpcdn.net",
     "http://103.230.105.252:1935",
+    "http://al.hls.huya.com/src",
     "https://feeds.intoday.in",
     "http://mtv.sunplex.live",
     "http://cdn01.palki.tv",
