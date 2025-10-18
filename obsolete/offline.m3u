@@ -13,8 +13,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 http://stvlive.net:8080/gtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (3d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B
-#EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (0d)
-https://www.xfireflix.fun/test/live.php?id=9f573df7cbe5&e=.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (1d)
 https://www.xfireflix.fun/test/live.php?id=3c1cc31a847f&e=.m3u8
 #EXTINF:-1 group-title="Bangla",Movie Bangla TV (1d)
@@ -33,8 +31,6 @@ http://stvlive.net:8080/sunbangla/index.m3u8
 http://stvlive.net:8080/zeebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (3d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277402&extension=ts&play_token=8Rvq4Bwhn7
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (8d)
 http://89.187.189.98/ANIMALPLANETHD/index.m3u8
 #EXTINF:-1 group-title="Educational",BBC Earth (8d)
@@ -53,8 +49,6 @@ http://stvlive.net:8080/sonyentten/index.m3u8
 https://www.xfireflix.fun/test/live.php?id=5e23fb5def9b&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Amol TV (2d)
 http://103.175.242.10:8080/zeeanmol/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Zee Cafe (0d)
-https://www.xfireflix.fun/test/live.php?id=c65460ba0d73&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | ZEE TV (1d)
 http://103.175.242.10:8080/zeetv/index.m3u8
 #EXTINF:-1 group-title="India",MOV | & PICTURES HD (1d)
@@ -83,10 +77,6 @@ http://103.175.242.10:8080/zeeaction/index.m3u8
 https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (3d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
-#EXTINF:-1 group-title="India",MU | B4U Music APAC (0d)
-https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",MU | Mastiii (0d)
-https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (7d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (7d)
@@ -102,11 +92,9 @@ https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/ra
 #EXTINF:-1 group-title="International",EN | Global Toronto (1d)
 http://38.143.48.212:9981/stream/channelid/41831820?profile=pass
 #EXTINF:-1 group-title="International News",CBN News (2d)
-https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
-#EXTINF:-1 group-title="International News",CBN News (2d)
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
-#EXTINF:-1 group-title="International News",Connecting America (0d)
-https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+#EXTINF:-1 group-title="International News",CBN News (2d)
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (1d)
 http://103.175.242.10:8080/cartoonnetwork/index.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (8d)
@@ -117,10 +105,12 @@ a0bx/index.m3u8
 a0b3/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Nick Hindi (8d)
 http://stvlive.net:8080/nick/index.m3u8
+#EXTINF:-1 group-title="Kids",2. SONY YAY! (0d)
+https://www.xfireflix.fun/test/live.php?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Kids",Cartoon Classics (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (5d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Movies Now (8d)
@@ -133,10 +123,8 @@ http://103.175.242.10:8080/sonypix/index.m3u8
 http://89.187.189.98/STARMOVIESHD/index.m3u8
 #EXTINF:-1 group-title="Movies",KR | KMovies (2d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
-#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
-https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (4d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (3d)
@@ -165,8 +153,6 @@ http://stvlive.net:8080/starsports1/index.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/vboxsungosttamil/playlist.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (8d)
 http://stvlive.net:8080/starselect1/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Ten Cricket)-- (0d)
-https://www.xfireflix.fun/test/live.php?id=86db7302947d&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Ten Cricket)-- (1d)
 http://103.175.242.10:8080/tencricket/index.m3u8
 #EXTINF:-1 group-title="Sports",CR | Sony Sports 3 HD (5d)
