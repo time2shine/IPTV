@@ -132,6 +132,7 @@ WHITELIST_DOMAINS = [
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
     "http://filex.tv:8080",
+    "http://live.iill.top",
     "http://b1g.ooo:80",
 ]
 
