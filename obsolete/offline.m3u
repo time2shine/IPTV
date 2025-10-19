@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",BANGLA TV (3d)
 https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u
+#EXTINF:-1 group-title="Bangla",Bisso Bangla 24 TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Biswa Bangla (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (4d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr
 #EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (9d)
@@ -9,12 +13,18 @@ http://stvlive.net:8080/entertenbn/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (9d)
 http://stvlive.net:8080/gtv/index.m3u8
+#EXTINF:-1 group-title="Bangla",Me TV (0d)
+http://stvlive.net:8080/metv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (4d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B
 #EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (1d)
 https://www.xfireflix.fun/test/live.php?id=9f573df7cbe5&e=.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (1d)
 https://www.xfireflix.fun/test/live.php?id=3c1cc31a847f&e=.m3u8
+#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/moviebanglalink2.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (9d)
 http://stvlive.net:8080/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (2d)
@@ -61,8 +71,6 @@ http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277422&extensio
 https://www.xfireflix.fun/test/live.php?id=4947c242a562&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | &TV HD (1d)
 https://www.xfireflix.fun/test/live.php?id=a6b5f6130cc5&e=.m3u8
-#EXTINF:-1 group-title="India",ENT | E24 (0d)
-https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment (2d)
 http://stvlive.net:8080/sonyentten/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment (1d)
@@ -89,8 +97,6 @@ https://www.xfireflix.fun/test/live.php?id=4effcf0f2452&e=.m3u8
 http://stvlive.net:8080/andpicture/index.m3u8
 #EXTINF:-1 group-title="India",MOV | & PICTURES HD (1d)
 https://www.xfireflix.fun/test/live.php?id=1d8f06362c1e&e=.m3u8
-#EXTINF:-1 group-title="India",MOV | B4U Bhojpuri (0d)
-https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 group-title="India",MOV | B4U Movies India (1d)
 https://www.xfireflix.fun/test/live.php?id=de2bbe405e92&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex (6d)
@@ -123,14 +129,16 @@ https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (1d)
 https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",MU | B4U Music India (0d)
-https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
+#EXTINF:-1 group-title="India",MU | Mastiii (0d)
+https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (8d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (8d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (8d)
 block/jiotvplus/sunmusichd/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (3d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (2d)
@@ -143,8 +151,8 @@ https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-e
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (1d)
 https://www.xfireflix.fun/test/live.php?id=2435a44a7c67&e=.m3u8
-#EXTINF:-1 group-title="International News",EAC News TV (1d)
-https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8
+#EXTINF:-1 group-title="International News",Euronews English (0d)
+https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (2d)
 http://103.175.242.10:8080/cartoonnetwork/index.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (9d)
@@ -165,24 +173,32 @@ https://www.xfireflix.fun/test/live.php?id=667189f69164&e=.m3u8
 http://stvlive.net:8080/sonyyay/index.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
 https://www.xfireflix.fun/test/live.php?id=93bd384e76a9&e=.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (6d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | a-z Western Grit (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Colorized.TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | Movies Now (9d)
 http://89.187.189.98/MOVIESNOWHD/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (3d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8?ads.wurl_channel=618&ads.wurl_name=NewMovies&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
+#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX (2d)
 http://103.175.242.10:8080/sonypix/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX HD (1d)
 https://www.xfireflix.fun/test/live.php?id=5c42f69f96db&e=.m3u8
 #EXTINF:-1 group-title="Movies",EN | Star Movies HD (9d)
 http://89.187.189.98/STARMOVIESHD/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",KR | KMovies (3d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (1d)
 https://www.xfireflix.fun/test/live.php?id=72e420862a7f&e=.m3u8
+#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
+http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (5d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (4d)
@@ -193,6 +209,8 @@ https://www.xfireflix.fun/test/live.php?id=a53f9e0ba020&e=.m3u8
 https://video.primexsports.com/suchnews/live/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (8d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (1d)
 https://www.xfireflix.fun/test/live.php?id=be6aae4ac12b&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (3d)
@@ -229,3 +247,5 @@ https://www.xfireflix.fun/test/live.php?id=b18613696a70&e=.m3u8
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (4d)
 https://a1xs.vip/700035
+#EXTINF:-1 group-title="Sports",MIXER | SportsTVPlus (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8
