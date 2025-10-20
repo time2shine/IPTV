@@ -97,16 +97,18 @@ https://www.xfireflix.fun/test/live.php?id=2ea95a9da2d7&e=.m3u8
 http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (5d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
+#EXTINF:-1 group-title="India",MU | 7X PANJAB MUSIC (0d)
+https://stream.e2is.in/hls/7xMusic.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (2d)
 https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",MU | Mastiii (0d)
-https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | MUSIC INDIA HD (9d)
 block/jiotvplus/musicindia/master.m3u8
 #EXTINF:-1 group-title="India",MU | Star MAA MUSIC (9d)
 block/jiotvplus/maamusic/master.m3u8
 #EXTINF:-1 group-title="India",MU | SUN MUSIC HD (9d)
 block/jiotvplus/sunmusichd/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (4d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (3d)
@@ -127,10 +129,10 @@ a0bx/index.m3u8
 a0b3/index.m3u8
 #EXTINF:-1 group-title="Kids",2. POGO (2d)
 https://www.xfireflix.fun/test/live.php?id=667189f69164&e=.m3u8
+#EXTINF:-1 group-title="Kids",2. SONY YAY! (0d)
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (2d)
 https://www.xfireflix.fun/test/live.php?id=93bd384e76a9&e=.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (7d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (4d)
@@ -141,6 +143,8 @@ https://www.xfireflix.fun/test/live.php?id=5c42f69f96db&e=.m3u8
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (2d)
 https://www.xfireflix.fun/test/live.php?id=72e420862a7f&e=.m3u8
+#EXTINF:-1 group-title="Music",EN | HTV (0d)
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (6d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (5d)
