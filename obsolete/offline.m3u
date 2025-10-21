@@ -1,14 +1,14 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",BANGLA TV (5d)
 https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u
-#EXTINF:-1 group-title="Bangla",Channel 5 (1d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",Channel S (1d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",BTV CHITTAGONG (0d)
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+#EXTINF:-1 group-title="Bangla",BTV HD (0d)
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
+#EXTINF:-1 group-title="Bangla",Channel A1 (0d)
+https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (6d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (unknown)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (6d)
@@ -27,8 +27,12 @@ http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277424&extensio
 https://www.xfireflix.fun/test/live.php?id=a751fcadf3c0&e=.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (6d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277402&extension=ts&play_token=8Rvq4Bwhn7
-#EXTINF:-1 group-title="Bangla News",IN | Republic Bangla (0d)
-https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | BTV News (0d)
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | SANGSAD BANGLADESH (0d)
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (3d)
 https://www.xfireflix.fun/test/live.php?id=52d1df2fdb80&e=.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (3d)
@@ -101,14 +105,16 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (3d)
 https://www.xfireflix.fun/test/live.php?id=6f73e4079aa2&e=.m3u8
+#EXTINF:-1 group-title="India",MU | Mastiii (0d)
+https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (5d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (4d)
 https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/bd8f1eaade6782c3ad8c6916f840f89052a2c590/700a192f4d09363.m3u8
 #EXTINF:-1 group-title="International News",CBN News (5d)
-https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
-#EXTINF:-1 group-title="International News",CBN News (5d)
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+#EXTINF:-1 group-title="International News",CBN News (5d)
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (3d)
 https://www.xfireflix.fun/test/live.php?id=2435a44a7c67&e=.m3u8
 #EXTINF:-1 group-title="Kids",1. Cartoon Network Hindi (3d)
@@ -125,38 +131,32 @@ https://www.xfireflix.fun/test/live.php?id=667189f69164&e=.m3u8
 https://www.xfireflix.fun/test/live.php?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (8d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Colorized.TV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (5d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8?ads.wurl_channel=618&ads.wurl_name=NewMovies&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
-#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX HD (3d)
 https://www.xfireflix.fun/test/live.php?id=5c42f69f96db&e=.m3u8
-#EXTINF:-1 group-title="Movies",EN | SRK TV (0d)
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Movies",KR | KMovies (5d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (3d)
 https://www.xfireflix.fun/test/live.php?id=72e420862a7f&e=.m3u8
 #EXTINF:-1 group-title="Music",EN | HTV (1d)
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
-#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (7d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 group-title="Music",TR | TRT Müzik (0d)
-https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (6d)
 https://www.xfireflix.fun/test/live.php?id=bce59316a966&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | HUM Sitaray (7d)
 https://www.xfireflix.fun/test/live.php?id=a53f9e0ba020&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (3d)
 https://video.primexsports.com/suchnews/live/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Makkah TV (0d)
+https://media2.streambrothers.com:1936/8122/8122/chunklist_w1247854077.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (3d)
 https://www.xfireflix.fun/test/live.php?id=be6aae4ac12b&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (5d)
 a021/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
+https://tvsen5.aynaott.com/Ptvsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 1)-- (3d)
 https://www.xfireflix.fun/test/live.php?id=afd176a5b887&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (3d)
@@ -177,5 +177,7 @@ https://www.xfireflix.fun/test/live.php?id=b18613696a70&e=.m3u8
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (6d)
 https://a1xs.vip/700035
+#EXTINF:-1 group-title="Sports",MIXER | ACE TV (0d)
+https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8
 #EXTINF:-1 group-title="Travel",Carbon TV (0d)
 https://amg00585-amg00585c15-freelivesports-emea-5932.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-carbontv-freelivesportsemea/playlist.m3u8
