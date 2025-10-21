@@ -4,6 +4,8 @@ import requests
 import functools
 import subprocess
 import os, shutil
+import tempfile
+import random
 from datetime import datetime, date
 from typing import Tuple, Optional, Dict
 from concurrent.futures import ThreadPoolExecutor
@@ -16,21 +18,22 @@ print = functools.partial(print, flush=True)
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-RETRIES = 2                    # Retries for FFmpeg attempts
-FAST_MODE = False              # True = faster/lighter FFmpeg probe
-MAX_WORKERS = 100              # Parallel workers for link checks
+RETRIES = 2                     # Retries for FFmpeg attempts
+FAST_MODE = False               # True = faster/lighter FFmpeg probe
+# Cap worker pool to keep sockets/CPU sane
+MAX_WORKERS = 120
 JSON_FILE = "static_channels.json"
 
 # HTTP header probe
 HEAD_RETRIES = 3
-HEAD_TIMEOUT = 5               # seconds per attempt
+HEAD_TIMEOUT = 5                # seconds per attempt
 
 # FFmpeg probe
-FFMPEG_TIMEOUT = 20            # subprocess timeout (seconds)
-FFMPEG_TEST_DURATION = 2       # seconds of demuxing work
-MAX_ALLOWED_DURATION = 12      # classify above this as "slow" (still online)
-FFMPEG_ANALYZE = 1_000_000     # reduced when FAST_MODE
-FFMPEG_PROBESIZE = 1_000_000   # reduced when FAST_MODE
+FFMPEG_TIMEOUT = 20             # subprocess timeout (seconds)
+FFMPEG_TEST_DURATION = 2        # seconds of demuxing work
+MAX_ALLOWED_DURATION = 12       # classify above this as "slow" (still online)
+FFMPEG_ANALYZE = 1_000_000      # reduced when FAST_MODE
+FFMPEG_PROBESIZE = 1_000_000    # reduced when FAST_MODE
 
 # MPV fallback probe (used only if FFmpeg fails)
 MPV_TIMEOUT = 150
@@ -43,7 +46,7 @@ HEADERS: Dict[str, str] = {
     "Referer": "https://live.dinesh29.com.np/",
     "Origin": "https://live.dinesh29.com.np",
     "Accept": "*/*",
-    "Connection": "keep-alive",
+    # "Connection" intentionally omitted; requests manages keep-alive
 }
 
 # Content-type heuristics
@@ -57,44 +60,22 @@ VALID_CONTENT = [
     "video/mp2t",
     "video/mp4",
     "video",
+    "application/octet-stream",  # often used by HLS/TS endpoints
 ]
 
-# Fatal patterns to detect in ffmpeg stderr
+# Focused fatal patterns (avoid generic "error"/"failed")
 FATAL_PATTERNS = [
     # HTTP / network errors
-    r"404 not found", r"403 forbidden", r"400 bad request", r"401 unauthorized",
-    r"402 payment required", r"405 method not allowed", r"406 not acceptable",
-    r"407 proxy authentication required", r"408 request timeout", r"409 conflict",
-    r"410 gone", r"411 length required", r"412 precondition failed",
-    r"413 payload too large", r"414 uri too long", r"415 unsupported media type",
-    r"416 range not satisfiable", r"417 expectation failed",
-    r"500 internal server error", r"501 not implemented", r"502 bad gateway",
-    r"503 service unavailable", r"504 gateway timeout",
-    r"505 http version not supported", r"connection refused", r"connection failed",
-    r"network error", r"http error", r"timed out", r"failed to resolve",
-    r"server returned 403", r"server returned 404", r"temporary failure",
-    r"cannot connect",
+    "404 not found", "403 forbidden", "400 bad request", "401 unauthorized",
+    "connection refused", "failed to resolve", "timed out", "network error",
+    "server returned 403", "server returned 404", "gateway timeout",
     # Codec / format errors
-    r"invalid data found", r"could not find codec parameters", r"no stream",
-    r"empty packet", r"no timestamps", r"invalid nal unit", r"non-monotonous dts",
-    r"corrupt", r"moov atom not found", r"unknown format", r"codec not found",
-    r"unsupported codec", r"cannot decode", r"missing sample", r"invalid pts",
-    r"invalid frame", r"cannot open input", r"cannot open output",
+    "invalid data found", "no stream", "could not find codec parameters",
+    "unsupported codec", "unknown format",
     # Streaming / playlist issues
-    r"empty playlist", r"invalid m3u8", r"missing segment", r"segment not found",
-    r"failed to open segment", r"unable to parse", r"stream error",
-    r"protocol not found", r"unexpected eof", r"playlist parsing error",
-    r"could not connect to server", r"discontinuity", r"fragment not found",
-    r"key frame not found",
+    "empty playlist", "invalid m3u8", "missing segment", "playlist parsing error",
     # DRM / encryption / access control
-    r"drm", r"encrypted", r"encryption", r"decryption", r"no key", r"sample-aes",
-    r"fairplay", r"skd://", r"crypto", r"#ext-x-session-key", r"#ext-x-key",
-    r"license server", r"unauthorized", r"permission denied", r"auth failed",
-    r"access denied",
-    # Generic / fallback
-    r"error", r"failed", r"unable to", r"invalid", r"stall", r"buffer",
-    r"packet loss", r"timeout", r"connection reset", r"connection closed",
-    r"reset by peer", r"refused", r"broken pipe",
+    "drm", "encrypted", "encryption", "no key", "#ext-x-session-key", "#ext-x-key",
 ]
 
 # -----------------------------------------------------------------------------
@@ -148,14 +129,16 @@ def is_whitelisted(url: str) -> bool:
     return any(domain in (url or "") for domain in WHITELIST_DOMAINS)
 
 
-def ffmpeg_header_arg() -> list:
-    """Build FFmpeg header-related CLI args from HEADERS dict."""
+def ffmpeg_header_arg(extra_cookie: str = "") -> list:
+    """Build FFmpeg header-related CLI args from HEADERS dict + optional cookies."""
     ua = HEADERS.get("User-Agent")
     header_lines = []
     for k, v in HEADERS.items():
         if k.lower() == "user-agent":
             continue
         header_lines.append(f"{k}: {v}")
+    if extra_cookie:
+        header_lines.append(f"Cookie: {extra_cookie}")
     headers_blob = "\r\n".join(header_lines)
 
     args = []
@@ -175,6 +158,7 @@ def mpv_header_args(cookies: str = "") -> list:
         args += [f"--http-header-fields=Referer: {HEADERS['Referer']}"]
     if HEADERS.get("Origin"):
         args += [f"--http-header-fields=Origin: {HEADERS['Origin']}"]
+    args += ["--http-header-fields=Accept: */*"]
     if cookies:
         args += [f"--http-header-fields=Cookie: {cookies}"]
     return args
@@ -182,11 +166,11 @@ def mpv_header_args(cookies: str = "") -> list:
 
 def resolve_url(url: str) -> Tuple[str, str]:
     """Follow redirects and gather cookies for header injection in ffmpeg/mpv."""
-    session = requests.Session()
     try:
-        r = session.get(url, headers=HEADERS, allow_redirects=True, timeout=20, stream=True)
-        cookies = r.cookies.get_dict()
-        final_url = r.url
+        with requests.Session() as session:
+            with session.get(url, headers=HEADERS, allow_redirects=True, timeout=20, stream=True) as r:
+                cookies = r.cookies.get_dict()
+                final_url = r.url
         cookie_header = "; ".join([f"{k}={v}" for k, v in cookies.items()])
         return final_url, cookie_header
     except Exception:
@@ -248,6 +232,7 @@ def mpv_check(url: str, cookies: str = "", end_secs: int = 10) -> Tuple[bool, Op
         "--cache=yes",
         "--cache-secs=2",
         "--demuxer-readahead-secs=2",
+        "--network-timeout=10",
         f"--end={end_secs}",       # stop after N seconds
         *mpv_header_args(cookies),
         url,
@@ -274,10 +259,10 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
     """
     final_url, cookies = resolve_url(url)
 
-    # Build ffmpeg command
     base = [
         "ffmpeg",
-        *ffmpeg_header_arg(),
+        *ffmpeg_header_arg(cookies),
+        "-rw_timeout", "10000000",         # 10s read timeout (microseconds)
         "-reconnect", "1",
         "-reconnect_streamed", "1",
         "-reconnect_delay_max", "2",
@@ -288,12 +273,12 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
     ]
 
     if FAST_MODE:
-        # lighter demuxing parameters
         base = [
             "ffmpeg",
-            *ffmpeg_header_arg(),
+            *ffmpeg_header_arg(cookies),
             "-probesize", str(FFMPEG_PROBESIZE // 2),
             "-analyzeduration", str(FFMPEG_ANALYZE // 2),
+            "-rw_timeout", "10000000",
             "-reconnect", "1",
             "-reconnect_streamed", "1",
             "-reconnect_delay_max", "2",
@@ -323,6 +308,9 @@ def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
                 ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
                 dur_mpv = time.time() - t1
                 return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note
+            else:
+                # Unknown error; treat as offline (retry loop may try again)
+                pass
         except subprocess.TimeoutExpired:
             # FFmpeg hung → try MPV (TIMED)
             t1 = time.time()
@@ -365,9 +353,7 @@ def export_excluded_whitelisted(channels: Dict[str, Dict]):
 
     print(f"✅ Exported excluded + whitelisted channels to {output_file}")
 
-# -----------------------------------------------------------------------------
-# Offline M3U export (new)
-# -----------------------------------------------------------------------------
+
 def export_offline(channels: Dict[str, Dict]):
     """
     Export OFFLINE channels to obsolete/offline.m3u
@@ -411,7 +397,6 @@ def export_offline(channels: Dict[str, Dict]):
 
     print(f"✅ Exported {count} offline channel link(s) to {output_file}")
 
-
 # -----------------------------------------------------------------------------
 # JSON traversal + status update (parallel)
 # -----------------------------------------------------------------------------
@@ -421,6 +406,9 @@ def update_status_parallel(channels: Dict[str, Dict]):
 
     def task(channel_name: str, link_entry: Dict):
         """Returns (url, status, note, dur_seconds, via)"""
+        # Small random jitter to avoid thundering-herd
+        time.sleep(random.uniform(0, 0.2))
+
         url = link_entry.get("url")
         if not url:
             return "", "missing", "no url", None, "missing"
@@ -500,7 +488,7 @@ def update_status_parallel(channels: Dict[str, Dict]):
                     link_entry["last_offline"] = today
 
 # -----------------------------------------------------------------------------
-# Sorting, summarize, maintenance (mostly unchanged)
+# Sorting, summarize, maintenance
 # -----------------------------------------------------------------------------
 
 def categorize_link(channel_name: str, url: Optional[str], status: str) -> str:
@@ -606,34 +594,45 @@ def mark_old_offline_links(channels: Dict[str, Dict], days_threshold: int = 10):
 def reorder_links(channels: Dict[str, Dict]) -> None:
     """
     Reorder each channel's links:
-      1) non-whitelisted ONLINE links, sorted by speed DESC (fastest first)
-         (tiny tie-breaker: prefer ffmpeg over mpv)
-      2) WHITELISTED ONLINE
+      1) ONLINE: non-whitelisted fastest first, prefer ffmpeg on ties
+      2) ONLINE: whitelisted
       3) OFFLINE
       4) MISSING
     """
     def key_fn(link: Dict):
         url = (link.get("url") or "")
-        status = link.get("status", "unknown")
+        status = (link.get("status") or "unknown").lower()
         is_wl = is_whitelisted(url)
         spd = float(link.get("speed") or 0.0)  # higher is better
         via = (link.get("passed_via") or "").lower()
 
-        # buckets
-        bucket_wl   = 1 if is_wl else 0
-        bucket_off  = 1 if status == "offline" else 0
-        bucket_miss = 1 if status == "missing" else 0
+        # Primary: ONLINE(0) → OFFLINE(1) → MISSING(2)
+        bucket_status = 0 if status == "online" else (1 if status == "offline" else 2)
+        # Within ONLINE: non-whitelist(0) → whitelist(1). For non-ONLINE, keep 0 so status dominates
+        bucket_wl = (1 if is_wl else 0) if bucket_status == 0 else 0
 
         # prefer ffmpeg slightly on ties (subtract a tiny epsilon from MPV when sorting)
         mpv_penalty = 0.01 if via == "mpv" else 0.0
 
-        # We sort ascending, so invert speed (negate) and add penalty
-        return (bucket_wl, bucket_off, bucket_miss, -(spd - mpv_penalty))
+        # Sort ascending; invert speed to get fastest first
+        return (bucket_status, bucket_wl, -(spd - mpv_penalty))
 
     for info in channels.values():
         links = info.get("links")
         if isinstance(links, list) and links:
             links.sort(key=key_fn)
+
+# -----------------------------------------------------------------------------
+# I/O helpers
+# -----------------------------------------------------------------------------
+
+def _atomic_write_json(path: str, payload: Dict):
+    dir_ = os.path.dirname(path) or "."
+    with tempfile.NamedTemporaryFile("w", dir=dir_, delete=False, encoding="utf-8") as tmp:
+        json.dump(payload, tmp, ensure_ascii=False, indent=2)
+        tmp.flush()
+        os.fsync(tmp.fileno())
+    os.replace(tmp.name, path)
 
 # -----------------------------------------------------------------------------
 # Main
@@ -643,8 +642,15 @@ def main():
     start_time = time.time()
 
     # Load JSON
-    with open(JSON_FILE, "r", encoding="utf-8") as f:
-        channels = json.load(f)
+    try:
+        with open(JSON_FILE, "r", encoding="utf-8") as f:
+            channels = json.load(f)
+    except FileNotFoundError:
+        print(f"❌ {JSON_FILE} not found")
+        return
+    except json.JSONDecodeError as e:
+        print(f"❌ Malformed JSON in {JSON_FILE}: {e}")
+        return
 
     # Update status in parallel with HEAD→FFmpeg→MPV
     update_status_parallel(channels)
@@ -655,18 +661,13 @@ def main():
     # Mark links offline for 10+ days by emptying URL
     mark_old_offline_links(channels_sorted, days_threshold=10)
 
-    # 🔝 Reorder links by speed (fastest first), whitelists last
+    # 🔝 Reorder links (fastest online first; whitelists last within ONLINE)
     reorder_links(channels_sorted)
 
-    # Save updated and sorted JSON
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
-    print("\n")
-    print("\n")
+    # Save updated and sorted JSON atomically
+    _atomic_write_json(JSON_FILE, channels_sorted)
     print(f"\n✅ Updated {JSON_FILE} with head/ffmpeg/mpv checks, speed metrics, pass backend, "
-          f"reset URLs for old offline links, and sorted by group/name with per-channel link reordering.")
-    print("\n")
-    print("\n")
+          f"reset URLs for old offline links, and sorted by group/name with per-channel link reordering.\n")
 
     # Print summary
     summarize(channels_sorted, start_time)
