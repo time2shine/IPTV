@@ -3,7 +3,7 @@ import time
 import requests
 import functools
 import subprocess
-import os, shutil
+import os, shutil, re
 from datetime import datetime, date
 from typing import Tuple, Optional, Dict
 from concurrent.futures import ThreadPoolExecutor
@@ -17,7 +17,7 @@ print = functools.partial(print, flush=True)
 # Config
 # -----------------------------------------------------------------------------
 RETRIES = 2                    # Retries for FFmpeg attempts
-FAST_MODE = False              # True = faster/lighter FFmpeg probe
+FAST_MODE = False              # True = faster/lighter probe (shorter media window)
 MAX_WORKERS = 100              # Parallel workers for link checks
 JSON_FILE = "static_channels.json"
 
@@ -25,15 +25,21 @@ JSON_FILE = "static_channels.json"
 HEAD_RETRIES = 3
 HEAD_TIMEOUT = 5               # seconds per attempt
 
-# FFmpeg probe
-FFMPEG_TIMEOUT = 20            # subprocess timeout (seconds)
-FFMPEG_TEST_DURATION = 2       # seconds of demuxing work
-MAX_ALLOWED_DURATION = 12      # classify above this as "slow" (still online)
-FFMPEG_ANALYZE = 1_000_000     # reduced when FAST_MODE
-FFMPEG_PROBESIZE = 1_000_000   # reduced when FAST_MODE
+# FFmpeg/MPV probe windows
+FFMPEG_TEST_DURATION = 20      # required *media* seconds to call it "fast"
+FAST_MODE_TEST_DURATION = 1    # media seconds when FAST_MODE is True
+HANDSHAKE_GRACE = 20           # allowed for connection/handshake (not counted as playback)
+SLOW_OVERHEAD_SLACK = 3        # extra wall-clock overhead tolerance beyond handshake + media
+MAX_TEST_OVERRUN = 60          # additional overrun we allow before giving up
+PROCESS_BUFFER = 5             # small cushion on top of timeouts
+MIN_SPEED_REALTIME = 0.95      # ffmpeg reported min speed must be >= this to be "fast"
 
-# MPV fallback probe (used only if FFmpeg fails)
-MPV_TIMEOUT = 150
+# Legacy knobs (kept for compatibility; not used for classification anymore)
+FFMPEG_TIMEOUT = 20
+MAX_ALLOWED_DURATION = 12
+
+# MPV fallback
+MPV_TIMEOUT = 150  # legacy; computed per-run now
 MPV_EXECUTABLE = os.getenv("MPV_PATH", "mpv")
 HAS_MPV = shutil.which(MPV_EXECUTABLE) is not None
 
@@ -136,6 +142,9 @@ WHITELIST_DOMAINS = [
     "http://b1g.ooo:80",
 ]
 
+# Derived media test seconds (respects FAST_MODE)
+TEST_MEDIA_SECS = FAST_MODE_TEST_DURATION if FAST_MODE else FFMPEG_TEST_DURATION
+
 # -----------------------------------------------------------------------------
 # Helpers
 # -----------------------------------------------------------------------------
@@ -230,114 +239,172 @@ def head_pass(url: str) -> Tuple[bool, Optional[str]]:
         return True, last_error
     return False, last_error
 
+# ----------------------------
+# ffmpeg stats parsing helpers
+# ----------------------------
+def _parse_ffmpeg_played_seconds(stderr_text: str) -> float:
+    """Return the last media time=HH:MM:SS.xx parsed from ffmpeg -stats output."""
+    if not stderr_text:
+        return 0.0
+    matches = re.findall(r"time=(\d+):(\d+):(\d+(?:\.\d+)?)", stderr_text)
+    if not matches:
+        return 0.0
+    def to_secs(h, m, s): return int(h) * 3600 + int(m) * 60 + float(s)
+    return max(to_secs(h, m, s) for (h, m, s) in matches)
 
-def mpv_check(url: str, cookies: str = "", end_secs: int = 10) -> Tuple[bool, Optional[str]]:
+def _parse_ffmpeg_min_speed(stderr_text: str) -> Optional[float]:
+    """Return the minimum reported speed=x from ffmpeg -stats, or None if missing."""
+    if not stderr_text:
+        return None
+    speeds = re.findall(r"speed=\s*([0-9]*\.?[0-9]+)x", stderr_text)
+    if not speeds:
+        return None
+    try:
+        return min(float(s) for s in speeds)
+    except Exception:
+        return None
+
+# -----------------------------------------------------------------------------
+# MPV fallback (same handshake/playback rules)
+# -----------------------------------------------------------------------------
+def mpv_check(url: str, cookies: str = "", end_secs: Optional[int] = None) -> Tuple[bool, float, Optional[str]]:
     # ✅ Early guard: skip cleanly if mpv isn't installed/available in PATH
     if not HAS_MPV:
-        return False, "MPV not available on PATH"
+        return False, 0.0, "MPV not available on PATH"
+
+    play_secs = end_secs if end_secs is not None else TEST_MEDIA_SECS
 
     cmd = [
         MPV_EXECUTABLE,
-        "--no-config",             # deterministic in CI
+        "--no-config",
         "--no-video",
         "--vo=null",
         "--ao=null",
         "--mute=yes",
-        "--really-quiet",
+        "--msg-level=all=warn",
         "--idle=no",
         "--cache=yes",
         "--cache-secs=2",
         "--demuxer-readahead-secs=2",
-        f"--end={end_secs}",       # stop after N seconds
+        f"--end={play_secs}",       # stop after N seconds of media
         *mpv_header_args(cookies),
         url,
     ]
+
+    mpv_timeout = HANDSHAKE_GRACE + play_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
+
+    start = time.time()
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=MPV_TIMEOUT)
-        if result.returncode == 0:
-            return True, None
-        last = (result.stderr or "").strip().splitlines()[-1] if result.stderr else ""
-        return False, f"MPV rc={result.returncode}" + (f" | {last}" if last else "")
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=mpv_timeout)
+        elapsed = time.time() - start
+        ok = (result.returncode == 0)
+        return ok, elapsed, None if ok else f"MPV rc={result.returncode}"
     except subprocess.TimeoutExpired:
-        return False, f"MPV timeout >{MPV_TIMEOUT}s"
+        elapsed = time.time() - start
+        return False, elapsed, f"MPV timeout >{mpv_timeout}s"
     except FileNotFoundError:
-        return False, f"MPV not found ('{MPV_EXECUTABLE}'). Install mpv or set MPV_PATH."
+        elapsed = time.time() - start
+        return False, elapsed, f"MPV not found ('{MPV_EXECUTABLE}'). Install mpv or set MPV_PATH."
     except Exception as e:
-        return False, f"MPV error: {e}"
+        elapsed = time.time() - start
+        return False, elapsed, f"MPV error: {e}"
 
-
+# -----------------------------------------------------------------------------
+# FFmpeg check → MPV fallback with improved classification
+# -----------------------------------------------------------------------------
 def ffmpeg_check(url: str) -> Tuple[str, float, Optional[str]]:
     """
-    Run FFmpeg probe. Returns (status, duration, note)
-    status: 'online' | 'slow' | 'offline' | 'mpv_online' | 'mpv_offline'
-    duration: time for the backend that actually ran (FFmpeg OR MPV), seconds
+    Run FFmpeg probe.
+    Returns (status, elapsed_wall_seconds, note)
+    status in:
+      'online'      -> fast via ffmpeg
+      'slow'        -> slow via ffmpeg
+      'offline'     -> ffmpeg gave up and mpv also failed
+      'mpv_online'  -> fast via mpv
+      'mpv_slow'    -> slow via mpv (overrun)
+      'mpv_offline' -> mpv failed
     """
     final_url, cookies = resolve_url(url)
 
-    # Build ffmpeg command
+    test_secs = TEST_MEDIA_SECS
+    ffmpeg_timeout = HANDSHAKE_GRACE + test_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
+
     base = [
         "ffmpeg",
         *ffmpeg_header_arg(),
         "-reconnect", "1",
         "-reconnect_streamed", "1",
         "-reconnect_delay_max", "2",
-        "-loglevel", "error",
+        "-v", "quiet",
+        "-stats",                   # so we can parse time= and speed=
         "-i", final_url,
-        "-t", str(FFMPEG_TEST_DURATION),
+        "-t", str(test_secs),       # decode this much *media*
         "-f", "null", "-",
     ]
-
-    if FAST_MODE:
-        # lighter demuxing parameters
-        base = [
-            "ffmpeg",
-            *ffmpeg_header_arg(),
-            "-probesize", str(FFMPEG_PROBESIZE // 2),
-            "-analyzeduration", str(FFMPEG_ANALYZE // 2),
-            "-reconnect", "1",
-            "-reconnect_streamed", "1",
-            "-reconnect_delay_max", "2",
-            "-loglevel", "error",
-            "-i", final_url,
-            "-t", "1",
-            "-f", "null", "-",
-        ]
 
     last_stderr = ""
     for _ in range(RETRIES + 1):
         try:
             start = time.time()
-            result = subprocess.run(base, capture_output=True, text=True, timeout=FFMPEG_TIMEOUT)
-            dur = time.time() - start
-            stderr = (result.stderr or "").lower()
-            last_stderr = stderr
+            result = subprocess.run(base, capture_output=True, text=True, timeout=ffmpeg_timeout)
+            elapsed = time.time() - start
+            stderr_text = result.stderr or ""
+            stderr_lower = stderr_text.lower()
+            last_stderr = stderr_lower
 
-            if result.returncode == 0:
-                if dur >= MAX_ALLOWED_DURATION:
-                    return "slow", dur, None
-                return "online", dur, None
+            played_secs = _parse_ffmpeg_played_seconds(stderr_text)
+            min_speed = _parse_ffmpeg_min_speed(stderr_text)
 
-            # Non-zero rc; inspect stderr for fatal patterns → MPV quick try (TIMED)
-            if any((p in stderr) for p in FATAL_PATTERNS):
-                t1 = time.time()
-                ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
-                dur_mpv = time.time() - t1
-                return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note
+            # full media window decoded
+            if result.returncode == 0 and played_secs >= (test_secs - 0.25):
+                # buffering symptoms → slow
+                if elapsed > (HANDSHAKE_GRACE + test_secs + SLOW_OVERHEAD_SLACK):
+                    return "slow", elapsed, f"overrun {elapsed:.1f}s"
+                if (min_speed is not None) and (min_speed < MIN_SPEED_REALTIME):
+                    return "slow", elapsed, f"min speed {min_speed:.2f}x"
+                return "online", elapsed, None
+
+            # partial media decoded only → slow
+            if played_secs > 0 and played_secs < test_secs:
+                return "slow", elapsed, f"played {played_secs:.1f}s < {test_secs}s"
+
+            # fatal patterns → try mpv directly
+            if any(pat in stderr_lower for pat in FATAL_PATTERNS):
+                ok, mpv_elapsed, note = mpv_check(final_url, cookies, end_secs=test_secs)
+                if ok:
+                    if mpv_elapsed > (HANDSHAKE_GRACE + test_secs + SLOW_OVERHEAD_SLACK):
+                        return "mpv_slow", mpv_elapsed, f"overrun {mpv_elapsed:.1f}s"
+                    return "mpv_online", mpv_elapsed, None
+                return "mpv_offline", mpv_elapsed, note or "fatal"
+
+            # non-fatal failure → still try mpv
+            ok, mpv_elapsed, note = mpv_check(final_url, cookies, end_secs=test_secs)
+            if ok:
+                if mpv_elapsed > (HANDSHAKE_GRACE + test_secs + SLOW_OVERHEAD_SLACK):
+                    return "mpv_slow", mpv_elapsed, f"overrun {mpv_elapsed:.1f}s"
+                return "mpv_online", mpv_elapsed, None
+            return "mpv_offline", mpv_elapsed, note or "ffmpeg failed"
+
         except subprocess.TimeoutExpired:
-            # FFmpeg hung → try MPV (TIMED)
-            t1 = time.time()
-            ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
-            dur_mpv = time.time() - t1
-            return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note
+            # ffmpeg hung → try MPV
+            ok, mpv_elapsed, note = mpv_check(final_url, cookies, end_secs=test_secs)
+            if ok:
+                if mpv_elapsed > (HANDSHAKE_GRACE + test_secs + SLOW_OVERHEAD_SLACK):
+                    return "mpv_slow", mpv_elapsed, f"overrun {mpv_elapsed:.1f}s"
+                return "mpv_online", mpv_elapsed, None
+            return "mpv_offline", mpv_elapsed, note or "ffmpeg timeout"
+
         except Exception as e:
             last_stderr = f"ffmpeg error: {e}"
-        time.sleep(0.7)
+        time.sleep(0.6)
 
-    # After retries, give MPV one last shot (TIMED)
-    t1 = time.time()
-    ok, note = mpv_check(final_url, cookies, end_secs=FFMPEG_TEST_DURATION)
-    dur_mpv = time.time() - t1
-    return ("mpv_online" if ok else "mpv_offline"), dur_mpv, note or last_stderr
+    # After retries, one last mpv attempt
+    ok, mpv_elapsed, note = mpv_check(final_url, cookies, end_secs=test_secs)
+    if ok:
+        if mpv_elapsed > (HANDSHAKE_GRACE + test_secs + SLOW_OVERHEAD_SLACK):
+            return "mpv_slow", mpv_elapsed, f"overrun {mpv_elapsed:.1f}s"
+        return "mpv_online", mpv_elapsed, None
+    return "mpv_offline", mpv_elapsed, note or last_stderr
 
 # -----------------------------------------------------------------------------
 # File outputs preserved from your script
@@ -420,39 +487,42 @@ def update_status_parallel(channels: Dict[str, Dict]):
     """Update status of all links with HEAD → FFmpeg → MPV pipeline."""
 
     def task(channel_name: str, link_entry: Dict):
-        """Returns (url, status, note, dur_seconds, via)"""
+        """Returns (url, status, note, dur_seconds, via, quality)"""
         url = link_entry.get("url")
         if not url:
-            return "", "missing", "no url", None, "missing"
+            return "", "missing", "no url", None, "missing", None
 
         # Skip excluded channels
         if is_excluded(channel_name):
             print(f"[SKIPPED] {channel_name}")
-            return url, "online", "excluded", None, "excluded"
+            return url, "online", "excluded", None, "excluded", "fast"
 
         # Whitelist domains → trust online without probing
         if is_whitelisted(url):
             print(f"[WHITELISTED] {channel_name} -> {url}")
-            return url, "online", "whitelisted", None, "whitelist"
+            return url, "online", "whitelisted", None, "whitelist", "fast"
 
         ok_head, reason = head_pass(url)
         if not ok_head:
             print(f"[HEAD-FAIL] {channel_name} | {reason or 'no reason'} -> {url}")
-            return url, "offline", "head", None, "head_fail"
+            return url, "offline", "head", None, "head_fail", None
 
         status, dur, note = ffmpeg_check(url)
 
         if status in ("online", "slow"):
-            print(f"🟢 (FFMPEG) {dur:.1f}s {channel_name} -> {url}")
-            return url, "online", note or "ffmpeg", dur, "ffmpeg"
-        elif status == "mpv_online":
-            print(f"🟢 [MPV]    {dur:.1f}s {channel_name} -> {url}")
-            return url, "online", note or "mpv", dur, "mpv"
+            quality = "slow" if status == "slow" else "fast"
+            tag = "FFMPEG"
+            print(f"🟢 ({tag}) {dur:.1f}s {channel_name} [{quality}] -> {url}")
+            return url, "online", note or "ffmpeg", dur, "ffmpeg", quality
+        elif status in ("mpv_online", "mpv_slow"):
+            quality = "slow" if status == "mpv_slow" else "fast"
+            tag = "MPV"
+            print(f"🟢 [{tag}]  {dur:.1f}s {channel_name} [{quality}] -> {url}")
+            return url, "online", note or "mpv", dur, "mpv", quality
         else:
             print(f"🔴 {channel_name} -> {url}")
-            return url, "offline", status, dur, ("mpv" if status.startswith("mpv_") else "ffmpeg")
+            return url, "offline", status, dur, ("mpv" if status.startswith("mpv_") else "ffmpeg"), None
 
-    # Ensure structure is sane and collect futures
     futures = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         for channel_name, info in channels.items():
@@ -477,17 +547,24 @@ def update_status_parallel(channels: Dict[str, Dict]):
         # Collect results and update JSON in-place
         today = date.today().isoformat()
         for future, ch_name, idx in futures:
-            url, status, note, dur, via = future.result()
+            url, status, note, dur, via, quality = future.result()
             link_entry = channels[ch_name]["links"][idx]
 
             link_entry["status"] = status
-            # NEW: speed & timing & via
-            link_entry["probe_time_s"] = round(dur, 3) if dur is not None else None
-            if dur and dur > 0:
-                link_entry["speed"] = round(FFMPEG_TEST_DURATION / dur, 3)
-            else:
-                link_entry["speed"] = 0.0
             link_entry["passed_via"] = via
+            link_entry["note"] = note
+
+            # Speed metric for ordering; prefer ffmpeg's realtime speed if available
+            if dur and dur > 0:
+                link_entry["probe_time_s"] = round(dur, 3)
+                link_entry["speed"] = round(TEST_MEDIA_SECS / dur, 3)  # fallback metric; higher is better
+            else:
+                link_entry["probe_time_s"] = None
+                link_entry["speed"] = 0.0
+
+            # Add quality label (fast/slow) without breaking existing consumers
+            if quality:
+                link_entry["quality"] = quality  # "fast" or "slow"
 
             # Dates
             if status == "online":
@@ -661,12 +738,10 @@ def main():
     # Save updated and sorted JSON
     with open(JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(channels_sorted, f, ensure_ascii=False, indent=2)
-    print("\n")
-    print("\n")
-    print(f"\n✅ Updated {JSON_FILE} with head/ffmpeg/mpv checks, speed metrics, pass backend, "
-          f"reset URLs for old offline links, and sorted by group/name with per-channel link reordering.")
-    print("\n")
-    print("\n")
+    print("\n\n")
+    print(f"\n✅ Updated {JSON_FILE} with handshake-aware ffmpeg/mpv checks, overrun & speed rules, "
+          f"speed metrics, backend tag, and quality label (fast/slow).")
+    print("\n\n")
 
     # Print summary
     summarize(channels_sorted, start_time)
