@@ -268,46 +268,65 @@ def _parse_ffmpeg_min_speed(stderr_text: str) -> Optional[float]:
 # MPV fallback (same handshake/playback rules)
 # -----------------------------------------------------------------------------
 def mpv_check(url: str, cookies: str = "", end_secs: Optional[int] = None) -> Tuple[bool, float, Optional[str]]:
-    # ✅ Early guard: skip cleanly if mpv isn't installed/available in PATH
+    # If mpv unavailable, bail early
     if not HAS_MPV:
         return False, 0.0, "MPV not available on PATH"
 
     play_secs = end_secs if end_secs is not None else TEST_MEDIA_SECS
-
-    cmd = [
-        MPV_EXECUTABLE,
-        "--no-config",
-        "--no-video",
-        "--vo=null",
-        "--ao=null",
-        "--mute=yes",
-        "--msg-level=all=warn",
-        "--idle=no",
-        "--cache=yes",
-        "--cache-secs=2",
-        "--demuxer-readahead-secs=2",
-        f"--end={play_secs}",       # stop after N seconds of media
-        *mpv_header_args(cookies),
-        url,
-    ]
-
     mpv_timeout = HANDSHAKE_GRACE + play_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
 
-    start = time.time()
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=mpv_timeout)
-        elapsed = time.time() - start
-        ok = (result.returncode == 0)
-        return ok, elapsed, None if ok else f"MPV rc={result.returncode}"
-    except subprocess.TimeoutExpired:
-        elapsed = time.time() - start
-        return False, elapsed, f"MPV timeout >{mpv_timeout}s"
-    except FileNotFoundError:
-        elapsed = time.time() - start
-        return False, elapsed, f"MPV not found ('{MPV_EXECUTABLE}'). Install mpv or set MPV_PATH."
-    except Exception as e:
-        elapsed = time.time() - start
-        return False, elapsed, f"MPV error: {e}"
+    ua = HEADERS.get("User-Agent", "")
+    ref = HEADERS.get("Referer", "")
+    ori = HEADERS.get("Origin", "")
+
+    # Common args (no --no-config here; we test both modes below)
+    common = [
+        "--no-video", "--vo=null", "--ao=null", "--mute=yes",
+        "--msg-level=all=warn", "--idle=no",
+        "--cache=yes", "--cache-secs=2", "--demuxer-readahead-secs=2",
+        f"--end={play_secs}",
+    ]
+
+    # Prefer mpv's native UA/referrer flags (some CDNs check these specifically)
+    header_args = []
+    if ua:
+        header_args += [f"--user-agent={ua}", f"--http-header-fields=User-Agent: {ua}"]
+    if ref:
+        header_args += [f"--referrer={ref}", f"--http-header-fields=Referer: {ref}"]
+    if ori:
+        header_args += [f"--http-header-fields=Origin: {ori}"]
+    if cookies:
+        header_args += [f"--http-header-fields=Cookie: {cookies}"]
+
+    # Try with the user's mpv config first (allows site scripts / cookies / proxy)
+    modes = [
+        [],                 # with-config (default)
+        ["--no-config"],    # clean fallback
+    ]
+
+    last_err = None
+    for extra in modes:
+        cmd = [MPV_EXECUTABLE, *extra, *common, *header_args, url]
+        start = time.time()
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=mpv_timeout)
+            elapsed = time.time() - start
+            if res.returncode == 0:
+                return True, elapsed, None
+            last_line = (res.stderr or "").strip().splitlines()[-1] if res.stderr else ""
+            last_err = f"MPV rc={res.returncode}" + (f" | {last_line}" if last_line else "")
+        except subprocess.TimeoutExpired:
+            elapsed = time.time() - start
+            return False, elapsed, f"MPV timeout >{mpv_timeout}s"
+        except FileNotFoundError:
+            return False, 0.0, f"MPV not found ('{MPV_EXECUTABLE}'). Install mpv or set MPV_PATH."
+        except Exception as e:
+            elapsed = time.time() - start
+            last_err = f"MPV error: {e}"
+
+    # Both modes failed
+    return False, 0.0, last_err or "MPV failed"
+
 
 # -----------------------------------------------------------------------------
 # FFmpeg check → MPV fallback with improved classification
