@@ -16,6 +16,90 @@
       }
     ]
   },
+  "EN | Catchy Comedy": {
+    "group": "Movies",
+    "tvg_id": "CatchyComedy",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/catchy-comedy-us.png",
+    "links": [
+      {
+        "url": "https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-decades/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Cartoonito": {
+    "group": "Kids",
+    "tvg_id": "Cartoonito",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/cartoonito-it.png",
+    "links": [
+      {
+        "url": "http://181.78.4.250:8098/play/a067/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Boing Plus": {
+    "group": "Kids",
+    "tvg_id": "BoingPlus",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Boing_Plus_logo_2020.svg/735px-Boing_Plus_logo_2020.svg.png?20201201165658",
+    "links": [
+      {
+        "url": "http://77.39.161.42:55555/Boing%20Plus",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Omni Qu\u00e9bec": {
+    "group": "Music",
+    "tvg_id": "Omni Qu\u00e9bec",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Omni_TV_2018.svg/1200px-Omni_TV_2018.svg.png",
+    "links": [
+      {
+        "url": "https://debate-elections-2019.akamaized.net/2dba917cc589465ead367550ab2af416/us-west-2/89871584001/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. Knowledge Network": {
+    "group": "Kids",
+    "tvg_id": "CHCH.Hamilton.ON.ca",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/knowledge-network-ca.png",
+    "links": [
+      {
+        "url": "https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "OTHER | ATV": {
+    "group": "Movies",
+    "tvg_id": "ATV",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/austria/atv-at.png",
+    "links": [
+      {
+        "url": "https://strm.hdtvizlecanli.com/live/atv.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -2656,7 +2740,7 @@
     ]
   },
   "Watch Mojo (EU)": {
-    "group": "Education",
+    "group": "Educational",
     "tvg_id": "WM",
     "tvg_logo": "https://www.watchmojo.com/2016/img/wm_logo3_2018.webp",
     "links": [
@@ -2669,6 +2753,34 @@
         "probe_time_s": 7.263,
         "speed": 0.275,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "PBS Kids (Eastern Feed)": {
+    "group": "Kids",
+    "tvg_id": "PBS Kids (Eastern Feed)",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png",
+    "links": [
+      {
+        "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "PBS Kids (Hawaii Feed)": {
+    "group": "Kids",
+    "tvg_id": "PBS Kids (Hawaii Feed)",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png",
+    "links": [
+      {
+        "url": "https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3755,6 +3867,34 @@
         "probe_time_s": 5.911,
         "speed": 0.338,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "EN | USA Network": {
+    "group": "Movies",
+    "tvg_id": "USANetwork",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/usa-us.png",
+    "links": [
+      {
+        "url": "https://e2.thetvapp.to/hls/USANetworkEast/tracks-v1a1/mono.m3u8?token=wO9190-I8wRG5hLCzWKFiw&expires=1760730513&user_id=MjcuMTQ3LjE4Ni42MA==",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "True Crime Network": {
+    "group": "Educational",
+    "tvg_id": "TrueCrimeNetwork",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/true-crime-network-us.png",
+    "links": [
+      {
+        "url": "https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-truecrimenetwork/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -9851,6 +9991,34 @@
         "probe_time_s": 6.641,
         "speed": 0.301,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "EN | Movies!": {
+    "group": "Movies",
+    "tvg_id": "Movies!",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/movies-us.png",
+    "links": [
+      {
+        "url": "https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Discovery Kids": {
+    "group": "Kids",
+    "tvg_id": "DiscoveryKids",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/discovery-kids-br.png",
+    "links": [
+      {
+        "url": "http://181.78.4.250:8098/play/a08h/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
