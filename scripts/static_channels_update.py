@@ -269,51 +269,46 @@ def _parse_ffmpeg_min_speed(stderr_text: str) -> Optional[float]:
 # -----------------------------------------------------------------------------
 def mpv_check(url: str, cookies: str = "", end_secs: Optional[int] = None) -> Tuple[bool, float, Optional[str]]:
     """
-    Original-style MPV probe (no --no-config, same quiet/cache flags),
-    but with handshake-aware timeout:
-      timeout = HANDSHAKE_GRACE + play_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
+    MPV probe using *with-config* + *http-header-fields* only.
+    - No --no-config
+    - No --user-agent / --referrer native flags
+    - Headers injected strictly via --http-header-fields
+    Timeout: HANDSHAKE_GRACE + play_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
     Returns: (ok, elapsed_wall_seconds, note_if_any)
     """
     if not HAS_MPV:
-        return False, 0.0, "MPV not available on PATH"
+        return False, 0.0, "MPV not available on PATH (set MPV_PATH or add mpv to PATH)"
 
     play_secs = end_secs if end_secs is not None else TEST_MEDIA_SECS
 
-    # === original-style args ===
+    # With-config, http_fields only
     cmd = [
         MPV_EXECUTABLE,
         "--no-video",
-        f"--end={play_secs}",       # play this many *media* seconds
+        f"--end={play_secs}",
         "--volume=0",
         "--really-quiet",
-        "--log-file=mpv.log",
+        "--log-file=mpv_withcfg_http.log",
+        "--idle=no",
         "--cache=yes",
         "--cache-secs=2",
         "--demuxer-readahead-secs=2",
+        # strictly http-header-fields (belt only; no suspenders)
+        *mpv_header_args(cookies),
+        url,
     ]
-    # original header injection via http-header-fields
-    if HEADERS.get("User-Agent"):
-        cmd.append(f"--http-header-fields=User-Agent: {HEADERS['User-Agent']}")
-    if HEADERS.get("Referer"):
-        cmd.append(f"--http-header-fields=Referer: {HEADERS['Referer']}")
-    if HEADERS.get("Origin"):
-        cmd.append(f"--http-header-fields=Origin: {HEADERS['Origin']}")
-    if cookies:
-        cmd.append(f"--http-header-fields=Cookie: {cookies}")
 
-    cmd.append(url)
-
-    # handshake-aware timeout (new)
     mpv_timeout = HANDSHAKE_GRACE + play_secs + MAX_TEST_OVERRUN + PROCESS_BUFFER
 
     start = time.time()
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=mpv_timeout)
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=mpv_timeout)
         elapsed = time.time() - start
-        if result.returncode == 0:
+        if res.returncode == 0:
             return True, elapsed, None
-        last_line = (result.stderr or "").strip().splitlines()[-1] if result.stderr else ""
-        return False, elapsed, f"MPV failed | rc={result.returncode}" + (f" | {last_line}" if last_line else "")
+        last = (res.stderr or "").strip().splitlines()[-1] if res.stderr else ""
+        note = f"MPV failed | rc={res.returncode}" + (f" | {last}" if last else "")
+        return False, elapsed, note
     except subprocess.TimeoutExpired:
         elapsed = time.time() - start
         return False, elapsed, f"MPV timeout >{mpv_timeout}s"
@@ -322,6 +317,7 @@ def mpv_check(url: str, cookies: str = "", end_secs: Optional[int] = None) -> Tu
     except Exception as e:
         elapsed = time.time() - start
         return False, elapsed, f"MPV error: {e}"
+
 
 
 
