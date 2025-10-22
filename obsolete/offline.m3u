@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",BANGLA TV (6d)
 https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u
-#EXTINF:-1 group-title="Bangla",Colors Bangla HD (7d)
-http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr
 #EXTINF:-1 group-title="Bangla",GTV HD (unknown)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (0d)
@@ -11,26 +9,28 @@ https://iptvbd.live/metv1080/1080.m3u8
 http://stvlive.net:8080/metv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (7d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B
+#EXTINF:-1 group-title="Bangla",MOV | Tara Bangla Cinema (0d)
+http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (4d)
 ?id=9f573df7cbe5&e=.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (4d)
-?id=3c1cc31a847f&e=.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",Sananda TV (0d)
+https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Sananda TV (0d)
+https://live.sanonda.tv/sanonda/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (1d)
 http://stvlive.net:8080/sonyaath/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (4d)
 ?id=707e4efbda57&e=.m3u8
-#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (7d)
-http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277424&extension=ts&play_token=AQaUdSko1H
-#EXTINF:-1 group-title="Bangla",Toffee Dramas (4d)
-?id=a751fcadf3c0&e=.m3u8
+#EXTINF:-1 group-title="Bangla",Tara TV (0d)
+http://103.145.48.150:90/laosat24/taratv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (1d)
 http://stvlive.net:8080/zeebangla/index.m3u8
-#EXTINF:-1 group-title="Bangla",Zee Bangla HD (7d)
-http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277402&extension=ts&play_token=8Rvq4Bwhn7
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (4d)
 ?id=52d1df2fdb80&e=.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (4d)
@@ -87,6 +87,8 @@ http://195.181.169.162/ZEE_TV_HD/index.m3u8?token=test
 ?id=1d8f06362c1e&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | & PICTURES HD (1d)
 http://stvlive.net:8080/andpicture/index.m3u8
+#EXTINF:-1 group-title="India",MOV | B4U Bhojpuri (0d)
+https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 group-title="India",MOV | B4U Movies India (4d)
 ?id=de2bbe405e92&e=.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex (9d)
@@ -153,16 +155,12 @@ https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/
 http://103.175.242.10:8080/sonypix/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX HD (4d)
 ?id=5c42f69f96db&e=.m3u8
-#EXTINF:-1 group-title="Movies",EN | SRK TV (1d)
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Movies",KR | KMovies (6d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (4d)
 ?id=72e420862a7f&e=.m3u8
 #EXTINF:-1 group-title="Music",EN | HTV (2d)
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
-#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (8d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (7d)
