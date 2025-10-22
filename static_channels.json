@@ -1,5 +1,5 @@
 {
-  "AKASH 8": {
+  "Akash Aath": {
     "group": "Bangla",
     "tvg_id": "akashaat.in",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
@@ -987,6 +987,13 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
+      },
+      {
+        "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1676,7 +1683,7 @@
       }
     ]
   },
-  "Rupashi Bangla": {
+  "Ruposhi Bangla": {
     "group": "Bangla",
     "tvg_id": "RupashiBangla",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg",
@@ -1790,40 +1797,6 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.73x",
         "quality": "slow"
-      },
-      {
-        "url": "http://rhsbjv7k.tvclub.xyz/iptv/MXUV9GU7KLRNNN/6641/index.m3u8",
-        "status": "online",
-        "last_online": "2025-10-22",
-        "first_online": "2025-10-10",
-        "last_offline": null,
-        "probe_time_s": 3.002,
-        "speed": 0.666,
-        "passed_via": "ffmpeg",
-        "note": "mpv",
-        "quality": "fast"
-      },
-      {
-        "url": "http://stvlive.net:8080/sonyaath/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-21",
-        "first_online": "",
-        "last_offline": "2025-10-21",
-        "probe_time_s": 12.203,
-        "speed": 0.164,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "?id=707e4efbda57&e=.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-13",
-        "last_offline": "2025-10-18",
-        "probe_time_s": 95.653,
-        "speed": 0.021,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
       }
     ]
   },
@@ -4907,6 +4880,13 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.55x",
         "quality": "slow"
+      },
+      {
+        "url": "https://cdn-2.pishow.tv/live/228/228_1.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6737,27 +6717,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2f/Music_India.jpeg",
     "links": [
       {
-        "url": "https://portal-to-m3u-07.iptv07india.workers.dev/?id=3131",
-        "status": "online",
-        "last_online": "2025-10-22",
-        "first_online": "2025-09-21",
-        "last_offline": null,
-        "probe_time_s": 1.523,
-        "speed": 1.313,
-        "passed_via": "ffmpeg",
-        "note": "played 18.0s < 20s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-10",
-        "last_offline": "2025-10-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11010,15 +10974,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/disney/images/a/a8/Disney_Jr._2024_logo.svg",
     "links": [
       {
-        "url": "a0b3/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-16",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-10-16",
-        "probe_time_s": 0.892,
-        "speed": 2.242,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
+        "url": "http://116.90.120.149:8000/play/a0b3/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17723,6 +17683,41 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.10x",
         "quality": "slow"
+      },
+      {
+        "url": "http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | & FLIX": {
+    "group": "Movies",
+    "tvg_id": "AndFLIX",
+    "tvg_logo": "https://s4.gifyu.com/images/image8c255c8f4e981429.png",
+    "links": [
+      {
+        "url": "https://edge3-moblive.yuppcdn.net:443/drm/smil:nflixdrm.smil/chunklist_b996000.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "GO2Travel TV": {
+    "group": "Travel",
+    "tvg_id": "GO2TravelTV",
+    "tvg_logo": "https://go2travel.tv/_next/image/?url=%2Flogo.png&w=64&q=75",
+    "links": [
+      {
+        "url": "https://go2thls.wns.live/hls/stream.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17821,6 +17816,13 @@
         "status": "online",
         "last_online": null,
         "first_online": "2025-09-12",
+        "last_offline": null
+      },
+      {
+        "url": "http://filex.tv:8080/live/Multicity/1234/52109.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
         "last_offline": null
       }
     ]
@@ -17990,21 +17992,17 @@
       }
     ]
   },
-  "CR | Sky Sports Cricket": {
+  "--Live(Sky Sport 2)--": {
     "group": "Sports",
-    "tvg_id": "skysports.cricket",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sky-sports-main-cricket.jpg",
+    "tvg_id": "SkySport2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Sky_Sports_2_2015.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://135.125.238.26:8080/catena-36-1149991-streamer-nz_sky_sport_2/video.m3u8?token=f54abc11fcaeb75c0368edb767264658",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18153,15 +18151,11 @@
     "tvg_logo": "https://www.medianews4u.com/wp-content/uploads/2015/02/df8bdc0787eb68c35292ff74fa60466b-2-3.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-16",
-        "first_online": "2025-09-10",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://filex.tv:8080/live/Multicity/1234/52106.ts",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
