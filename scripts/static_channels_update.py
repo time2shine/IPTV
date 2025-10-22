@@ -53,6 +53,7 @@ HEADERS: Dict[str, str] = {
 INVALID_CONTENT = []
 VALID_CONTENT = [
     "application/vnd.apple.mpegurl",
+    "application/octet-stream",
     "application/x-mpegurl",
     "application/mpegurl",
     "audio/x-mpegurl",
@@ -60,7 +61,6 @@ VALID_CONTENT = [
     "video/mp2t",
     "video/mp4",
     "video",
-    "application/octet-stream",  # often used by HLS/TS endpoints
 ]
 
 # Focused fatal patterns (avoid generic "error"/"failed")
@@ -420,21 +420,21 @@ def update_status_parallel(channels: Dict[str, Dict]):
 
         # Whitelist domains → trust online without probing
         if is_whitelisted(url):
-            print(f"[WHITELISTED] {channel_name} -> {url}")
+            print(f"➡️ (WHITELISTED) {channel_name} -> {url}")
             return url, "online", "whitelisted", None, "whitelist"
 
         ok_head, reason = head_pass(url)
         if not ok_head:
-            print(f"[HEAD-FAIL] {channel_name} | {reason or 'no reason'} -> {url}")
+            print(f"🔴 (HEAD-FAIL) {channel_name} | {reason or 'no reason'} -> {url}")
             return url, "offline", "head", None, "head_fail"
 
         status, dur, note = ffmpeg_check(url)
 
         if status in ("online", "slow"):
-            print(f"🟢 (FFMPEG) {dur:.1f}s {channel_name} -> {url}")
+            print(f"🟢 (FFMPEG) {dur:.1f}s    {channel_name}") # can add this -> {url}
             return url, "online", note or "ffmpeg", dur, "ffmpeg"
         elif status == "mpv_online":
-            print(f"🟢 [MPV]    {dur:.1f}s {channel_name} -> {url}")
+            print(f"🟢 (MPV)    {dur:.1f}s    {channel_name}")  # can add this -> {url}
             return url, "online", note or "mpv", dur, "mpv"
         else:
             print(f"🔴 {channel_name} -> {url}")
