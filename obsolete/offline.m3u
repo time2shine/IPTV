@@ -3,6 +3,8 @@
 https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (7d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277421&extension=ts&play_token=rWgo25MARr
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (unknown)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (7d)
@@ -107,8 +109,8 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (4d)
 ?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="India",MU | Saga Music (0d)
+https://amg01412-xiaomiasia-sagamusic-xiaomi-h54ye.amagi.tv/playlist/amg01412-xiaomiasia-sagamusic-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (6d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (5d)
@@ -123,6 +125,8 @@ https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/7345
 ?id=2435a44a7c67&e=.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (1d)
 http://103.175.242.10:8080/cartoonnetwork/index.m3u8
+#EXTINF:-1 group-title="Kids",0. PBS Kids (0d)
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 #EXTINF:-1 group-title="Kids",1. Cartoon Network Hindi (4d)
 ?id=8be5ec5d5d7c&e=.m3u8
 #EXTINF:-1 group-title="Kids",1. Discovery Kids Hindi (4d)
@@ -137,10 +141,6 @@ a0b3/index.m3u8
 ?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (9d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (6d)
@@ -175,10 +175,10 @@ https://tvsen5.aynaott.com/Ptvsports/index.m3u8
 ?id=afd176a5b887&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 1)-- (1d)
 http://stvlive.net:8080/sonyten1/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (4d)
-?id=0a0ad851d705&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (1d)
 http://stvlive.net:8080/sonyten2/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (4d)
+?id=0a0ad851d705&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 5) (4d)
 ?id=2dece57b30a1&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony Ten 5 HD)-- (1d)
@@ -197,5 +197,9 @@ http://103.175.242.10:8080/tencricket/index.m3u8
 ?id=b18613696a70&e=.m3u8
 #EXTINF:-1 group-title="Sports",CR | Sony Sports 3 HD (9d)
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
+#EXTINF:-1 group-title="Sports",CR | Star Sports 2 HD (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8
+#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
+http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (7d)
 https://a1xs.vip/700035
