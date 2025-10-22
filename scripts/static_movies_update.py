@@ -117,8 +117,8 @@ def update_links(movie_data: Dict[str, Any]) -> None:
             }
             movie_data[movie_name]["links"][idx] = new_link
 
-            tag = "ONLINE" if status == "online" else "OFFLINE"
-            print(f"[{tag}] {movie_name} → {url}")
+            tag = "🟢" if status == "online" else "🔴"
+            print(f"{tag} {movie_name} → {url}")
 
 def sort_movies(movie_data: Dict[str, Any]) -> Dict[str, Any]:
     """
