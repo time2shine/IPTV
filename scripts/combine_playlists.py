@@ -80,14 +80,20 @@ def is_recent(date_str: str | None, days: int) -> bool:
 def generate_tvg_id(name): return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
 
 def language_to_group(language: str | None) -> str:
-    if not language: return "Movies"
+    if not language:
+        return "Movies"
     key = language.strip().lower()
     mapping = {
+        # English
         "english": "Movies - English", "en": "Movies - English", "eng": "Movies - English",
+        # Hindi (+ dubbed buckets)
         "hindi": "Movies - Hindi",
         "hindi dubbed": "Movies - Hindi Dubbed", "hindi-dubbed": "Movies - Hindi Dubbed",
         "hindi dub": "Movies - Hindi Dubbed", "hindi-dub": "Movies - Hindi Dubbed",
         "dual audio": "Movies - Hindi Dubbed",
+        # Bangla / Bengali
+        "bangla": "Movies - Bangla", "bn": "Movies - Bangla",
+        "bengali": "Movies - Bangla",
     }
     return mapping.get(key, "Movies")
 
@@ -127,23 +133,12 @@ def parse_json_channels(path: str) -> list[Item]:
     return out
 
 def parse_movies_json(path: str) -> list[Item]:
-    out = []
-    with open(path, encoding="utf-8") as f: data = json.load(f)
-    for title, info in data.items():
-        group = info.get("group", "Movies")
-        year = normalize_year(info.get("year"))
-        tvg_logo = info.get("tvg_logo")
-        tvg_id = generate_tvg_id(title)
-        links = info.get("links", [])
-        online = next((l["url"] for l in links if l.get("status") == "online"), None)
-        if online:
-            name = f"{title} ({year})" if year != -1 else title
-            header = f'#EXTINF:-1 group-title="{group}",{name}'
-            out.append(Item(header, online, group, tvg_id, tvg_logo, True, year=year, name=name, source_rank=1))
-    return out
-
-
-def parse_ctgfun_movies_json(path: str) -> list[Item]:
+    """
+    static_movies.json: same shape as ctgfun but may include 'status'.
+    - choose_best_link() handles 'status' if present
+    - group is derived from chosen link.language
+    - recent tag uses chosen link.added
+    """
     out = []
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
@@ -152,30 +147,74 @@ def parse_ctgfun_movies_json(path: str) -> list[Item]:
         year = normalize_year(info.get("year"))
         tvg_logo = info.get("tvg_logo")
         tvg_id = generate_tvg_id(title)
-
         links = info.get("links", [])
-        if not links:
+
+        chosen = choose_best_link(links)
+        if not chosen:
             continue
 
-        first = links[0]
-        link = first.get("url")
-        if not link:
-            continue
-
-        group = language_to_group(first.get("language"))
-        recent = is_recent(first.get("added"), RECENT_DAYS)
+        link = chosen["url"]
+        group = language_to_group(chosen.get("language"))
+        recent = is_recent(chosen.get("added"), RECENT_DAYS)
 
         base_name = f"{title} ({year})" if year != -1 else title
-        # Add the NEW tag only for recent items
         name = base_name + RECENT_TAG if recent else base_name
 
         header = f'#EXTINF:-1 group-title="{group}",{name}'
-        out.append(
-            Item(
-                header, link, group, tvg_id, tvg_logo, True,
-                year=year, name=name, recent=recent, source_rank=0
-            )
-        )
+        out.append(Item(
+            header, link, group, tvg_id, tvg_logo, True,
+            year=year, name=name, recent=recent, source_rank=1
+        ))
+    return out
+
+def choose_best_link(links: list[dict]) -> dict | None:
+    """
+    Prefer the first link that is explicitly online (if 'status' is present),
+    otherwise fall back to the first link that simply has a URL.
+    Works for both ctgfun (no status) and static_movies (with status).
+    """
+    if not links:
+        return None
+    # Prefer explicit 'online' if present
+    online = next((l for l in links if l.get("url") and l.get("status") == "online"), None)
+    if online:
+        return online
+    # Otherwise, first usable URL
+    return next((l for l in links if l.get("url")), None)
+
+def parse_ctgfun_movies_json(path: str) -> list[Item]:
+    """
+    ctgfun: no 'status' field.
+    - choose_best_link() will just take the first with a URL
+    - group is derived from chosen link.language
+    - recent tag uses chosen link.added
+    """
+    out = []
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    for title, info in data.items():
+        year = normalize_year(info.get("year"))
+        tvg_logo = info.get("tvg_logo")
+        tvg_id = generate_tvg_id(title)
+        links = info.get("links", [])
+
+        chosen = choose_best_link(links)
+        if not chosen:
+            continue
+
+        link = chosen["url"]
+        group = language_to_group(chosen.get("language"))
+        recent = is_recent(chosen.get("added"), RECENT_DAYS)
+
+        base_name = f"{title} ({year})" if year != -1 else title
+        name = base_name + RECENT_TAG if recent else base_name
+
+        header = f'#EXTINF:-1 group-title="{group}",{name}'
+        out.append(Item(
+            header, link, group, tvg_id, tvg_logo, True,
+            year=year, name=name, recent=recent, source_rank=0
+        ))
     return out
 
 
