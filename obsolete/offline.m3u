@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",BANGLA TV (6d)
 https://bozztv.com/rongo/rongo-BanglaTV/tracks-v2a1/mono.m3u
+#EXTINF:-1 group-title="Bangla",Channel A1 (0d)
+https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 #EXTINF:-1 group-title="Bangla",GTV HD (unknown)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",Magic Bangla TV (0d)
-https://jolshabd.com/live/mbanglatv/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (7d)
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277425&extension=ts&play_token=jdvXyryY9B
 #EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (4d)
@@ -99,6 +99,8 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (4d)
 ?id=6f73e4079aa2&e=.m3u8
+#EXTINF:-1 group-title="India",MU | Saga Music Haryanvi (0d)
+https://amg01412-xiaomiasia-sagamusicharyanvi-xiaomi-0v34j.amagi.tv/playlist/amg01412-xiaomiasia-sagamusicharyanvi-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (6d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (5d)
@@ -106,9 +108,9 @@ https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/ra
 #EXTINF:-1 group-title="International",EN | Saudia Radio (1d)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
 #EXTINF:-1 group-title="International News",CBN News (6d)
-https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
-#EXTINF:-1 group-title="International News",CBN News (6d)
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/us-east-1/734546207001/profile_1/chunklist.m3u8
+#EXTINF:-1 group-title="International News",CBN News (6d)
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (4d)
 ?id=2435a44a7c67&e=.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (1d)
@@ -121,16 +123,12 @@ http://103.175.242.10:8080/cartoonnetwork/index.m3u8
 a0bx/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Junior India (6d)
 a0b3/index.m3u8
-#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="Kids",2. POGO (4d)
 ?id=667189f69164&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (4d)
 ?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Nick HD+ (9d)
 https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (6d)
@@ -153,8 +151,6 @@ https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 ?id=a53f9e0ba020&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum TV (0d)
 https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
-#EXTINF:-1 group-title="Religious",Makkah TV (0d)
-https://media2.streambrothers.com:1936/8122/8122/chunklist_w1247854077.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (4d)
 ?id=be6aae4ac12b&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (6d)
@@ -189,5 +185,5 @@ http://103.175.242.10:8080/tencricket/index.m3u8
 http://front-main.eagle-4k.me/play/live.php?mac=00:1A:79:BD:42:AC&stream=276739&extension=.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (7d)
 https://a1xs.vip/700035
-#EXTINF:-1 group-title="Sports",MIXER | ACE TV (0d)
-https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports",Racing | Nitro Circus TV (0d)
+https://amg13231-actve-amg13231c1-sportstribal-emea-1265.playouts.now.amagi.tv/playlist/amg13231-actvefast-bike-sportstribalemea/playlist.m3u8
