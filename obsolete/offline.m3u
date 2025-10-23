@@ -21,10 +21,10 @@ http://stvlive.net:8080/zeebangla/index.m3u8
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=277415&extension=ts&play_token=nrDDIKbzCX
 #EXTINF:-1 group-title="Educational",Discovery HD (5d)
 ?id=77e72f2ba472&e=.m3u8
-#EXTINF:-1 group-title="Educational",Discovery Hindi (5d)
-?id=a1c4e01414e7&e=.m3u8
 #EXTINF:-1 group-title="Educational",Discovery Hindi (6d)
 http://stvlive.net:8080/discovery/index.m3u8
+#EXTINF:-1 group-title="Educational",Discovery Hindi (5d)
+?id=a1c4e01414e7&e=.m3u8
 #EXTINF:-1 group-title="Educational",Discovery Science (5d)
 ?id=591ea81b1aba&e=.m3u8
 #EXTINF:-1 group-title="Educational",Discovery Turbo (5d)
@@ -87,10 +87,6 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 http://dream4k.org:80/play/live.php?mac=00:1A:79:C5:AB:A5&stream=276907&extension=ts&play_token=zgKrDWgJ5q
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (5d)
 ?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",NEWS | TV9 Bharatvarsh (0d)
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/pub-iotv9hinjzgtpe/live_720p/chunks.m3u8
-#EXTINF:-1 group-title="India",NEWS | TV9 Bharatvarsh (0d)
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="International",BBC Lifestyle (7d)
 http://stvlive.net:8080/bbclifestyle/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (6d)
@@ -117,10 +113,6 @@ a0bx/index.m3u8
 ?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (2d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | NEW KMOVIES (7d)
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8?ads.wurl_channel=618&ads.wurl_name=NewMovies&ads.us_privacy=1YNY&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
 #EXTINF:-1 group-title="Movies",EN | Sony PIX (2d)
@@ -131,12 +123,8 @@ http://103.175.242.10:8080/sonypix/index.m3u8
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 group-title="Movies",MOV | SONY MAX HD (5d)
 ?id=72e420862a7f&e=.m3u8
-#EXTINF:-1 group-title="Music",EN | 4ACETV CLASSIC HITS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MH8JAMWTLW2AQV5RA55S/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",EN | HTV (3d)
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (1d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Music",TR | Kral Pop (Turkey) (9d)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (8d)
@@ -145,6 +133,8 @@ https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 ?id=a53f9e0ba020&e=.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum TV (1d)
 https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
+#EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (0d)
+https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (7d)
 a021/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (2d)
@@ -153,14 +143,16 @@ https://tvsen5.aynaott.com/Ptvsports/index.m3u8
 ?id=afd176a5b887&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 1)-- (2d)
 http://stvlive.net:8080/sonyten1/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (5d)
-?id=0a0ad851d705&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (2d)
 http://stvlive.net:8080/sonyten2/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (5d)
+?id=0a0ad851d705&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 5) (5d)
 ?id=2dece57b30a1&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony Ten 5 HD)-- (2d)
 http://stvlive.net:8080/sonyten5/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Star Sports 1 HD)-- (0d)
+http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts
 #EXTINF:-1 group-title="Sports",--Live(Star Sports 1 HD)-- (8d)
 https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Star Sports 1 Hindi)-- (7d)
@@ -179,5 +171,3 @@ https://fl31.moveonjoy.com/WILLOW_CRICKET/index.m3u8
 http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 5 (8d)
 https://a1xs.vip/700035
-#EXTINF:-1 group-title="Travel",Viajar TV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/VVP0MGDRUILC8BDR6S0M/hls3/now,-1m/m.m3u8
