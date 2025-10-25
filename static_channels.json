@@ -18,6 +18,34 @@
       }
     ]
   },
+  "NEWS | Aik News": {
+    "group": "Pakistan",
+    "tvg_id": "AikNews",
+    "tvg_logo": "https://www.aiknewshd.tv/assets/img/aik-logo-en.png",
+    "links": [
+      {
+        "url": "https://video.primexsports.com/pnn/live/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | 92 News HD": {
+    "group": "Pakistan",
+    "tvg_id": "92NewsHD",
+    "tvg_logo": "https://92newshd.tv/frontn/images/92news-logo.png",
+    "links": [
+      {
+        "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -16391,6 +16419,13 @@
         "passed_via": "ffmpeg",
         "note": "overrun 47.5s",
         "quality": "slow"
+      },
+      {
+        "url": "https://imob.dunyanews.tv/livehd/_definst_/ngrp:dunyalivehd_2_all/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17320,15 +17355,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/45/Geo_Super.png",
     "links": [
       {
-        "url": "a021/index.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-16",
-        "first_online": "2025-10-07",
-        "last_offline": "2025-10-16",
-        "probe_time_s": 2.034,
-        "speed": 0.983,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
+        "url": "http://116.90.120.149:8000/play/a021/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
