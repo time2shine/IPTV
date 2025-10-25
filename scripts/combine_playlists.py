@@ -1,15 +1,29 @@
 from dataclasses import dataclass
-from collections import defaultdict
+from collections import defaultdict, Counter
 from datetime import datetime, timezone, timedelta
-import json, re, functools, time
+import json, re, functools, time, os
 
+# ---------- simple console helpers (no colors)
+
+def banner(title: str):
+    bar = "-" * len(title)
+    print(bar)
+    print(title)
+    print(bar)
+
+def kv(label: str, value: str, icon: str = "•"):
+    print(f"{icon} {label}: {value}")
+
+# Flush prints by default (useful for GitHub Actions)
 print = functools.partial(print, flush=True)
+
+# ---------- config
 
 YT_FILE = "YT_playlist.m3u"
 JSON_FILE = "static_channels.json"
 MOVIES_FILE = "static_movies.json"
 CTG_FUN_MOVIES_JSON = "scripts/static_movies(ctgfun).json"
-CINEHUB_MOVIES_JSON = "scripts/static_movies(cinehub24).json"  # NEW
+CINEHUB_MOVIES_JSON = "scripts/static_movies(cinehub24).json"
 OUTPUT_FILE = "combined.m3u"
 RECENT_TAG = " 🆕"
 RECENT_DAYS = 30
@@ -112,12 +126,17 @@ def language_to_group(language: str | None) -> str:
     }
     return mapping.get(key, "Movies")
 
-# ---------- existing parsers lightly adapted to create Item
+# ---------- parsers
 
 def parse_m3u(path: str) -> list[Item]:
     out = []
-    with open(path, encoding="utf-8", errors="ignore") as f:
-        lines = [ln.strip() for ln in f]
+    try:
+        with open(path, encoding="utf-8", errors="ignore") as f:
+            lines = [ln.strip() for ln in f]
+    except FileNotFoundError:
+        print(f"⚠️  {path} not found. Skipping.")
+        return out
+
     header = link = group = tvg_id = tvg_logo = None
     for ln in lines:
         if ln.startswith("#EXTINF"):
@@ -135,8 +154,12 @@ def parse_m3u(path: str) -> list[Item]:
 
 def parse_json_channels(path: str) -> list[Item]:
     out = []
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"⚠️  {path} not found. Skipping.")
+        return out
     for name, info in data.items():
         group = info.get("group", "Other")
         tvg_id = info.get("tvg_id") or generate_tvg_id(name)
@@ -156,8 +179,12 @@ def parse_movies_json(path: str) -> list[Item]:
     - recent tag uses chosen link.added
     """
     out = []
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"⚠️  {path} not found. Skipping.")
+        return out
 
     for title, info in data.items():
         year = normalize_year(info.get("year"))
@@ -196,7 +223,7 @@ def choose_best_link(links: list[dict]) -> dict | None:
         return online
     return next((l for l in links if l.get("url")), None)
 
-# ---------- NEW: ctgfun/cinehub loader with "latest link wins" across files
+# ---------- NEW: ctgfun/cinehub consolidation (latest link wins)
 
 def _choose_latest_link_by_added(links: list[dict]) -> dict | None:
     """
@@ -219,19 +246,25 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
     """
     Load multiple ctgfun-like movie JSON files and consolidate by title.
     If a title exists in multiple files, pick the link with the latest 'added' timestamp across files.
+    Prints overlap and winning-source counts.
     """
-    best_by_title: dict[str, dict] = {}  # title -> {year, tvg_logo, link(dict), added_dt, language}
-    total_titles = 0
+    best_by_title: dict[str, dict] = {}  # title -> {year, tvg_logo, link, added_dt, language, origin}
+    titles_per_source: dict[str, set] = {}
+    recent_count = 0
 
+    print("🎬 Consolidating ctg-style movie sources")
     for path in paths:
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
+            titles = set(data.keys())
+            titles_per_source[path] = titles
+            kv("Loaded", f"{len(titles)} titles from {path}", "📥")
         except FileNotFoundError:
-            print(f"⚠️  File not found: {path}")
+            print(f"⚠️  {path} not found. Skipping.")
+            titles_per_source[path] = set()
             continue
 
-        total_titles += len(data)
         for title, info in data.items():
             year = normalize_year(info.get("year"))
             tvg_logo = info.get("tvg_logo")
@@ -245,20 +278,35 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
             cand_language = chosen.get("language")
             record = best_by_title.get(title)
 
-            if (record is None) or (
-                (cand_added_dt and (record["added_dt"] is None or cand_added_dt > record["added_dt"]))
-            ):
+            if (record is None) or (cand_added_dt and (record["added_dt"] is None or cand_added_dt > record["added_dt"])):
                 best_by_title[title] = dict(
                     year=year,
                     tvg_logo=tvg_logo or (record.get("tvg_logo") if record else None),
                     link=chosen,
                     added_dt=cand_added_dt,
                     language=cand_language,
+                    origin=path,
                 )
             else:
                 if record["tvg_logo"] in (None, "") and tvg_logo:
                     record["tvg_logo"] = tvg_logo
 
+    # overlap & winners
+    nonempty_sets = [titles_per_source[p] for p in paths if titles_per_source.get(p) is not None]
+    overlap = set.intersection(*nonempty_sets) if (nonempty_sets and len(nonempty_sets) >= 2) else set()
+    print(f"🧮 Overlap across ctg-style files: {len(overlap)} titles")
+
+    winners = Counter()
+    for rec in best_by_title.values():
+        winners[rec["origin"]] += 1
+        if is_recent(rec["link"].get("added"), RECENT_DAYS):
+            recent_count += 1
+    if winners:
+        detail = ", ".join([f"{os.path.basename(src)}: {cnt}" for src, cnt in winners.items()])
+        print(f"🏁 Winning source counts (ctg-style): {detail}")
+    print(f"🆕 Recent (≤{RECENT_DAYS} days) from ctg-style picks: {recent_count}")
+
+    # Emit items
     out: list[Item] = []
     for title, rec in best_by_title.items():
         year = rec["year"]
@@ -278,7 +326,7 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
             year=year, name=name, recent=recent, source_rank=0
         ))
 
-    print(f"{len(out)} items consolidated from ctg-style sources: {', '.join(paths)} (scanned {total_titles} titles)")
+    print(f"📦 Consolidated ctg-style items: {len(out)}")
     return out
 
 # ---------- output
@@ -300,21 +348,28 @@ def save_m3u(items: list[Item], output_file: str):
 
 def main():
     start = time.time()
-    yt = parse_m3u(YT_FILE)
-    print(f"{len(yt)} channels found in {YT_FILE}")
-    chans = parse_json_channels(JSON_FILE)
-    print(f"{len(chans)} online channels found in {JSON_FILE}")
-    movies = parse_movies_json(MOVIES_FILE)
-    print(f"{len(movies)} online movie channels found in {MOVIES_FILE}")
+    banner("🎛️  IPTV Playlist Builder")
 
-    # NEW: consolidate ctgfun + cinehub24 (latest link wins per title)
+    # Load sources
+    print("📂 Reading sources…")
+    yt = parse_m3u(YT_FILE)
+    kv("M3U channels", str(len(yt)), "📼")
+
+    chans = parse_json_channels(JSON_FILE)
+    kv("Static channels (online)", str(len(chans)), "📡")
+
+    movies = parse_movies_json(MOVIES_FILE)
+    kv("static_movies.json (online)", str(len(movies)), "🎞️")
+
+    # Consolidate ctgfun + cinehub24 (latest link wins per title)
     ctg_like = parse_ctg_style_movies_json([CTG_FUN_MOVIES_JSON, CINEHUB_MOVIES_JSON])
 
+    # Combine & deduplicate
+    print("\n🧩 Combining and de-duplicating…")
     combined = chans + yt + movies + ctg_like
 
-    # Dedup by display name, prefer richer/“better” source
     by_name: dict[str, Item] = {}
-    removed = []
+    duplicates_removed = 0
     for it in combined:
         key = it.name or channel_display_name(it.header)
         if key not in by_name:
@@ -322,20 +377,24 @@ def main():
         else:
             cur = by_name[key]
             # Prefer lower source_rank, then has logo, then recent, then newer year
-            cand = min(
+            chosen = min(
                 (cur, it),
                 key=lambda x: (x.source_rank, 0 if x.tvg_logo else 1, 0 if x.recent else 1, -x.year)
             )
-            removed.append(key)
-            by_name[key] = cand
-    if removed:
-        print(f"Removed {len(removed)} duplicate names")
+            if chosen is not cur:
+                by_name[key] = chosen
+            duplicates_removed += 1
 
+    if duplicates_removed:
+        print(f"🔁 Removed duplicate names: {duplicates_removed}")
+    else:
+        print("🔁 No duplicate names found.")
+
+    # Grouping & sorting
     groups = defaultdict(list)
     for it in by_name.values():
         groups[it.group].append(it)
 
-    # Sort inside groups
     for g, lst in groups.items():
         is_movie_group = (g in MOVIE_GROUPS) or all(it.is_movie for it in lst)
         if is_movie_group:
@@ -349,8 +408,28 @@ def main():
         out.extend(groups.get(g, []))
 
     save_m3u(out, OUTPUT_FILE)
-    print(f"✅ Combined playlist saved as {OUTPUT_FILE}")
-    print(f"⏱ Total script time: {time.time()-start:.2f} seconds")
+
+    # ---------- Summary
+    elapsed = time.time() - start
+    print("")  # spacer
+    banner("📊 Build Summary")
+
+    kv("Input counts",
+       f"M3U={len(yt)} • Channels={len(chans)} • static_movies={len(movies)} • ctg/cinehub={len(ctg_like)}",
+       "🗂️")
+
+    kv("Output items", str(len(out)), "✅")
+    kv("Duplicates removed", str(duplicates_removed), "🔁")
+
+    # Per-group distribution
+    print("🧭 Group distribution:")
+    for g in GROUP_ORDER + sorted(k for k in groups.keys() if k not in GROUP_ORDER):
+        if g in groups:
+            print(f"  - {g}: {len(groups[g])}")
+
+    kv("Saved as", OUTPUT_FILE, "💾")
+    kv("Elapsed", f"{elapsed:.2f}s", "⏱")
+    print("\n✨ Done. Enjoy!")
 
 if __name__ == "__main__":
     main()
