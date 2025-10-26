@@ -88,6 +88,8 @@ EXCLUDE_LIST = [
 
 # ✅ Whitelist domains (any URL containing these will be auto-marked as online)
 WHITELIST_DOMAINS = [
+    "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream",
+    "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream",
     "https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea",
     "https://amg01448-samsungin-cnbcawaaznw18-samsungin-ad-wj.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-cnbcawaaznw18-samsungin",
     "https://amg01448-samsungin-cnnnewsnw18-samsungin-ad-gv.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-cnnnewsnw18-samsungin",
