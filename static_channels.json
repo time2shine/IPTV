@@ -4885,10 +4885,24 @@
       }
     ]
   },
-  "ENT | Manoranjan TV": {
+  "ENT | Manoranjan Grand": {
     "group": "India",
-    "tvg_id": "ManoranjanTV.in@SD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Manoranjan_TV.jpeg",
+    "tvg_id": "ManoranjanGrand",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3a/Manoranjan_Grand.jpeg",
+    "links": [
+      {
+        "url": "https://cdn-1.pishow.tv/live/1011/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MOV | Manoranjan Movies": {
+    "group": "India",
+    "tvg_id": "ManoranjanMovies",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e8/Manoranjan_Movies.jpg",
     "links": [
       {
         "url": "https://cdn-2.pishow.tv/live/228/228_1.m3u8",
@@ -4900,6 +4914,20 @@
         "speed": 0.368,
         "passed_via": "ffmpeg"
       },
+      {
+        "url": "https://cdn-2.pishow.tv/live/228/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Manoranjan TV": {
+    "group": "India",
+    "tvg_id": "ManoranjanTV.in@SD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f7/Manoranjan_TV.jpeg",
+    "links": [
       {
         "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
         "status": "online",
@@ -5102,21 +5130,31 @@
       }
     ]
   },
-  "ENT | Star Plus": {
+  "Disney International HD": {
+    "group": "Kids",
+    "tvg_id": "Disney International HD (1080p)",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/7f/Disney_International_HD_logo.png",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a0e9/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Star Plus HD": {
     "group": "India",
     "tvg_id": "StarPlus.in",
     "tvg_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-06",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0b9/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5230,15 +5268,11 @@
     "tvg_logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/U3QEd5YBcqxnFHJBpYzc/posters/3442d493-0c71-44b9-b12f-8e600d5eab91.png",
     "links": [
       {
-        "url": "?id=c65460ba0d73&e=.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-10-18",
-        "probe_time_s": 1.482,
-        "speed": 1.349,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
+        "url": "http://116.90.120.149:8000/play/a0e7/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5910,21 +5944,73 @@
       }
     ]
   },
+  "NEWS | Awaaz India TV": {
+    "group": "India",
+    "tvg_id": "AwaazIndiaTV",
+    "tvg_logo": "https://i.ytimg.com/vi/8BzmlfZm2xU/hqdefault.jpg",
+    "links": [
+      {
+        "url": "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | Sana Plus": {
+    "group": "India",
+    "tvg_id": "SanaPlus",
+    "tvg_logo": "https://i.imgur.com/N6tKUZv.png",
+    "links": [
+      {
+        "url": "https://galaxyott.live/hls/sanaplus.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | MNTV Music": {
+    "group": "India",
+    "tvg_id": "MNTVMusic",
+    "tvg_logo": "https://buddytv.netlify.app/img/no-logo.png",
+    "links": [
+      {
+        "url": "https://mntv.livebox.co.in/musichls/live.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MOV | Star Utsav Movies": {
+    "group": "India",
+    "tvg_id": "StarUtsavMovies",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/SUMovies.jpg",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a02r/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "MOV | Star Gold 2 HD": {
     "group": "India",
     "tvg_id": "StarGold2HD",
     "tvg_logo": "https://live.dinesh29.com.np/logos/jiotvplus/stargold2hd.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-10",
-        "last_offline": "2025-10-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0ea/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5982,15 +6068,25 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b7/Star_Gold_Thrills.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-16",
-        "first_online": "2025-10-07",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0c0/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | Public Music": {
+    "group": "India",
+    "tvg_id": "PublicMusic",
+    "tvg_logo": "https://i.imgur.com/0xS5lNT.png",
+    "links": [
+      {
+        "url": "https://cdn-3.pishow.tv/live/441/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6793,6 +6889,27 @@
         "passed_via": "ffmpeg",
         "note": "overrun 53.3s",
         "quality": "slow"
+      },
+      {
+        "url": "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | Star Utsav": {
+    "group": "India",
+    "tvg_id": "StarUtsav",
+    "tvg_logo": "https://i.imgur.com/H1jhHDl.png",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a02t/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -7227,6 +7344,27 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
+      },
+      {
+        "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | Bharat Express": {
+    "group": "India",
+    "tvg_id": "Bharat Express",
+    "tvg_logo": "https://bharatexpress.com/wp-content/themes/newstrackcms/images/bharat-express-new-logo.png",
+    "links": [
+      {
+        "url": "https://stream1.livebox.co.in/VCAREhls/live.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -8052,6 +8190,13 @@
         "passed_via": "mpv",
         "note": "overrun 43.8s",
         "quality": "slow"
+      },
+      {
+        "url": "https://dwby15d04agvq.cloudfront.net/index_1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -8114,6 +8259,13 @@
         "passed_via": "mpv",
         "note": "mpv",
         "quality": "fast"
+      },
+      {
+        "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -10995,15 +11147,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6e/Disney_Channel_2017.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-16",
-        "first_online": "2025-10-07",
-        "last_offline": "2025-10-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11617,26 +11765,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/aa/Nickelodeon_Sonic_logo_2025.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-09-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-09-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-27",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0cc/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17634,7 +17767,7 @@
       }
     ]
   },
-  "--Live(Star Sports 1 HD)--": {
+  "---Live(Star Sports 1 HD)---": {
     "group": "Sports",
     "tvg_id": "starsports1hd.in",
     "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
@@ -17664,44 +17797,25 @@
         "quality": "slow"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-15",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-10-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "http://116.90.120.149:8000/play/a0ba/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
-  "--Live(Star Sports 1 Hindi)--": {
+  "---Live(Star Sports 1 Hindi)---": {
     "group": "Sports",
     "tvg_id": "Star Sports 1 Hindi",
     "tvg_logo": "http://103.175.242.10/assets/images/Star%20Sports%2011732941309.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-16",
-        "first_online": "2025-10-07",
-        "last_offline": "2025-10-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-10",
-        "first_online": "2025-10-02",
-        "last_offline": "2025-10-10",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0bv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17720,6 +17834,20 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "mpv_offline"
+      }
+    ]
+  },
+  "---Live(Star Sports 2 Hindi)---": {
+    "group": "Sports",
+    "tvg_id": "StarSports2Hindi",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/05/SS2_Hindi_HD.jpg",
+    "links": [
+      {
+        "url": "http://116.90.120.149:8000/play/a0cs/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17777,25 +17905,21 @@
       }
     ]
   },
-  "--Live(STAR SPORTS SELECT 2 HD)": {
+  "---Live(STAR SPORTS SELECT 2 HD)---": {
     "group": "Sports",
     "tvg_id": "starsportsselect1.in",
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://116.90.120.149:8000/play/a0cm/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
-  "--Live(T Sports HD)--": {
+  "---Live(T Sports HD)---": {
     "group": "Sports",
     "tvg_id": "TSPORTS.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
@@ -20506,6 +20630,13 @@
         "passed_via": "ffmpeg",
         "note": "overrun 48.3s",
         "quality": "slow"
+      },
+      {
+        "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/3000.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
