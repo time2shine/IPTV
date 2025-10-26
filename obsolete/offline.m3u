@@ -8,9 +8,9 @@ https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | Toffee Movies (8d)
 ?id=9f573df7cbe5&e=.m3u8
 #EXTINF:-1 group-title="Bangla",NEXUS TV HD (2d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/mono.m3u8
-#EXTINF:-1 group-title="Bangla",NEXUS TV HD (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",NEXUS TV HD (2d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (5d)
 http://stvlive.net:8080/zeebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (3d)
@@ -33,8 +33,6 @@ http://stvlive.net:8080/discovery/index.m3u8
 ?id=a051de5ade20&e=.m3u8
 #EXTINF:-1 group-title="Educational",Investigation Discovery HD (8d)
 ?id=6789650f5629&e=.m3u8
-#EXTINF:-1 group-title="Educational",Mystery TV (0d)
-https://amg00841-aenetworksukane-mysterytv-samsunguk-mggb7.amagi.tv/ts-eu-w1-n2/playlist/amg00841-aenetworksukane-mysterytv-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Sony BBC Earth HD (8d)
 ?id=4947c242a562&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | &TV HD (8d)
@@ -53,8 +51,6 @@ http://stvlive.net:8080/sonyentten/index.m3u8
 http://103.175.242.10:8080/zeeanmol/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Anmol (8d)
 ?id=dc488b1502f5&e=.m3u8
-#EXTINF:-1 group-title="India",ENT | Zee Cafe (8d)
-?id=c65460ba0d73&e=.m3u8
 #EXTINF:-1 group-title="India",ENT | ZEE TV (5d)
 http://103.175.242.10:8080/zeetv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | ZEE TV HD (8d)
@@ -87,16 +83,16 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 https://stream.e2is.in/hls/7xMusic.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music APAC (8d)
 ?id=6f73e4079aa2&e=.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | Aaj Tak HD (0d)
+https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (9d)
 https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/bd8f1eaade6782c3ad8c6916f840f89052a2c590/700a192f4d09363.m3u8
 #EXTINF:-1 group-title="International",EN | Saudia Radio (5d)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (8d)
 ?id=2435a44a7c67&e=.m3u8
-#EXTINF:-1 group-title="International News",EAC News TV (0d)
-https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (5d)
 http://103.175.242.10:8080/cartoonnetwork/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Cartoon Network Hindi (8d)
@@ -109,8 +105,10 @@ http://103.175.242.10:8080/cartoonnetwork/index.m3u8
 ?id=93bd384e76a9&e=.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (5d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
+#EXTINF:-1 group-title="Movies",EN | Bang Bang TV (0d)
+https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8
+#EXTINF:-1 group-title="Movies",EN | HBO Comedy (0d)
+http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX (5d)
 http://103.175.242.10:8080/sonypix/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX HD (8d)
@@ -119,14 +117,16 @@ http://103.175.242.10:8080/sonypix/index.m3u8
 ?id=72e420862a7f&e=.m3u8
 #EXTINF:-1 group-title="Music",EN | HTV (6d)
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
-#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Hum TV (4d)
 https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Tag TV (1d)
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (1d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Channel WIN (0d)
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (0d)
+http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (5d)
 https://tvsen5.aynaott.com/Ptvsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 1)-- (8d)
@@ -141,8 +141,6 @@ http://stvlive.net:8080/sonyten2/index.m3u8
 ?id=2dece57b30a1&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony Ten 5 HD)-- (5d)
 http://stvlive.net:8080/sonyten5/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Star Sports 1 HD)-- (0d)
-http://supersonictv.live:8080/live/Bobby1/Bobby1/85564.ts
 #EXTINF:-1 group-title="Sports",--Live(Ten Cricket)-- (8d)
 ?id=86db7302947d&e=.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Ten Cricket)-- (5d)
@@ -153,7 +151,17 @@ https://fl31.moveonjoy.com/WILLOW_CRICKET/index.m3u8
 https://fl7.moveonjoy.com/WILLOW_CRICKET/index.m3u8
 #EXTINF:-1 group-title="Sports",CR | ICC Test Championship Highlights (8d)
 ?id=b18613696a70&e=.m3u8
+#EXTINF:-1 group-title="Sports",FB | DubaiSports 3 (0d)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/master.m3u8
 #EXTINF:-1 group-title="Sports",FB | ORF Sport+ HD (0d)
 http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
+#EXTINF:-1 group-title="Sports",FB+MIX | Dubai Sports 2 (0d)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Dubai Sports 2 (0d)
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Dubai Sports 3 (0d)
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | DubaiSports 2 (0d)
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/master.m3u8
