@@ -18,6 +18,20 @@
       }
     ]
   },
+  "EN | American Heroes Channel": {
+    "group": "International",
+    "tvg_id": "american-heroes-channel",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/f/f1/American_Heroes_Channel.svg",
+    "links": [
+      {
+        "url": "https://e5.thetvapp.to/hls/AmericanHeroesChannel/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -9991,17 +10005,6 @@
         "passed_via": "ffmpeg",
         "note": "overrun 83.4s",
         "quality": "slow"
-      },
-      {
-        "url": "?id=2435a44a7c67&e=.m3u8",
-        "status": "offline",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-10-18",
-        "probe_time_s": 2.583,
-        "speed": 0.774,
-        "passed_via": "mpv",
-        "note": "mpv_offline"
       }
     ]
   },
