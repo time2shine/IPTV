@@ -282,7 +282,7 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
     If a title exists in multiple files, pick the link with the latest 'added' timestamp across files.
     Prints overlap and winning-source counts.
     """
-    best_by_title: dict[str, dict] = {}  # title -> {year, tvg_logo, link, added_dt, language, origin}
+    best_by_title: dict[str, dict] = {}  # title_lower -> {year, tvg_logo, link, added_dt, language, origin, title_orig}
     titles_per_source: dict[str, set] = {}
     recent_count = 0
 
@@ -300,6 +300,7 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
             continue
 
         for title, info in data.items():
+            key = title.lower() # <-- MODIFICATION: Use lowercase key for lookup
             year = normalize_year(info.get("year"))
             tvg_logo = info.get("tvg_logo")
             links = info.get("links", [])
@@ -310,16 +311,17 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
 
             cand_added_dt = parse_iso_utc(chosen.get("added"))
             cand_language = chosen.get("language")
-            record = best_by_title.get(title)
+            record = best_by_title.get(key) # <-- MODIFICATION: Get by lowercase key
 
             if (record is None) or (cand_added_dt and (record["added_dt"] is None or cand_added_dt > record["added_dt"])):
-                best_by_title[title] = dict(
+                best_by_title[key] = dict( # <-- MODIFICATION: Set by lowercase key
                     year=year,
                     tvg_logo=tvg_logo or (record.get("tvg_logo") if record else None),
                     link=chosen,
                     added_dt=cand_added_dt,
                     language=cand_language,
                     origin=path,
+                    title_orig=title, # <-- MODIFICATION: Store the original title of the winner
                 )
             else:
                 if record["tvg_logo"] in (None, "") and tvg_logo:
@@ -345,7 +347,8 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
 
     # Emit items
     out: list[Item] = []
-    for title, rec in best_by_title.items():
+    for key, rec in best_by_title.items(): # <-- MODIFICATION: key is lowercase, rec has our data
+        title = rec["title_orig"] # <-- MODIFICATION: Get the original-cased title
         year = rec["year"]
         tvg_logo = rec["tvg_logo"]
         tvg_id = generate_tvg_id(title)
@@ -373,7 +376,6 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
 
     print(f"📦 Consolidated ctg-style items: {len(out)}")
     return out
-
 # ---------- output
 
 def save_m3u(items: list[Item], output_file: str):
@@ -416,7 +418,11 @@ def main():
     by_name: dict[str, Item] = {}
     duplicates_removed = 0
     for it in combined:
-        key = it.name or channel_display_name(it.header)
+        # <-- MODIFICATION START
+        base_name = it.name or channel_display_name(it.header)
+        key = base_name.lower()
+        # <-- MODIFICATION END
+        
         if key not in by_name:
             by_name[key] = it
         else:
