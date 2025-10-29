@@ -1,16 +1,18 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",Channel S (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Channel S (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",DesheBideshe (0d)
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
-https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
 https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (2d)
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (1d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GLOBAL TV HD (6d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (7d)
@@ -23,8 +25,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 http://stvlive.net:8080/zeebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (1d)
 https://bozztv.com/rongo/rongo-somoy/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | Kolkata Tv (0d)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | COLORS HD (9d)
 http://195.181.169.162/COLORS_HD/index.m3u8?token=test
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment (8d)
@@ -49,22 +49,30 @@ http://195.181.169.162/ZEE_CINEMA_HD/index.m3u8?token=test
 https://stream.e2is.in/hls/7xMusic.m3u8
 #EXTINF:-1 group-title="India",NEWS | Aaj Tak HD (3d)
 https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
+#EXTINF:-1 group-title="India",NEWS | Aap Ki Adalat (0d)
+https://amg01550-indiatv-indiatv-aapkiadalat-mi-xiaomi-n5tuk.amagi.tv/playlist/amg01550-indiatv-indiatv-aapkiadalat-mi-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="International",Are We There Yet? (0d)
+https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="International",EN | Saudia Radio (8d)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
+#EXTINF:-1 group-title="International News",Connecting America (0d)
+https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Cartoon Network HD + (8d)
 http://103.175.242.10:8080/cartoonnetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",2. POGO (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (8d)
 http://stvlive.net:8080/sonyyay/index.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Sony PIX (8d)
 http://103.175.242.10:8080/sonypix/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",AR | AFN TV (0d)
+https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | HTV (9d)
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
+#EXTINF:-1 group-title="Music",OTHER | 4ACETV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",TR | Top TV (0d)
 http://74.208.199.212:8081/TopTV/live/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (3d)
