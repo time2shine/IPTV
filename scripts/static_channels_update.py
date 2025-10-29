@@ -102,6 +102,7 @@ WHITELIST_DOMAINS = [
     "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv",
     "https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv",
     "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd",
+    "https://livehub-voidnet.onrender.com/cluster/streamcore/in",
     "https://vg-republictvlive.akamaized.net/v1/master",
     "https://premierleagpl23.akamaized.net",
     "https://indiatodaylive.akamaized.net",
