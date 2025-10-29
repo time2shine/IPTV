@@ -67,6 +67,7 @@ class Item:
     year: int = -1
     name: str = ""
     recent: bool = False
+    added_dt: datetime | None = None  # <-- MODIFIED
     # lower is preferred (0 = ctgfun/cinehub json, 1 = movies json, 2 = yt/json, 3 = m3u)
     source_rank: int = 99
 
@@ -125,6 +126,31 @@ def language_to_group(language: str | None) -> str:
         "bengali": "Movies - Bangla",
     }
     return mapping.get(key, "Movies")
+
+# --- NEW HELPER FUNCTION ---
+def get_movie_sort_key(x: Item):
+    """
+    Generates a sort key for movies:
+    1. Recent items (group 0) vs. Non-recent (group 1)
+    2. Recent items are sorted by added_dt descending.
+       - Achieved by sorting (MAX_DATE - added_dt) ascending.
+       - None/missing dates are treated as oldest (datetime.min), sorting them last.
+    3. Non-recent items are sorted by year descending (-x.year).
+    4. Tie-breaker is name ascending.
+    """
+    if x.recent:
+        # Group 0: Recent
+        # Use min datetime for None to sort them last (largest time delta)
+        added_dt_safe = x.added_dt if x.added_dt else datetime.min.replace(tzinfo=timezone.utc)
+        # Sort by (MAX_DATE - added_dt) ascending, which is date descending
+        # Use total_seconds() for a simple sortable number
+        sort_key = (datetime.max.replace(tzinfo=timezone.utc) - added_dt_safe).total_seconds()
+        return (0, sort_key, x.name.lower())
+    else:
+        # Group 1: Non-recent
+        # Sort by year descending
+        sort_key = -x.year
+        return (1, sort_key, x.name.lower())
 
 # ---------- parsers
 
@@ -198,7 +224,13 @@ def parse_movies_json(path: str) -> list[Item]:
 
         link = chosen["url"]
         group = language_to_group(chosen.get("language"))
-        recent = is_recent(chosen.get("added"), RECENT_DAYS)
+
+        # --- MODIFICATION START ---
+        added_dt = parse_iso_utc(chosen.get("added")) # Parse once
+        recent = False
+        if added_dt:
+            recent = (datetime.now(timezone.utc) - added_dt) <= timedelta(days=RECENT_DAYS)
+        # --- MODIFICATION END ---
 
         base_name = f"{title} ({year})" if year != -1 else title
         name = base_name + RECENT_TAG if recent else base_name
@@ -206,7 +238,9 @@ def parse_movies_json(path: str) -> list[Item]:
         header = f'#EXTINF:-1 group-title="{group}",{name}'
         out.append(Item(
             header, link, group, tvg_id, tvg_logo, True,
-            year=year, name=name, recent=recent, source_rank=1
+            year=year, name=name, recent=recent,
+            added_dt=added_dt,  # <-- PASS THE PARSED DATE
+            source_rank=1
         ))
     return out
 
@@ -299,8 +333,11 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
     winners = Counter()
     for rec in best_by_title.values():
         winners[rec["origin"]] += 1
-        if is_recent(rec["link"].get("added"), RECENT_DAYS):
+        
+        # --- MODIFIED: Use the parsed added_dt for recent check ---
+        if rec["added_dt"] and (datetime.now(timezone.utc) - rec["added_dt"]) <= timedelta(days=RECENT_DAYS):
             recent_count += 1
+            
     if winners:
         detail = ", ".join([f"{os.path.basename(src)}: {cnt}" for src, cnt in winners.items()])
         print(f"🏁 Winning source counts (ctg-style): {detail}")
@@ -315,7 +352,13 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
         chosen = rec["link"]
         link = chosen["url"]
         group = language_to_group(rec["language"])
-        recent = is_recent(chosen.get("added"), RECENT_DAYS)
+
+        # --- MODIFICATION START ---
+        added_dt = rec["added_dt"] # Get the stored datetime object
+        recent = False
+        if added_dt:
+            recent = (datetime.now(timezone.utc) - added_dt) <= timedelta(days=RECENT_DAYS)
+        # --- MODIFICATION END ---
 
         base_name = f"{title} ({year})" if year != -1 else title
         name = base_name + RECENT_TAG if recent else base_name
@@ -323,7 +366,9 @@ def parse_ctg_style_movies_json(paths: list[str]) -> list[Item]:
         header = f'#EXTINF:-1 group-title="{group}",{name}'
         out.append(Item(
             header, link, group, tvg_id, tvg_logo, True,
-            year=year, name=name, recent=recent, source_rank=0
+            year=year, name=name, recent=recent,
+            added_dt=added_dt,  # <-- PASS THE PARSED DATE
+            source_rank=0
         ))
 
     print(f"📦 Consolidated ctg-style items: {len(out)}")
@@ -379,6 +424,8 @@ def main():
             # Prefer lower source_rank, then has logo, then recent, then newer year
             chosen = min(
                 (cur, it),
+                # Note: 'recent' and 'year' logic is for DE-DUPLICATION preference,
+                # not final sorting. This logic remains correct.
                 key=lambda x: (x.source_rank, 0 if x.tvg_logo else 1, 0 if x.recent else 1, -x.year)
             )
             if chosen is not cur:
@@ -397,10 +444,13 @@ def main():
 
     for g, lst in groups.items():
         is_movie_group = (g in MOVIE_GROUPS) or all(it.is_movie for it in lst)
+        
+        # --- MODIFICATION START ---
         if is_movie_group:
-            lst.sort(key=lambda x: (0 if x.recent else 1, -x.year, x.name.lower()))
+            lst.sort(key=get_movie_sort_key) # <-- USE THE NEW HELPER
         else:
             lst.sort(key=lambda x: x.name.lower())
+        # --- MODIFICATION END ---
 
     # Group order
     out = []
