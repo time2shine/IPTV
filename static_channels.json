@@ -1565,7 +1565,7 @@
       }
     ]
   },
-  "NTV HD": {
+  "NTV SD": {
     "group": "Bangla",
     "tvg_id": "ntv.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e1/NTV_Bangladesh.svg",
@@ -1581,7 +1581,14 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
-      },
+      }
+    ]
+  },
+  "NTV HD": {
+    "group": "Bangla",
+    "tvg_id": "ntv.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e1/NTV_Bangladesh.svg",
+    "links": [
       {
         "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=1692000.m3u8",
         "status": "online",
