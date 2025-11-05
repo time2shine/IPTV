@@ -8,15 +8,15 @@ http://103.175.242.10:8080/btv/index.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I (7d)
 http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",Channel S (1d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Channel S (1d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Channel S (1d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (7d)
 http://stvlive.net:8080/deepto/index.m3u8
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (1d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",iON TV (7d)
 https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Magic Bangla TV (0d)
+https://jolshabd.com/live/mbanglatv/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (7d)
 http://stvlive.net:8080/metv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Movie Bangla TV (7d)
@@ -39,8 +39,10 @@ http://103.175.242.10:8080/jamuna/index.m3u8
 http://stvlive.net:8080/jamuna/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (7d)
 http://stvlive.net:8080/somoy/index.m3u8
-#EXTINF:-1 group-title="Educational",WB TV Deadliest Catch (0d)
-https://mediapackage-azf2-source.fullscreen.nz/index.m3u8
+#EXTINF:-1 group-title="Football",FB | Arena Sports 2 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/2/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="India",ENT | E24 (0d)
+https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (4d)
 http://116.90.120.149:8000/play/a0b9/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Utsav (4d)
@@ -55,8 +57,12 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (4d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (7d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
+#EXTINF:-1 group-title="International News",TRT World (0d)
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Kids",0. PBS Kids (5d)
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (4d)
@@ -67,34 +73,26 @@ http://116.90.120.149:8000/play/a0b3/index.m3u8
 http://116.90.120.149:8000/play/a0cc/index.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (0d)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
-#EXTINF:-1 group-title="Kids",Cartoon Classics (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Cartoonito (0d)
 http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Discovery Kids (0d)
 http://181.78.4.250:8098/play/a08h/index.m3u8
 #EXTINF:-1 group-title="Kids",Disney International HD (5d)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | a-z Western Grit (1d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | MovieSphere UK (0d)
+https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/ts-eu-w1-n2/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | Play TV (1d)
 http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (7d)
 https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 90s Throwback (7d)
 https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb3200007ak-prod/amg90rock/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | XITE Hits (0d)
-https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE Just Chill (7d)
 https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE Rock On (7d)
 https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8
-#EXTINF:-1 group-title="Music",OTHER | Afrobeats (0d)
-https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 group-title="Music",TR | TRT Müzik (0d)
-https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Q TV (7d)
 https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (6d)
@@ -110,9 +108,9 @@ https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Eman Channel (7d)
 https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
 #EXTINF:-1 group-title="Religious",IQRA BANGLA (7d)
-https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
-#EXTINF:-1 group-title="Religious",IQRA BANGLA (7d)
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
+#EXTINF:-1 group-title="Religious",IQRA BANGLA (7d)
+https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
 #EXTINF:-1 group-title="Religious",Iqra TV (7d)
 https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8
 #EXTINF:-1 group-title="Religious",ISLAM TV (7d)
@@ -141,7 +139,13 @@ http://stvlive.net:8080/tsports1/index.m3u8
 http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(A Sports)-- (6d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
+#EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (0d)
+https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(LaLiga TV)-- (0d)
+https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (6d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
-#EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (0d)
-https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",CR | Cricket Gold (0d)
+https://cc-bpss9asqfihqh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bpss9asqfihqh/scheduler/scheduleMaster/453.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | MVMT Culture (0d)
+https://d15g7z5n3epv7t.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/TheGrapplingNetwork-SportsTribal/236.m3u8
