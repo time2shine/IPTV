@@ -9,8 +9,6 @@ http://103.175.242.10:8080/btv/index.m3u8
 http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (7d)
 http://stvlive.net:8080/deepto/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",iON TV (7d)
 https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (0d)
@@ -32,15 +30,11 @@ http://stvlive.net:8080/ekattor/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | Independent Television (7d)
 http://103.175.242.10:8080/independent/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (7d)
-http://stvlive.net:8080/jamuna/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (7d)
 http://103.175.242.10:8080/jamuna/index.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (7d)
+http://stvlive.net:8080/jamuna/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (7d)
 http://stvlive.net:8080/somoy/index.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="India",ENT | Nazara (0d)
-https://epiconvh.akamaized.net/live/nazara/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (4d)
 http://116.90.120.149:8000/play/a0b9/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Utsav (4d)
@@ -55,8 +49,6 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (4d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | ABP News (0d)
-https://abpmitv.akamaized.net/hls/live/2042842/abpnews/master.m3u8
 #EXTINF:-1 group-title="International News",CNN International (7d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
 #EXTINF:-1 group-title="Kids",0. PBS Kids (5d)
@@ -69,10 +61,10 @@ http://116.90.120.149:8000/play/a0b3/index.m3u8
 http://116.90.120.149:8000/play/a0cc/index.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (0d)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
-#EXTINF:-1 group-title="Kids",Discovery Kids (0d)
-http://181.78.4.250:8098/play/a08h/index.m3u8
 #EXTINF:-1 group-title="Kids",Disney International HD (5d)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
+#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
 #EXTINF:-1 group-title="Music",EN | Play TV (1d)
 http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (7d)
@@ -83,10 +75,6 @@ https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE Rock On (7d)
 https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8
-#EXTINF:-1 group-title="Music",OTHER | 4ACETV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Q TV (7d)
 https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (6d)
@@ -135,11 +123,5 @@ http://116.204.149.16/t_sports/index.m3u8
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (6d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 5 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/5/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | TYC Sports (0d)
-https://tiger-hub.vercel.app/TYC_Sports-Argentina/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
 http://41.205.93.154/ESPN/index.m3u8
-#EXTINF:-1 group-title="Travel",GO2Travel TV (0d)
-https://go2thls.wns.live/hls/stream.m3u8
