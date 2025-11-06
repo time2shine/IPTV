@@ -33,8 +33,6 @@ http://103.175.242.10:8080/jamuna/index.m3u8
 http://stvlive.net:8080/jamuna/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (8d)
 http://stvlive.net:8080/somoy/index.m3u8
-#EXTINF:-1 group-title="Football",FB | Arena Sports 2 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (5d)
 http://116.90.120.149:8000/play/a0b9/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Utsav (5d)
@@ -49,16 +47,14 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (5d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="International",Young Hollywood (0d)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | India Daily 24x7 (0d)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (8d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
 #EXTINF:-1 group-title="Kids",0. PBS Kids (6d)
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
-#EXTINF:-1 group-title="Kids",0. Tom and Jerry (0d)
-https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (5d)
 http://116.90.120.149:8000/play/a0bx/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Junior India (5d)
@@ -67,14 +63,20 @@ http://116.90.120.149:8000/play/a0b3/index.m3u8
 http://116.90.120.149:8000/play/a0cc/index.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
+#EXTINF:-1 group-title="Kids",Cartoon Classics (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Cartoonito (0d)
 http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Discovery Kids (0d)
 http://181.78.4.250:8098/play/a08h/index.m3u8
 #EXTINF:-1 group-title="Kids",Disney International HD (6d)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
+#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (8d)
 https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 90s Throwback (8d)
@@ -83,6 +85,8 @@ https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE Rock On (8d)
 https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8
+#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Q MUSIC (1d)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Q TV (8d)
@@ -100,9 +104,9 @@ https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Eman Channel (8d)
 https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
 #EXTINF:-1 group-title="Religious",IQRA BANGLA (8d)
-https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IQRA BANGLA (8d)
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
+#EXTINF:-1 group-title="Religious",IQRA BANGLA (8d)
+https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Iqra TV (8d)
 https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8
 #EXTINF:-1 group-title="Religious",ISLAM TV (8d)
@@ -117,12 +121,8 @@ https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/tv01/playlist.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (5d)
 http://116.90.120.149:8000/play/a0ba/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (0d)
-https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (5d)
 http://116.90.120.149:8000/play/a0bv/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (0d)
-https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 2 Hindi)--- (5d)
 http://116.90.120.149:8000/play/a0cs/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(STAR SPORTS SELECT 2 HD)--- (5d)
@@ -135,53 +135,7 @@ http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
 http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(A Sports)-- (7d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
-#EXTINF:-1 group-title="Sports",--Live(Euro Sport 2 HD)-- (0d)
-http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (0d)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(LaLiga TV)-- (0d)
-https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (7d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
-#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
-https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Sky Sports Football)-- (0d)
-https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(SkySports Cricket)-- (0d)
-https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (0d)
-https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (0d)
-https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 1 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 3 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/Premium_3/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 3 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 4 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/4/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 5 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/5/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 6 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/6/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 7 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/7/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 8 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/8/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
-http://ares.mnet.mk/hls/mnet-sport.m3u8
-#EXTINF:-1 group-title="Sports",FB | SkySports premier League (0d)
-https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB | TYC Sports (0d)
-https://tiger-hub.vercel.app/TYC_Sports-Argentina/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB+MIX | Premire Sports 1 (0d)
-https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 1 (0d)
-https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 2 (0d)
-https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports Mix (0d)
-https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
-https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
