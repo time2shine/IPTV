@@ -9,12 +9,18 @@ http://103.175.242.10:8080/btv/index.m3u8
 http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (8d)
 http://stvlive.net:8080/deepto/index.m3u8
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangla",DESH TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",iON TV (8d)
 https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (8d)
 http://stvlive.net:8080/metv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Movie Bangla TV (8d)
 http://stvlive.net:8080/moviebangla/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD (8d)
 https://ap02.iqplay.tv:8082/iqb8002/nt589v/chunks.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD (8d)
@@ -33,12 +39,20 @@ http://stvlive.net:8080/jamuna/index.m3u8
 http://103.175.242.10:8080/jamuna/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (8d)
 http://stvlive.net:8080/somoy/index.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Educational",Animal Planet (0d)
+http://195.189.60.31:8003/play/a0gk/index.m3u8
+#EXTINF:-1 group-title="Football",FB | Arena Sports 2 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/2/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (5d)
 http://116.90.120.149:8000/play/a0b9/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Utsav (5d)
 http://116.90.120.149:8000/play/a02t/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Cafe (6d)
 http://116.90.120.149:8000/play/a0e7/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Movie One (0d)
+https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/movie-one-176/playlist.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold 2 HD (6d)
 http://116.90.120.149:8000/play/a0ea/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (4d)
@@ -47,12 +61,20 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (5d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="International",TVRI World (0d)
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="International News",CNN International (8d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
+#EXTINF:-1 group-title="Kids",0. Tom and Jerry (0d)
+https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (5d)
 http://116.90.120.149:8000/play/a0bx/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Junior India (5d)
 http://116.90.120.149:8000/play/a0b3/index.m3u8
+#EXTINF:-1 group-title="Kids",2. POGO (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8
 #EXTINF:-1 group-title="Kids",2. Sonic (5d)
 http://116.90.120.149:8000/play/a0cc/index.m3u8
 #EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
@@ -61,8 +83,10 @@ http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&e
 http://116.90.120.149:8000/play/a0e9/index.m3u8
 #EXTINF:-1 group-title="Kids",NICK Hindi (0d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
+#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",EN | Rockola Television (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/RHT6XGG6VHZA0P8T1MGX/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (8d)
 https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | XITE 90s Throwback (8d)
@@ -77,8 +101,6 @@ https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (7d)
 https://video.primexsports.com/suchnews/live/playlist.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | 92 News HD (5d)
-http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
 #EXTINF:-1 group-title="Religious",BILLAL TV (8d)
 https://ap02.iqplay.tv:8082/iqb8002/bil77tv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Deen TV Bangla (8d)
@@ -103,8 +125,12 @@ https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8
 https://ap02.iqplay.tv:8082/iqb8002/tv01/playlist.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (5d)
 http://116.90.120.149:8000/play/a0ba/index.m3u8
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (0d)
+https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (5d)
 http://116.90.120.149:8000/play/a0bv/index.m3u8
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (0d)
+https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 2 Hindi)--- (5d)
 http://116.90.120.149:8000/play/a0cs/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(STAR SPORTS SELECT 2 HD)--- (5d)
@@ -115,5 +141,55 @@ http://stvlive.net:8080/tsports1/index.m3u8
 http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(A Sports)-- (7d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
+#EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (0d)
+https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(LaLiga TV)-- (0d)
+https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (7d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
+https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Sky Sports Football)-- (0d)
+https://tiger-hub.vercel.app/SkySports-Football/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(SkySports Cricket)-- (0d)
+https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (0d)
+https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (0d)
+https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",CR | Star Sports 2 HD (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 1 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 3 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/Premium_3/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 3 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/3/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 4 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/4/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 5 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/5/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 6 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/6/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 7 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/7/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | Arena Sports 8 (0d)
+https://tiger-hub.vercel.app/Arena-Sports/8/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | SkySports premier League (0d)
+https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB | TYC Sports (0d)
+https://tiger-hub.vercel.app/TYC_Sports-Argentina/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Premire Sports 1 (0d)
+https://tiger-hub.vercel.app/Premier_Sports-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 1 (0d)
+https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports 2 (0d)
+https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports Mix (0d)
+https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
+https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ACE TV (0d)
+https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
+https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
