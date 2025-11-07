@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
-https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
-#EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
 https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8
+#EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
+https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
 #EXTINF:-1 group-title="Bangla",ATN BANGLA (9d)
 http://103.175.242.10:8080/atnbangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (9d)
@@ -13,8 +13,8 @@ http://103.175.242.10:8080/btv/index.m3u8
 http://stvlive.net:8080/channeli/index.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (9d)
 http://stvlive.net:8080/deepto/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",iON TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (1d)
@@ -25,8 +25,6 @@ http://stvlive.net:8080/metv/index.m3u8
 http://stvlive.net:8080/moviebangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Mon TV Music (0d)
 https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
-#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD (9d)
 https://ap02.iqplay.tv:8082/iqb8002/nt589v/chunks.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD (9d)
@@ -40,11 +38,13 @@ http://stvlive.net:8080/ekattor/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | Independent Television (9d)
 http://103.175.242.10:8080/independent/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (9d)
-http://103.175.242.10:8080/jamuna/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (9d)
 http://stvlive.net:8080/jamuna/index.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (9d)
+http://103.175.242.10:8080/jamuna/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (9d)
 http://stvlive.net:8080/somoy/index.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (1d)
 http://195.189.60.31:8003/play/a0gk/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Pardesi TV (0d)
@@ -63,10 +63,6 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (6d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | ABP News (0d)
-https://abpmitv.akamaized.net/hls/live/2042842/abpnews/master.m3u8
-#EXTINF:-1 group-title="International",Outdoor Channel (0d)
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 group-title="International News",CNN International (9d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
 #EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (6d)
@@ -89,6 +85,8 @@ https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Q MUSIC (2d)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8
+#EXTINF:-1 group-title="Music",TR | TRT Müzik (0d)
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Q TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (8d)
@@ -100,9 +98,9 @@ https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Eman Channel (9d)
 https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
 #EXTINF:-1 group-title="Religious",IQRA BANGLA (9d)
-https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IQRA BANGLA (9d)
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
+#EXTINF:-1 group-title="Religious",IQRA BANGLA (9d)
+https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Iqra TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8
 #EXTINF:-1 group-title="Religious",ISLAM TV (9d)
@@ -123,21 +121,13 @@ http://116.90.120.149:8000/play/a0bv/index.m3u8
 http://116.90.120.149:8000/play/a0cs/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(STAR SPORTS SELECT 2 HD)--- (6d)
 http://116.90.120.149:8000/play/a0cm/index.m3u8
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (6d)
+http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (9d)
 http://stvlive.net:8080/tsports1/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (6d)
-http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(A Sports)-- (8d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
-#EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (0d)
-https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (8d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
-#EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (0d)
-https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 5 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/5/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Arena Sports 6 (0d)
-https://tiger-hub.vercel.app/Arena-Sports/6/tracks-v1a1/mono.ts.m3u8
