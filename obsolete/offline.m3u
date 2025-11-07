@@ -1,175 +1,141 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",ATN BANGLA (8d)
+#EXTINF:-1 group-title="Bangla",ATN BANGLA (9d)
 http://103.175.242.10:8080/atnbangla/index.m3u8
-#EXTINF:-1 group-title="Bangla",BANGLA VISION (8d)
+#EXTINF:-1 group-title="Bangla",BANGLA VISION (9d)
 http://stvlive.net:8080/banglavision/index.m3u8
-#EXTINF:-1 group-title="Bangla",BTV HD (8d)
+#EXTINF:-1 group-title="Bangla",BTV HD (9d)
 http://103.175.242.10:8080/btv/index.m3u8
-#EXTINF:-1 group-title="Bangla",CHANNEL I (8d)
+#EXTINF:-1 group-title="Bangla",CHANNEL I (9d)
 http://stvlive.net:8080/channeli/index.m3u8
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (8d)
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (9d)
 http://stvlive.net:8080/deepto/index.m3u8
-#EXTINF:-1 group-title="Bangla",iON TV (8d)
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangla",iON TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Me TV (0d)
+#EXTINF:-1 group-title="Bangla",Me TV (1d)
 https://iptvbd.live/metv1080/1080.m3u8
-#EXTINF:-1 group-title="Bangla",Me TV (8d)
+#EXTINF:-1 group-title="Bangla",Me TV (9d)
 http://stvlive.net:8080/metv/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/bangla-movies/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8
-#EXTINF:-1 group-title="Bangla",Movie Bangla TV (8d)
+#EXTINF:-1 group-title="Bangla",Movie Bangla TV (9d)
 http://stvlive.net:8080/moviebangla/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | Bengali Beats (0d)
-https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | Bengali Beats (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
-#EXTINF:-1 group-title="Bangla",NTV HD (8d)
+#EXTINF:-1 group-title="Bangla",NTV HD (9d)
 https://ap02.iqplay.tv:8082/iqb8002/nt589v/chunks.m3u8
-#EXTINF:-1 group-title="Bangla",NTV HD (8d)
+#EXTINF:-1 group-title="Bangla",NTV HD (9d)
 http://stvlive.net:8080/ntv/index.m3u8
-#EXTINF:-1 group-title="Bangla",SONY AATH HD (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
-#EXTINF:-1 group-title="Bangla",SONY AATH HD (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | ATN News (8d)
+#EXTINF:-1 group-title="Bangla News",BD | ATN News (9d)
 http://stvlive.net:8080/atnnews/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | Channel 24 (8d)
+#EXTINF:-1 group-title="Bangla News",BD | Channel 24 (9d)
 http://stvlive.net:8080/channel24/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | Ekattor TV (8d)
+#EXTINF:-1 group-title="Bangla News",BD | Ekattor TV (9d)
 http://stvlive.net:8080/ekattor/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | Independent Television (8d)
+#EXTINF:-1 group-title="Bangla News",BD | Independent Television (9d)
 http://103.175.242.10:8080/independent/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (8d)
+#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (9d)
 http://103.175.242.10:8080/jamuna/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (8d)
+#EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (9d)
 http://stvlive.net:8080/jamuna/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (8d)
+#EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (9d)
 http://stvlive.net:8080/somoy/index.m3u8
-#EXTINF:-1 group-title="Educational",Animal Planet (0d)
+#EXTINF:-1 group-title="Educational",Animal Planet (1d)
 http://195.189.60.31:8003/play/a0gk/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Star Plus HD (5d)
+#EXTINF:-1 group-title="India",ENT | Pardesi TV (0d)
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="India",ENT | Star Plus HD (6d)
 http://116.90.120.149:8000/play/a0b9/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Star Utsav (5d)
+#EXTINF:-1 group-title="India",ENT | Star Utsav (6d)
 http://116.90.120.149:8000/play/a02t/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Zee Cafe (6d)
+#EXTINF:-1 group-title="India",ENT | Zee Cafe (7d)
 http://116.90.120.149:8000/play/a0e7/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Bollywood Movie (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Bollywood Movie 2 (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Bollywood Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/bollywood-movies/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Hindi Dubbed Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/dubbed-movies/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Movie One (0d)
-https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/movie-one-176/playlist.m3u8
-#EXTINF:-1 group-title="India",MOV | Star Gold 2 HD (6d)
+#EXTINF:-1 group-title="India",MOV | Star Gold 2 HD (7d)
 http://116.90.120.149:8000/play/a0ea/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Star Gold HD (4d)
+#EXTINF:-1 group-title="India",MOV | Star Gold HD (5d)
 https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
-#EXTINF:-1 group-title="India",MOV | Star Gold Thrills (5d)
+#EXTINF:-1 group-title="India",MOV | Star Gold Thrills (6d)
 http://116.90.120.149:8000/play/a0c0/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Star Utsav Movies (5d)
+#EXTINF:-1 group-title="India",MOV | Star Utsav Movies (6d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
-#EXTINF:-1 group-title="India",MU | DEEWANA HD (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="India",MU | T Play (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
-#EXTINF:-1 group-title="International News",CNN International (8d)
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="International",TVRI World (0d)
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="International News",CNN International (9d)
 https://d1vnr7amzbx49s.cloudfront.net/index_1.m3u8
-#EXTINF:-1 group-title="International News",Connecting America (0d)
-https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
-#EXTINF:-1 group-title="Kids",0. Bantul The Great (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
-#EXTINF:-1 group-title="Kids",0. Doraemon (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Kids",0. Doraemon (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
-#EXTINF:-1 group-title="Kids",0. Gopal Var (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
-#EXTINF:-1 group-title="Kids",0. Tom and Jerry 2 (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
-#EXTINF:-1 group-title="Kids",0. WowKidz (Motu Patlu) (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
-#EXTINF:-1 group-title="Kids",0. WowKidz (Motu Patlu) (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
-#EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (5d)
+#EXTINF:-1 group-title="Kids",1. Disney Channel Hindi (6d)
 http://116.90.120.149:8000/play/a0bx/index.m3u8
-#EXTINF:-1 group-title="Kids",1. Disney Junior India (5d)
+#EXTINF:-1 group-title="Kids",1. Disney Junior India (6d)
 http://116.90.120.149:8000/play/a0b3/index.m3u8
-#EXTINF:-1 group-title="Kids",2. Ninja Hattori (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Kids",2. Sonic (5d)
+#EXTINF:-1 group-title="Kids",2. Sonic (6d)
 http://116.90.120.149:8000/play/a0cc/index.m3u8
-#EXTINF:-1 group-title="Kids",2. SONY YAY! (1d)
+#EXTINF:-1 group-title="Kids",2. SONY YAY! (2d)
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
-#EXTINF:-1 group-title="Kids",Cartoon Anima (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
-#EXTINF:-1 group-title="Kids",Disney International HD (6d)
+#EXTINF:-1 group-title="Kids",Cartoonito (0d)
+http://181.78.4.250:8098/play/a067/index.m3u8
+#EXTINF:-1 group-title="Kids",Disney International HD (7d)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
-#EXTINF:-1 group-title="Kids",Disney Junior Europe (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
-#EXTINF:-1 group-title="Music",EN | O Music (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
-#EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (8d)
+#EXTINF:-1 group-title="Kids",Kid Screation (0d)
+http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
+#EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",EN | Play TV (0d)
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
+#EXTINF:-1 group-title="Music",EN | XITE 80s Flashback (9d)
 https://dw0oa71jud5ry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb320000647-prod/amg80rewind/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | XITE 90s Throwback (8d)
+#EXTINF:-1 group-title="Music",EN | XITE 90s Throwback (9d)
 https://d3fr64zqebnqn3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/usbb3200007ak-prod/amg90rock/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | XITE Just Chill (8d)
+#EXTINF:-1 group-title="Music",EN | XITE Just Chill (9d)
 https://d3ai750ol9my06.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/JustChill-prod/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | XITE Rock On (8d)
+#EXTINF:-1 group-title="Music",EN | XITE Rock On (9d)
 https://dri82941jql2y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/RockMetal-prod/playlist.m3u8
-#EXTINF:-1 group-title="Music",OTHER | Q MUSIC (1d)
+#EXTINF:-1 group-title="Music",OTHER | Q MUSIC (2d)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Q TV (8d)
+#EXTINF:-1 group-title="Pakistan",ENT | Q TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/@ryq7vtv/chunks.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Such TV SD (8d)
 https://video.primexsports.com/suchnews/live/playlist.m3u8
-#EXTINF:-1 group-title="Religious",BanglaWaz (0d)
-https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
-#EXTINF:-1 group-title="Religious",BILLAL TV (8d)
+#EXTINF:-1 group-title="Religious",BILLAL TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/bil77tv/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Deen TV Bangla (8d)
+#EXTINF:-1 group-title="Religious",Deen TV Bangla (9d)
 https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Eman Channel (8d)
+#EXTINF:-1 group-title="Religious",Eman Channel (9d)
 https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IQRA BANGLA (8d)
+#EXTINF:-1 group-title="Religious",IQRA BANGLA (9d)
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IQRA BANGLA (8d)
+#EXTINF:-1 group-title="Religious",IQRA BANGLA (9d)
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
-#EXTINF:-1 group-title="Religious",Iqra TV (8d)
+#EXTINF:-1 group-title="Religious",Iqra TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8
-#EXTINF:-1 group-title="Religious",ISLAM TV (8d)
+#EXTINF:-1 group-title="Religious",ISLAM TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/i6sl9m/playlist.m3u8
-#EXTINF:-1 group-title="Religious",MADANI Channel Bangla (8d)
+#EXTINF:-1 group-title="Religious",MADANI Channel Bangla (9d)
 https://ap02.iqplay.tv:8082/iqb8002/m@d@n1ch@nn3lb@ngl@/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Salaam TV (8d)
+#EXTINF:-1 group-title="Religious",Salaam TV (9d)
 https://ap02.iqplay.tv:8082/iqb8002/sa1aamch568/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Takbeer TV(UK) (8d)
+#EXTINF:-1 group-title="Religious",Takbeer TV(UK) (9d)
 https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8
-#EXTINF:-1 group-title="Religious",TV ONE Bangla (8d)
+#EXTINF:-1 group-title="Religious",TV ONE Bangla (9d)
 https://ap02.iqplay.tv:8082/iqb8002/tv01/playlist.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (5d)
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (6d)
 http://116.90.120.149:8000/play/a0ba/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (5d)
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (6d)
 http://116.90.120.149:8000/play/a0bv/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 2 Hindi)--- (5d)
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 2 Hindi)--- (6d)
 http://116.90.120.149:8000/play/a0cs/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(STAR SPORTS SELECT 2 HD)--- (5d)
+#EXTINF:-1 group-title="Sports",---Live(STAR SPORTS SELECT 2 HD)--- (6d)
 http://116.90.120.149:8000/play/a0cm/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (0d)
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (8d)
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (9d)
 http://stvlive.net:8080/tsports1/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (5d)
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (6d)
 http://116.204.149.16/t_sports/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(A Sports)-- (7d)
+#EXTINF:-1 group-title="Sports",--Live(A Sports)-- (8d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12026.ts
-#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (7d)
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (8d)
 http://nayatv.ydns.eu:80/freecric/cricfree/12027.ts
-#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
+#EXTINF:-1 group-title="Sports",FB | M-Sports HD (1d)
 http://ares.mnet.mk/hls/mnet-sport.m3u8
