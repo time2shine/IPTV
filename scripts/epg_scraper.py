@@ -155,7 +155,6 @@ def _fetch_upcoming_tvwish(browser, url, now):
 # -----------------------
 # Scape from ontvtonight
 # -----------------------
-
 def scrape_ontvtonight(channel_id, display_name, logo_url, url):
     logging.info(f"Fetching schedule from OnTVTonight for {display_name} ...")
     programmes = []
@@ -335,7 +334,7 @@ def scrape_tvpassport(channel_id, display_name, logo_url, url):
                 start_dt = datetime.strptime(start_time.strip(), "%Y-%m-%d %H:%M:%S")
 
                 # Adjust to local time if needed (+10 for Bangladesh)
-                start_dt = start_dt + timedelta(hours=10) 
+                start_dt = start_dt + timedelta(hours=10)
 
                 # Compute stop time
                 duration_minutes = int(duration) if duration and duration.isdigit() else 30
@@ -353,7 +352,7 @@ def scrape_tvpassport(channel_id, display_name, logo_url, url):
         logging.info(f"Fetched {len(programmes)} programmes for {display_name} from TVPassport")
 
     except Exception as e:
-        logging.error(f"Failed to fetch schedule for {display_name} from TVPassport: {e}")
+        logging.error(f"Failed to fetch schedule for {display_name}: {e}")
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
@@ -423,6 +422,44 @@ def scrape_tvguide(channel_id, display_name, logo_url, url):
 
     return {"id": channel_id, "name": display_name, "logo": logo_url, "programmes": programmes}
 
+
+# -----------------------
+# Fixed "YouTube" channel generator (4-hour repeating block)
+# -----------------------
+def make_fixed_youtube_channel(
+    channel_id="YouTube",
+    display_name="YouTube",
+    logo_url="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    title="YouTube channel. Make sure you update playlist every 4 hours",
+    days=2  # today + tomorrow
+):
+    """
+    Create a channel that runs the same 4-hour program block repeatedly,
+    covering 'days' days starting today in Asia/Dhaka time.
+    """
+    tz = pytz.timezone("Asia/Dhaka")
+    today = datetime.now(tz).date()
+    programmes = []
+
+    for d in range(days):
+        day = today + timedelta(days=d)
+        # Start at local midnight, then 6 blocks of 4 hours each
+        start_of_day = datetime.combine(day, datetime.min.time())
+        for block in range(6):
+            start = start_of_day + timedelta(hours=block * 4)
+            stop = start + timedelta(hours=4)
+            programmes.append({
+                "title": html.escape(title),
+                "start": start,
+                "stop": stop
+            })
+
+    return {
+        "id": channel_id,
+        "name": display_name,
+        "logo": logo_url,
+        "programmes": programmes
+    }
 
 # -----------------------
 # Channels dictionary
@@ -686,7 +723,7 @@ CHANNELS = {
         "https://www.tvwish.com/IN/Channels/Ishara/1394/Schedule",
         scrape_tvwish
     ),
-    "EpicTV.in": (
+    "EpicTV.in_TVWISH": (  # renamed to avoid duplicate key
         "ENT | Epic TV",
         "https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg",
         "https://www.tvwish.com/IN/Channels/EPIC/614/Schedule",
@@ -933,5 +970,15 @@ if __name__ == "__main__":
                 ch_data = scraper_func(ch_id, name, logo, url)
             all_channels.append(ch_data)
         browser.close()
+
+    # Add the fixed YouTube channel (4-hour repeating block, today + tomorrow)
+    all_channels.append(
+        make_fixed_youtube_channel(
+            channel_id="YouTube",
+            display_name="YouTube",
+            title="YouTube channel. Make sure you update playlist every 4 hours",
+            days=2
+        )
+    )
 
     build_epg(all_channels, "epg.xml")
