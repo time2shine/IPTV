@@ -110,7 +110,7 @@ def get_stream_url(url):
 # --- Format M3U line ---
 def format_live_link(channel_name, channel_logo, m3u8_link, group_title):
     return (
-        f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{channel_logo}", {channel_name}\n'
+        f'#EXTINF:-1 group-title="{group_title}" tvg-id="YouTube" tvg-logo="{channel_logo}", {channel_name}\n'
         f'{m3u8_link}'
     )
 
