@@ -1,12 +1,18 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
+#EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
+https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8
+#EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
+https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
+#EXTINF:-1 group-title="Bangla",DESH TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",MU | Mon TV Music (0d)
+https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/mono.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (3d)
 http://195.189.60.31:8003/play/a0gk/index.m3u8
-#EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (1d)
-https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Ishara TV (1d)
 https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Nazara (1d)
@@ -25,8 +31,6 @@ https://portal-to-m3u-07.iptv07india.workers.dev/play.m3u8?id=3172
 http://116.90.120.149:8000/play/a0c0/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Utsav Movies (8d)
 http://116.90.120.149:8000/play/a02r/index.m3u8
-#EXTINF:-1 group-title="India",MU | Show Box (0d)
-https://epiconvh.akamaized.net/live/showbox/master.m3u8
 #EXTINF:-1 group-title="India",MU | Steelbird Music (1d)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 group-title="International",EN | CTV Winnipeg (CKY) (0d)
@@ -47,12 +51,8 @@ http://116.90.120.149:8000/play/a0cc/index.m3u8
 http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
 #EXTINF:-1 group-title="Kids",Disney International HD (9d)
 http://116.90.120.149:8000/play/a0e9/index.m3u8
-#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Q MUSIC (4d)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL_720p.m3u8
-#EXTINF:-1 group-title="Music",OTHER | TMA (0d)
-http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (1d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (8d)
@@ -67,5 +67,3 @@ http://116.90.120.149:8000/play/a0cm/index.m3u8
 http://116.204.149.16/t_sports/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (3d)
 http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
-http://live.matribhumitv.com/matribhumi-sports/index.m3u8
