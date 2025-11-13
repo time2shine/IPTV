@@ -1,28 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Amar Bangla (4d)
-https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8
-#EXTINF:-1 group-title="Bangla",Amar Bangla (4d)
-https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8
-#EXTINF:-1 group-title="Bangla",Bisso Bangla 24 TV (0d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/biswabanglatv.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | Mon TV Music (4d)
-https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8
-#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
+#EXTINF:-1 group-title="Bangla",MY TV HD (0d)
+https://mytvbangla.com/0.m3u8
+#EXTINF:-1 group-title="Bangla",NRB HD TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nrb-eu.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (7d)
 http://195.189.60.31:8003/play/a0gk/index.m3u8
-#EXTINF:-1 group-title="Educational",Popular Science (0d)
-https://amg13231-actve-amg13231c5-sportstribal-emea-1269.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-sportstribalemea/playlist.m3u8
-#EXTINF:-1 group-title="India",BHOJ | Bhojpuri Cinema (0d)
-https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (0d)
-https://epiconvh.akamaized.net/live/filamchi/master.m3u8
-#EXTINF:-1 group-title="India",ENT | E24 (1d)
-https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
-#EXTINF:-1 group-title="India",ENT | Epic TV (0d)
-https://epiconvh.akamaized.net/live/epic/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Ishara TV (0d)
 https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Nazara (0d)
@@ -31,6 +15,10 @@ https://epiconvh.akamaized.net/live/nazara/master.m3u8
 https://epiconvh.akamaized.net/live/showbox/master.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (1d)
 https://fash1043.bstrm.net/slive/_definst_/ftv_ftv_sftv2_gp6_43313_default_1462_hls.smil/chunklist_b4628000_t64MTA4MHA=.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
+#EXTINF:-1 group-title="International",Hot Ones (0d)
+https://d1si3n1st4nkgb.cloudfront.net/10502/88896039/hls/master.m3u8?ads.xumo_channelId=88896039&ads.xumo_streamId=88896039&ads.caid=filmrisehotones&ads.csid=samsungtvplus_uk_filmrisehotones_ssai&ads.sfid=&ads.afid=filmrisehotones&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1---&ads._fw_coppa=0&ads._fw_did=%7BPSID%7D&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=samsung&ads._fw_gdpr=1&ads._fw_gdpr_consent=%7BTC_STRING%7D&ads._fw_h_x_country=UK&ads.appVersion=&ads.appName=%7BAPP_NAME%7D&ads.xumo_contentId=260&ads.xumo_contentName=filmrise&ads.xumo_providerId=260&ads.xumo_providerName=filmrise&ads.xumo_adsystem=mediatailor&ads.xumo_channelName=hotones_gb&ads.tpcl=MIDROLL&ads._fw_app_store_url=%7BAPP_DOMAIN%7D
 #EXTINF:-1 group-title="International News",BBC News (2d)
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 #EXTINF:-1 group-title="International News",EAC News TV (1d)
@@ -43,8 +31,6 @@ https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5livestitch/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fb6c84dd37df3b4290c5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=985&terminate=false&userId=&profilesFromStream=true
 #EXTINF:-1 group-title="Kids",2. POGO (0d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",NICK Hindi (0d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
 #EXTINF:-1 group-title="Movies",EN | & FLIX (2d)
@@ -65,8 +51,12 @@ https://muzzik-live.morescreens.com/mts-3/576p/chunklist.m3u8
 https://muzzik-live.morescreens.com/mts-1/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Tik Tak (1d)
 https://muzzik-live.morescreens.com/mts-a5/576p/chunklist.m3u8
+#EXTINF:-1 group-title="Music",EN | Vevo '90s & '00s (0d)
+https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90sand00sit-rakutenit/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | ZZ TV (1d)
 https://muzzik-live.morescreens.com/mts-a4/576p/chunklist.m3u8
+#EXTINF:-1 group-title="Music",OTHER | Afrobeats (0d)
+https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 group-title="Music",OTHER | Jeka (1d)
 https://muzzik-live.morescreens.com/mts-4/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",OTHER | MUZZIK MIX (1d)
@@ -81,18 +71,20 @@ https://muzzik-live.morescreens.com/mts-7/playlist.m3u8
 https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Aik News (1d)
 https://video.primexsports.com/pnn/live/playlist.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (2d)
-http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (3d)
 https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (3d)
 https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (7d)
 http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Euro Sport 2 HD)-- (0d)
+http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (3d)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV)-- (3d)
 https://tiger-hub.vercel.app/LaLiga_TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
+http://66.102.120.18:8000/play/a04w/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (3d)
 https://tiger-hub.vercel.app/PTV-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sky Sports Football)-- (3d)
@@ -103,8 +95,6 @@ https://tiger-hub.vercel.app/Sky-Cricket/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/Starsports_Select-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (3d)
 https://tiger-hub.vercel.app/WillowHD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",CR | Star Sports 2 HD (0d)
-http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8
 #EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 1 (3d)
 https://tiger-hub.vercel.app/Arena-Sports/Premium-1/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Sports",FB | Arena Sport Premium 3 (3d)
@@ -137,3 +127,5 @@ https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (3d)
 https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",RACING | FloRacing (0d)
+https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8
