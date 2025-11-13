@@ -1,20 +1,22 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (0d)
 https://jolshabd.com/live/mbanglatv/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",MY TV HD (0d)
+https://mytvbangla.com/0.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (7d)
 http://195.189.60.31:8003/play/a0gk/index.m3u8
 #EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (0d)
 https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 group-title="India",ENT | E24 (0d)
 https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
-#EXTINF:-1 group-title="India",ENT | Epic TV (0d)
-https://epiconvh.akamaized.net/live/epic/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Ishara TV (0d)
 https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Nazara (0d)
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (1d)
 https://fash1043.bstrm.net/slive/_definst_/ftv_ftv_sftv2_gp6_43313_default_1462_hls.smil/chunklist_b4628000_t64MTA4MHA=.m3u8
+#EXTINF:-1 group-title="International",EN | Global Toronto (0d)
+http://38.143.48.212:9981/stream/channelid/41831820?profile=pass
 #EXTINF:-1 group-title="International News",BBC News (2d)
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 #EXTINF:-1 group-title="International News",EAC News TV (1d)
@@ -25,18 +27,22 @@ https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 #EXTINF:-1 group-title="Kids",1. Pappa Pig Pluto (0d)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5livestitch/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fb6c84dd37df3b4290c5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=985&terminate=false&userId=&profilesFromStream=true
+#EXTINF:-1 group-title="Kids",Cartoon Anima (0d)
+https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | & FLIX (2d)
 https://edge3-moblive.yuppcdn.net:443/drm/smil:nflixdrm.smil/chunklist_b996000.m3u8
 #EXTINF:-1 group-title="Music",EN | ELECTRO (1d)
 https://muzzik-live.morescreens.com/mts-9/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Flashback (1d)
-https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | Flashback (1d)
 https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8
+#EXTINF:-1 group-title="Music",EN | Flashback (1d)
+https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | Moba (1d)
 https://muzzik-live.morescreens.com/mts-2/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | MUZZIK (1d)
 https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
+#EXTINF:-1 group-title="Music",EN | O Music (0d)
+https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
 #EXTINF:-1 group-title="Music",EN | Pop Star (1d)
 https://muzzik-live.morescreens.com/mts-3/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Rock&Roll (1d)
@@ -111,5 +117,3 @@ https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (3d)
 https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",RACING | FloRacing (0d)
-https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8
