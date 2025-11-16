@@ -1,26 +1,22 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Channel A1 (0d)
 https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (1d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (3d)
 https://jolshabd.com/live/mbanglatv/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (2d)
 https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
 http://live.matribhumitv.com/music-bangla/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Sananda TV (2d)
-https://live.sanonda.tv/sanonda/index.m3u8
-#EXTINF:-1 group-title="Bangla",Sananda TV (2d)
 https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Sananda TV (2d)
+https://live.sanonda.tv/sanonda/index.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (2d)
 https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8
-#EXTINF:-1 group-title="Bangla",Time Televis HD (0d)
-http://208.86.19.13:81/506.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (2d)
 https://smart.bengaldigital.live/Zee-Bangla/index.m3u8
 #EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (1d)
@@ -35,8 +31,10 @@ https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (2d)
 https://smart.bengaldigital.live/ZeeCinema/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="India",MU | Show Box (0d)
+https://epiconvh.akamaized.net/live/showbox/master.m3u8
+#EXTINF:-1 group-title="International",EN | CINEMAX MOREMAX (0d)
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 group-title="International",EN | CTV Winnipeg (CKY) (1d)
 http://38.143.48.212:9981/stream/channelid/741174107?profile=pass
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (4d)
@@ -53,10 +51,10 @@ http://38.143.48.212:9981/stream/channelid/1520310405?profile=pass
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 #EXTINF:-1 group-title="Kids",1. Pappa Pig Pluto (2d)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5livestitch/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fb6c84dd37df3b4290c5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=985&terminate=false&userId=&profilesFromStream=true
+#EXTINF:-1 group-title="Kids",2. Ninja Hattori (0d)
+https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Kids",Cartoonito (0d)
 http://181.78.4.250:8098/play/a067/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | AVA SERIES (1d)
 https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica Music (2d)
@@ -64,13 +62,11 @@ http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | ELECTRO (4d)
 https://muzzik-live.morescreens.com/mts-9/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Flashback (4d)
-https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8
-#EXTINF:-1 group-title="Music",EN | Flashback (4d)
 https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
+#EXTINF:-1 group-title="Music",EN | Flashback (4d)
+https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Moba (4d)
 https://muzzik-live.morescreens.com/mts-2/576p/chunklist.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (1d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Music",EN | MUZZIK (4d)
 https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (0d)
@@ -95,10 +91,10 @@ https://muzzik-live.morescreens.com/mts-7/playlist.m3u8
 https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Aik News (4d)
 https://video.primexsports.com/pnn/live/playlist.m3u8
-#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (6d)
-https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (0d)
 http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (6d)
+https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (6d)
 https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (6d)
@@ -155,5 +151,3 @@ https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
 https://smart.bengaldigital.live/WWE/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (6d)
 https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",RACING | FloRacing (0d)
-https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8
