@@ -1,8 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",IB Tv Usa (0d)
+http://208.86.19.13:81/509.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (3d)
 https://jolshabd.com/live/mbanglatv/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",Me TV (0d)
+https://iptvbd.live/metv1080/1080.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (2d)
 https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
@@ -12,9 +16,9 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Sananda TV (2d)
-https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",Sananda TV (2d)
 https://live.sanonda.tv/sanonda/index.m3u8
+#EXTINF:-1 group-title="Bangla",Sananda TV (2d)
+https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (2d)
 https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (2d)
@@ -29,8 +33,6 @@ https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 https://epiconvh.akamaized.net/live/ishaara/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Nazara (1d)
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (0d)
-https://cdn-2.pishow.tv/live/228/228_1.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (2d)
 https://smart.bengaldigital.live/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (0d)
@@ -47,6 +49,8 @@ https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 https://tiger-hub.vercel.app/24×7_Tom&Jerry/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. Cartoon Network (1d)
 http://38.143.48.212:9981/stream/channelid/1520310405?profile=pass
+#EXTINF:-1 group-title="Kids",1. Gubbare (0d)
+https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 #EXTINF:-1 group-title="Kids",1. Pappa Pig Pluto (2d)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5livestitch/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fb6c84dd37df3b4290c5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=985&terminate=false&userId=&profilesFromStream=true
 #EXTINF:-1 group-title="Movies",EN | AVA SERIES (1d)
@@ -61,8 +65,6 @@ https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
 https://muzzik-live.morescreens.com/mts-8/576p/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Moba (4d)
 https://muzzik-live.morescreens.com/mts-2/576p/chunklist.m3u8
-#EXTINF:-1 group-title="Music",EN | MTV Hits Europe (0d)
-http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Music",EN | MUZZIK (4d)
 https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | Pop Star (4d)
@@ -87,14 +89,10 @@ https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Aik News (4d)
 https://video.primexsports.com/pnn/live/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IBN TV Africa (0d)
-http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (6d)
 https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (6d)
 https://tiger-hub.vercel.app/Star_Sports-1_Hindy/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Euro Sport 2 HD)-- (0d)
-http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV DAZN)-- (6d)
 https://tiger-hub.vercel.app/DAZN-LaLiga/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(LaLiga TV)-- (6d)
@@ -145,8 +143,6 @@ https://tiger-hub.vercel.app/SkySports-1_NZ/tracks-v1a1/mono.m3u8
 https://tiger-hub.vercel.app/SkySports-2_NZ/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",FB+MIX | Sky Sports Mix (6d)
 https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | WWE (2d)
 https://smart.bengaldigital.live/WWE/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (6d)
