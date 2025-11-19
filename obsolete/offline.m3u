@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (6d)
 https://jolshabd.com/live/mbanglatv/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (5d)
@@ -29,10 +33,6 @@ https://cdn-2.pishow.tv/live/228/228_1.m3u8
 https://smart.bengaldigital.live/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | MNTV Music (1d)
 https://mntv.livebox.co.in/musichls/live.m3u8
-#EXTINF:-1 group-title="India",MU | Show Box (0d)
-https://epiconvh.akamaized.net/live/showbox/master.m3u8
-#EXTINF:-1 group-title="India",MU | Zoom (0d)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
 #EXTINF:-1 group-title="International",EN | CTV Winnipeg (CKY) (1d)
 http://38.143.48.212:9981/stream/channelid/741174107?profile=pass
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (7d)
@@ -40,13 +40,13 @@ https://fash1043.bstrm.net/slive/_definst_/ftv_ftv_sftv2_gp6_43313_default_1462_
 #EXTINF:-1 group-title="International",EN | Global Toronto (1d)
 http://38.143.48.212:9981/stream/channelid/41831820?profile=pass
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
-https://live-hls-web-aje.getaj.net/AJE/04.m3u8
-#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
-https://live-hls-web-aje.getaj.net/AJE/02.m3u8
-#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://live-hls-web-aje.getaj.net/AJE/03.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
+https://live-hls-web-aje.getaj.net/AJE/04.m3u8
+#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
+https://live-hls-web-aje.getaj.net/AJE/02.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (8d)
@@ -61,8 +61,10 @@ http://38.143.48.212:9981/stream/channelid/1520310405?profile=pass
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
 #EXTINF:-1 group-title="Kids",1. Pappa Pig Pluto (5d)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d14fb6c84dd37df3b4290c5livestitch/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fb6c84dd37df3b4290c5&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=985&terminate=false&userId=&profilesFromStream=true
-#EXTINF:-1 group-title="Kids",TV Sul de Minas (0d)
-https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8
+#EXTINF:-1 group-title="Kids",2. SONY YAY! (0d)
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:12:f4&stream=908587&extension=ts&play_token=413IAp959Y
+#EXTINF:-1 group-title="Kids",Cartoonito (0d)
+http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | AVA SERIES (4d)
 https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica Music (2d)
@@ -105,8 +107,8 @@ http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
 https://video.primexsports.com/pnn/live/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (0d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Mercy TV (0d)
-https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
+#EXTINF:-1 group-title="Religious",IBN TV Africa (0d)
+http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (9d)
 https://tiger-hub.vercel.app/Star_Sports-1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 Hindi)--- (9d)
@@ -147,6 +149,8 @@ https://tiger-hub.vercel.app/Arena-Sports/6/tracks-v1a1/mono.ts.m3u8
 https://tiger-hub.vercel.app/Arena-Sports/7/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Sports",FB | Arena Sports 8 (9d)
 https://tiger-hub.vercel.app/Arena-Sports/8/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",FB | M-Sports HD (0d)
+http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 group-title="Sports",FB | SkySports premier League (9d)
 https://tiger-hub.vercel.app/SkySports-premire_League/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",FB | TYC Sports (9d)
@@ -163,5 +167,5 @@ https://tiger-hub.vercel.app/SkySports-mix/tracks-v1a1/mono.m3u8
 https://smart.bengaldigital.live/WWE/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (9d)
 https://tiger-hub.vercel.app/ESPN/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",OTHER | BEK TV Sports West (0d)
-https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | Sports Connect (0d)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sports-connect/playlist.m3u8
