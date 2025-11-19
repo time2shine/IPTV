@@ -1,14 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",Magic Bangla TV (6d)
 https://jolshabd.com/live/mbanglatv/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (5d)
 https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (5d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (5d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (5d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | MUSIC BANGLA (5d)
 http://live.matribhumitv.com/music-bangla/index.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (5d)
@@ -31,22 +29,22 @@ https://cdn-2.pishow.tv/live/228/228_1.m3u8
 https://smart.bengaldigital.live/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | MNTV Music (1d)
 https://mntv.livebox.co.in/musichls/live.m3u8
-#EXTINF:-1 group-title="India",NEWS | 1st India News (0d)
-https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
+#EXTINF:-1 group-title="India",MU | Show Box (0d)
+https://epiconvh.akamaized.net/live/showbox/master.m3u8
+#EXTINF:-1 group-title="India",MU | Zoom (0d)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
 #EXTINF:-1 group-title="International",EN | CTV Winnipeg (CKY) (1d)
 http://38.143.48.212:9981/stream/channelid/741174107?profile=pass
 #EXTINF:-1 group-title="International",EN | FashionTV Asia HD (7d)
 https://fash1043.bstrm.net/slive/_definst_/ftv_ftv_sftv2_gp6_43313_default_1462_hls.smil/chunklist_b4628000_t64MTA4MHA=.m3u8
 #EXTINF:-1 group-title="International",EN | Global Toronto (1d)
 http://38.143.48.212:9981/stream/channelid/41831820?profile=pass
-#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
-https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://live-hls-web-aje.getaj.net/AJE/04.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
-https://live-hls-web-aje.getaj.net/AJE/03.m3u8
-#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://live-hls-web-aje.getaj.net/AJE/02.m3u8
+#EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
+https://live-hls-web-aje.getaj.net/AJE/03.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (1d)
@@ -107,8 +105,6 @@ http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
 https://video.primexsports.com/pnn/live/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (0d)
 https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IBN TV Africa (0d)
-http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
 #EXTINF:-1 group-title="Religious",Mercy TV (0d)
 https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (9d)
