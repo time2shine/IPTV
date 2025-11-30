@@ -22,11 +22,13 @@ https://sablive-ddpb.akamaized.net/maiboli/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (3d)
 https://sabliveyupp.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/e5ae73ce-a805-481a-802f-e14eefdba343/1.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (3d)
-https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
+https://sabliveyupp.akamaized.net/mastii/mastii_poc_800k.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (3d)
 https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (3d)
-https://sabliveyupp.akamaized.net/mastii/mastii_poc_800k.m3u8
+https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | Times Now Navbharat (0d)
+https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",EN | 4 New York (4d)
 http://208.86.19.13:81/102.stream/index.m3u8
 #EXTINF:-1 group-title="International",EN | ATTICA (2d)
@@ -37,35 +39,35 @@ http://208.86.19.13:81/103.stream/index.m3u8
 http://208.86.19.13:81/106.stream/index.m3u8
 #EXTINF:-1 group-title="International",EN | My 9 (4d)
 http://208.86.19.13:81/105.stream/index.m3u8
-#EXTINF:-1 group-title="Kids",Anime All Day (0d)
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
 #EXTINF:-1 group-title="Kids",Boing Plus (9d)
 http://77.39.161.42:55555/Boing%20Plus
-#EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Movies",EN | a-z Classic Flix (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Kids",Cartoonito (0d)
+http://181.78.4.250:8098/play/a067/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | a-z Western Grit (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | AVA FAMILY (3d)
 https://familyhls.avatv.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Movies",EN | Catchy Comedy (3d)
 https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-decades/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Comedy Classics (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/ETV3I79BLYUCBY8O1B27/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Colorized.TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | Movies! (3d)
 https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",OTHER | Box Cinama (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QK2TKFREGRYXDI8IJGHW/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",EN | M20 Music (0d)
+https://streamcdne2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1064000.m3u8
 #EXTINF:-1 group-title="Music",EN | MTV Hits Europe (3d)
 http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Music",EN | Play TV (1d)
 http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
-#EXTINF:-1 group-title="Music",EN | Vevo '90s & '00s (0d)
-https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90sand00sit-rakutenit/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
-https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Sunnah TV (8d)
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
+#EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (0d)
+http://116.90.120.149:8000/play/a021/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sky Sport 2)-- (4d)
 http://135.125.238.26:8080/catena-36-1149991-streamer-nz_sky_sport_2/video.m3u8?token=f54abc11fcaeb75c0368edb767264658
+#EXTINF:-1 group-title="Sports",CR | Star Sports 2 HD (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8
 #EXTINF:-1 group-title="Sports",GOLF | Golf News Network (5d)
 https://amg18570-amg18570c1-freelivesports-emea-5535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg18570-golfnewsnetwork-golfnewsnet-freelivesportsemea/playlist.m3u8
