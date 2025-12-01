@@ -520,6 +520,13 @@
         "speed": 0.055,
         "passed_via": "mpv",
         "note": "mpv_offline"
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -998,14 +1005,11 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
+        "status": "online",
         "last_online": null,
         "first_online": null,
-        "last_offline": "2025-10-22",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "last_offline": null
       }
     ]
   },
