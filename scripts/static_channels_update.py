@@ -113,6 +113,7 @@ WHITELIST_DOMAINS = [
     "http://al.hls.huya.com/src",
     "https://feeds.intoday.in",
     "http://mtv.sunplex.live",
+    "http://103.230.105.252",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
     "http://filex.tv:8080",
