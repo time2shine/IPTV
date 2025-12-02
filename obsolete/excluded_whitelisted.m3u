@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ATN BANGLA
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 group-title="Bangla",ATN BANGLA
+http://103.230.105.252:1935/live/atnb/manifest.m3u8
+#EXTINF:-1 group-title="Bangla",ATN BANGLA SD
+http://103.230.105.252:1935/live/atnb/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION
 https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 group-title="Bangla",BTV HD
