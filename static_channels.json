@@ -112,16 +112,20 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
-      },
+      }
+    ]
+  },
+  "ATN Bangla UK": {
+    "group": "Bangla",
+    "tvg_id": "ATN Bangla UK",
+    "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png",
+    "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "2025-10-22",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
