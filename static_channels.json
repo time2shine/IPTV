@@ -112,6 +112,41 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
+      },
+      {
+        "url": "http://103.230.105.252:1935/live/atnb/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ATN BANGLA SD": {
+    "group": "Bangla",
+    "tvg_id": "atnbangla.bd",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2e/ATN_Bangla.svg",
+    "links": [
+      {
+        "url": "http://103.230.105.252:1935/live/atnb/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Islam bangla": {
+    "group": "Religious",
+    "tvg_id": "Islam bangla",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -122,6 +157,13 @@
     "links": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8",
         "status": "online",
         "last_online": null,
         "first_online": null,
@@ -1409,38 +1451,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-14",
-        "first_online": "2025-09-15",
-        "last_offline": "2025-11-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "ffmpeg",
-        "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-14",
-        "first_online": "2025-09-27",
-        "last_offline": "2025-11-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-14",
-        "first_online": "2025-09-15",
-        "last_offline": "2025-11-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1472,6 +1487,13 @@
         "passed_via": "mpv",
         "note": "min speed 0.85x",
         "quality": "slow"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/sbin.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1522,6 +1544,13 @@
         "passed_via": "ffmpeg",
         "note": "overrun 59.3s",
         "quality": "slow"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2219,16 +2248,11 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "2025-09-11",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.18x",
-        "quality": "slow"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekattor.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2287,6 +2311,13 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/independent-8-org.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2337,26 +2368,11 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "played 18.9s < 20s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "2025-10-22",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17839,38 +17855,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-06",
-        "first_online": "2025-10-22",
-        "last_offline": "2025-11-06",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-01",
-        "first_online": "2025-10-13",
-        "last_offline": "2025-11-01",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 58.8s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.10x",
-        "quality": "slow"
+        "url": "https://raw.githubusercontent.com/Miraz6755/My-tv/refs/heads/main/T-SportsHD1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
