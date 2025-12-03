@@ -1,14 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ASIAN TV (7d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",DesheBideshe (1d)
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",IB Tv Usa (0d)
-http://208.86.19.13:81/509.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",Jankhar TV (1d)
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (2d)
@@ -21,30 +15,34 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://live.sanonda.tv/sanonda/index.m3u8
 #EXTINF:-1 group-title="Bangla",Sananda TV (1d)
 https://live.sanonda.tv/sanonda/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | High News (0d)
+http://highmedia.livebox.co.in:80/HIGHNEWShls/LIVE.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | High News (0d)
+https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
 #EXTINF:-1 group-title="Educational",True Crime Network (6d)
 https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-truecrimenetwork/index.m3u8
 #EXTINF:-1 group-title="India",ENT | The Q TV (2d)
 https://vg-theqlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-306905/main.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Manoranjan Movies (0d)
 https://cdn-2.pishow.tv/live/228/228_1.m3u8
 #EXTINF:-1 group-title="India",MOV | RDC Movies (2d)
 https://janya-rdcmovies.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/230a723f-867d-4fa3-b2d2-a622ba994cd2/main.m3u8
-#EXTINF:-1 group-title="India",MU | Dabangg (4d)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dabangg/master.m3u8
 #EXTINF:-1 group-title="India",MU | Dabangg (6d)
 https://sablive-ddpb.akamaized.net/dabangg/playlist.m3u8
+#EXTINF:-1 group-title="India",MU | Dabangg (4d)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dabangg/master.m3u8
+#EXTINF:-1 group-title="India",MU | Joo Music (0d)
+https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Maiboli (6d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/maiboli/master.m3u8
 #EXTINF:-1 group-title="India",MU | Maiboli (6d)
 https://sablive-ddpb.akamaized.net/maiboli/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (6d)
+https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8
+#EXTINF:-1 group-title="India",MU | Mastiii (6d)
 https://sabliveyupp.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/e5ae73ce-a805-481a-802f-e14eefdba343/1.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (6d)
 https://sabliveyupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/sablive_https/mastii/playlist.m3u8
-#EXTINF:-1 group-title="India",MU | Mastiii (6d)
-https://sablive-ddpb.akamaized.net/mastii/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (6d)
 https://sabliveyupp.akamaized.net/mastii/mastii_poc_800k.m3u8
 #EXTINF:-1 group-title="International",Are We There Yet? (0d)
@@ -59,14 +57,8 @@ http://208.86.19.13:81/103.stream/index.m3u8
 http://208.86.19.13:81/106.stream/index.m3u8
 #EXTINF:-1 group-title="International",EN | My 9 (7d)
 http://208.86.19.13:81/105.stream/index.m3u8
-#EXTINF:-1 group-title="International News",DW News (0d)
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:-1 group-title="Kids",1. RiC+ (0d)
-https://amg02132-amg02132c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg02132-amg02132c2-amgplt0016/playlist.m3u8
-#EXTINF:-1 group-title="Movies",EN | a-z Western Grit (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Movies",EN | AVA FAMILY (6d)
-https://familyhls.avatv.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Kids",NICK Hindi (0d)
+http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
 #EXTINF:-1 group-title="Movies",EN | Catchy Comedy (6d)
 https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-decades/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | Movies! (6d)
@@ -75,6 +67,8 @@ https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-movies!/index.m3u8
 http://45.88.92.3/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Religious",Azan TV (1d)
 https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
+#EXTINF:-1 group-title="Religious",Hadi TV (0d)
+https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 https://raw.githubusercontent.com/Miraz6755/My-tv/refs/heads/main/T-SportsHD1.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (1d)
