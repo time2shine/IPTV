@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Channel 52 (2d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel25usa.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (8d)
@@ -11,32 +13,34 @@ http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
 #EXTINF:-1 group-title="Bangla",Tara TV (0d)
 http://103.145.48.150:90/laosat24/taratv/index.m3u8
-#EXTINF:-1 group-title="Educational",BBC Earth (0d)
-https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
-#EXTINF:-1 group-title="Educational",BBC Earth US (0d)
-https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
-#EXTINF:-1 group-title="Educational",Heritage+ (5d)
-https://amg02132-sofast-heritage-samsungin-arawj.amagi.tv/ts-eu-w1-n2/playlist/amg02132-sofast-heritage-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01412-xiaomiasia-abpananda-xiaomi-lzyzw.amagi.tv/playlist/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Educational",CGTN Documentary (0d)
+https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 group-title="Educational",Heritage+ (5d)
 https://streams.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/littlestar5_sofast/05c9af40-9d2b-445b-ab20-5e46889877ce_1000010996_HLS/manifest.m3u8?channel_name=heritage+
+#EXTINF:-1 group-title="Educational",Heritage+ (5d)
+https://amg02132-sofast-heritage-samsungin-arawj.amagi.tv/ts-eu-w1-n2/playlist/amg02132-sofast-heritage-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | &TV HD (1d)
 https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="India",ENT | Nazara (0d)
-https://epiconvh.akamaized.net/live/nazara/master.m3u8
+#EXTINF:-1 group-title="India",ENT | E24 (0d)
+https://bagnetwork.digivive.com/hlslive/Admin/px09241091/live/E24LiveB/master_1.m3u8
 #EXTINF:-1 group-title="India",ENT | Zee Amol TV (5d)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/chunklist_w1694401036.m3u8
 #EXTINF:-1 group-title="India",MOV | Zee Amol Cinema (5d)
 https://live.relentlessinnovations.net:1936/afghannobel/afghannobel/chunklist_w1694401036.m3u8
 #EXTINF:-1 group-title="International",EN | American Heroes Channel (3d)
 https://e5.thetvapp.to/hls/AmericanHeroesChannel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="International News",CGTN (0d)
+https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 group-title="Kids",0. Boomerang (3d)
 https://e2.thetvapp.to/hls/Boomerang/tracks-v1a1/mono.m3u8?token=QqMZ-c8Lz3FDezbSedltLw&expires=1760730512&user_id=MjcuMTQ3LjE4Ni42MA==
 #EXTINF:-1 group-title="Kids",1. RiC+ (5d)
 https://amg02132-amg02132c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg02132-amg02132c2-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="Kids",2. POGO (3d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",NICK Hindi (3d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
 #EXTINF:-1 group-title="Movies",EN | USA Network (3d)
@@ -46,14 +50,16 @@ https://mbc1-enc.edgenextcdn.net/out/v1/90143f040feb40589d18c57863d9e829/index_3
 #EXTINF:-1 group-title="Religious",Peace TV Bangla (2d)
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (2d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (2d)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (2d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV Urdu (2d)
 https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (2d)
 http://116.90.120.149:8000/play/a021/index.m3u8
 #EXTINF:-1 group-title="Sports",CR | Star Sports 2 HD (3d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1370.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | TNA Wrestling Channel (0d)
+https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | ESPN (4d)
 http://104.243.40.13:8989/279426_.m3u8
