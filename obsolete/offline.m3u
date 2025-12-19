@@ -3,6 +3,8 @@
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/b24c.stream/mono.m3u8
 #EXTINF:-1 group-title="Bangla",DEEPTO TV HD (4d)
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (9d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/541.m3u8
 #EXTINF:-1 group-title="Bangla",MY TV HD (1d)
@@ -17,8 +19,6 @@ https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
 http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 group-title="International",EN | American Heroes Channel (9d)
 https://e5.thetvapp.to/hls/AmericanHeroesChannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="International News",France 24 English (0d)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 group-title="International News",HLN (0d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Boomerang (9d)
@@ -27,18 +27,22 @@ https://e2.thetvapp.to/hls/Boomerang/tracks-v1a1/mono.m3u8?token=QqMZ-c8Lz3FDezb
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/453.m3u8
 #EXTINF:-1 group-title="Kids",Cartoon Classics (0d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",NICK Hindi (9d)
 http://link.luckonline.eu/live/Ali130225/Cpyej2JL56Xy/1034.m3u8
-#EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Movies",EN | a-z Western Grit (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/P6T1SCG4XU9MM36TQSB5/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | a-z Classic Flix (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Colorized.TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MP47WBC6PC599RWGUECD/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | USA Network (9d)
 https://e2.thetvapp.to/hls/USANetworkEast/tracks-v1a1/mono.m3u8?token=wO9190-I8wRG5hLCzWKFiw&expires=1760730513&user_id=MjcuMTQ3LjE4Ni42MA==
-#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
+#EXTINF:-1 group-title="Music",EN | Trace Urban (0d)
+https://amg01131-tracetv-traceurbanuk-samsunguk-6r213.amagi.tv/ts-eu-w1-n2/playlist/amg01131-tracetv-traceurbanuk-samsunguk/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Hadi TV (0d)
+https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Geo Super)-- (8d)
 http://116.90.120.149:8000/play/a021/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (5d)
