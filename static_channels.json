@@ -593,30 +593,6 @@
         "quality": "slow"
       },
       {
-        "url": "https://catchup.yuppcdn.net:443/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
-        "status": "online",
-        "last_online": "2026-01-22",
-        "first_online": "2025-09-14",
-        "last_offline": null,
-        "probe_time_s": 7.536,
-        "speed": 0.265,
-        "passed_via": "ffmpeg",
-        "note": "min speed 0.35x",
-        "quality": "slow"
-      },
-      {
-        "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
-        "status": "online",
-        "last_online": "2026-01-22",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": 8.186,
-        "speed": 0.244,
-        "passed_via": "ffmpeg",
-        "note": "min speed 0.39x",
-        "quality": "slow"
-      },
-      {
         "url": "https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8?hdnts=",
         "status": "online",
         "last_online": "2026-01-22",
@@ -627,6 +603,13 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
+      },
+      {
+        "url": "https://tvsen3.aynaott.com/u3LkNQ7UHhFX/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -670,6 +653,13 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.77x",
         "quality": "slow"
+      },
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1932,6 +1922,13 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.54x",
         "quality": "slow"
+      },
+      {
+        "url": "https://103.244.145.15/live/P4B9TB9xR8/humongous2tonight/23218.ts?token=ShJcU0BbQQNHXQYLVFIHCgpUVlMDAlVSA1BbVFwGBAEEB1EEAQJSCAQbGBpEF0dcWF1vWQIXXlMCUFMPSUZGQVRCa1tXEVkbVAwGCwJaBRsVEkRZC1BGWwBVVA5UVQUFCAYYEENaBxtfGwEBAVoGCRscElUeQQETXwMOaAEBRVtSVRYIXUYPVUkbW1ZoB1BUWF5UElwXVEMdQAtEFUYJXERcWB4RUQpNF1hAXRVZFwoOBwcSShcHDkQMFkUcRgkQc3QWHhFWG00AV0dRWA0XAxtEQxJKFw0SbhAHRBEWVlNcVUYQCRFTG0kbWVlPPFZWV15VUxJcCw9CQFgVVEYfEFxfWltHXBFmFVBQGg1BBgsPAQYIVxcZ",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2081,27 +2078,11 @@
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-14",
-        "first_online": "2025-09-09",
-        "last_offline": "2025-11-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.88x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-21",
-        "first_online": "2025-10-02",
-        "last_offline": "2025-10-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "https://tvsen1.aynaott.com/PNEb3v2q6GBk/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2894,6 +2875,13 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
+      },
+      {
+        "url": "https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3160,6 +3148,13 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "no url"
+      },
+      {
+        "url": "http://65.108.239.207/bbc/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6578,6 +6573,13 @@
         "passed_via": "ffmpeg",
         "note": "overrun 81.2s",
         "quality": "slow"
+      },
+      {
+        "url": "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/a731c680-6a62-4174-bc98-186fe654724a/0.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
