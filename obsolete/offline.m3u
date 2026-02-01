@@ -1,16 +1,12 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Tara Bangla Cinema (1d)
-http://103.145.48.150:90/laosat24/taratv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (Ads Only) (9d)
 https://103.244.145.15/live/P4B9TB9xR8/humongous2tonight/23218.ts?token=ShJcU0BbQQNHXQYLVFIHCgpUVlMDAlVSA1BbVFwGBAEEB1EEAQJSCAQbGBpEF0dcWF1vWQIXXlMCUFMPSUZGQVRCa1tXEVkbVAwGCwJaBRsVEkRZC1BGWwBVVA5UVQUFCAYYEENaBxtfGwEBAVoGCRscElUeQQETXwMOaAEBRVtSVRYIXUYPVUkbW1ZoB1BUWF5UElwXVEMdQAtEFUYJXERcWB4RUQpNF1hAXRVZFwoOBwcSShcHDkQMFkUcRgkQc3QWHhFWG00AV0dRWA0XAxtEQxJKFw0SbhAHRBEWVlNcVUYQCRFTG0kbWVlPPFZWV15VUxJcCw9CQFgVVEYfEFxfWltHXBFmFVBQGg1BBgsPAQYIVxcZ
 #EXTINF:-1 group-title="Bangla",Tara TV (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8
-#EXTINF:-1 group-title="Bangla",Tara TV (1d)
-http://103.145.48.150:90/laosat24/taratv/index.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | Kolkata Tv (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | Tribe TV (3d)
@@ -41,6 +37,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
+#EXTINF:-1 group-title="India",MU | Balle Balle (0d)
+https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="India",MU | Balle Balle (0d)
+https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 group-title="India",MU | Balle Balle (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8
 #EXTINF:-1 group-title="India",MU | BritAsiaTV (3d)
@@ -71,6 +71,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News India 24X7 (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-india-24x7/index.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8
 #EXTINF:-1 group-title="International",Taiwan Plus (3d)
@@ -81,6 +83,8 @@ https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
 #EXTINF:-1 group-title="International News",EAC News TV (5d)
 https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="International News",OAN Plus (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Kids TV India - Nursery Rhymes and Baby Songs (3d)
@@ -127,6 +131,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 #EXTINF:-1 group-title="Sports",FIGHT | MMA Junkie (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mma-junkie/master.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | PSN 4 Sports (0d)
+https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | FUEL TV (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv-ww/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | Horizon Sports (3d)
@@ -141,6 +147,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dot-esports/master.m3u8
 #EXTINF:-1 group-title="Sports",RACING | MotorRacing (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/master.m3u8
+#EXTINF:-1 group-title="Sports",TENNIS | Tennis TV Classics (0d)
+https://amg01470-amg01470c1-freelivesports-emea-9021.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01470-atpmediaoperationsltdfast-tennistvclassics-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",YOGA | Fitness TV (3d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/lifefit-by-triptic/master.m3u8
 #EXTINF:-1 group-title="Travel",4K Travel (3d)
