@@ -24,28 +24,11 @@
     "tvg_logo": "https://amarbanglatv.in/wp-content/uploads/2024/08/cropped-Amar-Bangla.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-21",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.52x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-21",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.67x",
-        "quality": "slow"
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1453,6 +1436,13 @@
         "probe_time_s": 116.228,
         "speed": 0.017,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -14403,6 +14393,20 @@
       }
     ]
   },
+  "AR | Arabica TV": {
+    "group": "Music",
+    "tvg_id": "ArabicaTV",
+    "tvg_logo": " ",
+    "links": [
+      {
+        "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "AR | AFN TV": {
     "group": "Music",
     "tvg_id": "AFNTV",
@@ -18808,6 +18812,27 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.34x",
         "quality": "slow"
+      },
+      {
+        "url": "http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "--Live(Lemar AGF)--": {
+    "group": "Sports",
+    "tvg_id": "LemarAGF",
+    "tvg_logo": "https://yt3.googleusercontent.com/GaYAItFdzW9obTJRPsJeNz8Qw9Rmph922fBlDe1aX4JlmBaRlI9qb24INPwZyO-rAjIjRU5t=s160-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
