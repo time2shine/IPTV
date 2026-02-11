@@ -621,21 +621,6 @@
     <display-name>NEWS | TV9 Bharatvarsh</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/a/ad/TV9_Bharatvarsh.jpeg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211193000 +0600" channel="TV9Bharatvarsh">
-    <title lang="bn">Adi -Debate Show</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="TV9Bharatvarsh">
-    <title lang="bn">Satta</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="TV9Bharatvarsh">
-    <title lang="bn">News Top 9</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="TV9Bharatvarsh">
-    <title lang="bn">Super Prime Time</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211223000 +0600" channel="TV9Bharatvarsh">
-    <title lang="bn">Fikr Aap ki</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="TV9Bharatvarsh">
     <title lang="bn">Parvah desh Ki</title>
   </programme>
@@ -711,37 +696,25 @@
   <programme start="20260212200000 +0600" stop="20260212203000 +0600" channel="TV9Bharatvarsh">
     <title lang="bn">News Top 9</title>
   </programme>
+  <programme start="20260212203000 +0600" stop="20260212213000 +0600" channel="TV9Bharatvarsh">
+    <title lang="bn">Super Prime Time</title>
+  </programme>
+  <programme start="20260212213000 +0600" stop="20260212223000 +0600" channel="TV9Bharatvarsh">
+    <title lang="bn">Fikr Aap ki</title>
+  </programme>
+  <programme start="20260212223000 +0600" stop="20260212233000 +0600" channel="TV9Bharatvarsh">
+    <title lang="bn">Parvah desh Ki</title>
+  </programme>
+  <programme start="20260212233000 +0600" stop="20260213000000 +0600" channel="TV9Bharatvarsh">
+    <title lang="bn">Super Prime time</title>
+  </programme>
+  <programme start="20260213000000 +0600" stop="20260213003000 +0600" channel="TV9Bharatvarsh">
+    <title lang="bn">Super Prime time</title>
+  </programme>
   <channel id="ZEEBUSINESS">
     <display-name>NEWS | ZEE BUSINESS</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">News Live</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Money Guru</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Khabar Chalisa</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Bazar Aaj Aur Kal</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">India 360</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">India 360</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Khabar Chalisa</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Bazar Aaj Aur Kal</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="ZEEBUSINESS">
-    <title lang="bn">Money Guru</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="ZEEBUSINESS">
     <title lang="bn">Aapki Khabar, Aapka Fayda</title>
   </programme>
@@ -805,37 +778,37 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="ZEEBUSINESS">
     <title lang="bn">Share Bazaar Live</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">First Trade</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">First Trade</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">10 Ki Kamai</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Short Positional Long Midcap Stocks</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Stocks Social</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Commodities Live</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Corporate Radar</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Superfast Futures</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="ZEEBUSINESS">
+    <title lang="bn">Midcap Bazaar</title>
+  </programme>
   <channel id="ZEENews">
     <display-name>NEWS | ZEE News</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="ZEENews">
-    <title lang="bn">Rajneeti</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="ZEENews">
-    <title lang="bn">Rajneeti</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="ZEENews">
-    <title lang="bn">Baat Pate Ki</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="ZEENews">
-    <title lang="bn">Baat Pate Ki</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="ZEENews">
-    <title lang="bn">Deshhit</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="ZEENews">
-    <title lang="bn">Deshhit</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="ZEENews">
-    <title lang="bn">Daily News &amp; Analysis</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="ZEENews">
-    <title lang="bn">Daily News &amp; Analysis</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="ZEENews">
-    <title lang="bn">Badi Khabar</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="ZEENews">
     <title lang="bn">Badi Khabar</title>
   </programme>
@@ -899,34 +872,37 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="ZEENews">
     <title lang="bn">Morning Zee</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="ZEENews">
+    <title lang="bn">9 Ki News</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="ZEENews">
+    <title lang="bn">9 Ki News</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="ZEENews">
+    <title lang="bn">To the Point</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="ZEENews">
+    <title lang="bn">To the Point</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="ZEENews">
+    <title lang="bn">Battleground</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="ZEENews">
+    <title lang="bn">Top 5</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="ZEENews">
+    <title lang="bn">12 Ka Agenda</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="ZEENews">
+    <title lang="bn">Zee Special</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="ZEENews">
+    <title lang="bn">Ek Se Badhkar Ek</title>
+  </programme>
   <channel id="DangalTV.in">
     <display-name>ENT | Dangal TV</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="DangalTV.in">
-    <title lang="bn">Safal Hogi Teri Aradhana</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="DangalTV.in">
-    <title lang="bn">Gudiya Rani</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="DangalTV.in">
-    <title lang="bn">Tulsi - Hamari Badi Sayani</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="DangalTV.in">
-    <title lang="bn">Mann Atisundar</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="DangalTV.in">
-    <title lang="bn">Mann Sundar</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211220000 +0600" channel="DangalTV.in">
-    <title lang="bn">Gehna Zevar Ya Zanjeer</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="DangalTV.in">
-    <title lang="bn">Deewani</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="DangalTV.in">
-    <title lang="bn">Safal Hogi Teri Aradhana</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="DangalTV.in">
     <title lang="bn">Tulsi - Hamari Badi Sayani</title>
   </programme>
@@ -936,22 +912,37 @@
   <programme start="20260212000000 +0600" stop="20260212043000 +0600" channel="DangalTV.in">
     <title lang="bn">Mann Atisundar</title>
   </programme>
-  <programme start="20260212043000 +0600" stop="20260212083000 +0600" channel="DangalTV.in">
+  <programme start="20260212043000 +0600" stop="20260212050000 +0600" channel="DangalTV.in">
+    <title lang="bn">Ram Ratan Dhan Payo</title>
+  </programme>
+  <programme start="20260212050000 +0600" stop="20260212083000 +0600" channel="DangalTV.in">
     <title lang="bn">Ram Ratan Dhan Payo</title>
   </programme>
   <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="DangalTV.in">
     <title lang="bn">Mann Sundar</title>
   </programme>
-  <programme start="20260212090000 +0600" stop="20260212100000 +0600" channel="DangalTV.in">
+  <programme start="20260212090000 +0600" stop="20260212090100 +0600" channel="DangalTV.in">
+    <title lang="bn">Mann Sundar</title>
+  </programme>
+  <programme start="20260212090100 +0600" stop="20260212093000 +0600" channel="DangalTV.in">
+    <title lang="bn">Mann Atisundar</title>
+  </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="DangalTV.in">
     <title lang="bn">Mann Atisundar</title>
   </programme>
   <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="DangalTV.in">
     <title lang="bn">Gehna Zevar Ya Zanjeer</title>
   </programme>
-  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="DangalTV.in">
+  <programme start="20260212103000 +0600" stop="20260212103100 +0600" channel="DangalTV.in">
+    <title lang="bn">Gehna Zevar Ya Zanjeer</title>
+  </programme>
+  <programme start="20260212103100 +0600" stop="20260212110000 +0600" channel="DangalTV.in">
     <title lang="bn">Gudiya Rani</title>
   </programme>
-  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="DangalTV.in">
+  <programme start="20260212110000 +0600" stop="20260212110100 +0600" channel="DangalTV.in">
+    <title lang="bn">Gudiya Rani</title>
+  </programme>
+  <programme start="20260212110100 +0600" stop="20260212113000 +0600" channel="DangalTV.in">
     <title lang="bn">Tulsi - Hamari Badi Sayani</title>
   </programme>
   <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="DangalTV.in">
@@ -993,51 +984,42 @@
   <programme start="20260212223000 +0600" stop="20260212230000 +0600" channel="DangalTV.in">
     <title lang="bn">Safal Hogi Teri Aradhana</title>
   </programme>
+  <programme start="20260212230000 +0600" stop="20260212233000 +0600" channel="DangalTV.in">
+    <title lang="bn">Tulsi - Hamari Badi Sayani</title>
+  </programme>
+  <programme start="20260212233000 +0600" stop="20260213000000 +0600" channel="DangalTV.in">
+    <title lang="bn">Gudiya Rani</title>
+  </programme>
+  <programme start="20260213000000 +0600" stop="20260213003000 +0600" channel="DangalTV.in">
+    <title lang="bn">Mann Atisundar</title>
+  </programme>
   <channel id="COLORS.in">
     <display-name>ENT | COLORS HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/1/19/Colorstv-logo-black-background.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="COLORS.in">
-    <title lang="bn">Seher Hone Ko Hai</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="COLORS.in">
-    <title lang="bn">Noyontara</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="COLORS.in">
-    <title lang="bn">Tuu Juliet Jatt Di</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="COLORS.in">
-    <title lang="bn">Mannat Harr Khushi Paane Ki</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="COLORS.in">
-    <title lang="bn">DR. Aarambhi</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="COLORS.in">
-    <title lang="bn">Mangal Lakshmi</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="COLORS.in">
-    <title lang="bn">Mangal Lakshmi - Lakshmi Ka Safar</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="COLORS.in">
-    <title lang="bn">Mahadev &amp; Sons</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="COLORS.in">
-    <title lang="bn">Seher Hone Ko Hai</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260212000000 +0600" channel="COLORS.in">
     <title lang="bn">The Fifty</title>
   </programme>
   <programme start="20260212000000 +0600" stop="20260212013000 +0600" channel="COLORS.in">
     <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
   </programme>
-  <programme start="20260212013000 +0600" stop="20260212023000 +0600" channel="COLORS.in">
+  <programme start="20260212013000 +0600" stop="20260212020000 +0600" channel="COLORS.in">
     <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
   </programme>
-  <programme start="20260212023000 +0600" stop="20260212033000 +0600" channel="COLORS.in">
+  <programme start="20260212020000 +0600" stop="20260212023000 +0600" channel="COLORS.in">
     <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
   </programme>
-  <programme start="20260212033000 +0600" stop="20260212043000 +0600" channel="COLORS.in">
+  <programme start="20260212023000 +0600" stop="20260212030000 +0600" channel="COLORS.in">
+    <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
+  </programme>
+  <programme start="20260212030000 +0600" stop="20260212033000 +0600" channel="COLORS.in">
+    <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
+  </programme>
+  <programme start="20260212033000 +0600" stop="20260212040000 +0600" channel="COLORS.in">
     <title lang="bn">Laughter Chefs Unlimited Entertainment Dobaara</title>
+  </programme>
+  <programme start="20260212040000 +0600" stop="20260212043000 +0600" channel="COLORS.in">
+    <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
   </programme>
   <programme start="20260212043000 +0600" stop="20260212053000 +0600" channel="COLORS.in">
     <title lang="bn">Laughter Chefs Unlimited Entertainment Dobaara</title>
@@ -1087,22 +1069,28 @@
   <programme start="20260212203000 +0600" stop="20260212210000 +0600" channel="COLORS.in">
     <title lang="bn">DR. Aarambhi</title>
   </programme>
+  <programme start="20260212210000 +0600" stop="20260212213000 +0600" channel="COLORS.in">
+    <title lang="bn">Mangal Lakshmi</title>
+  </programme>
+  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="COLORS.in">
+    <title lang="bn">Mangal Lakshmi - Lakshmi Ka Safar</title>
+  </programme>
+  <programme start="20260212220000 +0600" stop="20260212223000 +0600" channel="COLORS.in">
+    <title lang="bn">Mahadev &amp; Sons</title>
+  </programme>
+  <programme start="20260212223000 +0600" stop="20260212230000 +0600" channel="COLORS.in">
+    <title lang="bn">Seher Hone Ko Hai</title>
+  </programme>
+  <programme start="20260212230000 +0600" stop="20260213000000 +0600" channel="COLORS.in">
+    <title lang="bn">The Fifty</title>
+  </programme>
+  <programme start="20260213000000 +0600" stop="20260213003000 +0600" channel="COLORS.in">
+    <title lang="bn">Laughter Chefs Unlimited Entertainment</title>
+  </programme>
   <channel id="IndiaTV.in">
     <display-name>India TV</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/1/10/India_TV_Orange.jpg"/>
   </channel>
-  <programme start="20260211182800 +0600" stop="20260211192800 +0600" channel="IndiaTV.in">
-    <title lang="bn">Coffee Par Kurukshetra</title>
-  </programme>
-  <programme start="20260211192800 +0600" stop="20260211202800 +0600" channel="IndiaTV.in">
-    <title lang="bn">Dharmayudh</title>
-  </programme>
-  <programme start="20260211202800 +0600" stop="20260211212700 +0600" channel="IndiaTV.in">
-    <title lang="bn">Haqiqat Kya Hai ? + Super 100</title>
-  </programme>
-  <programme start="20260211212700 +0600" stop="20260211222800 +0600" channel="IndiaTV.in">
-    <title lang="bn">Aaj Ki Baat Rajat Sharma Ke Saath</title>
-  </programme>
   <programme start="20260211222800 +0600" stop="20260211232800 +0600" channel="IndiaTV.in">
     <title lang="bn">Special Report</title>
   </programme>
@@ -1178,31 +1166,25 @@
   <programme start="20260212125800 +0600" stop="20260212132800 +0600" channel="IndiaTV.in">
     <title lang="bn">Prahar</title>
   </programme>
-  <programme start="20260212132800 +0600" stop="20260212135800 +0600" channel="IndiaTV.in">
+  <programme start="20260212132800 +0600" stop="20260212142800 +0600" channel="IndiaTV.in">
     <title lang="bn">Kahani Kursi Ki</title>
+  </programme>
+  <programme start="20260212142800 +0600" stop="20260212152800 +0600" channel="IndiaTV.in">
+    <title lang="bn">Kahani Kursi Ki</title>
+  </programme>
+  <programme start="20260212152800 +0600" stop="20260212155800 +0600" channel="IndiaTV.in">
+    <title lang="bn">Rajdharma</title>
+  </programme>
+  <programme start="20260212155800 +0600" stop="20260212162800 +0600" channel="IndiaTV.in">
+    <title lang="bn">Rajdharma</title>
+  </programme>
+  <programme start="20260212162800 +0600" stop="20260212165800 +0600" channel="IndiaTV.in">
+    <title lang="bn">Aaj Ki Badi Khabar</title>
   </programme>
   <channel id="DDNews.in">
     <display-name>DD News</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/d/d6/DD_News_new_logo_2024.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="DDNews.in">
-    <title lang="bn">Charcha Mein</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="DDNews.in">
-    <title lang="bn">Khabar Duniya Ki</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="DDNews.in">
-    <title lang="bn">Creators Corner</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="DDNews.in">
-    <title lang="bn">Pura Sach</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="DDNews.in">
-    <title lang="bn">News Night in Hindi</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211223000 +0600" channel="DDNews.in">
-    <title lang="bn">Decode</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="DDNews.in">
     <title lang="bn">Do Took</title>
   </programme>
@@ -1275,34 +1257,28 @@
   <programme start="20260212150000 +0600" stop="20260212153000 +0600" channel="DDNews.in">
     <title lang="bn">Samachar</title>
   </programme>
+  <programme start="20260212153000 +0600" stop="20260212163000 +0600" channel="DDNews.in">
+    <title lang="bn">Iss Waqt</title>
+  </programme>
+  <programme start="20260212163000 +0600" stop="20260212170000 +0600" channel="DDNews.in">
+    <title lang="bn">Samachar</title>
+  </programme>
+  <programme start="20260212170000 +0600" stop="20260212173000 +0600" channel="DDNews.in">
+    <title lang="bn">Samachar</title>
+  </programme>
+  <programme start="20260212173000 +0600" stop="20260212183000 +0600" channel="DDNews.in">
+    <title lang="bn">Panch Ki Panchayat</title>
+  </programme>
+  <programme start="20260212183000 +0600" stop="20260212190000 +0600" channel="DDNews.in">
+    <title lang="bn">Charcha Mein</title>
+  </programme>
+  <programme start="20260212190000 +0600" stop="20260212193000 +0600" channel="DDNews.in">
+    <title lang="bn">Khabar Duniya Ki</title>
+  </programme>
   <channel id="CNBCAwaaz">
     <display-name>CNBC Awaaz</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/1/18/CNBC_Awaaz_2025.svg"/>
   </channel>
-  <programme start="20260211185700 +0600" stop="20260211192700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Your Money</title>
-  </programme>
-  <programme start="20260211192700 +0600" stop="20260211195700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Awaaz Samachar</title>
-  </programme>
-  <programme start="20260211195700 +0600" stop="20260211202700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Kal Ka Bazar</title>
-  </programme>
-  <programme start="20260211202700 +0600" stop="20260211205700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Awaaz Adda</title>
-  </programme>
-  <programme start="20260211205700 +0600" stop="20260211212700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Awaaz Adda</title>
-  </programme>
-  <programme start="20260211212700 +0600" stop="20260211215700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Takkar</title>
-  </programme>
-  <programme start="20260211215700 +0600" stop="20260211222700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Takkar</title>
-  </programme>
-  <programme start="20260211222700 +0600" stop="20260211225700 +0600" channel="CNBCAwaaz">
-    <title lang="bn">Kal Ka Bazar</title>
-  </programme>
   <programme start="20260211225700 +0600" stop="20260211232700 +0600" channel="CNBCAwaaz">
     <title lang="bn">Consumer Adda</title>
   </programme>
@@ -1369,38 +1345,35 @@
   <programme start="20260212064000 +0600" stop="20260212065700 +0600" channel="CNBCAwaaz">
     <title lang="bn">Your Money</title>
   </programme>
+  <programme start="20260212065700 +0600" stop="20260212072700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Market Pulse</title>
+  </programme>
+  <programme start="20260212072700 +0600" stop="20260212075700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Morning Call</title>
+  </programme>
+  <programme start="20260212075700 +0600" stop="20260212082700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Seedha Sauda</title>
+  </programme>
+  <programme start="20260212082700 +0600" stop="20260212085700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Munafe Ki Taiyari</title>
+  </programme>
+  <programme start="20260212085700 +0600" stop="20260212092700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Munafe Ki Taiyari</title>
+  </programme>
+  <programme start="20260212092700 +0600" stop="20260212095700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Pehla Sauda</title>
+  </programme>
+  <programme start="20260212095700 +0600" stop="20260212102700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">Pehla Sauda</title>
+  </programme>
+  <programme start="20260212102700 +0600" stop="20260212105700 +0600" channel="CNBCAwaaz">
+    <title lang="bn">10 Ke Damdaar Trade</title>
+  </programme>
   <channel id="BharatSamacharTV.in">
     <display-name>Bharat Samachar TV</display-name>
     <icon src="https://bharatsamachartv.com/images/logo.png"/>
   </channel>
-  <programme start="20260211182500 +0600" stop="20260211190000 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Dood Ka Dood Live</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">100 Samachar + Cutting Chai</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211195700 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Maha Bulletin</title>
-  </programme>
-  <programme start="20260211195700 +0600" stop="20260211202700 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">HL / Special</title>
-  </programme>
-  <programme start="20260211202700 +0600" stop="20260211204300 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Cutting Chai</title>
-  </programme>
-  <programme start="20260211204300 +0600" stop="20260211213000 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Power Center / Special</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">100 Samachar</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223100 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Power Center / Special</title>
-  </programme>
-  <programme start="20260211223100 +0600" stop="20260211230100 +0600" channel="BharatSamacharTV.in">
-    <title lang="bn">Full &amp; Final Bulletin</title>
-  </programme>
-  <programme start="20260211230100 +0600" stop="20260211233000 +0600" channel="BharatSamacharTV.in">
+  <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="BharatSamacharTV.in">
     <title lang="bn">100 Samachar + Cutting Chai</title>
   </programme>
   <programme start="20260211233000 +0600" stop="20260212002500 +0600" channel="BharatSamacharTV.in">
@@ -1463,34 +1436,37 @@
   <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="BharatSamacharTV.in">
     <title lang="bn">100 Samachar</title>
   </programme>
+  <programme start="20260212090000 +0600" stop="20260212092500 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Bulletin / Nakshatra</title>
+  </programme>
+  <programme start="20260212092500 +0600" stop="20260212095500 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">100 Samachar</title>
+  </programme>
+  <programme start="20260212095500 +0600" stop="20260212103000 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Special Story</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Breaking News</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212112500 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">100 Samachar + Cutting Chai</title>
+  </programme>
+  <programme start="20260212112500 +0600" stop="20260212115500 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Breaking News</title>
+  </programme>
+  <programme start="20260212115500 +0600" stop="20260212122500 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Camera Sab Dekhta Hai</title>
+  </programme>
+  <programme start="20260212122500 +0600" stop="20260212130000 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">Breaking News</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="BharatSamacharTV.in">
+    <title lang="bn">100 Samachar</title>
+  </programme>
   <channel id="Abp.in">
     <display-name>ABP News</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/e/eb/ABP_News.svg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="Abp.in">
-    <title lang="bn">Political Powercentre</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="Abp.in">
-    <title lang="bn">Political Powercentre</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="Abp.in">
-    <title lang="bn">Seedha Sawaal</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="Abp.in">
-    <title lang="bn">Seedha Sawaal</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="Abp.in">
-    <title lang="bn">Bharat Ki Baat</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211220000 +0600" channel="Abp.in">
-    <title lang="bn">Bharat Ki Baat</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="Abp.in">
-    <title lang="bn">24 Ghante 24 Reporter</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="Abp.in">
-    <title lang="bn">24 Ghante 24 Reporter</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="Abp.in">
     <title lang="bn">Special Report</title>
   </programme>
@@ -1557,43 +1533,34 @@
   <programme start="20260212085200 +0600" stop="20260212090000 +0600" channel="Abp.in">
     <title lang="bn">Namaste Bharat</title>
   </programme>
+  <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="Abp.in">
+    <title lang="bn">Namaste Bharat</title>
+  </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="Abp.in">
+    <title lang="bn">9 Second Mein News</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="Abp.in">
+    <title lang="bn">9 Second Mein News</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="Abp.in">
+    <title lang="bn">Aagey Ka Agenda</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="Abp.in">
+    <title lang="bn">Aagey Ka Agenda</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="Abp.in">
+    <title lang="bn">ABP Reporter</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="Abp.in">
+    <title lang="bn">ABP Reporter</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="Abp.in">
+    <title lang="bn">Khabar Din Bhar</title>
+  </programme>
   <channel id="AajTak.in">
     <display-name>Aaj Tak HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211191500 +0600" channel="AajTak.in">
-    <title lang="bn">Hallabol</title>
-  </programme>
-  <programme start="20260211191500 +0600" stop="20260211194500 +0600" channel="AajTak.in">
-    <title lang="bn">Duniya Aaj tak</title>
-  </programme>
-  <programme start="20260211194500 +0600" stop="20260211200000 +0600" channel="AajTak.in">
-    <title lang="bn">Chunavi Shankhnad</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="AajTak.in">
-    <title lang="bn">Vishesh</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="AajTak.in">
-    <title lang="bn">100 Shahar 100 Khabar</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211211500 +0600" channel="AajTak.in">
-    <title lang="bn">Special Report</title>
-  </programme>
-  <programme start="20260211211500 +0600" stop="20260211213000 +0600" channel="AajTak.in">
-    <title lang="bn">Special Report</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211214500 +0600" channel="AajTak.in">
-    <title lang="bn">Duniya Aaj tak</title>
-  </programme>
-  <programme start="20260211214500 +0600" stop="20260211215500 +0600" channel="AajTak.in">
-    <title lang="bn">Black And White</title>
-  </programme>
-  <programme start="20260211215500 +0600" stop="20260211223000 +0600" channel="AajTak.in">
-    <title lang="bn">Black And White</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="AajTak.in">
-    <title lang="bn">Dastak</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="AajTak.in">
     <title lang="bn">Dastak</title>
   </programme>
@@ -1651,31 +1618,43 @@
   <programme start="20260212070000 +0600" stop="20260212073000 +0600" channel="AajTak.in">
     <title lang="bn">News</title>
   </programme>
+  <programme start="20260212073000 +0600" stop="20260212080000 +0600" channel="AajTak.in">
+    <title lang="bn">Bhagya Chakra</title>
+  </programme>
+  <programme start="20260212080000 +0600" stop="20260212081500 +0600" channel="AajTak.in">
+    <title lang="bn">Bhagya Chakra</title>
+  </programme>
+  <programme start="20260212081500 +0600" stop="20260212083000 +0600" channel="AajTak.in">
+    <title lang="bn">Bhagya Chakra</title>
+  </programme>
+  <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="AajTak.in">
+    <title lang="bn">Khabrein Superfast</title>
+  </programme>
+  <programme start="20260212090000 +0600" stop="20260212092000 +0600" channel="AajTak.in">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212092000 +0600" stop="20260212093000 +0600" channel="AajTak.in">
+    <title lang="bn">Non-Stop 100</title>
+  </programme>
+  <programme start="20260212093000 +0600" stop="20260212094500 +0600" channel="AajTak.in">
+    <title lang="bn">Astro Show</title>
+  </programme>
+  <programme start="20260212094500 +0600" stop="20260212100000 +0600" channel="AajTak.in">
+    <title lang="bn">9 Baj Gaye</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212102500 +0600" channel="AajTak.in">
+    <title lang="bn">100 Shahar 100 Khabar</title>
+  </programme>
+  <programme start="20260212102500 +0600" stop="20260212104000 +0600" channel="AajTak.in">
+    <title lang="bn">9 Baj Gaye</title>
+  </programme>
+  <programme start="20260212104000 +0600" stop="20260212105500 +0600" channel="AajTak.in">
+    <title lang="bn">News</title>
+  </programme>
   <channel id="ZEETV.tv">
     <display-name>ZEE TV HD</display-name>
     <icon src="https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png"/>
   </channel>
-  <programme start="20260211182900 +0600" stop="20260211185900 +0600" channel="ZEETV.tv">
-    <title lang="bn">Bhagya Lakshmi</title>
-  </programme>
-  <programme start="20260211185900 +0600" stop="20260211192900 +0600" channel="ZEETV.tv">
-    <title lang="bn">Hamara Parivar</title>
-  </programme>
-  <programme start="20260211192900 +0600" stop="20260211200200 +0600" channel="ZEETV.tv">
-    <title lang="bn">Ek Nazar</title>
-  </programme>
-  <programme start="20260211200200 +0600" stop="20260211203300 +0600" channel="ZEETV.tv">
-    <title lang="bn">Kaise Mujhe Tum Mil Gaye</title>
-  </programme>
-  <programme start="20260211203300 +0600" stop="20260211213600 +0600" channel="ZEETV.tv">
-    <title lang="bn">Bhagya Lakshmi</title>
-  </programme>
-  <programme start="20260211213600 +0600" stop="20260211221100 +0600" channel="ZEETV.tv">
-    <title lang="bn">Kumkum Bhagya</title>
-  </programme>
-  <programme start="20260211221100 +0600" stop="20260211225900 +0600" channel="ZEETV.tv">
-    <title lang="bn">Kundali Bhagya</title>
-  </programme>
   <programme start="20260211225900 +0600" stop="20260211233100 +0600" channel="ZEETV.tv">
     <title lang="bn">Vasudha</title>
   </programme>
@@ -1745,25 +1724,31 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="ZEETV.tv">
     <title lang="bn">Kaise Mujhe Tum Mil Gaye</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Ek Nazar</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Bhagya Lakshmi</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212105900 +0600" channel="ZEETV.tv">
+    <title lang="bn">Ek Nazar</title>
+  </programme>
+  <programme start="20260212105900 +0600" stop="20260212113000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Jagriti - Ek Nayi Subah</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Kundali Bhagya</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212130000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Bhagya Lakshmi</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="ZEETV.tv">
+    <title lang="bn">Vasudha</title>
+  </programme>
   <channel id="STARBHARATHD">
     <display-name>STAR BHARAT HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/b/b9/Star_bharat_hd_clean.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211193000 +0600" channel="STARBHARATHD">
-    <title lang="bn">Savdhaan India - India Fights Back</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211203000 +0600" channel="STARBHARATHD">
-    <title lang="bn">Paapnaashini Ganga</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="STARBHARATHD">
-    <title lang="bn">Ramayan</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="STARBHARATHD">
-    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="STARBHARATHD">
-    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="STARBHARATHD">
     <title lang="bn">Savdhaan India: Naya Adhyay</title>
   </programme>
@@ -1836,28 +1821,28 @@
   <programme start="20260212163000 +0600" stop="20260212173000 +0600" channel="STARBHARATHD">
     <title lang="bn">Savdhaan India - India Fights Back</title>
   </programme>
-  <programme start="20260212173000 +0600" stop="20260212180000 +0600" channel="STARBHARATHD">
+  <programme start="20260212173000 +0600" stop="20260212183000 +0600" channel="STARBHARATHD">
     <title lang="bn">Savdhaan India - India Fights Back</title>
+  </programme>
+  <programme start="20260212183000 +0600" stop="20260212193000 +0600" channel="STARBHARATHD">
+    <title lang="bn">Savdhaan India - India Fights Back</title>
+  </programme>
+  <programme start="20260212193000 +0600" stop="20260212203000 +0600" channel="STARBHARATHD">
+    <title lang="bn">Paapnaashini Ganga</title>
+  </programme>
+  <programme start="20260212203000 +0600" stop="20260212213000 +0600" channel="STARBHARATHD">
+    <title lang="bn">Ramayan</title>
+  </programme>
+  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="STARBHARATHD">
+    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
+  </programme>
+  <programme start="20260212220000 +0600" stop="20260212223000 +0600" channel="STARBHARATHD">
+    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
   </programme>
   <channel id="STARBHARAT">
     <display-name>STAR BHARAT</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/7/7b/Star_Bharat_2022.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211193000 +0600" channel="STARBHARAT">
-    <title lang="bn">Savdhaan India - India Fights Back</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211203000 +0600" channel="STARBHARAT">
-    <title lang="bn">Paapnaashini Ganga</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="STARBHARAT">
-    <title lang="bn">Ramayan</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="STARBHARAT">
-    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="STARBHARAT">
-    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="STARBHARAT">
     <title lang="bn">Savdhaan India: Naya Adhyay</title>
   </programme>
@@ -1930,41 +1915,29 @@
   <programme start="20260212163000 +0600" stop="20260212173000 +0600" channel="STARBHARAT">
     <title lang="bn">Savdhaan India - India Fights Back</title>
   </programme>
-  <programme start="20260212173000 +0600" stop="20260212180000 +0600" channel="STARBHARAT">
+  <programme start="20260212173000 +0600" stop="20260212183000 +0600" channel="STARBHARAT">
     <title lang="bn">Savdhaan India - India Fights Back</title>
+  </programme>
+  <programme start="20260212183000 +0600" stop="20260212193000 +0600" channel="STARBHARAT">
+    <title lang="bn">Savdhaan India - India Fights Back</title>
+  </programme>
+  <programme start="20260212193000 +0600" stop="20260212203000 +0600" channel="STARBHARAT">
+    <title lang="bn">Paapnaashini Ganga</title>
+  </programme>
+  <programme start="20260212203000 +0600" stop="20260212213000 +0600" channel="STARBHARAT">
+    <title lang="bn">Ramayan</title>
+  </programme>
+  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="STARBHARAT">
+    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
+  </programme>
+  <programme start="20260212220000 +0600" stop="20260212223000 +0600" channel="STARBHARAT">
+    <title lang="bn">Kya Haal, Mr. Paanchal?</title>
   </programme>
   <channel id="EpicTV.in">
     <display-name>Epic TV</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/4/41/Epic_TV_%282021%29.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="EpicTV.in">
-    <title lang="bn">Indipedia</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="EpicTV.in">
-    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211195500 +0600" channel="EpicTV.in">
-    <title lang="bn">Epic Tales Of Love</title>
-  </programme>
-  <programme start="20260211195500 +0600" stop="20260211203000 +0600" channel="EpicTV.in">
-    <title lang="bn">Air Battle 1971 Indo-Pakistani (Srinagar)</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="EpicTV.in">
-    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211212500 +0600" channel="EpicTV.in">
-    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
-  </programme>
-  <programme start="20260211212500 +0600" stop="20260211215000 +0600" channel="EpicTV.in">
-    <title lang="bn">Itihaas Ki Thaali Se</title>
-  </programme>
-  <programme start="20260211215000 +0600" stop="20260211222000 +0600" channel="EpicTV.in">
-    <title lang="bn">Destruction Decoded</title>
-  </programme>
-  <programme start="20260211222000 +0600" stop="20260211225000 +0600" channel="EpicTV.in">
-    <title lang="bn">Bharat Ratna</title>
-  </programme>
-  <programme start="20260211225000 +0600" stop="20260211232500 +0600" channel="EpicTV.in">
+  <programme start="20260211223000 +0600" stop="20260211232500 +0600" channel="EpicTV.in">
     <title lang="bn">The Fanatics</title>
   </programme>
   <programme start="20260211232500 +0600" stop="20260212001000 +0600" channel="EpicTV.in">
@@ -2027,43 +2000,37 @@
   <programme start="20260212070000 +0600" stop="20260212073000 +0600" channel="EpicTV.in">
     <title lang="bn">Parikrama</title>
   </programme>
+  <programme start="20260212073000 +0600" stop="20260212075500 +0600" channel="EpicTV.in">
+    <title lang="bn">Epic Khoj</title>
+  </programme>
+  <programme start="20260212075500 +0600" stop="20260212080000 +0600" channel="EpicTV.in">
+    <title lang="bn">Ekaant</title>
+  </programme>
+  <programme start="20260212080000 +0600" stop="20260212082500 +0600" channel="EpicTV.in">
+    <title lang="bn">Safarnama</title>
+  </programme>
+  <programme start="20260212082500 +0600" stop="20260212090500 +0600" channel="EpicTV.in">
+    <title lang="bn">Regiment Diaries</title>
+  </programme>
+  <programme start="20260212090500 +0600" stop="20260212093500 +0600" channel="EpicTV.in">
+    <title lang="bn">Indipedia</title>
+  </programme>
+  <programme start="20260212093500 +0600" stop="20260212100000 +0600" channel="EpicTV.in">
+    <title lang="bn">Jugaad Mania</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212104000 +0600" channel="EpicTV.in">
+    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
+  </programme>
+  <programme start="20260212104000 +0600" stop="20260212111000 +0600" channel="EpicTV.in">
+    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
+  </programme>
+  <programme start="20260212111000 +0600" stop="20260212113500 +0600" channel="EpicTV.in">
+    <title lang="bn">Raja Rasoi Aur Andaaz Anokha</title>
+  </programme>
   <channel id="E24.in">
     <display-name>E24</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/4/48/E24_new.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="E24.in">
-    <title lang="bn">Karare Hits</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="E24.in">
-    <title lang="bn">Karare Hits</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="E24.in">
-    <title lang="bn">Bollywood Top - 10</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211201000 +0600" channel="E24.in">
-    <title lang="bn">Insta Stalker</title>
-  </programme>
-  <programme start="20260211201000 +0600" stop="20260211202000 +0600" channel="E24.in">
-    <title lang="bn">E - Review</title>
-  </programme>
-  <programme start="20260211202000 +0600" stop="20260211203000 +0600" channel="E24.in">
-    <title lang="bn">Star Interview-E-Cafe</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="E24.in">
-    <title lang="bn">Hot Hits</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="E24.in">
-    <title lang="bn">Bollywood Reporter</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="E24.in">
-    <title lang="bn">Mast Melodies</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="E24.in">
-    <title lang="bn">Mast Melodies</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="E24.in">
-    <title lang="bn">Party On My Mind</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="E24.in">
     <title lang="bn">Party On My Mind</title>
   </programme>
@@ -2121,40 +2088,43 @@
   <programme start="20260212080000 +0600" stop="20260212083000 +0600" channel="E24.in">
     <title lang="bn">Karare Hits</title>
   </programme>
+  <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="E24.in">
+    <title lang="bn">Bhangra Junction</title>
+  </programme>
+  <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="E24.in">
+    <title lang="bn">Bhangra Junction</title>
+  </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="E24.in">
+    <title lang="bn">Bhangra Junction</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="E24.in">
+    <title lang="bn">Bhangra Junction</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="E24.in">
+    <title lang="bn">Hot Hits</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="E24.in">
+    <title lang="bn">Hot Hits</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="E24.in">
+    <title lang="bn">Hot Hits</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="E24.in">
+    <title lang="bn">Hot Hits</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="E24.in">
+    <title lang="bn">Bollywood Top - 10</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212131000 +0600" channel="E24.in">
+    <title lang="bn">Insta Stalker</title>
+  </programme>
+  <programme start="20260212131000 +0600" stop="20260212132000 +0600" channel="E24.in">
+    <title lang="bn">E - Review</title>
+  </programme>
   <channel id="DDNational.in@HD">
     <display-name>DD National HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2a/Ddnational2023.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Gaon Se With Neelesh Mishra</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Kaamdhenu Gaumata</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211195500 +0600" channel="DDNational.in@HD">
-    <title lang="bn">SOS</title>
-  </programme>
-  <programme start="20260211195500 +0600" stop="20260211200000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Kakbhushandi Ramayan</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Himachal Se Olympics Tak</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Rajni 2.0</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Sasural Jhunki Ka</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Devanchal Ki Prem Katha</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Ek Grah Pravesh Aisa Bhi</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="DDNational.in@HD">
-    <title lang="bn">Cyber Crime</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="DDNational.in@HD">
     <title lang="bn">Jaanki</title>
   </programme>
@@ -2215,37 +2185,40 @@
   <programme start="20260212160000 +0600" stop="20260212163000 +0600" channel="DDNational.in@HD">
     <title lang="bn">Chitrahar / Filler</title>
   </programme>
+  <programme start="20260212163000 +0600" stop="20260212170000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Malgudi Days</title>
+  </programme>
+  <programme start="20260212170000 +0600" stop="20260212173000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Circus</title>
+  </programme>
+  <programme start="20260212173000 +0600" stop="20260212180000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Awakening India</title>
+  </programme>
+  <programme start="20260212180000 +0600" stop="20260212183000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Chitrahar</title>
+  </programme>
+  <programme start="20260212183000 +0600" stop="20260212190000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Gaon Se With Neelesh Mishra</title>
+  </programme>
+  <programme start="20260212190000 +0600" stop="20260212193000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Kaamdhenu Gaumata</title>
+  </programme>
+  <programme start="20260212193000 +0600" stop="20260212195500 +0600" channel="DDNational.in@HD">
+    <title lang="bn">SOS</title>
+  </programme>
+  <programme start="20260212195500 +0600" stop="20260212200000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Kakbhushandi Ramayan</title>
+  </programme>
+  <programme start="20260212200000 +0600" stop="20260212203000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Himachal Se Olympics Tak</title>
+  </programme>
+  <programme start="20260212203000 +0600" stop="20260212210000 +0600" channel="DDNational.in@HD">
+    <title lang="bn">Rajni 2.0</title>
+  </programme>
   <channel id="AndTV.in">
     <display-name>&amp;TV HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/4/4c/%26TV_HD_%282025%29.svg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="AndTV.in">
-    <title lang="bn">Baal Shiv</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="AndTV.in">
-    <title lang="bn">Baal Shiv</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211201500 +0600" channel="AndTV.in">
-    <title lang="bn">Paramavatar Shri Krishna</title>
-  </programme>
-  <programme start="20260211201500 +0600" stop="20260211204500 +0600" channel="AndTV.in">
-    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
-  </programme>
-  <programme start="20260211204500 +0600" stop="20260211210400 +0600" channel="AndTV.in">
-    <title lang="bn">Bhabiji Ghar Par Hai 2.0</title>
-  </programme>
-  <programme start="20260211210400 +0600" stop="20260211213000 +0600" channel="AndTV.in">
-    <title lang="bn">Bhabiji Ghar Par Hai 2.0</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211215700 +0600" channel="AndTV.in">
-    <title lang="bn">Gharwali Pedwali</title>
-  </programme>
-  <programme start="20260211215700 +0600" stop="20260211222700 +0600" channel="AndTV.in">
-    <title lang="bn">Happu Ki Ultan Paltan</title>
-  </programme>
-  <programme start="20260211222700 +0600" stop="20260211225800 +0600" channel="AndTV.in">
-    <title lang="bn">Gharwali Pedwali</title>
-  </programme>
   <programme start="20260211225800 +0600" stop="20260211232800 +0600" channel="AndTV.in">
     <title lang="bn">Bhabiji Ghar Par Hai 2.0</title>
   </programme>
@@ -2309,37 +2282,37 @@
   <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="AndTV.in">
     <title lang="bn">Bhabi ji Ghar Par Hai!</title>
   </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
+  <programme start="20260212140000 +0600" stop="20260212143000 +0600" channel="AndTV.in">
+    <title lang="bn">Bhabi ji Ghar Par Hai!</title>
+  </programme>
   <channel id="starjalsha.in">
     <display-name>Star Jalsha</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="starjalsha.in">
-    <title lang="bn">Compass</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="starjalsha.in">
-    <title lang="bn">Lokkhi Jhnapi</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="starjalsha.in">
-    <title lang="bn">O Mor Dorodiya</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="starjalsha.in">
-    <title lang="bn">Rangamati Tirandaj</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="starjalsha.in">
-    <title lang="bn">Parashuram</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="starjalsha.in">
-    <title lang="bn">Professor Bidya Banerjee</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="starjalsha.in">
-    <title lang="bn">Chiroshokha</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="starjalsha.in">
-    <title lang="bn">Milon Hobe Kotodine</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="starjalsha.in">
-    <title lang="bn">Grihapravesh</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="starjalsha.in">
     <title lang="bn">Shubho Bibaho</title>
   </programme>
@@ -2353,18 +2326,6 @@
     <display-name>Colors Bangla HD</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg"/>
   </channel>
-  <programme start="20260211180000 +0600" stop="20260211190000 +0600" channel="colorsBangla.in">
-    <title lang="bn">Sadhak Bamakhyapa</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211203000 +0600" channel="colorsBangla.in">
-    <title lang="bn">Jai Jagannath</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="colorsBangla.in">
-    <title lang="bn">Behula</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211223000 +0600" channel="colorsBangla.in">
-    <title lang="bn">Shiv Shakti</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="colorsBangla.in">
     <title lang="bn">Nishir Daak</title>
   </programme>
@@ -2389,19 +2350,31 @@
   <programme start="20260212030000 +0600" stop="20260212040000 +0600" channel="colorsBangla.in">
     <title lang="bn">Jai Jagannath</title>
   </programme>
-  <programme start="20260212040000 +0600" stop="20260212050000 +0600" channel="colorsBangla.in">
+  <programme start="20260212040000 +0600" stop="20260212043000 +0600" channel="colorsBangla.in">
     <title lang="bn">Nishir Daak</title>
   </programme>
-  <programme start="20260212050000 +0600" stop="20260212060000 +0600" channel="colorsBangla.in">
+  <programme start="20260212043000 +0600" stop="20260212050000 +0600" channel="colorsBangla.in">
+    <title lang="bn">Nishir Daak</title>
+  </programme>
+  <programme start="20260212050000 +0600" stop="20260212053000 +0600" channel="colorsBangla.in">
     <title lang="bn">Sadhak Bamakhyapa</title>
   </programme>
-  <programme start="20260212060000 +0600" stop="20260212070000 +0600" channel="colorsBangla.in">
+  <programme start="20260212053000 +0600" stop="20260212060000 +0600" channel="colorsBangla.in">
+    <title lang="bn">Sadhak Bamakhyapa</title>
+  </programme>
+  <programme start="20260212060000 +0600" stop="20260212063000 +0600" channel="colorsBangla.in">
+    <title lang="bn">Behula</title>
+  </programme>
+  <programme start="20260212063000 +0600" stop="20260212070000 +0600" channel="colorsBangla.in">
     <title lang="bn">Behula</title>
   </programme>
   <programme start="20260212070000 +0600" stop="20260212073000 +0600" channel="colorsBangla.in">
     <title lang="bn">Bible Study</title>
   </programme>
-  <programme start="20260212073000 +0600" stop="20260212083000 +0600" channel="colorsBangla.in">
+  <programme start="20260212073000 +0600" stop="20260212073100 +0600" channel="colorsBangla.in">
+    <title lang="bn">Bible Study</title>
+  </programme>
+  <programme start="20260212073100 +0600" stop="20260212083000 +0600" channel="colorsBangla.in">
     <title lang="bn">Sadhak Bamakhyapa</title>
   </programme>
   <programme start="20260212083000 +0600" stop="20260212093000 +0600" channel="colorsBangla.in">
@@ -2447,27 +2420,6 @@
     <display-name>Zee Bangla TV</display-name>
     <icon src="http://openboxv8s.com/india/zee_bangla.jpg"/>
   </channel>
-  <programme start="20260211185600 +0600" stop="20260211192700 +0600" channel="zeebangla.in">
-    <title lang="bn">Chirodini Tumi Je Amar</title>
-  </programme>
-  <programme start="20260211192700 +0600" stop="20260211195800 +0600" channel="zeebangla.in">
-    <title lang="bn">Besh Korechi Prem Korechi</title>
-  </programme>
-  <programme start="20260211195800 +0600" stop="20260211202900 +0600" channel="zeebangla.in">
-    <title lang="bn">Tare Dhori Dhori Mone Kori</title>
-  </programme>
-  <programme start="20260211202900 +0600" stop="20260211210000 +0600" channel="zeebangla.in">
-    <title lang="bn">Parineeta</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="zeebangla.in">
-    <title lang="bn">Amader Dadamoni</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="zeebangla.in">
-    <title lang="bn">Joyar Bhata</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211224700 +0600" channel="zeebangla.in">
-    <title lang="bn">Kone Dekha Alo</title>
-  </programme>
   <programme start="20260211224700 +0600" stop="20260211233000 +0600" channel="zeebangla.in">
     <title lang="bn">Anandi</title>
   </programme>
@@ -2534,40 +2486,34 @@
   <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="zeebangla.in">
     <title lang="bn">Joyar Bhata</title>
   </programme>
-  <programme start="20260212110000 +0600" stop="20260212112900 +0600" channel="zeebangla.in">
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="zeebangla.in">
     <title lang="bn">Parineeta</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="zeebangla.in">
+    <title lang="bn">Tui Amar Hero</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="zeebangla.in">
+    <title lang="bn">Kusum</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="zeebangla.in">
+    <title lang="bn">Tulsi Dhamer Naru Gopal</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="zeebangla.in">
+    <title lang="bn">Kone Dekha Alo</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="zeebangla.in">
+    <title lang="bn">Besh Korechi Prem Korechi</title>
+  </programme>
+  <programme start="20260212140000 +0600" stop="20260212142900 +0600" channel="zeebangla.in">
+    <title lang="bn">Chirodini Tumi Je Amar</title>
+  </programme>
+  <programme start="20260212142900 +0600" stop="20260212145900 +0600" channel="zeebangla.in">
+    <title lang="bn">Tui Amar Hero</title>
   </programme>
   <channel id="indiatoday.in">
     <display-name>India Today</display-name>
     <icon src="https://images.seeklogo.com/logo-png/44/1/india-today-logo-png_seeklogo-440312.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="indiatoday.in">
-    <title lang="bn">Super 6</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="indiatoday.in">
-    <title lang="bn">Super 6</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="indiatoday.in">
-    <title lang="bn">To the Point</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="indiatoday.in">
-    <title lang="bn">To the Point</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="indiatoday.in">
-    <title lang="bn">India First</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="indiatoday.in">
-    <title lang="bn">India First</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="indiatoday.in">
-    <title lang="bn">News Today</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="indiatoday.in">
-    <title lang="bn">News Today</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="indiatoday.in">
-    <title lang="bn">Newstrack</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="indiatoday.in">
     <title lang="bn">World Today</title>
   </programme>
@@ -2631,37 +2577,37 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="indiatoday.in">
     <title lang="bn">First Up</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="indiatoday.in">
+    <title lang="bn">Bt: Market Open</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="indiatoday.in">
+    <title lang="bn">Burning Question</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="indiatoday.in">
+    <title lang="bn">India's Agenda</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="indiatoday.in">
+    <title lang="bn">India's Agenda</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="indiatoday.in">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="indiatoday.in">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="indiatoday.in">
+    <title lang="bn">Lunch Break</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="indiatoday.in">
+    <title lang="bn">Lunch Break</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="indiatoday.in">
+    <title lang="bn">So South</title>
+  </programme>
   <channel id="ndtvenglish">
     <display-name>NDTV English</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="ndtvenglish">
-    <title lang="bn">Nationwide@6</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="ndtvenglish">
-    <title lang="bn">Nationwide@6</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="ndtvenglish">
-    <title lang="bn">Southern View</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="ndtvenglish">
-    <title lang="bn">Southern View</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="ndtvenglish">
-    <title lang="bn">India Matters</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="ndtvenglish">
-    <title lang="bn">India Matters</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="ndtvenglish">
-    <title lang="bn">The Buck Stops Here</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="ndtvenglish">
-    <title lang="bn">The Buck Stops Here</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="ndtvenglish">
-    <title lang="bn">Left, Right &amp; Centre</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="ndtvenglish">
     <title lang="bn">News Night</title>
   </programme>
@@ -2725,37 +2671,37 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="ndtvenglish">
     <title lang="bn">The Breakfast Show</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="ndtvenglish">
+    <title lang="bn">News</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="ndtvenglish">
+    <title lang="bn">Breaking Ground</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="ndtvenglish">
+    <title lang="bn">Breaking Ground</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="ndtvenglish">
+    <title lang="bn">Breaking Ground</title>
+  </programme>
   <channel id="ndtvindia">
     <display-name>NDTV India</display-name>
     <icon src="https://logotyp.us/file/ndtv.svg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="ndtvindia">
-    <title lang="bn">Sawaal India Ka</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="ndtvindia">
-    <title lang="bn">Sawaal India Ka</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211200000 +0600" channel="ndtvindia">
-    <title lang="bn">News Headquarter</title>
-  </programme>
-  <programme start="20260211200000 +0600" stop="20260211203000 +0600" channel="ndtvindia">
-    <title lang="bn">News Headquarter</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="ndtvindia">
-    <title lang="bn">MIC On Hai</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="ndtvindia">
-    <title lang="bn">MIC On Hai</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211220000 +0600" channel="ndtvindia">
-    <title lang="bn">Bharat Ki Baat Batata Hoon</title>
-  </programme>
-  <programme start="20260211220000 +0600" stop="20260211223000 +0600" channel="ndtvindia">
-    <title lang="bn">Bharat Ki Baat Batata Hoon</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="ndtvindia">
-    <title lang="bn">Kachehri</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="ndtvindia">
     <title lang="bn">Kachehri</title>
   </programme>
@@ -2819,22 +2765,37 @@
   <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="ndtvindia">
     <title lang="bn">Namaste India</title>
   </programme>
+  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="ndtvindia">
+    <title lang="bn">Namaste India</title>
+  </programme>
+  <programme start="20260212100000 +0600" stop="20260212103000 +0600" channel="ndtvindia">
+    <title lang="bn">Namaste India</title>
+  </programme>
+  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="ndtvindia">
+    <title lang="bn">Agenda India Ka</title>
+  </programme>
+  <programme start="20260212110000 +0600" stop="20260212113000 +0600" channel="ndtvindia">
+    <title lang="bn">1 Minute Report</title>
+  </programme>
+  <programme start="20260212113000 +0600" stop="20260212120000 +0600" channel="ndtvindia">
+    <title lang="bn">11 Ki Baat</title>
+  </programme>
+  <programme start="20260212120000 +0600" stop="20260212123000 +0600" channel="ndtvindia">
+    <title lang="bn">Super Shatak</title>
+  </programme>
+  <programme start="20260212123000 +0600" stop="20260212130000 +0600" channel="ndtvindia">
+    <title lang="bn">Dopeher Damdar</title>
+  </programme>
+  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="ndtvindia">
+    <title lang="bn">Dopeher Damdar</title>
+  </programme>
+  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="ndtvindia">
+    <title lang="bn">Dopeher Damdar</title>
+  </programme>
   <channel id="starsports1hd.in">
     <display-name>Star Sports 1 HD</display-name>
     <icon src="hhttp://openboxv8s.com/india/star_sports_in_1_hindi.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211192000 +0600" channel="starsports1hd.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Link Show</title>
-  </programme>
-  <programme start="20260211192000 +0600" stop="20260211210000 +0600" channel="starsports1hd.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="starsports1hd.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Mid Show</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211230000 +0600" channel="starsports1hd.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="starsports1hd.in">
     <title lang="bn">Live-India vs West Indies Test 2025-Amul Cricket Post S...</title>
   </programme>
@@ -2893,18 +2854,6 @@
     <display-name>Star Sports 1 Hindi</display-name>
     <icon src="https://static.epg.best/cn/StarSports1.cn.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211192000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Link Show</title>
-  </programme>
-  <programme start="20260211192000 +0600" stop="20260211210000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Mid Show</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211230000 +0600" channel="starsports1hindi.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="starsports1hindi.in">
     <title lang="bn">Live-India vs West Indies Test 2025-Amul Cricket Post S...</title>
   </programme>
@@ -2963,18 +2912,6 @@
     <display-name>Star Sports Tamil 1</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/f/fb/Star_Sports_Tamil.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211192000 +0600" channel="starsports.tamil">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Link Show</title>
-  </programme>
-  <programme start="20260211192000 +0600" stop="20260211210000 +0600" channel="starsports.tamil">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="starsports.tamil">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Mid Show</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211230000 +0600" channel="starsports.tamil">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="starsports.tamil">
     <title lang="bn">Live-ICC Men's T20 World Cup 2026-Amul Cricket Post Sho...</title>
   </programme>
@@ -3033,18 +2970,6 @@
     <display-name>Star Sports 2 4K</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/c/c3/SS2_Crop.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211192000 +0600" channel="starsports2hd.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Link Show</title>
-  </programme>
-  <programme start="20260211192000 +0600" stop="20260211210000 +0600" channel="starsports2hd.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211213000 +0600" channel="starsports2hd.in">
-    <title lang="bn">Live-ICC Men's T20 World Cup-Amul Cricket Mid Show</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211230000 +0600" channel="starsports2hd.in">
-    <title lang="bn">Live-England vs. West Indies-2026 ICC Men's T20 Cricket...</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260211233000 +0600" channel="starsports2hd.in">
     <title lang="bn">Live-India vs West Indies Test 2025-Amul Cricket Post S...</title>
   </programme>
@@ -3103,9 +3028,6 @@
     <display-name>Star Sports 3 HD</display-name>
     <icon src="https://i.pinimg.com/originals/c7/5d/56/c75d563b3cda837cd3fb1ce5ff5089cd.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211213000 +0600" channel="starsports3.in">
-    <title lang="bn">Sports Programme</title>
-  </programme>
   <programme start="20260211213000 +0600" stop="20260212003000 +0600" channel="starsports3.in">
     <title lang="bn">Sports Programme</title>
   </programme>
@@ -3158,9 +3080,6 @@
     <display-name>Star Sports Select 1 HD</display-name>
     <icon src="https://static.epg.best/in/StarSportsSelect1.in.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211213000 +0600" channel="starsportsselect1.in">
-    <title lang="bn">Sports Programme</title>
-  </programme>
   <programme start="20260211213000 +0600" stop="20260212003000 +0600" channel="starsportsselect1.in">
     <title lang="bn">Sports Programme</title>
   </programme>
@@ -3213,9 +3132,6 @@
     <display-name>Star Sports Select 2 HD</display-name>
     <icon src="http://openboxv8s.com/india/star_sports2_in.jpg"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211213000 +0600" channel="starsportsselect2.in">
-    <title lang="bn">Sports Programme</title>
-  </programme>
   <programme start="20260211213000 +0600" stop="20260212003000 +0600" channel="starsportsselect2.in">
     <title lang="bn">Sports Programme</title>
   </programme>
@@ -3268,35 +3184,29 @@
     <display-name>Sony Ten 1 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN1.in.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="sonyten1.in">
-    <title lang="bn">1st T20 :England v India-Women's T20 Cricket</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211193000 +0600" channel="sonyten1.in">
-    <title lang="bn">3rd T20: Sri Lanka vs. England-T20 Cricket</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211203000 +0600" channel="sonyten1.in">
-    <title lang="bn">England vs. India, 2nd ODI-Cricket Highlights</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="sonyten1.in">
-    <title lang="bn">Coca-Cola Cup 1998 6th Match: Australia v India-One-Day...</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211223000 +0600" channel="sonyten1.in">
-    <title lang="bn">2025: India A vs. United Arab Emirates-Asia Cup Rising...</title>
-  </programme>
-  <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="sonyten1.in">
-    <title lang="bn">3rd T20: Sri Lanka vs. England-T20 Cricket</title>
-  </programme>
-  <programme start="20260211230000 +0600" stop="20260212010000 +0600" channel="sonyten1.in">
+  <programme start="20260211230000 +0600" stop="20260212003000 +0600" channel="sonyten1.in">
     <title lang="bn">Live-Real Betis A U19 vs. Tottenham Hotspur U19-UEFA Yo...</title>
   </programme>
-  <programme start="20260212010000 +0600" stop="20260212020000 +0600" channel="sonyten1.in">
+  <programme start="20260212003000 +0600" stop="20260212010000 +0600" channel="sonyten1.in">
+    <title lang="bn">2nd T20: England v India-Women's T20 Cricket</title>
+  </programme>
+  <programme start="20260212010000 +0600" stop="20260212013000 +0600" channel="sonyten1.in">
     <title lang="bn">2025: Super Four: Pakistan vs. Sri Lanka-Asia Cup Highl...</title>
+  </programme>
+  <programme start="20260212013000 +0600" stop="20260212020000 +0600" channel="sonyten1.in">
+    <title lang="bn">2025: Super Four: India vs. Bangladesh-Asia Cup Highlig...</title>
   </programme>
   <programme start="20260212020000 +0600" stop="20260212023000 +0600" channel="sonyten1.in">
     <title lang="bn">4th T20: England v India-Women's T20 Cricket</title>
   </programme>
-  <programme start="20260212023000 +0600" stop="20260212043000 +0600" channel="sonyten1.in">
+  <programme start="20260212023000 +0600" stop="20260212023100 +0600" channel="sonyten1.in">
+    <title lang="bn">1st ODI: England v India-Women's One-Day International...</title>
+  </programme>
+  <programme start="20260212023100 +0600" stop="20260212030000 +0600" channel="sonyten1.in">
     <title lang="bn">4th ODI: Sri Lanka vs India, 2008-One-Day International...</title>
+  </programme>
+  <programme start="20260212030000 +0600" stop="20260212043000 +0600" channel="sonyten1.in">
+    <title lang="bn">2nd Test: England vs India-Test Cricket</title>
   </programme>
   <programme start="20260212043000 +0600" stop="20260212053000 +0600" channel="sonyten1.in">
     <title lang="bn">England v Pakistan: 3rd ODI-One-Day International Crick...</title>
@@ -3355,22 +3265,19 @@
   <programme start="20260212203000 +0600" stop="20260212213000 +0600" channel="sonyten1.in">
     <title lang="bn">Coca-Cola Cup 1998 Final: Australia v India-One-Day Int...</title>
   </programme>
-  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="sonyten1.in">
+  <programme start="20260212213000 +0600" stop="20260212223000 +0600" channel="sonyten1.in">
     <title lang="bn">2025: India A vs. Oman-Asia Cup Rising Stars Cricket</title>
+  </programme>
+  <programme start="20260212223000 +0600" stop="20260212233000 +0600" channel="sonyten1.in">
+    <title lang="bn">Review Show-2026 Australian Open Tennis</title>
+  </programme>
+  <programme start="20260212233000 +0600" stop="20260213000000 +0600" channel="sonyten1.in">
+    <title lang="bn">New Zealand v India: 1st ODI-One-Day International Cric...</title>
   </programme>
   <channel id="sonyten2.in">
     <display-name>Sony Ten 2 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN2.in.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="sonyten2.in">
-    <title lang="bn">WWE: EVOLVE</title>
-  </programme>
-  <programme start="20260211190000 +0600" stop="20260211210000 +0600" channel="sonyten2.in">
-    <title lang="bn">2025-26 : Charlton vs Chelsea-FA Cup Highlights</title>
-  </programme>
-  <programme start="20260211210000 +0600" stop="20260211230000 +0600" channel="sonyten2.in">
-    <title lang="bn">Benfica vs. Real Madrid-UEFA Champions League Soccer</title>
-  </programme>
   <programme start="20260211230000 +0600" stop="20260212003000 +0600" channel="sonyten2.in">
     <title lang="bn">2025-26 : Charlton vs Chelsea-FA Cup Highlights</title>
   </programme>
@@ -3389,13 +3296,22 @@
   <programme start="20260212050000 +0600" stop="20260212063000 +0600" channel="sonyten2.in">
     <title lang="bn">Real Madrid U19 vs. Olympique de Marseille U19-UEFA You...</title>
   </programme>
-  <programme start="20260212063000 +0600" stop="20260212073000 +0600" channel="sonyten2.in">
+  <programme start="20260212063000 +0600" stop="20260212070000 +0600" channel="sonyten2.in">
     <title lang="bn">Bundesliga Highlights</title>
   </programme>
-  <programme start="20260212073000 +0600" stop="20260212083000 +0600" channel="sonyten2.in">
+  <programme start="20260212070000 +0600" stop="20260212073000 +0600" channel="sonyten2.in">
+    <title lang="bn">UCL Magazine</title>
+  </programme>
+  <programme start="20260212073000 +0600" stop="20260212080000 +0600" channel="sonyten2.in">
     <title lang="bn">UFC - Fight O'Clock Conor McGregor</title>
   </programme>
-  <programme start="20260212083000 +0600" stop="20260212093000 +0600" channel="sonyten2.in">
+  <programme start="20260212080000 +0600" stop="20260212083000 +0600" channel="sonyten2.in">
+    <title lang="bn">UFC - Fight O'Clock Conor McGregor</title>
+  </programme>
+  <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="sonyten2.in">
+    <title lang="bn">WWE: EVOLVE</title>
+  </programme>
+  <programme start="20260212090000 +0600" stop="20260212093000 +0600" channel="sonyten2.in">
     <title lang="bn">WWE: EVOLVE</title>
   </programme>
   <programme start="20260212093000 +0600" stop="20260212113000 +0600" channel="sonyten2.in">
@@ -3456,29 +3372,23 @@
     <display-name>Sony Ten 3 HD</display-name>
     <icon src="https://static.epg.best/in/SonyTEN3.in.png"/>
   </channel>
-  <programme start="20260211183000 +0600" stop="20260211193000 +0600" channel="sonyten3.in">
-    <title lang="bn">2022: Pakistan vs. India-Asia Cup Highlights</title>
-  </programme>
-  <programme start="20260211193000 +0600" stop="20260211203000 +0600" channel="sonyten3.in">
-    <title lang="bn">Twenty20 Cricket</title>
-  </programme>
-  <programme start="20260211203000 +0600" stop="20260211213000 +0600" channel="sonyten3.in">
-    <title lang="bn">UFC 325: Volkanovski vs Lopes 2</title>
-  </programme>
-  <programme start="20260211213000 +0600" stop="20260211223000 +0600" channel="sonyten3.in">
-    <title lang="bn">Women's Final-2026 Australian Open Tennis</title>
-  </programme>
   <programme start="20260211223000 +0600" stop="20260211233000 +0600" channel="sonyten3.in">
     <title lang="bn">2025: Super Four: India vs. Pakistan-Asia Cup Highlight...</title>
   </programme>
   <programme start="20260211233000 +0600" stop="20260212003000 +0600" channel="sonyten3.in">
     <title lang="bn">Twenty20 Cricket</title>
   </programme>
-  <programme start="20260212003000 +0600" stop="20260212013000 +0600" channel="sonyten3.in">
+  <programme start="20260212003000 +0600" stop="20260212010000 +0600" channel="sonyten3.in">
     <title lang="bn">2018: Pakistan vs. India-Asia Cup Highlights</title>
   </programme>
-  <programme start="20260212013000 +0600" stop="20260212023000 +0600" channel="sonyten3.in">
+  <programme start="20260212010000 +0600" stop="20260212013000 +0600" channel="sonyten3.in">
+    <title lang="bn">2023: Pakistan vs. India-Asia Cup Highlights</title>
+  </programme>
+  <programme start="20260212013000 +0600" stop="20260212020000 +0600" channel="sonyten3.in">
     <title lang="bn">3rd T20: Sri Lanka v India-Twenty20 Cricket</title>
+  </programme>
+  <programme start="20260212020000 +0600" stop="20260212023000 +0600" channel="sonyten3.in">
+    <title lang="bn">Twenty20 Cricket</title>
   </programme>
   <programme start="20260212023000 +0600" stop="20260212043000 +0600" channel="sonyten3.in">
     <title lang="bn">3rd Test: England vs. India-Test Cricket</title>
@@ -3543,8 +3453,14 @@
   <programme start="20260212203000 +0600" stop="20260212213000 +0600" channel="sonyten3.in">
     <title lang="bn">UFC 273:Volkanovski vs The Korean Zombie</title>
   </programme>
-  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="sonyten3.in">
+  <programme start="20260212213000 +0600" stop="20260212223000 +0600" channel="sonyten3.in">
     <title lang="bn">One-Day International Cricket</title>
+  </programme>
+  <programme start="20260212223000 +0600" stop="20260212233000 +0600" channel="sonyten3.in">
+    <title lang="bn">2025: Super Four: Pakistan vs. Sri Lanka-Asia Cup Highl...</title>
+  </programme>
+  <programme start="20260212233000 +0600" stop="20260213000000 +0600" channel="sonyten3.in">
+    <title lang="bn">England v India: 1st ODI-One-Day International Cricket</title>
   </programme>
   <channel id="RepublicTV.in">
     <display-name>NEWS | Republic TV</display-name>
@@ -4243,7 +4159,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260211111500 +0600" stop="20260211113000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Interview</title>
   </programme>
   <programme start="20260211113000 +0600" stop="20260211120000 +0600" channel="dwnews">
     <title lang="bn">In Good Shape</title>
@@ -4297,7 +4213,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260211181500 +0600" stop="20260211183000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260211183000 +0600" stop="20260211190000 +0600" channel="dwnews">
     <title lang="bn">Eco Africa The Environment Magazine</title>
@@ -4315,7 +4231,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260211201500 +0600" stop="20260211203000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260211203000 +0600" stop="20260211210000 +0600" channel="dwnews">
     <title lang="bn">Eco India The Environment Magazine</title>
@@ -4330,7 +4246,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260211221500 +0600" stop="20260211223000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260211223000 +0600" stop="20260211230000 +0600" channel="dwnews">
     <title lang="bn">Close up</title>
@@ -4360,7 +4276,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260212020200 +0600" stop="20260212021500 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260212021500 +0600" stop="20260212030000 +0600" channel="dwnews">
     <title lang="bn">The Antilles - In the Grip of Volcanoes</title>
@@ -4378,7 +4294,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260212041500 +0600" stop="20260212043000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260212043000 +0600" stop="20260212050000 +0600" channel="dwnews">
     <title lang="bn">Focus on Europe Spotlight on People</title>
@@ -4390,7 +4306,7 @@
     <title lang="bn">The Day News in Review</title>
   </programme>
   <programme start="20260212053000 +0600" stop="20260212060000 +0600" channel="dwnews">
-    <title lang="bn">Arts Unveiled</title>
+    <title lang="bn">Arts unveiled</title>
   </programme>
   <programme start="20260212060000 +0600" stop="20260212061500 +0600" channel="dwnews">
     <title lang="bn">DW News</title>
@@ -4411,7 +4327,7 @@
     <title lang="bn">DW News</title>
   </programme>
   <programme start="20260212081500 +0600" stop="20260212083000 +0600" channel="dwnews">
-    <title lang="bn">Best of DW-online Content</title>
+    <title lang="bn">Arts Unveiled</title>
   </programme>
   <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="dwnews">
     <title lang="bn">Eco India The Environment Magazine</title>
@@ -4936,990 +4852,507 @@
     <display-name>WION</display-name>
     <icon src="https://static.wikia.nocookie.net/logopedia/images/1/1d/WION_World_Is_One_News.svg"/>
   </channel>
-  <programme start="20260211000000 +0600" stop="20260211010000 +0600" channel="WION.in">
-    <title lang="bn">Afternoon Briefing</title>
+  <programme start="20260211003000 +0600" stop="20260211011500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211010000 +0600" stop="20260211020000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
+  <programme start="20260211011500 +0600" stop="20260211021000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211020000 +0600" stop="20260211030000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Hour</title>
+  <programme start="20260211021000 +0600" stop="20260211030500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211030000 +0600" stop="20260211033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
+  <programme start="20260211030500 +0600" stop="20260211050500 +0600" channel="WION.in">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
   </programme>
-  <programme start="20260211033000 +0600" stop="20260211040000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260211050500 +0600" stop="20260211060000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211040000 +0600" stop="20260211044500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
+  <programme start="20260211060000 +0600" stop="20260211071000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
   </programme>
-  <programme start="20260211044500 +0600" stop="20260211050000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260211071000 +0600" stop="20260211071500 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260211050000 +0600" stop="20260211060000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
+  <programme start="20260211071500 +0600" stop="20260211081000 +0600" channel="WION.in">
+    <title lang="bn">Bull</title>
   </programme>
-  <programme start="20260211060000 +0600" stop="20260211063000 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
+  <programme start="20260211081000 +0600" stop="20260211090000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211063000 +0600" stop="20260211070000 +0600" channel="WION.in">
-    <title lang="bn">Australian Story</title>
+  <programme start="20260211090000 +0600" stop="20260211095500 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211070000 +0600" stop="20260211072900 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260211095500 +0600" stop="20260211105000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260211072900 +0600" stop="20260211080000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260211105000 +0600" stop="20260211105500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260211080000 +0600" stop="20260211083000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260211105500 +0600" stop="20260211115000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260211083000 +0600" stop="20260211090000 +0600" channel="WION.in">
-    <title lang="bn">That Pacific Sports Show</title>
+  <programme start="20260211115000 +0600" stop="20260211115500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260211090000 +0600" stop="20260211091500 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260211115500 +0600" stop="20260211125000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211091500 +0600" stop="20260211093000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260211125000 +0600" stop="20260211135000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211093000 +0600" stop="20260211100000 +0600" channel="WION.in">
-    <title lang="bn">The Art Of...</title>
+  <programme start="20260211135000 +0600" stop="20260211141000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260211100000 +0600" stop="20260211101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260211141000 +0600" stop="20260211141500 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260211101500 +0600" stop="20260211103000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260211141500 +0600" stop="20260211154000 +0600" channel="WION.in">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260211103000 +0600" stop="20260211110000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260211154000 +0600" stop="20260211164000 +0600" channel="WION.in">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260211110000 +0600" stop="20260211111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260211164000 +0600" stop="20260211174000 +0600" channel="WION.in">
+    <title lang="bn">Wild Umstritten</title>
   </programme>
-  <programme start="20260211111500 +0600" stop="20260211113100 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260211174000 +0600" stop="20260211190500 +0600" channel="WION.in">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260211113100 +0600" stop="20260211122900 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
+  <programme start="20260211190500 +0600" stop="20260211200500 +0600" channel="WION.in">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260211122900 +0600" stop="20260211130000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260211200500 +0600" stop="20260211211000 +0600" channel="WION.in">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260211130000 +0600" stop="20260211133000 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260211211000 +0600" stop="20260211220500 +0600" channel="WION.in">
+    <title lang="bn">Match in Paradise – Liebe auf den ersten Swipe?</title>
   </programme>
-  <programme start="20260211133000 +0600" stop="20260211140000 +0600" channel="WION.in">
-    <title lang="bn">That Pacific Sports Show</title>
+  <programme start="20260211220500 +0600" stop="20260211231000 +0600" channel="WION.in">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260211140000 +0600" stop="20260211170000 +0600" channel="WION.in">
-    <title lang="bn">News Breakfast</title>
+  <programme start="20260211231000 +0600" stop="20260211233500 +0600" channel="WION.in">
+    <title lang="bn">ATV – Die Reportage</title>
   </programme>
-  <programme start="20260211170000 +0600" stop="20260211200000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Mornings</title>
+  <programme start="20260211233500 +0600" stop="20260211235000 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260211200000 +0600" stop="20260211210000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
+  <programme start="20260211235000 +0600" stop="20260212003000 +0600" channel="WION.in">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260211210000 +0600" stop="20260211220000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Day</title>
+  <programme start="20260212003000 +0600" stop="20260212011500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211220000 +0600" stop="20260211231000 +0600" channel="WION.in">
-    <title lang="bn">Parliament Question Time</title>
+  <programme start="20260212011500 +0600" stop="20260212021000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211231000 +0600" stop="20260212000000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Afternoons</title>
+  <programme start="20260212021000 +0600" stop="20260212030500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212000000 +0600" stop="20260212010000 +0600" channel="WION.in">
-    <title lang="bn">Afternoon Briefing</title>
+  <programme start="20260212030500 +0600" stop="20260212050500 +0600" channel="WION.in">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
   </programme>
-  <programme start="20260212010000 +0600" stop="20260212020000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
+  <programme start="20260212050500 +0600" stop="20260212060000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212020000 +0600" stop="20260212030000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Hour</title>
+  <programme start="20260212060000 +0600" stop="20260212071000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
   </programme>
-  <programme start="20260212030000 +0600" stop="20260212033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
+  <programme start="20260212071000 +0600" stop="20260212071500 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260212033000 +0600" stop="20260212040000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260212071500 +0600" stop="20260212080500 +0600" channel="WION.in">
+    <title lang="bn">Bull</title>
   </programme>
-  <programme start="20260212040000 +0600" stop="20260212044500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
+  <programme start="20260212080500 +0600" stop="20260212090000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212044500 +0600" stop="20260212050000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260212090000 +0600" stop="20260212095500 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212050000 +0600" stop="20260212060000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
+  <programme start="20260212095500 +0600" stop="20260212105000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260212060000 +0600" stop="20260212063600 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
+  <programme start="20260212105000 +0600" stop="20260212105500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260212063600 +0600" stop="20260212070000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
+  <programme start="20260212105500 +0600" stop="20260212115000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260212070000 +0600" stop="20260212072900 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260212115000 +0600" stop="20260212115500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260212072900 +0600" stop="20260212080000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260212115500 +0600" stop="20260212125000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212080000 +0600" stop="20260212083000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260212125000 +0600" stop="20260212135000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212083000 +0600" stop="20260212090000 +0600" channel="WION.in">
-    <title lang="bn">Back Roads</title>
+  <programme start="20260212135000 +0600" stop="20260212141000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260212090000 +0600" stop="20260212091500 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260212141000 +0600" stop="20260212141500 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260212091500 +0600" stop="20260212093000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260212141500 +0600" stop="20260212152000 +0600" channel="WION.in">
+    <title lang="bn">Mein Gemeindebau</title>
   </programme>
-  <programme start="20260212093000 +0600" stop="20260212100000 +0600" channel="WION.in">
-    <title lang="bn">Heywire</title>
+  <programme start="20260212152000 +0600" stop="20260212162000 +0600" channel="WION.in">
+    <title lang="bn">Forsthaus Rampensau Germany</title>
   </programme>
-  <programme start="20260212100000 +0600" stop="20260212101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260212162000 +0600" stop="20260212173500 +0600" channel="WION.in">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260212101500 +0600" stop="20260212103000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260212173500 +0600" stop="20260212183500 +0600" channel="WION.in">
+    <title lang="bn">Mein Gemeindebau</title>
   </programme>
-  <programme start="20260212103000 +0600" stop="20260212110000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260212183500 +0600" stop="20260212193000 +0600" channel="WION.in">
+    <title lang="bn">Forsthaus Rampensau Germany</title>
   </programme>
-  <programme start="20260212110000 +0600" stop="20260212111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260212193000 +0600" stop="20260212204000 +0600" channel="WION.in">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260212111500 +0600" stop="20260212113100 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
+  <programme start="20260212204000 +0600" stop="20260212213000 +0600" channel="WION.in">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260212113100 +0600" stop="20260212122900 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
+  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="WION.in">
+    <title lang="bn">ATV – Die Reportage</title>
   </programme>
-  <programme start="20260212122900 +0600" stop="20260212130000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
+  <programme start="20260212220000 +0600" stop="20260212224500 +0600" channel="WION.in">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260212130000 +0600" stop="20260212133000 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260212224500 +0600" stop="20260212232500 +0600" channel="WION.in">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260212133000 +0600" stop="20260212140000 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
+  <programme start="20260212232500 +0600" stop="20260212235000 +0600" channel="WION.in">
+    <title lang="bn">Single Parents</title>
   </programme>
-  <programme start="20260212140000 +0600" stop="20260212170000 +0600" channel="WION.in">
-    <title lang="bn">News Breakfast</title>
+  <programme start="20260212235000 +0600" stop="20260213003000 +0600" channel="WION.in">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260212170000 +0600" stop="20260212200000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Mornings</title>
+  <programme start="20260213003000 +0600" stop="20260213011500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212200000 +0600" stop="20260212210000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
+  <programme start="20260213011500 +0600" stop="20260213021000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212210000 +0600" stop="20260212230000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Day</title>
+  <programme start="20260213021000 +0600" stop="20260213030500 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212230000 +0600" stop="20260213000000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Afternoons</title>
+  <programme start="20260213030500 +0600" stop="20260213050500 +0600" channel="WION.in">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
   </programme>
-  <programme start="20260213000000 +0600" stop="20260213010000 +0600" channel="WION.in">
-    <title lang="bn">Afternoon Briefing</title>
+  <programme start="20260213050500 +0600" stop="20260213060000 +0600" channel="WION.in">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260213010000 +0600" stop="20260213020000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
+  <programme start="20260213060000 +0600" stop="20260213071000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
   </programme>
-  <programme start="20260213020000 +0600" stop="20260213030000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Hour</title>
+  <programme start="20260213071000 +0600" stop="20260213071500 +0600" channel="WION.in">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260213030000 +0600" stop="20260213033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
+  <programme start="20260213071500 +0600" stop="20260213080500 +0600" channel="WION.in">
+    <title lang="bn">Bull</title>
   </programme>
-  <programme start="20260213033000 +0600" stop="20260213040000 +0600" channel="WION.in">
-    <title lang="bn">ABC Evening News</title>
+  <programme start="20260213080500 +0600" stop="20260213090000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213040000 +0600" stop="20260213043600 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
+  <programme start="20260213090000 +0600" stop="20260213100000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213043600 +0600" stop="20260213050000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
+  <programme start="20260213100000 +0600" stop="20260213105000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260213050000 +0600" stop="20260213053000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
+  <programme start="20260213105000 +0600" stop="20260213105500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260213053000 +0600" stop="20260213060000 +0600" channel="WION.in">
-    <title lang="bn">Play On</title>
+  <programme start="20260213105500 +0600" stop="20260213115000 +0600" channel="WION.in">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260213060000 +0600" stop="20260213063000 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
+  <programme start="20260213115000 +0600" stop="20260213115500 +0600" channel="WION.in">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260213063000 +0600" stop="20260213070000 +0600" channel="WION.in">
-    <title lang="bn">Asia News Week</title>
+  <programme start="20260213115500 +0600" stop="20260213125000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213070000 +0600" stop="20260213073000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260213125000 +0600" stop="20260213135000 +0600" channel="WION.in">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213073000 +0600" stop="20260213080000 +0600" channel="WION.in">
-    <title lang="bn">The World This Week</title>
+  <programme start="20260213135000 +0600" stop="20260213141000 +0600" channel="WION.in">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260213080000 +0600" stop="20260213081700 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260213141000 +0600" stop="20260213142000 +0600" channel="WION.in">
+    <title lang="bn">Heinzl am Opernball</title>
   </programme>
-  <programme start="20260213081700 +0600" stop="20260213084700 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
+  <programme start="20260213142000 +0600" stop="20260213152500 +0600" channel="WION.in">
+    <title lang="bn">Ein Leben für die Schönheit</title>
   </programme>
-  <programme start="20260213084700 +0600" stop="20260213091000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
+  <programme start="20260213152500 +0600" stop="20260213162500 +0600" channel="WION.in">
+    <title lang="bn">Immo Queens</title>
   </programme>
-  <programme start="20260213091000 +0600" stop="20260213092700 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
+  <programme start="20260213162500 +0600" stop="20260213165000 +0600" channel="WION.in">
+    <title lang="bn">Aktuell: Die Woche</title>
   </programme>
-  <programme start="20260213092700 +0600" stop="20260213100000 +0600" channel="WION.in">
-    <title lang="bn">Expanse: Nowhere Man</title>
+  <programme start="20260213165000 +0600" stop="20260213172500 +0600" channel="WION.in">
+    <title lang="bn">Breaking Media – Macht.Medien.Kompetenz.</title>
   </programme>
-  <programme start="20260213100000 +0600" stop="20260213101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
+  <programme start="20260213172500 +0600" stop="20260213182500 +0600" channel="WION.in">
+    <title lang="bn">Ein Leben für die Schönheit</title>
   </programme>
-  <programme start="20260213101500 +0600" stop="20260213103200 +0600" channel="WION.in">
-    <title lang="bn">Media Watch</title>
-  </programme>
-  <programme start="20260213103200 +0600" stop="20260213110000 +0600" channel="WION.in">
-    <title lang="bn">Focus on Europe</title>
-  </programme>
-  <programme start="20260213110000 +0600" stop="20260213111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260213111500 +0600" stop="20260213113100 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260213113100 +0600" stop="20260213120000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
-  </programme>
-  <programme start="20260213120000 +0600" stop="20260213121700 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260213121700 +0600" stop="20260213123000 +0600" channel="WION.in">
-    <title lang="bn">Landline: India</title>
-  </programme>
-  <programme start="20260213123000 +0600" stop="20260213130000 +0600" channel="WION.in">
-    <title lang="bn">Play On</title>
-  </programme>
-  <programme start="20260213130000 +0600" stop="20260213133000 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260213133000 +0600" stop="20260213140000 +0600" channel="WION.in">
-    <title lang="bn">Asia News Week</title>
-  </programme>
-  <programme start="20260213140000 +0600" stop="20260213140100 +0600" channel="WION.in">
-    <title lang="bn">ABC News Update</title>
-  </programme>
-  <programme start="20260213140100 +0600" stop="20260213143100 +0600" channel="WION.in">
-    <title lang="bn">That Pacific Sports Show</title>
-  </programme>
-  <programme start="20260213143100 +0600" stop="20260213150000 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
-  </programme>
-  <programme start="20260213150000 +0600" stop="20260213190000 +0600" channel="WION.in">
-    <title lang="bn">Weekend Breakfast</title>
-  </programme>
-  <programme start="20260213190000 +0600" stop="20260213193000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260213193000 +0600" stop="20260213200000 +0600" channel="WION.in">
-    <title lang="bn">The World This Week</title>
-  </programme>
-  <programme start="20260213200000 +0600" stop="20260213203000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
-  </programme>
-  <programme start="20260213203000 +0600" stop="20260213210000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260213210000 +0600" stop="20260213213000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260213213000 +0600" stop="20260213220000 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
-  </programme>
-  <programme start="20260213220000 +0600" stop="20260213223600 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260213223600 +0600" stop="20260213230000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
-  </programme>
-  <programme start="20260213230000 +0600" stop="20260213233000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260213233000 +0600" stop="20260214000000 +0600" channel="WION.in">
-    <title lang="bn">That Pacific Sports Show</title>
-  </programme>
-  <programme start="20260214000000 +0600" stop="20260214003000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214003000 +0600" stop="20260214010000 +0600" channel="WION.in">
-    <title lang="bn">Heywire</title>
-  </programme>
-  <programme start="20260214010000 +0600" stop="20260214013000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214013000 +0600" stop="20260214020000 +0600" channel="WION.in">
-    <title lang="bn">Asia News Week</title>
-  </programme>
-  <programme start="20260214020000 +0600" stop="20260214023000 +0600" channel="WION.in">
-    <title lang="bn">ABC Evening News</title>
-  </programme>
-  <programme start="20260214023000 +0600" stop="20260214030000 +0600" channel="WION.in">
-    <title lang="bn">Australian Story</title>
-  </programme>
-  <programme start="20260214030000 +0600" stop="20260214033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
-  </programme>
-  <programme start="20260214033000 +0600" stop="20260214040000 +0600" channel="WION.in">
-    <title lang="bn">Back Roads</title>
-  </programme>
-  <programme start="20260214040000 +0600" stop="20260214041400 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
-  </programme>
-  <programme start="20260214041400 +0600" stop="20260214050000 +0600" channel="WION.in">
-    <title lang="bn">Four Corners</title>
-  </programme>
-  <programme start="20260214050000 +0600" stop="20260214052900 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
-  </programme>
-  <programme start="20260214052900 +0600" stop="20260214060000 +0600" channel="WION.in">
-    <title lang="bn">Foreign Correspondent</title>
-  </programme>
-  <programme start="20260214060000 +0600" stop="20260214063000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News Weekend</title>
-  </programme>
-  <programme start="20260214063000 +0600" stop="20260214070000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
-  </programme>
-  <programme start="20260214070000 +0600" stop="20260214073000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260214073000 +0600" stop="20260214080000 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
-  </programme>
-  <programme start="20260214080000 +0600" stop="20260214081500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260214081500 +0600" stop="20260214083100 +0600" channel="WION.in">
-    <title lang="bn">Media Watch</title>
-  </programme>
-  <programme start="20260214083100 +0600" stop="20260214090000 +0600" channel="WION.in">
-    <title lang="bn">The World This Week</title>
-  </programme>
-  <programme start="20260214090000 +0600" stop="20260214091500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260214091500 +0600" stop="20260214093100 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260214093100 +0600" stop="20260214100000 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
-  </programme>
-  <programme start="20260214100000 +0600" stop="20260214101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260214101500 +0600" stop="20260214103100 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260214103100 +0600" stop="20260214110000 +0600" channel="WION.in">
-    <title lang="bn">Asia News Week</title>
-  </programme>
-  <programme start="20260214110000 +0600" stop="20260214111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260214111500 +0600" stop="20260214113000 +0600" channel="WION.in">
-    <title lang="bn">Bee Cause</title>
-  </programme>
-  <programme start="20260214113000 +0600" stop="20260214120000 +0600" channel="WION.in">
-    <title lang="bn">Culture By Design</title>
-  </programme>
-  <programme start="20260214120000 +0600" stop="20260214122300 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260214122300 +0600" stop="20260214133000 +0600" channel="WION.in">
-    <title lang="bn">National Press Club Address</title>
-  </programme>
-  <programme start="20260214133000 +0600" stop="20260214140000 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
-  </programme>
-  <programme start="20260214140000 +0600" stop="20260214140100 +0600" channel="WION.in">
-    <title lang="bn">ABC News Update</title>
-  </programme>
-  <programme start="20260214140100 +0600" stop="20260214143000 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
-  </programme>
-  <programme start="20260214143000 +0600" stop="20260214150000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260214150000 +0600" stop="20260214170100 +0600" channel="WION.in">
-    <title lang="bn">Weekend Breakfast</title>
-  </programme>
-  <programme start="20260214170100 +0600" stop="20260214180000 +0600" channel="WION.in">
-    <title lang="bn">Insiders</title>
-  </programme>
-  <programme start="20260214180000 +0600" stop="20260214190000 +0600" channel="WION.in">
-    <title lang="bn">Weekend Breakfast</title>
-  </programme>
-  <programme start="20260214190000 +0600" stop="20260214192900 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214192900 +0600" stop="20260214200000 +0600" channel="WION.in">
-    <title lang="bn">Offsiders</title>
-  </programme>
-  <programme start="20260214200000 +0600" stop="20260214203000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
-  </programme>
-  <programme start="20260214203000 +0600" stop="20260214210000 +0600" channel="WION.in">
-    <title lang="bn">Heywire</title>
-  </programme>
-  <programme start="20260214210000 +0600" stop="20260214213000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214213000 +0600" stop="20260214220000 +0600" channel="WION.in">
-    <title lang="bn">The World This Week</title>
-  </programme>
-  <programme start="20260214220000 +0600" stop="20260214223000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214223000 +0600" stop="20260214230000 +0600" channel="WION.in">
-    <title lang="bn">Australian Story</title>
-  </programme>
-  <programme start="20260214230000 +0600" stop="20260214232900 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260214232900 +0600" stop="20260215000000 +0600" channel="WION.in">
-    <title lang="bn">Offsiders</title>
-  </programme>
-  <programme start="20260215000000 +0600" stop="20260215000100 +0600" channel="WION.in">
-    <title lang="bn">ABC News Update</title>
-  </programme>
-  <programme start="20260215000100 +0600" stop="20260215010000 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
-  </programme>
-  <programme start="20260215010000 +0600" stop="20260215013000 +0600" channel="WION.in">
-    <title lang="bn">ABC News with Auslan</title>
-  </programme>
-  <programme start="20260215013000 +0600" stop="20260215020000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260215020000 +0600" stop="20260215022900 +0600" channel="WION.in">
-    <title lang="bn">ABC Evening News</title>
-  </programme>
-  <programme start="20260215022900 +0600" stop="20260215030000 +0600" channel="WION.in">
-    <title lang="bn">Foreign Correspondent</title>
-  </programme>
-  <programme start="20260215030000 +0600" stop="20260215033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
-  </programme>
-  <programme start="20260215033000 +0600" stop="20260215043000 +0600" channel="WION.in">
-    <title lang="bn">Insiders</title>
-  </programme>
-  <programme start="20260215043000 +0600" stop="20260215043700 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
-  </programme>
-  <programme start="20260215043700 +0600" stop="20260215050000 +0600" channel="WION.in">
-    <title lang="bn">If You&amp;#x27;re Listening</title>
-  </programme>
-  <programme start="20260215050000 +0600" stop="20260215053000 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
-  </programme>
-  <programme start="20260215053000 +0600" stop="20260215060000 +0600" channel="WION.in">
-    <title lang="bn">Australian Story</title>
-  </programme>
-  <programme start="20260215060000 +0600" stop="20260215063000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News Weekend</title>
-  </programme>
-  <programme start="20260215063000 +0600" stop="20260215070000 +0600" channel="WION.in">
-    <title lang="bn">Compass</title>
-  </programme>
-  <programme start="20260215070000 +0600" stop="20260215073000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260215073000 +0600" stop="20260215080000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260215080000 +0600" stop="20260215081500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260215081500 +0600" stop="20260215091500 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
-  </programme>
-  <programme start="20260215091500 +0600" stop="20260215093000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260215093000 +0600" stop="20260215102900 +0600" channel="WION.in">
-    <title lang="bn">Insiders</title>
-  </programme>
-  <programme start="20260215102900 +0600" stop="20260215110000 +0600" channel="WION.in">
-    <title lang="bn">Offsiders</title>
-  </programme>
-  <programme start="20260215110000 +0600" stop="20260215111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260215111500 +0600" stop="20260215113200 +0600" channel="WION.in">
-    <title lang="bn">ABC News Overnight</title>
-  </programme>
-  <programme start="20260215113200 +0600" stop="20260215120000 +0600" channel="WION.in">
-    <title lang="bn">Focus on Europe</title>
-  </programme>
-  <programme start="20260215120000 +0600" stop="20260215121500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260215121500 +0600" stop="20260215123100 +0600" channel="WION.in">
-    <title lang="bn">Chopsticks or Fork?</title>
-  </programme>
-  <programme start="20260215123100 +0600" stop="20260215130000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260215130000 +0600" stop="20260215140000 +0600" channel="WION.in">
-    <title lang="bn">Landline</title>
-  </programme>
-  <programme start="20260215140000 +0600" stop="20260215170000 +0600" channel="WION.in">
-    <title lang="bn">News Breakfast</title>
-  </programme>
-  <programme start="20260215170000 +0600" stop="20260215200000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Mornings</title>
-  </programme>
-  <programme start="20260215200000 +0600" stop="20260215210000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
-  </programme>
-  <programme start="20260215210000 +0600" stop="20260215230000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Day</title>
-  </programme>
-  <programme start="20260215230000 +0600" stop="20260216000000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Afternoons</title>
-  </programme>
-  <programme start="20260216000000 +0600" stop="20260216010000 +0600" channel="WION.in">
-    <title lang="bn">Afternoon Briefing</title>
-  </programme>
-  <programme start="20260216010000 +0600" stop="20260216020000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260216020000 +0600" stop="20260216030000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Hour</title>
-  </programme>
-  <programme start="20260216030000 +0600" stop="20260216033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
-  </programme>
-  <programme start="20260216033000 +0600" stop="20260216040000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260216040000 +0600" stop="20260216044500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
-  </programme>
-  <programme start="20260216044500 +0600" stop="20260216050000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260216050000 +0600" stop="20260216060000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
-  </programme>
-  <programme start="20260216060000 +0600" stop="20260216063000 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
-  </programme>
-  <programme start="20260216063000 +0600" stop="20260216070000 +0600" channel="WION.in">
-    <title lang="bn">Planet America</title>
-  </programme>
-  <programme start="20260216070000 +0600" stop="20260216072900 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260216072900 +0600" stop="20260216080000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260216080000 +0600" stop="20260216083000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260216083000 +0600" stop="20260216090000 +0600" channel="WION.in">
-    <title lang="bn">Asia News Week</title>
-  </programme>
-  <programme start="20260216090000 +0600" stop="20260216091500 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260216091500 +0600" stop="20260216093000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260216093000 +0600" stop="20260216100000 +0600" channel="WION.in">
-    <title lang="bn">Round The Regions</title>
-  </programme>
-  <programme start="20260216100000 +0600" stop="20260216101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260216101500 +0600" stop="20260216103000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260216103000 +0600" stop="20260216110000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260216110000 +0600" stop="20260216111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260216111500 +0600" stop="20260216113100 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260216113100 +0600" stop="20260216122900 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
-  </programme>
-  <programme start="20260216122900 +0600" stop="20260216130000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260216130000 +0600" stop="20260216132900 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260216132900 +0600" stop="20260216140000 +0600" channel="WION.in">
-    <title lang="bn">Planet America</title>
-  </programme>
-  <programme start="20260216140000 +0600" stop="20260216170000 +0600" channel="WION.in">
-    <title lang="bn">News Breakfast</title>
-  </programme>
-  <programme start="20260216170000 +0600" stop="20260216200000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Mornings</title>
-  </programme>
-  <programme start="20260216200000 +0600" stop="20260216210000 +0600" channel="WION.in">
-    <title lang="bn">ABC News at Noon</title>
-  </programme>
-  <programme start="20260216210000 +0600" stop="20260216230000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Day</title>
-  </programme>
-  <programme start="20260216230000 +0600" stop="20260217000000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Afternoons</title>
-  </programme>
-  <programme start="20260217000000 +0600" stop="20260217010000 +0600" channel="WION.in">
-    <title lang="bn">Afternoon Briefing</title>
-  </programme>
-  <programme start="20260217010000 +0600" stop="20260217020000 +0600" channel="WION.in">
-    <title lang="bn">ABC News</title>
-  </programme>
-  <programme start="20260217020000 +0600" stop="20260217030000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Hour</title>
-  </programme>
-  <programme start="20260217030000 +0600" stop="20260217033000 +0600" channel="WION.in">
-    <title lang="bn">ABC National News</title>
-  </programme>
-  <programme start="20260217033000 +0600" stop="20260217040000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260217040000 +0600" stop="20260217044500 +0600" channel="WION.in">
-    <title lang="bn">ABC News Tonight</title>
-  </programme>
-  <programme start="20260217044500 +0600" stop="20260217050000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260217050000 +0600" stop="20260217060000 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
-  </programme>
-  <programme start="20260217060000 +0600" stop="20260217061400 +0600" channel="WION.in">
-    <title lang="bn">ABC Nightly News</title>
-  </programme>
-  <programme start="20260217061400 +0600" stop="20260217070000 +0600" channel="WION.in">
-    <title lang="bn">Four Corners</title>
-  </programme>
-  <programme start="20260217070000 +0600" stop="20260217072900 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260217072900 +0600" stop="20260217080000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260217080000 +0600" stop="20260217083000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260217083000 +0600" stop="20260217090000 +0600" channel="WION.in">
-    <title lang="bn">Planet America</title>
-  </programme>
-  <programme start="20260217090000 +0600" stop="20260217091500 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260217091500 +0600" stop="20260217093000 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260217093000 +0600" stop="20260217100000 +0600" channel="WION.in">
-    <title lang="bn">The Breakfast Couch</title>
-  </programme>
-  <programme start="20260217100000 +0600" stop="20260217101500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260217101500 +0600" stop="20260217103000 +0600" channel="WION.in">
-    <title lang="bn">ABC Late News</title>
-  </programme>
-  <programme start="20260217103000 +0600" stop="20260217110000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260217110000 +0600" stop="20260217111500 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260217111500 +0600" stop="20260217113100 +0600" channel="WION.in">
-    <title lang="bn">The Business</title>
-  </programme>
-  <programme start="20260217113100 +0600" stop="20260217122900 +0600" channel="WION.in">
-    <title lang="bn">The World</title>
-  </programme>
-  <programme start="20260217122900 +0600" stop="20260217130000 +0600" channel="WION.in">
-    <title lang="bn">7.30</title>
-  </programme>
-  <programme start="20260217130000 +0600" stop="20260217132900 +0600" channel="WION.in">
-    <title lang="bn">DW News</title>
-  </programme>
-  <programme start="20260217132900 +0600" stop="20260217140000 +0600" channel="WION.in">
-    <title lang="bn">Australian Story</title>
-  </programme>
-  <programme start="20260217140000 +0600" stop="20260217170000 +0600" channel="WION.in">
-    <title lang="bn">News Breakfast</title>
-  </programme>
-  <programme start="20260217170000 +0600" stop="20260217173000 +0600" channel="WION.in">
-    <title lang="bn">ABC News Mornings</title>
+  <programme start="20260213182500 +0600" stop="20260213185500 +0600" channel="WION.in">
+    <title lang="bn">Immo Queens</title>
   </programme>
   <channel id="CGTN.cn">
     <display-name>CGTN</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png"/>
   </channel>
-  <programme start="20260211000000 +0600" stop="20260211010000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211003000 +0600" stop="20260211011500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211010000 +0600" stop="20260211020000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211011500 +0600" stop="20260211021000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211020000 +0600" stop="20260211030000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211021000 +0600" stop="20260211030500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211030000 +0600" stop="20260211040000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211030500 +0600" stop="20260211050500 +0600" channel="CGTN.cn">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
   </programme>
-  <programme start="20260211040000 +0600" stop="20260211050000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211050500 +0600" stop="20260211060000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260211050000 +0600" stop="20260211060000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211060000 +0600" stop="20260211071000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
   </programme>
-  <programme start="20260211060000 +0600" stop="20260211070000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211071000 +0600" stop="20260211071500 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260211070000 +0600" stop="20260211080000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211071500 +0600" stop="20260211081000 +0600" channel="CGTN.cn">
+    <title lang="bn">Bull</title>
   </programme>
-  <programme start="20260211080000 +0600" stop="20260211090000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211081000 +0600" stop="20260211090000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211090000 +0600" stop="20260211100000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211090000 +0600" stop="20260211095500 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211100000 +0600" stop="20260211110000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211095500 +0600" stop="20260211105000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260211110000 +0600" stop="20260211120000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211105000 +0600" stop="20260211105500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260211120000 +0600" stop="20260211130000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211105500 +0600" stop="20260211115000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260211130000 +0600" stop="20260211140000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211115000 +0600" stop="20260211115500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260211140000 +0600" stop="20260211150000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211115500 +0600" stop="20260211125000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211150000 +0600" stop="20260211160000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211125000 +0600" stop="20260211135000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260211160000 +0600" stop="20260211170000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211135000 +0600" stop="20260211141000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260211170000 +0600" stop="20260211180000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211141000 +0600" stop="20260211141500 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260211180000 +0600" stop="20260211190000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211141500 +0600" stop="20260211154000 +0600" channel="CGTN.cn">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260211190000 +0600" stop="20260211200000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211154000 +0600" stop="20260211164000 +0600" channel="CGTN.cn">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260211200000 +0600" stop="20260211210000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211164000 +0600" stop="20260211174000 +0600" channel="CGTN.cn">
+    <title lang="bn">Wild Umstritten</title>
   </programme>
-  <programme start="20260211210000 +0600" stop="20260211220000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211174000 +0600" stop="20260211190500 +0600" channel="CGTN.cn">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260211220000 +0600" stop="20260211230000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211190500 +0600" stop="20260211200500 +0600" channel="CGTN.cn">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260211230000 +0600" stop="20260212000000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211200500 +0600" stop="20260211211000 +0600" channel="CGTN.cn">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260212000000 +0600" stop="20260212010000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211211000 +0600" stop="20260211220500 +0600" channel="CGTN.cn">
+    <title lang="bn">Match in Paradise – Liebe auf den ersten Swipe?</title>
   </programme>
-  <programme start="20260212010000 +0600" stop="20260212020000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211220500 +0600" stop="20260211231000 +0600" channel="CGTN.cn">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260212020000 +0600" stop="20260212030000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211231000 +0600" stop="20260211233500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV – Die Reportage</title>
   </programme>
-  <programme start="20260212030000 +0600" stop="20260212040000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211233500 +0600" stop="20260211235000 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260212040000 +0600" stop="20260212050000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260211235000 +0600" stop="20260212003000 +0600" channel="CGTN.cn">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260212050000 +0600" stop="20260212060000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212003000 +0600" stop="20260212011500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212060000 +0600" stop="20260212070000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212011500 +0600" stop="20260212021000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212070000 +0600" stop="20260212080000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212021000 +0600" stop="20260212030500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212080000 +0600" stop="20260212090000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212030500 +0600" stop="20260212050500 +0600" channel="CGTN.cn">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
   </programme>
-  <programme start="20260212090000 +0600" stop="20260212100000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212050500 +0600" stop="20260212060000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
   </programme>
-  <programme start="20260212100000 +0600" stop="20260212110000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212060000 +0600" stop="20260212071000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
   </programme>
-  <programme start="20260212110000 +0600" stop="20260212120000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212071000 +0600" stop="20260212071500 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260212120000 +0600" stop="20260212130000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212071500 +0600" stop="20260212080500 +0600" channel="CGTN.cn">
+    <title lang="bn">Bull</title>
   </programme>
-  <programme start="20260212130000 +0600" stop="20260212140000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212080500 +0600" stop="20260212090000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212140000 +0600" stop="20260212150000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212090000 +0600" stop="20260212095500 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212150000 +0600" stop="20260212160000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212095500 +0600" stop="20260212105000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260212160000 +0600" stop="20260212170000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212105000 +0600" stop="20260212105500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260212170000 +0600" stop="20260212180000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212105500 +0600" stop="20260212115000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260212180000 +0600" stop="20260212190000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212115000 +0600" stop="20260212115500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260212190000 +0600" stop="20260212200000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212115500 +0600" stop="20260212125000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212200000 +0600" stop="20260212210000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212125000 +0600" stop="20260212135000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260212210000 +0600" stop="20260212220000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212135000 +0600" stop="20260212141000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260212220000 +0600" stop="20260212230000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212141000 +0600" stop="20260212141500 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
   </programme>
-  <programme start="20260212230000 +0600" stop="20260213000000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212141500 +0600" stop="20260212152000 +0600" channel="CGTN.cn">
+    <title lang="bn">Mein Gemeindebau</title>
   </programme>
-  <programme start="20260213000000 +0600" stop="20260213010000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212152000 +0600" stop="20260212162000 +0600" channel="CGTN.cn">
+    <title lang="bn">Forsthaus Rampensau Germany</title>
   </programme>
-  <programme start="20260213010000 +0600" stop="20260213020000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212162000 +0600" stop="20260212173500 +0600" channel="CGTN.cn">
+    <title lang="bn">Teenager werden Mütter</title>
   </programme>
-  <programme start="20260213020000 +0600" stop="20260213030000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212173500 +0600" stop="20260212183500 +0600" channel="CGTN.cn">
+    <title lang="bn">Mein Gemeindebau</title>
   </programme>
-  <programme start="20260213030000 +0600" stop="20260213040000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212183500 +0600" stop="20260212193000 +0600" channel="CGTN.cn">
+    <title lang="bn">Forsthaus Rampensau Germany</title>
   </programme>
-  <programme start="20260213040000 +0600" stop="20260213050000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212193000 +0600" stop="20260212204000 +0600" channel="CGTN.cn">
+    <title lang="bn">Bauer sucht Frau</title>
   </programme>
-  <programme start="20260213050000 +0600" stop="20260213060000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212204000 +0600" stop="20260212213000 +0600" channel="CGTN.cn">
+    <title lang="bn">TikTok: Hass geht viral</title>
   </programme>
-  <programme start="20260213060000 +0600" stop="20260213070000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212213000 +0600" stop="20260212220000 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV – Die Reportage</title>
   </programme>
-  <programme start="20260213070000 +0600" stop="20260213080000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212220000 +0600" stop="20260212224500 +0600" channel="CGTN.cn">
+    <title lang="bn">Danni Lowinski</title>
   </programme>
-  <programme start="20260213080000 +0600" stop="20260213090000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260212224500 +0600" stop="20260212232500 +0600" channel="CGTN.cn">
+    <title lang="bn">Danni Lowinski</title>
+  </programme>
+  <programme start="20260212232500 +0600" stop="20260212235000 +0600" channel="CGTN.cn">
+    <title lang="bn">Single Parents</title>
+  </programme>
+  <programme start="20260212235000 +0600" stop="20260213003000 +0600" channel="CGTN.cn">
+    <title lang="bn">Danni Lowinski</title>
+  </programme>
+  <programme start="20260213003000 +0600" stop="20260213011500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
+  </programme>
+  <programme start="20260213011500 +0600" stop="20260213021000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
+  </programme>
+  <programme start="20260213021000 +0600" stop="20260213030500 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
+  </programme>
+  <programme start="20260213030500 +0600" stop="20260213050500 +0600" channel="CGTN.cn">
+    <title lang="bn">MediaShop – Immer etwas Neues</title>
+  </programme>
+  <programme start="20260213050500 +0600" stop="20260213060000 +0600" channel="CGTN.cn">
+    <title lang="bn">Der letzte Bulle</title>
+  </programme>
+  <programme start="20260213060000 +0600" stop="20260213071000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich zu Mittag</title>
+  </programme>
+  <programme start="20260213071000 +0600" stop="20260213071500 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl und die VIPs</title>
+  </programme>
+  <programme start="20260213071500 +0600" stop="20260213080500 +0600" channel="CGTN.cn">
+    <title lang="bn">Bull</title>
+  </programme>
+  <programme start="20260213080500 +0600" stop="20260213090000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
   <programme start="20260213090000 +0600" stop="20260213100000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213100000 +0600" stop="20260213110000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213100000 +0600" stop="20260213105000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260213110000 +0600" stop="20260213120000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213105000 +0600" stop="20260213105500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260213120000 +0600" stop="20260213130000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213105500 +0600" stop="20260213115000 +0600" channel="CGTN.cn">
+    <title lang="bn">Hawaii Five-0</title>
   </programme>
-  <programme start="20260213130000 +0600" stop="20260213140000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213115000 +0600" stop="20260213115500 +0600" channel="CGTN.cn">
+    <title lang="bn">ATV Aktuell</title>
   </programme>
-  <programme start="20260213140000 +0600" stop="20260213150000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213115500 +0600" stop="20260213125000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213150000 +0600" stop="20260213160000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213125000 +0600" stop="20260213135000 +0600" channel="CGTN.cn">
+    <title lang="bn">The Mentalist</title>
   </programme>
-  <programme start="20260213160000 +0600" stop="20260213170000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213135000 +0600" stop="20260213141000 +0600" channel="CGTN.cn">
+    <title lang="bn">Treffpunkt Österreich</title>
   </programme>
-  <programme start="20260213170000 +0600" stop="20260213180000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213141000 +0600" stop="20260213142000 +0600" channel="CGTN.cn">
+    <title lang="bn">Heinzl am Opernball</title>
   </programme>
-  <programme start="20260213180000 +0600" stop="20260213190000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213142000 +0600" stop="20260213152500 +0600" channel="CGTN.cn">
+    <title lang="bn">Ein Leben für die Schönheit</title>
   </programme>
-  <programme start="20260213190000 +0600" stop="20260213200000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213152500 +0600" stop="20260213162500 +0600" channel="CGTN.cn">
+    <title lang="bn">Immo Queens</title>
   </programme>
-  <programme start="20260213200000 +0600" stop="20260213210000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213162500 +0600" stop="20260213165000 +0600" channel="CGTN.cn">
+    <title lang="bn">Aktuell: Die Woche</title>
   </programme>
-  <programme start="20260213210000 +0600" stop="20260213220000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213165000 +0600" stop="20260213172500 +0600" channel="CGTN.cn">
+    <title lang="bn">Breaking Media – Macht.Medien.Kompetenz.</title>
   </programme>
-  <programme start="20260213220000 +0600" stop="20260213230000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213172500 +0600" stop="20260213182500 +0600" channel="CGTN.cn">
+    <title lang="bn">Ein Leben für die Schönheit</title>
   </programme>
-  <programme start="20260213230000 +0600" stop="20260214000000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214000000 +0600" stop="20260214010000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214010000 +0600" stop="20260214020000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214020000 +0600" stop="20260214030000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214030000 +0600" stop="20260214040000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214040000 +0600" stop="20260214050000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214050000 +0600" stop="20260214060000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214060000 +0600" stop="20260214070000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214070000 +0600" stop="20260214080000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214080000 +0600" stop="20260214090000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
-  </programme>
-  <programme start="20260214090000 +0600" stop="20260214093000 +0600" channel="CGTN.cn">
-    <title lang="bn">To Be Announced</title>
+  <programme start="20260213182500 +0600" stop="20260213185500 +0600" channel="CGTN.cn">
+    <title lang="bn">Immo Queens</title>
   </programme>
   <channel id="cna.sg">
     <display-name>Channel News Asia</display-name>
