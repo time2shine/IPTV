@@ -19,15 +19,15 @@ jobs:
     uses: ./.github/workflows/update_json_status.yml
     secrets: inherit
 
-  youtube_playlist:
-    name: "2️⃣ 🎣 Build YouTube Playlist"
-    needs: [update_json_status]
-    uses: ./.github/workflows/youtube_playlist.yml
-    secrets: inherit
+ # youtube_playlist:
+ #   name: "2️⃣ 🎣 Build YouTube Playlist"
+ #   needs: [update_json_status]
+ #   uses: ./.github/workflows/youtube_playlist.yml
+ #   secrets: inherit
 
   combine_playlists:
     name: "3️⃣ 🔀 Combine YouTube & Static IPTV Links"
-    needs: [youtube_playlist]
+ #   needs: [youtube_playlist]
     uses: ./.github/workflows/combine_playlists.yml
     secrets: inherit
 
