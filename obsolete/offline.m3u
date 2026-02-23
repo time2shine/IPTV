@@ -1,24 +1,18 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Bangla+ HD (1d)
-https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (Ads only) (8d)
 https://tvsen3.aynaott.com/u3LkNQ7UHhFX/index.m3u8
 #EXTINF:-1 group-title="Bangla",Jankhar TV (3d)
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
-#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
-http://alvetv.com/moviebanglatv/8080/index.m3u8
-#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
-http://alvetv.com/mbtv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangla",Padma Tv (3d)
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (5d)
 https://tvsen1.aynaott.com/PNEb3v2q6GBk/index.m3u8
 #EXTINF:-1 group-title="Educational",Destination America (9d)
 http://fl31.moveonjoy.com:80/Destination_America/index.m3u8
-#EXTINF:-1 group-title="Educational",Discovery HD (0d)
-http://163.61.227.29:8000/play/a01i/index.m3u8
 #EXTINF:-1 group-title="Educational",eden+1 (6d)
 https://i.mjh.nz/.r/eden-plus1.m3u8
+#EXTINF:-1 group-title="Educational",Sony BBC Earth HD (0d)
+https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
 #EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (2d)
 https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Abzy Dhakad (3d)
@@ -31,16 +25,20 @@ https://epiconvh.akamaized.net/live/nazara/master.m3u8
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (6d)
 https://epiconvh.akamaized.net/live/showbox/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | Awaaz India TV (0d)
-http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 group-title="International",EN | Discovery Family (9d)
 http://fl31.moveonjoy.com:80/DISCOVERY_FAMILY_CHANNEL/index.m3u8
 #EXTINF:-1 group-title="International",EN | Discovery Life (9d)
 http://fl31.moveonjoy.com:80/DISCOVERY_LIFE/index.m3u8
+#EXTINF:-1 group-title="International News",Connecting America (0d)
+https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 group-title="Kids",1. Gubbare (6d)
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | SRK TV (0d)
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
+https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Channel WIN (0d)
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 #EXTINF:-1 group-title="Sports",MIXER | Sony Ten 2 HD (7d)
