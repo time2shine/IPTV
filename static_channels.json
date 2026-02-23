@@ -63,22 +63,25 @@
       }
     ]
   },
+  "Drama 24": {
+    "group": "Bangla",
+    "tvg_id": "Drama 24",
+    "tvg_logo": "https://s3.aynaott.com/storage/08773290bf83a917aebc07810f12ed49",
+    "links": [
+      {
+        "url": "https://vods2.aynascope.net/gseriesDrama/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "ASIAN TV": {
     "group": "Bangla",
     "tvg_id": "asiantv.bd",
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
     "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-25",
-        "first_online": "2025-09-11",
-        "last_offline": "2025-11-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      }
     ]
   },
   "ATN BANGLA": {
@@ -922,6 +925,20 @@
       }
     ]
   },
+  "MTA 1 Bangla": {
+    "group": "Religious",
+    "tvg_id": "MTA1Bangla.uk",
+    "tvg_logo": "https://i.imgur.com/b3nn216.png",
+    "links": [
+      {
+        "url": "https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "GAZI TV HD": {
     "group": "Bangla",
     "tvg_id": "GTVHD.bd",
@@ -936,6 +953,13 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2226,26 +2250,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9f/DBC_News_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-10-22",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-10-13",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
+        "url": "http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2961,6 +2970,20 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.27x",
         "quality": "slow"
+      }
+    ]
+  },
+  "Wild TV": {
+    "group": "Educational",
+    "tvg_id": "Wild TV",
+    "tvg_logo": "https://s3.aynaott.com/storage/597c839e577e81813e44812cedc50892",
+    "links": [
+      {
+        "url": "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -6270,27 +6293,25 @@
     "tvg_logo": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-02",
-        "first_online": "2025-09-10",
-        "last_offline": "2025-11-02",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 43.3s",
-        "quality": "slow"
-      },
+        "url": "http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MO | Hindi Movies": {
+    "group": "India",
+    "tvg_id": "Hindi Movies",
+    "tvg_logo": "",
+    "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-12",
-        "last_offline": "2025-10-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -9099,6 +9120,13 @@
         "probe_time_s": 10.408,
         "speed": 0.192,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://amg01438-ewscrippscompan-courttv-tablo-nbcc7.amagi.tv/playlist/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -13228,6 +13256,20 @@
       }
     ]
   },
+  "EN | Rakuten Movies": {
+    "group": "Movies",
+    "tvg_id": "Rakuten Movies",
+    "tvg_logo": "https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63",
+    "links": [
+      {
+        "url": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | & FLIX": {
     "group": "Movies",
     "tvg_id": "AndFLIX",
@@ -16645,6 +16687,34 @@
       }
     ]
   },
+  "MU | MK Six": {
+    "group": "India",
+    "tvg_id": "MK Six",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MOV | Hindi Movie Classic 24": {
+    "group": "India",
+    "tvg_id": "Hindi Movie Classic 24",
+    "tvg_logo": "https://s3.aynaott.com/storage/3132515182ec50091b496fe515564084",
+    "links": [
+      {
+        "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "ENT | Ary Digital": {
     "group": "Pakistan",
     "tvg_id": "AryDigital.pk",
@@ -16659,6 +16729,13 @@
         "probe_time_s": 12.143,
         "speed": 0.165,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18172,26 +18249,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a7/Saudi_Sunnah_TV_2020.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-19",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-12-19",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.77x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-22",
-        "first_online": "2025-10-30",
-        "last_offline": "2025-11-22",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18269,6 +18331,34 @@
       }
     ]
   },
+  "---Live(Gin Ariana)---": {
+    "group": "",
+    "tvg_id": "gin-ariana",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---Live(HUB-SPORTS 4)---": {
+    "group": "Cricket ",
+    "tvg_id": "HUB-SPORTS4",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://cat6.ostv.info/live/76631957/10205687/675823.ts?token=ShJcU0BbQQNHDw0AVFINAQEBVFRTBQdXU1NRBANRClAAUgxTBQoBWFwbGBpEF0dcWF1vWQIXXlcGV1oFVkgRR0JVRm1aV0EDRwgCCwNTAAAbHBJED1gBQwtTVQBUXAsCCAUFHhFDCl1HAxYKAFsHDAoEEhxEUBwVVBAMVgk7V1dHWVdXEQkNTAlVGBpYDWpdXF1RXgIXXkMBQE4VDBdDEAteQV5fH0FbDE1GWUMGFwMbBAIBUxdIQ1INF1kRFkoQCxJ2dhEfQVwdTVFWRApaVxsKEkQVF0hDWBE9RQAXR0BUUVlXQRFZG1UbGBpaAk1mWl9eXgNWEAheDBEVX0YCEB0SWV1dWhdWF2ZEUVNBDxsICQEFUAZcQ0w=",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "---Live(ATN AFG)---": {
     "group": "Sports",
     "tvg_id": "ATNAFG",
@@ -18286,54 +18376,31 @@
       }
     ]
   },
+  "QURAN": {
+    "group": "Religious",
+    "tvg_id": "QURAN",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "---Live(Star Sports 1 HD)---": {
     "group": "Sports",
     "tvg_id": "starsports1hd.in",
     "tvg_logo": "https://static.epg.best/cn/StarSports1.cn.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-20",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-20",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 60.2s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-10",
-        "first_online": "2025-10-30",
-        "last_offline": "2025-11-10",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-01",
-        "first_online": "2025-10-26",
-        "last_offline": "2025-11-01",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-26",
-        "first_online": "2025-09-12",
-        "last_offline": "2025-10-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 58.8s",
-        "quality": "slow"
+        "url": "http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
