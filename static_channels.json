@@ -1,21 +1,4 @@
 {
-  "---Live(Gin Ariana)---": {
-    "group": "Sports",
-    "tvg_id": "gin-ariana",
-    "tvg_logo": "https://yt3.googleusercontent.com/ytc/AIdro_krODH5l5y4voEqzvMr_jzgMW7e_GV6wBuKhXW9w4lpVmA=s900-c-k-c0x00ffffff-no-rj",
-    "links": [
-      {
-        "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
-        "status": "online",
-        "last_online": "2026-02-24",
-        "first_online": "2026-02-23",
-        "last_offline": null,
-        "probe_time_s": 2.42,
-        "speed": 0.826,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
   "Akash Aath": {
     "group": "Bangla",
     "tvg_id": "akashaat.in",
@@ -18442,6 +18425,16 @@
         "last_offline": null,
         "probe_time_s": 6.827,
         "speed": 0.293,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8",
+        "status": "online",
+        "last_online": "2026-02-24",
+        "first_online": "2026-02-23",
+        "last_offline": null,
+        "probe_time_s": 2.42,
+        "speed": 0.826,
         "passed_via": "ffmpeg"
       }
     ]
