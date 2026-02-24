@@ -53,7 +53,7 @@ MOVIE_GROUPS = {
     "Movies - Bangla",
     "Movies - English",
     "Movies - Hindi",
-    "Movies - Hindi Dubbed"
+    "Movies - Hindi Dubbed",
     "Movies - Other",
 }
 
@@ -113,22 +113,55 @@ def is_recent(date_str: str | None, days: int) -> bool:
 def generate_tvg_id(name): return re.sub(r'[^A-Za-z0-9_]', '_', name.strip())
 
 def language_to_group(language: str | None) -> str:
+    """
+    Map a language/category label from movie JSON links to your playlist group names.
+    Unknown values default to "Movies - Other".
+    """
     if not language:
-        return "Movies"
+        return "Movies - Other"
+
     key = language.strip().lower()
-    mapping = {
-        # English
-        "english": "Movies - English", "en": "Movies - English", "eng": "Movies - English",
-        # Hindi (+ dubbed buckets)
+
+    # Keep groups centralized so you don't repeat strings everywhere
+    groups = {
+        "bangla": "Movies - Bangla",
+        "english": "Movies - English",
         "hindi": "Movies - Hindi",
-        "hindi dubbed": "Movies - Hindi Dubbed", "hindi-dubbed": "Movies - Hindi Dubbed",
-        "hindi dub": "Movies - Hindi Dubbed", "hindi-dub": "Movies - Hindi Dubbed",
-        "dual audio": "Movies - Hindi Dubbed",
-        # Bangla / Bengali
-        "bangla": "Movies - Bangla", "bn": "Movies - Bangla",
-        "bengali": "Movies - Bangla",
+        "hindi_dubbed": "Movies - Hindi Dubbed",
+        "other": "Movies - Other",
     }
-    return mapping.get(key, "Movies")
+
+    mapping = {
+        # --- English ---
+        "english": groups["english"],
+        "en": groups["english"],
+        "eng": groups["english"],
+
+        # --- Hindi ---
+        "hindi": groups["hindi"],
+
+        # --- Hindi Dubbed / Dual ---
+        "hindi dubbed": groups["hindi_dubbed"],
+        "hindi-dubbed": groups["hindi_dubbed"],
+        "hindi dub": groups["hindi_dubbed"],
+        "hindi-dub": groups["hindi_dubbed"],
+        "dual audio": groups["hindi_dubbed"],
+        "dual-audio": groups["hindi_dubbed"],
+
+        # --- Bangla / Bengali ---
+        "bangla": groups["bangla"],
+        "bn": groups["bangla"],
+        "bengali": groups["bangla"],
+
+        # --- Other buckets (Infobase / mixed categories) ---
+        "other": groups["other"],
+        "korean": groups["other"],
+        "china": groups["other"],
+        "chinese": groups["other"],
+        "japanese": groups["other"],
+    }
+
+    return mapping.get(key, groups["other"])
 
 # --- NEW HELPER FUNCTION ---
 def get_movie_sort_key(x: Item):
