@@ -28,6 +28,76 @@
       }
     ]
   },
+  "FB | BeIN Sports 2": {
+    "group": "Sports",
+    "tvg_id": "BeIN Sports 2",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/bf/BS2.svg",
+    "links": [
+      {
+        "url": "http://135.125.109.73:9000/beinsport2_.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIX | 4 Sports": {
+    "group": "Sports",
+    "tvg_id": "4 Sports",
+    "tvg_logo": "https://s3.aynaott.com/storage/076d49c9e09651ec0f1e1eee338e4a19",
+    "links": [
+      {
+        "url": "https://pepsi.abntv.live/hls/4spstream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Bahrain Sports 1": {
+    "group": "Sports",
+    "tvg_id": "Bahrain Sports 1",
+    "tvg_logo": "https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",
+    "links": [
+      {
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | BeIN Sports 3": {
+    "group": "Sports",
+    "tvg_id": "BeIN Sports 3",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3d/BeIN_Sports_3_2017_Square.png",
+    "links": [
+      {
+        "url": "http://135.125.109.73:9000/beinsport3_.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "ENT | The Q Kahaniyan": {
+    "group": "India",
+    "tvg_id": "The Q Kahaniyan",
+    "tvg_logo": "https://www.theq.tv/wp-content/uploads/2023/10/The-Q-new-Logo.png",
+    "links": [
+      {
+        "url": "http://163.61.227.29:8000/play/a04v/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -6362,14 +6432,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b7/Star_Gold_Thrills.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-01",
-        "first_online": "2025-10-26",
-        "last_offline": "2025-11-01",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "http://119.152.240.15:8000/play/a0iy/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -7562,16 +7629,11 @@
     "tvg_logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-01-29",
-        "first_online": "2025-09-04",
-        "last_offline": "2026-01-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 73.8s",
-        "quality": "slow"
+        "url": "https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -17626,6 +17688,20 @@
       }
     ]
   },
+  "RTV Islam": {
+    "group": "Religious",
+    "tvg_id": "RTV Islam",
+    "tvg_logo": "https://s3.aynaott.com/storage/f00eda9194eb13e8ef1d1387889173bf",
+    "links": [
+      {
+        "url": "https://protokolldns.xyz/rtvislamweb554/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "NEWS | Time News": {
     "group": "Pakistan",
     "tvg_id": "TimeNews.pk",
@@ -21202,6 +21278,48 @@
         "passed_via": "ffmpeg",
         "note": "overrun 45.1s",
         "quality": "slow"
+      }
+    ]
+  },
+  "FB | MORE THEN SPORTS TV": {
+    "group": "Sports",
+    "tvg_id": "MORE THEN SPORTS TV",
+    "tvg_logo": "https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",
+    "links": [
+      {
+        "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Oman Sports TV": {
+    "group": "Sports",
+    "tvg_id": "Oman Sports TV",
+    "tvg_logo": "https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",
+    "links": [
+      {
+        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FB | Pro Sports International": {
+    "group": "Sports",
+    "tvg_id": "Pro Sports International",
+    "tvg_logo": "https://s3.aynaott.com/storage/370762bb5582389fb52469931cdcd357",
+    "links": [
+      {
+        "url": "https://proshls.wns.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
