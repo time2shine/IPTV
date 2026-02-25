@@ -1871,6 +1871,76 @@
       }
     ]
   },
+  "Channel Win": {
+    "group": "Religious",
+    "tvg_id": "Channel Win",
+    "tvg_logo": "https://s3.aynaott.com/storage/3458d0d9097a8283a94a13374bcbf5c7",
+    "links": [
+      {
+        "url": "https://cdn-4.pishow.tv/live/229/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIX | Abu Dhabi Sports 1": {
+    "group": "Sports",
+    "tvg_id": "Abu Dhabi Sports 1",
+    "tvg_logo": "https://s3.aynaott.com/storage/4a49a25eebddb4b8ad8e59298dd2040c",
+    "links": [
+      {
+        "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIX | Abu Dhabi Sports 2": {
+    "group": "Sports",
+    "tvg_id": "Abu Dhabi Sports 2",
+    "tvg_logo": "https://s3.aynaott.com/storage/e2f09b3c7415180f248438ef9688846a",
+    "links": [
+      {
+        "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MOV | Haq": {
+    "group": "India",
+    "tvg_id": "Haq",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "http://160.187.56.254:8096/emby/videos/1013660/original.mkv?DeviceId=495ef711-2098-4ef4-82d9-c583b3b45b10&MediaSourceId=mediasource_1013660&PlaySessionId=1ad11a4cdc8a4fdd954a41bde42f2ec8&api_key=3938b7da4a60440a84f66dc0245d330b",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. TVCARiB Kids & Teens": {
+    "group": "Kids",
+    "tvg_id": "TVCARiB Kids & Teens",
+    "tvg_logo": "https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6",
+    "links": [
+      {
+        "url": "https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "RTV": {
     "group": "Bangla",
     "tvg_id": "rtv.bd",
@@ -11197,7 +11267,7 @@
       }
     ]
   },
-  "0. Dios Te Ve Kids": {
+  "1. Dios Te Ve Kids": {
     "group": "Kids",
     "tvg_id": "Dios Te Ve Kids",
     "tvg_logo": "https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67",
@@ -13375,6 +13445,20 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
+      }
+    ]
+  },
+  "EN | Cowboy Movie Channel": {
+    "group": "Movies",
+    "tvg_id": "Cowboy Movie Channel",
+    "tvg_logo": "https://s3.aynaott.com/storage/cb1ab052f5b733bbf600a7a8e3a1164b",
+    "links": [
+      {
+        "url": "https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18931,6 +19015,13 @@
         "passed_via": "ffmpeg",
         "note": "mpv",
         "quality": "fast"
+      },
+      {
+        "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19692,6 +19783,20 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "no url"
+      }
+    ]
+  },
+  "MOV | South Movies": {
+    "group": "India",
+    "tvg_id": "South Movies",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -22098,16 +22203,25 @@
     "tvg_logo": "https://a.jsrdn.com/hls/23064/4k-travel-tv/logo_20231219_183416_68.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-01-29",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-01-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 52.2s",
-        "quality": "slow"
+        "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "InTravel": {
+    "group": "Travel",
+    "tvg_id": "InTravel",
+    "tvg_logo": "https://s3.aynaott.com/storage/b35e9c1bcde3e6876892a22f91a9c4b5",
+    "links": [
+      {
+        "url": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
