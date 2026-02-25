@@ -1,10 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",ATN BANGLA (0d)
+http://103.230.105.252:1935/live/atnb/manifest.m3u8
+#EXTINF:-1 group-title="Bangla",ATN BANGLA SD (0d)
+http://103.230.105.252:1935/live/atnb/manifest.m3u8
+#EXTINF:-1 group-title="Bangla",BTV SD (0d)
+http://103.230.105.252:1935/live/btv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Channel A1 (2d)
 https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
-https://ekusheyserver.com/etvlivesn.m3u8
-#EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
 https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (2d)
+https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (2d)
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (0d)
@@ -16,9 +22,11 @@ http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
 https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",NTV SD (0d)
+http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Padma Tv (5d)
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (7d)
@@ -27,8 +35,6 @@ https://tvsen1.aynaott.com/PNEb3v2q6GBk/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
 #EXTINF:-1 group-title="Educational",eden+1 (8d)
 https://i.mjh.nz/.r/eden-plus1.m3u8
-#EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri (4d)
-https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 group-title="India",ENT | Abzy Dhakad (5d)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Ishara TV (8d)
@@ -41,16 +47,20 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/in
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (8d)
 https://epiconvh.akamaized.net/live/showbox/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | NDTV Hindi (0d)
-https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 #EXTINF:-1 group-title="International News",Euronews English (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 group-title="Kids",1. Gubbare (8d)
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
+#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="Kids",Cartoonito (0d)
 http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Discovery Kids (0d)
 http://181.78.4.250:8098/play/a08h/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | HBO Comedy (0d)
+http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (0d)
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
 #EXTINF:-1 group-title="Music",OTHER | 4 Fun TV (0d)
 https://stream.4fun.tv:8888/hls/4f_low/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (0d)
@@ -63,9 +73,11 @@ http://filex.tv:8080/live/Multicity/1234/52106.ts
 http://201.230.121.186:8000/play/a0dz/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIX | 4 Sports (0d)
-https://pepsi.abntv.live/hls/4spstream.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | TNA Wrestling Channel (0d)
+https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | Sony Ten 2 HD (9d)
 https://tvsen3.aynascope.net/HsatAP9H/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | SportsGrid (8d)
 https://d2csnsebt671su.cloudfront.net/playlist/sportsgri-sportsgrid-samsung-us/playlist.m3u8
+#EXTINF:-1 group-title="Sports",OTHER | Cowboy TV (0d)
+https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8

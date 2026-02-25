@@ -1,16 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ATN BANGLA
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
-#EXTINF:-1 group-title="Bangla",ATN BANGLA
-http://103.230.105.252:1935/live/atnb/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",ATN BANGLA SD
-http://103.230.105.252:1935/live/atnb/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION
 https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 group-title="Bangla",BTV HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
-#EXTINF:-1 group-title="Bangla",BTV SD
-http://103.230.105.252:1935/live/btv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I
@@ -25,8 +19,6 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-vid
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=1692000.m3u8
 #EXTINF:-1 group-title="Bangla",NTV HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
-#EXTINF:-1 group-title="Bangla",NTV SD
-http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | Channel 24
@@ -67,6 +59,8 @@ https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-
 https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/ts-eu-w1-n2/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | Zee 24 Ghanta
 https://amg01412-xiaomiasia-zee24ghantaa-xiaomi-cvo5n.amagi.tv/playlist/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="India",BHOJ | Filamchi Bhojpuri
+https://epiconvh.akamaized.net/live/filamchi/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | Aaj Tak HD
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | Aaj Tak HD
@@ -83,6 +77,10 @@ https://feeds.intoday.in/hltapps/api/master.m3u8
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
 #EXTINF:-1 group-title="India",NEWS | India TV
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | NDTV Hindi
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | NDTV Hindi
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24
 https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c1-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | Republic Bharat
@@ -93,3 +91,5 @@ http://live.iill.top/huya.php?id=11352879
 http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
 #EXTINF:-1 group-title="Sports",GOLF | Unbeaten (Worldwide)
 https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIX | 4 Sports
+https://pepsi.abntv.live/hls/4spstream.m3u8
