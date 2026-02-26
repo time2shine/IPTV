@@ -17,12 +17,6 @@ http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Padma Tv (6d)
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
-#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
-https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
-#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
-http://208.86.19.13:81/510.stream/index.m3u8
-#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
-http://str24.l9574.com/510.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",Zee Bangla HD (8d)
 https://tvsen1.aynaott.com/PNEb3v2q6GBk/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (1d)
@@ -41,16 +35,22 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/in
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (9d)
 https://epiconvh.akamaized.net/live/showbox/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | Republic TV (0d)
+https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | Times Now Navbharat (0d)
+https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International News",Euronews English (1d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",1. Gubbare (9d)
 https://epiconvh.akamaized.net/live/gubbare/master.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (1d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | GEO TEZZ (1d)
-https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Movies",EN | Comedy Classics (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/ETV3I79BLYUCBY8O1B27/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Old West TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/BNG6HPRT3WX89TD7PR60/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (1d)
 https://cat6.ostv.info/live/76631957/10205687/675823.ts?token=ShJcU0BbQQNHDw0AVFINAQEBVFRTBQdXU1NRBANRClAAUgxTBQoBWFwbGBpEF0dcWF1vWQIXXlcGV1oFVkgRR0JVRm1aV0EDRwgCCwNTAAAbHBJED1gBQwtTVQBUXAsCCAUFHhFDCl1HAxYKAFsHDAoEEhxEUBwVVBAMVgk7V1dHWVdXEQkNTAlVGBpYDWpdXF1RXgIXXkMBQE4VDBdDEAteQV5fH0FbDE1GWUMGFwMbBAIBUxdIQ1INF1kRFkoQCxJ2dhEfQVwdTVFWRApaVxsKEkQVF0hDWBE9RQAXR0BUUVlXQRFZG1UbGBpaAk1mWl9eXgNWEAheDBEVX0YCEB0SWV1dWhdWF2ZEUVNBDxsICQEFUAZcQ0w=
 #EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (1d)
@@ -61,7 +61,5 @@ http://filex.tv:8080/live/Multicity/1234/52106.ts
 http://201.230.121.186:8000/play/a0dz/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
-http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | SportsGrid (9d)
 https://d2csnsebt671su.cloudfront.net/playlist/sportsgri-sportsgrid-samsung-us/playlist.m3u8
