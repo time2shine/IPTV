@@ -2174,8 +2174,8 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_AtnNews/video.m3u8",
+        "status": "online",
         "last_online": "2025-10-29",
         "first_online": "",
         "last_offline": "2025-10-29",
@@ -2408,8 +2408,8 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-12-02",
         "last_offline": "2026-02-12",
@@ -2425,8 +2425,8 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/News24/index.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-09-08",
         "last_offline": "2026-02-12",
@@ -2485,8 +2485,8 @@
         "passed_via": "whitelist"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-09-20",
         "last_offline": "2026-02-12",
@@ -2495,18 +2495,6 @@
         "passed_via": "missing",
         "note": "mpv",
         "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-29",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-12-30",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.58x",
-        "quality": "slow"
       }
     ]
   },
@@ -18613,8 +18601,8 @@
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/StarSportsSelect2/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-01",
         "first_online": "2025-10-26",
         "last_offline": "2025-11-01",
@@ -18630,14 +18618,14 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": "2025-12-02",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "http://198.195.239.50:8095/Tsports/index.m3u8",
+        "status": "online",
+        "last_online": "2026-02-28",
+        "first_online": "2026-02-17",
+        "last_offline": null,
+        "probe_time_s": 13.431,
+        "speed": 0.149,
+        "passed_via": "ffmpeg"
       }
     ]
   },
@@ -18900,6 +18888,16 @@
     "links": [
       {
         "url": "http://163.61.227.29:8000/play/a05l/index.m3u8",
+        "status": "online",
+        "last_online": "2026-02-28",
+        "first_online": "2026-02-17",
+        "last_offline": null,
+        "probe_time_s": 9.397,
+        "speed": 0.213,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://198.195.239.50:8095/PTV/index.m3u8",
         "status": "online",
         "last_online": "2026-02-28",
         "first_online": "2026-02-17",
@@ -19279,8 +19277,8 @@
     "tvg_logo": "https://d34080pnh6e62j.cloudfront.net/images/VideoOnDemandThumb/1648210285NewTapmadLogo-01@2x.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/StarSportsSelect1/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-13",
         "last_offline": null,
@@ -19355,21 +19353,11 @@
         "passed_via": "head_fail"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/WiLLow/index.m3u8",
+        "status": "online",
         "last_online": "2026-01-21",
         "first_online": "2025-09-12",
         "last_offline": "2026-01-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-14",
-        "first_online": "2025-12-01",
-        "last_offline": "2025-12-14",
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
