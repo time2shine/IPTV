@@ -15,6 +15,12 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (3d)
 http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla",NTV SD (3d)
 http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Padma Tv (8d)
@@ -29,8 +35,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Abzy Movies (8d)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Haq (0d)
 http://160.187.56.254:8096/emby/videos/1013660/original.mkv?DeviceId=495ef711-2098-4ef4-82d9-c583b3b45b10&MediaSourceId=mediasource_1013660&PlaySessionId=1ad11a4cdc8a4fdd954a41bde42f2ec8&api_key=3938b7da4a60440a84f66dc0245d330b
 #EXTINF:-1 group-title="India",MOV | Star Gold Thrills (1d)
@@ -41,8 +45,24 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 group-title="International News",Fox News (1d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
+#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Movies",EN | Urban Action Channel (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
+#EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (0d)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/G7RPZJDZ6V3CRIAWTNFU/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (3d)
 https://cat6.ostv.info/live/76631957/10205687/675823.ts?token=ShJcU0BbQQNHDw0AVFINAQEBVFRTBQdXU1NRBANRClAAUgxTBQoBWFwbGBpEF0dcWF1vWQIXXlcGV1oFVkgRR0JVRm1aV0EDRwgCCwNTAAAbHBJED1gBQwtTVQBUXAsCCAUFHhFDCl1HAxYKAFsHDAoEEhxEUBwVVBAMVgk7V1dHWVdXEQkNTAlVGBpYDWpdXF1RXgIXXkMBQE4VDBdDEAteQV5fH0FbDE1GWUMGFwMbBAIBUxdIQ1INF1kRFkoQCxJ2dhEfQVwdTVFWRApaVxsKEkQVF0hDWBE9RQAXR0BUUVlXQRFZG1UbGBpaAk1mWl9eXgNWEAheDBEVX0YCEB0SWV1dWhdWF2ZEUVNBDxsICQEFUAZcQ0w=
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (0d)
+http://198.195.239.50:8095/Tsports/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
+http://198.195.239.50:8095/PTV/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (0d)
+http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (3d)
 http://filex.tv:8080/live/Multicity/1234/52109.ts
 #EXTINF:-1 group-title="Sports",CR | Ten Sports HD (3d)
