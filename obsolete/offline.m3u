@@ -3,8 +3,6 @@
 http://103.230.105.252:1935/live/atnb/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",ATN BANGLA SD (4d)
 http://103.230.105.252:1935/live/atnb/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",ATN Bangla UK (0d)
-https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",BTV SD (4d)
 http://103.230.105.252:1935/live/btv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Channel A1 (6d)
@@ -13,14 +11,16 @@ https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8
 #EXTINF:-1 group-title="Bangla",Deshi TV (2d)
 http://208.86.19.13:81/514.stream/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (4d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Green TV (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (4d)
 http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",NTV SD (4d)
 http://103.230.105.252:1935/live/ntv/manifest.m3u8
 #EXTINF:-1 group-title="Bangla",Padma Tv (9d)
@@ -31,32 +31,26 @@ http://208.86.19.13:81/506.stream/index.m3u8
 http://208.86.19.13:81/510.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (4d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
-#EXTINF:-1 group-title="Educational",Discovery HD (0d)
-http://163.61.227.29:8000/play/a01i/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Abzy Dhakad (9d)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Abzy Movies (9d)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Haq (1d)
 http://160.187.56.254:8096/emby/videos/1013660/original.mkv?DeviceId=495ef711-2098-4ef4-82d9-c583b3b45b10&MediaSourceId=mediasource_1013660&PlaySessionId=1ad11a4cdc8a4fdd954a41bde42f2ec8&api_key=3938b7da4a60440a84f66dc0245d330b
-#EXTINF:-1 group-title="India",MOV | Star Gold Thrills (0d)
-http://119.152.240.15:8000/play/a0iy/index.m3u8
 #EXTINF:-1 group-title="India",MU | Mastiii (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
+#EXTINF:-1 group-title="International",Hot Ones (0d)
+https://d1si3n1st4nkgb.cloudfront.net/10502/88896039/hls/master.m3u8?ads.xumo_channelId=88896039&ads.xumo_streamId=88896039&ads.caid=filmrisehotones&ads.csid=samsungtvplus_uk_filmrisehotones_ssai&ads.sfid=&ads.afid=filmrisehotones&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1---&ads._fw_coppa=0&ads._fw_did=%7BPSID%7D&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=samsung&ads._fw_gdpr=1&ads._fw_gdpr_consent=%7BTC_STRING%7D&ads._fw_h_x_country=UK&ads.appVersion=&ads.appName=%7BAPP_NAME%7D&ads.xumo_contentId=260&ads.xumo_contentName=filmrise&ads.xumo_providerId=260&ads.xumo_providerName=filmrise&ads.xumo_adsystem=mediatailor&ads.xumo_channelName=hotones_gb&ads.tpcl=MIDROLL&ads._fw_app_store_url=%7BAPP_DOMAIN%7D
 #EXTINF:-1 group-title="International News",Euronews English (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 group-title="International News",Fox News (2d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
-#EXTINF:-1 group-title="Kids",0. TVCARiB Kids & Teens (0d)
-https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Pakistan",MOV | FILMAX (0d)
-http://163.61.227.29:8000/play/a02o/index.m3u8
-#EXTINF:-1 group-title="Pakistan",MOV | FILMAZIA (0d)
-http://163.61.227.29:8000/play/a02l/index.m3u8
+#EXTINF:-1 group-title="Kids",0. Hooray Rhymes (0d)
+https://cc-hqignh3tex8xc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hqignh3tex8xc/OTM/OTM_KidsToonsHindi-SCTE_SAMSUNG/playlist.m3u8
+#EXTINF:-1 group-title="Kids",2. The Jungle Book (0d)
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 group-title="Movies",EN | LoL TV (0d)
+https://streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8
 #EXTINF:-1 group-title="Religious",Sunnah TV (1d)
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (4d)
@@ -75,7 +69,5 @@ http://filex.tv:8080/live/Multicity/1234/52109.ts
 http://filex.tv:8080/live/Multicity/1234/52106.ts
 #EXTINF:-1 group-title="Sports",FB | ESPN 7 (4d)
 http://201.230.121.186:8000/play/a0dz/index.m3u8
-#EXTINF:-1 group-title="Sports",FB | Puls 24 (2d)
-http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | Xtrem Sports (0d)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 group-title="Sports",FB | Russia Football 2 HD (0d)
+http://d5.cdntv.online/low/9mlxywika2/56.m3u8
