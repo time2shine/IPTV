@@ -1,79 +1,85 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",ATN BANGLA (3d)
+#EXTINF:-1 group-title="Bangla",ATN BANGLA (4d)
 http://103.230.105.252:1935/live/atnb/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",ATN BANGLA SD (3d)
+#EXTINF:-1 group-title="Bangla",ATN BANGLA SD (4d)
 http://103.230.105.252:1935/live/atnb/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",BTV SD (3d)
+#EXTINF:-1 group-title="Bangla",BTV SD (4d)
 http://103.230.105.252:1935/live/btv/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",Channel A1 (5d)
+#EXTINF:-1 group-title="Bangla",Channel A1 (6d)
 https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
-#EXTINF:-1 group-title="Bangla",DD Bangla (0d)
+#EXTINF:-1 group-title="Bangla",DD Bangla (1d)
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8
-#EXTINF:-1 group-title="Bangla",Deshi TV (0d)
-https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Deshi TV (1d)
+#EXTINF:-1 group-title="Bangla",DesheBideshe (0d)
+https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
+#EXTINF:-1 group-title="Bangla",Deshi TV (2d)
 http://208.86.19.13:81/514.stream/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (1d)
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",GAZI TV HD (3d)
+#EXTINF:-1 group-title="Bangla",GAZI TV HD (4d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",Green TV (0d)
+#EXTINF:-1 group-title="Bangla",Green TV (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Jankhar TV (8d)
+#EXTINF:-1 group-title="Bangla",Jankhar TV (9d)
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
-#EXTINF:-1 group-title="Bangla",MAASRANGA HD (3d)
+#EXTINF:-1 group-title="Bangla",MAASRANGA HD (4d)
 http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
-#EXTINF:-1 group-title="Bangla",NTV SD (3d)
+#EXTINF:-1 group-title="Bangla",NTV SD (4d)
 http://103.230.105.252:1935/live/ntv/manifest.m3u8
-#EXTINF:-1 group-title="Bangla",Padma Tv (8d)
+#EXTINF:-1 group-title="Bangla",Padma Tv (9d)
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
-#EXTINF:-1 group-title="Bangla",Time Televis HD (1d)
+#EXTINF:-1 group-title="Bangla",Time Televis HD (2d)
 http://208.86.19.13:81/506.stream/index.m3u8
-#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (1d)
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (2d)
 http://208.86.19.13:81/510.stream/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | ATN News (3d)
+#EXTINF:-1 group-title="Bangla News",BD | ATN News (4d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
-#EXTINF:-1 group-title="India",ENT | Abzy Dhakad (8d)
+#EXTINF:-1 group-title="India",ENT | Abzy Dhakad (9d)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Abzy Movies (8d)
+#EXTINF:-1 group-title="India",MOV | Abzy Movies (9d)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Haq (0d)
+#EXTINF:-1 group-title="India",MOV | Haq (1d)
 http://160.187.56.254:8096/emby/videos/1013660/original.mkv?DeviceId=495ef711-2098-4ef4-82d9-c583b3b45b10&MediaSourceId=mediasource_1013660&PlaySessionId=1ad11a4cdc8a4fdd954a41bde42f2ec8&api_key=3938b7da4a60440a84f66dc0245d330b
-#EXTINF:-1 group-title="India",MU | Mastiii (3d)
+#EXTINF:-1 group-title="India",MU | Mastiii (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
-#EXTINF:-1 group-title="International News",Euronews English (3d)
+#EXTINF:-1 group-title="International News",Euronews English (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
-#EXTINF:-1 group-title="International News",Fox News (1d)
+#EXTINF:-1 group-title="International News",Fox News (2d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 group-title="International News",France 24 English (0d)
-https://amg02703-leadstory-leadstory-samsungau-rr75f.amagi.tv/ts-eu-w1-n2/playlist/amg02703-leadstory-leadstory-samsungau/playlist.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="International News",Sky News Weather (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
+#EXTINF:-1 group-title="International News",Sky News Weather (1d)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
-#EXTINF:-1 group-title="Movies",EN | HBO Comedy (0d)
-http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+#EXTINF:-1 group-title="Kids",Kid Screation (0d)
+http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Music",EN | Cool Summer Channel (0d)
+https://d2hzqddebd4oer.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-468m04kfpf5n7/csts.m3u8
+#EXTINF:-1 group-title="Music",EN | Def Jam (0d)
+https://d1t9jj3kgy7bur.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m84lyt8jpwc3r/gigs.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (1d)
 https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Religious",Sunnah TV (0d)
+#EXTINF:-1 group-title="Religious",Azan TV (0d)
+https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
+#EXTINF:-1 group-title="Religious",MTA 1 Bangla (0d)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Sunnah TV (1d)
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
-#EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (3d)
+#EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (4d)
 https://cat6.ostv.info/live/76631957/10205687/675823.ts?token=ShJcU0BbQQNHDw0AVFINAQEBVFRTBQdXU1NRBANRClAAUgxTBQoBWFwbGBpEF0dcWF1vWQIXXlcGV1oFVkgRR0JVRm1aV0EDRwgCCwNTAAAbHBJED1gBQwtTVQBUXAsCCAUFHhFDCl1HAxYKAFsHDAoEEhxEUBwVVBAMVgk7V1dHWVdXEQkNTAlVGBpYDWpdXF1RXgIXXkMBQE4VDBdDEAteQV5fH0FbDE1GWUMGFwMbBAIBUxdIQ1INF1kRFkoQCxJ2dhEfQVwdTVFWRApaVxsKEkQVF0hDWBE9RQAXR0BUUVlXQRFZG1UbGBpaAk1mWl9eXgNWEAheDBEVX0YCEB0SWV1dWhdWF2ZEUVNBDxsICQEFUAZcQ0w=
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (0d)
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 http://198.195.239.50:8095/Tsports/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Lemar AGF)-- (0d)
-http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (0d)
+#EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (1d)
 http://198.195.239.50:8095/PTV/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (0d)
+#EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (1d)
 http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (3d)
+#EXTINF:-1 group-title="Sports",--Live(Willow HD)-- (4d)
 http://filex.tv:8080/live/Multicity/1234/52109.ts
-#EXTINF:-1 group-title="Sports",CR | Ten Sports HD (3d)
+#EXTINF:-1 group-title="Sports",CR | Ten Sports HD (4d)
 http://filex.tv:8080/live/Multicity/1234/52106.ts
-#EXTINF:-1 group-title="Sports",FB | ESPN 7 (3d)
+#EXTINF:-1 group-title="Sports",FB | ESPN 7 (4d)
 http://201.230.121.186:8000/play/a0dz/index.m3u8
-#EXTINF:-1 group-title="Sports",FB | ORF Sport+ HD (0d)
-http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
-#EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
+#EXTINF:-1 group-title="Sports",FB | Puls 24 (2d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
+#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
+https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
+http://41.205.93.154/ESPN/index.m3u8
