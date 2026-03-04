@@ -207,8 +207,8 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-11",
         "first_online": "2025-09-20",
         "last_offline": "2026-02-11",
@@ -216,18 +216,6 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "2025-10-03",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "played 18.0s < 20s",
-        "quality": "slow"
       }
     ]
   },
@@ -508,8 +496,8 @@
         "passed_via": "whitelist"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-09-20",
         "last_offline": "2026-02-12",
@@ -534,28 +522,25 @@
         "probe_time_s": 49.267,
         "speed": 0.041,
         "passed_via": "mpv"
-      },
+      }
+    ]
+  },
+  "Colors Bangla HD": {
+    "group": "Bangla",
+    "tvg_id": "colorsBangla.in",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg",
+    "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-10-13",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-10-13",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2025-09-10",
+        "last_offline": null,
+        "probe_time_s": 5.287,
+        "speed": 0.378,
+        "passed_via": "ffmpeg",
+        "note": "min speed 0.47x",
+        "quality": "slow"
       }
     ]
   },
@@ -587,16 +572,6 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-15",
-        "first_online": "2026-01-23",
-        "last_offline": "2026-02-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -951,6 +926,16 @@
         "probe_time_s": 4.635,
         "speed": 0.431,
         "passed_via": "mpv"
+      },
+      {
+        "url": "http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8",
+        "status": "offline",
+        "last_online": "2026-02-25",
+        "first_online": "2025-10-26",
+        "last_offline": "2026-02-25",
+        "probe_time_s": 4.635,
+        "speed": 0.431,
+        "passed_via": "mpv"
       }
     ]
   },
@@ -1215,8 +1200,8 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8",
+        "status": "online",
         "last_online": "2025-09-03",
         "first_online": "2025-09-03",
         "last_offline": null,
@@ -1233,8 +1218,8 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/Jalsha_Movies_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/JalshaMovies/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-15",
         "first_online": "2025-09-08",
         "last_offline": "2025-10-15",
@@ -1307,8 +1292,20 @@
     "tvg_logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8",
+        "status": "online",
+        "last_online": "2025-11-14",
+        "first_online": "2025-09-03",
+        "last_offline": "2025-11-14",
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "missing",
+        "note": "min speed 0.86x",
+        "quality": "slow"
+      },
+      {
+        "url": "http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-14",
         "first_online": "2025-09-03",
         "last_offline": "2025-11-14",
@@ -1592,8 +1589,8 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/87/Nagorik_TV_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/nagorik/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-10",
         "first_online": "2025-10-02",
         "last_offline": "2025-10-10",
@@ -1943,6 +1940,37 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.73x",
         "quality": "slow"
+      },
+      {
+        "url": "http://198.195.239.50:8095/SonyAath/index.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2025-09-03",
+        "last_offline": null,
+        "probe_time_s": 1.765,
+        "speed": 1.133,
+        "passed_via": "ffmpeg",
+        "note": "min speed 0.73x",
+        "quality": "slow"
+      }
+    ]
+  },
+  "STAR JALSHA HD": {
+    "group": "Bangla",
+    "tvg_id": "starjalsha.in",
+    "tvg_logo": "http://openboxv8s.com/india/star_jalsha.png",
+    "links": [
+      {
+        "url": "http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2025-09-11",
+        "last_offline": null,
+        "probe_time_s": 4.849,
+        "speed": 0.412,
+        "passed_via": "ffmpeg",
+        "note": "min speed 0.45x",
+        "quality": "slow"
       }
     ]
   },
@@ -2174,8 +2202,8 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_AtnNews/video.m3u8",
+        "status": "online",
         "last_online": "2025-10-29",
         "first_online": "",
         "last_offline": "2025-10-29",
@@ -2408,8 +2436,8 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-12-02",
         "last_offline": "2026-02-12",
@@ -2485,8 +2513,8 @@
         "passed_via": "whitelist"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8",
+        "status": "online",
         "last_online": "2026-02-12",
         "first_online": "2025-09-20",
         "last_offline": "2026-02-12",
@@ -3071,8 +3099,8 @@
         "quality": "slow"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/AnimalPlanet/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-06",
         "first_online": "2025-09-27",
         "last_offline": "2025-11-06",
@@ -5296,8 +5324,8 @@
     "tvg_logo": "https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/SonyTv/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-16",
         "first_online": "2025-10-11",
         "last_offline": "2025-10-16",
@@ -5368,8 +5396,8 @@
     "tvg_logo": "https://jiotvimages.cdn.jio.com/dare_images/images/200/-/Star_Plus_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/StarPlus/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-01",
         "first_online": "2025-10-26",
         "last_offline": "2025-11-01",
@@ -5558,8 +5586,8 @@
     "tvg_logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/ZeeTV/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-19",
         "first_online": "2025-09-08",
         "last_offline": "2025-10-20",
@@ -5567,17 +5595,6 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "head"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-10-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
       }
     ]
   },
@@ -5900,14 +5917,14 @@
       }
     ]
   },
-  "MOV | Colors Cineplex": {
+  "MOV | Colors Cineplex HD": {
     "group": "India",
     "tvg_id": "ColorsCineplex.in@SD",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/b/b3/Colors_Cineplex.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/ColorsCineplex/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-13",
         "first_online": "2025-10-07",
         "last_offline": "2025-10-13",
@@ -6295,8 +6312,8 @@
     "tvg_logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/SonyMAX/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-18",
         "first_online": "2025-10-11",
         "last_offline": "2025-10-18",
@@ -6367,6 +6384,16 @@
     "links": [
       {
         "url": "http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2026-02-23",
+        "last_offline": null,
+        "probe_time_s": 4.129,
+        "speed": 0.484,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://198.195.239.50:8095/StarGold/index.m3u8",
         "status": "online",
         "last_online": "2026-03-04",
         "first_online": "2026-02-23",
@@ -6530,8 +6557,8 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/Zee_Cinema_2017_old.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/ZeeCinema/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-14",
         "first_online": "",
         "last_offline": "2025-11-14",
@@ -6540,28 +6567,6 @@
         "passed_via": "missing",
         "note": "min speed 0.47x",
         "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-19",
-        "first_online": "2025-09-20",
-        "last_offline": "2025-10-20",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "head"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-15",
-        "first_online": "2025-09-08",
-        "last_offline": "2025-10-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "head"
       }
     ]
   },
@@ -8449,6 +8454,18 @@
     "links": [
       {
         "url": "https://amg13643-amg13643c1-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c1-amgplt0016/playlist.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2025-09-22",
+        "last_offline": null,
+        "probe_time_s": null,
+        "speed": 0.0,
+        "passed_via": "whitelist",
+        "note": "whitelisted",
+        "quality": "fast"
+      },
+      {
+        "url": "http://198.195.239.50:8095/News24/index.m3u8",
         "status": "online",
         "last_online": "2026-03-04",
         "first_online": "2025-09-22",
@@ -11695,13 +11712,13 @@
       }
     ]
   },
-  "1. Cartoon Network": {
+  "10 Cartoon Network": {
     "group": "Kids",
     "tvg_id": "CartoonNetwork",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png",
     "links": [
       {
-        "url": "",
+        "url": "http://198.195.239.50:8095/CartoonNetwork/index.m3u8",
         "status": "missing",
         "last_online": "2025-11-17",
         "first_online": "2025-09-06",
@@ -11768,14 +11785,14 @@
       }
     ]
   },
-  "1. Discovery Kids Hindi": {
+  "0. Discovery Kids Hindi": {
     "group": "Kids",
     "tvg_id": "DiscoveryKids.in",
     "tvg_logo": "https://i.postimg.cc/gjZzG3WD/Fight-Network.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/DiscoveryKids/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-18",
         "first_online": "2025-09-27",
         "last_offline": "2025-10-18",
@@ -18601,8 +18618,8 @@
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/StarSportsSelect2/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-01",
         "first_online": "2025-10-26",
         "last_offline": "2025-11-01",
@@ -18636,6 +18653,16 @@
     "links": [
       {
         "url": "http://163.61.227.29:8000/play/a03t/index.m3u8",
+        "status": "online",
+        "last_online": "2026-03-04",
+        "first_online": "2026-02-17",
+        "last_offline": null,
+        "probe_time_s": 7.807,
+        "speed": 0.256,
+        "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://198.195.239.50:8095/Eurosport/index.m3u8",
         "status": "online",
         "last_online": "2026-03-04",
         "first_online": "2026-02-17",
@@ -19067,39 +19094,17 @@
         "passed_via": "missing",
         "note": "overrun 73.2s",
         "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-21",
-        "first_online": "",
-        "last_offline": "2025-10-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-10-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
       }
     ]
   },
   "--Live(Sony sports 2)--": {
     "group": "Sports",
-    "tvg_id": "Sony sports 2",
+    "tvg_id": "Sonysports2",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c9/Sony_Sports_Network.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/SonyTenSports2/index.m3u8",
+        "status": "online",
         "last_online": "2025-10-26",
         "first_online": "2025-09-27",
         "last_offline": "2025-10-26",
@@ -19108,28 +19113,6 @@
         "passed_via": "missing",
         "note": "overrun 53.9s",
         "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-21",
-        "first_online": "",
-        "last_offline": "2025-10-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-10-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
       }
     ]
   },
@@ -19260,8 +19243,8 @@
     "tvg_logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/StarSportsSelect1/index.m3u8",
+        "status": "online",
         "last_online": "2025-11-10",
         "first_online": "2025-10-30",
         "last_offline": "2025-11-10",
@@ -19337,7 +19320,7 @@
       }
     ]
   },
-  "--Live(Willow HD)--": {
+  "--Live(WiLLoW HD)--": {
     "group": "Sports",
     "tvg_id": "WillowExtraHD",
     "tvg_logo": "https://aimages.willow.tv/wlo_logo_200_200.jpg",
@@ -19353,8 +19336,8 @@
         "passed_via": "head_fail"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://198.195.239.50:8095/WiLLow/index.m3u8",
+        "status": "online",
         "last_online": "2026-01-21",
         "first_online": "2025-09-12",
         "last_offline": "2026-01-21",
