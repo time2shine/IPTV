@@ -9,10 +9,14 @@ http://103.230.105.252:1935/live/btv/manifest.m3u8
 https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 #EXTINF:-1 group-title="Bangla",DD Bangla (4d)
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",DesheBideshe (1d)
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Deshi TV (5d)
 http://208.86.19.13:81/514.stream/index.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (7d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",Jankhar TV (1d)
@@ -35,8 +39,6 @@ http://208.86.19.13:81/510.stream/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/1e4516fa-023a-4807-8e3d-479b346b4a62/2.m3u8
-#EXTINF:-1 group-title="Educational",BBC Earth (0d)
-http://65.108.239.207/bbc/index.m3u8
 #EXTINF:-1 group-title="Educational",Discovery HD (1d)
 http://163.61.227.29:8000/play/a01i/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Bollywood Classic (1d)
@@ -50,11 +52,11 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 #EXTINF:-1 group-title="India",MU | 9XM (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (0d)
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/a731c680-6a62-4174-bc98-186fe654724a/0.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (0d)
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music India (1d)
 https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/1.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music India (1d)
@@ -63,20 +65,16 @@ https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91e
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mastiii/master.m3u8
 #EXTINF:-1 group-title="India",MU | Saga Music (0d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8
-#EXTINF:-1 group-title="India",NEWS | ZEE News (0d)
-https://amg01412-xiaomiasia-zeenews-xiaomi-nkeug.amagi.tv/playlist/amg01412-xiaomiasia-zeenews-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="International News",Euronews English (7d)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 group-title="International News",Fox News (5d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 group-title="Kids",0. Duronto TV (1d)
 https://tvsen4.aynaott.com/durontotv/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | LoL TV (0d)
-https://streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8
-#EXTINF:-1 group-title="Religious",Azan TV (1d)
-https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Bang Bang TV (0d)
+https://streams.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8
+#EXTINF:-1 group-title="Music",TUR | Power Turk (0d)
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 group-title="Religious",IBN TV Africa (1d)
 http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (7d)
@@ -101,3 +99,5 @@ http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
 #EXTINF:-1 group-title="Sports",MIX | Abu Dhabi Sports 2 (2d)
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
+http://41.205.93.154/ESPN/index.m3u8
