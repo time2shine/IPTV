@@ -9,6 +9,8 @@ http://103.230.105.252:1935/live/btv/manifest.m3u8
 https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
 #EXTINF:-1 group-title="Bangla",DD Bangla (4d)
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8
+#EXTINF:-1 group-title="Bangla",DEEPTO TV HD (0d)
+https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 group-title="Bangla",DesheBideshe (1d)
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Deshi TV (5d)
@@ -29,6 +31,8 @@ https://cdn-4.pishow.tv/live/1039/master.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/8451cd5b-af45-46f3-b3f8-41497e8aa5c1/0.m3u8
 #EXTINF:-1 group-title="Bangla",Time Televis HD (5d)
 http://208.86.19.13:81/506.stream/index.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
+http://str24.l9574.com/510.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (5d)
 http://208.86.19.13:81/510.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (7d)
@@ -63,10 +67,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 group-title="International News",Fox News (5d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
+#EXTINF:-1 group-title="International News",GB News (0d)
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Duronto TV (1d)
 https://tvsen4.aynaott.com/durontotv/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | HBO Comedy (0d)
-http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(HUB-SPORTS 4)--- (7d)
 https://cat6.ostv.info/live/76631957/10205687/675823.ts?token=ShJcU0BbQQNHDw0AVFINAQEBVFRTBQdXU1NRBANRClAAUgxTBQoBWFwbGBpEF0dcWF1vWQIXXlcGV1oFVkgRR0JVRm1aV0EDRwgCCwNTAAAbHBJED1gBQwtTVQBUXAsCCAUFHhFDCl1HAxYKAFsHDAoEEhxEUBwVVBAMVgk7V1dHWVdXEQkNTAlVGBpYDWpdXF1RXgIXXkMBQE4VDBdDEAteQV5fH0FbDE1GWUMGFwMbBAIBUxdIQ1INF1kRFkoQCxJ2dhEfQVwdTVFWRApaVxsKEkQVF0hDWBE9RQAXR0BUUVlXQRFZG1UbGBpaAk1mWl9eXgNWEAheDBEVX0YCEB0SWV1dWhdWF2ZEUVNBDxsICQEFUAZcQ0w=
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (3d)
@@ -85,5 +89,7 @@ http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
 #EXTINF:-1 group-title="Sports",MIX | Abu Dhabi Sports 2 (2d)
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | SportsTVPlus (0d)
-https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8
+#EXTINF:-1 group-title="Sports",RACING | MTRSPT1 (0d)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8
+#EXTINF:-1 group-title="Sports",RACING | MTRSPT1 (0d)
+https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
