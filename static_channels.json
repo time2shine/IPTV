@@ -67,7 +67,15 @@
     "group": "Bangla",
     "tvg_id": "asiantv.bd",
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
-    "links": []
+    "links": [
+      {
+        "url": "http://103.229.254.25:7001/play/a063/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
   },
   "ATN BANGLA": {
     "group": "Bangla",
@@ -936,6 +944,13 @@
         "probe_time_s": 56.136,
         "speed": 0.036,
         "passed_via": "mpv"
+      },
+      {
+        "url": "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1084,14 +1099,11 @@
         "quality": "fast"
       },
       {
-        "url": "",
-        "status": "missing",
+        "url": "http://103.229.254.25:7001/play/a05q/index.m3u8",
+        "status": "online",
         "last_online": null,
         "first_online": null,
-        "last_offline": "2025-12-01",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "last_offline": null
       }
     ]
   },
@@ -1120,28 +1132,11 @@
     "tvg_logo": "https://yt3.googleusercontent.com/OHsKWwrPCUUomluu0R4GqjQNXuD3vOHDK3dLq2Qczmu9ZI5X7ljltXoHM8c4-vElz4DdD3qflQ=s72-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-04",
-        "first_online": "2025-09-11",
-        "last_offline": "2025-12-05",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 50.4s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-29",
-        "first_online": "2025-10-02",
-        "last_offline": "2025-10-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 44.5s",
-        "quality": "slow"
+        "url": "http://stvlive.net:8080/metv/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18922,6 +18917,20 @@
         "probe_time_s": 12.908,
         "speed": 0.155,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "Dua Channel": {
+    "group": "Religious",
+    "tvg_id": "HaditvDua",
+    "tvg_logo": "https://raw.githubusercontent.com/zuhairabs/shiachannel/main/livetv/img/channels/dua-channel.jpg",
+    "links": [
+      {
+        "url": "https://newyork.zeuscdn724.com:443/H9/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
