@@ -19,8 +19,6 @@ http://208.86.19.13:81/510.stream/index.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/1e4516fa-023a-4807-8e3d-479b346b4a62/2.m3u8
 #EXTINF:-1 group-title="Educational",Discovery HD (5d)
 http://163.61.227.29:8000/play/a01i/index.m3u8
-#EXTINF:-1 group-title="Educational",Escape TV (3d)
-https://amg00585-amg00585c13-sportstribal-emea-5522.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-escapetv-sportstribalemea/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (1d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (1d)
@@ -48,21 +46,21 @@ https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c
 #EXTINF:-1 group-title="India",MU | 9XM (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music India (5d)
-https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/0.m3u8
-#EXTINF:-1 group-title="India",MU | B4U Music India (5d)
 https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/1.m3u8
+#EXTINF:-1 group-title="India",MU | B4U Music India (5d)
+https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/0.m3u8
 #EXTINF:-1 group-title="India",MU | Saga Music (4d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (1d)
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="India",MU | Steelbird Music (0d)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
+#EXTINF:-1 group-title="India",NEWS | ZEE News (0d)
+https://amg01412-xiaomiasia-zeenews-xiaomi-nkeug.amagi.tv/playlist/amg01412-xiaomiasia-zeenews-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (1d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",Fox News (9d)
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
-#EXTINF:-1 group-title="International News",Sky News Weather (2d)
-https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Duronto TV (5d)
 https://tvsen4.aynaott.com/durontotv/index.m3u8
 #EXTINF:-1 group-title="Kids",0. PLANET FUN (1d)
@@ -101,6 +99,8 @@ http://163.61.227.29:8000/play/a02y/index.m3u8
 http://163.61.227.29:8000/play/a03l/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aan TV (1d)
 http://163.61.227.29:8000/play/a02c/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (1d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (1d)
