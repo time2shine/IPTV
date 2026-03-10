@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",Akash Aath (0d)
+https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
 https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (2d)
@@ -53,8 +55,6 @@ https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91e
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (3d)
 http://163.61.227.29:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (3d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (1d)
@@ -125,6 +125,8 @@ http://163.61.227.29:8000/play/a02g/index.m3u8
 http://163.61.227.29:8000/play/a03c/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | PTV Home (3d)
 http://163.61.227.29:8000/play/a05k/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Tag TV (0d)
+http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",MOV | FILMAX (2d)
 http://163.61.227.29:8000/play/a02o/index.m3u8
 #EXTINF:-1 group-title="Pakistan",MOV | FILMAZIA (2d)
@@ -141,12 +143,8 @@ http://163.61.227.29:8000/play/a03t/index.m3u8
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(PTV Sports)-- (3d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (0d)
-http://172.110.219.251:8070/F18115/068f009e/66167
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | PSN 4 Sports (4d)
 https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | UFC (1d)
