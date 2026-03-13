@@ -1,12 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (1d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",R Plus Gold (2d)
 https://cdn-4.pishow.tv/live/1231/master.m3u8
 #EXTINF:-1 group-title="Bangla",Tara TV (9d)
@@ -30,9 +24,9 @@ http://163.61.227.29:8000/play/a04c/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (1d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Manoranjan Movies (2d)
-https://cdn-2.pishow.tv/live/228/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (2d)
 https://cdn-2.pishow.tv/live/228/228_1.m3u8
+#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (2d)
+https://cdn-2.pishow.tv/live/228/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (1d)
 http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (1d)
@@ -40,19 +34,21 @@ http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9X Jalwa (9d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/47bdb49d-f6f3-4927-a9ea-12c4c5afc732/0.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (9d)
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (9d)
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (9d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c8939874-787e-41ae-8d35-f5ea6e15720d/0.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (9d)
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (9d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/a731c680-6a62-4174-bc98-186fe654724a/0.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (9d)
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
 #EXTINF:-1 group-title="India",MU | Saga Music (9d)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/5e027b28-fb0e-49cc-9962-44babcc450ce/0.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (1d)
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (1d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
+#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 group-title="International News",BBC News (4d)
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 group-title="International News",Sky News (4d)
@@ -65,8 +61,6 @@ https://d1l8e2fpbn7elb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 http://163.61.227.29:8000/play/a03x/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Duck TV (4d)
 https://d2lmgfyblo9rak.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="Kids",1. ZOO MOO (0d)
-https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
 #EXTINF:-1 group-title="Kids",2. Ninja Hattori (1d)
 https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Kids",Animation+ (4d)
@@ -75,8 +69,6 @@ https://d25xml1ag3v99o.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Disney Junior Europe (3d)
 https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (8d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Classic Flix (7d)
@@ -99,8 +91,6 @@ https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QK2TKFREGRYXDI8IJGHW/hls3/now
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MH8JAMWTLW2AQV5RA55S/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",EN | Rockola Television (8d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/RHT6XGG6VHZA0P8T1MGX/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
-https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
 #EXTINF:-1 group-title="Music",OTHER | 4ACETV (7d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (7d)
@@ -139,6 +129,12 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (1d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(ATN AFG)--- (4d)
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (1d)
@@ -149,6 +145,8 @@ http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (4d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
+#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
+https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | PSN 4 Sports (7d)
 https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | UFC (4d)
