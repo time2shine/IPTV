@@ -1,10 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Green TV (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",R Plus Gold (3d)
 https://cdn-4.pishow.tv/live/1231/master.m3u8
 #EXTINF:-1 group-title="Educational",American Crimes (5d)
@@ -17,6 +13,8 @@ https://dlaqy0dpllczo.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (2d)
 http://163.61.227.29:8000/play/a04b/index.m3u8
+#EXTINF:-1 group-title="India",ENT | E24 (0d)
+https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | The Q Kahaniyan (2d)
 http://163.61.227.29:8000/play/a04v/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (2d)
@@ -24,13 +22,15 @@ http://163.61.227.29:8000/play/a04c/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (2d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Manoranjan Movies (3d)
-https://cdn-2.pishow.tv/live/228/228_1.m3u8
-#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (3d)
 https://cdn-2.pishow.tv/live/228/master.m3u8
+#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (3d)
+https://cdn-2.pishow.tv/live/228/228_1.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (2d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (2d)
 http://163.61.227.29:8000/play/a045/index.m3u8
+#EXTINF:-1 group-title="India",MU | Steelbird Music (0d)
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (2d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (5d)
@@ -53,8 +53,6 @@ https://d25xml1ag3v99o.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Disney Junior Europe (4d)
 https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Best Classic TV (9d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CUXB534IAMTJM7Z4BKKS/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Classic Flix (8d)
@@ -121,10 +119,6 @@ http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Lemar AGF)-- (5d)
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
-#EXTINF:-1 group-title="Sports",FB | Puls 24 (5d)
-http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | PSN 4 Sports (8d)
 https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | UFC (5d)
