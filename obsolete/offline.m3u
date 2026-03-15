@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (0d)
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Green TV (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",R Plus Gold (4d)
@@ -21,28 +29,32 @@ https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlis
 http://163.61.227.29:8000/play/a04v/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (3d)
 http://163.61.227.29:8000/play/a04c/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (3d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Manoranjan Movies (4d)
-https://cdn-2.pishow.tv/live/228/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (4d)
 https://cdn-2.pishow.tv/live/228/228_1.m3u8
+#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (4d)
+https://cdn-2.pishow.tv/live/228/master.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (3d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (3d)
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="India",MU | Steelbird Music (1d)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
-#EXTINF:-1 group-title="India",NEWS | ZEE BUSINESS (0d)
-https://amg01412-xiaomiasia-zeebusiness-xiaomi-ywrtm.amagi.tv/playlist/amg01412-xiaomiasia-zeebusiness-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="India",NEWS | Awaaz India TV (0d)
+http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (3d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
+#EXTINF:-1 group-title="International",TVRI World (0d)
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="International News",BBC News (6d)
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 group-title="International News",France 24 English (0d)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 group-title="International News",DW News (0d)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 #EXTINF:-1 group-title="International News",Sky News (6d)
 https://diqcndgguze12.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9oe6rvqvc6qyz/master.m3u8
 #EXTINF:-1 group-title="Kids",0. PLANET FUN (3d)
@@ -61,8 +73,6 @@ https://d25xml1ag3v99o.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Kids",Disney Junior Europe (5d)
 https://live20.bozztv.com/giatvplayout7/giatv-209650/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Classic Flix (9d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/8WOSAE6HHWJY8KP8BW2C/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Movies",EN | a-z Western Grit (9d)
@@ -81,8 +91,6 @@ https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/58XXIGAFT3S6VSMD82AP/hls3/now
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QK2TKFREGRYXDI8IJGHW/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",EN | 4ACETV CLASSIC HITS (9d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/MH8JAMWTLW2AQV5RA55S/hls3/now,-1m/m.m3u8
-#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
-https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 group-title="Music",OTHER | 4ACETV (9d)
 https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/CVA0UNL2K6KH61IL162P/hls3/now,-1m/m.m3u8
 #EXTINF:-1 group-title="Music",OTHER | HITS MEXICANOS (9d)
@@ -95,8 +103,6 @@ http://163.61.227.29:8000/play/a03l/index.m3u8
 http://163.61.227.29:8000/play/a02c/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (3d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (1d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (3d)
 http://163.61.227.29:8000/play/a03o/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (3d)
@@ -123,10 +129,6 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (3d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(ATN AFG)--- (6d)
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (3d)
