@@ -14,9 +14,9 @@ https://dlaqy0dpllczo.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 group-title="India",ENT | E24 (1d)
 https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="India",MOV | Manoranjan Movies (6d)
-https://cdn-2.pishow.tv/live/228/master.m3u8
-#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (6d)
 https://cdn-2.pishow.tv/live/228/228_1.m3u8
+#EXTINF:-1 group-title="India",MOV | Manoranjan Movies (6d)
+https://cdn-2.pishow.tv/live/228/master.m3u8
 #EXTINF:-1 group-title="International News",BBC News (8d)
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 group-title="International News",Sky News (8d)
@@ -25,6 +25,10 @@ https://diqcndgguze12.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://d1l8e2fpbn7elb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rfmlamz0dpzk7/pocen.m3u8
 #EXTINF:-1 group-title="Kids",1. Duck TV (8d)
 https://d2lmgfyblo9rak.cloudfront.net/playlist.m3u8
+#EXTINF:-1 group-title="Kids",1. Rongeen TV (0d)
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+#EXTINF:-1 group-title="Kids",1. Rongeen TV (0d)
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",2. Ninja Hattori (5d)
 https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Kids",Animation+ (8d)
@@ -40,17 +44,19 @@ http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-ariana
 #EXTINF:-1 group-title="Sports",--Live(Lemar AGF)-- (8d)
 http://cors.tundracast.com:2000/https://tgn.bozztv.com/eshgtv-dvrfl05/gin-lemar/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
-https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8
-#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
-https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8
+#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (1d)
 http://172.110.219.251:8070/F18115/068f009e/66167
+#EXTINF:-1 group-title="Sports",CR | Fox Cricket 501 (0d)
+http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | BeIN Sports 2 (3d)
 http://135.125.109.73:9000/beinsport2_.m3u8
 #EXTINF:-1 group-title="Sports",FB | BeIN Sports 3 (3d)
@@ -61,5 +67,7 @@ http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FIGHT | UFC (8d)
 https://d4bw595q7gr11.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-akprg1v4e75t9/playlist.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
+http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | Sports TV (3d)
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
