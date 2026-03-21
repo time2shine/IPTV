@@ -19,14 +19,16 @@ http://163.61.227.29:8000/play/a04v/index.m3u8
 http://163.61.227.29:8000/play/a04c/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (2d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Shemaroo Bollywood 2 (0d)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold Thrills (2d)
 http://119.152.240.15:8000/play/a0iy/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (2d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
+#EXTINF:-1 group-title="India",MU | Joo Music (0d)
+https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (2d)
 http://163.61.227.29:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (2d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",Sky News Weather (1d)
@@ -39,6 +41,10 @@ http://163.61.227.29:8000/play/a03x/index.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Kids",Wild Nature (1d)
 https://dg5rg8emlfy55.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WildNature2/491.m3u8
+#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (0d)
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
+https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (2d)
 http://163.61.227.29:8000/play/a02y/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | A plus (2d)
@@ -47,6 +53,8 @@ http://163.61.227.29:8000/play/a03l/index.m3u8
 http://163.61.227.29:8000/play/a02c/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (2d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (2d)
 http://163.61.227.29:8000/play/a03o/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (2d)
@@ -76,15 +84,15 @@ http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (2d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8
+#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8
+#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
 https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8
-#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
-https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/02.m3u8
-#EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
-https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/01.m3u8
 #EXTINF:-1 group-title="Sports",--Live(RTA Sports[Afghan])-- (5d)
 http://172.110.219.251:8070/F18115/068f009e/66167
 #EXTINF:-1 group-title="Sports",FB | BeIN Sports 2 (7d)
