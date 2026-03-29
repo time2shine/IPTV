@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Akash Aath (2d)
 https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (2d)
 http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (2d)
@@ -9,8 +11,6 @@ http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (2d)
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (1d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Channel Y (0d)
@@ -31,6 +31,8 @@ http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (1d)
 http://163.61.227.29:8000/play/a045/index.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (1d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (1d)
@@ -45,18 +47,16 @@ http://163.61.227.29:8000/play/a03w/index.m3u8
 http://163.61.227.29:8000/play/a03x/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (2d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Kids",Wild Nature (9d)
 https://dg5rg8emlfy55.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WildNature2/491.m3u8
+#EXTINF:-1 group-title="Movies",OTHER | Movie Dome Family (0d)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (1d)
 http://163.61.227.29:8000/play/a02y/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | A plus (1d)
 http://163.61.227.29:8000/play/a03l/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aan TV (1d)
 http://163.61.227.29:8000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (1d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (1d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (1d)
@@ -83,8 +83,12 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (1d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (1d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (1d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (2d)
