@@ -7,37 +7,33 @@ http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (2d)
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (1d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (1d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (3d)
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (3d)
 http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="India",NEWS | NDTV Hindi (0d)
-https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News18 India (0d)
 https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="International",Young Hollywood (0d)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="International News",BBC News (2d)
 http://45.148.145.57/IN_BN/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (5d)
 https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (3d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
-https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Religious",MTA 1 Bangla (0d)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (3d)
 http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 #EXTINF:-1 group-title="Sports",MIXER | European Football League (4d)
 https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | HOOP TV (0d)
-https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | Sharjah Sports (3d)
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
