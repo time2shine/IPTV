@@ -3,20 +3,12 @@
 https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
 #EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (3d)
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (3d)
 http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (2d)
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
 https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
@@ -31,20 +23,18 @@ http://163.61.227.29:8000/play/a04b/index.m3u8
 http://163.61.227.29:8000/play/a04v/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (0d)
 http://163.61.227.29:8000/play/a04c/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (0d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (3d)
 http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (0d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
+#EXTINF:-1 group-title="India",MU | NH BollyRaga (0d)
+https://cc-up9j649x4thrj.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/SBUM/RunnTV/BollyRaga_IN/BollyRaga_IN.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (0d)
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="India",MU | Zoom (0d)
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | Zee Hindustan (0d)
-https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (0d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (2d)
@@ -57,10 +47,6 @@ http://163.61.227.29:8000/play/a03w/index.m3u8
 http://163.61.227.29:8000/play/a03x/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (3d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 group-title="Music",EN | Kronehit HD (0d)
-https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (0d)
 http://163.61.227.29:8000/play/a02y/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | A plus (0d)
@@ -93,6 +79,8 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (0d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
+#EXTINF:-1 group-title="Religious",Channel WIN (0d)
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (0d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (3d)
