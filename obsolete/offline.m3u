@@ -5,20 +5,12 @@ https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (5d)
 http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
 http://alvetv.com/mbtv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (4d)
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (5d)
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (1d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (1d)
@@ -37,6 +29,8 @@ http://163.61.227.29:8000/play/a04j/index.m3u8
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="India",MU | Zoom (0d)
 https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | Awaaz India TV (0d)
+http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (1d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (4d)
@@ -49,8 +43,10 @@ http://163.61.227.29:8000/play/a03w/index.m3u8
 http://163.61.227.29:8000/play/a03x/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (5d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Music",EN | Play TV (0d)
-http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
+#EXTINF:-1 group-title="Movies",EN | Classic Movies (0d)
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+#EXTINF:-1 group-title="Music",AR | AMC (0d)
+https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (1d)
 http://163.61.227.29:8000/play/a02y/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | A plus (1d)
@@ -91,6 +87,8 @@ https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (5d)
 http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
+https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | European Football League (6d)
 https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (0d)
