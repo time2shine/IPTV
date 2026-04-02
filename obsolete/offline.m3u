@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Akash Aath (6d)
 https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (6d)
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (6d)
@@ -31,12 +29,10 @@ http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (2d)
 http://163.61.227.29:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="India",MU | Zoom (1d)
-https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | Awaaz India TV (0d)
+http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (2d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
-#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 group-title="International News",BBC News (5d)
 http://45.148.145.57/IN_BN/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (8d)
@@ -47,10 +43,6 @@ http://163.61.227.29:8000/play/a03w/index.m3u8
 http://163.61.227.29:8000/play/a03x/index.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (6d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Classic Movies (1d)
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (1d)
 https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",EN | Popstar! TV (0d)
@@ -61,8 +53,6 @@ http://163.61.227.29:8000/play/a02y/index.m3u8
 http://163.61.227.29:8000/play/a03l/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aan TV (2d)
 http://163.61.227.29:8000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (2d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (2d)
@@ -97,6 +87,8 @@ http://163.61.227.29:8000/play/a05l/index.m3u8
 http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
+#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
+https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | European Football League (7d)
 https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (1d)
