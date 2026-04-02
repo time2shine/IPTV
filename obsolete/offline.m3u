@@ -1,18 +1,24 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Akash Aath (6d)
 https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
+#EXTINF:-1 group-title="Bangla",ATN Bangla UK (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (6d)
 http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (6d)
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",Movie Bangla TV (1d)
 http://alvetv.com/mbtv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (5d)
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
+https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
+http://str24.l9574.com/510.stream/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (6d)
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (2d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (2d)
@@ -29,8 +35,6 @@ http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (2d)
 http://163.61.227.29:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | 1st India News (0d)
-https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (2d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",BBC News (5d)
@@ -45,6 +49,8 @@ http://163.61.227.29:8000/play/a03x/index.m3u8
 https://mumt03.tangotv.in/HIDOST/index.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (1d)
 https://amchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Music",EN | Play TV (0d)
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Music",EN | Popstar! TV (0d)
 https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u8
 #EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (2d)
@@ -79,6 +85,12 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (2d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
+#EXTINF:-1 group-title="Religious",IBN TV Africa (0d)
+http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (0d)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (2d)
@@ -87,8 +99,6 @@ http://163.61.227.29:8000/play/a05l/index.m3u8
 http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",FIGHT | Lucha Plus (0d)
-https://amg17334-amg17334c1-freelivesports-emea-7386.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17334-luchalibrefast-luchalibre-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | European Football League (7d)
 https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (1d)
