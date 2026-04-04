@@ -1,12 +1,20 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",Channel S (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (8d)
 http://tvn2.chowdhury-shaheb.com:80/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (8d)
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 group-title="Bangla",Jankhar TV (0d)
 https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | DBC NEWS HD (8d)
 http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (4d)
@@ -23,6 +31,8 @@ http://163.61.227.29:8000/play/a04l/index.m3u8
 http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (4d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (0d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (4d)
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (4d)
@@ -31,14 +41,12 @@ http://163.61.227.29:8000/play/a03u/index.m3u8
 http://45.148.145.57/IN_BN/index.m3u8
 #EXTINF:-1 group-title="Kids",0. PLANET FUN (4d)
 http://163.61.227.29:8000/play/a03w/index.m3u8
-#EXTINF:-1 group-title="Kids",0. WowKidz (Motu Patlu) (0d)
-https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
 #EXTINF:-1 group-title="Kids",0.KIDS ZONE (4d)
 http://163.61.227.29:8000/play/a03x/index.m3u8
-#EXTINF:-1 group-title="Kids",Discovery Kids (0d)
-http://181.78.4.250:8098/play/a08h/index.m3u8
 #EXTINF:-1 group-title="Kids",Toonami Aftermath East (0d)
 http://api.toonamiaftermath.com:3000/est/playlist.m3u8
+#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
+https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 group-title="Movies",EN | Toonami Aftermath Movie (0d)
 http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (3d)
@@ -83,8 +91,6 @@ https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(Star Sports 1 HD)--- (8d)
 http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | European Football League (9d)
 https://amg00585-amg00585c19-freelivesports-emea-6831.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-elftv-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (3d)
