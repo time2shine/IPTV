@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
+https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (6d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (6d)
@@ -15,16 +17,12 @@ http://163.61.227.29:8000/play/a04j/index.m3u8
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (6d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
-#EXTINF:-1 group-title="International",TVRI World (0d)
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="International News",BBC News (9d)
 http://45.148.145.57/IN_BN/index.m3u8
 #EXTINF:-1 group-title="Kids",0. PLANET FUN (6d)
 http://163.61.227.29:8000/play/a03w/index.m3u8
 #EXTINF:-1 group-title="Kids",0.KIDS ZONE (6d)
 http://163.61.227.29:8000/play/a03x/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (5d)
 https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",EN | Popstar! TV (4d)
@@ -37,6 +35,8 @@ http://163.61.227.29:8000/play/a03l/index.m3u8
 http://163.61.227.29:8000/play/a02c/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (6d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (6d)
 http://163.61.227.29:8000/play/a03o/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (6d)
@@ -61,9 +61,11 @@ http://163.61.227.29:8000/play/a02l/index.m3u8
 http://163.61.227.29:8000/play/a03r/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (6d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (1d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (0d)
+http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (6d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | Lucha Plus (0d)
+https://amg17334-amg17334c1-freelivesports-emea-7386.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17334-luchalibrefast-luchalibre-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (5d)
 https://amg02040-amg02040c10-freelivesports-emea-7496.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02040-lguplus-kbo-freelivesportsemea/playlist.m3u8
