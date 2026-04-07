@@ -1,42 +1,28 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
-https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
-https://ekusheyserver.com/etvlivesn.m3u8
-#EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (0d)
-http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/bangla-movies/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | Bengali Beats (0d)
-https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (1d)
-https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | Republic Bangla (0d)
-https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Educational",BBC Earth (1d)
 http://65.108.239.207/bbc/index.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (7d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (7d)
 http://163.61.227.29:8000/play/a04b/index.m3u8
-#EXTINF:-1 group-title="India",ENT | E24 (0d)
-https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | Indywood TV (1d)
 https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | The Q Kahaniyan (7d)
 http://163.61.227.29:8000/play/a04v/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Bollywood Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/bollywood-movies/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (7d)
 http://163.61.227.29:8000/play/a04c/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (7d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Hindi Dubbed Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/dubbed-movies/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (7d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
 #EXTINF:-1 group-title="India",MU | Show Box (7d)
 http://163.61.227.29:8000/play/a045/index.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (7d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
 #EXTINF:-1 group-title="International News",HLN (0d)
@@ -45,6 +31,8 @@ https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.
 http://163.61.227.29:8000/play/a03w/index.m3u8
 #EXTINF:-1 group-title="Kids",0.KIDS ZONE (7d)
 http://163.61.227.29:8000/play/a03x/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | SRK TV (0d)
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (6d)
 https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",EN | Popstar! TV (5d)
@@ -55,8 +43,6 @@ http://163.61.227.29:8000/play/a02y/index.m3u8
 http://163.61.227.29:8000/play/a03l/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aan TV (7d)
 http://163.61.227.29:8000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (7d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (7d)
@@ -85,15 +71,13 @@ http://163.61.227.29:8000/play/a03r/index.m3u8
 http://163.61.227.29:8000/play/a03m/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (1d)
 http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
-#EXTINF:-1 group-title="Religious",WAZ TV (0d)
-https://tplay.live/originals/ilm-tv/index.m3u8
+#EXTINF:-1 group-title="Religious",QURAN (0d)
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Sunnah TV (0d)
+http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (7d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
 #EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (6d)
 https://amg02040-amg02040c10-freelivesports-emea-7496.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02040-lguplus-kbo-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="Sports",MIXER | Xtrem Sports (0d)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
