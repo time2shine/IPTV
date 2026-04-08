@@ -1,18 +1,14 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",BTV CHITTAGONG (0d)
-https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
 https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
 https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (0d)
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | Tribe TV (0d)
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | BIG MAGIC (8d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
 #EXTINF:-1 group-title="India",ENT | DANGAL 2 (8d)
@@ -31,18 +27,12 @@ http://163.61.227.29:8000/play/a04j/index.m3u8
 http://163.61.227.29:8000/play/a045/index.m3u8
 #EXTINF:-1 group-title="International",Lotus Macau (8d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
-#EXTINF:-1 group-title="International News",HLN (1d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="International News",Press TV (Iran) (0d)
-https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 #EXTINF:-1 group-title="Kids",0. PLANET FUN (8d)
 http://163.61.227.29:8000/play/a03w/index.m3u8
 #EXTINF:-1 group-title="Kids",0.KIDS ZONE (8d)
 http://163.61.227.29:8000/play/a03x/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Movies",EN | Classic Movies (0d)
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 group-title="Music",AR | AMC (7d)
 https://amchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Music",EN | Popstar! TV (6d)
@@ -81,10 +71,6 @@ http://163.61.227.29:8000/play/a03r/index.m3u8
 http://163.61.227.29:8000/play/a03m/index.m3u8
 #EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (2d)
 http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Religious",QURAN (1d)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Sunnah TV (1d)
