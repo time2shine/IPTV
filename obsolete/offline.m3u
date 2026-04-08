@@ -1,83 +1,97 @@
 #EXTM3U
-#EXTINF:-1 group-title="Educational",BBC Earth (1d)
-http://65.108.239.207/bbc/index.m3u8
-#EXTINF:-1 group-title="India",ENT | BIG MAGIC (7d)
+#EXTINF:-1 group-title="Bangla",BTV CHITTAGONG (0d)
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (0d)
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 group-title="Bangla",Ekushay TV (Local) (0d)
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="India",ENT | BIG MAGIC (8d)
 http://163.61.227.29:8000/play/a04f/index.m3u8
-#EXTINF:-1 group-title="India",ENT | DANGAL 2 (7d)
+#EXTINF:-1 group-title="India",ENT | DANGAL 2 (8d)
 http://163.61.227.29:8000/play/a04b/index.m3u8
-#EXTINF:-1 group-title="India",ENT | Indywood TV (1d)
+#EXTINF:-1 group-title="India",ENT | Indywood TV (2d)
 https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
-#EXTINF:-1 group-title="India",ENT | The Q Kahaniyan (7d)
+#EXTINF:-1 group-title="India",ENT | The Q Kahaniyan (8d)
 http://163.61.227.29:8000/play/a04v/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (7d)
+#EXTINF:-1 group-title="India",MOV | Colors Cineplex Superhits (8d)
 http://163.61.227.29:8000/play/a04c/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines Movies (7d)
+#EXTINF:-1 group-title="India",MOV | Goldmines Movies (8d)
 http://163.61.227.29:8000/play/a04l/index.m3u8
-#EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (7d)
+#EXTINF:-1 group-title="India",MOV | ZEE ANMOL CINEMA (8d)
 http://163.61.227.29:8000/play/a04j/index.m3u8
-#EXTINF:-1 group-title="India",MU | Show Box (7d)
+#EXTINF:-1 group-title="India",MU | Show Box (8d)
 http://163.61.227.29:8000/play/a045/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="International",EN | TV BRICS English (0d)
-https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
-#EXTINF:-1 group-title="International",Lotus Macau (7d)
+#EXTINF:-1 group-title="International",Lotus Macau (8d)
 http://163.61.227.29:8000/play/a03u/index.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
+#EXTINF:-1 group-title="International News",HLN (1d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="Kids",0. PLANET FUN (7d)
+#EXTINF:-1 group-title="International News",Press TV (Iran) (0d)
+https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+#EXTINF:-1 group-title="Kids",0. PLANET FUN (8d)
 http://163.61.227.29:8000/play/a03w/index.m3u8
-#EXTINF:-1 group-title="Kids",0.KIDS ZONE (7d)
+#EXTINF:-1 group-title="Kids",0.KIDS ZONE (8d)
 http://163.61.227.29:8000/play/a03x/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | SRK TV (0d)
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Music",AR | AMC (6d)
+#EXTINF:-1 group-title="Kids",Kid Screation (0d)
+http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Music",AR | AMC (7d)
 https://amchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Music",EN | Popstar! TV (5d)
+#EXTINF:-1 group-title="Music",EN | Popstar! TV (6d)
 https://linear-10.frequency.stream/dist/zype/10/hls/master/playlist_1024x576.m3u8
-#EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (7d)
+#EXTINF:-1 group-title="Pakistan",EN | VENUS ENTERTAINMENT (8d)
 http://163.61.227.29:8000/play/a02y/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | A plus (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | A plus (8d)
 http://163.61.227.29:8000/play/a03l/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Aan TV (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Aan TV (8d)
 http://163.61.227.29:8000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (8d)
 http://163.61.227.29:8000/play/a03p/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Zindagi (8d)
 http://163.61.227.29:8000/play/a03o/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (8d)
 http://163.61.227.29:8000/play/a03e/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Discover Pakistan (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Discover Pakistan (8d)
 http://163.61.227.29:8000/play/a03b/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Express HD (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Express HD (8d)
 http://163.61.227.29:8000/play/a05i/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Green Entertainment (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Green Entertainment (8d)
 http://163.61.227.29:8000/play/a02v/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Hum Masala TV (8d)
 http://163.61.227.29:8000/play/a02g/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Play HD (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | Play HD (8d)
 http://163.61.227.29:8000/play/a03c/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | PTV Home (7d)
+#EXTINF:-1 group-title="Pakistan",ENT | PTV Home (8d)
 http://163.61.227.29:8000/play/a05k/index.m3u8
-#EXTINF:-1 group-title="Pakistan",MOV | FILMAX (7d)
+#EXTINF:-1 group-title="Pakistan",MOV | FILMAX (8d)
 http://163.61.227.29:8000/play/a02o/index.m3u8
-#EXTINF:-1 group-title="Pakistan",MOV | FILMAZIA (7d)
+#EXTINF:-1 group-title="Pakistan",MOV | FILMAZIA (8d)
 http://163.61.227.29:8000/play/a02l/index.m3u8
-#EXTINF:-1 group-title="Pakistan",MU | ARY MUSIK (7d)
+#EXTINF:-1 group-title="Pakistan",MU | ARY MUSIK (8d)
 http://163.61.227.29:8000/play/a03r/index.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (7d)
+#EXTINF:-1 group-title="Pakistan",NEWS | Channel 5 News HD (8d)
 http://163.61.227.29:8000/play/a03m/index.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (1d)
+#EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (2d)
 http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
-#EXTINF:-1 group-title="Religious",QURAN (0d)
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",QURAN (1d)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Sunnah TV (0d)
+#EXTINF:-1 group-title="Religious",Sunnah TV (1d)
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
-#EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (7d)
+#EXTINF:-1 group-title="Sports",---Live(PTV Sports)--- (8d)
 http://163.61.227.29:8000/play/a05l/index.m3u8
-#EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
+#EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (6d)
+#EXTINF:-1 group-title="Sports",MIXER | K-Baseball TV (KBO) (7d)
 https://amg02040-amg02040c10-freelivesports-emea-7496.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02040-lguplus-kbo-freelivesportsemea/playlist.m3u8
