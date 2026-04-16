@@ -1,15 +1,27 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",DD Bangla (0d)
-https://cdn-4.pishow.tv/live/37/master.m3u8
-#EXTINF:-1 group-title="India",ENT | Indywood TV (9d)
-https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
-#EXTINF:-1 group-title="International News",Al Jazeera English HD (3d)
+#EXTINF:-1 group-title="Bangla",ASIAN TV (0d)
+http://103.229.254.25:7001/play/a063/index.m3u8
+#EXTINF:-1 group-title="Bangla",MAASRANGA HD (0d)
+http://103.229.254.25:7001/play/a05q/index.m3u8
+#EXTINF:-1 group-title="Educational",BBC Earth (0d)
+http://65.108.239.207/bbc/index.m3u8
+#EXTINF:-1 group-title="India",MU | YRF Music (0d)
+https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="International News",Al Jazeera English HD (4d)
 https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
-#EXTINF:-1 group-title="International News",Connecting America (0d)
-https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
-#EXTINF:-1 group-title="International News",Sky News Weather (0d)
+#EXTINF:-1 group-title="International News",Sky News Weather (1d)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
+#EXTINF:-1 group-title="Kids",Kid Screation (1d)
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Pakistan",NEWS | Prime Canada TV (CA) (9d)
-http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/chunks.m3u8
+#EXTINF:-1 group-title="Movies",EN | MovieSphere UK (0d)
+https://samsunguk-moviesphereuk-samsung-uk-s7xaa.amagi.tv/ts-eu-w1-n2/playlist/samsunguk-moviesphereuk-samsung-uk/playlist.m3u8
+#EXTINF:-1 group-title="Movies",EN | SRK TV (0d)
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
+http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
