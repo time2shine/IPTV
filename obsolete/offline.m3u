@@ -1,13 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (2d)
-https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
+#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
+http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (2d)
 http://str24.l9574.com/510.stream/index.m3u8
-#EXTINF:-1 group-title="Educational",Escape TV (0d)
-https://amg00585-amg00585c13-sportstribal-emea-5522.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-escapetv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (2d)
+https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
 #EXTINF:-1 group-title="International News",Al Jazeera English HD (6d)
 https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Toonami Aftermath Movie (0d)
-http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Religious",MTA 1 Bangla (0d)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 group-title="Sports",FB | Goal TV (0d)
+https://amg00585-sportstribal-amg00585c1-sportstribal-emea-2175.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-goaltv-sportstribalemea/playlist.m3u8
