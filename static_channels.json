@@ -929,34 +929,32 @@
         "passed_via": "whitelist"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-27",
-        "first_online": "2026-02-23",
-        "last_offline": "2026-03-27",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://tvsen1.aynaott.com/Ravc7gPCZpxk/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-27",
-        "first_online": "2026-03-06",
-        "last_offline": "2026-03-27",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
+        "url": "https://tvsen1.aynaott.com/Ravc7gPCZpxk/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "G-Serise": {
+    "group": "Bangla",
+    "tvg_id": "G-Serise",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/G-Series_Logo.png",
+    "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-25",
-        "first_online": "2025-10-26",
-        "last_offline": "2026-02-25",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -984,14 +982,11 @@
     "tvg_logo": "https://greentvbangla.com/wp-content/uploads/2023/03/lazy_tv0.jpg.webp",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-14",
-        "first_online": "2025-12-01",
-        "last_offline": "2026-03-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1978,6 +1973,20 @@
         "passed_via": "whitelist",
         "note": "min speed 0.45x",
         "quality": "slow"
+      },
+      {
+        "url": "https://tvsen3.aynascope.net/n64PH4YL/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "https://playztv-apps.pages.dev/star-jalsha/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2530,6 +2539,13 @@
         "passed_via": "whitelist",
         "note": "mpv",
         "quality": "fast"
+      },
+      {
+        "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11268,16 +11284,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/ed/Duronto_TV_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-03",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-03-03",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 54.0s",
-        "quality": "slow"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19201,15 +19212,11 @@
     "tvg_logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Live%20Sports.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-03",
-        "first_online": "2025-09-29",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19571,6 +19578,13 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.34x",
         "quality": "slow"
+      },
+      {
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -22197,6 +22211,20 @@
         "passed_via": "missing",
         "note": "overrun 47.8s",
         "quality": "slow"
+      }
+    ]
+  },
+  "Persiana Travel": {
+    "group": "Travel",
+    "tvg_id": "Persiana Travel",
+    "tvg_logo": "https://s3.aynaott.com/storage/be9b48d87dcd7711cac19c17d8e01b27",
+    "links": [
+      {
+        "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
