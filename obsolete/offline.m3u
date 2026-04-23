@@ -11,6 +11,8 @@ https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (0d)
 https://bozztv.com/rongo/rongo-somoy/index.m3u8
+#EXTINF:-1 group-title="Educational",BBC Earth (0d)
+http://65.108.239.207/bbc/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Bollywood Movie (4d)
 https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Bollywood Movie 2 (4d)
@@ -23,6 +25,8 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 #EXTINF:-1 group-title="India",MU | T Play (4d)
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (4d)
 https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
 #EXTINF:-1 group-title="Kids",0. Doraemon (4d)
@@ -31,11 +35,13 @@ https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (4d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (4d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
-#EXTINF:-1 group-title="Sports",FB | A SPOR (0d)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
-https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Sports",FB | ORF Sport+ HD (0d)
+http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
+#EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
+http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
