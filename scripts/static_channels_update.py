@@ -109,7 +109,6 @@ WHITELIST_DOMAINS = [
     "https://owrcovcrpy.gpcdn.net",
     "https://pepsi.abntv.live/hls",
     "http://al.hls.huya.com/src",
-    "http://198.195.239.50:8095",
     "https://feeds.intoday.in",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
