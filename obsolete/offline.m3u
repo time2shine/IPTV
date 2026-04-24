@@ -5,14 +5,14 @@ http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (0d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (0d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Green TV (2d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (5d)
 https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (0d)
-https://tplay.live/playlist/movies/bangla-movies/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | COLORS BANGLA CINEMA HD (0d)
 http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (0d)
@@ -21,6 +21,8 @@ http://198.195.239.50:8095/JalshaMovies/index.m3u8
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (0d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (5d)
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (0d)
@@ -41,8 +43,6 @@ http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
 http://198.195.239.50:8095/AnimalPlanet/index.m3u8
 #EXTINF:-1 group-title="Educational",BBC Earth (1d)
 http://65.108.239.207/bbc/index.m3u8
-#EXTINF:-1 group-title="Educational",CGTN Documentary (0d)
-https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (0d)
 http://198.195.239.50:8095/SonyTv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (0d)
@@ -69,10 +69,6 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (0d)
 http://198.195.239.50:8095/News24/index.m3u8
-#EXTINF:-1 group-title="International",OTHER | Afroturk TV (0d)
-https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="International News",CGTN (0d)
-https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (5d)
 https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (0d)
@@ -83,12 +79,10 @@ https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (0d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (5d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
-#EXTINF:-1 group-title="Music",TR | Top TV (0d)
-http://74.208.199.212:8081/TopTV/live/chunks.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (5d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (0d)
@@ -101,3 +95,5 @@ http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(WiLLoW HD)-- (0d)
 http://198.195.239.50:8095/WiLLow/index.m3u8
+#EXTINF:-1 group-title="Sports",FB | Puls 24 (0d)
+http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
