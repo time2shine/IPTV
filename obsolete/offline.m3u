@@ -16,9 +16,9 @@ http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (1d)
 http://198.195.239.50:8095/JalshaMovies/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (1d)
-http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (1d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (1d)
+http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (1d)
@@ -33,6 +33,8 @@ http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_AtnNews/video.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | JAMUNA TV (1d)
 http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8
+#EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (0d)
+https://bozztv.com/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (1d)
 http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
 #EXTINF:-1 group-title="Bangla News",IN | Calcutta News (0d)
@@ -65,8 +67,6 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (1d)
 http://198.195.239.50:8095/News24/index.m3u8
-#EXTINF:-1 group-title="International News",France 24 English (0d)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 group-title="International News",HLN (0d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (6d)
@@ -79,8 +79,12 @@ https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (1d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Movies Thriller (0d)
+https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
 #EXTINF:-1 group-title="Movies",OTHER | K Cine (0d)
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+#EXTINF:-1 group-title="Movies",OTHER | Movie Dome Family (0d)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedomefamily-tcl/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (6d)
