@@ -35,10 +35,10 @@ http://198.195.239.50:8095/bdixbd.net_AtnNews/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (1d)
 http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
+#EXTINF:-1 group-title="Bangla News",IN | Calcutta News (0d)
+https://akdnetwork.co.in/live/cnnew/index.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (1d)
 http://198.195.239.50:8095/AnimalPlanet/index.m3u8
-#EXTINF:-1 group-title="Educational",BBC Earth (2d)
-http://65.108.239.207/bbc/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (1d)
 http://198.195.239.50:8095/SonyTv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (1d)
@@ -51,8 +51,6 @@ https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex HD (1d)
 http://198.195.239.50:8095/ColorsCineplex/index.m3u8
-#EXTINF:-1 group-title="India",MOV | NH BollyFlix (0d)
-https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8
 #EXTINF:-1 group-title="India",MOV | Sony MAX HD 2 (1d)
 http://198.195.239.50:8095/SonyMAX/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (1d)
@@ -67,6 +65,8 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (1d)
 http://198.195.239.50:8095/News24/index.m3u8
+#EXTINF:-1 group-title="International News",France 24 English (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 group-title="International News",HLN (0d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (6d)
@@ -75,26 +75,22 @@ https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
 http://198.195.239.50:8095/DiscoveryKids/index.m3u8
 #EXTINF:-1 group-title="Kids",0. Doraemon (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
-#EXTINF:-1 group-title="Kids",0. Duronto TV (0d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",0. WowKidz (Motu Patlu) (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (1d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (0d)
-https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 group-title="Movies",OTHER | K Cine (0d)
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (6d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
+#EXTINF:-1 group-title="Religious",Channel WIN (0d)
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (1d)
 http://198.195.239.50:8095/SonyTenSports2/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Star Sports 2 HD)-- (0d)
-http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (1d)
 http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (1d)
