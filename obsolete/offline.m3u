@@ -14,9 +14,9 @@ http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (3d)
 http://198.195.239.50:8095/JalshaMovies/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (3d)
-http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (3d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (3d)
+http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (8d)
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (3d)
@@ -60,13 +60,11 @@ http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (3d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (4d)
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (4d)
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (4d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
 #EXTINF:-1 group-title="India",MU | T Play (8d)
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
-https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (3d)
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="International News",CGTN (2d)
@@ -85,14 +83,12 @@ http://198.195.239.50:8095/CartoonNetwork/index.m3u8
 http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Discovery Kids (0d)
 http://181.78.4.250:8098/play/a08h/index.m3u8
-#EXTINF:-1 group-title="Music",EN | NOW 80's (0d)
-https://samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv/ts-eu-w1-n2/playlist/samsunguk-lightning-now80s-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (8d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Tag TV (1d)
-http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (8d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
+#EXTINF:-1 group-title="Religious",MTA 1 Bangla (0d)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (3d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (3d)
@@ -103,6 +99,8 @@ http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(WiLLoW HD)-- (3d)
 http://198.195.239.50:8095/WiLLow/index.m3u8
+#EXTINF:-1 group-title="Sports",FB | ORF Sport+ HD (0d)
+http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
 #EXTINF:-1 group-title="Sports",FB | Pro Sports International (0d)
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (1d)
