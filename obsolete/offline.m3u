@@ -5,6 +5,8 @@ http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (4d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (4d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (0d)
@@ -19,10 +21,12 @@ http://198.195.239.50:8095/JalshaMovies/index.m3u8
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (4d)
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",Movie Bangla TV (0d)
-http://alvetv.com/mbtv/8080/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (4d)
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (9d)
@@ -51,6 +55,8 @@ https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex HD (4d)
 http://198.195.239.50:8095/ColorsCineplex/index.m3u8
+#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Sony MAX HD 2 (4d)
 http://198.195.239.50:8095/SonyMAX/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (4d)
@@ -58,21 +64,17 @@ http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (4d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (5d)
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (5d)
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (5d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 #EXTINF:-1 group-title="India",MU | T Play (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | ET Now Swadesh (0d)
-https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (4d)
 http://198.195.239.50:8095/News24/index.m3u8
-#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
-https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1
 #EXTINF:-1 group-title="International News",CGTN (3d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (4d)
@@ -81,20 +83,26 @@ http://198.195.239.50:8095/DiscoveryKids/index.m3u8
 https://cloudfrontnet.vercel.app/tplay/playout/209902/master.m3u8
 #EXTINF:-1 group-title="Kids",0. WowKidz (Motu Patlu) (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
+#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (4d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
 #EXTINF:-1 group-title="Kids",Cartoonito (1d)
 http://181.78.4.250:8098/play/a067/index.m3u8
 #EXTINF:-1 group-title="Kids",Discovery Kids (1d)
 http://181.78.4.250:8098/play/a08h/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Classic Movies (0d)
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
+#EXTINF:-1 group-title="Music",EN | Play TV (0d)
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
 https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (4d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (4d)
@@ -109,5 +117,3 @@ http://198.195.239.50:8095/WiLLow/index.m3u8
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (2d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
-https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
