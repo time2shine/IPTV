@@ -18,9 +18,9 @@ http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (4d)
 http://198.195.239.50:8095/JalshaMovies/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (4d)
-http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (4d)
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (4d)
+http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
@@ -64,17 +64,17 @@ http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (4d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (5d)
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (5d)
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (5d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
+#EXTINF:-1 group-title="India",MU | Saga Music Haryanvi (0d)
+https://amg01412-xiaomiasia-sagamusicharyanvi-xiaomi-0v34j.amagi.tv/playlist/amg01412-xiaomiasia-sagamusicharyanvi-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="India",MU | T Play (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (4d)
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="International News",CGTN (3d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Bantul The Great (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209869/master.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (4d)
@@ -89,12 +89,8 @@ https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
 #EXTINF:-1 group-title="Music",EN | O Music (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8
-#EXTINF:-1 group-title="Music",EN | Play TV (0d)
-http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Religious",BanglaWaz (9d)
 https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (4d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (4d)
