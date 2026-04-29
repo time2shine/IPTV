@@ -31,8 +31,6 @@ http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (5d)
 http://198.195.239.50:8095/AnimalPlanet/index.m3u8
-#EXTINF:-1 group-title="Educational",BBC Earth (0d)
-http://65.108.239.207/bbc/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (5d)
 http://198.195.239.50:8095/SonyTv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (5d)
@@ -41,8 +39,6 @@ http://198.195.239.50:8095/StarPlus/index.m3u8
 http://198.195.239.50:8095/ZeeTV/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex HD (5d)
 http://198.195.239.50:8095/ColorsCineplex/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (1d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Sony MAX HD 2 (5d)
 http://198.195.239.50:8095/SonyMAX/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (5d)
@@ -50,15 +46,15 @@ http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (5d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (6d)
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (6d)
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (6d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (5d)
 http://198.195.239.50:8095/News24/index.m3u8
+#EXTINF:-1 group-title="International",EN | Blues TV (0d)
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
 #EXTINF:-1 group-title="International News",CGTN (4d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
-#EXTINF:-1 group-title="International News",France 24 English (0d)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 group-title="International News",HLN (0d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (5d)
@@ -67,10 +63,8 @@ http://198.195.239.50:8095/DiscoveryKids/index.m3u8
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (5d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (5d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (5d)
