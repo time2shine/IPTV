@@ -1,10 +1,14 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",Amar Bangla (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (7d)
 http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I (7d)
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (7d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
+#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (7d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | COLORS BANGLA CINEMA HD (7d)
@@ -15,8 +19,6 @@ http://198.195.239.50:8095/JalshaMovies/index.m3u8
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (7d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (7d)
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (7d)
@@ -53,6 +55,8 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (0d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (7d)
 http://198.195.239.50:8095/DiscoveryKids/index.m3u8
 #EXTINF:-1 group-title="Kids",0. Duronto TV (0d)
@@ -61,14 +65,16 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (7d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",Cartoonito (0d)
-http://181.78.4.250:8098/play/a067/index.m3u8
-#EXTINF:-1 group-title="Music",EN | GROOVE (0d)
-http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
-#EXTINF:-1 group-title="Music",OTHER | MAD (0d)
-http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Religious",Hyder TV (0d)
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (1d)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (7d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (7d)
@@ -83,5 +89,5 @@ http://198.195.239.50:8095/WiLLow/index.m3u8
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (5d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | HOOP TV (0d)
-https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | Lucha Plus (0d)
+https://amg17334-amg17334c1-freelivesports-emea-7386.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17334-luchalibrefast-luchalibre-freelivesportsemea/playlist.m3u8
