@@ -7,6 +7,8 @@ http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (8d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
+#EXTINF:-1 group-title="Bangla",Green TV (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (0d)
 http://stvlive.net:8080/metv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | COLORS BANGLA CINEMA HD (8d)
@@ -21,8 +23,6 @@ http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (8d)
 http://198.195.239.50:8095/SonyAath/index.m3u8
-#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (0d)
-https://playztv-apps.pages.dev/star-jalsha/index.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (8d)
 http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (8d)
@@ -48,23 +48,23 @@ http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (8d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
 #EXTINF:-1 group-title="India",MU | 9XM (9d)
-https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
-#EXTINF:-1 group-title="India",MU | 9XM (9d)
 https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
+#EXTINF:-1 group-title="India",MU | 9XM (9d)
+https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/master.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (8d)
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (1d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
-#EXTINF:-1 group-title="International",Are We There Yet? (0d)
-https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
-#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
-https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (8d)
 http://198.195.239.50:8095/DiscoveryKids/index.m3u8
+#EXTINF:-1 group-title="Kids",0. Duronto TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. BBC Kids (4d)
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (8d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (8d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (8d)
