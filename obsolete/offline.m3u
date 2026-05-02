@@ -1,16 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Bangla",ASIAN TV (0d)
+http://103.229.254.25:7001/play/a063/index.m3u8
 #EXTINF:-1 group-title="Bangla",BANGLA VISION (8d)
 http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
-#EXTINF:-1 group-title="Bangla",Bangla+ HD (0d)
-https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 group-title="Bangla",CHANNEL I (8d)
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (8d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (1d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (8d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
+#EXTINF:-1 group-title="Bangla",MAASRANGA HD (0d)
+http://103.229.254.25:7001/play/a05q/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | COLORS BANGLA CINEMA HD (8d)
 http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (8d)
@@ -55,8 +55,6 @@ https://d14c63magvk61v.cloudfront.net/strm/channels/9xm/m4.m3u8
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (1d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
-#EXTINF:-1 group-title="International News",GB News (0d)
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
 #EXTINF:-1 group-title="International News",HLN (1d)
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (8d)
@@ -67,12 +65,10 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (8d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Music",EN | Oxygen Music (0d)
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (8d)
 http://198.195.239.50:8095/Tsports/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (0d)
-http://151.80.18.177:86/Eurosport_HD/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (8d)
 http://198.195.239.50:8095/SonyTenSports2/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (8d)
@@ -85,5 +81,3 @@ http://198.195.239.50:8095/WiLLow/index.m3u8
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (6d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
-http://41.205.93.154/ESPN/index.m3u8
