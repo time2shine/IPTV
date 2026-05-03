@@ -16,9 +16,9 @@ http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (9d)
 http://198.195.239.50:8095/JalshaMovies/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
-http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
+http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (9d)
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (9d)
@@ -47,6 +47,8 @@ http://198.195.239.50:8095/SonyMAX/index.m3u8
 http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 group-title="India",MOV | ZEE CINEMA HD (9d)
 http://198.195.239.50:8095/ZeeCinema/index.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | News24 (9d)
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (2d)
@@ -61,8 +63,10 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (9d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (0d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Religious",Peace TV English (0d)
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (9d)
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (9d)
@@ -77,3 +81,5 @@ http://198.195.239.50:8095/WiLLow/index.m3u8
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (7d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
+#EXTINF:-1 group-title="Sports",MIXER | Xtrem Sports (0d)
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
