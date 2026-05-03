@@ -5,8 +5,6 @@ http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (9d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (9d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (1d)
@@ -15,14 +13,22 @@ http://stvlive.net:8080/metv/tracks-v1a1/mono.m3u8
 http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | JALSHA MOVIES HD (9d)
 http://198.195.239.50:8095/JalshaMovies/index.m3u8
+#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
 http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (9d)
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (9d)
 http://198.195.239.50:8095/SonyAath/index.m3u8
+#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (0d)
+https://playztv-apps.pages.dev/star-jalsha/index.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (9d)
 http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | ATN News (9d)
@@ -33,6 +39,10 @@ http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (9d)
 http://198.195.239.50:8095/AnimalPlanet/index.m3u8
+#EXTINF:-1 group-title="Educational",BBC Earth (0d)
+http://65.108.239.207/bbc/index.m3u8
+#EXTINF:-1 group-title="Educational",Discover Pakistan TV (0d)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (9d)
 http://198.195.239.50:8095/SonyTv/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Star Plus HD (9d)
@@ -53,18 +63,18 @@ https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/play
 http://198.195.239.50:8095/News24/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (2d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (9d)
 http://198.195.239.50:8095/DiscoveryKids/index.m3u8
-#EXTINF:-1 group-title="Kids",0. Duronto TV (1d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. BBC Kids (5d)
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (9d)
 http://198.195.239.50:8095/CartoonNetwork/index.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="Music",EN | Vevo Pop (0d)
+https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopit-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
+https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (0d)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (9d)
@@ -81,5 +91,5 @@ http://198.195.239.50:8095/WiLLow/index.m3u8
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Puls 24 (7d)
 http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",MIXER | Xtrem Sports (0d)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 group-title="Sports",MIXER | ESPN (0d)
+http://41.205.93.154/ESPN/index.m3u8
