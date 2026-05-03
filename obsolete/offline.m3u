@@ -5,8 +5,6 @@ http://198.195.239.50:8095/bdixbd.net_Enter10Bangla/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_channelihd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Colors Bangla HD (9d)
 http://198.195.239.50:8095/bdixbd.net_ColorsBanglaHD/video.m3u8
-#EXTINF:-1 group-title="Bangla",Enter10 Bangla HD (0d)
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",GAZI TV HD (9d)
 http://198.195.239.50:8095/bdixbd.net_gazitvhd/video.m3u8
 #EXTINF:-1 group-title="Bangla",Me TV (1d)
@@ -22,9 +20,9 @@ http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
 http://198.195.239.50:8095/bdixbd.net_ZeeBanglaCinemaHD/video.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
 https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",NAGORIK HD (9d)
 http://198.195.239.50:8095/nagorik/index.m3u8
 #EXTINF:-1 group-title="Bangla",SONY AATH HD (9d)
@@ -37,8 +35,6 @@ http://198.195.239.50:8095/bdixbd.net_AtnNews/video.m3u8
 http://198.195.239.50:8095/bdixbd.net_JamunaTV/video.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (9d)
 http://198.195.239.50:8095/bdixbd.net_somoytv/video.m3u8
-#EXTINF:-1 group-title="Bangla News",IN | ABP Ananda (0d)
-https://amg01412-xiaomiasia-abpananda-xiaomi-lzyzw.amagi.tv/playlist/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8
 #EXTINF:-1 group-title="Educational",Animal Planet (9d)
 http://198.195.239.50:8095/AnimalPlanet/index.m3u8
 #EXTINF:-1 group-title="India",ENT | Sony Entertainment HD (9d)
@@ -49,8 +45,6 @@ http://198.195.239.50:8095/StarPlus/index.m3u8
 http://198.195.239.50:8095/ZeeTV/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Colors Cineplex HD (9d)
 http://198.195.239.50:8095/ColorsCineplex/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Sony MAX HD 2 (9d)
 http://198.195.239.50:8095/SonyMAX/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Star Gold HD (9d)
@@ -65,6 +59,8 @@ https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772
 https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",0. Discovery Kids Hindi (9d)
 http://198.195.239.50:8095/DiscoveryKids/index.m3u8
+#EXTINF:-1 group-title="Kids",0. Duronto TV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. BBC Kids (5d)
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",10 Cartoon Network (9d)
@@ -77,6 +73,8 @@ https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 http://198.195.239.50:8095/Tsports/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sony sports 2)-- (9d)
 http://198.195.239.50:8095/SonyTenSports2/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Star Sports 2 HD)-- (0d)
+http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8
 #EXTINF:-1 group-title="Sports",--Live(STAR SPORTS SELECT 1 HD)-- (9d)
 http://198.195.239.50:8095/StarSportsSelect1/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Tapmad)-- (9d)
