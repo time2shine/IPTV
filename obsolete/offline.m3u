@@ -1,35 +1,45 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",Green TV (0d)
+#EXTINF:-1 group-title="Bangla",Green TV (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",Me TV (3d)
+#EXTINF:-1 group-title="Bangla",Me TV (4d)
 http://stvlive.net:8080/metv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
-#EXTINF:-1 group-title="Educational",Popular Science (0d)
+#EXTINF:-1 group-title="Educational",Popular Science (1d)
 https://amg13231-actve-amg13231c5-sportstribal-emea-1269.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-sportstribalemea/playlist.m3u8
-#EXTINF:-1 group-title="India",NEWS | ABP News (0d)
-https://abpmitv.akamaized.net/hls/live/2042842/abpnews/master.m3u8
-#EXTINF:-1 group-title="India",NEWS | NDTV Hindi (0d)
-https://backupndtvindiaelemarchana.akamaized.net/hls/live/2004134/ndtvindia/master_1.m3u8
-#EXTINF:-1 group-title="India",NEWS | News9Live (4d)
+#EXTINF:-1 group-title="India",NEWS | News9Live (5d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
-#EXTINF:-1 group-title="International News",ABC News in 90 Seconds (0d)
+#EXTINF:-1 group-title="International News",ABC News in 90 Seconds (1d)
 https://c.mjh.nz/news_in_90_seconds
-#EXTINF:-1 group-title="Kids",1. BBC Kids (7d)
+#EXTINF:-1 group-title="International News",ABC Sport in 90 Seconds (0d)
+https://c.mjh.nz/sport_in_90_seconds
+#EXTINF:-1 group-title="International News",Connecting America (0d)
+https://amg00731-gannettcoinc-usatodaynews-plex-r45dz.amagi.tv/ts-us-e2-n1/playlist/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+#EXTINF:-1 group-title="International News",HLN (0d)
+https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+#EXTINF:-1 group-title="Kids",1. BBC Kids (8d)
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
-#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Movies Thriller (0d)
+#EXTINF:-1 group-title="Kids",Kid Screation (0d)
+http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | Movies Thriller (1d)
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
-#EXTINF:-1 group-title="Music",AR | Majid Al Mohandis (0d)
+#EXTINF:-1 group-title="Music",AR | Majid Al Mohandis (1d)
 https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Sports",FB | Goal TV (0d)
+#EXTINF:-1 group-title="Music",EN | Play TV (0d)
+http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
+#EXTINF:-1 group-title="Music",EN | Vevo '90s & '00s (0d)
+https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevo90sand00sit-rakutenit/playlist.m3u8
+#EXTINF:-1 group-title="Religious",Dua Channel (0d)
+https://newyork.zeuscdn724.com:443/H9/index.m3u8
+#EXTINF:-1 group-title="Sports",CR | Star Sports 1 Hindi (0d)
+http://41.205.93.154/STARSPORTS1/index.m3u8
+#EXTINF:-1 group-title="Sports",FB | Bahrain Sports 1 (0d)
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 group-title="Sports",FB | Goal TV (1d)
 https://amg00585-sportstribal-amg00585c1-sportstribal-emea-2175.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-goaltv-sportstribalemea/playlist.m3u8
-#EXTINF:-1 group-title="Sports",FB | Pro Sports International (8d)
+#EXTINF:-1 group-title="Sports",FB | Pro Sports International (9d)
 https://proshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Sports",FB | Puls 24 (9d)
-http://212.186.45.34:9981/stream/channelid/1840087075?profile=pass
-#EXTINF:-1 group-title="Sports",FB | Russia Football 3 HD (0d)
+#EXTINF:-1 group-title="Sports",FB | Russia Football 3 HD (1d)
 http://d1.cdntv.online/low/9mlxywika2/57.m3u8
+#EXTINF:-1 group-title="Sports",RACING | FloRacing (0d)
+https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8
