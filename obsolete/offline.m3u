@@ -11,6 +11,10 @@ http://stvlive.net:8080/metv/tracks-v1a1/mono.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (0d)
 https://cdn-4.pishow.tv/live/1143/master.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 group-title="Bangla",Orange Bangla TV (0d)
 https://cdn-4.pishow.tv/live/1499/master.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (0d)
@@ -30,8 +34,6 @@ https://cdn-3.pishow.tv/live/230/master.m3u8
 #EXTINF:-1 group-title="India",MOV | B4U Kadak (0d)
 https://cdn-2.pishow.tv/live/227/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
 https://cdn-2.pishow.tv/live/1459/master.m3u8
 #EXTINF:-1 group-title="India",MOV | Goldmines Movies (0d)
 https://cdn-2.pishow.tv/live/1461/master.m3u8
@@ -47,16 +49,22 @@ https://cdn-2.pishow.tv/live/226/master.m3u8
 https://cdn-1.pishow.tv/live/449/master.m3u8
 #EXTINF:-1 group-title="India",MU | Public Music (0d)
 https://cdn-3.pishow.tv/live/441/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | CNN News18 (0d)
+https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | IBC 24 (0d)
 https://cdn-3.pishow.tv/live/220/master.m3u8
+#EXTINF:-1 group-title="India",NEWS | News18 India (0d)
+https://amg01448-samsungin-news18india-samsungin-ad-gx.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-news18india-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="India",NEWS | News9Live (5d)
 https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
+#EXTINF:-1 group-title="India",NEWS | Republic TV (0d)
+https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8
+#EXTINF:-1 group-title="International",TVRI World (0d)
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="International News",ABC News in 90 Seconds (1d)
 https://c.mjh.nz/news_in_90_seconds
 #EXTINF:-1 group-title="International News",ABC Sport in 90 Seconds (0d)
 https://c.mjh.nz/sport_in_90_seconds
-#EXTINF:-1 group-title="Kids",0. Duronto TV (0d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Kids",1. BBC Kids (8d)
 https://dmr1h4skdal9h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-msbj6srh7nhug/playlist.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (0d)
@@ -65,19 +73,19 @@ https://cdn-1.pishow.tv/live/224/master.m3u8
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
 #EXTINF:-1 group-title="Music",AR | Majid Al Mohandis (1d)
 https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Ary Digital (0d)
-https://ml-pull-dvc-myco.io:2096/ARY_DIGITAL/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Religious",Channel Win (0d)
 https://cdn-4.pishow.tv/live/229/master.m3u8
+#EXTINF:-1 group-title="Religious",Hyder TV (0d)
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Peace TV English (0d)
 https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (0d)
-http://151.80.18.177:86/Eurosport_HD/index.m3u8
-#EXTINF:-1 group-title="Sports",FB | Bahrain Sports 1 (0d)
-https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FB | Goal TV (1d)
 https://amg00585-sportstribal-amg00585c1-sportstribal-emea-2175.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-goaltv-sportstribalemea/playlist.m3u8
 #EXTINF:-1 group-title="Sports",FB | Pro Sports International (9d)
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Sports",FB | Russia Football 3 HD (1d)
 http://d1.cdntv.online/low/9mlxywika2/57.m3u8
+#EXTINF:-1 group-title="Sports",POKER | World Poker Tour (0d)
+https://amg00218-wptenterprises-amg00218c1-sportstribal-emea-1900.playouts.now.amagi.tv/playlist/amg00218-wptenterprisesfast-worldpokertour-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports",RACING | RACER International (0d)
+https://amg00378-mavtv-amg00378c3-sportstribal-emea-1325.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetworkint-sportstribalemea/playlist.m3u8
