@@ -3,10 +3,16 @@
 https://mumt03.tangotv.in/AAKASHAATH/index.m3u8
 #EXTINF:-1 group-title="Bangla",ASIAN TV (9d)
 http://103.229.254.25:7001/play/a063/index.m3u8
+#EXTINF:-1 group-title="Bangla",Bangla+ HD (0d)
+https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (9d)
 http://103.229.254.25:7001/play/a05q/index.m3u8
 #EXTINF:-1 group-title="Bangla",MU | SANGEET BANGLA (7d)
 https://mumt05.tangotv.in/SANGEETBANGLA/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
+https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
 https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
 #EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
@@ -21,26 +27,18 @@ https://cdnb4u.wiseplayout.com/B4U_Movies/SD216/SD216.m3u8
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
 #EXTINF:-1 group-title="India",MOV | B4U Movies India (2d)
 https://cdnb4u.wiseplayout.com/B4U_Movies/HD1080/HD1080.m3u8
+#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MU | B4U Music India (2d)
 https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
-#EXTINF:-1 group-title="International",Are We There Yet? (0d)
-https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
-#EXTINF:-1 group-title="International News",HLN (0d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="Kids",1. Hi Dost! (6d)
 https://mumt03.tangotv.in/HIDOST/index.m3u8
-#EXTINF:-1 group-title="Kids",Kid Screation (1d)
-http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
-#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (0d)
-https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
 #EXTINF:-1 group-title="Music",AR | Arabica TV (1d)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 #EXTINF:-1 group-title="Music",EN | California Music Channel (6d)
 https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/640x360_1205600/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Tag TV (4d)
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Religious",QURAN (1d)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Sunnah TV (1d)
@@ -51,5 +49,3 @@ http://d4.cdntv.online/low/9mlxywika2/55.m3u8
 http://d5.cdntv.online/low/9mlxywika2/56.m3u8
 #EXTINF:-1 group-title="Sports",FB | Russia Football 3 HD (7d)
 http://d1.cdntv.online/low/9mlxywika2/57.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
-https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
