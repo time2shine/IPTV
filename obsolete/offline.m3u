@@ -1,13 +1,11 @@
 #EXTM3U
-#EXTINF:-1 group-title="Educational",BBC Earth (0d)
-http://65.108.239.207/bbc/index.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
+https://live20.bozztv.com/akamaissh101/ssh101/usbdjournal/chunks.m3u8
+#EXTINF:-1 group-title="Bangla",US-BD Journal 24 TV (0d)
+http://str24.l9574.com/510.stream/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | CNBC Awaaz (4d)
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/CNBC_Awaaz_NW18_MOB-audio_98834_hin=98800-video=1272000.m3u8
-#EXTINF:-1 group-title="International News",AccuWeather NOW (0d)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
-#EXTINF:-1 group-title="Kids",Toonami Aftermath East (0d)
-http://api.toonamiaftermath.com:3000/est/playlist.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 group-title="Music",OTHER | Afrobeats (6d)
-https://stream.ecable.tv/afrobeats/index.m3u8
+#EXTINF:-1 group-title="Religious",MTA 1 Bangla (0d)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | TNA Wrestling Channel (0d)
+https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8
