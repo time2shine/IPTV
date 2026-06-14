@@ -5,26 +5,39 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/3/34/Aakash_Aath_logo_%282013%29.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-05-15",
-        "first_online": "2026-02-17",
-        "last_offline": "2026-05-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
+        "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Nikki": {
+    "group": "Kids",
+    "tvg_id": "Nikki",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png",
+    "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-17",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-03-17",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.85x",
-        "quality": "slow"
+        "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Lucky Family": {
+    "group": "Kids",
+    "tvg_id": "Lucky Family",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -302,27 +315,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/08/Boishakhi_TV_HD_logo_2022.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-11",
-        "first_online": "2025-09-11",
-        "last_offline": "2026-02-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-21",
-        "first_online": "2025-10-11",
-        "last_offline": "2025-11-21",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.63x",
-        "quality": "slow"
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1799,16 +1796,11 @@
         "passed_via": "ffmpeg"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-11",
-        "first_online": "2025-09-11",
-        "last_offline": "2026-03-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "ffmpeg",
-        "quality": "fast"
+        "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2245,30 +2237,6 @@
         "passed_via": "whitelist",
         "note": "whitelisted",
         "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-04-23",
-        "first_online": "",
-        "last_offline": "2026-04-24",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "played 17.8s < 20s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-25",
-        "first_online": "2025-09-20",
-        "last_offline": "2026-02-25",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
       }
     ]
   },
@@ -2326,14 +2294,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9f/DBC_News_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-27",
-        "first_online": "2026-02-23",
-        "last_offline": "2026-03-27",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2501,22 +2466,199 @@
       }
     ]
   },
-  "BD | NEWS24 Television": {
+  "---FIFA(TNT Sports Premium)---": {
+    "group": "Sports",
+    "tvg_id": "TNT Sports Premium",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2f/TNT_Sports_Premium_24.svg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(TYC Sports)---": {
+    "group": "Sports",
+    "tvg_id": "TYC Sports",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(TVP Sports)---": {
+    "group": "Sports",
+    "tvg_id": "TVP Sports",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Tv Azteca)---": {
+    "group": "Sports",
+    "tvg_id": "Tv Azteca",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/117/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Tudn Sports)---": {
+    "group": "Sports",
+    "tvg_id": "Tudn Sports",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | Thunder Er": {
+    "group": "Sports",
+    "tvg_id": "Thunder Er",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT | Sports Legends": {
+    "group": "Sports",
+    "tvg_id": "20Sports Legends",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Sport.TV 1)---": {
+    "group": "SPORTS",
+    "tvg_id": "Sport.TV1",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Sporttv-1.svg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "RACE| Flash Guys HD": {
+    "group": "Sports",
+    "tvg_id": "20Flash Guys HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "FIGHT| Fighters": {
+    "group": "Sports",
+    "tvg_id": "Fighters",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Dazn Direct)---": {
+    "group": "Sports",
+    "tvg_id": "Dazn Direct",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Bein Sports 1 Max)---": {
+    "group": "Sports",
+    "tvg_id": "Bein Sports 1 Max",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/146122.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BD | Star News": {
+    "group": "Bangla News",
+    "tvg_id": "Star News",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png",
+    "links": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "BD | NEWS 24 Television": {
     "group": "Bangla News",
     "tvg_id": "NEWS24.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a9/News24_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-09-08",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -10029,62 +10171,11 @@
         "quality": "slow"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-04-11",
-        "first_online": "2025-10-30",
-        "last_offline": "2026-04-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-18",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-18",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.40x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-18",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.46x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-18",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 58.1s",
-        "quality": "slow"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -13356,6 +13447,62 @@
       }
     ]
   },
+  "EN | Crimes": {
+    "group": "Movies",
+    "tvg_id": "Crimes",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | 8X music": {
+    "group": "India",
+    "tvg_id": "8X music",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/23/8XM_logo.jpeg",
+    "links": [
+      {
+        "url": "https://ml-pull-dvc-myco.io:2096/8XM_MUSIC/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Uniques HD": {
+    "group": "Movies",
+    "tvg_id": "Uniques HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Cineedge HD": {
+    "group": "Movies",
+    "tvg_id": "Cineedge HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | & FLIX": {
     "group": "Movies",
     "tvg_id": "AndFLIX",
@@ -14741,6 +14888,20 @@
         "speed": 0.0,
         "passed_via": "missing",
         "note": "no url"
+      }
+    ]
+  },
+  "AR | Albania Music": {
+    "group": "Music",
+    "tvg_id": "Albania Music",
+    "tvg_logo": "https://imglink.cc/cdn/IYDn_LwwiV.png",
+    "links": [
+      {
+        "url": "https://albportal.net/albkanalemusic.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
