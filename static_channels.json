@@ -449,15 +449,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/e4/Channel_9_HD.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
+        "status": "online",
         "last_online": null,
-        "first_online": "2025-09-08",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2059,16 +2055,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5e/Sun_Bangla_Logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-14",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-14",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.67x",
-        "quality": "slow"
+        "url": "http://27.124.71.27/Sun_Bangla/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18529,6 +18520,62 @@
       }
     ]
   },
+  "---FIFA(26 FOX)---": {
+    "group": "Sports",
+    "tvg_id": "26 FOX",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/960px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
+    "links": [
+      {
+        "url": "http://84.17.50.102/fox/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(D Sports)---": {
+    "group": "Sports",
+    "tvg_id": "D Sports",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DSports_logo_2022.svg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Bein Sports Direct)---": {
+    "group": "Sports",
+    "tvg_id": "Bein Sports Direct",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BeIN_Sports_logo_%28horizontal_version%29.svg",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Unite8 Sports 2 HD)---": {
+    "group": "Sports",
+    "tvg_id": "Unite8 Sports 2 HD",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4e/Screenshot_2026-06-10_002235.png",
+    "links": [
+      {
+        "url": "http://212.102.34.8:9080/AndFlixHD/video.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "---Live(ATN AFG)---": {
     "group": "Sports",
     "tvg_id": "ATNAFG",
@@ -19485,6 +19532,62 @@
         "probe_time_s": 7.993,
         "speed": 0.25,
         "passed_via": "ffmpeg"
+      }
+    ]
+  },
+  "MIXER | Luxel HD": {
+    "group": "Sports",
+    "tvg_id": "Luxel HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Kids Stars": {
+    "group": "Kids",
+    "tvg_id": "Kids Stars",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. Joy": {
+    "group": "Kids",
+    "tvg_id": "Joy",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. BuddyStar HD": {
+    "group": "Kids",
+    "tvg_id": "BuddyStar HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
