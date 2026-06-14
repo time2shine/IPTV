@@ -57,14 +57,11 @@
     "tvg_logo": "https://yt3.googleusercontent.com/AKdtkYcJ5cbC1NNkbELbIarJgjbCxsyQ08rW-LAbtZ0F8KdDGutcTKLmRpdFf5hxtC_UrFpO=s160-c-k-c0x00ffffff-no-rj",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-05-12",
-        "first_online": "2026-03-06",
-        "last_offline": "2026-05-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1091,26 +1088,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/a3/Maasranga_TV_HD_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-05-12",
-        "first_online": "2026-03-06",
-        "last_offline": "2026-05-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-25",
-        "first_online": "2025-09-16",
-        "last_offline": "2026-02-25",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "whitelisted",
-        "quality": "fast"
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2382,7 +2364,7 @@
   },
   "BD | Independent Television": {
     "group": "Bangla News",
-    "tvg_id": "INDEPENDENTTV.bd",
+    "tvg_id": "INDEPENDENT TV.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/b/bb/Independent_logo_2011.png",
     "links": [
       {
@@ -2800,6 +2782,20 @@
       }
     ]
   },
+  "EN | Party Universe": {
+    "group": "Music",
+    "tvg_id": "Party Universe",
+    "tvg_logo": "https://imglink.cc/cdn/IYDn_LwwiV.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/chunks.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "IN | R Plus News": {
     "group": "Bangla News",
     "tvg_id": "R Plus News",
@@ -2816,6 +2812,111 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.67x",
         "quality": "slow"
+      },
+      {
+        "url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | True Stories": {
+    "group": "Movies",
+    "tvg_id": "True Stories",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Superrix HD": {
+    "group": "Movies",
+    "tvg_id": "Superrix HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Screem": {
+    "group": "Movies",
+    "tvg_id": "Screem",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Originals": {
+    "group": "Movies",
+    "tvg_id": "Originals",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | Intelligence": {
+    "group": "Movies",
+    "tvg_id": "Intelligence",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Smarty": {
+    "group": "Kids",
+    "tvg_id": "Smarty",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. Funny Junior HD": {
+    "group": "Kids",
+    "tvg_id": "Funny Junior HD",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -10687,6 +10788,48 @@
       }
     ]
   },
+  "MIXER | Sports Range": {
+    "group": "Sports",
+    "tvg_id": "Sports Range",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | Crazy Ex": {
+    "group": "Sports",
+    "tvg_id": "Crazy Ex",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "NEWS | Times Of India": {
+    "group": "India",
+    "tvg_id": "Times Of India",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d7/TOI_logo.png",
+    "links": [
+      {
+        "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "GB News": {
     "group": "International News",
     "tvg_id": "GBNews",
@@ -11079,16 +11222,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Bantul_the_Great_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-04-19",
-        "first_online": "2025-10-13",
-        "last_offline": "2026-04-19",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 60.2s",
-        "quality": "slow"
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11410,15 +11548,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d3/OggyAndTheCockroachesNextGeneration.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-11",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
