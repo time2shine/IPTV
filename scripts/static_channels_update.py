@@ -107,7 +107,7 @@ WHITELIST_DOMAINS = [
     "https://premierleagpl23.akamaized.net",
     "https://indiatodaylive.akamaized.net",
     "http://103.73.107.122:3255/TSportsHD",
-    "http://27.124.71.27/Sun_Bangla",
+    "https://nomawnoijl.gpcdn.net/akash",
     "https://streams.spacetoon.com",
     "https://owrcovcrpy.gpcdn.net",
     "https://pepsi.abntv.live/hls",
@@ -115,7 +115,6 @@ WHITELIST_DOMAINS = [
     "https://feeds.intoday.in",
     "http://cdn01.palki.tv",
     "http://103.182.170.32",
-    "http://live.iill.top",
 ]
 
 # -----------------------------------------------------------------------------
