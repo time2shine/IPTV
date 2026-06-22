@@ -1794,25 +1794,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4e/Rtv_bangladesh.svg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-29",
-        "first_online": "2025-12-01",
-        "last_offline": "2025-12-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-12-29",
-        "first_online": "2025-09-08",
-        "last_offline": "2025-12-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2529,26 +2515,11 @@
         "passed_via": "whitelist"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-05-18",
-        "first_online": "2026-04-21",
-        "last_offline": "2026-05-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-04-23",
-        "first_online": "2025-09-20",
-        "last_offline": "2026-04-24",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18876,7 +18847,7 @@
     ]
   },
   "---FIFA(Sport.TV 1)---": {
-    "group": "SPORTS",
+    "group": "Sports",
     "tvg_id": "Sport.TV1",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Sporttv-1.svg",
     "links": [
