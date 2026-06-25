@@ -16,6 +16,20 @@
       }
     ]
   },
+  "Bangla One": {
+    "group": "Bangla",
+    "tvg_id": "Bangla One",
+    "tvg_logo": "https://news.banglaone.tv/storage/logos/r2PeJQRkKVBJNHuA1uABtMFat3ZFlXm4ojTt5SWI.png",
+    "links": [
+      {
+        "url": "https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "Amar Bangla": {
     "group": "Bangla",
     "tvg_id": "amarbangla.bd",
@@ -524,6 +538,27 @@
         "probe_time_s": 38.525,
         "speed": 0.052,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "GALAXY TV BD": {
+    "group": "Bangla",
+    "tvg_id": "GALAXY TV BD",
+    "tvg_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToBEGtz-KJJMZjLpOBeiY5ysuz_30JRxwlFEMhPuk_EUPUi0MohCzf391z&s=10",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/galaxytvbd.stream/tracks-v1a1/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1646,15 +1681,11 @@
     "tvg_logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeX0fMKpc_lRfrT6qTXG0iK7ltwilygRaZ61fPX_7T7RHkjdwTIaYDHWSMRVFez2eBnGGnAM3logWZ9f7r7uJGEZQQZfjb3hydOkm9Q2FEULaQHhxJkJqUrOA8xCxdnHEYTNhNoUSXONX48zDINAFHI80edoaKzFHO2TQg4N9ojnbp-Ae3eCX_XuQ-ZOE/s1600/NRBLogoDesignwithColorAccents_copy_900x900.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -1684,25 +1715,6 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist",
-        "note": "whitelisted",
-        "quality": "fast"
-      }
-    ]
-  },
-  "NTV SD": {
-    "group": "Bangla",
-    "tvg_id": "ntv.bd",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/e/e1/NTV_Bangladesh.svg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-25",
-        "first_online": "2025-09-14",
-        "last_offline": "2026-02-25",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
         "note": "whitelisted",
         "quality": "fast"
       }
@@ -2097,16 +2109,53 @@
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/de/News_Time_2.jpg",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-27",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-02-27",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "played 18.1s < 20s",
-        "quality": "slow"
+        "url": "https://app.ncare.live/live-orgin/timetvusa.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Al-MahdiTV": {
+    "group": "Religious",
+    "tvg_id": "AlMahdiTV.us@SD",
+    "tvg_logo": "https://i.imgur.com/S1YM83i.png",
+    "links": [
+      {
+        "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | Unbeaten Sports Channel": {
+    "group": "CrSportsicket",
+    "tvg_id": "Unbeaten.us@SD",
+    "tvg_logo": "https://i.imgur.com/LmkNt3v.png",
+    "links": [
+      {
+        "url": "https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "TIKANA TV": {
+    "group": "Bangla",
+    "tvg_id": "TIKANA TV",
+    "tvg_logo": "https://yt3.googleusercontent.com/AbXfwy0BwAB4yjwV4gkMmSZizuTv30M9kZjO7V33LLvpy7CRVxK523zdvnZ3oTMtanUf9tHe=s900-c-k-c0x00ffffff-no-rj",
+    "links": [
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -2410,6 +2459,13 @@
         "probe_time_s": 41.287,
         "speed": 0.048,
         "passed_via": "mpv"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18332,14 +18388,11 @@
     "tvg_logo": "",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-12",
-        "first_online": "2025-12-02",
-        "last_offline": "2026-02-12",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -18852,6 +18905,104 @@
       }
     ]
   },
+  "---FIFA(FS2)---": {
+    "group": "Sports",
+    "tvg_id": "FS2",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(S Football)---": {
+    "group": "Sports",
+    "tvg_id": "S Football",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745149.ts",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MIXER | IDMAN TV": {
+    "group": "Sports",
+    "tvg_id": "IDMANTV \ud83c\uddf9\ud83c\uddf7",
+    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+    "links": [
+      {
+        "url": "https://str2.yodacdn.net/idman_300_to_small/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Go3 Sport 1)---": {
+    "group": "Sports",
+    "tvg_id": "Go3 Sport 1",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Go3 Sport 3 4K)---": {
+    "group": "Go3 Sport 3",
+    "tvg_id": "Go3 Sport 3",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
+    "links": [
+      {
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(ESPN S1)---": {
+    "group": "Sports",
+    "tvg_id": "ESPN S1",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(DAZN 1)---": {
+    "group": "Sports",
+    "tvg_id": "DAZN 1",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "http://znty.dyndns.org:5010/hls/eleven1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "---FIFA(Sport.TV 1)---": {
     "group": "Sports",
     "tvg_id": "Sport.TV1",
@@ -18951,6 +19102,48 @@
         "probe_time_s": 13.147,
         "speed": 0.152,
         "passed_via": "mpv"
+      }
+    ]
+  },
+  "---FIFA(Caze TV \ud83c\udde7\ud83c\uddf7 Brazil)---": {
+    "group": "Sports",
+    "tvg_id": "Caze Tv \ud83c\udde7\ud83c\uddf7 Brazil",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(BEIN SPORTS 1 Turkey)---": {
+    "group": "Sports",
+    "tvg_id": "Bein_Sports_1 720p",
+    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "links": [
+      {
+        "url": "https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "---FIFA(Bein Sport HD 1)---": {
+    "group": "Sports",
+    "tvg_id": "Bein Sport HD 1",
+    "tvg_logo": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+    "links": [
+      {
+        "url": "http://ua102.online24.pm:8222/1101/video.m3u8?token=350B326FB34F4B8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19127,14 +19320,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-04-23",
-        "first_online": "2026-02-17",
-        "last_offline": "2026-04-24",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
