@@ -111,6 +111,7 @@ WHITELIST_DOMAINS = [
     "https://streams.spacetoon.com",
     "https://owrcovcrpy.gpcdn.net",
     "https://pepsi.abntv.live/hls",
+    "http://198.195.239.50:8095",
     "http://al.hls.huya.com/src",
     "https://feeds.intoday.in",
     "http://cdn01.palki.tv",
