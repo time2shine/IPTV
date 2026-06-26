@@ -3515,21 +3515,31 @@
       }
     ]
   },
-  "Descovery Bangla": {
-    "group": "Educational",
+  "Rajdhani TV": {
+    "group": "Bangla",
+    "tvg_id": "Rajdhani TV",
+    "tvg_logo": "https://rajdhanitv.online/assets/images/logo/1757970614logo%20footer.png",
+    "links": [
+      {
+        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Discovery Bangla": {
+    "group": "Bangla",
     "tvg_id": "DISCOVERYBANGLA.in",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/6/6a/Discovery_HD_2009.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-15",
-        "first_online": "2025-09-08",
-        "last_offline": "2025-10-15",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "head"
+        "url": "http://202.70.146.135:8000/play/a05z/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -3969,6 +3979,27 @@
         "passed_via": "mpv",
         "note": "mpv",
         "quality": "fast"
+      },
+      {
+        "url": "https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "0. Just For Laughs Gags": {
+    "group": "Kids",
+    "tvg_id": "JustforLaughsGags.us@SD",
+    "tvg_logo": "https://i.imgur.com/HjVEVMJ.png",
+    "links": [
+      {
+        "url": "https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -4167,6 +4198,27 @@
         "passed_via": "mpv",
         "note": "mpv",
         "quality": "fast"
+      },
+      {
+        "url": "https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "EN | MyTime Movie Network": {
+    "group": "Movies",
+    "tvg_id": "MyTimeMovieNetworkEast.us@SD",
+    "tvg_logo": "https://i.imgur.com/HYgxPVQ.png",
+    "links": [
+      {
+        "url": "https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -4447,16 +4499,11 @@
     "tvg_logo": "https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-01-29",
-        "first_online": "2025-09-04",
-        "last_offline": "2026-01-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.17x",
-        "quality": "slow"
+        "url": "https://linear-188.frequency.stream/dist/xumo/188/hls/master/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -5020,16 +5067,11 @@
     "tvg_logo": "https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-01-29",
-        "first_online": "2025-09-04",
-        "last_offline": "2026-01-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 50.5s",
-        "quality": "slow"
+        "url": "https://sofast-lg.vgcdn.net/sofastplayout/751631cf-7a0d-356e-676e-b84cfec03391_0_HLS/manifest.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -7173,15 +7215,39 @@
     "tvg_logo": "https://godlywoodstudio.org/wp-content/uploads/2016/12/2-desi-logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-03",
-        "first_online": "2025-09-14",
-        "last_offline": "2025-10-03",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "MU | Only Music": {
+    "group": "India",
+    "tvg_id": "Only Music",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://mumbai-edge.smartplaytv.in/OnlyMusic/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "History TV18 HD Hindi": {
+    "group": "India",
+    "tvg_id": "History TV18 HD Hindi",
+    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/5/5b/History_TV18_HD_2022.png",
+    "links": [
+      {
+        "url": "https://n18syndication.akamaized.net/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/master.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -9072,6 +9138,34 @@
         "passed_via": "ffmpeg",
         "note": "overrun 82.7s",
         "quality": "slow"
+      }
+    ]
+  },
+  "Duck Dynasty": {
+    "group": "International",
+    "tvg_id": "DuckDynasty.us@UK",
+    "tvg_logo": "https://i.imgur.com/vMcSlwm.png",
+    "links": [
+      {
+        "url": "https://amg00276-amg00276c2-rakuten-uk-3449.playouts.now.amagi.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Homes Under The Hammer": {
+    "group": "International",
+    "tvg_id": "HomesUnderHammer.us@UK",
+    "tvg_logo": "https://i.imgur.com/P5Haaln.png",
+    "links": [
+      {
+        "url": "https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11380,6 +11474,27 @@
         "passed_via": "ffmpeg",
         "note": "overrun 70.6s",
         "quality": "slow"
+      },
+      {
+        "url": "https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Baby Shark TV 2": {
+    "group": "Kids",
+    "tvg_id": "BabySharkTV.us@SD",
+    "tvg_logo": "https://i.imgur.com/SbBKr8L.png",
+    "links": [
+      {
+        "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -12375,6 +12490,62 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "missing"
+      }
+    ]
+  },
+  "1. Roya Kids": {
+    "group": "Kids",
+    "tvg_id": "RoyaKids.jo@SD",
+    "tvg_logo": "https://i.imgur.com/acuCGF8.png",
+    "links": [
+      {
+        "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Persiana Junior": {
+    "group": "Kids",
+    "tvg_id": "PersianaJunior.fr@SD",
+    "tvg_logo": "https://i.imgur.com/zeKHZYG.png",
+    "links": [
+      {
+        "url": "https://junhls.persiana.live/hls/stream.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. PBS Kids Alaska": {
+    "group": "Kids",
+    "tvg_id": "PBSKidsAlaska.us@SD",
+    "tvg_logo": "https://i.imgur.com/ambc9le.png",
+    "links": [
+      {
+        "url": "https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "1. Minimax": {
+    "group": "Kids",
+    "tvg_id": "Minimax.pk@SD",
+    "tvg_logo": "https://i.imgur.com/TJvf8vd.png",
+    "links": [
+      {
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19624,6 +19795,27 @@
         "probe_time_s": 8.818,
         "speed": 0.227,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
+  "Alone By History": {
+    "group": "Educational",
+    "tvg_id": "Alone By History (720p)",
+    "tvg_logo": "",
+    "links": [
+      {
+        "url": "https://d3181anftsyl2u.cloudfront.net/v1/aenetworks_alone_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -20649,15 +20841,11 @@
         "quality": "slow"
       },
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-06",
-        "first_online": "2025-09-07",
-        "last_offline": "2025-10-06",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "no url"
+        "url": "https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -23600,6 +23788,20 @@
         "passed_via": "mpv",
         "note": "mpv",
         "quality": "fast"
+      }
+    ]
+  },
+  "AWE International": {
+    "group": "Travel",
+    "tvg_id": "AWEInternational.us",
+    "tvg_logo": "https://i.imgur.com/VhxtMUQ.png",
+    "links": [
+      {
+        "url": "https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
