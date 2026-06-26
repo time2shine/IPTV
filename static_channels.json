@@ -9856,20 +9856,6 @@
       }
     ]
   },
-  "EN | Party Universe": {
-    "group": "Music",
-    "tvg_id": "241000",
-    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
-    "links": [
-      {
-        "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
-        "status": "online",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "EN | HBO": {
     "group": "Movies",
     "tvg_id": "HBO.us",
@@ -12549,20 +12535,6 @@
       }
     ]
   },
-  "1. Minimax": {
-    "group": "Kids",
-    "tvg_id": "Minimax.pk@SD",
-    "tvg_logo": "https://i.imgur.com/TJvf8vd.png",
-    "links": [
-      {
-        "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
-        "status": "slow",
-        "last_online": null,
-        "first_online": null,
-        "last_offline": null
-      }
-    ]
-  },
   "1. Duck TV": {
     "group": "Kids",
     "tvg_id": "DuckTV",
@@ -12802,6 +12774,13 @@
         "probe_time_s": 3.057,
         "speed": 0.654,
         "passed_via": "ffmpeg"
+      },
+      {
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8",
+        "status": "slow",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -16533,6 +16512,13 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
