@@ -1177,6 +1177,13 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "https://trs1.aynaott.com/maasrangatv/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -9741,8 +9748,22 @@
       }
     ]
   },
+  "EN | Party Universe": {
+    "group": "Music",
+    "tvg_id": "241000",
+    "tvg_logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png",
+    "links": [
+      {
+        "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      }
+    ]
+  },
   "EN | HBO": {
-    "group": "International",
+    "group": "Movies",
     "tvg_id": "HBO.us",
     "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
     "links": [
@@ -9757,6 +9778,20 @@
         "passed_via": "ffmpeg",
         "note": "mpv",
         "quality": "fast"
+      }
+    ]
+  },
+  "EN | HBO (India)": {
+    "group": "Movies",
+    "tvg_id": "HBO.us",
+    "tvg_logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/hbo-us.png",
+    "links": [
+      {
+        "url": "http://103.213.31.111/HBOHD/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11491,14 +11526,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/e/ed/Duronto_TV_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-11",
-        "first_online": "2026-04-21",
-        "last_offline": "2026-06-11",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://trs1.aynaott.com/duronto/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -11955,38 +11987,14 @@
   "0. Tom and Jerry": {
     "group": "Kids",
     "tvg_id": "TomandJerry",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/26/-416014211062tg5cor5qw.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-10",
-        "first_online": "2025-09-03",
-        "last_offline": "2025-11-10",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 86.9s",
-        "quality": "slow"
-      }
-    ]
-  },
-  "0. Tom and Jerry 2": {
-    "group": "Kids",
-    "tvg_id": "TomandJerry2",
     "tvg_logo": "https://gia.tv/streams/pptv/208314.jpg?1750373428",
     "links": [
       {
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
         "status": "online",
-        "last_online": "2026-06-26",
-        "first_online": "2025-09-03",
-        "last_offline": null,
-        "probe_time_s": 3.689,
-        "speed": 0.542,
-        "passed_via": "ffmpeg",
-        "note": "overrun 65.0s",
-        "quality": "slow"
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -19936,6 +19944,13 @@
         "probe_time_s": null,
         "speed": 0.0,
         "passed_via": "whitelist"
+      },
+      {
+        "url": "https://trs1.aynaott.com/tsports/index.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -20269,20 +20284,17 @@
       }
     ]
   },
-  "--Live(SkySports Cricket)--": {
+  "--Live(Sky Sports Cricket)--": {
     "group": "Sports",
     "tvg_id": "SkySportsCricket",
     "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/20/IMG_9352.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-11-10",
-        "first_online": "2025-10-30",
-        "last_offline": "2025-11-10",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
+        "url": "https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
