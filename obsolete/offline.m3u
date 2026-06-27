@@ -1,55 +1,73 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangla",ASIAN TV (0d)
+#EXTINF:-1 group-title="Bangla",ASIAN TV (1d)
 https://mtlivestream.com/hls/asian/ytlive/index.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (3d)
+#EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (4d)
 https://tplay.live/playlist/movies/bangla-movies/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
+#EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (1d)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
-#EXTINF:-1 group-title="Bangla",MU | Bengali Beats (3d)
+#EXTINF:-1 group-title="Bangla",MU | Bengali Beats (4d)
 https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (2d)
+#EXTINF:-1 group-title="Bangla",RTV (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",STAR JALSHA HD (3d)
 https://tvsen3.aynascope.net/n64PH4YL/index.m3u8
-#EXTINF:-1 group-title="Bangla",SUN Bangla (7d)
+#EXTINF:-1 group-title="Bangla",SUN Bangla (8d)
 http://27.124.71.27/Sun_Bangla/index.m3u8
-#EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (2d)
+#EXTINF:-1 group-title="Bangla News",BD | SOMOY NEWS (3d)
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8
-#EXTINF:-1 group-title="India",MOV | Bollywood Movies (Tplay) (3d)
+#EXTINF:-1 group-title="Bangla News",IN | Tribe TV (0d)
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
+#EXTINF:-1 group-title="Educational",American Crimes (0d)
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65492fc7056b9700088560b5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a780-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3ce66776-1850-472a-aae6-67709c1b0532
+#EXTINF:-1 group-title="Educational",PowerNation TV (0d)
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63b48016d9dd51000828fa37livestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b6275-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=534f5abf-183b-4b07-88d8-ba60af3de510&profilesFromStream=true
+#EXTINF:-1 group-title="India",MOV | Bollywood Movies (Tplay) (4d)
 https://tplay.live/playlist/movies/bollywood-movies/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Hindi Dubbed Movies (Tplay) (3d)
+#EXTINF:-1 group-title="India",MOV | Hindi Dubbed Movies (Tplay) (4d)
 https://tplay.live/playlist/movies/dubbed-movies/index.m3u8
-#EXTINF:-1 group-title="India",NEWS | Awaaz India TV (0d)
-http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
-#EXTINF:-1 group-title="Kids",0. Kids Pang TV (3d)
+#EXTINF:-1 group-title="International News",CBS News (0d)
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6350fdd266e9ea0007bedec5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c799153-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=15376bcb-2b34-4530-a2f7-c528a8eb2aa3
+#EXTINF:-1 group-title="Kids",0. Kids Pang TV (4d)
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (7d)
+#EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (8d)
 http://live.iill.top/huya.php?id=11352879
-#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (0d)
+#EXTINF:-1 group-title="Kids",1. Nickelodeon Pluto TV (0d)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca673e0d0bd6c2689c94ce3livestitch/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel&profilesFromStream=true
+#EXTINF:-1 group-title="Kids",Anime All Day (0d)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=
+#EXTINF:-1 group-title="Kids",Just for laughs (Pluto TV) (0d)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6093f48c95132a00075fd859/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 group-title="Movies",EN | Rakuten Movies (1d)
 https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
-#EXTINF:-1 group-title="Music",EN | Play TV (1d)
+#EXTINF:-1 group-title="Music",AR | Albania Music (0d)
+https://albportal.net/albkanalemusic.m3u8
+#EXTINF:-1 group-title="Music",EN | MTV Biggest Pop (USA) (0d)
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080clivestitch/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=db3aa987-9f35-4664-b523-5fe34623b36c&profilesFromStream=true
+#EXTINF:-1 group-title="Music",EN | Play TV (2d)
 http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Aaj Entertainment (1d)
+#EXTINF:-1 group-title="Pakistan",ENT | Aaj Entertainment (2d)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Bol Entertainment (1d)
+#EXTINF:-1 group-title="Pakistan",ENT | Bol Entertainment (2d)
 https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Express Entertainment (1d)
+#EXTINF:-1 group-title="Pakistan",ENT | Express Entertainment (2d)
 https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Geo Kahani HD (3d)
+#EXTINF:-1 group-title="Pakistan",ENT | Geo Kahani HD (4d)
 https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Religious",IBN TV Africa (0d)
+#EXTINF:-1 group-title="Religious",IBN TV Africa (1d)
 http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
-#EXTINF:-1 group-title="Religious",WAZ TV (3d)
+#EXTINF:-1 group-title="Religious",WAZ TV (4d)
 https://tplay.live/originals/ilm-tv/index.m3u8
-#EXTINF:-1 group-title="Sports",---FIFA(Dazn Direct)--- (0d)
+#EXTINF:-1 group-title="Sports",---FIFA(Dazn Direct)--- (1d)
 https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
-#EXTINF:-1 group-title="Sports",---FIFA(ESPN S1)--- (0d)
+#EXTINF:-1 group-title="Sports",---FIFA(ESPN S1)--- (1d)
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
-#EXTINF:-1 group-title="Sports",---FIFA(TNT Sports Premium)--- (0d)
+#EXTINF:-1 group-title="Sports",---FIFA(TNT Sports Premium)--- (1d)
 https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8
-#EXTINF:-1 group-title="Sports",---FIFA(TYC Sports)--- (2d)
+#EXTINF:-1 group-title="Sports",---FIFA(TYC Sports)--- (3d)
 https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8
-#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (0d)
+#EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (1d)
 https://trs1.aynaott.com/tsports/index.m3u8
-#EXTINF:-1 group-title="Sports",--Live(Star Sports 2 HD)-- (8d)
+#EXTINF:-1 group-title="Sports",--Live(Star Sports 2 HD)-- (9d)
 http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8
-#EXTINF:-1 group-title="Sports",CR | Star Sports 1 Hindi (1d)
+#EXTINF:-1 group-title="Sports",CR | Star Sports 1 Hindi (2d)
 http://41.205.93.154/STARSPORTS1/index.m3u8
