@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",ASIAN TV (2d)
 https://mtlivestream.com/hls/asian/ytlive/index.m3u8
+#EXTINF:-1 group-title="Bangla",GAZI TV HD (0d)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MAASRANGA HD (1d)
 https://trs1.aynaott.com/maasrangatv/index.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | Bangla Movies (Tplay) (5d)
@@ -9,30 +11,22 @@ https://tplay.live/playlist/movies/bangla-movies/index.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",MU | Bengali Beats (5d)
 https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="Bangla",MU | ZB Music (0d)
-https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",STAR JALSHA HD (4d)
 https://tvsen3.aynascope.net/n64PH4YL/index.m3u8
 #EXTINF:-1 group-title="Bangla",SUN Bangla (9d)
 http://27.124.71.27/Sun_Bangla/index.m3u8
 #EXTINF:-1 group-title="India",MOV | Bollywood Movies (Tplay) (5d)
 https://tplay.live/playlist/movies/bollywood-movies/index.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
 #EXTINF:-1 group-title="India",MOV | Hindi Dubbed Movies (Tplay) (5d)
 https://tplay.live/playlist/movies/dubbed-movies/index.m3u8
+#EXTINF:-1 group-title="International",OTHER | Telemundo (0d)
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8
 #EXTINF:-1 group-title="Kids",0. Duronto TV (1d)
 https://trs1.aynaott.com/duronto/index.m3u8
 #EXTINF:-1 group-title="Kids",0. Kids Pang TV (5d)
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Kids",0. Tom and Jerry 3 (9d)
 http://live.iill.top/huya.php?id=11352879
-#EXTINF:-1 group-title="Music",AR | AFN TV (0d)
-https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
-#EXTINF:-1 group-title="Music",EN | Play TV (0d)
-http://connectiktv.ddns.net:5000/playtv/@playtv/chunklist.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aaj Entertainment (0d)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Bol Entertainment (3d)
@@ -41,25 +35,33 @@ https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/index.m3u8
 https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Geo Kahani HD (5d)
 https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 #EXTINF:-1 group-title="Religious",QURAN (1d)
 http://m.live.net.sa:1935/live/quran/playlist.m3u8
 #EXTINF:-1 group-title="Religious",Sunnah TV (1d)
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 group-title="Religious",WAZ TV (5d)
 https://tplay.live/originals/ilm-tv/index.m3u8
+#EXTINF:-1 group-title="Sports",---FIFA(Bein Sport HD 1)--- (0d)
+http://ua102.online24.pm:8222/1101/video.m3u8?token=350B326FB34F4B8
 #EXTINF:-1 group-title="Sports",---FIFA(BEIN SPORTS 1 Turkey)--- (1d)
 https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(Dazn Direct)--- (2d)
 https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(ESPN S1)--- (2d)
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
+#EXTINF:-1 group-title="Sports",---FIFA(S Football)--- (0d)
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745149.ts
+#EXTINF:-1 group-title="Sports",---FIFA(Sport.TV 1)--- (0d)
+https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(TNT Sports Premium)--- (2d)
 https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8
+#EXTINF:-1 group-title="Sports",---FIFA(TVP Sports)--- (0d)
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(TYC Sports)--- (4d)
 https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8
 #EXTINF:-1 group-title="Sports",---Live(T Sports HD)--- (2d)
 https://trs1.aynaott.com/tsports/index.m3u8
-#EXTINF:-1 group-title="Sports",CR | Fox Cricket 501 (0d)
-http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
+#EXTINF:-1 group-title="Sports",--Live(Euro Sport 1)-- (0d)
+http://151.80.18.177:86/Eurosport_HD/index.m3u8
+#EXTINF:-1 group-title="Sports",FIGHT | MMA TV (0d)
+https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
