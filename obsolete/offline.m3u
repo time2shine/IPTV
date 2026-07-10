@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Drama 24 (5d)
 https://vods2.aynascope.net/gseriesDrama/index.m3u8
-#EXTINF:-1 group-title="Bangla",Mohona TV (0d)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",MOV | ZEE BANGLA CINEMA (9d)
 https://sm-monirul.top/toffee/play/zee_bangla_cinema.m3u8
 #EXTINF:-1 group-title="Bangla",MU | ATN MUSIC (0d)
@@ -19,12 +17,12 @@ https://mediapackage-azf5-source.fullscreen.nz/index.m3u8
 https://mediapackage-azf4-source.fullscreen.nz/index.m3u8
 #EXTINF:-1 group-title="India",MO | Hindi Movies (0d)
 https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
-http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
+#EXTINF:-1 group-title="India",MU | 8X music (0d)
+https://ml-pull-dvc-myco.io:2096/8XM_MUSIC/index.m3u8
 #EXTINF:-1 group-title="India",NEWS | Times Now Navbharat (9d)
 https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="International",TVRI World (0d)
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="Kids",1. MBC 3 USA (0d)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | HBO (3d)
 http://23.237.104.106:8080/USA_HBO/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | HBO Comedy (3d)
@@ -33,18 +31,8 @@ http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
 http://23.237.104.106:8080/USA_HBO2/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aaj Entertainment (1d)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 group-title="Pakistan",ENT | Express Entertainment (1d)
-https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8
 #EXTINF:-1 group-title="Religious",Islam bangla (4d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Bangla (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/tracks-v4a1/mono.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV English (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
-#EXTINF:-1 group-title="Religious",Peace TV Urdu (0d)
-https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v4a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(26 FOX)--- (6d)
 http://84.17.50.102/fox/index.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(BEIN SPORTS 1 Turkey)--- (1d)
@@ -59,5 +47,7 @@ https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
 https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(Tv Azteca)--- (8d)
 https://1nyaler.streamhostingcdn.top/stream/117/index.m3u8
+#EXTINF:-1 group-title="Sports",---FIFA(TVP Sports)--- (0d)
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
 #EXTINF:-1 group-title="Travel",GO2Travel TV (4d)
 https://go2thls.wns.live/hls/stream.m3u8
