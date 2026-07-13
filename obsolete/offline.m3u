@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangla",Ayna TV (0d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangla",Bangla One (0d)
+https://video1.getstreamhosting.com:1936/eycqczsxka/eycqczsxka/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Channel S (1d)
 https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Drama 24 (8d)
@@ -13,16 +15,12 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Bangla",Mohona TV (0d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangla",MOV | ZB Cinema (0d)
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 group-title="Bangla",RTV (0d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla",TIKANA TV (0d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangla News",BD | Channel 1 (0d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Educational",Discover Pakistan TV (0d)
-https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
 #EXTINF:-1 group-title="Educational",WB TV Deadliest Catch (3d)
 https://mediapackage-azf2-source.fullscreen.nz/index.m3u8
 #EXTINF:-1 group-title="Educational",WB TV House Hunters (3d)
@@ -33,26 +31,32 @@ https://mediapackage-azf1-source.fullscreen.nz/index.m3u8
 https://mediapackage-azf5-source.fullscreen.nz/index.m3u8
 #EXTINF:-1 group-title="Educational",WB TV True Crime (3d)
 https://mediapackage-azf4-source.fullscreen.nz/index.m3u8
-#EXTINF:-1 group-title="International News",CNN International (1d)
-https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="International News",DW News (0d)
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:-1 group-title="International News",HLN (1d)
-https://turnerlive.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="Kids",ZB Cartoon (0d)
-https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 group-title="India",MOV | Goldmines (0d)
+http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1441441.m3u8
+#EXTINF:-1 group-title="International",EN | CINEMAX MOREMAX (0d)
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
+#EXTINF:-1 group-title="Kids",1. Afarin Baxcha (0d)
+https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Kids",1. Nickelodeon (0d)
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | HBO (6d)
 http://23.237.104.106:8080/USA_HBO/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | HBO Comedy (6d)
 http://23.237.104.106:8080/USA_HBO_COMEDY/index.m3u8
 #EXTINF:-1 group-title="Movies",EN | HBO Hits (6d)
 http://23.237.104.106:8080/USA_HBO2/index.m3u8
+#EXTINF:-1 group-title="Movies",EN | HBO Movies (0d)
+http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Aaj Entertainment (0d)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
+#EXTINF:-1 group-title="Pakistan",ENT | aur LIFE HD (0d)
+http://124.109.47.101/hls/stream1.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Bol Entertainment (1d)
 https://ml-pull-dvc-myco.io:2096/BOL_ENTERTAINMENT/index.m3u8
 #EXTINF:-1 group-title="Pakistan",ENT | Express Entertainment (0d)
 https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8
+#EXTINF:-1 group-title="Religious",Channel WIN (0d)
+https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8
 #EXTINF:-1 group-title="Religious",Islam bangla (7d)
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamchbangla.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports",---FIFA(26 FOX)--- (9d)
@@ -61,7 +65,5 @@ http://84.17.50.102/fox/index.m3u8
 https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
 #EXTINF:-1 group-title="Sports",--Live(Sky Sports Cricket)-- (2d)
 https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
-#EXTINF:-1 group-title="Sports",FIGHT | FIGHT NETWORK (0d)
-https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
 #EXTINF:-1 group-title="Travel",GO2Travel TV (7d)
 https://go2thls.wns.live/hls/stream.m3u8
