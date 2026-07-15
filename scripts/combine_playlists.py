@@ -25,7 +25,6 @@ MOVIES_FILE = "static_movies.json"
 CTG_FUN_MOVIES_JSON = "scripts/static_movies(ctgfun).json"
 CINEHUB_MOVIES_JSON = "scripts/static_movies(cinehub24).json"
 Infobase_MOVIES_JSON = "scripts/static_movies(103.225.94.27).json"
-DISCOVERYFTP_MOVIES_JSON = "scripts/static_movies(discoveryftp).json"
 OUTPUT_FILE = "combined.m3u"
 RECENT_TAG = " 🆕"
 RECENT_DAYS = 30
@@ -450,7 +449,6 @@ def main():
         CTG_FUN_MOVIES_JSON,
         CINEHUB_MOVIES_JSON,
         Infobase_MOVIES_JSON,
-        DISCOVERYFTP_MOVIES_JSON,
     ])
 
     # Combine & deduplicate
