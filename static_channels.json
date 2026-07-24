@@ -1059,15 +1059,11 @@
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
     "links": [
       {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-23",
-        "first_online": "2025-09-08",
-        "last_offline": "2025-10-23",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -20492,6 +20488,13 @@
         "passed_via": "ffmpeg",
         "note": "overrun 99.7s",
         "quality": "slow"
+      },
+      {
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
@@ -21192,6 +21195,20 @@
         "passed_via": "ffmpeg",
         "note": "overrun 62.8s",
         "quality": "slow"
+      },
+      {
+        "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/V00000002/0/HLS/playlist_3000k_20260604T024843.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
+      },
+      {
+        "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
+        "status": "online",
+        "last_online": null,
+        "first_online": null,
+        "last_offline": null
       }
     ]
   },
