@@ -19686,24 +19686,7 @@
       }
     ]
   },
-  "---FIFA(26 FOX)---": {
-    "group": "Sports",
-    "tvg_id": "26 FOX",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/960px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-03",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-04",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(Bein Sport HD 1)---": {
+  "MIXER | Bein Sport HD 1": {
     "group": "Sports",
     "tvg_id": "Bein Sport HD 1",
     "tvg_logo": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
@@ -19720,58 +19703,7 @@
       }
     ]
   },
-  "---FIFA(Bein Sports 1 Max)---": {
-    "group": "Sports",
-    "tvg_id": "Bein Sports 1 Max",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-29",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-06-29",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(BEIN SPORTS 1 Turkey)---": {
-    "group": "Sports",
-    "tvg_id": "Bein_Sports_1 720p",
-    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "links": [
-      {
-        "url": "https://andro.226503.xyz/checklist/androstreamlivebiraz1.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-25",
-        "last_offline": null,
-        "probe_time_s": 6.346,
-        "speed": 0.315,
-        "passed_via": "mpv"
-      }
-    ]
-  },
-  "---FIFA(Bein Sports Direct)---": {
-    "group": "Sports",
-    "tvg_id": "Bein Sports Direct",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d4/BeIN_Sports_logo_%28horizontal_version%29.svg",
-    "links": [
-      {
-        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
-        "status": "offline",
-        "last_online": "2026-07-15",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-15",
-        "probe_time_s": 6.645,
-        "speed": 0.301,
-        "passed_via": "mpv"
-      }
-    ]
-  },
-  "---FIFA(Caze TV 🇧🇷 Brazil)---": {
+  "FB | Caze TV 🇧🇷 Brazil": {
     "group": "Sports",
     "tvg_id": "Caze Tv 🇧🇷 Brazil",
     "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
@@ -19785,288 +19717,6 @@
         "probe_time_s": 6.184,
         "speed": 0.323,
         "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "---FIFA(D Sports)---": {
-    "group": "Sports",
-    "tvg_id": "D Sports",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/DSports_logo_2022.svg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-03",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-03",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(DAZN 1)---": {
-    "group": "Sports",
-    "tvg_id": "DAZN 1",
-    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "links": [
-      {
-        "url": "http://znty.dyndns.org:5010/hls/eleven1.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-25",
-        "last_offline": null,
-        "probe_time_s": 3.203,
-        "speed": 0.624,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "---FIFA(Dazn Direct)---": {
-    "group": "Sports",
-    "tvg_id": "Dazn Direct",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-26",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-06-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(ESPN S1)---": {
-    "group": "Sports",
-    "tvg_id": "ESPN S1",
-    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-26",
-        "first_online": "2026-06-25",
-        "last_offline": "2026-06-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(FS2)---": {
-    "group": "Sports",
-    "tvg_id": "FS2",
-    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-02",
-        "first_online": "2026-06-25",
-        "last_offline": "2026-07-02",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(Go3 Sport 1)---": {
-    "group": "Sports",
-    "tvg_id": "Go3 Sport 1",
-    "tvg_logo": "",
-    "links": [
-      {
-        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-25",
-        "last_offline": null,
-        "probe_time_s": 6.334,
-        "speed": 0.316,
-        "passed_via": "ffmpeg"
-      },
-      {
-        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-26",
-        "last_offline": null,
-        "probe_time_s": 6.984,
-        "speed": 0.286,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "---FIFA(Go3 Sport 3 4K)---": {
-    "group": "Sports",
-    "tvg_id": "Go3 Sport 3",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
-    "links": [
-      {
-        "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-25",
-        "last_offline": null,
-        "probe_time_s": 5.893,
-        "speed": 0.339,
-        "passed_via": "ffmpeg"
-      }
-    ]
-  },
-  "---FIFA(S Football)---": {
-    "group": "Sports",
-    "tvg_id": "S Football",
-    "tvg_logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "links": [
-      {
-        "url": "http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745149.ts",
-        "status": "offline",
-        "last_online": "2026-07-20",
-        "first_online": "2026-06-25",
-        "last_offline": "2026-07-20",
-        "probe_time_s": 16.167,
-        "speed": 0.124,
-        "passed_via": "mpv"
-      }
-    ]
-  },
-  "---FIFA(Sport.TV 1)---": {
-    "group": "Sports",
-    "tvg_id": "Sport.TV1",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Sporttv-1.svg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-02",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-02",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(TNT Sports Premium)---": {
-    "group": "Sports",
-    "tvg_id": "TNT Sports Premium",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/2/2f/TNT_Sports_Premium_24.svg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-26",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-06-26",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(Tudn Sports)---": {
-    "group": "Sports",
-    "tvg_id": "Tudn Sports",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-03",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-03",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(Tv Azteca)---": {
-    "group": "Sports",
-    "tvg_id": "Tv Azteca",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-02",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-02",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(TVP Sports)---": {
-    "group": "Sports",
-    "tvg_id": "TVP Sports",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-07-10",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-07-10",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(TYC Sports)---": {
-    "group": "Sports",
-    "tvg_id": "TYC Sports",
-    "tvg_logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-23",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-06-24",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---FIFA(Unite8 Sports 2 HD)---": {
-    "group": "Sports",
-    "tvg_id": "Unite8 Sports 2 HD",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/4/4e/Screenshot_2026-06-10_002235.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-06-29",
-        "first_online": "2026-06-14",
-        "last_offline": "2026-06-30",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      }
-    ]
-  },
-  "---Live(ATN AFG)---": {
-    "group": "Sports",
-    "tvg_id": "ATNAFG",
-    "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/d/d8/ATN_logo_%28blue_background_variant%29.png",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-09",
-        "first_online": "2026-02-23",
-        "last_offline": "2026-03-09",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -20098,23 +19748,6 @@
         "passed_via": "ffmpeg",
         "note": "min speed 0.60x",
         "quality": "slow"
-      }
-    ]
-  },
-  "---Live(HUB-SPORTS 4)---": {
-    "group": "Sports",
-    "tvg_id": "HUB-SPORTS4",
-    "tvg_logo": "",
-    "links": [
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-02-24",
-        "first_online": "2026-02-23",
-        "last_offline": "2026-02-25",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -20208,16 +19841,6 @@
     "tvg_id": "TSPORTS.bd",
     "tvg_logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png",
     "links": [
-      {
-        "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
-        "status": "online",
-        "last_online": "2026-07-24",
-        "first_online": "2026-06-26",
-        "last_offline": null,
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "whitelist"
-      },
       {
         "url": "",
         "status": "missing",
@@ -20467,62 +20090,6 @@
         "passed_via": "missing",
         "note": "mpv_offline",
         "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-16",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-03-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv",
-        "quality": "fast"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-16",
-        "first_online": "2026-02-25",
-        "last_offline": "2026-03-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-16",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-03-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "overrun 78.6s",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-16",
-        "first_online": "2025-09-03",
-        "last_offline": "2026-03-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "min speed 0.41x",
-        "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2026-03-16",
-        "first_online": "2026-01-23",
-        "last_offline": "2026-03-16",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing"
       }
     ]
   },
@@ -20648,17 +20215,6 @@
         "passed_via": "missing",
         "note": "overrun 73.6s",
         "quality": "slow"
-      },
-      {
-        "url": "",
-        "status": "missing",
-        "last_online": "2025-10-18",
-        "first_online": "2025-10-13",
-        "last_offline": "2025-10-18",
-        "probe_time_s": null,
-        "speed": 0.0,
-        "passed_via": "missing",
-        "note": "mpv_offline"
       }
     ]
   },
